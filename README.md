@@ -65,21 +65,35 @@ Starting from a blank slate is different than inheriting an existing system infr
     - Splunk, Datadog, Graylog, etc.
 + OnPrem, Cloud, MultiCloud or Hybrid?
   - What Cloud Platform(s) and Services do you use?
+    - AWS has over 535 Cloud Services spanning TBD Categories https://www.antvaset.com/c/21gjdl7gz4
+    - GCP has over 32 Cloud Services spanning 7 Categories https://cloud.google.com/products/ https://www.infiflex.com/what-are-the-google-cloud-platform-services
+    - Azure has over 295 Cloud Services spanning 21 Categories https://azure.microsoft.com/en-us/products/
   - Where are your High-Level Architecture/Design Diagrams?
++ Cloud Agnostic or Cloud Native?
++ Open Source Software or Enterprise Software?
 + Bare Metal, VMs, Containers?
-+ Open Source, Enterprise?
 + Monolithic, Microservices, Serverless?
-+ Synchronous or Asynchronous Event-based?
-*) Multitenant or Single Tenant?
-*) What Programming Languages do you use?
-*) What programming tools do you use? IDEs, Git, Style SmGuides, etc.
-*) What is your SDLC, CI/CD, Deployment strategy (canary, green, etc.)
-
-*) What Infrastructure tools do you use? iPXE, Terraform, Ansible, Kubernetes, Nomad etc.? NTP/PPT, DNS, DHCP, etc.
-*) What, When, How and Why do you Test? What apps do you use for testing?
-*) What is your Network Design? Where is your Network Architecture Diagrams? Connections in and out; BGP (eBGP,iBGP), OSPF, etc. CDN, Edge Networking, etc. Failover, Redundancy, etc.
-*) What network tools do you use?
-*) What is your Data Design?
-Data Lake, Wherehouse, Relational, NoSQL, Document Oriented, Graph DB, etc. Object Storeage, Filesystem, Block, etc. CePH, etc. Snapshots, Replication, Backups, Data Migration, etc.
-*) What data tools do you use? Datadog, etc.?
-
++ Request-Response (Synchronous) or Event-driven (Asynchronous)?
++ Multitenant or Single Tenant?
++ What Programming Languages do you use?
+  - Python, C, C++, Java, etc.
++ What Programming Tools do you use?
+  - IDEs, Git, Programming Style Guides, etc.
++ What is your SDLC, CI/CD, Deployment strategy (Rolling, Canary, Blue-Green)
++ What Infrastructure Tools do you use?
+  - Terraform, Ansible, Nomad, Kubernetes?
++ What, When, How and Why do you Test?
+  - What Testing Tools do you use?
++ What is your Network Design?
+  - Where are your Network Architecture Diagrams?
+  - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; Failover, Redundancy, etc.
++ What Network Tools do you use?
+  - RANCID, Kubespray, Kubernetes Dashboard, etc.
++ What is your Data Design?
+  - Data Lake, Wherehouse, Data Catalog
+  - Relational, NoSQL, Document Oriented, Graph DB
+  - Block Storage, Filesystem Storage, Object Storeage
+  - CePH, BitTable, DynamoDB, etc.
+  - Snapshots, Replication, Backups, Data Migration
++ What Data Tools do you use?
++ ***and many many more things to consider. I told you it was complicated***
