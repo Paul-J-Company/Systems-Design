@@ -74,4 +74,3 @@ How do you choose the best Cloud provider?
 Data Lake, Wherehouse, Relational, NoSQL, Document Oriented, Graph DB, etc. Object Storeage, Filesystem, Block, etc. CePH, etc. Snapshots, Replication, Backups, Data Migration, etc.
 *) What data tools do you use? Datadog, etc.?
 
-
