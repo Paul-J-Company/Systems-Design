@@ -76,7 +76,7 @@ Starting from a blank slate is different than inheriting an existing system infr
 + Request-Response (Synchronous) or Event-driven (Asynchronous)?
 + Multitenant or Single Tenant?
 + What Programming Languages do you use?
-  - Python, C, C++, Java, etc.
+  - Python, Go, C, C++, Java, etc.
 + What Programming Tools do you use?
   - IDEs, Git, Programming Style Guides, etc.
 + What is your SDLC, CI/CD, Deployment strategy (Rolling, Canary, Blue-Green)
