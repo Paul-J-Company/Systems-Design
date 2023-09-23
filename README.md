@@ -93,7 +93,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Data Lake, Wherehouse, Data Catalog
   - Relational, NoSQL, Document Oriented, Graph DB
   - Block Storage, Filesystem Storage, Object Storeage
-  - CePH, BitTable, DynamoDB, etc.
+  - CePH, BigTable, DynamoDB, etc.
   - Snapshots, Replication, Backups, Data Migration
 + What Data Tools do you use?
 + ***and many many more things to consider. I told you it was complicated***
