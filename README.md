@@ -45,7 +45,7 @@ Starting from a blank slate is different than inheriting an existing system infr
 + Definitions:
   - Infrastructure: The physical resources that support your environment, includes: Data Centers, Platforms, Systems, Workloads, People.
   - Data Center: A Physical Building located around the world that houses your Platfoms, Systems, Workloads.
-  - Platform: The logical term that support your environment: OnPrem, Cloud, MultiCloud or Hybrid?
+  - Platform: The logical term that supports your environment: OnPrem, Cloud, MultiCloud or Hybrid?
   - System: the collection of components (hardware,software,people) that interact together to implement your Platform.
   - Workload: the main application your customers interact with (aka., your "Product").
   - People: all your employess across all of your departments: IT/SRE/DevOps/Platform Engineers/Secuirty Specialists/Programmers; Sales, Marketing
