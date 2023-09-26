@@ -14,7 +14,7 @@
 
 Every business has business goals.
 
-These ***System Properties*** align with the typical high level business goal of ***"satisfy your customers"***.
+These ***System Properties*** align with the high level business goal of ***"satisfy your customers"***.
 
 ### Your System is a Stack comprised of Layers:
 
@@ -29,7 +29,7 @@ This is a daunting task because there are so many options available and so many 
 
 The permutations of choices and behavior quickly explode combinatorally.
 
-This is what makes any System ***"complex"***; and why it typically requires a qualified ***System Designer*** to achieve your goals.
+This is what makes any System ***"complex"***; and why it requires a qualified ***System Designer*** to achieve these ***System Properties***.
 
 ### So where do you begin?
 
@@ -47,7 +47,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Data Center: A Physical Building located around the world that houses your Platfoms, Systems, Workloads.
   - Platform: The logical term that supports your environment: OnPrem, Cloud, MultiCloud or Hybrid?
   - System: the collection of components (hardware,software,people) that interact together to implement your Platform.
-  - Workload: the main application your customers interact with (aka., your "Product").
+  - Workload: the main application your customers interact with (aka., your "Product or Service").
   - People: all your employess across all of your departments: IT/SRE/DevOps/Platform Engineers/Secuirty Specialists/Programmers; Sales, Marketing
 + How do you make decisions regarding all of the questions below?
   - Where are your High-Level Architecture/Design Diagrams?
@@ -65,13 +65,13 @@ Starting from a blank slate is different than inheriting an existing system infr
   - How do they choose the best Programming Language, IDE, etc. to implement your Workload?
   - How do they choose the best SDLC, CI/CD, and Distributed Version Control System Design, Tools and Practices for your Workload?
 + How do your Architects/Designers/Programmers/Teams/Departments communicate:
-  - In person meetings, Email, Chat, Slack, Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
+  - In person Meetings, Email, Mailing Lists, Chat, Slack, Mastadon, IRC; Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
 + What Environment/Platform does your workload run?
   - OnPrem, Cloud, MultiCloud or Hybrid?
   - Cloud Agnostic/Cloud Native?
   - Self-Hosted/Fully Managed?
   - What Cloud Platform(s) and Services do you use?
-    - AWS has over 535 Cloud Services spanning TBD Categories https://www.antvaset.com/c/21gjdl7gz4
+    - AWS has over 535 Cloud Services spanning 20+ Categories https://www.antvaset.com/c/21gjdl7gz4
     - GCP has over 32 Cloud Services spanning 7 Categories https://cloud.google.com/products/ https://www.infiflex.com/what-are-the-google-cloud-platform-services
     - Azure has over 295 Cloud Services spanning 21 Categories https://azure.microsoft.com/en-us/products/
 + What is your Disaster Recovery Plan (DRP)?
