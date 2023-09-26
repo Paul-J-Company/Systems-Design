@@ -5,9 +5,7 @@
 
 + Secure: authentication, authorization, accounting (aaa)
 + Reliable: slow to fail
-
 + Robust:  quick to recover from failure.
-
 + Highly Available: 99.999% uptime
 + Performant: speed/latency
 + Scalable: capacity/bandwidth
@@ -45,24 +43,26 @@ Starting from a blank slate is different than inheriting an existing system infr
 
 ### System Design Questions:
 + Definitions:
-  - Infrastructure: The physical resources that support your environment, includes: Platforms, Systems, Workloads, People.
-  - Platform: The logical resources that support your environment: OnPrem, Cloud, MultiCloud or Hybrid?
-  - System: the collection of components (hardware,software,people) that interact together to implement your Environment.
+  - Infrastructure: The physical resources that support your environment, includes: Data Centers, Platforms, Systems, Workloads, People.
+  - Data Center: A Physical Building located around the world that houses your Platfoms, Systems, Workloads.
+  - Platform: The logical term that support your environment: OnPrem, Cloud, MultiCloud or Hybrid?
+  - System: the collection of components (hardware,software,people) that interact together to implement your Platform.
   - Workload: the main application your customers interact with (aka., your "Product").
   - People: all your employess across all of your departments: IT/SRE/DevOps/Platform Engineers/Secuirty Specialists/Programmers; Sales, Marketing
 + How do you make decisions regarding all of the questions below?
   - Who are your Architects/Designers?
   - How do they strike the ***right balance*** between all the ***trade-offs*** during the design process?
-  - How do they choose the best Platform for your workload? (OnPrem, Cloud, MultiCloud or Hybrid?)
-  - How do they choose the best UX/UI/Frontend Design for your Infrastructure?
-  - How do they choose the best Storage/Database/Data Design, Tools and Practices for your Infrastructure?
-  - How do they choose the best Network Design, Tools and Practices for your Infrastructure?
-  - How do they choose the best Compute Design, Tools and Practices for your Infrastructure?
-  - How do they choose the best Data Structures, Algorithms and Protocols for your Infrastructure?
-  - How do they choose the best Security Design, Tools and Policies/Practices for your Infrastructure?
-  - How do they choose the best Observability/Telemetry/Monitoring/Logging Design and Tools for your Infrastructure?
-  - How do they choose the best Testing/Benchmarking Design, Tools and Practices for your Infrastructure?
-  - How do they choose the best Programming Language to implement your workload?
+  - How do they choose the best Platform Design, Tools and Practices for your Workload?
+  - How do they choose the best UX/UI/Frontend Design, Tools and Practices for your Workload?
+  - How do they choose the best Storage/Database/Data Design, Tools and Practices for your Workload?
+  - How do they choose the best Network Design, Tools and Practices for your Workload?
+  - How do they choose the best Compute Design, Tools and Practices for your Workload?
+  - How do they choose the best Data Structures, Algorithms and Protocols for your Workload??
+  - How do they choose the best Security Design, Tools and Policies/Practices for your Workload?
+  - How do they choose the best Observability/Telemetry/Monitoring/Logging/Analytics Design, Tools and Practices for your Workload?
+  - How do they choose the best Testing/Benchmarking Design, Tools and Practices for your Workload?
+  - How do they choose the best Programming Language, IDE, etc. to implement your Workload?
+  - How do they choose the best SDLC, CI/CD, and Distributed Version Control System Design, Tools and Practices for your Workload?
 + How do your Architects/Designers/Programmers/Teams/Departments communicate:
   - Email, Chat, Slack, Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
 + What Environment/Platform does your workload run?
@@ -94,7 +94,7 @@ Starting from a blank slate is different than inheriting an existing system infr
 + What Programming Tools do you use?
   - IDEs, Git, Programming Style Guides, etc.
 + What is your SDLC, CI/CD, Deployment strategy (Rolling, Canary, Blue-Green)
-+ What Infrastructure Tools do you use?
++ What Infrastructure Provisioning Tools do you use?
   - Terraform, Ansible, Nomad, Kubernetes?
 + What, When, How and Why do you Test?
   - What Testing Tools do you use?
@@ -103,11 +103,15 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; Failover, Redundancy, etc.
 + What Network Tools do you use?
   - RANCID, Netcat, Netbox, iperf, etc.
-+ What is your Data Design?
++ What is your Storage/Data Design?
+  - Where are your High-level Storage/Data Architecture/Design Diagrams?
   - Data Lake, Wherehouse, Data Catalog
   - Relational, NoSQL, Document Oriented, Graph DB
   - Block Storage, Filesystem Storage, Object Storeage
   - CePH, BigTable, DynamoDB, etc.
   - Snapshots, Replication, Backups, Data Migration
 + What Data Tools do you use?
++ What is your Compute Design?
+  - Where are your High-level Compute Design Diagrams?
+  - AWS EC2 VMs, OnPrem Servers/VMs, etc.
 + ***and many many more things to consider. I told you it was complicated***
