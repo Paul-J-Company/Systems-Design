@@ -74,30 +74,6 @@ Starting from a blank slate is different than inheriting an existing system infr
     - GCP has over 32 Cloud Services spanning 7 Categories https://cloud.google.com/products/ https://www.infiflex.com/what-are-the-google-cloud-platform-services
     - Azure has over 295 Cloud Services spanning 21 Categories https://azure.microsoft.com/en-us/products/
   - Where are your High-Level Architecture/Design Diagrams?
-+ What Security Policies do you implement?
-  - What Security Tools do you use to implement those Security Policies?
-+ What Observability Best practices do you use?
-  - What Observability Tools do you use?
-+ What Telemetry/Metrics to you gather?
-  - What Analytics Tools do you use?
-+ How do you Monitor your System/Workload?
-  - What Monitoring Tools do you use?
-+ How do you Process your Logs?
-  - What Logging Tools do you use?
-+ Open Source Software or Enterprise Software?
-+ Bare Metal, VMs, Containers?
-+ Monolithic, Microservices, Serverless?
-+ Request-Response (Synchronous) or Event-driven (Asynchronous)?
-+ Multitenant or Single Tenant?
-+ What Programming Languages do you use?
-  - Python, Go, C, C++, Java, etc.
-+ What Programming Tools do you use?
-  - IDEs, Git, Programming Style Guides, etc.
-+ What is your SDLC, CI/CD, Deployment strategy (Rolling, Canary, Blue-Green)
-+ What Infrastructure Provisioning Tools do you use?
-  - Terraform, Ansible, Nomad, Kubernetes?
-+ What, When, How and Why do you Test?
-  - What Testing Tools do you use?
 + What is your Network Design?
   - Where are your Network Architecture Diagrams?
   - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; Failover, Redundancy, etc.
@@ -111,7 +87,35 @@ Starting from a blank slate is different than inheriting an existing system infr
   - CePH, BigTable, DynamoDB, etc.
   - Snapshots, Replication, Backups, Data Migration
 + What Data Tools do you use?
+  - DataDog, Splunk, Greylog, etc.
 + What is your Compute Design?
   - Where are your High-level Compute Design Diagrams?
   - AWS EC2 VMs, OnPrem Servers/VMs, etc.
++ Open Source Software or Enterprise Software?
++ Bare Metal, VMs, Containers?
++ Monolithic, Microservices, Serverless?
++ Request-Response (Synchronous) or Event-driven (Asynchronous)?
++ Multitenant or Single Tenant?
++ What Programming Languages do you use?
+  - Python, Go, C, C++, Java, etc.
++ What Programming Tools do you use?
+  - IDEs, Git, Programming Style Guides, etc.
++ What is your SDLC, CI/CD, Deployment strategy
+  - CircleCD, ArgoCD, Jenkins
+  - Rolling, Canary, Blue-Green
++ What Infrastructure Provisioning Tools do you use?
+  - Terraform, Ansible, Nomad, Kubernetes?
++ How do you Failover your workload?
++ What Security Policies do you implement?
+  - What Security Tools do you use to implement those Security Policies?
++ What Observability Best practices do you use?
+  - What Observability Tools do you use?
++ What Telemetry/Metrics to you gather?
+  - What Analytics Tools do you use?
++ How do you Monitor your System/Workload?
+  - What Monitoring Tools do you use?
++ How do you Process your Logs?
+  - What Logging Tools do you use?
++ What, When, How and Why do you Test?
+  - What Testing Tools do you use?
 + ***and many many more things to consider. I told you it was complicated***
