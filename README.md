@@ -3,7 +3,7 @@
 ## System Properties:
 ### You want your System to be:
 
-+ Secure: authentication, authorization, accounting (aaa)
++ Secure: authentication, authorization, accounting (aaa); Zero-Trust
 + Reliable: slow to fail
 + Robust:  quick to recover from failure.
 + Highly Available: 99.999% uptime
