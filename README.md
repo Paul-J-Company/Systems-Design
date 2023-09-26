@@ -50,6 +50,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Workload: the main application your customers interact with (aka., your "Product").
   - People: all your employess across all of your departments: IT/SRE/DevOps/Platform Engineers/Secuirty Specialists/Programmers; Sales, Marketing
 + How do you make decisions regarding all of the questions below?
+  - Where are your High-Level Architecture/Design Diagrams?
   - Who are your Architects/Designers?
   - How do they strike the ***right balance*** between all the ***trade-offs*** during the design process?
   - How do they choose the best Platform Design, Tools and Practices for your Workload?
@@ -64,7 +65,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - How do they choose the best Programming Language, IDE, etc. to implement your Workload?
   - How do they choose the best SDLC, CI/CD, and Distributed Version Control System Design, Tools and Practices for your Workload?
 + How do your Architects/Designers/Programmers/Teams/Departments communicate:
-  - Email, Chat, Slack, Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
+  - In person meetings, Email, Chat, Slack, Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
 + What Environment/Platform does your workload run?
   - OnPrem, Cloud, MultiCloud or Hybrid?
   - Cloud Agnostic/Cloud Native?
@@ -73,9 +74,12 @@ Starting from a blank slate is different than inheriting an existing system infr
     - AWS has over 535 Cloud Services spanning TBD Categories https://www.antvaset.com/c/21gjdl7gz4
     - GCP has over 32 Cloud Services spanning 7 Categories https://cloud.google.com/products/ https://www.infiflex.com/what-are-the-google-cloud-platform-services
     - Azure has over 295 Cloud Services spanning 21 Categories https://azure.microsoft.com/en-us/products/
-  - Where are your High-Level Architecture/Design Diagrams?
++ What is your Disaster Recovery Plan (DRP)?
+  - How often to you practice your DRP?
+  - How do you Failover your workload?
+  - How do you replicate/migrate/backup large amounts of data?
 + What is your Network Design?
-  - Where are your Network Architecture Diagrams?
+  - Where are your High-Level Network Architecture Diagrams?
   - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; Failover, Redundancy, etc.
 + What Network Tools do you use?
   - RANCID, Netcat, Netbox, iperf, etc.
@@ -89,8 +93,10 @@ Starting from a blank slate is different than inheriting an existing system infr
 + What Data Tools do you use?
   - DataDog, Splunk, Greylog, etc.
 + What is your Compute Design?
-  - Where are your High-level Compute Design Diagrams?
+  - Where are your High-level Compute Architecture/Design Diagrams?
   - AWS EC2 VMs, OnPrem Servers/VMs, etc.
++ What Infrastructure Provisioning Tools do you use?
+  - Terraform, Ansible, Nomad, Kubernetes?
 + Open Source Software or Enterprise Software?
 + Bare Metal, VMs, Containers?
 + Monolithic, Microservices, Serverless?
@@ -100,12 +106,9 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Python, Go, C, C++, Java, etc.
 + What Programming Tools do you use?
   - IDEs, Git, Programming Style Guides, etc.
-+ What is your SDLC, CI/CD, Deployment strategy
++ What is your SDLC, CI/CD, Deployment Strategy
   - CircleCD, ArgoCD, Jenkins
   - Rolling, Canary, Blue-Green
-+ What Infrastructure Provisioning Tools do you use?
-  - Terraform, Ansible, Nomad, Kubernetes?
-+ How do you Failover your workload?
 + What Security Policies do you implement?
   - What Security Tools do you use to implement those Security Policies?
 + What Observability Best practices do you use?
