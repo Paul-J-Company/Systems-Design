@@ -72,6 +72,11 @@ Starting from a blank slate is different than inheriting an existing system infr
   - OnPrem, Cloud, MultiCloud or Hybrid?
   - Cloud Agnostic/Cloud Native?
   - Self-Hosted/Fully Managed?
+  - Open Source Software/Enterprise Software?
+  - Bare Metal, VMs, Containers, Mixture of All of them?
+  - Monolithic, Microservices, Serverless?
+  - Request-Response (Synchronous)/Event-driven (Asynchronous)?
+  - Multitenant/Single Tenant?
   - What Cloud Platform(s) and Services do you use?
     - AWS has over 535 Cloud Services spanning 20+ Categories https://www.antvaset.com/c/21gjdl7gz4
     - GCP has over 32 Cloud Services spanning 7 Categories https://cloud.google.com/products/ https://www.infiflex.com/what-are-the-google-cloud-platform-services
@@ -79,37 +84,33 @@ Starting from a blank slate is different than inheriting an existing system infr
 + What is your Disaster Recovery Plan (DRP)?
   - How often to you practice your DRP?
   - How do you Failover your workload?
-  - How do you replicate/migrate/backup large amounts of data?
 + What is your Network Design?
   - Where are your High-Level Network Architecture Diagrams?
   - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; Failover, Redundancy, etc.
-+ What Network Tools do you use?
-  - RANCID, Netcat, Netbox, iperf, etc.
+  - What Network Tools do you use?
+    - RANCID, Netcat, Netbox, iperf, etc.
 + What is your Storage/Data Design?
   - Where are your High-level Storage/Data Architecture/Design Diagrams?
   - Data Lake, Wherehouse, Data Catalog
   - Relational, NoSQL, Document Oriented, Graph DB
   - Block Storage, Filesystem Storage, Object Storeage
   - CePH, BigTable, DynamoDB, etc.
-  - Snapshots, Replication, Backups, Data Migration
-+ What Data Tools do you use?
-  - DataDog, Splunk, Greylog, etc.
+  - How do you snapshot/replicate/migrate/backup large amounts of data?
+  - What Data Tools do you use?
+    - DataDog, Splunk, Greylog, etc.
 + What is your Compute Design?
   - Where are your High-level Compute Architecture/Design Diagrams?
   - AWS EC2 VMs, OnPrem Servers/VMs, etc.
 + What Infrastructure Provisioning Tools do you use?
   - Terraform, Ansible, Nomad, Kubernetes?
-+ Open Source Software or Enterprise Software?
-+ Bare Metal, VMs, Containers?
-+ Monolithic, Microservices, Serverless?
-+ Request-Response (Synchronous) or Event-driven (Asynchronous)?
-+ Multitenant or Single Tenant?
 + What Programming Languages do you use?
-  - Python, Go, C, C++, Java, etc.
-+ What Programming Tools do you use?
-  - IDEs, Git, Programming Style Guides, etc.
-+ What is your SDLC, CI/CD, Deployment Strategy
-  - CircleCD, ArgoCD, Jenkins
+  - Python, Go, Bash, C, C++, Java, Javascript, etc.
+  - What Programming Tools do you use?
+    - IDEs: VSC, Vim, EMacs; Git, Programming Style Guides, etc.
++ What is your SDLC, CI/CD Workflow?
+  - What SDLC, CI/CD Tools do you use?
+    - CircleCD, ArgoCD, Jenkins
++ What is your Deployment Strategy?
   - Rolling, Canary, Blue-Green
 + What Security Policies do you implement?
   - What Security Tools do you use to implement those Security Policies?
