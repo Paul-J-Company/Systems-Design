@@ -53,6 +53,8 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Where are your High-Level Architecture/Design Diagrams?
   - Who are your Architects/Designers?
   - How do they strike the ***right balance*** between all the ***trade-offs*** during the design process?
+  - How do they define clear objectives?
+  - How do they measure success?
   - How do they choose the best Platform Design, Tools and Practices for your Workload?
   - How do they choose the best UX/UI/Frontend Design, Tools and Practices for your Workload?
   - How do they choose the best Storage/Database/Data Design, Tools and Practices for your Workload?
