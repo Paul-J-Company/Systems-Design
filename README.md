@@ -124,4 +124,6 @@ Starting from a blank slate is different than inheriting an existing system infr
   - What Logging Tools do you use?
 + What, When, How and Why do you Test?
   - What Testing Tools do you use?
++ What is your Continuous Learning/Improvement Strategy?
+  - How much time a week do you spend keeping up on the latest technology?
 + ***and many many more things to consider. I told you it was complicated***
