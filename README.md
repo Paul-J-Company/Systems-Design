@@ -31,7 +31,8 @@ The permutations of choices and behavior quickly explode combinatorally.
 
 This is just one of the causes that makes any System ***"complex"***; and why it requires a qualified ***System Designer*** to achieve these ***System Properties***.
 Other causes of complexity include: non-linear dynamics, chaotic behavior, randomness (difficult to predict), a deep nesting of many layers of abstraction, etc. which are all symptoms of the combinatorial explosion I already mentioned.
-Complexity is incremental. 
+Complexity is incremental.
+Complexity comes from dependencies and obscurity.
 You have to sweat the details.
 Don't let complexity creep in.
 
@@ -151,11 +152,14 @@ Starting from a blank slate is different than inheriting an existing system infr
 4) Efficient Communication:
    ABC = Accurate, Brief and Clear
    CCC = Correct, Concise, Clear
-5) Keep it Simple Stupid: (KISS)
+5) Problem Decomposition: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
+6) Keep it Simple Stupid: (KISS) https://en.wikipedia.org/wiki/KISS_principle
    Complexity is the enemy of clarity!
-6) Separation of Concerns: (SoP)
-7) Single Responsibility Principle: (SRP)
-8) Abstraction: See: "Computer Abstractions"
+7) Separation of Concerns: (SoP) https://en.wikipedia.org/wiki/Separation_of_concerns https://en.wikipedia.org/wiki/Separation_of_content_and_presentation
+8) Single Responsibility Principle: (SRP) https://en.wikipedia.org/wiki/Single_responsibility_principle
+9) Principle of Least Privilege: https://en.wikipedia.org/wiki/Principle_of_least_privilege?=#- aka., (PoLP), Principle of Least Authority (PoLA)
+10) Principle of Compositionality: https://en.wikipedia.org/wiki/Principle_of_compositionality
+11) Abstraction: See: "Computer Abstractions"
 
 ### Computer Abstractions:
 I use the terms Layers and Levels interchangably.
@@ -165,12 +169,17 @@ Every layer has it's own language/vocabulary/terms/nomenclature.
 Every layer produces and Emergent Higher Layer by defining an Interface.
 An Interface is the location where objects interact/couple/etc.
 I call the combination of all the Layers of your System the "Full Stack".
-*) Abstraction: Abstraction is hiding complexity. Abstraction is a simple interface that hides the complexity behind it.
-   Information Hiding:
-   Encapsulation:
-   Modularity:
-   Markov Blanket:
-   Coupling:
+John Ousterhout, creator of the TCL Language and TCL/TK likes to ask the following question:
+"What is the most important concept in Computer Science?"
+He asked Donald Knuth this question and his answer was: "Layers of Abstraction".
+John Ousterhout's answer to this question was: "Problem Decomposition".
+https://www.youtube.com/watch?v=lgZ7Cxt5uIU#t=00h03m56s
+*) Abstraction: Abstraction is hiding complexity. Abstraction is a simple interface that hides the complexity behind it. https://en.wikipedia.org/wiki/Abstraction https://en.wikipedia.org/wiki/Abstraction_(computer_science) https://en.wikipedia.org/wiki/Abstraction_layer
+   Information Hiding: https://en.wikipedia.org/wiki/Information_hiding
+   Encapsulation: https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)
+   Modularity: https://en.wikipedia.org/wiki/Modularity https://en.wikipedia.org/wiki/Modular_design 
+   Markov Blanket: https://en.wikipedia.org/wiki/Markov_blanket
+   Coupling: 
    Cohesion:
 1) One-to-Many Abstraction:
    Appears and behaves like one thing, but is actually many things.
@@ -327,6 +336,7 @@ What is Platform Engineering?
 What is DevOps?
 What is DevSecOps?
 What is GitOps?
+What is FinOps?
 What is Infrastructure as Code (IaC)?
 What is Platform as a Service (PaaS)?
 What is Zero Trust?
