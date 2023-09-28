@@ -30,7 +30,7 @@ This is a daunting task because there are so many choices available and so many 
 The permutations of choices and behavior quickly explode combinatorally.
 
 This is just one of the causes that makes any System ***"complex"***; and why it requires a qualified ***System Designer*** to achieve these ***System Properties***.
-Other causes of complexity include: non-linear dynamics, chaotic behavior, randomness (difficult to predict), etc. which are symptoms of the combinatorial explosion I already mentioned.
+Other causes of complexity include: non-linear dynamics, chaotic behavior, randomness (difficult to predict), a deep nesting of many layers of abstraction, etc. which are all symptoms of the combinatorial explosion I already mentioned.
 
 ### So where do you begin?
 
@@ -144,6 +144,7 @@ Starting from a blank slate is different than inheriting an existing system infr
 
 
 
+### Computer Abstractions:
 
 
 ### Principles of GitOps:
@@ -189,5 +190,14 @@ Starting from a blank slate is different than inheriting an existing system infr
   4) Be more scalable and resilient to failures.
 
 ### Advantages of Microservices over Monoliths
+  1) 
+  2) 
 
+### HOWTO: Use AI/ML/DL to Improve the Speed, Accuracy and Clarity of your Platform
+  See: AI-ML-DL-in-Platform-Engineering
+  1) Use LLMs to Write Boilerplate Code: This accelerates the code writing experience.
+  2) Use LLMs to Analyze Logs and other Critical Data: This helps predict future possible outages.
+  3) Use LLMs to Analyze Business Data: This helps minimize CapEx and Opex.
+  4) Use LLMs to Analyze Customer Data: This helps your customers become more product and leads to a higher level of customer satisfaction.
+     
 
