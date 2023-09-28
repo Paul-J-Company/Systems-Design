@@ -146,27 +146,34 @@ Starting from a blank slate is different than inheriting an existing system infr
 ## System Design Topics:
 
 ### Design Principles
-1) Design is about making tradeoffs and compromises at all levels of your System.
+1) Practice these Design Priciples:
+   Practice does NOT make Perfect!
+   Perfect Practive makes Perfect!
+   Practice!, Practice!, Practice!
+   There's no substitute for doing!
+   Book learning will only get you so far.
+2) Design is about making tradeoffs and compromises at all levels of your System.
    e.g., Security vs. Convenience, Capex vs. Opex, etc.
    Great design includes great documentation.
-   Strategic Programming:
+   Be Strategic:
    The overall goal MUST be a great design.
-   Simplifies future development. 
+   Simplifies future development.
+   Don't be short sighted, have a long term vision for your success!
    Take extra time today.
    Pays back in the long run.
-3) Define Clear Objectives:
-4) Define How you Measure Success:
-5) Efficient Communication:
+4) Define Clear Objectives:
+5) Define How you Measure Success:
+6) Efficient Communication:
    ABC = Accurate, Brief and Clear
    CCC = Correct, Concise, Clear
-6) Problem Decomposition: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
-7) Keep it Simple Stupid: (KISS) https://en.wikipedia.org/wiki/KISS_principle
+7) Problem Decomposition: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
+8) Keep it Simple Stupid: (KISS) https://en.wikipedia.org/wiki/KISS_principle
    Complexity is the enemy of clarity!
-8) Separation of Concerns: (SoP) https://en.wikipedia.org/wiki/Separation_of_concerns https://en.wikipedia.org/wiki/Separation_of_content_and_presentation
-9) Single Responsibility Principle: (SRP) https://en.wikipedia.org/wiki/Single_responsibility_principle
-10) Principle of Least Privilege: https://en.wikipedia.org/wiki/Principle_of_least_privilege?=#- aka., (PoLP), Principle of Least Authority (PoLA)
-11) Principle of Compositionality: https://en.wikipedia.org/wiki/Principle_of_compositionality
-12) Abstraction: See: "Computer Abstractions"
+9) Separation of Concerns: (SoP) https://en.wikipedia.org/wiki/Separation_of_concerns https://en.wikipedia.org/wiki/Separation_of_content_and_presentation
+10) Single Responsibility Principle: (SRP) https://en.wikipedia.org/wiki/Single_responsibility_principle
+11) Principle of Least Privilege: https://en.wikipedia.org/wiki/Principle_of_least_privilege?=#- aka., (PoLP), Principle of Least Authority (PoLA)
+12) Principle of Compositionality: https://en.wikipedia.org/wiki/Principle_of_compositionality
+13) Abstraction: See: "Computer Abstractions"
 
 ### Computer Abstractions:
 I use the terms Layers and Levels interchangably.
