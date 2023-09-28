@@ -162,8 +162,7 @@ Every layer has it's own language/vocabulary/terms/nomenclature.
 Every layer produces and Emergent Higher Layer by defining an Interface.
 An Interface is the location where objects interact/couple/etc.
 I call the combination of all the Layers of your System the "Full Stack".
-*) Abstraction:
-   TBD
+*) Abstraction: Abstraction is hiding complexity. Abstraction is a simple interface that hides the complexity behind it.
    Information Hiding:
    Encapsulation:
    Modularity:
