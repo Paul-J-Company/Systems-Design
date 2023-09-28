@@ -319,6 +319,22 @@ High Availability: (HA)
      Each item should be configured to have the same capacity,
      so when a failure happens there is no loss of service.
 
+### IT Industry Definitions:
+What is Platform Engineering?
+What is DevOps?
+What is DevSecOps?
+What is GitOps?
+What is Infrastructure as Code (IaC)?
+What is Platform as a Service (PaaS)?
+What is Zero Trust?
+What is a Microservice Application?
+What is a Monolithic Application?
+What is Event Driven Architecure (EDA)?
+What is a Software Development LifeCycle (SDLC)?
+What is CI/CD?
+What is a Software Deployment?
+What is Observability?
+
 ### The Six Pillars of Platform Engineering:
 https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security/
 1) 
