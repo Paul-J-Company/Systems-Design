@@ -135,22 +135,16 @@ Starting from a blank slate is different than inheriting an existing system infr
 + ***and many many more things to consider. I told you it was complicated***
 
 ## So what are the next steps?
-+ Read the information below which adds more details to what we've already discussed above.
++ Read the System Design Topics information below which adds more details to what we've already discussed above.
 + Read my -->Kubernetes<-- information.
-  
+
+## System Design Topics:
+
 ### System Property Definitions:
 
 
-### System Design Topics:
-Three Levels of Maturity for Infrastructure Automation:
-  (1) Ad-hoc:
-       A mix of manual, scripted and niche infrastructure methods.
-      People-intensive and error-prone.
-  (2) Automated:
-        Enables infrastructure to be created, administrated and supported without needing increasing numbers of experts who are in high demand and short supply.
-  (3) Frictionless:
-       Consistent, simple, measurable and secure infrastructure automation.
-       Removes all manual work, reduces complexity and fragmentation, ensuring the infrastructure is governed, secure and accountable to the business.
+
+
 
 ### Principles of GitOps:
   1) Declarative:
@@ -163,3 +157,37 @@ Three Levels of Maturity for Infrastructure Automation:
   4) Continuously Reconciled:
      Software agents continuously observe actual system state
      and attempt to apply the desired state.
+
+### Three Levels of Maturity for Infrastructure Automation:
+  1) Ad-hoc:
+     A mix of manual, scripted and niche infrastructure methods.
+     People-intensive and error-prone.
+  2) Automated:
+     Enables infrastructure to be created, administrated and supported without needing increasing numbers of experts who are in high demand and short supply.
+  3) Frictionless:
+     Consistent, simple, measurable and secure infrastructure automation.
+     Removes all manual work, reduces complexity and fragmentation, ensuring the infrastructure is governed, secure and accountable to the business.
+     
+### Steps to Secure Your CI/CD Pipelines 
+  1) Security IN the Pipeline: (SIP)
+     SIP involves ensuring developers are not shipping anything inherently insecure into production.
+     Therefore, whatever code flows through the CI/CD pipeline must be vetted to ensure it has no security flaws or misconfigurations.
+  2) Security OF the Pipeline: (SOP)
+     SOP has to do with the security of the software delivery chain itself. 
+     SOP focuses on the security posture of the actual systems and tools that compromise the software delivery chain.
+  3) Security Around the Pipeline: (SAP)
+     SAP is necessary to ensure that attackers can't push code directly into production.
+     An example, no single developer can publish to production unless approved by two reviewers.
+
+### Advantages of Event-Driven Architectures (EDAs)
+  EDAs are a way of designing and building systems that are based on the exchange of events.
+  Events are notifications of some change in state or data, and they are typically published by one component and consumed by another in real time.
+  EDAs can:
+  1) Decouple systems that can be independently scaled and updated.
+  2) Handle high volumes of data with low latency.
+  3) Support real-time processing and analytics.
+  4) Be more scalable and resilient to failures.
+
+### Advantages of Microservices over Monoliths
+
+
