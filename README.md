@@ -147,8 +147,13 @@ Starting from a blank slate is different than inheriting an existing system infr
 ### Design Principles
 1) Design is about making tradeoffs and compromises at all levels of your System.
    e.g., Security vs. Convenience, Capex vs. Opex, etc.
-2) Define Clear Objectives
-3) Define How you Measure Success
+   Strategic Programming:
+   The overall goal MUST be a great design.
+   Simplifies future development. 
+   Take extra time today.
+   Pays back in the long run.
+2) Define Clear Objectives:
+3) Define How you Measure Success:
 4) Efficient Communication:
    ABC = Accurate, Brief and Clear
    CCC = Correct, Concise, Clear
