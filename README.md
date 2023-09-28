@@ -7,9 +7,9 @@
 + Reliable: slow to fail
 + Robust:  quick to recover from failure.
 + Highly Available: 99.999% uptime
-+ Performant: speed/latency
-+ Scalable: capacity/bandwidth
-+ Maintainable: automation
++ High Performance: maximize speed/latency
++ Scalable: maximize capacity/bandwidth (take advantage of Economy of Scale)
++ Maintainable: maximize "frictionless automation"
 + Cost Effective:  minimize Capex & Opex
 
 Every business has business goals.
@@ -23,13 +23,14 @@ These ***System Properties*** align with the high level business goal of ***"sat
 * Compute Layer:
 * Personnel Layer: all the departments and teams that are your business.
 
-In order to achieve the above ***System Properties*** you have to apply the ***"best people"***, applying the ***"best practices"***, using the ***"best technologies"*** for each property, at each layer of your stack.
+In order to achieve the above ***System Properties*** you have to apply the ***"best people"***, applying the ***"best practices"***, using the ***"best technologies"*** for each property, and at each layer of your stack (I call this ***"Full Stack"*** implementation).
 
-This is a daunting task because there are so many options available and so many different ways your system will behave depending on the choices you make for each property at each layer.
+This is a daunting task because there are so many choices available and so many different ways your system will behave depending on the choices you make for each property at each layer.
 
 The permutations of choices and behavior quickly explode combinatorally.
 
-This is what makes any System ***"complex"***; and why it requires a qualified ***System Designer*** to achieve these ***System Properties***.
+This is just one of the causes that makes any System ***"complex"***; and why it requires a qualified ***System Designer*** to achieve these ***System Properties***.
+Other causes of complexity include: non-linear dynamics, chaotic behavior, randomness (difficult to predict), etc. which are symptoms of the combinatorial explosion I already mentioned.
 
 ### So where do you begin?
 
@@ -44,14 +45,14 @@ Starting from a blank slate is different than inheriting an existing system infr
 ### System Design Questions:
 + Definitions:
   - Infrastructure: The physical resources that support your environment, includes: Data Centers, Platforms, Systems, Workloads, People.
-  - Data Center: A Physical Building located around the world that houses your Platfoms, Systems, Workloads.
+  - Data Center: A Physical Building located around the world that houses your Platforms, Systems, Workloads.
   - Platform: The logical term that supports your environment: OnPrem, Cloud, MultiCloud or Hybrid?
   - System: the collection of components (hardware,software,people) that interact together to implement your Platform.
-  - Workload: the main application your customers interact with (aka., your "Product or Service").
-  - People: all your employess across all of your departments: IT/SRE/DevOps/Platform Engineers/Secuirty Specialists/Programmers; Sales, Marketing
+  - Workload: the main application your customers interact with (aka., your "Product and/or Service").
+  - People: all your employess across all of your departments: Platform Engineers/SREs/DevOps/DevSecOps/Programmers; Sales, Marketing
 + How do you make decisions regarding all of the questions below?
-  - Where are your High-Level Architecture/Design Diagrams?
   - Who are your Architects/Designers?
+  - Where are their High-Level Architecture/Design Diagrams?
   - How do they strike the ***right balance*** between all the ***trade-offs*** during the design process?
   - How do they define clear objectives?
   - How do they measure success?
@@ -65,15 +66,16 @@ Starting from a blank slate is different than inheriting an existing system infr
   - How do they choose the best Observability/Telemetry/Monitoring/Logging/Analytics Design, Tools and Practices for your Workload?
   - How do they choose the best Testing/Benchmarking Design, Tools and Practices for your Workload?
   - How do they choose the best Programming Language, IDE, etc. to implement your Workload?
-  - How do they choose the best SDLC, CI/CD, and Distributed Version Control System Design, Tools and Practices for your Workload?
-+ How do your Architects/Designers/Programmers/Teams/Departments communicate:
+  - How do they choose the best SDLC, CI/CD, and Distributed Version Control System Design, Tools and Practices/Workflows for your Workload?
++ How do your Architects/Designers/Programmers/Teams/Departments communicate and how often?
   - In person Meetings, Email, Mailing Lists, Chat, Slack, Mastadon, IRC; Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
+  - Every week, Daily (15 min scrum), every month, never?
 + What Environment/Platform does your workload run?
   - OnPrem, Cloud, MultiCloud or Hybrid?
+  - Bare Metal, VMs, Containers, Mixture of All of them?
   - Cloud Agnostic/Cloud Native?
   - Self-Hosted/Fully Managed?
   - Open Source Software/Enterprise Software?
-  - Bare Metal, VMs, Containers, Mixture of All of them?
   - Monolithic, Microservices, Serverless?
   - Request-Response (Synchronous)/Event-driven (Asynchronous)?
   - Multitenant/Single Tenant?
@@ -84,8 +86,9 @@ Starting from a blank slate is different than inheriting an existing system infr
 + What is your Disaster Recovery Plan (DRP)?
   - How often to you practice your DRP?
   - How do you Failover your workload?
+  - What are your Incidence Response and Root Cause Analysis (RCA) procedures.
 + What is your Network Design?
-  - Where are your High-Level Network Architecture Diagrams?
+  - Where are your High-Level Network Architecture/Design Diagrams?
   - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; Failover, Redundancy, etc.
   - What Network Tools do you use?
     - RANCID, Netcat, Netbox, iperf, etc.
@@ -93,7 +96,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Where are your High-level Storage/Data Architecture/Design Diagrams?
   - Data Lake, Wherehouse, Data Catalog
   - Relational, NoSQL, Document Oriented, Graph DB
-  - Block Storage, Filesystem Storage, Object Storeage
+  - Block Storage, Filesystem Storage, Object Storage
   - CePH, BigTable, DynamoDB, etc.
   - How do you snapshot/replicate/migrate/backup large amounts of data?
   - What Data Tools do you use?
@@ -105,8 +108,11 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Terraform, Ansible, Nomad, Kubernetes?
 + What Programming Languages do you use?
   - Python, Go, Bash, C, C++, Java, Javascript, etc.
-  - What Programming Tools do you use?
-    - IDEs: VSC, Vim, EMacs; Git, Programming Style Guides, etc.
+  - What Programming Tools and/or Frameworks do you use?
+    - IDEs: VSC, Vim, EMacs
+    - Distributes Version Control System: Git
+    -  Programming Style Guides
+    -  Frameworks: Angular, Kafka, React, Backbone, etc.
 + What is your SDLC, CI/CD Workflow?
   - What SDLC, CI/CD Tools do you use?
     - CircleCD, ArgoCD, Jenkins
