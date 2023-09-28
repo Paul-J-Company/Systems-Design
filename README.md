@@ -31,6 +31,9 @@ The permutations of choices and behavior quickly explode combinatorally.
 
 This is just one of the causes that makes any System ***"complex"***; and why it requires a qualified ***System Designer*** to achieve these ***System Properties***.
 Other causes of complexity include: non-linear dynamics, chaotic behavior, randomness (difficult to predict), a deep nesting of many layers of abstraction, etc. which are all symptoms of the combinatorial explosion I already mentioned.
+Complexity is incremental. 
+You have to sweat the details.
+Don't let complexity creep in.
 
 ### So where do you begin?
 
