@@ -11,7 +11,8 @@
 + Scalable: maximize capacity/bandwidth (take advantage of Economy of Scale)
 + Maintainable: maximize "frictionless automation"
 + Cost Effective:  minimize Capex & Opex
-
++ Well Documented:
+  
 Every business has business goals.
 
 These ***System Properties*** align with the high level business goal of ***"satisfy your customers"***.
@@ -147,24 +148,25 @@ Starting from a blank slate is different than inheriting an existing system infr
 ### Design Principles
 1) Design is about making tradeoffs and compromises at all levels of your System.
    e.g., Security vs. Convenience, Capex vs. Opex, etc.
+   Great design includes great documentation.
    Strategic Programming:
    The overall goal MUST be a great design.
    Simplifies future development. 
    Take extra time today.
    Pays back in the long run.
-2) Define Clear Objectives:
-3) Define How you Measure Success:
-4) Efficient Communication:
+3) Define Clear Objectives:
+4) Define How you Measure Success:
+5) Efficient Communication:
    ABC = Accurate, Brief and Clear
    CCC = Correct, Concise, Clear
-5) Problem Decomposition: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
-6) Keep it Simple Stupid: (KISS) https://en.wikipedia.org/wiki/KISS_principle
+6) Problem Decomposition: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
+7) Keep it Simple Stupid: (KISS) https://en.wikipedia.org/wiki/KISS_principle
    Complexity is the enemy of clarity!
-7) Separation of Concerns: (SoP) https://en.wikipedia.org/wiki/Separation_of_concerns https://en.wikipedia.org/wiki/Separation_of_content_and_presentation
-8) Single Responsibility Principle: (SRP) https://en.wikipedia.org/wiki/Single_responsibility_principle
-9) Principle of Least Privilege: https://en.wikipedia.org/wiki/Principle_of_least_privilege?=#- aka., (PoLP), Principle of Least Authority (PoLA)
-10) Principle of Compositionality: https://en.wikipedia.org/wiki/Principle_of_compositionality
-11) Abstraction: See: "Computer Abstractions"
+8) Separation of Concerns: (SoP) https://en.wikipedia.org/wiki/Separation_of_concerns https://en.wikipedia.org/wiki/Separation_of_content_and_presentation
+9) Single Responsibility Principle: (SRP) https://en.wikipedia.org/wiki/Single_responsibility_principle
+10) Principle of Least Privilege: https://en.wikipedia.org/wiki/Principle_of_least_privilege?=#- aka., (PoLP), Principle of Least Authority (PoLA)
+11) Principle of Compositionality: https://en.wikipedia.org/wiki/Principle_of_compositionality
+12) Abstraction: See: "Computer Abstractions"
 
 ### Computer Abstractions:
 I use the terms Layers and Levels interchangably.
@@ -182,7 +184,7 @@ https://www.youtube.com/watch?v=lgZ7Cxt5uIU#t=00h03m56s
 *) Abstraction: Abstraction is hiding complexity. Abstraction is a simple interface that hides the complexity behind it. https://en.wikipedia.org/wiki/Abstraction https://en.wikipedia.org/wiki/Abstraction_(computer_science) https://en.wikipedia.org/wiki/Abstraction_layer
    Information Hiding: https://en.wikipedia.org/wiki/Information_hiding
    Encapsulation: https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)
-   Modularity: https://en.wikipedia.org/wiki/Modularity https://en.wikipedia.org/wiki/Modular_design 
+   Modularity: https://en.wikipedia.org/wiki/Modularity https://en.wikipedia.org/wiki/Modular_design https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf
    Markov Blanket: https://en.wikipedia.org/wiki/Markov_blanket
    Coupling: 
    Cohesion:
@@ -415,4 +417,7 @@ See: AI-ML-DL-in-Platform-Engineering
 3) Use LLMs to Analyze Business Data: This helps minimize CapEx and Opex.
 4) Use LLMs to Analyze Customer Data: This helps your customers become more product and leads to a higher level of customer satisfaction.
      
+### Other System Design Resources
+ByteByteCode
+
 
