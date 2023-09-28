@@ -133,3 +133,33 @@ Starting from a blank slate is different than inheriting an existing system infr
 + What is your Continuous Learning/Improvement Strategy?
   - How much time a week do you spend keeping up on the latest technology?
 + ***and many many more things to consider. I told you it was complicated***
+
+## So what are the next steps?
++ Read the information below which adds more details to what we've already discussed above.
++ Read my -->Kubernetes<-- information.
+  
+### System Property Definitions:
+
+
+### System Design Topics:
+Three Levels of Maturity for Infrastructure Automation:
+  (1) Ad-hoc:
+       A mix of manual, scripted and niche infrastructure methods.
+      People-intensive and error-prone.
+  (2) Automated:
+        Enables infrastructure to be created, administrated and supported without needing increasing numbers of experts who are in high demand and short supply.
+  (3) Frictionless:
+       Consistent, simple, measurable and secure infrastructure automation.
+       Removes all manual work, reduces complexity and fragmentation, ensuring the infrastructure is governed, secure and accountable to the business.
+
+### Principles of GitOps:
+  1) Declarative:
+     A system managed by GitOps must have it's state expressed declaratively.
+  2) Versioned and Immutable:
+     Desired state is stored in a way that enforces immutability,
+     versioning and retains a complete version history.
+  3) Pulled Automatically:
+     Software agents automatically pull the desired state declarations from the source.
+  4) Continuously Reconciled:
+     Software agents continuously observe actual system state
+     and attempt to apply the desired state.
