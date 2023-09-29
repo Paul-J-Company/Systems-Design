@@ -603,7 +603,7 @@ TBD
 ### AI/ML/DL/RL and Platform Engineering
 AI, especially LLMs, are designed to take in an enormous amount
 of data and "learn" from it to achieve better than human results.
-LLMs like ChatGPT4, Llama2, PaLM2, DALL-E3, and Diffusion Models
+LLMs like ChatGPT4, Llama2, PaLM2, DALL-E3, Dolly2, and Diffusion Models
 can outperform humans in tasks like Object Recognition, Analyzing X-Rays,
 writing boilerplate code, and other "creative" tasks like Drawing Images.
 Reinforcement Learning AI can outperform humans in any game
@@ -621,13 +621,13 @@ AI technologies, especially LLMs excel in PE tasks, like:
 1) Learn how to build, train and fine tune LLMs on PE data
    to assisit and hopefully outperform humans in tasks such
    as incidence response, root cause analysis, and Market predictions.
-2) Learn how to use AI Coding Assistants to write code in Bash, Python, YAML, and JSON.
+2) Continue learning AI Coding Assistants to write code in Bash, Python, YAML, JSON, etc.
    Here's a short list of AI Coding Assistants I'm currently using everyday
    to generate boilerplate code, which I review, correct and test; and also
-   to generate Documentation, Github pull requests, Static analysis, generate SQL, etc.
-   Github CopilotX, CodeWhisperer, Google Vertex AI Codey, Tabnine, StarCoder, Polycoder,
-   CodeQL, InfraCopilot, Cody, WhatTheDiff, Stenography, Mintlify, Grit, Adrenaline,
-   text2sql, askcodi, mutable.ai, 
+   to generate Documentation, Code Comments, Github pull requests, Static analysis, generate SQL, etc.
+   Github CopilotX, Codex, CodeWhisperer, Code Interpreter, Google Vertex AI Codey, Alphacode, BLOOM,
+   Tabnine, StarCoder, Polycoder, CodeQL, InfraCopilot, Cody, WhatTheDiff, Stenography, Mintlify, Kats,
+   Grit, Adrenaline, text2sql, askcodi, mutable.ai, Codeium, Readable, CodeT5 and CodeT5+, kiteco-public
    
    
 ### Other System Design Resources
