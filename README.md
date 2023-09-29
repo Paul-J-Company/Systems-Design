@@ -346,6 +346,7 @@ High Availability: (HA)
      so when a failure happens there is no loss of service.
 
 ### IT Industry Definitions:
+What is a Data Center? https://www.impactmybiz.com/blog/data-center-tiers-explained/ There are currently four data center tiers, ranked by performance and uptime. https://phoenixnap.com/blog/data-center-tiers-classification
 What is Platform Engineering?
 What is DevOps?
 What is DevSecOps?
@@ -423,7 +424,178 @@ See: AI-ML-DL-in-Platform-Engineering
 2) Use LLMs to Analyze Logs and other Critical Data: This helps predict future possible outages.
 3) Use LLMs to Analyze Business Data: This helps minimize CapEx and Opex.
 4) Use LLMs to Analyze Customer Data: This helps your customers become more product and leads to a higher level of customer satisfaction.
-     
+
+### On Prem Information
+Introduction:
+  The purpose of this section is to give a "bigpicture" view of an OnPrem Infrastructure.
+  I you're going Cloud Native/Fully Managed, you don't need to know a lot of the following steps.
+  The following is a description of a basic setup of an OnPrem Infrastructure:
+  This is a quick, short, and incomplete list of necessities.
+  I'm skipping Data Center topics like Generators, UPSes, Power Design, HVAC Cooling Design, Security,
+  Peering Relationships and Negotiations, Cost Estimation, etc. because that really requires another full document to explain.
+  And, I'm not a Data Center Design Engineer, eventhough I've now spent over 30+ years in Data Centers.
+Pick at least 3 Data Centers: (for redundancy)
+  Configure BGP Peering Connections - aka., Connect your Data Center to the Internet.
+  Purchase equipment (routers, switches, servers, loadbalancers, Firewalls, etc.).
+  Ship Equipment to Data Centers.
+  Rack and Cable all the equipment: Power, Network, etc.
+  Create and Deploy LAN Network Design: Valley-free Routing vs. Leaf and Spine Topology, LAG and/or MLAG, etc.
+  Install OS or Type-1 Hypervisor on all baremetal machines with bootstrap tools: iPXE, Tinkerbell, Shoelaces, etc.
+  Configure all servers with your Provisioning Tools: Ansible, Terraform, DNF/RPM, etc.
+  Create VMs and/or Containers on your servers.
+  Install Container Orchestration Software on baremetal or VMs: Kubernetes et.al.
+  Design Kubernetes System Design to best support your workload.
+  Deploy applications on Kubernetes cluster.
+  Maintain everything!
+  Have Fun!
+  Make Money!
+Aquire and Configure all non-hardware Internet Related Resources to get you up and running.
+  This short list includes: 
+  aquiring an ASN, CIDR Blocks, establishing BGP Peering, configure BGP Anycast, create and implement WAN design, etc.
+  Again, the details of doing even this short list took me 30+ years to perfect.
+ARIN:
+  All resource requests require an ARIN Online account linked to either an Admin or Tech Point of Contact (POC) record
+  with the authority to request resources for a valid Organization Identifier (Org ID).
+  Aquire ASN from ARIN:
+    https://www.arin.net/resources/guide/quickguide.pdf
+    https://www.arin.net/blog/2019/09/24/how-to-request-an-asn-from-arin/
+    https://ipinfo.io/<ASN>
+    https://mxtoolbox.com/asn.aspx
+    http://navigators.com/isp.html
+    https://www.peeringdb.com/
+  Aquire from ARIN IP CIDR Block/Addresses (IPv4 or IPv6) - IPv6 is preferred!
+    https://www.youtube.com/watch?v=nCm6bLPh-Pw#t=00h00m00s?=#- Using Your ARIN Online Account - Requesting IP Address Space
+    https://www.arin.net/resources/guide/request/
+    https://www.arin.net/resources/guide/ipv4/request/
+    https://www.arin.net/resources/guide/ipv6/
+    https://www.arin.net/resources/guide/ipv6/first_request/
+    https://www.arin.net/resources/guide/ipv6/preparing_apps_for_v6.pdf
+    https://www.arin.net/reference/materials/cidr.pdf
+    https://mxtoolbox.com/arin.aspx
+    https://datatracker.ietf.org/doc/html/rfc4632
+    http://www.cidr-report.org/as2.0
+    https://bgp.potaroo.net/index-cidr.html
+    https://ip2cidr.com/
+    https://whoisrequest.com/
+BGP: (iBGP,eBGP)
+  Establish BGP peering relationship, aka., Connect your Data Center to the Internet.
+BGP Tools:
+  https://bgplay.massimocandela.com/
+  https://github.com/massimocandela/BGPlay
+  https://lookinglass.org/
+  https://www.bgp4.as/looking-glasses
+  https://bgpview.io/
+  https://bgp.potaroo.net/index-bgp.html
+  https://github.com/irrtoolset/irrtoolset
+IPv4:
+  RFC1918: Non-Routable IPv4 Networks/Addresses
+IPv4 Tools:
+  https://mxtoolbox.com/NetworkTools.aspx
+  https://mxtoolbox.com/subnetcalculator.aspx
+IPv6:
+  RFC???: Non-Routable IPv6 Networks/Addresses
+  https://mxtoolbox.com/NetworkTools.aspx
+IPv6 Tools:
+  http://www.ipamworldwide.com/libraries/toolmenu.html
+Register Domain Names:
+  There are several Domain Registrars:
+  https://www.bluehost.com/domains
+  https://www.godaddy.com/domains
+Network Time Protocol: (NTP)
+  NTP gives client synchronization accuracies in the millisecond range.
+  I use NTPsec:
+  $ dnf install -y ntpsec
+  ftp://ftp.ntpsec.org/pub/releases/ntpsec-1.1.8.tar.gz
+  https://www.ntpsec.org/
+  https://docs.ntpsec.org/latest/NTS-QuickStart.html
+  https://docs.ntpsec.org/latest/build.html#unix
+  https://github.com/ntpsec/ntpsec
+  https://github.com/ntpsec/ntpsec.github.io
+  https://gitlab.com/NTPsec
+  https://gitlab.com/NTPsec/ntpsec/blob/master/devel/nts.adoc
+  https://weberblog.net/setting-up-nts-secured-ntp-with-ntpsec/
+  $ cat /etc/ntpsec/ntp.conf
+  $ hwclock --show
+  $ timedatectl status
+  $ ntpdate -q us.pool.ntp.org
+  $ ntpdate -q 0.pool.ntp.org
+  $ ntpq -p
+  $ ntpq -c rv
+  Computer Network Time Synchronization:
+    https://www.eecis.udel.edu/~mills/book.html
+  Open Time Server:
+    http://www.opentimeserver.com/
+    https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Open-Time-Server
+  Google Public NTP:
+    https://developers.google.com/time
+  Cloudflare Time Services:
+    time-services@cloudflare.com
+    https://time.cloudflare.com/
+    https://www.cloudflare.com/time/
+  NIST Internet Time Servers:
+    https://tf.nist.gov/tf-cgi/servers.cgi
+  NTP Pool Project:
+    https://www.ntppool.org/en/
+Precision Time Protocol: (PPT) IEEE 1588
+  PPT gives slave synchronization accuracies in the nanosecond or microsecond range.
+  https://en.wikipedia.org/wiki/Precision_Time_Protocol
+  https://en.wikipedia.org/wiki/IEEE_1588
+  https://www.nist.gov/el/intelligent-systems-division-73500/ieee-1588
+  https://linuxptp.sourceforge.net/
+DNS: ISC-BIND (stable versions are even release numbers)
+  Public DNS: 1.1.1.1, 8.8.8.8, 8.8.4.4, 9.9.9.9
+  https://www.isc.org/bind/
+  https://downloads.isc.org/isc/bind9/cur/
+  https://downloads.isc.org/isc/bind9/cur/9.18/doc/arm/Bv9ARM.pdf
+DNSSEC:
+  DNSSEC - What Is It and Why Is It Important?
+  https://www.icann.org/resources/pages/dnssec-what-is-it-why-important-2019-03-05-en
+  DNSSEC Basics
+  https://www.internetsociety.org/deploy360/dnssec/basics/
+  DNSSEC Overview
+  https://www.youtube.com/watch?v=MrtsKTC3KDM#t=00h00m00s?=#- DNSSEC Overview
+  DNSSec Explained
+  https://www.youtube.com/watch?v=_8M_vuFcdZU#t=00h00m00s?=#- DNSSec Explained
+DNS Tools:
+  Stork is a dashboard for BIND 9 and Kea DHCP:
+  https://gitlab.isc.org/isc-projects/stork
+  $ man dig
+  $ man mdig
+  $ man delv
+  $ nmap --script broadcast-dhcp-discover -e <nic-interface>
+  https://www.isc.org/dns-tools/
+  https://who.is/
+  https://dnschecker.org/
+  https://www.dnswatch.info/
+  http://www.mavetju.org/download/dnstracer-1.9.tar.gz
+DNS Root Servers:
+  https://www.iana.org/domains/root/servers
+  https://www.internic.net/domain/root.zone
+  https://root-servers.org/
+DHCP: ISC-KEA (replaces ISC-DHCP)
+  https://www.isc.org/kea/
+  https://gitlab.isc.org/isc-projects/kea
+  https://kea.readthedocs.io/en/latest/
+DHCP Tools:
+  Stork is a dashboard for BIND 9 and Kea DHCP:
+  https://gitlab.isc.org/isc-projects/stork
+  https://www.isc.org/kea-tools/
+  https://www.isc.org/dhcp-tools/ <-- ISC announced the end of maintenance for ISC DHCP as of the end of 2022 - use Kea instead!
+  http://www.mavetju.org/download/dhcping-1.2.tar.gz
+  http://www.mavetju.org/download/dhcpdump-1.8.tar.gz
+Find your NAT IP:
+  https://www.ipchicken.com/
+  # curl ifconfig.me
+  # tranceroute arin.net
+Other Random Tools:
+  https://www.internetlivestats.com/
+  https://time.is/
+  http://www.convertunits.com/dates/from/Jan+1,+2023/to/Sep+28,+2023
+  https://thetruesize.com/
+
+## My Favorite Hardware
+TBD
+ 
 ### Other System Design Resources
 ByteByteCode
 
