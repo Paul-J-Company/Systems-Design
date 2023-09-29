@@ -502,6 +502,8 @@ Register Domain Names:
   https://www.bluehost.com/domains
   https://www.godaddy.com/domains
 Network Time Protocol: (NTP)
+  If your time is off on your servers, then your logs will be off
+  and other applications will also start to fail!
   NTP gives client synchronization accuracies in the millisecond range.
   I use NTPsec:
   $ dnf install -y ntpsec
@@ -543,6 +545,8 @@ Precision Time Protocol: (PPT) IEEE 1588
   https://www.nist.gov/el/intelligent-systems-division-73500/ieee-1588
   https://linuxptp.sourceforge.net/
 DNS: ISC-BIND (stable versions are even release numbers)
+  Kubernetes uses CoreDNS for DNS resolution amoung their Pods.
+  I use ISC-BIND for the Baremetal and VMs underneath Kubernetes.
   Public DNS: 1.1.1.1, 8.8.8.8, 8.8.4.4, 9.9.9.9
   https://www.isc.org/bind/
   https://downloads.isc.org/isc/bind9/cur/
@@ -595,8 +599,38 @@ Other Random Tools:
 
 ## My Favorite Hardware
 TBD
- 
+
+### AI/ML/DL/RL and Platform Engineering
+AI, especially LLMs, are designed to take in an enormous amount
+of data and "learn" from it to achieve better than human results.
+LLMs like ChatGPT4, Llama2, PaLM2, DALL-E3, and Diffusion Models
+can outperform humans in tasks like Object Recognition, Analyzing X-Rays,
+writing boilerplate code, and other "creative" tasks like Drawing Images.
+Reinforcement Learning AI can outperform humans in any game
+such as Go, Chess, and any Compter Games like Atari Breakout, and Doda2.
+The potential of AI is enormous and I believe it will be used in every
+aspect of every industry to some extent.
+Platform Engineering is a perfect match for current AI technologies
+because AI excels in learning from 
+AI technologies, especially LLMs excel in PE tasks, like:
+  1) Writing code in Bash, Python, YAML, and JSON.
+  2) Learning from PE Data: Telemetry data, Logs, Monitoring metrics,
+     Business and Customer data; Configuration files, Topologies Network data, etc.
+
+### AI/ML/DL/RL Platform Engineering Objectives
+1) Learn how to build, train and fine tune LLMs on PE data
+   to assisit and hopefully outperform humans in tasks such
+   as incidence response, root cause analysis, and Market predictions.
+2) Learn how to use AI Coding Assistants to write code in Bash, Python, YAML, and JSON.
+   Here's a short list of AI Coding Assistants I'm currently using everyday
+   to generate boilerplate code, which I review, correct and test; and also
+   to generate Documentation, Github pull requests, Static analysis, generate SQL, etc.
+   Github CopilotX, CodeWhisperer, Google Vertex AI Codey, Tabnine, StarCoder, Polycoder,
+   CodeQL, InfraCopilot, Cody, WhatTheDiff, Stenography, Mintlify, Grit, Adrenaline,
+   text2sql, askcodi, mutable.ai, 
+   
+   
 ### Other System Design Resources
-ByteByteCode
+*) ByteByteCode:
 
 
