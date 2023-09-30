@@ -345,8 +345,6 @@ High Availability: (HA)
      Each item should be configured to have the same capacity,
      so when a failure happens there is no loss of service.
 
-
-  
 ### IT Industry Definitions:
 What is a Data Center? 
   There are currently four data center tiers, ranked by performance and uptime.
@@ -389,6 +387,10 @@ What is DORA?
   https://cloud.google.com/devops/state-of-devops/
   https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance
   https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling
+What is a Polystore?
+  A polystore is the combining of different database technologies tailored for specific use cases,
+  enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure. 
+  Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.
 What is Infrastructure as Code (IaC)?
 What is Platform as a Service (PaaS)?
 What is Zero Trust?
@@ -708,5 +710,34 @@ AI technologies, especially LLMs excel in PE tasks, like:
    
 ### Other System Design Resources
 *) ByteByteCode:
+   https://www.youtube.com/@ByteByteGo/videos
+   Data Replication: A Key Component for Building Large-Scale Distributed Systems
+   https://blog.bytebytego.com/p/data-replication-a-key-component
+   The Most Beloved Burger for Developers
+   https://www.youtube.com/watch?v=7swoLEqABhQ
+   10+ Key Memory & Storage Systems: Crash Course System Design #5
+   https://www.youtube.com/watch?v=lX4CrbXMsNQ
+   10 Key Data Structures We Use Every Day
+   https://www.youtube.com/watch?v=ouipSd_5ivQ
+   Top 7 Most-Used Distributed System Patterns
+   https://www.youtube.com/watch?v=nH4qjmP2KEE
+   Latency Numbers Programmer Should Know
+   https://www.youtube.com/watch?v=FqR5vESuKe0
+   What Are Microservices Really All About? (And When Not To Use It)
+   https://www.youtube.com/watch?v=lTAcCNbJ7KE
+   Kubernetes Explained in 6 Minutes
+   https://www.youtube.com/watch?v=TlHvYWVUZyc
+   CI/CD In 5 Minutes
+   https://www.youtube.com/watch?v=42UP1fxi2SY
+   8 Key Data Structures That Power Modern Databases
+   https://www.youtube.com/watch?v=W_v05d_2RTo
 
-
+*) Be A Better Dev:
+   https://www.youtube.com/@BeABetterDev/videos
+   Intro to AWS - The Most Important Services To Learn
+   https://www.youtube.com/watch?v=FDEpdNdFglI
+   Real Life AWS Project Architectures
+   https://www.youtube.com/watch?v=_W1xlhDsiAE
+   Introduction to AWS | A Complete Beginner Roadmap
+   https://www.youtube.com/watch?v=lTyqzyk86f8
+   
