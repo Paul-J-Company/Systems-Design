@@ -169,14 +169,20 @@ Starting from a blank slate is different than inheriting an existing system infr
    CCC = Correct, Concise, Clear
    Rule #1: Know your audience!
    Always stay calm and rational.
-8) Problem Decomposition: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
-9) Keep it Simple Stupid: (KISS) https://en.wikipedia.org/wiki/KISS_principle
+7) Problem Decomposition:
+   https://en.wikipedia.org/wiki/Decomposition_(computer_science)
+8) Keep it Simple Stupid: (KISS)
+   https://en.wikipedia.org/wiki/KISS_principle
    Complexity is the enemy of clarity!
-10) Separation of Concerns: (SoP) https://en.wikipedia.org/wiki/Separation_of_concerns https://en.wikipedia.org/wiki/Separation_of_content_and_presentation
-11) Single Responsibility Principle: (SRP) https://en.wikipedia.org/wiki/Single_responsibility_principle
-12) Principle of Least Privilege: https://en.wikipedia.org/wiki/Principle_of_least_privilege?=#- aka., (PoLP), Principle of Least Authority (PoLA)
-13) Principle of Compositionality: https://en.wikipedia.org/wiki/Principle_of_compositionality
-14) Abstraction: See: "Computer Abstractions"
+9) Separation of Concerns: (SoP)
+   https://en.wikipedia.org/wiki/Separation_of_concerns https://en.wikipedia.org/wiki/Separation_of_content_and_presentation
+10) Single Responsibility Principle: (SRP)
+    https://en.wikipedia.org/wiki/Single_responsibility_principle
+11) Principle of Least Privilege:
+    https://en.wikipedia.org/wiki/Principle_of_least_privilege?=#- aka., (PoLP), Principle of Least Authority (PoLA)
+12) Principle of Compositionality:
+    https://en.wikipedia.org/wiki/Principle_of_compositionality
+13) Abstraction: See: "Computer Abstractions"
 
 ### Computer Abstractions:
 I use the terms Layers and Levels interchangably.
@@ -192,12 +198,23 @@ He asked Donald Knuth this question and his answer was: "Layers of Abstraction".
 John Ousterhout's answer to this question was: "Problem Decomposition".
 https://www.youtube.com/watch?v=lgZ7Cxt5uIU#t=00h03m56s
 *) Abstraction: Abstraction is hiding complexity. Abstraction is a simple interface that hides the complexity behind it. https://en.wikipedia.org/wiki/Abstraction https://en.wikipedia.org/wiki/Abstraction_(computer_science) https://en.wikipedia.org/wiki/Abstraction_layer
-   Information Hiding: https://en.wikipedia.org/wiki/Information_hiding
-   Encapsulation: https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)
-   Modularity: https://en.wikipedia.org/wiki/Modularity https://en.wikipedia.org/wiki/Modular_design https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf
-   Markov Blanket: https://en.wikipedia.org/wiki/Markov_blanket
-   Coupling: 
+   Information Hiding:
+     https://en.wikipedia.org/wiki/Information_hiding
+   Encapsulation:
+     https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)
+   Modularity:
+     https://en.wikipedia.org/wiki/Modularity
+     https://en.wikipedia.org/wiki/Modular_design
+     https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf
+   Markov Blanket:
+     https://en.wikipedia.org/wiki/Markov_blanket
+   Coupling:
+     https://en.wikipedia.org/wiki/Coupling_(computer_programming)
+     https://en.wikipedia.org/wiki/Loose_coupling
    Cohesion:
+     https://en.wikipedia.org/wiki/Cohesion_(computer_science) https://www.aivosto.com/project/help/pm-oo-cohesion.html 
+     A cohesive class performs one function.
+     A non-cohesive class performs two or more unrelated functions.
 1) One-to-Many Abstraction:
    Appears and behaves like one thing, but is actually many things.
      Network:
@@ -554,10 +571,6 @@ EDAs can:
 2) Handle high volumes of data with low latency.
 3) Support real-time processing and analytics.
 4) Be more scalable and resilient to failures.
-
-### Advantages of Microservices over Monoliths
-1) 
-2) 
 
 ### AI/ML/DL/RL and Platform Engineering
 AI, especially LLMs, are designed to take in an enormous amount
