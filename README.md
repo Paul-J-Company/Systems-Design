@@ -59,6 +59,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Who are your Architects/Designers?
   - Where are their High-Level Architecture/Design Diagrams?
   - How do they strike the ***right balance*** between all the ***trade-offs*** during the design process?
+  - How do they know the right questions to ask?
   - How do they define clear objectives?
   - How do they measure success?
   - How do they choose the best Platform Design, Tools and Practices for your Workload?
@@ -166,14 +167,16 @@ Starting from a blank slate is different than inheriting an existing system infr
 6) Efficient Communication:
    ABC = Accurate, Brief and Clear
    CCC = Correct, Concise, Clear
-7) Problem Decomposition: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
-8) Keep it Simple Stupid: (KISS) https://en.wikipedia.org/wiki/KISS_principle
+   Rule #1: Know your audience!
+   Always stay calm and rational.
+8) Problem Decomposition: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
+9) Keep it Simple Stupid: (KISS) https://en.wikipedia.org/wiki/KISS_principle
    Complexity is the enemy of clarity!
-9) Separation of Concerns: (SoP) https://en.wikipedia.org/wiki/Separation_of_concerns https://en.wikipedia.org/wiki/Separation_of_content_and_presentation
-10) Single Responsibility Principle: (SRP) https://en.wikipedia.org/wiki/Single_responsibility_principle
-11) Principle of Least Privilege: https://en.wikipedia.org/wiki/Principle_of_least_privilege?=#- aka., (PoLP), Principle of Least Authority (PoLA)
-12) Principle of Compositionality: https://en.wikipedia.org/wiki/Principle_of_compositionality
-13) Abstraction: See: "Computer Abstractions"
+10) Separation of Concerns: (SoP) https://en.wikipedia.org/wiki/Separation_of_concerns https://en.wikipedia.org/wiki/Separation_of_content_and_presentation
+11) Single Responsibility Principle: (SRP) https://en.wikipedia.org/wiki/Single_responsibility_principle
+12) Principle of Least Privilege: https://en.wikipedia.org/wiki/Principle_of_least_privilege?=#- aka., (PoLP), Principle of Least Authority (PoLA)
+13) Principle of Compositionality: https://en.wikipedia.org/wiki/Principle_of_compositionality
+14) Abstraction: See: "Computer Abstractions"
 
 ### Computer Abstractions:
 I use the terms Layers and Levels interchangably.
@@ -345,7 +348,7 @@ High Availability: (HA)
      Each item should be configured to have the same capacity,
      so when a failure happens there is no loss of service.
 
-### IT Industry Definitions:
+### IT Industry Definitions/Buzzwords:
 What is a Data Center? 
   There are currently four data center tiers, ranked by performance and uptime.
   https://phoenixnap.com/blog/data-center-tiers-classification
@@ -377,7 +380,9 @@ What is GitOps?
   GitOps enables the same process developers use to merge code using pull requests
   or merge requests to be used to deploy to Kubernetes.
 What is FinOps?
-  
+  FinOps is about spending your money most cost-effectively.
+  Yes, this might mean spending less money, but it also might
+  mean spending more money and making more money.
 What is DORA?
   DORA stands for DevOps Research and Assessment (DORA) team.
   DORA is a team at Google who investigates the State of DevOps.
@@ -392,7 +397,15 @@ What is a Polystore?
   enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure. 
   Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.
 What is Infrastructure as Code (IaC)?
+  IAC is the practice of managing infrastructure in a declarative manner using code,
+  rather than manually configuring it through a graphical user interface.
+  Declarative: The process of declaring your desired result and the system "learns" how to achieve it.
+  Imperative: The process of explaining every step to accomplish a desired result.
 What is Platform as a Service (PaaS)?
+  PaaS is an abstraction over infrastructure that runs applications and hosts stacks.
+  PaaS supports custom workflows to enable teams to function efficiently.
+  PaaS enables the introduction of new ways to build, run, and deploy apps easily.
+  PaaS allows underlying technology to be swapped out with no impact on teams.
 What is Zero Trust?
 What is a Microservice Application?
 What is a Monolithic Application?
@@ -400,7 +413,37 @@ What is Event Driven Architecure (EDA)?
 What is a Software Development LifeCycle (SDLC)?
 What is CI/CD?
 What is a Software Deployment?
+What is OWASP?
+  Open Web Application Security Project: (OWASP)
+  OWASP is a community initiative focused on improving web application security
+  through providing open-source methodologies, tools, and techniques. 
+What is CASB?
+  Cloud Access Security Broker: (CASB)
+  CASB acts as a bridge between an organization's 
+  on-premises infrastructure and the cloud services it employs.
+  The primary focus of CASB is to ensure that sensitive data
+  remains secure and compliant while employees access cloud-based resources.
+What is SASE?
+  Secure Access Service Edge: (SASE)
+  SASE provides a holistic approach to networking and security in a cloud-native environment.
+  SASE is an architectural framework that merges wide-area networking (WAN) capabilities
+  with security functions, all delivered as a cloud-based service.
+What is CNAPP?
+  Cloud Native APplication Protection: (CNAPP)
+  A CNAPP is a holistic security solution that provides
+  all the key features organizations need to secure cloud
+  workloads across all life cycle stages.
+  CNAPPs offer a variety of important advantages compared to disparate,
+  siloed collections of cloud security tools. 
+  CNAPPs typically cover:
+    1) CI/CD security management.
+    2) Security testing and scanning of application binaries and container images.
+    3) Managing risks associated with cloud service configuration.
+    4) Managing cloud user identities and permissions.
+    5) API security.
+    6) Data security.
 What is Observability?
+  Observability is about recording, organizing and visualizing data. 
   Observability is the ability to ask new questions of the health
   of your running services without deploying new instrumentation.
   The term comes from control theory, which defines observability
@@ -442,13 +485,13 @@ What is Curse of Dimensionality:
   which prevents common data organization strategies from being efficient.
 
 ### The Six Pillars of Platform Engineering:
-https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security/
-1) 
-2) 
-3) 
-4) 
-5) 
-6) 
+https://thenewstack.io/author/michael-fonseca/
+1) Security: https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security/
+2) Pipeline: (VCS, CI/CD) https://thenewstack.io/the-6-pillars-of-platform-engineering-part-2-ci-cd-vcs-pipeline/
+3) Provisioning: https://thenewstack.io/the-pillars-of-platform-engineering-part-3-provisioning/
+4) Connectivity: https://thenewstack.io/the-pillars-of-platform-engineering-part-4-connectivity/
+5) Orchestration: https://thenewstack.io/the-pillars-of-platform-engineering-part-5-orchestration/
+6) Observability: https://thenewstack.io/the-pillars-of-platform-engineering-part-6-observability/
 
 ### Principles of GitOps:
 1) Declarative:
@@ -496,24 +539,54 @@ EDAs can:
 1) 
 2) 
 
+### AI/ML/DL/RL and Platform Engineering
+AI, especially LLMs, are designed to take in an enormous amount
+of data and "learn" from it to achieve better than human results.
+LLMs like ChatGPT4, Llama2, PaLM2, DALL-E3, Dolly2, and Diffusion Models
+can outperform humans in tasks like Object Recognition, Analyzing X-Rays,
+writing boilerplate code, and other "creative" tasks like Drawing Images.
+Reinforcement Learning AI can outperform humans in any game
+such as Go, Chess, and any Compter Games like Atari Breakout, and Doda2.
+The potential of AI is enormous and I believe it will be used in every
+aspect of every industry to some extent.
+Platform Engineering is a perfect match for current AI technologies
+because AI excels in learning from 
+AI technologies, especially LLMs excel in PE tasks, like:
+  1) Writing code in Bash, Python, YAML, and JSON.
+  2) Learning from PE Data: Telemetry data, Logs, Monitoring metrics,
+     Business and Customer data; Configuration files, Topologies Network data, etc.
+
 ### HOWTO: Use AI/ML/DL to Improve the Speed, Accuracy and Clarity of your Platform
 See: AI-ML-DL-in-Platform-Engineering
 1) Use LLMs to Write Boilerplate Code: This accelerates the code writing experience.
 2) Use LLMs to Analyze Logs and other Critical Data: This helps predict future possible outages.
 3) Use LLMs to Analyze Business Data: This helps minimize CapEx and Opex.
 4) Use LLMs to Analyze Customer Data: This helps your customers become more product and leads to a higher level of customer satisfaction.
-
+   
+### My AI/ML/DL/RL Platform Engineering Objectives
+1) Learn how to build, train and fine tune LLMs on PE data
+   to assisit and hopefully outperform humans in tasks such
+   as incidence response, root cause analysis, and Market predictions.
+2) Continue learning AI Coding Assistants to write code in Bash, Python, YAML, JSON, etc.
+   Here's a short list of AI Coding Assistants I'm currently using everyday
+   to generate boilerplate code, which I review, correct and test; and also
+   to generate Documentation, Code Comments, Github pull requests, Static analysis, generate SQL, etc.
+   Github CopilotX, Codex, CodeWhisperer, Code Interpreter, Google Vertex AI Codey, Alphacode, BLOOM,
+   Tabnine, StarCoder, Polycoder, CodeQL, InfraCopilot, Cody, WhatTheDiff, Stenography, Mintlify, Kats,
+   Grit, Adrenaline, text2sql, askcodi, mutable.ai, Codeium, Readable, CodeT5 and CodeT5+, kiteco-public
+   
 ### On Prem Information
 Introduction:
   The purpose of this section is to give a "bigpicture" view of an OnPrem Infrastructure.
-  I you're going Cloud Native/Fully Managed, you don't need to know a lot of the following steps.
+  ***I you're going Cloud Native/Fully Managed, you don't need to know a lot of the following steps.***
   The following is a description of a basic setup of an OnPrem Infrastructure:
   This is a quick, short, and incomplete list of necessities.
   I'm skipping Data Center topics like Generators, UPSes, Power Design, HVAC Cooling Design, Security,
   Peering Relationships and Negotiations, Cost Estimation, etc. because that really requires another full document to explain.
   And, I'm not a Data Center Design Engineer, eventhough I've now spent over 30+ years in Data Centers.
+  Data Center Design Engineering is a complete field on to itself.
 Pick at least 3 Data Centers: (for redundancy)
-  Configure BGP Peering Connections - aka., Connect your Data Center to the Internet.
+  Configure BGP Peering Connections - aka., Connect your Data Center to the Internet and other Data Centers.
   Purchase equipment (routers, switches, servers, loadbalancers, Firewalls, etc.).
   Ship Equipment to Data Centers.
   Rack and Cable all the equipment: Power, Network, etc.
@@ -531,6 +604,7 @@ Aquire and Configure all non-hardware Internet Related Resources to get you up a
   This short list includes: 
   aquiring an ASN, CIDR Blocks, establishing BGP Peering, configure BGP Anycast, create and implement WAN design, etc.
   Again, the details of doing even this short list took me 30+ years to perfect.
+  Network Engineering is a complete field on to itself.
 ARIN:
   All resource requests require an ARIN Online account linked to either an Admin or Tech Point of Contact (POC) record
   with the authority to request resources for a valid Organization Identifier (Org ID).
@@ -557,6 +631,10 @@ ARIN:
     https://whoisrequest.com/
 BGP: (iBGP,eBGP)
   Establish BGP peering relationship, aka., Connect your Data Center to the Internet.
+  Implement your WAN Design to connect all your Datacenters together.
+  Configure BGP Anycast to connect your customers to all of your Data Centers.
+  For static data, use Edge Networking or CDNs to improve latency for your customers.
+  For dynamic data, include a Caching layer to improve latency for your customers.
 BGP Tools:
   https://bgplay.massimocandela.com/
   https://github.com/massimocandela/BGPlay
@@ -579,6 +657,17 @@ Register Domain Names:
   There are several Domain Registrars:
   https://www.bluehost.com/domains
   https://www.godaddy.com/domains
+Install and Configure certbot (aka., LetsEncrypt)
+  Let's Encrypt is a global Certificate Authority (CA).
+  Certbot lets people and organizations around the world
+  obtain, renew, and manage SSL/TLS certificates.
+  Certbot certificates can be used by websites to enable secure HTTPS connections.
+  Certbot certifactes are free!
+  https://letsencrypt.org/docs/faq/
+  https://letsencrypt.org/getting-started/
+  https://github.com/letsencrypt/website/
+  https://letsencrypt.org/documents/isrg-cps-v3.0/
+  https://letsencrypt.org/docs/client-options/
 Network Time Protocol: (NTP)
   If your time is off on your servers, then your logs will be off
   and other applications will also start to fail!
@@ -677,36 +766,6 @@ Other Random Tools:
 
 ## My Favorite Hardware
 TBD
-
-### AI/ML/DL/RL and Platform Engineering
-AI, especially LLMs, are designed to take in an enormous amount
-of data and "learn" from it to achieve better than human results.
-LLMs like ChatGPT4, Llama2, PaLM2, DALL-E3, Dolly2, and Diffusion Models
-can outperform humans in tasks like Object Recognition, Analyzing X-Rays,
-writing boilerplate code, and other "creative" tasks like Drawing Images.
-Reinforcement Learning AI can outperform humans in any game
-such as Go, Chess, and any Compter Games like Atari Breakout, and Doda2.
-The potential of AI is enormous and I believe it will be used in every
-aspect of every industry to some extent.
-Platform Engineering is a perfect match for current AI technologies
-because AI excels in learning from 
-AI technologies, especially LLMs excel in PE tasks, like:
-  1) Writing code in Bash, Python, YAML, and JSON.
-  2) Learning from PE Data: Telemetry data, Logs, Monitoring metrics,
-     Business and Customer data; Configuration files, Topologies Network data, etc.
-
-### AI/ML/DL/RL Platform Engineering Objectives
-1) Learn how to build, train and fine tune LLMs on PE data
-   to assisit and hopefully outperform humans in tasks such
-   as incidence response, root cause analysis, and Market predictions.
-2) Continue learning AI Coding Assistants to write code in Bash, Python, YAML, JSON, etc.
-   Here's a short list of AI Coding Assistants I'm currently using everyday
-   to generate boilerplate code, which I review, correct and test; and also
-   to generate Documentation, Code Comments, Github pull requests, Static analysis, generate SQL, etc.
-   Github CopilotX, Codex, CodeWhisperer, Code Interpreter, Google Vertex AI Codey, Alphacode, BLOOM,
-   Tabnine, StarCoder, Polycoder, CodeQL, InfraCopilot, Cody, WhatTheDiff, Stenography, Mintlify, Kats,
-   Grit, Adrenaline, text2sql, askcodi, mutable.ai, Codeium, Readable, CodeT5 and CodeT5+, kiteco-public
-   
    
 ### Other System Design Resources
 *) ByteByteCode:
