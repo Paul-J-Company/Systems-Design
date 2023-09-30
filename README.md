@@ -759,6 +759,8 @@ IPv6:
   https://kubernetes.io/docs/tasks/network/validate-dual-stack/
   Tutorial: Assigning IPv6 addresses to Kubernetes Pods and services
   https://docs.aws.amazon.com/eks/latest/userguide/cni-ipv6.html
+  What the Arrival of IPv6 Support in Kubernetes Means for You
+  https://deploy.equinix.com/blog/kubernetes-ipv6-ipv4-dual-stack-networking/
   https://mxtoolbox.com/NetworkTools.aspx
 IPv6 Tools:
   http://www.ipamworldwide.com/libraries/toolmenu.html
@@ -885,8 +887,30 @@ Network Hardware:
     using the built-in security features of Kubernetes and all of
     the Kubernetes 3rd party options for securing a cluster.
   Routers:
+    Juniper:
+      I prefer JunOS over Cisco IOS.
+      https://www.juniper.net/us/en/products/routers.html
+    Cisco:
+      https://www.cisco.com/c/en/us/products/routers/product-listing.html
+      https://www.cisco.com/c/en_my/products/routers/index.html
+    FRR:
+      An inexpensive alternative would be to use a powerful Linux server with 100Gb NICs and FRR software.
+      The only issue is FRR doesn't support MLAG which is a critical protocol for configuring redundancy.
+      https://en.wikipedia.org/wiki/FRRouting
+      https://github.com/FRRouting/frr
+      https://frrouting.org/
+      https://docs.frrouting.org/en/stable-9.0/
   Switches:
-    
+    Edgecore
+      https://www.edge-core.com/productsList.php?cls=291&cls2=327
+    100Gb Switches
+      https://www.edge-core.com/productsList.php?cls=1&cls2=5
+    AS7816-64X: 64 ports 100G QSFP28 
+      https://www.edge-core.com/productsInfo.php?cls=1&cls2=5&cls3=166&id=309
+    AS7726-32X: 32 ports 100G QSFP28, 2 x 10G SFP
+      https://www.edge-core.com/productsInfo.php?cls=&cls2=&cls3=15&id=545
+    Edgecore AS5912-54X: 48 ports 10G + 6 ports 100G 
+      https://www.edge-core.com/productsInfo.php?cls=291&cls2=327&cls3=328&id=264
   Fiber NICs:
     10Gb SFP+ PCI-E Network Card NIC, with Broadcom BCM57810S Chip, Dual SFP+ Port, PCI Express X8
       https://www.amazon.com/Ethernet-Broadcom-BCM57810S-Controller-Interface/dp/B06X9T683K?th=1
@@ -894,21 +918,21 @@ Network Hardware:
       https://www.intel.com/content/www/us/en/products/details/ethernet/800-network-adapters/e810-network-adapters/products.html
       https://www.intel.com/content/www/us/en/content-details/787658/deliver-high-performance-networking-on-ethernet.html
 Baremetal Servers:
-    SuperStorage SSG-136R-NEL32JBF:
-      https://www.supermicro.com/en/products/system/1U/136/SSG-136R-NEL32JBF.cfm
-      32 Hot-swap NVMe, 9.5mm EDSFF Long SSDs
-      https://www.supermicro.com/en/products/nvme
-    Fujisu RX2540M7:
-      https://www.fujitsu.com/global/products/computing/servers/primergy/rack/rx2540m7/index.html
-      2RU, dual-socket server with
-      up to 60 Xeon cores per CPU,
-      up to 8TB of DDR5 memory,
-      PCIe gen 5 connectivity,
-      up to 6x Nvidia GPUs,
-      up to 24x 2.5-inch NVMe storage drives,
-      and optionally six more at the rear of the chassis.
+  SuperStorage SSG-136R-NEL32JBF:
+  https://www.supermicro.com/en/products/system/1U/136/SSG-136R-NEL32JBF.cfm
+    32 Hot-swap NVMe, 9.5mm EDSFF Long SSDs
+    https://www.supermicro.com/en/products/nvme
+  Fujisu RX2540M7:
+  https://www.fujitsu.com/global/products/computing/servers/primergy/rack/rx2540m7/index.html
+    2RU, dual-socket server with
+    up to 60 Xeon cores per CPU,
+    up to 8TB of DDR5 memory,
+    PCIe gen 5 connectivity,
+    up to 6x Nvidia GPUs,
+    up to 24x 2.5-inch NVMe storage drives,
+    and optionally six more at the rear of the chassis.
 Storage Devices: SSDs, HDDs
-  I/O Bandwidth Doubles every 3 years 
+  I/O Bandwidth Doubles every 3 years - BUT latency lags behind "Memory Wall" "Von Neumann Bottleneck"
   PCIe 6.0  128 GB/s (PAM4)
   PCIe 5.0   64 GB/s (NRZ)
   PCIe 4.0   32 GB/s (2 GB/s/lane)
@@ -918,7 +942,7 @@ Storage Devices: SSDs, HDDs
   2) Ultrastar DC HC670
      https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-hc670-hdd#ultrastar-dc-hc670-26-tb
      26TB, 7200 RPM, 261MB/s
-Storaage Software:
+Storage Software:
   1) Ceph:
      Supports object, block, and filesystem storage
      https://github.com/ceph/ceph
