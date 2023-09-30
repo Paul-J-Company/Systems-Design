@@ -95,7 +95,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - What are your Incidence Response and Root Cause Analysis (RCA) procedures.
 + What is your Network Design?
   - Where are your High-Level Network Architecture/Design Diagrams?
-  - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; Failover, Redundancy, etc.
+  - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, Redfish, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; Failover, Redundancy, etc.
   - What Network Tools do you use?
     - RANCID, Netcat, Netbox, iperf, etc.
 + What is your Storage/Data Design?
@@ -668,12 +668,12 @@ Introduction:
   And, I'm not a Data Center Design Engineer, eventhough I've now spent over 30+ years in Data Centers.
   Data Center Design Engineering is a complete field on to itself.
 Pick at least 3 Data Centers: (for redundancy)
-  Configure BGP Peering Connections - aka., Connect your Data Center to the Internet and other Data Centers.
+  Configure BGP Peering Connections on your Border Routers - aka., Connect your Data Center to the Internet and other Data Centers.
   Purchase equipment (routers, switches, servers, loadbalancers, Firewalls, etc.).
   Ship Equipment to Data Centers.
-  Rack and Cable all the equipment: Power, Network, etc.
+  Rack and Cable all the equipment: Power, Network, Out-of-band Access: IPMI: Dell iDRAC, HP iLO, etc.
   Create and Deploy LAN Network Design: Valley-free Routing vs. Leaf and Spine Topology, LAG and/or MLAG, etc.
-  Install OS or Type-1 Hypervisor on all baremetal machines with bootstrap tools: iPXE, Tinkerbell, Shoelaces, etc.
+  Install OS or Type-1 Hypervisor on all baremetal machines with bootstrap tools: iPXE, ipmitool, Tinkerbell, Shoelaces, Redfish, etc.
   Configure all servers with your Provisioning Tools: Ansible, Terraform, DNF/RPM, etc.
   Create VMs and/or Containers on your servers.
   Install Container Orchestration Software on baremetal or VMs: Kubernetes et.al.
@@ -730,8 +730,35 @@ IPv4:
 IPv4 Tools:
   https://mxtoolbox.com/NetworkTools.aspx
   https://mxtoolbox.com/subnetcalculator.aspx
+  Display arp cache: aka., MAC Addresses
+  # arp -a
+  Display IP Addressess:
+  # ip a | grep inet | grep -v inet6 | grep -v 127.0.0.0
+  Display Routing Table and Default Gateway
+  # ip r
+  Display open TCP and UDP Ports on your host
+  # nmap -sU <ip-address>
+  # nmap -Pn <ip-address>
 IPv6:
-  RFC???: Non-Routable IPv6 Networks/Addresses
+  IPv6 has two Internal address types:
+  1) Link Local: 
+     Link local addresses are not routed on the Internal network or the Internet.
+     Link local addresses start with fe80
+     Link Local addresses are self assigned i.e. they do not require a DHCP server.
+     A link local address is required on every IP6 interface even if no routing is present.
+  2) Unique Local: 
+     Unique Local addresses are meant to be used inside an internal network.
+     Unique Local addresses are equivalent to RFC1918 addresses.
+     The address space is divided into two /8 spaces: fc00::/8 for globally assigned addressing, and fd00::/8 for locally assigned addressing.
+  RFC4193: Unique Local IPv6 Unicast Addresses
+  https://datatracker.ietf.org/doc/html/rfc4193
+  https://www.ripe.net/manage-ips-and-asns/ipv6/ipv6-address-types/ipv6addresstypes.pdf
+  IPv4/IPv6 dual-stack
+  https://kubernetes.io/docs/concepts/services-networking/dual-stack/
+  Validate IPv4/IPv6 dual-stack
+  https://kubernetes.io/docs/tasks/network/validate-dual-stack/
+  Tutorial: Assigning IPv6 addresses to Kubernetes Pods and services
+  https://docs.aws.amazon.com/eks/latest/userguide/cni-ipv6.html
   https://mxtoolbox.com/NetworkTools.aspx
 IPv6 Tools:
   http://www.ipamworldwide.com/libraries/toolmenu.html
@@ -836,27 +863,86 @@ DHCP Tools:
   https://www.isc.org/dhcp-tools/ <-- ISC announced the end of maintenance for ISC DHCP as of the end of 2022 - use Kea instead!
   http://www.mavetju.org/download/dhcping-1.2.tar.gz
   http://www.mavetju.org/download/dhcpdump-1.8.tar.gz
+Configure Out-of-band Access to all Servers:
+  IPMI: Dell iDRAC, HP iLO, etc.
+  # dnf install ipmitool ipmiutil
+  Discover all ipmi servers on your network:
+  # ipmiutil discover
 Find your NAT IP:
   https://www.ipchicken.com/
   # curl ifconfig.me
   # tranceroute arin.net
 Other Random Tools:
-  https://www.internetlivestats.com/
+  https://www.google.com/intl/en/ipv6/statistics.html
   https://time.is/
   http://www.convertunits.com/dates/from/Jan+1,+2023/to/Sep+28,+2023
   https://thetruesize.com/
 
-## My Favorite Hardware for OnPrem
-Network:
+## My Favorite Hardware/Software for OnPrem Compute and Storage
+Network Hardware:
+  NOTE:
+    I'm not including Load Balancers or Firewalls because I prefer
+    using the built-in security features of Kubernetes and all of
+    the Kubernetes 3rd party options for securing a cluster.
   Routers:
   Switches:
-  I'm not including Load Balancers or Firewalls because I prefer
-  using the built-in security features Kubernetes and all of the
-  Kubernetes 3rd party options for securing a cluster.
-Servers:
-  
-Data Servers:
-  
+    
+  Fiber NICs:
+    10Gb SFP+ PCI-E Network Card NIC, with Broadcom BCM57810S Chip, Dual SFP+ Port, PCI Express X8
+      https://www.amazon.com/Ethernet-Broadcom-BCM57810S-Controller-Interface/dp/B06X9T683K?th=1
+    100GbE Intel Ethernet Network Adapter E810
+      https://www.intel.com/content/www/us/en/products/details/ethernet/800-network-adapters/e810-network-adapters/products.html
+      https://www.intel.com/content/www/us/en/content-details/787658/deliver-high-performance-networking-on-ethernet.html
+Baremetal Servers:
+    SuperStorage SSG-136R-NEL32JBF:
+      https://www.supermicro.com/en/products/system/1U/136/SSG-136R-NEL32JBF.cfm
+      32 Hot-swap NVMe, 9.5mm EDSFF Long SSDs
+      https://www.supermicro.com/en/products/nvme
+    Fujisu RX2540M7:
+      https://www.fujitsu.com/global/products/computing/servers/primergy/rack/rx2540m7/index.html
+      2RU, dual-socket server with
+      up to 60 Xeon cores per CPU,
+      up to 8TB of DDR5 memory,
+      PCIe gen 5 connectivity,
+      up to 6x Nvidia GPUs,
+      up to 24x 2.5-inch NVMe storage drives,
+      and optionally six more at the rear of the chassis.
+Storage Devices: SSDs, HDDs
+  I/O Bandwidth Doubles every 3 years 
+  PCIe 6.0  128 GB/s (PAM4)
+  PCIe 5.0   64 GB/s (NRZ)
+  PCIe 4.0   32 GB/s (2 GB/s/lane)
+  PCIe 3.0   16 GB/s (1 GB/s/lane)
+  1) E1.L (Long) NVMe SSDs
+     https://www.intel.com/content/www/us/en/products/docs/memory-storage/solid-state-drives/edsff-brief.html
+  2) Ultrastar DC HC670
+     https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-hc670-hdd#ultrastar-dc-hc670-26-tb
+     26TB, 7200 RPM, 261MB/s
+Storaage Software:
+  1) Ceph:
+     Supports object, block, and filesystem storage
+     https://github.com/ceph/ceph
+     https://ceph.com/
+     https://github.com/ceph/ceph-csi
+  2) Linstor: high performance block storage
+     https://github.com/piraeusdatastore/linstor-csi
+     https://linbit.com/linstor/
+  3) OpenEBS: aka., Maystor, based on SPDK
+     Perfect for a database farm in Kubernetes.
+     https://spdk.io/
+     https://github.com/openebs/cstor-csi
+     https://github.com/openebs/mayastor
+     https://openebs.io/docs/concepts/mayastor
+     https://mayastor.gitbook.io/introduction/
+     https://percona.community/blog/2020/10/23/mayastor-lightning-fast-storage-for-kubernetes/
+     https://blocksandfiles.com/2021/03/08/intel-says-mayastor-is-fastest-open-source-storage/
+  4) RAMCloud: great for streaming applications; very specialized; trying to get it to work with Kubernetes
+     https://github.com/PlatformLab/RAMCloud
+     https://ramcloud.atlassian.net/wiki/spaces/RAM/overview
+     https://ramcloud.atlassian.net/wiki/spaces/RAM/pages/6848537/Deciding+Whether+to+Use+RAMCloud
+     https://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud-tocs.pdf
+     To achieve low latency, RAMCloud stores all data in DRAM at all times.
+
 ### Other System Design Resources
 *) ByteByteCode:
    https://www.youtube.com/@ByteByteGo/videos
