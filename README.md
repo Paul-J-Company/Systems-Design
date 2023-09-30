@@ -407,9 +407,29 @@ What is Platform as a Service (PaaS)?
   PaaS enables the introduction of new ways to build, run, and deploy apps easily.
   PaaS allows underlying technology to be swapped out with no impact on teams.
 What is Zero Trust?
+  Zero Trust security is an IT security model that requires strict identity verification
+  for every person and device trying to access resources on a private network,
+  regardless of whether they are sitting within or outside of the network perimeter. 
 What is a Microservice Application?
+  The term microservice is not a well-defined term.
+  There is no rigorous/unambiguous definition of when a service starts or stops being a microservice.
+  In general, a microservice is an architectural pattern that arranges an application
+  as a collection of loosely-coupled, fine-grained services, communicating through lightweight protocols.
+  The key attribute is microservices need to be independent of one another (loosely-coupled).
+  Microservices run on multiple computers and communicate with each other via networked connections.
+  Transactions add complexity to running microservice architectures, compared to a monolith.
+  In workloads that cannot run concurrently across the network, monoliths may deliver better performance.
+  The main advantages of microservices are that you can scale them horizontally and you can deploy them
+  independently, so each team can deploy in parallel, accelerating the deployment process.
+  The other advantage is each team can use the programming language that best suits the service.
 What is a Monolithic Application?
+  An application is made up of services.
+  A monolithic application all services run on one process/threads (memory space) on one server.
+  The communication amoung services is done via Interprocess Communication (IPC) channels.
+  In contrast, microservices communicate via Network Interface Cards (NICs) which are much slower.
+  If your workload requires fast service communication, then a monolith may deliver better performance.
 What is Event Driven Architecure (EDA)?
+  
 What is a Software Development LifeCycle (SDLC)?
 What is CI/CD?
 What is a Software Deployment?
