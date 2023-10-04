@@ -391,7 +391,7 @@ What is DevSecOps?
   DevSecOps is a way of approaching IT security with an "everyone is responsible for security" mindset.
   The goal of DevSecOps is to incorporate security into all stages of the software development workflow.
 What is GitOps?
-  GitOps is centered around using a version control system (such as Git)
+  GitOps is centered around using a version control system (such as Git, GitLab, Github)
   to house all information, documentation, and code for a Kubernetes deployment,
   and then use automated directors to deploy changes to the cluster.
   GitOps enables the same process developers use to merge code using pull requests
@@ -400,8 +400,34 @@ What is GitOps?
   represented by the configurations stored in a Git repository.
   This Git repository serves as the single source of truth,
   and GitOps enforces the state that the cluster should be in.
-  Any changes to the cluster are made by updating the configuration files in the Git repository,
-  rather than directly interacting with the cluster.
+  Any changes to the cluster are made by updating the configuration files
+  in the Git repository, rather than directly interacting with the cluster.
+  GitOps enables an auditable and reproducible process for deployments.
+  Rollbacks become as simple as reverting to a known working state in the Git history.
+  The changes in the infrastructure can be seen easily in the git log.
+  GitOps allows for automatic and continuous synchronization between the
+  desired state in the Git repository and the actual state in the cluster,
+  ensuring consistency across environments, simplifying the traditionally
+  complex CI/CD pipelines, and reducing human error.
+  GitOps promotes collaboration and transparency among development and operations teams.
+  Changes to the cluster are transparently tracked in Git,
+  making it easy for team members to understand what's happening and when.
+  GitOps provides self-heal capabilities.
+  If somebody changes the state of the infrastructure manually, the state
+  will automatically change to reflect what is defined in the Git repository.
+  This brings resilience and a cluster that will be easier to debug if there is a problem.
+  In GitOps, the traditional CI/CD pipeline is "reversed".
+  This is called "pull-based deployments", where the target cluster constantly
+  "pulls" its desired state from the Git repository, rather than relying on a
+  "push" from an external entity (e.g. a CI/CD tool like Jenkins or Github Actions).
+  This "pull" approach provides a self-healing mechanism, allowing the cluster to
+  autonomously converge to the desired state even if it drifts due to manual changes
+  or unforeseen events.
+  One of the decisions you have to make as a Platform Engineer using GitOps is
+  how you structure your Git repo: repo-per-app, repo-per-team, monrepo, etc.
+  I always apply the Separation of Concerns Principle and typically use repo-per-app.
+  But it really depends on how your Organization works and is structured.
+  Trying all methods isn't a bad idea to see which one works best.
   Visualizing IaC with and without GitOps
   https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_1T9Tx62ig3yqX26IHIoWQ.png
 What is FinOps?
