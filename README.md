@@ -400,6 +400,8 @@ What is GitOps?
   represented by the configurations stored in a Git repository.
   This Git repository serves as the single source of truth,
   and GitOps enforces the state that the cluster should be in.
+  Any changes to the cluster are made by updating the configuration files in the Git repository,
+  rather than directly interacting with the cluster.
   Visualizing IaC with and without GitOps
   https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_1T9Tx62ig3yqX26IHIoWQ.png
 What is FinOps?
