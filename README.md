@@ -396,6 +396,8 @@ What is GitOps?
   and then use automated directors to deploy changes to the cluster.
   GitOps enables the same process developers use to merge code using pull requests
   or merge requests to be used to deploy to Kubernetes.
+  In a GitOps workflow the desired state of your infrastructure is
+  represented by the configurations stored in a Git repository.
   Visualizing IaC with and without GitOps
   https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_1T9Tx62ig3yqX26IHIoWQ.png
 What is FinOps?
