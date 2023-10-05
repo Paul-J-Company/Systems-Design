@@ -370,6 +370,16 @@ What is a Data Center?
   There are currently four data center tiers, ranked by performance and uptime.
   https://phoenixnap.com/blog/data-center-tiers-classification
   https://www.impactmybiz.com/blog/data-center-tiers-explained/
+What is Infrastructure as Code (IaC)?
+  IAC is a DevOps practice of managing infrastructure in a declarative manner using code,
+  rather than manually configuring it through a graphical user interface.
+  Declarative: The process of declaring your desired result and the system "learns" how to achieve it.
+  Imperative: The process of explaining every step to accomplish a desired result.
+What is Platform as a Service (PaaS)?
+  PaaS is an abstraction over infrastructure that runs applications and hosts stacks.
+  PaaS supports custom workflows to enable teams to function efficiently.
+  PaaS enables the introduction of new ways to build, run, and deploy apps easily.
+  PaaS allows underlying technology to be swapped out with no impact on teams.
 What is Platform Engineering?
   Platform Engineering ensures that there isn't an "us and them" mentality,
   which leads to a bad overall customer experience.
@@ -387,9 +397,22 @@ What is DevOps?
   between software developers and IT operations professionals to deliver software
   faster and more efficiently.
   DevOps helps to automate the process of software development, testing, deployment, and operations.
+  Continuous Feedback is a DevOps practice where feedback is continuously
+  collected and incorporated into the development process.
 What is DevSecOps?
   DevSecOps is a way of approaching IT security with an "everyone is responsible for security" mindset.
   The goal of DevSecOps is to incorporate security into all stages of the software development workflow.
+  Some common security practices in DevSecOps include:
+  code reviews, automated security testing, secure configuration management, and threat modeling.
+What is DORA?
+  DORA stands for DevOps Research and Assessment (DORA) team.
+  DORA is a team at Google who investigates the State of DevOps.
+  DORA's objective is in helping organizations achieve high DevOps
+  and organizational performance with data-driven insights.
+  The DORA team publishes reports like:
+  https://cloud.google.com/devops/state-of-devops/
+  https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance
+  https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling
 What is GitOps?
   GitOps is centered around using a version control system (such as Git, GitLab, Github)
   to house all information, documentation, and code for a Kubernetes deployment,
@@ -434,33 +457,58 @@ What is FinOps?
   FinOps is about spending your money most cost-effectively.
   Yes, this might mean spending less money, but it also might
   mean spending more money and making more money.
-What is DORA?
-  DORA stands for DevOps Research and Assessment (DORA) team.
-  DORA is a team at Google who investigates the State of DevOps.
-  DORA's objective is in helping organizations achieve high DevOps
-  and organizational performance with data-driven insights.
-  The DORA team publishes reports like:
-  https://cloud.google.com/devops/state-of-devops/
-  https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance
-  https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling
+What is a Software Development LifeCycle (SDLC)?
+  SDLC is a framework that describes the stages involved in the development of software.
+  The typical stages of the SDLC include:
+    1) Planning: 
+    2) Analysis:
+    3) Design:
+    4) Implementation:
+    5) Testing:
+    6) Deployment:
+    7) Maintenance:
+  Visualizing SDLC:   
+  https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg
+What is CI/CD?
+  CI/CD stands for Continuous Integration/Continuous Delivery or Deployment
+  A CI/CD Pipeline is a series of steps that must be performed
+  in order to deliver a new version of software.
+  GitOps simplifies CI/CD Pipelines.
+What is a Software Deployment?
+  Kubernetes enables easy application deployment.
+  There are many types of deployment strategies.
+  Here are 3 popular Deployment Strategies:
+  1) Canary Deployment:
+     A technique for rolling out new features or changes to a small subset
+     of users or servers before releasing the update to the entire system.
+     A Canary deployment strategy is used for applications that require frequent updates.
+  2) Rolling Deployment:
+     A strategy for updating and deploying new versions of software in a controlled and gradual manner.
+     Instead of deploying updates all at once,
+     a rolling deployment rolls out changes incrementally,
+     reducing the risk of downtime and allowing for easy rollbacks in case of errors.
+     A Rolling deployment strategy is ideal for applications that require zero downtime during deployment.
+  3) Blue-Green Deployment:
+     Involves running two identical environments,
+     one serving as the active production environment (blue)
+     and the other as a new release candidate (green).
+     The new release candidate is thoroughly tested
+     before being switched with the production environment,
+     allowing for a smooth transition without any downtime or errors.
 What is a Polystore?
   A polystore is the combining of different database technologies tailored for specific use cases,
   enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure. 
   Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.
-What is Infrastructure as Code (IaC)?
-  IAC is the practice of managing infrastructure in a declarative manner using code,
-  rather than manually configuring it through a graphical user interface.
-  Declarative: The process of declaring your desired result and the system "learns" how to achieve it.
-  Imperative: The process of explaining every step to accomplish a desired result.
-What is Platform as a Service (PaaS)?
-  PaaS is an abstraction over infrastructure that runs applications and hosts stacks.
-  PaaS supports custom workflows to enable teams to function efficiently.
-  PaaS enables the introduction of new ways to build, run, and deploy apps easily.
-  PaaS allows underlying technology to be swapped out with no impact on teams.
-What is Zero Trust?
-  Zero Trust security is an IT security model that requires strict identity verification
-  for every person and device trying to access resources on a private network,
-  regardless of whether they are sitting within or outside of the network perimeter. 
+What is Serverless?
+  The purpose of serverless technology is to provide a way
+  to build and run applications without having to consider
+  the underlying hosts at all.
+  To support serverless applications, a cloud provider provisions
+  and deallocates servers as needed behind the scenes.
+  Containers and serverless can work together. 
+  For instance, the core of your application may run on containers,
+  but some supplementary backend tasks, such as user authentication,
+  may run on serverless functions.
 What is a Microservice Application?
   The term microservice is not a well-defined term.
   There is no rigorous/unambiguous definition of when a service starts or stops being a microservice.
@@ -484,43 +532,10 @@ What is Event Driven Architecure (EDA)?
   EDAs are a way of designing and building systems that are based on the exchange of events.
   Events are notifications of some change in state or data,
   and they are typically published by one component and consumed by another in real time.
-What is a Software Development LifeCycle (SDLC)?
-  SDLC is a framework that describes the stages involved in the development of software.
-  The typical stages of the SDLC include:
-    1) Planning: 
-    2) Analysis:
-    3) Design:
-    4) Implementation:
-    5) Testing:
-    6) Deployment:
-    7) Maintenance:
-  Visualizing SDLC:   
-  https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg
-What is CI/CD?
-  CI/CD stands for Continuous Integration/Continuous Delivery or Deployment
-  A CI/CD Pipeline is a series of steps that must be performed
-  in order to deliver a new version of software.
-What is a Software Deployment?
-  Kubernetes enables easy application deployment.
-  There are many types of deployment strategies.
-  Here are 3 popular Deployment Strategies:
-  1) Canary Deployment:
-     A technique for rolling out new features or changes to a small subset
-     of users or servers before releasing the update to the entire system.
-     A Canary deployment strategy is used for applications that require frequent updates.
-  2) Rolling Deployment:
-     A strategy for updating and deploying new versions of software in a controlled and gradual manner.
-     Instead of deploying updates all at once,
-     a rolling deployment rolls out changes incrementally,
-     reducing the risk of downtime and allowing for easy rollbacks in case of errors.
-     A Rolling deployment strategy is ideal for applications that require zero downtime during deployment.
-  3) Blue-Green Deployment:
-     Involves running two identical environments,
-     one serving as the active production environment (blue)
-     and the other as a new release candidate (green).
-     The new release candidate is thoroughly tested
-     before being switched with the production environment,
-     allowing for a smooth transition without any downtime or errors.
+What is Zero Trust?
+  Zero Trust security is an IT security model that requires strict identity verification
+  for every person and device trying to access resources on a private network,
+  regardless of whether they are sitting within or outside of the network perimeter.
 What is OWASP?
   Open Web Application Security Project: (OWASP)
   OWASP is a community initiative focused on improving web application security
