@@ -6,5 +6,5 @@ These are introductory notes about the subject and is meant to
 get someone not familiar<br> 
 with System Design "up to speed" on the latest terminology, techologies and techiques.
 
-Start by reading the [System Design](https://github.com/Paul-J-Company/Systems-Design/blob/main/System-Design.md) document.<br>
-Followed by the [Kubernetes](https://github.com/Paul-J-Company/Systems-Design/blob/main/kubernetes.md) document.
+Start by reading the [System Design](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md) document.<br>
+Followed by the [Kubernetes](https://github.com/Paul-J-Company/Systems-Design/blob/main/Kubernetes.md) document.
