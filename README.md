@@ -141,8 +141,8 @@ Starting from a blank slate is different than inheriting an existing system infr
 + ***and many many more things to consider. I told you it was complicated***
 
 ## So what are the next steps?
-+ Read the System Design Topics information below which adds more details to what we've already discussed above.
-+ Read my -->Kubernetes<-- information.
++ Read the [System Design Topics](https://github.com/Paul-J-Company/Systems-Design/blob/main/README.md#system-design-topics) information below which adds more details to what we've already discussed above.
++ Read my [Kubernetes]() information for how I apply these principles to a Kubernetes Environment.
 
 ## System Design Topics:
 
