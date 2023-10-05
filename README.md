@@ -584,7 +584,19 @@ What is Telemetry?
   Telemetry gets generated because of instrumentation:
   code or tooling that captures data about the state of your running system
   and stores it in various formats.
+  Telemetry refers to data emitted from a system, about its behavior.
   Examples of software telemetry include: metrics, logs, traces, and structured events.
+What is OpenTelemetry?
+  OpenTelemetry is an industry-standard.
+  OpenTelemetry is a vendor-neutral open-source Observability framework
+  for instrumenting, generating, collecting, and exporting telemetry data
+  such as (traces, metrics, logs).
+  OpenTelemetry is the mechanism by which application
+  code is instrumented, to help make a system observable.
+  OpenTelemetry is natively supported by a number of vendors.
+  List of Vendors that support OpenTelemetry:
+  https://opentelemetry.io/ecosystem/vendors/
+  Cloud Observability, Grafana Labs, Jaeger, SigNoz, AppDynamics, etc.
 What is High-Cardinality Data: (HCD)
   HCD is a large set of unique values that can be queried and analyzed
   and is the most effective data when it comes to resolving an incident.
