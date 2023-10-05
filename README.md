@@ -399,6 +399,8 @@ What is DevOps?
   DevOps helps to automate the process of software development, testing, deployment, and operations.
   Continuous Feedback is a DevOps practice where feedback is continuously
   collected and incorporated into the development process.
+  Visualizing DevOps in Kubernetes
+  https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf
 What is DevSecOps?
   DevSecOps is a way of approaching IT security with an "everyone is responsible for security" mindset.
   The goal of DevSecOps is to incorporate security into all stages of the software development workflow.
