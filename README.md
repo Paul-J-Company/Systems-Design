@@ -6,12 +6,12 @@
 + Secure: authentication, authorization, accounting (aaa); Zero-Trust
 + Reliable: slow to fail
 + Robust:  quick to recover from failure.
-+ Highly Available: 99.999% uptime
-+ High Performance: maximize speed/latency
++ Highly Available: 99.999% uptime = less than 6 minutes downtime per year
++ High Performance: maximize speed/minimize latency
 + Scalable: maximize capacity/bandwidth (take advantage of Economy of Scale)
 + Maintainable: maximize "frictionless automation"
 + Cost Effective:  minimize Capex & Opex
-+ Well Documented:
++ Well Documented: strive for [Great Documentation](https://www.linkedin.com/pulse/great-ation-defined-daniel-smith/); [Writing Great Documentation](https://medium.com/@episod/writing-great-documentation-44d90367115a)
   
 Every business has business goals.
 
@@ -61,7 +61,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - How do they strike the ***right balance*** between all the ***trade-offs*** during the design process?
   - How do they know the right questions to ask?
   - How do they define clear objectives?
-  - How do they measure success?
+  - How do they define and measure success?
   - How do they choose the best Platform Design, Tools and Practices for your Workload?
   - How do they choose the best UX/UI/Frontend Design, Tools and Practices for your Workload?
   - How do they choose the best Storage/Database/Data Design, Tools and Practices for your Workload?
@@ -69,13 +69,13 @@ Starting from a blank slate is different than inheriting an existing system infr
   - How do they choose the best Compute Design, Tools and Practices for your Workload?
   - How do they choose the best Data Structures, Algorithms and Protocols for your Workload??
   - How do they choose the best Security Design, Tools and Policies/Practices for your Workload?
-  - How do they choose the best Observability/Telemetry/Monitoring/Logging/Analytics Design, Tools and Practices for your Workload?
+  - How do they choose the best Observability/Telemetry/Monitoring/Logging/Tracing/Analytics Design, Tools and Practices for your Workload?
   - How do they choose the best Testing/Benchmarking Design, Tools and Practices for your Workload?
   - How do they choose the best Programming Language, IDE, etc. to implement your Workload?
-  - How do they choose the best SDLC, CI/CD, and Distributed Version Control System Design, Tools and Practices/Workflows for your Workload?
+  - How do they choose the best SDLC, CI/CD, and Distributed Version Control System Tools and Practices/Workflows for your Workload?
 + How do your Architects/Designers/Programmers/Teams/Departments communicate and how often?
   - In person Meetings, Email, Mailing Lists, Chat, Slack, Mastadon, IRC; Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
-  - Every week, Daily (15 min scrum), every month, never?
+  - Every Week, Daily (15 min scrum), every Month, Never?
 + What Environment/Platform does your workload run?
   - OnPrem, Cloud, MultiCloud or Hybrid?
   - Bare Metal, VMs, Containers, Mixture of All of them?
@@ -109,14 +109,14 @@ Starting from a blank slate is different than inheriting an existing system infr
     - DataDog, Splunk, Greylog, etc.
 + What is your Compute Design?
   - Where are your High-level Compute Architecture/Design Diagrams?
-  - AWS EC2 VMs, OnPrem Servers/VMs, etc.
+  - AWS EC2 VMs, OnPrem Servers/VMs/Containers, etc.
 + What Infrastructure Provisioning Tools do you use?
   - Terraform, Ansible, Nomad, Kubernetes?
 + What Programming Languages do you use?
   - Python, Go, Bash, C, C++, Java, Javascript, etc.
   - What Programming Tools and/or Frameworks do you use?
-    - IDEs: VSC, Vim, EMacs
-    - Distributes Version Control System: Git
+    - IDEs: VSC, Vim, Emacs
+    - Distributed Version Control System: Git, Github, Gitlab
     -  Programming Style Guides
     -  Frameworks: Angular, Kafka, React, Backbone, etc.
 + What is your SDLC, CI/CD Workflow?
@@ -128,7 +128,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - What Security Tools do you use to implement those Security Policies?
 + What Observability Best practices do you use?
   - What Observability Tools do you use?
-+ What Telemetry/Metrics to you gather?
++ What Telemetry/Metrics do you gather?
   - What Analytics Tools do you use?
 + How do you Monitor your System/Workload?
   - What Monitoring Tools do you use?
@@ -156,6 +156,10 @@ Starting from a blank slate is different than inheriting an existing system infr
 2) Design is about making tradeoffs and compromises at all levels of your System.
    e.g., Security vs. Convenience, Capex vs. Opex, etc.
    Great design includes great documentation.
+   [Teaching the art of great documentation](https://developers.googleblog.com/2020/07/teaching-art-of-great-documentation.html)
+   [The eight rules of good documentation](https://www.oreilly.com/content/the-eight-rules-of-good-documentation/)
+   [12 Best Documentation Examples (Expert Picks)](https://herothemes.com/blog/best-documentation-examples/)
+   [The importance of documentation](https://www.atlassian.com/work-management/knowledge-sharing/documentation/importance-of-documentation)
    Be Strategic:
    The overall goal MUST be a great design.
    Simplifies future development.
