@@ -6,12 +6,12 @@
 + Secure: authentication, authorization, accounting (aaa); Zero-Trust
 + Reliable: slow to fail
 + Robust:  quick to recover from failure.
-+ Highly Available: 99.999% uptime
-+ High Performance: maximize speed/latency
++ Highly Available: 99.999% uptime = less than 6 minutes downtime per year
++ High Performance: maximize speed/minimize latency
 + Scalable: maximize capacity/bandwidth (take advantage of Economy of Scale)
 + Maintainable: maximize "frictionless automation"
 + Cost Effective:  minimize Capex & Opex
-+ Well Documented:
++ Well Documented: strive for [Great Documentation](https://www.linkedin.com/pulse/great-ation-defined-daniel-smith/); [Writing Great Documentation](https://medium.com/@episod/writing-great-documentation-44d90367115a)
   
 Every business has business goals.
 
@@ -61,7 +61,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - How do they strike the ***right balance*** between all the ***trade-offs*** during the design process?
   - How do they know the right questions to ask?
   - How do they define clear objectives?
-  - How do they measure success?
+  - How do they define and measure success?
   - How do they choose the best Platform Design, Tools and Practices for your Workload?
   - How do they choose the best UX/UI/Frontend Design, Tools and Practices for your Workload?
   - How do they choose the best Storage/Database/Data Design, Tools and Practices for your Workload?
@@ -69,13 +69,13 @@ Starting from a blank slate is different than inheriting an existing system infr
   - How do they choose the best Compute Design, Tools and Practices for your Workload?
   - How do they choose the best Data Structures, Algorithms and Protocols for your Workload??
   - How do they choose the best Security Design, Tools and Policies/Practices for your Workload?
-  - How do they choose the best Observability/Telemetry/Monitoring/Logging/Analytics Design, Tools and Practices for your Workload?
+  - How do they choose the best Observability/Telemetry/Monitoring/Logging/Tracing/Analytics Design, Tools and Practices for your Workload?
   - How do they choose the best Testing/Benchmarking Design, Tools and Practices for your Workload?
   - How do they choose the best Programming Language, IDE, etc. to implement your Workload?
-  - How do they choose the best SDLC, CI/CD, and Distributed Version Control System Design, Tools and Practices/Workflows for your Workload?
+  - How do they choose the best SDLC, CI/CD, and Distributed Version Control System Tools and Practices/Workflows for your Workload?
 + How do your Architects/Designers/Programmers/Teams/Departments communicate and how often?
   - In person Meetings, Email, Mailing Lists, Chat, Slack, Mastadon, IRC; Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
-  - Every week, Daily (15 min scrum), every month, never?
+  - Every Week, Daily (15 min scrum), every Month, Never?
 + What Environment/Platform does your workload run?
   - OnPrem, Cloud, MultiCloud or Hybrid?
   - Bare Metal, VMs, Containers, Mixture of All of them?
@@ -109,14 +109,14 @@ Starting from a blank slate is different than inheriting an existing system infr
     - DataDog, Splunk, Greylog, etc.
 + What is your Compute Design?
   - Where are your High-level Compute Architecture/Design Diagrams?
-  - AWS EC2 VMs, OnPrem Servers/VMs, etc.
+  - AWS EC2 VMs, OnPrem Servers/VMs/Containers, etc.
 + What Infrastructure Provisioning Tools do you use?
   - Terraform, Ansible, Nomad, Kubernetes?
 + What Programming Languages do you use?
   - Python, Go, Bash, C, C++, Java, Javascript, etc.
   - What Programming Tools and/or Frameworks do you use?
-    - IDEs: VSC, Vim, EMacs
-    - Distributes Version Control System: Git
+    - IDEs: VSC, Vim, Emacs
+    - Distributed Version Control System: Git, Github, Gitlab
     -  Programming Style Guides
     -  Frameworks: Angular, Kafka, React, Backbone, etc.
 + What is your SDLC, CI/CD Workflow?
@@ -128,7 +128,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - What Security Tools do you use to implement those Security Policies?
 + What Observability Best practices do you use?
   - What Observability Tools do you use?
-+ What Telemetry/Metrics to you gather?
++ What Telemetry/Metrics do you gather?
   - What Analytics Tools do you use?
 + How do you Monitor your System/Workload?
   - What Monitoring Tools do you use?
@@ -141,8 +141,8 @@ Starting from a blank slate is different than inheriting an existing system infr
 + ***and many many more things to consider. I told you it was complicated***
 
 ## So what are the next steps?
-+ Read the System Design Topics information below which adds more details to what we've already discussed above.
-+ Read my -->Kubernetes<-- information.
++ Read the [System Design Topics](https://github.com/Paul-J-Company/Systems-Design/blob/main/README.md#system-design-topics) information below which adds more details to what we've already discussed above.
++ Read my [Kubernetes]() information for how I apply these principles to a Kubernetes Environment.
 
 ## System Design Topics:
 
@@ -156,6 +156,10 @@ Starting from a blank slate is different than inheriting an existing system infr
 2) Design is about making tradeoffs and compromises at all levels of your System.
    e.g., Security vs. Convenience, Capex vs. Opex, etc.
    Great design includes great documentation.
+   [Teaching the art of great documentation](https://developers.googleblog.com/2020/07/teaching-art-of-great-documentation.html)
+   [The eight rules of good documentation](https://www.oreilly.com/content/the-eight-rules-of-good-documentation/)
+   [12 Best Documentation Examples (Expert Picks)](https://herothemes.com/blog/best-documentation-examples/)
+   [The importance of documentation](https://www.atlassian.com/work-management/knowledge-sharing/documentation/importance-of-documentation)
    Be Strategic:
    The overall goal MUST be a great design.
    Simplifies future development.
@@ -370,6 +374,16 @@ What is a Data Center?
   There are currently four data center tiers, ranked by performance and uptime.
   https://phoenixnap.com/blog/data-center-tiers-classification
   https://www.impactmybiz.com/blog/data-center-tiers-explained/
+What is Infrastructure as Code (IaC)?
+  IAC is a DevOps practice of managing infrastructure in a declarative manner using code,
+  rather than manually configuring it through a graphical user interface.
+  Declarative: The process of declaring your desired result and the system "learns" how to achieve it.
+  Imperative: The process of explaining every step to accomplish a desired result.
+What is Platform as a Service (PaaS)?
+  PaaS is an abstraction over infrastructure that runs applications and hosts stacks.
+  PaaS supports custom workflows to enable teams to function efficiently.
+  PaaS enables the introduction of new ways to build, run, and deploy apps easily.
+  PaaS allows underlying technology to be swapped out with no impact on teams.
 What is Platform Engineering?
   Platform Engineering ensures that there isn't an "us and them" mentality,
   which leads to a bad overall customer experience.
@@ -387,19 +401,15 @@ What is DevOps?
   between software developers and IT operations professionals to deliver software
   faster and more efficiently.
   DevOps helps to automate the process of software development, testing, deployment, and operations.
+  Continuous Feedback is a DevOps practice where feedback is continuously
+  collected and incorporated into the development process.
+  Visualizing DevOps in Kubernetes
+  https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf
 What is DevSecOps?
   DevSecOps is a way of approaching IT security with an "everyone is responsible for security" mindset.
   The goal of DevSecOps is to incorporate security into all stages of the software development workflow.
-What is GitOps?
-  GitOps is centered around using a version control system (such as Git)
-  to house all information, documentation, and code for a Kubernetes deployment,
-  and then use automated directors to deploy changes to the cluster.
-  GitOps enables the same process developers use to merge code using pull requests
-  or merge requests to be used to deploy to Kubernetes.
-What is FinOps?
-  FinOps is about spending your money most cost-effectively.
-  Yes, this might mean spending less money, but it also might
-  mean spending more money and making more money.
+  Some common security practices in DevSecOps include:
+  code reviews, automated security testing, secure configuration management, and threat modeling.
 What is DORA?
   DORA stands for DevOps Research and Assessment (DORA) team.
   DORA is a team at Google who investigates the State of DevOps.
@@ -409,24 +419,102 @@ What is DORA?
   https://cloud.google.com/devops/state-of-devops/
   https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance
   https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling
+What is GitOps?
+  GitOps is centered around using a version control system (such as Git, GitLab, Github)
+  to house all information, documentation, and code for a Kubernetes deployment,
+  and then use automated directors to deploy changes to the cluster.
+  GitOps enables the same process developers use to merge code using pull requests
+  or merge requests to be used to deploy to Kubernetes.
+  In a GitOps workflow the desired state of your infrastructure is
+  represented by the configurations stored in a Git repository.
+  This Git repository serves as the single source of truth,
+  and GitOps enforces the state that the cluster should be in.
+  Any changes to the cluster are made by updating the configuration files
+  in the Git repository, rather than directly interacting with the cluster.
+  GitOps enables an auditable and reproducible process for deployments.
+  Rollbacks become as simple as reverting to a known working state in the Git history.
+  The changes in the infrastructure can be seen easily in the git log.
+  GitOps allows for automatic and continuous synchronization between the
+  desired state in the Git repository and the actual state in the cluster,
+  ensuring consistency across environments, simplifying the traditionally
+  complex CI/CD pipelines, and reducing human error.
+  GitOps promotes collaboration and transparency among development and operations teams.
+  Changes to the cluster are transparently tracked in Git,
+  making it easy for team members to understand what's happening and when.
+  GitOps provides self-heal capabilities.
+  If somebody changes the state of the infrastructure manually, the state
+  will automatically change to reflect what is defined in the Git repository.
+  This brings resilience and a cluster that will be easier to debug if there is a problem.
+  In GitOps, the traditional CI/CD pipeline is "reversed".
+  This is called "pull-based deployments", where the target cluster constantly
+  "pulls" its desired state from the Git repository, rather than relying on a
+  "push" from an external entity (e.g. a CI/CD tool like Jenkins or Github Actions).
+  This "pull" approach provides a self-healing mechanism, allowing the cluster to
+  autonomously converge to the desired state even if it drifts due to manual changes
+  or unforeseen events.
+  One of the decisions you have to make as a Platform Engineer using GitOps is
+  how you structure your Git repo: repo-per-app, repo-per-team, monrepo, etc.
+  I always apply the Separation of Concerns Principle and typically use repo-per-app.
+  But it really depends on how your Organization works and is structured.
+  Trying all methods isn't a bad idea to see which one works best.
+  Visualizing IaC with and without GitOps
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_1T9Tx62ig3yqX26IHIoWQ.png
+What is FinOps?
+  FinOps is about spending your money most cost-effectively.
+  Yes, this might mean spending less money, but it also might
+  mean spending more money and making more money.
+What is a Software Development LifeCycle (SDLC)?
+  SDLC is a framework that describes the stages involved in the development of software.
+  The typical stages of the SDLC include:
+    1) Planning: 
+    2) Analysis:
+    3) Design:
+    4) Implementation:
+    5) Testing:
+    6) Deployment:
+    7) Maintenance:
+  Visualizing SDLC:   
+  https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg
+What is CI/CD?
+  CI/CD stands for Continuous Integration/Continuous Delivery or Deployment
+  A CI/CD Pipeline is a series of steps that must be performed
+  in order to deliver a new version of software.
+  GitOps simplifies CI/CD Pipelines.
+What is a Software Deployment?
+  Kubernetes enables easy application deployment.
+  There are many types of deployment strategies.
+  Here are 3 popular Deployment Strategies:
+  1) Canary Deployment:
+     A technique for rolling out new features or changes to a small subset
+     of users or servers before releasing the update to the entire system.
+     A Canary deployment strategy is used for applications that require frequent updates.
+  2) Rolling Deployment:
+     A strategy for updating and deploying new versions of software in a controlled and gradual manner.
+     Instead of deploying updates all at once,
+     a rolling deployment rolls out changes incrementally,
+     reducing the risk of downtime and allowing for easy rollbacks in case of errors.
+     A Rolling deployment strategy is ideal for applications that require zero downtime during deployment.
+  3) Blue-Green Deployment:
+     Involves running two identical environments,
+     one serving as the active production environment (blue)
+     and the other as a new release candidate (green).
+     The new release candidate is thoroughly tested
+     before being switched with the production environment,
+     allowing for a smooth transition without any downtime or errors.
 What is a Polystore?
   A polystore is the combining of different database technologies tailored for specific use cases,
   enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure. 
   Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.
-What is Infrastructure as Code (IaC)?
-  IAC is the practice of managing infrastructure in a declarative manner using code,
-  rather than manually configuring it through a graphical user interface.
-  Declarative: The process of declaring your desired result and the system "learns" how to achieve it.
-  Imperative: The process of explaining every step to accomplish a desired result.
-What is Platform as a Service (PaaS)?
-  PaaS is an abstraction over infrastructure that runs applications and hosts stacks.
-  PaaS supports custom workflows to enable teams to function efficiently.
-  PaaS enables the introduction of new ways to build, run, and deploy apps easily.
-  PaaS allows underlying technology to be swapped out with no impact on teams.
-What is Zero Trust?
-  Zero Trust security is an IT security model that requires strict identity verification
-  for every person and device trying to access resources on a private network,
-  regardless of whether they are sitting within or outside of the network perimeter. 
+What is Serverless?
+  The purpose of serverless technology is to provide a way
+  to build and run applications without having to consider
+  the underlying hosts at all.
+  To support serverless applications, a cloud provider provisions
+  and deallocates servers as needed behind the scenes.
+  Containers and serverless can work together. 
+  For instance, the core of your application may run on containers,
+  but some supplementary backend tasks, such as user authentication,
+  may run on serverless functions.
 What is a Microservice Application?
   The term microservice is not a well-defined term.
   There is no rigorous/unambiguous definition of when a service starts or stops being a microservice.
@@ -450,43 +538,10 @@ What is Event Driven Architecure (EDA)?
   EDAs are a way of designing and building systems that are based on the exchange of events.
   Events are notifications of some change in state or data,
   and they are typically published by one component and consumed by another in real time.
-What is a Software Development LifeCycle (SDLC)?
-  SDLC is a framework that describes the stages involved in the development of software.
-  The typical stages of the SDLC include:
-    1) Planning: 
-    2) Analysis:
-    3) Design:
-    4) Implementation:
-    5) Testing:
-    6) Deployment:
-    7) Maintenance:
-  Visualizing SDLC:   
-  https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg
-What is CI/CD?
-  CI/CD stands for Continuous Integration/Continuous Delivery or Deployment
-  A CI/CD Pipeline is a series of steps that must be performed
-  in order to deliver a new version of software.
-What is a Software Deployment?
-  Kubernetes enables easy application deployment.
-  There are many types of deployment strategies.
-  Here are 3 popular Deployment Strategies:
-  1) Canary Deployment:
-     A technique for rolling out new features or changes to a small subset
-     of users or servers before releasing the update to the entire system.
-     A Canary deployment strategy is used for applications that require frequent updates.
-  2) Rolling Deployment:
-     A strategy for updating and deploying new versions of software in a controlled and gradual manner.
-     Instead of deploying updates all at once,
-     a rolling deployment rolls out changes incrementally,
-     reducing the risk of downtime and allowing for easy rollbacks in case of errors.
-     A Rolling deployment strategy is ideal for applications that require zero downtime during deployment.
-  3) Blue-Green Deployment:
-     Involves running two identical environments,
-     one serving as the active production environment (blue)
-     and the other as a new release candidate (green).
-     The new release candidate is thoroughly tested
-     before being switched with the production environment,
-     allowing for a smooth transition without any downtime or errors.
+What is Zero Trust?
+  Zero Trust security is an IT security model that requires strict identity verification
+  for every person and device trying to access resources on a private network,
+  regardless of whether they are sitting within or outside of the network perimeter.
 What is OWASP?
   Open Web Application Security Project: (OWASP)
   OWASP is a community initiative focused on improving web application security
@@ -533,7 +588,19 @@ What is Telemetry?
   Telemetry gets generated because of instrumentation:
   code or tooling that captures data about the state of your running system
   and stores it in various formats.
+  Telemetry refers to data emitted from a system, about its behavior.
   Examples of software telemetry include: metrics, logs, traces, and structured events.
+What is OpenTelemetry?
+  OpenTelemetry is an industry-standard.
+  OpenTelemetry is a vendor-neutral open-source Observability framework
+  for instrumenting, generating, collecting, and exporting telemetry data
+  such as (traces, metrics, logs).
+  OpenTelemetry is the mechanism by which application
+  code is instrumented, to help make a system observable.
+  OpenTelemetry is natively supported by a number of vendors.
+  List of Vendors that support OpenTelemetry:
+  https://opentelemetry.io/ecosystem/vendors/
+  Cloud Observability, Grafana Labs, Jaeger, SigNoz, AppDynamics, etc.
 What is High-Cardinality Data: (HCD)
   HCD is a large set of unique values that can be queried and analyzed
   and is the most effective data when it comes to resolving an incident.
