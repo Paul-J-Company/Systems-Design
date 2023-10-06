@@ -327,25 +327,25 @@ Economy of Scale:<br>
 &ensp;&ensp;Economy of Scale increases Capex because larger items cost more and use more power and cooling,<br>
 &ensp;&ensp;but decreases Opex because there are fewer things to maintain (install, configure, etc.).<br>
 
-Performance:
-  Performance is a Full Stack endeavor.
-  Performance is about maximizing speed, capacity, and efficiency.
-  Throughput is speed x capacity.
-  Consider a highway with a maximum speed limit (speed) and some number of lanes (capacity).
-  You increase throughput and efficiency by:
-  1) Increasing the speed limit (clock rate for computers).
-  and/or
-  2) Increasing the number of lanes (parallelism).
-  and/or
-  3) Removing any obstructions (bottlenecks) from the road/lanes (roadkill) and/or any obstructions (bottlenecks) inhibiting your speed.
-  and/or
-  4) Avoiding rush hour traffic (scheduling/concurrency).
-  My highway example is a simple single level system.
-  Complex systems (like computers) are non-linear/dynamic multilevel (Full Stack) systems.
-  High performance equipment increases Capex because they are more expensive to buy;
-  but are typically Opex neutral because maintaining high performance equipment is
-  typically similar or identical to maintaining less performant equipment.
-  Although high performance equipment may cost more to power and cool, thus increasing Opex.
+Performance:<br>
+&ensp;&ensp;Performance is a Full Stack endeavor.<br>
+&ensp;&ensp;Performance is about maximizing speed, capacity, and efficiency.<br>
+&ensp;&ensp;Throughput is speed x capacity.<br>
+&ensp;&ensp;Consider a highway with a maximum speed limit (speed) and some number of lanes (capacity).<br>
+&ensp;&ensp;You increase throughput and efficiency by:<br>
+&ensp;&ensp;1) Increasing the speed limit (clock rate for computers).<br>
+&ensp;&ensp;and/or<br>
+&ensp;&ensp;2) Increasing the number of lanes (parallelism: more cores or processors).<br>
+&ensp;&ensp;and/or<br>
+&ensp;&ensp;3) Removing any obstructions (bottlenecks) from the road/lanes (roadkill) inhibiting your speed.<br>
+&ensp;&ensp;and/or<br>
+&ensp;&ensp;4) Avoiding rush hour traffic (scheduling/concurrency).<br>
+&ensp;&ensp;My highway example is a simple single level system.<br>
+&ensp;&ensp;Complex systems (like computers) are non-linear/dynamic multilevel (Full Stack) systems.<br>
+&ensp;&ensp;High performance equipment increases Capex because they are more expensive to buy;<br>
+&ensp;&ensp;but are typically Opex neutral because maintaining high performance equipment is<br>
+&ensp;&ensp;typically similar or identical to maintaining less performant equipment.<br>
+&ensp;&ensp;Although high performance equipment may cost more to power and cool, thus increasing Opex.<br>
 
 High Availability: (HA)
   High Availability is about adding redundancy which eliminates all single points of failure.
