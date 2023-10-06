@@ -24,26 +24,33 @@ These ***System Properties*** align with the high level business goal of ***"sat
 * Compute Layer:
 * Personnel Layer: all the departments and teams that are your business.
 
-In order to achieve the above ***System Properties*** you have to apply the ***"best people"***, applying the ***"best practices"***, using the ***"best technologies"*** for each property, and at each layer of your stack (I call this ***"Full Stack"*** implementation).
+In order to achieve the above ***System Properties*** you have to:<br>
+heir the ***"best people"***, applying the ***"best practices"***, using the ***"best technologies"***<br>
+for each property, and at each layer of your stack (I call this ***"Full Stack"*** implementation).<br>
 
-This is a daunting task because there are so many choices available and so many different ways your system will behave depending on the choices you make for each property at each layer.
+This is a daunting task because there are so many choices available and so many different ways<br>
+your system will behave depending on the choices you make for each property at each layer.<br>
 
-The permutations of choices and behavior quickly explode combinatorally.
+The permutations of choices and behavior quickly explode combinatorally.<br>
 
-This is just one of the causes that makes any System ***"complex"***; and why it requires a qualified ***System Designer*** to achieve these ***System Properties***.
-Other causes of complexity include: non-linear dynamics, chaotic behavior, randomness (difficult to predict), a deep nesting of many layers of abstraction, etc. which are all symptoms of the combinatorial explosion I already mentioned.
-Complexity is incremental.
-Complexity comes from dependencies and obscurity.
-You have to sweat the details.
-Don't let complexity creep in.
+This is just one of the causes that makes any System ***"complex"***;<br>
+and why it requires a qualified ***System Designer*** to achieve these ***System Properties***.<br>
+Other causes of complexity include:<br> 
+non-linear dynamics, chaotic behavior, randomness (difficult to predict),<br>
+a deep nesting of many layers of abstraction, etc. which are all symptoms<br>
+of the combinatorial explosion I already mentioned.<br>
+Complexity is incremental.<br>
+Complexity comes from dependencies and obscurity.<br>
+You have to sweat the details.<br>
+Don't let complexity creep in.<br>
 
 ### So where do you begin?
 
-It always starts with understanding your workload.
+It always starts with understanding your workload.<br>
 
-You can't make the ***"best choices"*** without understanding your workload intimately and ***testing*** it thoroughly.
+You can't make the ***"best choices"*** without understanding your workload intimately and ***testing*** it thoroughly.<br>
 
-Starting from a blank slate is different than inheriting an existing system infrastructure.
+Starting from a blank slate is different than inheriting an existing system infrastructure.<br>
 
 ### Here are some System Design questions to get you started:
 
@@ -86,9 +93,9 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Request-Response (Synchronous)/Event-driven (Asynchronous)?
   - Multitenant/Single Tenant?
   - What Cloud Platform(s) and Services do you use?
-    - AWS has over 535 Cloud Services spanning 20+ Categories https://www.antvaset.com/c/21gjdl7gz4
-    - GCP has over 32 Cloud Services spanning 7 Categories https://cloud.google.com/products/ https://www.infiflex.com/what-are-the-google-cloud-platform-services
-    - Azure has over 295 Cloud Services spanning 21 Categories https://azure.microsoft.com/en-us/products/
+    - AWS has over [535 Cloud Services spanning 20+ Categories](https://www.antvaset.com/c/21gjdl7gz4) 
+    - GCP has over [32 Cloud Services](https://cloud.google.com/products/) [spanning 7 Categories](https://www.infiflex.com/what-are-the-google-cloud-platform-services)
+    - Azure has over [295 Cloud Services spanning 21 Categories](https://azure.microsoft.com/en-us/products/) 
 + What is your Disaster Recovery Plan (DRP)?
   - How often to you practice your DRP?
   - How do you Failover your workload?
