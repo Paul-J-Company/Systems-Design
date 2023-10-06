@@ -17,7 +17,7 @@ Every business has business goals.
 
 These ***System Properties*** align with the high level business goal of ***"satisfy your customers"***.
 
-### Your System is a Stack comprised of Abstract Layers:
+### Your System is a Stack comprised of [Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#computer-abstractions):
 
 * Storage/Data Layer:
 * Network Layer:
@@ -36,9 +36,9 @@ The permutations of choices and behavior quickly explode combinatorally.<br>
 This is just one of the causes that makes any System ***"complex"***;<br>
 and why it requires a qualified ***System Designer*** to achieve these ***System Properties***.<br>
 Other causes of complexity include:<br> 
-non-linear dynamics, chaotic behavior, randomness (difficult to predict),<br>
-a deep nesting of many layers of abstraction, etc. which are all symptoms<br>
-of the combinatorial explosion I already mentioned.<br>
+&ensp;&ensp;non-linear dynamics, chaotic behavior, randomness (difficult to predict),<br>
+&ensp;&ensp;a deep nesting of many layers of abstraction, etc. which are all symptoms<br>
+&ensp;&ensp;of the combinatorial explosion I already mentioned.<br>
 Complexity is incremental.<br>
 Complexity comes from dependencies and obscurity.<br>
 You have to sweat the details.<br>
@@ -154,78 +154,76 @@ Starting from a blank slate is different than inheriting an existing system infr
 ## System Design Topics:
 
 ### Design Principles
-1) Practice these Design Priciples:
-   Practice does NOT make Perfect!
-   Perfect Practive makes Perfect!
-   Practice!, Practice!, Practice!
-   There's no substitute for doing!
-   Book learning will only get you so far.
-2) Design is about making tradeoffs and compromises at all levels of your System.
-   e.g., Security vs. Convenience, Capex vs. Opex, etc.
-   Great design includes great documentation.
-   [Teaching the art of great documentation](https://developers.googleblog.com/2020/07/teaching-art-of-great-documentation.html)
-   [The eight rules of good documentation](https://www.oreilly.com/content/the-eight-rules-of-good-documentation/)
-   [12 Best Documentation Examples (Expert Picks)](https://herothemes.com/blog/best-documentation-examples/)
-   [The importance of documentation](https://www.atlassian.com/work-management/knowledge-sharing/documentation/importance-of-documentation)
-   Be Strategic:
-   The overall goal MUST be a great design.
-   Simplifies future development.
-   Don't be short sighted, have a long term vision for your success!
-   Take extra time today.
-   Pays back in the long run.
-4) Define Clear Objectives:
-5) Define How you Measure Success:
-6) Efficient Communication:
-   ABC = Accurate, Brief and Clear
-   CCC = Correct, Concise, Clear
-   Rule #1: Know your audience!
-   Always stay calm and rational.
-7) Problem Decomposition:
-   https://en.wikipedia.org/wiki/Decomposition_(computer_science)
-8) Keep it Simple Stupid: (KISS)
-   https://en.wikipedia.org/wiki/KISS_principle
-   Complexity is the enemy of clarity!
-9) Separation of Concerns: (SoP)
-   https://en.wikipedia.org/wiki/Separation_of_concerns https://en.wikipedia.org/wiki/Separation_of_content_and_presentation
-10) Single Responsibility Principle: (SRP)
-    https://en.wikipedia.org/wiki/Single_responsibility_principle
-11) Principle of Least Privilege:
-    https://en.wikipedia.org/wiki/Principle_of_least_privilege?=#- aka., (PoLP), Principle of Least Authority (PoLA)
-12) Principle of Compositionality:
-    https://en.wikipedia.org/wiki/Principle_of_compositionality
-13) Abstraction: See: "Computer Abstractions"
+1) Practice these Design Priciples:<br>
+   Practice does NOT make Perfect!<br>
+   Perfect Practice makes Perfect!<br>
+   Practice!, Practice!, Practice!<br>
+   There's no substitute for doing!<br>
+   Book learning will only get you so far.<br>
+2) Design is about making tradeoffs and compromises at all levels of your System.<br>
+   e.g., Security vs. Convenience, Capex vs. Opex, etc.<br>
+   Great design includes great documentation.<br>
+   [Teaching the art of great documentation](https://developers.googleblog.com/2020/07/teaching-art-of-great-documentation.html)<br>
+   [The eight rules of good documentation](https://www.oreilly.com/content/the-eight-rules-of-good-documentation/)<br>
+   [12 Best Documentation Examples (Expert Picks)](https://herothemes.com/blog/best-documentation-examples/)<br>
+   [The importance of documentation](https://www.atlassian.com/work-management/knowledge-sharing/documentation/importance-of-documentation)<br>
+   Be Strategic:<br>
+   The overall goal MUST be a great design.<br>
+   Simplifies future development.<br>
+   Don't be short sighted, have a long term vision for your success!<br>
+   Take extra time today.<br>
+   Pays back in the long run.<br>
+4) Define Clear Objectives:<br>
+5) Define How you Measure Success:<br>
+6) Efficient Communication:<br>
+   ABC = Accurate, Brief and Clear<br>
+   CCC = Correct, Concise, Clear<br>
+   Rule #1: Know your audience!<br>
+   Always stay calm and rational.<br>
+7) [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
+8) [Keep it Simple Stupid: (KISS)](https://en.wikipedia.org/wiki/KISS_principle)<br>
+   Complexity is the enemy of clarity!<br>
+   Simple does not always imply easy!<br>
+9) [Separation of Concerns: (SoP)](https://en.wikipedia.org/wiki/Separation_of_concerns)<br>
+   [Separation of Content and Presentation](https://en.wikipedia.org/wiki/Separation_of_content_and_presentation)<br>
+10) [Single Responsibility Principle: (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle)<br>
+11) [Principle of Least Privilege:](https://en.wikipedia.org/wiki/Principle_of_least_privilege) aka., (PoLP), Principle of Least Authority (PoLA)<br>
+12) [Principle of Compositionality:](https://en.wikipedia.org/wiki/Principle_of_compositionality)<br>
+13) Abstraction:<br>
+    See: "[General Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#general-abstractions)"<br>
+    See: "[Computer Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#computer-abstractions)"<br>
+
+### General Abstractions:
+Coming soon.<br>
+This is a deep philisophical topic.<br>
 
 ### Computer Abstractions:
-I use the terms Layers and Levels interchangably.
-In other words, Layers and Levels are synonyms/equivalent.
-As mentioned above "Your System is a Stack comprised of Abstract Layers".
-Every layer has it's own language/vocabulary/terms/nomenclature.
-Every layer produces and Emergent Higher Layer by defining an Interface.
-An Interface is the location where objects interact/couple/etc.
-I call the combination of all the Layers of your System the "Full Stack".
-John Ousterhout, creator of the TCL Language and TCL/TK likes to ask the following question:
-"What is the most important concept in Computer Science?"
-He asked Donald Knuth this question and his answer was: "Layers of Abstraction".
-John Ousterhout's answer to this question was: "Problem Decomposition".
-https://www.youtube.com/watch?v=lgZ7Cxt5uIU#t=00h03m56s
-*) Abstraction: Abstraction is hiding complexity. Abstraction is a simple interface that hides the complexity behind it. https://en.wikipedia.org/wiki/Abstraction https://en.wikipedia.org/wiki/Abstraction_(computer_science) https://en.wikipedia.org/wiki/Abstraction_layer
-   Information Hiding:
-     https://en.wikipedia.org/wiki/Information_hiding
-   Encapsulation:
-     https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)
-   Modularity:
-     https://en.wikipedia.org/wiki/Modularity
-     https://en.wikipedia.org/wiki/Modular_design
-     https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf
-   Markov Blanket:
-     https://en.wikipedia.org/wiki/Markov_blanket
-   Coupling:
-     https://en.wikipedia.org/wiki/Coupling_(computer_programming)
-     https://en.wikipedia.org/wiki/Loose_coupling
-   Cohesion:
-     https://en.wikipedia.org/wiki/Cohesion_(computer_science) https://www.aivosto.com/project/help/pm-oo-cohesion.html 
-     A cohesive class performs one function.
-     A non-cohesive class performs two or more unrelated functions.
+As mentioned above "[Your System is a Stack comprised of Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#your-system-is-a-stack-comprised-of-abstract-layers)".<br>
+I use the terms Layers and Levels interchangably.<br>
+In other words, Layers and Levels are synonyms/equivalent.<br>
+Every layer has it's own [language](https://en.wikipedia.org/wiki/Category:Language)/[vocabulary](https://en.wikipedia.org/wiki/Category:Vocabulary)/[terminology](https://en.wikipedia.org/wiki/Category:Terminology)/[nomenclature](https://en.wikipedia.org/wiki/Nomenclature).<br>
+Every layer produces and Emergent Higher Layer by defining an Interface.<br>
+An Interface is the location where objects interact/couple/etc.<br>
+I call the combination of all the Layers of your System the "Full Stack".<br>
+John Ousterhout, creator of the TCL Language and TCL/TK likes to ask the following question:<br>
+"What is the most important concept in Computer Science?"<br>
+He asked Donald Knuth this question and his answer was: "Layers of Abstraction".<br>
+John Ousterhout's answer to this question was: "[Problem Decomposition](https://www.youtube.com/watch?v=lgZ7Cxt5uIU#t=00h03m56s)".<br>
+0) [Abstraction:](https://en.wikipedia.org/wiki/Abstraction)<br>
+   Abstraction is hiding complexity and /or [hiding information](https://en.wikipedia.org/wiki/Information_hiding).<br>
+   [Abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) is a simple interface that hides the complexity behind it.<br>
+   An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) includes the following concepts:<br>
+     [Encapsulation:](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)<br>
+     [Modularity:](https://en.wikipedia.org/wiki/Modularity)<br>
+     [Modular Design](https://en.wikipedia.org/wiki/Modular_design)<br>
+     [Criteria for Modularization](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf)<br>
+     [Markov Blanket:](https://en.wikipedia.org/wiki/Markov_blanket)<br>   
+     [Coupling:](https://en.wikipedia.org/wiki/Coupling_(computer_programming))<br>
+     [Loose Coupling](https://en.wikipedia.org/wiki/Loose_coupling)<br>  
+     [Cohesion:](https://en.wikipedia.org/wiki/Cohesion_(computer_science))<br>
+     [Cohesion Metrics](https://www.aivosto.com/project/help/pm-oo-cohesion.html)<br>
+       A cohesive class performs one function.<br>
+       A non-cohesive class performs two or more unrelated functions.<br>
 1) One-to-Many Abstraction:
    Appears and behaves like one thing, but is actually many things.
      Network:
