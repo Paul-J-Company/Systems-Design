@@ -205,7 +205,7 @@ Every layer has it's own [language](https://en.wikipedia.org/wiki/Category:Langu
 Every layer produces and Emergent Higher Layer by defining an Interface.<br>
 An Interface is the location where objects interact/couple/etc.<br>
 I call the combination of all the Layers of your System the "Full Stack".<br>
-John Ousterhout, creator of the TCL Language and TCL/TK likes to ask the following question:<br>
+John Ousterhout, creator of the TCL Language likes to ask the following question:<br>
 "What is the most important concept in Computer Science?"<br>
 He asked Donald Knuth this question and his answer was: "Layers of Abstraction".<br>
 John Ousterhout's answer to this question was: "[Problem Decomposition](https://www.youtube.com/watch?v=lgZ7Cxt5uIU#t=00h03m56s)".<br>
