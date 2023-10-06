@@ -26,7 +26,7 @@ These ***System Properties*** align with the high level business goal of ***"sat
 
 In order to achieve the above ***System Properties*** you have to:<br>
 heir the ***"best people"***, applying the ***"best practices"***, using the ***"best technologies"***<br>
-for each property, and at each layer of your stack (I call this ***"Full Stack"*** implementation).<br>
+for each system property, and at each layer of your stack (I call this ***"Full Stack"*** implementation).<br>
 
 This is a daunting task because there are so many choices available and so many different ways<br>
 your system will behave depending on the choices you make for each property at each layer.<br>
@@ -194,100 +194,97 @@ Starting from a blank slate is different than inheriting an existing system infr
     See: "[Computer Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#computer-abstractions)"<br>
 
 ### General Abstractions:
-Coming soon.<br>
-This is a deep philisophical topic.<br>
+An [Abstraction](https://en.wikipedia.org/wiki/Abstraction) is hiding complexity and/or [hiding information](https://en.wikipedia.org/wiki/Information_hiding).<br>
+[Abstraction in Computer Science](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) is a simple interface that hides the complexity behind it.<br>
+An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) includes the following concepts:<br>
+&ensp;&ensp;[Encapsulation:](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))<br>
+&ensp;&ensp;[Modularity:](https://en.wikipedia.org/wiki/Modularity)<br>
+&ensp;&ensp;&ensp;&ensp;[Criteria for Modularization](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf)<br>
+&ensp;&ensp;&ensp;&ensp;[Modular Design](https://en.wikipedia.org/wiki/Modular_design)<br>
+&ensp;&ensp;[Markov Blanket:](https://en.wikipedia.org/wiki/Markov_blanket)<br>
+&ensp;&ensp;[Coupling:](https://en.wikipedia.org/wiki/Coupling_(computer_programming))<br>
+&ensp;&ensp;&ensp;&ensp;[Loose Coupling](https://en.wikipedia.org/wiki/Loose_coupling)<br>
+&ensp;&ensp;[Cohesion:](https://en.wikipedia.org/wiki/Cohesion_(computer_science))<br>
+&ensp;&ensp;&ensp;&ensp;[Cohesion Metrics](https://www.aivosto.com/project/help/pm-oo-cohesion.html)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A cohesive class performs one function.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A non-cohesive class performs two or more unrelated functions.<br>
 
 ### Computer Abstractions:
-As mentioned above "[Your System is a Stack of Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#your-system-is-a-stack-comprised-of-abstract-layers)".<br>
-I use the terms Layers and Levels interchangably.<br>
-In other words, Layers and Levels are synonyms/equivalent.<br>
-Every layer has it's own [language](https://en.wikipedia.org/wiki/Category:Language)/[vocabulary](https://en.wikipedia.org/wiki/Category:Vocabulary)/[terminology](https://en.wikipedia.org/wiki/Category:Terminology)/[nomenclature](https://en.wikipedia.org/wiki/Nomenclature).<br>
-Every layer produces and Emergent Higher Layer by defining an Interface.<br>
-An Interface is the location where objects interact/couple/etc.<br>
-I call the combination of all the Layers of your System the "Full Stack".<br>
-John Ousterhout, creator of the TCL Language likes to ask the following question:<br>
-"What is the most important concept in Computer Science?"<br>
-He asked Donald Knuth this question and his answer was: "Layers of Abstraction".<br>
-John Ousterhout's answer to this question was: "[Problem Decomposition](https://www.youtube.com/watch?v=lgZ7Cxt5uIU#t=00h03m56s)".<br>
-0) [Abstraction:](https://en.wikipedia.org/wiki/Abstraction)<br>
-   Abstraction is hiding complexity and /or [hiding information](https://en.wikipedia.org/wiki/Information_hiding).<br>
-   [Abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) is a simple interface that hides the complexity behind it.<br>
-   An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) includes the following concepts:<br>
-     [Encapsulation:](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)<br>
-     [Modularity:](https://en.wikipedia.org/wiki/Modularity)<br>
-     [Modular Design](https://en.wikipedia.org/wiki/Modular_design)<br>
-     [Criteria for Modularization](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf)<br>
-     [Markov Blanket:](https://en.wikipedia.org/wiki/Markov_blanket)<br>   
-     [Coupling:](https://en.wikipedia.org/wiki/Coupling_(computer_programming))<br>
-     [Loose Coupling](https://en.wikipedia.org/wiki/Loose_coupling)<br>  
-     [Cohesion:](https://en.wikipedia.org/wiki/Cohesion_(computer_science))<br>
-     [Cohesion Metrics](https://www.aivosto.com/project/help/pm-oo-cohesion.html)<br>
-       A cohesive class performs one function.<br>
-       A non-cohesive class performs two or more unrelated functions.<br>
-1) One-to-Many Abstraction:
-   Appears and behaves like one thing, but is actually many things.
-     Network:
-       Load Balancer:
-       API Gateway:
-       1-to-Many NAT/PAT:
-       Forward Proxy:
-       Reverse Proxy:
-       HSRP/VRRP/CARP:
-       LAG/LACP: aka., NIC Bonding/Teaming/Trunking/Bundling/Channeling
-       MLAG:
-     Storeage:
-       RAID:
-       CRUSH:
-     Compute:
-       Cluster:
-2) Local-Remote Abstraction:
-   Appears and behaves like a local resource, but is actually a remote resource. 
-     Storage:
-       NFS:
-       SMB/CIFS:
-     Compute:
-       API:
-3) Emulation/Simulation/Virtualization Abstraction:
-   Appears and behaves like one thing, but is actually another.
-     Network:
-       Software:
-         OS:
-           Virtual Routing and Forwarding: (VRF)
-           Virtual LAN: (VLAN)
-           Virtual Private Network: (VPN) aka., Tunnel
-           Overlay Network:
-           TCP/IP Stack:
-           OSI Model:
-     Storage:
-       Software:
-         OS:
-           Virtual Memory:
-           Filesystem:
-           Cache:
-     Compute:
-       Software:
-         Type-1 Hypervisor: aka , VMM
-         Type-2 Hypervisor:
-         GuestOS:
-           VM:
-         OS:
-           Container:
-           Shell: aka , Console. Terminal
-           Application:
-           Job:
-           Task:
-           Process:
-           Thread:
-           Fiber:
-           Context Switching:
-           Driver:
-           ISA:
-       Hardware:
-         Registers:
-         L1/L2/L3 Cache:
-         Pipelining:
-         ABI:
-         HAL:
+Introduction:<br>
+&ensp;&ensp;As mentioned above "[Your System is a Stack of Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#your-system-is-a-stack-comprised-of-abstract-layers)".<br>
+&ensp;&ensp;I use the terms Layers and Levels interchangably.<br>
+&ensp;&ensp;In other words, Layers and Levels are synonyms/equivalent.<br>
+&ensp;&ensp;Every layer has it's own [language](https://en.wikipedia.org/wiki/Category:Language)/[vocabulary](https://en.wikipedia.org/wiki/Category:Vocabulary)/[terminology](https://en.wikipedia.org/wiki/Category:Terminology)/[nomenclature](https://en.wikipedia.org/wiki/Nomenclature).<br>
+&ensp;&ensp;Every layer produces and Emergent Higher Layer by defining an Interface.<br>
+&ensp;&ensp;An Interface is the location where objects interact/couple/etc.<br>
+&ensp;&ensp;I call the combination of all the Layers of your System the "Full Stack".<br>
+&ensp;&ensp;John Ousterhout, creator of the TCL Language likes to ask the following question:<br>
+&ensp;&ensp;"What is the most important concept in Computer Science?"<br>
+&ensp;&ensp;He asked Donald Knuth this question and his answer was: "Layers of Abstraction".<br>
+&ensp;&ensp;John Ousterhout's answer to this question was: "[Problem Decomposition](https://www.youtube.com/watch?v=lgZ7Cxt5uIU#t=00h03m56s)".<br>
+
+There are 3 Major Types of Computer Abstraction:<br>
+1. One-to-Many Abstraction:<br>
+   *Appears and behaves like one thing, but is actually many things.*<br>
+   Network:<br>
+   &ensp;&ensp;[Load Balancer:]()  hardware-based and software-based<br>
+   &ensp;&ensp;[API Gateway:]()<br>
+   &ensp;&ensp;[1-to-Many NAT/PAT:]()<br>
+   &ensp;&ensp;[Forward Proxy:]()<br>
+   &ensp;&ensp;[Reverse Proxy:]()<br>
+   &ensp;&ensp;[HSRP]()/[VRRP]()/[CARP:]()<br>
+   &ensp;&ensp;[Link Aggregation Group (LAG)](https://en.wikipedia.org/wiki/Link_aggregation)/[Link Aggregation Control Protocol (LACP):](https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol) aka., NIC Bonding/Teaming/Trunking/Bundling/Channeling<br>
+   &ensp;&ensp;[Multi-Chassis Link Aggregation Group (MLAG):](https://en.wikipedia.org/wiki/Multi-chassis_link_aggregation_group)<br>
+   Storeage:<br>
+   &ensp;&ensp;[RAID:]()<br>
+   &ensp;&ensp;[CRUSH:]()<br>
+   Compute:<br>
+   &ensp;&ensp;[Cluster:](https://en.wikipedia.org/wiki/Computer_cluster)<br>
+2) Local-Remote Abstraction:<br>
+   *Appears and behaves like a local resource, but is actually a remote resource.*<br>
+   Storage:<br>
+   &ensp;&ensp;[Network File System (NFS):]()<br>
+   &ensp;&ensp;[Samba/SMB/CIFS:]()<br>
+   Compute:<br>
+   &ensp;&ensp;[Application Program Interface (API):]()<br>
+3) Emulation/Simulation/Virtualization Abstraction:<br>
+   Appears and behaves like one thing, but is actually another.<br>
+   Network:<br>
+   &ensp;&ensp;OS Implements:<br>
+   &ensp;&ensp;[Virtual Routing and Forwarding: (VRF)]()<br>
+   &ensp;&ensp;[Virtual LAN (VLAN):]()<br>
+   &ensp;&ensp;[Virtual Private Network (VPN):]() aka., Tunnel<br>
+   &ensp;&ensp;[Overlay Network:]()<br>
+   &ensp;&ensp;[TCP/IP Stack:]()<br>
+   &ensp;&ensp;[OSI Model:]()<br>
+   Storage:<br>
+   &ensp;&ensp;OS Implements:<br>
+   &ensp;&ensp;[Virtual Memory:]()<br>
+   &ensp;&ensp;[Filesystem:]()<br>
+   &ensp;&ensp;[Cache:]()<br>
+   Compute:<br>
+   &ensp;&ensp;OS Implements:<br>
+   &ensp;&ensp;[Virtual Machines (VMs):]()<br>
+   &ensp;&ensp;&ensp;&ensp;[Type-1 Hypervisor:]() aka , VMM<br>
+   &ensp;&ensp;&ensp;&ensp;[Type-2 Hypervisor:]()<br>
+   &ensp;&ensp;&ensp;&ensp;[GuestOS:]() runs inside Type-1,2 Hypervisors<br>
+   &ensp;&ensp;[Containers:]()<br>
+   &ensp;&ensp;[Shell:]() aka , Console. Terminal<br>
+   &ensp;&ensp;[Applications:]() aka., Programs<br>
+   &ensp;&ensp;[Jobs:]()<br>
+   &ensp;&ensp;[Tasks:]()<br>
+   &ensp;&ensp;[Processes:]()<br>
+   &ensp;&ensp;[Threads:]()<br>
+   &ensp;&ensp;[Fibers:]()<br>
+   &ensp;&ensp;[Context Switching:]()<br>
+   &ensp;&ensp;[Drivers:]()<br>
+   &ensp;&ensp;[Instruction Set Architecture (ISA)](https://en.wikipedia.org/wiki/Category:Instruction_set_architectures):<br>
+   &ensp;&ensp;Hardware Implements:<br>
+   &ensp;&ensp;&ensp;&ensp;[Registers:]()<br>
+   &ensp;&ensp;&ensp;&ensp;[L1/L2/L3 Cache:]()<br>
+   &ensp;&ensp;&ensp;&ensp;[Pipelining:]()<br>
+   &ensp;&ensp;&ensp;&ensp;[Application Binary Interface (ABI)]():<br>
+   &ensp;&ensp;&ensp;&ensp;[Hardware Abstraction Layer (HAL)]():<br>
 
 ### System Property Definitions:
 Security:
