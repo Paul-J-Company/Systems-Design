@@ -227,24 +227,25 @@ There are 3 Major Types of Computer Abstraction:<br>
 1. One-to-Many Abstraction:<br>
    *Appears and behaves like one thing, but is actually many things.*<br>
    Network:<br>
-   &ensp;&ensp;[Load Balancer:]()  hardware-based and software-based<br>
-   &ensp;&ensp;[API Gateway:]()<br>
-   &ensp;&ensp;[1-to-Many NAT/PAT:]()<br>
-   &ensp;&ensp;[Forward Proxy:]()<br>
-   &ensp;&ensp;[Reverse Proxy:]()<br>
-   &ensp;&ensp;[HSRP]()/[VRRP]()/[CARP:]()<br>
+   &ensp;&ensp;[Load Balancer:](https://en.wikipedia.org/wiki/Load_balancing_(computing))  hardware-based and software-based<br>
+   &ensp;&ensp;[API Gateway:](https://en.wikipedia.org/wiki/API_management#Gateway)<br>
+   &ensp;&ensp;[1-to-Many NAT/PAT:](https://en.wikipedia.org/wiki/Network_address_translation#One-to-many_NAT)<br>
+   &ensp;&ensp;[Forward Proxy:](https://en.wikipedia.org/wiki/Proxy_server#Forward_proxies)<br>
+   &ensp;&ensp;[Reverse Proxy:](https://en.wikipedia.org/wiki/Reverse_proxy)<br>
+   &ensp;&ensp;[HSRP](https://en.wikipedia.org/wiki/Hot_Standby_Router_Protocol)/[VRRP](https://en.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol)/[CARP:](https://en.wikipedia.org/wiki/Common_Address_Redundancy_Protocol)<br>
    &ensp;&ensp;[Link Aggregation Group (LAG)](https://en.wikipedia.org/wiki/Link_aggregation)/[Link Aggregation Control Protocol (LACP):](https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol) aka., NIC Bonding/Teaming/Trunking/Bundling/Channeling<br>
    &ensp;&ensp;[Multi-Chassis Link Aggregation Group (MLAG):](https://en.wikipedia.org/wiki/Multi-chassis_link_aggregation_group)<br>
    Storeage:<br>
-   &ensp;&ensp;[RAID:]()<br>
-   &ensp;&ensp;[CRUSH:]()<br>
+   &ensp;&ensp;[RAID:](https://en.wikipedia.org/wiki/Raid)<br>
+   &ensp;&ensp;[Controlled Replication Under Scalable Hashing (CRUSH):](https://ceph.com/assets/pdfs/weil-crush-sc06.pdf)<br>
    Compute:<br>
    &ensp;&ensp;[Cluster:](https://en.wikipedia.org/wiki/Computer_cluster)<br>
 2) Local-Remote Abstraction:<br>
    *Appears and behaves like a local resource, but is actually a remote resource.*<br>
    Storage:<br>
-   &ensp;&ensp;[Network File System (NFS):]()<br>
-   &ensp;&ensp;[Samba/SMB/CIFS:]()<br>
+   &ensp;&ensp;[Clusterd Filesystems:](https://en.wikipedia.org/wiki/Clustered_file_system) aka., Distributed Filesystems<br>
+   &ensp;&ensp;[Network File System (NFS):](https://en.wikipedia.org/wiki/Network_File_System)<br>
+   &ensp;&ensp;[Samba](https://en.wikipedia.org/wiki/Samba)/[SMB/CIFS](https://en.wikipedia.org/wiki/Server_Message_Block):<br>
    Compute:<br>
    &ensp;&ensp;[Application Program Interface (API):]()<br>
 3) Emulation/Simulation/Virtualization Abstraction:<br>
