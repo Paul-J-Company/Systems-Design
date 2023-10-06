@@ -17,7 +17,7 @@ Every business has business goals.
 
 These ***System Properties*** align with the high level business goal of ***"satisfy your customers"***.
 
-### Your System is a Stack comprised of [Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#computer-abstractions):
+### Your System is a Stack of [Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#computer-abstractions):
 
 * Storage/Data Layer:
 * Network Layer:
@@ -198,7 +198,7 @@ Coming soon.<br>
 This is a deep philisophical topic.<br>
 
 ### Computer Abstractions:
-As mentioned above "[Your System is a Stack comprised of Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#your-system-is-a-stack-comprised-of-abstract-layers)".<br>
+As mentioned above "[Your System is a Stack of Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#your-system-is-a-stack-comprised-of-abstract-layers)".<br>
 I use the terms Layers and Levels interchangably.<br>
 In other words, Layers and Levels are synonyms/equivalent.<br>
 Every layer has it's own [language](https://en.wikipedia.org/wiki/Category:Language)/[vocabulary](https://en.wikipedia.org/wiki/Category:Vocabulary)/[terminology](https://en.wikipedia.org/wiki/Category:Terminology)/[nomenclature](https://en.wikipedia.org/wiki/Nomenclature).<br>
