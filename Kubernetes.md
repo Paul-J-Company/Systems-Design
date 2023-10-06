@@ -1,8 +1,8 @@
 
 # Kubernetes
 
-### When someone says: "I'm running Kubernetes?"<br>
-### What does that really mean?<br>
+### When someone says: "I'm running Kubernetes?"<br> 
+### What does that really mean?<br> 
 The following is my attempt to answer that simple question,<br>
 which as you'll see, has an involved answer.<br>
 
