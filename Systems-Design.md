@@ -384,264 +384,264 @@ High Availability (HA):<br>
 &ensp;&ensp;&ensp;&ensp;to verify the hot-standby device is working properly.<br>
 
 ### IT Industry Definitions/Buzzwords:
-What is a Data Center? 
-  There are currently four data center tiers, ranked by performance and uptime.
-  https://phoenixnap.com/blog/data-center-tiers-classification
-  https://www.impactmybiz.com/blog/data-center-tiers-explained/
-What is Infrastructure as Code (IaC)?
-  IAC is a DevOps practice of managing infrastructure in a declarative manner using code,
-  rather than manually configuring it through a graphical user interface.
-  Declarative: The process of declaring your desired result and the system "learns" how to achieve it.
-  Imperative: The process of explaining every step to accomplish a desired result.
-What is Platform as a Service (PaaS)?
-  PaaS is an abstraction over infrastructure that runs applications and hosts stacks.
-  PaaS supports custom workflows to enable teams to function efficiently.
-  PaaS enables the introduction of new ways to build, run, and deploy apps easily.
-  PaaS allows underlying technology to be swapped out with no impact on teams.
-What is Platform Engineering?
-  Platform Engineering ensures that there isn't an "us and them" mentality,
-  which leads to a bad overall customer experience.
-  Platform Engineering is all about accelerating software delivery efficiency and velocity.
-  Platform Engineering gives developers the tools they want to use.
-What is Site Reliability Engineering (SRE)?
-  SRE is all about performance and application/system reliability.
-  SRE is the practice of using software tools to automate IT infrastructure
-  tasks such as system management and application monitoring.
-  SRE teams use software as a tool to manage systems, solve problems, and automate operations tasks.
-What is DevOps?
-  DevOps is supposed to solve the problem of siloed teams blaming each other when things go wrong.
-  DevOps is mainly a culture of communication and cross-functional collaboration.
-  DevOps is a set of practices that emphasizes collaboration and communication
-  between software developers and IT operations professionals to deliver software
-  faster and more efficiently.
-  DevOps helps to automate the process of software development, testing, deployment, and operations.
-  Continuous Feedback is a DevOps practice where feedback is continuously
-  collected and incorporated into the development process.
-  Visualizing DevOps in Kubernetes
-  https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf
-What is DevSecOps?
-  DevSecOps is a way of approaching IT security with an "everyone is responsible for security" mindset.
-  The goal of DevSecOps is to incorporate security into all stages of the software development workflow.
-  Some common security practices in DevSecOps include:
-  code reviews, automated security testing, secure configuration management, and threat modeling.
-What is DORA?
-  DORA stands for DevOps Research and Assessment (DORA) team.
-  DORA is a team at Google who investigates the State of DevOps.
-  DORA's objective is in helping organizations achieve high DevOps
-  and organizational performance with data-driven insights.
-  The DORA team publishes reports like:
-  https://cloud.google.com/devops/state-of-devops/
-  https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance
-  https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling
-What is GitOps?
-  GitOps is centered around using a version control system (such as Git, GitLab, Github)
-  to house all information, documentation, and code for a Kubernetes deployment,
-  and then use automated directors to deploy changes to the cluster.
-  GitOps enables the same process developers use to merge code using pull requests
-  or merge requests to be used to deploy to Kubernetes.
-  In a GitOps workflow the desired state of your infrastructure is
-  represented by the configurations stored in a Git repository.
-  This Git repository serves as the single source of truth,
-  and GitOps enforces the state that the cluster should be in.
-  Any changes to the cluster are made by updating the configuration files
-  in the Git repository, rather than directly interacting with the cluster.
-  GitOps enables an auditable and reproducible process for deployments.
-  Rollbacks become as simple as reverting to a known working state in the Git history.
-  The changes in the infrastructure can be seen easily in the git log.
-  GitOps allows for automatic and continuous synchronization between the
-  desired state in the Git repository and the actual state in the cluster,
-  ensuring consistency across environments, simplifying the traditionally
-  complex CI/CD pipelines, and reducing human error.
-  GitOps promotes collaboration and transparency among development and operations teams.
-  Changes to the cluster are transparently tracked in Git,
-  making it easy for team members to understand what's happening and when.
-  GitOps provides self-heal capabilities.
-  If somebody changes the state of the infrastructure manually, the state
-  will automatically change to reflect what is defined in the Git repository.
-  This brings resilience and a cluster that will be easier to debug if there is a problem.
-  In GitOps, the traditional CI/CD pipeline is "reversed".
-  This is called "pull-based deployments", where the target cluster constantly
-  "pulls" its desired state from the Git repository, rather than relying on a
-  "push" from an external entity (e.g. a CI/CD tool like Jenkins or Github Actions).
-  This "pull" approach provides a self-healing mechanism, allowing the cluster to
-  autonomously converge to the desired state even if it drifts due to manual changes
-  or unforeseen events.
-  One of the decisions you have to make as a Platform Engineer using GitOps is
-  how you structure your Git repo: repo-per-app, repo-per-team, monrepo, etc.
-  I always apply the Separation of Concerns Principle and typically use repo-per-app.
-  But it really depends on how your Organization works and is structured.
-  Trying all methods isn't a bad idea to see which one works best.
-  Visualizing IaC with and without GitOps
+What is a Data Center?<br>
+&ensp;&ensp;A Data Center is a physical building located around the world that houses your Platforms, Systems, Workloads.<br>
+&ensp;&ensp;There are currently [four data center tiers](https://phoenixnap.com/blog/data-center-tiers-classification), [ranked by performance and uptime](https://www.impactmybiz.com/blog/data-center-tiers-explained/<).<br>
+What is Infrastructure as Code (IaC)?<br>
+&ensp;&ensp;IAC is a DevOps practice of managing infrastructure in a declarative manner using code,<br>
+&ensp;&ensp;rather than manually configuring it through a graphical user interface.<br>
+&ensp;&ensp;Declarative: The process of declaring your desired result and the system "learns" how to achieve it.<br>
+&ensp;&ensp;Imperative: The process of explaining every step to accomplish a desired result.<br>
+What is Platform as a Service (PaaS)?<br>
+&ensp;&ensp;PaaS is an abstraction over infrastructure that runs applications and hosts stacks.<br>
+&ensp;&ensp;PaaS supports custom workflows to enable teams to function efficiently.<br>
+&ensp;&ensp;PaaS enables the introduction of new ways to build, run, and deploy apps easily.<br>
+&ensp;&ensp;PaaS allows underlying technology to be swapped out with no impact on teams.<br>
+What is Platform Engineering?<br>
+&ensp;&ensp;Platform Engineering ensures that there isn't an "us and them" mentality,<br>
+&ensp;&ensp;which leads to a bad overall customer experience.<br>
+&ensp;&ensp;Platform Engineering is all about accelerating software delivery efficiency and velocity.<br>
+&ensp;&ensp;Platform Engineering gives developers the tools they want to use.<br>
+What is Site Reliability Engineering (SRE)?<br>
+&ensp;&ensp;SRE is all about performance and application/system reliability.<br>
+&ensp;&ensp;SRE is the practice of using software tools to automate IT infrastructure<br>
+&ensp;&ensp;tasks such as system management and application monitoring.<br>
+&ensp;&ensp;SRE teams use software as a tool to manage systems, solve problems, and automate operations tasks.<br>
+What is DevOps?<br>
+&ensp;&ensp;DevOps is supposed to solve the problem of siloed teams blaming each other when things go wrong.<br>
+&ensp;&ensp;DevOps is mainly a culture of communication and cross-functional collaboration.<br>
+&ensp;&ensp;DevOps is a set of practices that emphasizes collaboration and communication<br>
+&ensp;&ensp;between software developers and IT operations professionals to deliver software<br>
+&ensp;&ensp;faster and more efficiently.<br>
+&ensp;&ensp;DevOps helps to automate the process of software development, testing, deployment, and operations.<br>
+&ensp;&ensp;Continuous Feedback is a DevOps practice where feedback is continuously<br>
+&ensp;&ensp;collected and incorporated into the development process.<br>
+&ensp;&ensp;[Visualizing DevOps in Kubernetes](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf)<br>
+What is DevSecOps? aka., SecOps<br>
+&ensp;&ensp;DevSecOps is a way of approaching IT security with an "everyone is responsible for security" mindset.<br>
+&ensp;&ensp;The goal of DevSecOps is to incorporate security into all stages of the software development workflow.<br>
+&ensp;&ensp;Some common security practices in DevSecOps include:<br>
+&ensp;&ensp;code reviews, automated security testing, secure configuration management, and threat modeling.<br>
+What is DORA?<br>
+&ensp;&ensp;[DORA](https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling) stands for DevOps Research and Assessment (DORA) team.<br>
+&ensp;&ensp;DORA is a team at Google who investigates the State of DevOps.<br>
+&ensp;&ensp;DORA's objective is in helping organizations achieve high DevOps<br>
+&ensp;&ensp;and organizational performance with data-driven insights.<br>
+&ensp;&ensp;The DORA team publishes reports like:<br>
+&ensp;&ensp;[2023 State of DevOps Report](https://cloud.google.com/devops/state-of-devops/)<br>
+&ensp;&ensp;[Using the Four Keys to measure your DevOps Performance](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance)<br>
+&ensp;&ensp;[The Four Keys](https://github.com/dora-team/fourkeys)<br>
+&ensp;&ensp;[2021 Accelerate State of DevOps report addresses burnout, team performance](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report)<br>
+&ensp;&ensp;[Google Cloud DevOps Awards](https://cloud.google.com/awards/devops)<br>
+What is GitOps?<br>
+  GitOps is centered around using a version control system (such as Git, GitLab, Github)<br>
+  to house all information, documentation, and code for a Kubernetes deployment,<br>
+  and then use automated directors to deploy changes to the cluster.<br>
+  GitOps enables the same process developers use to merge code using pull requests<br>
+  or merge requests to be used to deploy to Kubernetes.<br>
+  In a GitOps workflow the desired state of your infrastructure is<br>
+  represented by the configurations stored in a Git repository.<br>
+  This Git repository serves as the single source of truth,<br>
+  and GitOps enforces the state that the cluster should be in.<br>
+  Any changes to the cluster are made by updating the configuration files<br>
+  in the Git repository, rather than directly interacting with the cluster.<br>
+  GitOps enables an auditable and reproducible process for deployments.<br>
+  Rollbacks become as simple as reverting to a known working state in the Git history.<br>
+  The changes in the infrastructure can be seen easily in the git log.<br>
+  GitOps allows for automatic and continuous synchronization between the<br>
+  desired state in the Git repository and the actual state in the cluster,<br>
+  ensuring consistency across environments, simplifying the traditionally<br>
+  complex CI/CD pipelines, and reducing human error.<br>
+  GitOps promotes collaboration and transparency among development and operations teams.<br>
+  Changes to the cluster are transparently tracked in Git,<br>
+  making it easy for team members to understand what's happening and when.<br>
+  GitOps provides self-heal capabilities.<br>
+  If somebody changes the state of the infrastructure manually, the state<br>
+  will automatically change to reflect what is defined in the Git repository.<br>
+  This brings resilience and a cluster that will be easier to debug if there is a problem.<br>
+  In GitOps, the traditional CI/CD pipeline is "reversed".<br>
+  This is called "pull-based deployments", where the target cluster constantly<br>
+  "pulls" its desired state from the Git repository, rather than relying on a<br>
+  "push" from an external entity (e.g. a CI/CD tool like Jenkins or Github Actions).<br>
+  This "pull" approach provides a self-healing mechanism, allowing the cluster to<br>
+  autonomously converge to the desired state even if it drifts due to manual changes<br>
+  or unforeseen events.<br>
+  One of the decisions you have to make as a Platform Engineer using GitOps is<br>
+  how you structure your Git repo: repo-per-app, repo-per-team, monrepo, etc.<br>
+  I always apply the Separation of Concerns Principle and typically use repo-per-app.<br>
+  But it really depends on how your Organization works and is structured.<br>
+  Trying all methods isn't a bad idea to see which one works best.<br>
+  Visualizing IaC with and without GitOps<br>
   https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_1T9Tx62ig3yqX26IHIoWQ.png
-What is FinOps?
-  FinOps is about spending your money most cost-effectively.
-  Yes, this might mean spending less money, but it also might
-  mean spending more money and making more money.
-What is a Software Development LifeCycle (SDLC)?
-  SDLC is a framework that describes the stages involved in the development of software.
-  The typical stages of the SDLC include:
-    1) Planning: 
-    2) Analysis:
-    3) Design:
-    4) Implementation:
-    5) Testing:
-    6) Deployment:
-    7) Maintenance:
-  Visualizing SDLC:   
+What is FinOps?<br>
+  FinOps is about spending your money most cost-effectively.<br>
+  Yes, this might mean spending less money, but it also might<br>
+  mean spending more money and making more money.<br>
+What is a Software Development LifeCycle (SDLC)?<br>
+  SDLC is a framework that describes the stages involved in the development of software.<br>
+  The typical stages of the SDLC include:<br>
+    1) Planning:<br>
+    2) Analysis:<br>
+    3) Design:<br>
+    4) Implementation:<br>
+    5) Testing:<br>
+    6) Deployment:<br>
+    7) Maintenance:<br>
+  Visualizing SDLC:<br> 
   https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg
-What is CI/CD?
-  CI/CD stands for Continuous Integration/Continuous Delivery or Deployment
-  A CI/CD Pipeline is a series of steps that must be performed
-  in order to deliver a new version of software.
-  GitOps simplifies CI/CD Pipelines.
-What is a Software Deployment?
-  Kubernetes enables easy application deployment.
-  There are many types of deployment strategies.
-  Here are 3 popular Deployment Strategies:
-  1) Canary Deployment:
-     A technique for rolling out new features or changes to a small subset
-     of users or servers before releasing the update to the entire system.
-     A Canary deployment strategy is used for applications that require frequent updates.
-  2) Rolling Deployment:
-     A strategy for updating and deploying new versions of software in a controlled and gradual manner.
-     Instead of deploying updates all at once,
-     a rolling deployment rolls out changes incrementally,
-     reducing the risk of downtime and allowing for easy rollbacks in case of errors.
-     A Rolling deployment strategy is ideal for applications that require zero downtime during deployment.
-  3) Blue-Green Deployment:
-     Involves running two identical environments,
-     one serving as the active production environment (blue)
-     and the other as a new release candidate (green).
-     The new release candidate is thoroughly tested
-     before being switched with the production environment,
-     allowing for a smooth transition without any downtime or errors.
-What is a Polystore?
-  A polystore is the combining of different database technologies tailored for specific use cases,
-  enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure. 
-  Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.
-What is Serverless?
-  The purpose of serverless technology is to provide a way
-  to build and run applications without having to consider
-  the underlying hosts at all.
-  To support serverless applications, a cloud provider provisions
-  and deallocates servers as needed behind the scenes.
-  Containers and serverless can work together. 
-  For instance, the core of your application may run on containers,
-  but some supplementary backend tasks, such as user authentication,
-  may run on serverless functions.
-What is a Microservice Application?
-  The term microservice is not a well-defined term.
-  There is no rigorous/unambiguous definition of when a service starts or stops being a microservice.
-  In general, a microservice is an architectural pattern that arranges an application
-  as a collection of loosely-coupled, fine-grained services, communicating through lightweight protocols.
-  The key attribute is microservices need to be independent of one another (loosely-coupled).
-  Microservices run on multiple computers and communicate with each other via networked connections.
-  Transactions add complexity to running microservice architectures, compared to a monolith.
-  In workloads that cannot run concurrently across the network, monoliths may deliver better performance.
-  The main advantages of microservices are that you can scale them horizontally and you can deploy them
-  independently, so each team can deploy in parallel, accelerating the deployment process.
-  The other advantage is each team can use the programming language that best suits the service.
-What is a Monolithic Application?
-  An application is made up of services.
-  A monolithic application all services run on one process/threads (memory space) on one server.
-  The communication amoung services is done via Interprocess Communication (IPC) channels.
-  In contrast, microservices communicate via Network Interface Cards (NICs) which are much slower.
-  If your workload requires fast service communication, then a monolith may deliver better performance.
-What is Event Driven Architecure (EDA)?
-  EDAs are composed of loosely-coupled distributed services connected by asynchronous events.
-  EDAs are a way of designing and building systems that are based on the exchange of events.
-  Events are notifications of some change in state or data,
-  and they are typically published by one component and consumed by another in real time.
-What is Zero Trust?
-  Zero Trust security is an IT security model that requires strict identity verification
-  for every person and device trying to access resources on a private network,
-  regardless of whether they are sitting within or outside of the network perimeter.
-What is OWASP?
-  Open Web Application Security Project: (OWASP)
-  OWASP is a community initiative focused on improving web application security
-  through providing open-source methodologies, tools, and techniques. 
-What is CASB?
-  Cloud Access Security Broker: (CASB)
-  CASB acts as a bridge between an organization's 
-  on-premises infrastructure and the cloud services it employs.
-  The primary focus of CASB is to ensure that sensitive data
-  remains secure and compliant while employees access cloud-based resources.
-What is SASE?
-  Secure Access Service Edge: (SASE)
-  SASE provides a holistic approach to networking and security in a cloud-native environment.
-  SASE is an architectural framework that merges wide-area networking (WAN) capabilities
-  with security functions, all delivered as a cloud-based service.
-What is CNAPP?
-  Cloud Native APplication Protection: (CNAPP)
-  A CNAPP is a holistic security solution that provides
-  all the key features organizations need to secure cloud
-  workloads across all life cycle stages.
-  CNAPPs offer a variety of important advantages compared to disparate,
-  siloed collections of cloud security tools. 
-  CNAPPs typically cover:
-    1) CI/CD security management.
-    2) Security testing and scanning of application binaries and container images.
-    3) Managing risks associated with cloud service configuration.
-    4) Managing cloud user identities and permissions.
-    5) API security.
-    6) Data security.
-What is Observability?
-  Observability is about recording, organizing and visualizing data. 
-  Observability is the ability to ask new questions of the health
-  of your running services without deploying new instrumentation.
-  The term comes from control theory, which defines observability
-  as the ability to understand the internal state of a system from
-  its external outputs (source).
-  Observability vs. Monitoring:
-  Observability helps you get closer and closer to the root cause of an issue;
-  showing you what components were involved.
-  Monitoring just lets you known something's wrong.
-What is Telemetry?
-  Telemetry consists of those external "outputs" mentioned in observability.
-  Telemetry is the data generated by your system that documents its state.
-  Telemetry gets generated because of instrumentation:
-  code or tooling that captures data about the state of your running system
-  and stores it in various formats.
-  Telemetry refers to data emitted from a system, about its behavior.
-  Examples of software telemetry include: metrics, logs, traces, and structured events.
-What is OpenTelemetry?
-  OpenTelemetry is an industry-standard.
-  OpenTelemetry is a vendor-neutral open-source Observability framework
-  for instrumenting, generating, collecting, and exporting telemetry data
-  such as (traces, metrics, logs).
-  OpenTelemetry is the mechanism by which application
-  code is instrumented, to help make a system observable.
-  OpenTelemetry is natively supported by a number of vendors.
-  List of Vendors that support OpenTelemetry:
+What is CI/CD?<br>
+  CI/CD stands for Continuous Integration/Continuous Delivery or Deployment<br>
+  A CI/CD Pipeline is a series of steps that must be performed<br>
+  in order to deliver a new version of software.<br>
+  GitOps simplifies CI/CD Pipelines.<br>
+What is a Software Deployment?<br>
+  Kubernetes enables easy application deployment.<br>
+  There are many types of deployment strategies.<br>
+  Here are 3 popular Deployment Strategies:<br>
+  1) Canary Deployment:<br>
+     A technique for rolling out new features or changes to a small subset<br>
+     of users or servers before releasing the update to the entire system.<br>
+     A Canary deployment strategy is used for applications that require frequent updates.<br>
+  2) Rolling Deployment:<br>
+     A strategy for updating and deploying new versions of software in a controlled and gradual manner.<br>
+     Instead of deploying updates all at once,<br>
+     a rolling deployment rolls out changes incrementally,<br>
+     reducing the risk of downtime and allowing for easy rollbacks in case of errors.<br>
+     A Rolling deployment strategy is ideal for applications that require zero downtime during deployment.<br>
+  3) Blue-Green Deployment:<br>
+     Involves running two identical environments,<br>
+     one serving as the active production environment (blue)<br>
+     and the other as a new release candidate (green).<br>
+     The new release candidate is thoroughly tested<br>
+     before being switched with the production environment,<br>
+     allowing for a smooth transition without any downtime or errors.<br>
+What is a Polystore?<br>
+  A polystore is the combining of different database technologies tailored for specific use cases,<br>
+  enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure.<br>
+  Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.<br>
+What is Serverless?<br>
+  The purpose of serverless technology is to provide a way<br>
+  to build and run applications without having to consider<br>
+  the underlying hosts at all.<br>
+  To support serverless applications, a cloud provider provisions<br>
+  and deallocates servers as needed behind the scenes.<br>
+  Containers and serverless can work together.<br>
+  For instance, the core of your application may run on containers,<br>
+  but some supplementary backend tasks, such as user authentication,<br>
+  may run on serverless functions.<br>
+What is a Microservice Application?<br>
+  The term microservice is not a well-defined term.<br>
+  There is no rigorous/unambiguous definition of when a service starts or stops being a microservice.<br>
+  In general, a microservice is an architectural pattern that arranges an application<br>
+  as a collection of loosely-coupled, fine-grained services, communicating through lightweight protocols.<br>
+  The key attribute is microservices need to be independent of one another (loosely-coupled).<br>
+  Microservices run on multiple computers and communicate with each other via networked connections.<br>
+  Transactions add complexity to running microservice architectures, compared to a monolith.<br>
+  In workloads that cannot run concurrently across the network, monoliths may deliver better performance.<br>
+  The main advantages of microservices are that you can scale them horizontally and you can deploy them<br>
+  independently, so each team can deploy in parallel, accelerating the deployment process.<br>
+  The other advantage is each team can use the programming language that best suits the service.<br>
+What is a Monolithic Application?<br>
+  An application is made up of services.<br>
+  A monolithic application all services run on one process/threads (memory space) on one server.<br>
+  The communication amoung services is done via Interprocess Communication (IPC) channels.<br>
+  In contrast, microservices communicate via Network Interface Cards (NICs) which are much slower.<br>
+  If your workload requires fast service communication, then a monolith may deliver better performance.<br>
+What is Event Driven Architecure (EDA)?<br>
+  EDAs are composed of loosely-coupled distributed services connected by asynchronous events.<br>
+  EDAs are a way of designing and building systems that are based on the exchange of events.<br>
+  Events are notifications of some change in state or data,<br>
+  and they are typically published by one component and consumed by another in real time.<br>
+What is Zero Trust?<br>
+  Zero Trust security is an IT security model that requires strict identity verification<br>
+  for every person and device trying to access resources on a private network,<br>
+  regardless of whether they are sitting within or outside of the network perimeter.<br>
+What is OWASP?<br>
+  Open Web Application Security Project: (OWASP)<br>
+  OWASP is a community initiative focused on improving web application security<br>
+  through providing open-source methodologies, tools, and techniques.<br>
+What is CASB?<br>
+  Cloud Access Security Broker: (CASB)<br>
+  CASB acts as a bridge between an organization's<br>
+  on-premises infrastructure and the cloud services it employs.<br>
+  The primary focus of CASB is to ensure that sensitive data<br>
+  remains secure and compliant while employees access cloud-based resources.<br>
+What is SASE?<br>
+  Secure Access Service Edge: (SASE)<br>
+  SASE provides a holistic approach to networking and security in a cloud-native environment.<br>
+  SASE is an architectural framework that merges wide-area networking (WAN) capabilities<br>
+  with security functions, all delivered as a cloud-based service.<br>
+What is CNAPP?<br>
+  Cloud Native APplication Protection: (CNAPP)<br>
+  A CNAPP is a holistic security solution that provides<br>
+  all the key features organizations need to secure cloud<br>
+  workloads across all life cycle stages.<br>
+  CNAPPs offer a variety of important advantages compared to disparate,<br>
+  siloed collections of cloud security tools.<br>
+  CNAPPs typically cover:<br>
+    1) CI/CD security management.<br>
+    2) Security testing and scanning of application binaries and container images.<br>
+    3) Managing risks associated with cloud service configuration.<br>
+    4) Managing cloud user identities and permissions.<br>
+    5) API security.<br>
+    6) Data security.<br>
+What is Observability?<br>
+  Observability is about recording, organizing and visualizing data.<br>
+  Observability is the ability to ask new questions of the health<br>
+  of your running services without deploying new instrumentation.<br>
+  The term comes from control theory, which defines observability<br>
+  as the ability to understand the internal state of a system from<br>
+  its external outputs (source).<br>
+  Observability vs. Monitoring:<br>
+  Observability helps you get closer and closer to the root cause of an issue;<br>
+  showing you what components were involved.<br>
+  Monitoring just lets you known something's wrong.<br>
+What is Telemetry?<br>
+  Telemetry consists of those external "outputs" mentioned in observability.<br>
+  Telemetry is the data generated by your system that documents its state.<br>
+  Telemetry gets generated because of instrumentation:<br>
+  code or tooling that captures data about the state of your running system<br>
+  and stores it in various formats.<br>
+  Telemetry refers to data emitted from a system, about its behavior.<br>
+  Examples of software telemetry include: metrics, logs, traces, and structured events.<br>
+What is OpenTelemetry?<br>
+  OpenTelemetry is an industry-standard.<br>
+  OpenTelemetry is a vendor-neutral open-source Observability framework<br>
+  for instrumenting, generating, collecting, and exporting telemetry data<br>
+  such as (traces, metrics, logs).<br>
+  OpenTelemetry is the mechanism by which application<br>
+  code is instrumented, to help make a system observable.<br>
+  OpenTelemetry is natively supported by a number of vendors.<br>
+  List of Vendors that support OpenTelemetry:<br>
   https://opentelemetry.io/ecosystem/vendors/
-  Cloud Observability, Grafana Labs, Jaeger, SigNoz, AppDynamics, etc.
-What is High-Cardinality Data: (HCD)
-  HCD is a large set of unique values that can be queried and analyzed
-  and is the most effective data when it comes to resolving an incident.
-  The ability to properly analyze high-cardinality data leads to faster incident resolution.
-  High-cardinality data can showcase the "where" and the "why" of a problem,
-  and nothing is more effective at finding anomalies.
-  To achieve true observability, leveraging high-cardinality data is a must.
-  Cardinality is simply a reflection of an attribute's uniqueness.
-  A user-ID, Social Security Number, Passport ID, Email Address are all
-  high cardinality attributes, while geo-location is low cardinality.
-  Low-cardinality data can help teams examine broad patterns in a service.
-  High-cardinality data is a narrow magnifying glass into a service's problems,
-  making it possible to look at outlying events that can help guide troubleshooting efforts.
-What is High-Dimensionality data: (HDD)
-  While high cardinality refers to a large number of data points (values) in a given attribute,
-  dimensionality takes it further: how many attributes does an event have?
-  Being able to analyze trends across many dimensions quickly is important
-  when you're trying to figure out what changed but don't know what to ask.
-  When you're trying to solve unknown-unknowns, high-dimensionality data is your friend.
-What is Curse of Dimensionality:
-  The curse of dimensionality refers to various phenomena that arise when
-  analyzing and organizing data in high-dimensional spaces that do not
-  occur in low-dimensional settings such as the three-dimensional physical
-  space of everyday experience.
-  The amount of data needed often grows exponentially with the dimensionality.
-  In high dimensional data, all objects appear to be sparse and dissimilar in many ways,
-  which prevents common data organization strategies from being efficient.
+  Cloud Observability, Grafana Labs, Jaeger, SigNoz, AppDynamics, etc.<br>
+What is High-Cardinality Data (HCD):<br>
+  HCD is a large set of unique values that can be queried and analyzed<br>
+  and is the most effective data when it comes to resolving an incident.<br>
+  The ability to properly analyze high-cardinality data leads to faster incident resolution.<br>
+  High-cardinality data can showcase the "where" and the "why" of a problem,<br>
+  and nothing is more effective at finding anomalies.<br>
+  To achieve true observability, leveraging high-cardinality data is a must.<br>
+  Cardinality is simply a reflection of an attribute's uniqueness.<br>
+  A user-ID, Social Security Number, Passport ID, Email Address are all<br>
+  high cardinality attributes, while geo-location is low cardinality.<br>
+  Low-cardinality data can help teams examine broad patterns in a service.<br>
+  High-cardinality data is a narrow magnifying glass into a service's problems,<br>
+  making it possible to look at outlying events that can help guide troubleshooting efforts.<br>
+What is High-Dimensionality Data (HDD):<br>
+  While high cardinality refers to a large number of data points (values) in a given attribute,<br>
+  dimensionality takes it further: how many attributes does an event have?<br>
+  Being able to analyze trends across many dimensions quickly is important<br>
+  when you're trying to figure out what changed but don't know what to ask.<br>
+  When you're trying to solve unknown-unknowns, high-dimensionality data is your friend.<br>
+What is Curse of Dimensionality:<br>
+  The curse of dimensionality refers to various phenomena that arise when<br>
+  analyzing and organizing data in high-dimensional spaces that do not<br>
+  occur in low-dimensional settings such as the three-dimensional physical<br>
+  space of everyday experience.<br>
+  The amount of data needed often grows exponentially with the dimensionality.<br>
+  In high dimensional data, all objects appear to be sparse and dissimilar in many ways,<br>
+  which prevents common data organization strategies from being efficient.<br>
 
 ### The Six Pillars of Platform Engineering:
 https://thenewstack.io/author/michael-fonseca/
