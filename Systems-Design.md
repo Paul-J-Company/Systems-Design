@@ -513,132 +513,131 @@ What is a Software Deployment?<br>
 &ensp;&ensp;&ensp;&ensp;before being switched with the production environment,<br>
 &ensp;&ensp;&ensp;&ensp;allowing for a smooth transition without any downtime or errors.<br>
 What is a Polystore?<br>
-  A polystore is the combining of different database technologies tailored for specific use cases,<br>
-  enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure.<br>
-  Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.<br>
+&ensp;&ensp;A polystore is the combining of different database technologies tailored for specific use cases,<br>
+&ensp;&ensp;enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure.<br>
+&ensp;&ensp;Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.<br>
 What is Serverless?<br>
-  The purpose of serverless technology is to provide a way<br>
-  to build and run applications without having to consider<br>
-  the underlying hosts at all.<br>
-  To support serverless applications, a cloud provider provisions<br>
-  and deallocates servers as needed behind the scenes.<br>
-  Containers and serverless can work together.<br>
-  For instance, the core of your application may run on containers,<br>
-  but some supplementary backend tasks, such as user authentication,<br>
-  may run on serverless functions.<br>
+&ensp;&ensp;The purpose of serverless technology is to provide a way<br>
+&ensp;&ensp;to build and run applications without having to consider<br>
+&ensp;&ensp;the underlying hosts at all.<br>
+&ensp;&ensp;To support serverless applications, a cloud provider provisions<br>
+&ensp;&ensp;and deallocates servers as needed behind the scenes.<br>
+&ensp;&ensp;Containers and serverless can work together.<br>
+&ensp;&ensp;For instance, the core of your application may run on containers,<br>
+&ensp;&ensp;but some supplementary backend tasks, such as user authentication,<br>
+&ensp;&ensp;may run on serverless functions.<br>
 What is a Microservice Application?<br>
-  The term microservice is not a well-defined term.<br>
-  There is no rigorous/unambiguous definition of when a service starts or stops being a microservice.<br>
-  In general, a microservice is an architectural pattern that arranges an application<br>
-  as a collection of loosely-coupled, fine-grained services, communicating through lightweight protocols.<br>
-  The key attribute is microservices need to be independent of one another (loosely-coupled).<br>
-  Microservices run on multiple computers and communicate with each other via networked connections.<br>
-  Transactions add complexity to running microservice architectures, compared to a monolith.<br>
-  In workloads that cannot run concurrently across the network, monoliths may deliver better performance.<br>
-  The main advantages of microservices are that you can scale them horizontally and you can deploy them<br>
-  independently, so each team can deploy in parallel, accelerating the deployment process.<br>
-  The other advantage is each team can use the programming language that best suits the service.<br>
+&ensp;&ensp;The term microservice is not a well-defined term.<br>
+&ensp;&ensp;There is no rigorous/unambiguous definition of when a service starts or stops being a microservice.<br>
+&ensp;&ensp;In general, a microservice is an architectural pattern that arranges an application<br>
+&ensp;&ensp;as a collection of loosely-coupled, fine-grained services, communicating through lightweight protocols.<br>
+&ensp;&ensp;The key attribute is microservices need to be independent of one another (loosely-coupled).<br>
+&ensp;&ensp;Microservices run on multiple computers and communicate with each other via networked connections.<br>
+&ensp;&ensp;Transactions add complexity to running microservice architectures, compared to a monolith.<br>
+&ensp;&ensp;In workloads that cannot run concurrently across the network, monoliths may deliver better performance.<br>
+&ensp;&ensp;The main advantages of microservices are that you can scale them horizontally and you can deploy them<br>
+&ensp;&ensp;independently, so each team can deploy in parallel, accelerating the deployment process.<br>
+&ensp;&ensp;The other advantage is each team can use the programming language that best suits the service.<br>
 What is a Monolithic Application?<br>
-  An application is made up of services.<br>
-  A monolithic application all services run on one process/threads (memory space) on one server.<br>
-  The communication amoung services is done via Interprocess Communication (IPC) channels.<br>
-  In contrast, microservices communicate via Network Interface Cards (NICs) which are much slower.<br>
-  If your workload requires fast service communication, then a monolith may deliver better performance.<br>
+&ensp;&ensp;An application is made up of services.<br>
+&ensp;&ensp;A monolithic application all services run on one process/threads (memory space) on one server.<br>
+&ensp;&ensp;The communication amoung services is done via Interprocess Communication (IPC) channels.<br>
+&ensp;&ensp;In contrast, microservices communicate via Network Interface Cards (NICs) which are much slower.<br>
+&ensp;&ensp;If your workload requires fast service communication, then a monolith may deliver better performance.<br>
 What is Event Driven Architecure (EDA)?<br>
-  EDAs are composed of loosely-coupled distributed services connected by asynchronous events.<br>
-  EDAs are a way of designing and building systems that are based on the exchange of events.<br>
-  Events are notifications of some change in state or data,<br>
-  and they are typically published by one component and consumed by another in real time.<br>
+&ensp;&ensp;EDAs are composed of loosely-coupled distributed services connected by asynchronous events.<br>
+&ensp;&ensp;EDAs are a way of designing and building systems that are based on the exchange of events.<br>
+&ensp;&ensp;Events are notifications of some change in state or data,<br>
+&ensp;&ensp;and they are typically published by one component and consumed by another in real time.<br>
 What is Zero Trust?<br>
-  Zero Trust security is an IT security model that requires strict identity verification<br>
-  for every person and device trying to access resources on a private network,<br>
-  regardless of whether they are sitting within or outside of the network perimeter.<br>
+&ensp;&ensp;Zero Trust security is an IT security model that requires strict identity verification<br>
+&ensp;&ensp;for every person and device trying to access resources on a private network,<br>
+&ensp;&ensp;regardless of whether they are sitting within or outside of the network perimeter.<br>
 What is OWASP?<br>
-  Open Web Application Security Project: (OWASP)<br>
-  OWASP is a community initiative focused on improving web application security<br>
-  through providing open-source methodologies, tools, and techniques.<br>
+&ensp;&ensp;Open Web Application Security Project: (OWASP)<br>
+&ensp;&ensp;OWASP is a community initiative focused on improving web application security<br>
+&ensp;&ensp;through providing open-source methodologies, tools, and techniques.<br>
 What is CASB?<br>
-  Cloud Access Security Broker: (CASB)<br>
-  CASB acts as a bridge between an organization's<br>
-  on-premises infrastructure and the cloud services it employs.<br>
-  The primary focus of CASB is to ensure that sensitive data<br>
-  remains secure and compliant while employees access cloud-based resources.<br>
+&ensp;&ensp;Cloud Access Security Broker: (CASB)<br>
+&ensp;&ensp;CASB acts as a bridge between an organization's<br>
+&ensp;&ensp;on-premises infrastructure and the cloud services it employs.<br>
+&ensp;&ensp;The primary focus of CASB is to ensure that sensitive data<br>
+&ensp;&ensp;remains secure and compliant while employees access cloud-based resources.<br>
 What is SASE?<br>
-  Secure Access Service Edge: (SASE)<br>
-  SASE provides a holistic approach to networking and security in a cloud-native environment.<br>
-  SASE is an architectural framework that merges wide-area networking (WAN) capabilities<br>
-  with security functions, all delivered as a cloud-based service.<br>
+&ensp;&ensp;Secure Access Service Edge: (SASE)<br>
+&ensp;&ensp;SASE provides a holistic approach to networking and security in a cloud-native environment.<br>
+&ensp;&ensp;SASE is an architectural framework that merges wide-area networking (WAN) capabilities<br>
+&ensp;&ensp;with security functions, all delivered as a cloud-based service.<br>
 What is CNAPP?<br>
-  Cloud Native APplication Protection: (CNAPP)<br>
-  A CNAPP is a holistic security solution that provides<br>
-  all the key features organizations need to secure cloud<br>
-  workloads across all life cycle stages.<br>
-  CNAPPs offer a variety of important advantages compared to disparate,<br>
-  siloed collections of cloud security tools.<br>
-  CNAPPs typically cover:<br>
-    1) CI/CD security management.<br>
-    2) Security testing and scanning of application binaries and container images.<br>
-    3) Managing risks associated with cloud service configuration.<br>
-    4) Managing cloud user identities and permissions.<br>
-    5) API security.<br>
-    6) Data security.<br>
+&ensp;&ensp;Cloud Native APplication Protection: (CNAPP)<br>
+&ensp;&ensp;A CNAPP is a holistic security solution that provides<br>
+&ensp;&ensp;all the key features organizations need to secure cloud<br>
+&ensp;&ensp;workloads across all life cycle stages.<br>
+&ensp;&ensp;CNAPPs offer a variety of important advantages compared to disparate,<br>
+&ensp;&ensp;siloed collections of cloud security tools.<br>
+&ensp;&ensp;CNAPPs typically cover:<br>
+&ensp;&ensp;&ensp;&ensp;1) CI/CD security management.<br>
+&ensp;&ensp;&ensp;&ensp;2) Security testing and scanning of application binaries and container images.<br>
+&ensp;&ensp;&ensp;&ensp;3) Managing risks associated with cloud service configuration.<br>
+&ensp;&ensp;&ensp;&ensp;4) Managing cloud user identities and permissions.<br>
+&ensp;&ensp;&ensp;&ensp;5) API security.<br>
+&ensp;&ensp;&ensp;&ensp;6) Data security.<br>
 What is Observability?<br>
-  Observability is about recording, organizing and visualizing data.<br>
-  Observability is the ability to ask new questions of the health<br>
-  of your running services without deploying new instrumentation.<br>
-  The term comes from control theory, which defines observability<br>
-  as the ability to understand the internal state of a system from<br>
-  its external outputs (source).<br>
-  Observability vs. Monitoring:<br>
-  Observability helps you get closer and closer to the root cause of an issue;<br>
-  showing you what components were involved.<br>
-  Monitoring just lets you known something's wrong.<br>
+&ensp;&ensp;Observability is about recording, organizing and visualizing data.<br>
+&ensp;&ensp;Observability is the ability to ask new questions of the health<br>
+&ensp;&ensp;of your running services without deploying new instrumentation.<br>
+&ensp;&ensp;The term comes from control theory, which defines observability<br>
+&ensp;&ensp;as the ability to understand the internal state of a system from<br>
+&ensp;&ensp;its external outputs (source).<br>
+&ensp;&ensp;Observability vs. Monitoring:<br>
+&ensp;&ensp;Observability helps you get closer and closer to the root cause of an issue;<br>
+&ensp;&ensp;showing you what components were involved.<br>
+&ensp;&ensp;Monitoring just lets you known something's wrong.<br>
 What is Telemetry?<br>
-  Telemetry consists of those external "outputs" mentioned in observability.<br>
-  Telemetry is the data generated by your system that documents its state.<br>
-  Telemetry gets generated because of instrumentation:<br>
-  code or tooling that captures data about the state of your running system<br>
-  and stores it in various formats.<br>
-  Telemetry refers to data emitted from a system, about its behavior.<br>
-  Examples of software telemetry include: metrics, logs, traces, and structured events.<br>
+&ensp;&ensp;Telemetry consists of those external "outputs" mentioned in observability.<br>
+&ensp;&ensp;Telemetry is the data generated by your system that documents its state.<br>
+&ensp;&ensp;Telemetry gets generated because of instrumentation:<br>
+&ensp;&ensp;code or tooling that captures data about the state of your running system<br>
+&ensp;&ensp;and stores it in various formats.<br>
+&ensp;&ensp;Telemetry refers to data emitted from a system, about its behavior.<br>
+&ensp;&ensp;Examples of software telemetry include: metrics, logs, traces, and structured events.<br>
 What is OpenTelemetry?<br>
-  OpenTelemetry is an industry-standard.<br>
-  OpenTelemetry is a vendor-neutral open-source Observability framework<br>
-  for instrumenting, generating, collecting, and exporting telemetry data<br>
-  such as (traces, metrics, logs).<br>
-  OpenTelemetry is the mechanism by which application<br>
-  code is instrumented, to help make a system observable.<br>
-  OpenTelemetry is natively supported by a number of vendors.<br>
-  List of Vendors that support OpenTelemetry:<br>
-  https://opentelemetry.io/ecosystem/vendors/
-  Cloud Observability, Grafana Labs, Jaeger, SigNoz, AppDynamics, etc.<br>
+&ensp;&ensp;OpenTelemetry is an industry-standard.<br>
+&ensp;&ensp;OpenTelemetry is a vendor-neutral open-source Observability framework<br>
+&ensp;&ensp;for instrumenting, generating, collecting, and exporting telemetry data<br>
+&ensp;&ensp;such as (traces, metrics, logs).<br>
+&ensp;&ensp;OpenTelemetry is the mechanism by which application<br>
+&ensp;&ensp;code is instrumented, to help make a system observable.<br>
+&ensp;&ensp;OpenTelemetry is natively supported by a number of vendors.<br>
+&ensp;&ensp;[List of Vendors that support OpenTelemetry:](https://opentelemetry.io/ecosystem/vendors/)<br>
+&ensp;&ensp;Cloud Observability, Grafana Labs, Jaeger, SigNoz, AppDynamics, etc.<br>
 What is High-Cardinality Data (HCD):<br>
-  HCD is a large set of unique values that can be queried and analyzed<br>
-  and is the most effective data when it comes to resolving an incident.<br>
-  The ability to properly analyze high-cardinality data leads to faster incident resolution.<br>
-  High-cardinality data can showcase the "where" and the "why" of a problem,<br>
-  and nothing is more effective at finding anomalies.<br>
-  To achieve true observability, leveraging high-cardinality data is a must.<br>
-  Cardinality is simply a reflection of an attribute's uniqueness.<br>
-  A user-ID, Social Security Number, Passport ID, Email Address are all<br>
-  high cardinality attributes, while geo-location is low cardinality.<br>
-  Low-cardinality data can help teams examine broad patterns in a service.<br>
-  High-cardinality data is a narrow magnifying glass into a service's problems,<br>
-  making it possible to look at outlying events that can help guide troubleshooting efforts.<br>
+&ensp;&ensp;HCD is a large set of unique values that can be queried and analyzed<br>
+&ensp;&ensp;and is the most effective data when it comes to resolving an incident.<br>
+&ensp;&ensp;The ability to properly analyze high-cardinality data leads to faster incident resolution.<br>
+&ensp;&ensp;High-cardinality data can showcase the "where" and the "why" of a problem,<br>
+&ensp;&ensp;and nothing is more effective at finding anomalies.<br>
+&ensp;&ensp;To achieve true observability, leveraging high-cardinality data is a must.<br>
+&ensp;&ensp;Cardinality is simply a reflection of an attribute's uniqueness.<br>
+&ensp;&ensp;A user-ID, Social Security Number, Passport ID, Email Address are all<br>
+&ensp;&ensp;high cardinality attributes, while geo-location is low cardinality.<br>
+&ensp;&ensp;Low-cardinality data can help teams examine broad patterns in a service.<br>
+&ensp;&ensp;High-cardinality data is a narrow magnifying glass into a service's problems,<br>
+&ensp;&ensp;making it possible to look at outlying events that can help guide troubleshooting efforts.<br>
 What is High-Dimensionality Data (HDD):<br>
-  While high cardinality refers to a large number of data points (values) in a given attribute,<br>
-  dimensionality takes it further: how many attributes does an event have?<br>
-  Being able to analyze trends across many dimensions quickly is important<br>
-  when you're trying to figure out what changed but don't know what to ask.<br>
-  When you're trying to solve unknown-unknowns, high-dimensionality data is your friend.<br>
+&ensp;&ensp;While high cardinality refers to a large number of data points (values) in a given attribute,<br>
+&ensp;&ensp;dimensionality takes it further: how many attributes does an event have?<br>
+&ensp;&ensp;Being able to analyze trends across many dimensions quickly is important<br>
+&ensp;&ensp;when you're trying to figure out what changed but don't know what to ask.<br>
+&ensp;&ensp;When you're trying to solve unknown-unknowns, high-dimensionality data is your friend.<br>
 What is Curse of Dimensionality:<br>
-  The curse of dimensionality refers to various phenomena that arise when<br>
-  analyzing and organizing data in high-dimensional spaces that do not<br>
-  occur in low-dimensional settings such as the three-dimensional physical<br>
-  space of everyday experience.<br>
-  The amount of data needed often grows exponentially with the dimensionality.<br>
-  In high dimensional data, all objects appear to be sparse and dissimilar in many ways,<br>
-  which prevents common data organization strategies from being efficient.<br>
+&ensp;&ensp;The curse of dimensionality refers to various phenomena that arise when<br>
+&ensp;&ensp;analyzing and organizing data in high-dimensional spaces that do not<br>
+&ensp;&ensp;occur in low-dimensional settings such as the three-dimensional physical<br>
+&ensp;&ensp;space of everyday experience.<br>
+&ensp;&ensp;The amount of data needed often grows exponentially with the dimensionality.<br>
+&ensp;&ensp;In high dimensional data, all objects appear to be sparse and dissimilar in many ways,<br>
+&ensp;&ensp;which prevents common data organization strategies from being efficient.<br>
 
 ### The Six Pillars of Platform Engineering:
 https://thenewstack.io/author/michael-fonseca/
@@ -1078,3 +1077,15 @@ Storage Software:
    Introduction to AWS | A Complete Beginner Roadmap
    https://www.youtube.com/watch?v=lTyqzyk86f8
    
+
+
+
+
+
+
+
+
+
+
+
+
