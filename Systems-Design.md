@@ -434,87 +434,84 @@ What is DORA?<br>
 &ensp;&ensp;[2021 Accelerate State of DevOps report addresses burnout, team performance](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report)<br>
 &ensp;&ensp;[Google Cloud DevOps Awards](https://cloud.google.com/awards/devops)<br>
 What is GitOps?<br>
-  GitOps is centered around using a version control system (such as Git, GitLab, Github)<br>
-  to house all information, documentation, and code for a Kubernetes deployment,<br>
-  and then use automated directors to deploy changes to the cluster.<br>
-  GitOps enables the same process developers use to merge code using pull requests<br>
-  or merge requests to be used to deploy to Kubernetes.<br>
-  In a GitOps workflow the desired state of your infrastructure is<br>
-  represented by the configurations stored in a Git repository.<br>
-  This Git repository serves as the single source of truth,<br>
-  and GitOps enforces the state that the cluster should be in.<br>
-  Any changes to the cluster are made by updating the configuration files<br>
-  in the Git repository, rather than directly interacting with the cluster.<br>
-  GitOps enables an auditable and reproducible process for deployments.<br>
-  Rollbacks become as simple as reverting to a known working state in the Git history.<br>
-  The changes in the infrastructure can be seen easily in the git log.<br>
-  GitOps allows for automatic and continuous synchronization between the<br>
-  desired state in the Git repository and the actual state in the cluster,<br>
-  ensuring consistency across environments, simplifying the traditionally<br>
-  complex CI/CD pipelines, and reducing human error.<br>
-  GitOps promotes collaboration and transparency among development and operations teams.<br>
-  Changes to the cluster are transparently tracked in Git,<br>
-  making it easy for team members to understand what's happening and when.<br>
-  GitOps provides self-heal capabilities.<br>
-  If somebody changes the state of the infrastructure manually, the state<br>
-  will automatically change to reflect what is defined in the Git repository.<br>
-  This brings resilience and a cluster that will be easier to debug if there is a problem.<br>
-  In GitOps, the traditional CI/CD pipeline is "reversed".<br>
-  This is called "pull-based deployments", where the target cluster constantly<br>
-  "pulls" its desired state from the Git repository, rather than relying on a<br>
-  "push" from an external entity (e.g. a CI/CD tool like Jenkins or Github Actions).<br>
-  This "pull" approach provides a self-healing mechanism, allowing the cluster to<br>
-  autonomously converge to the desired state even if it drifts due to manual changes<br>
-  or unforeseen events.<br>
-  One of the decisions you have to make as a Platform Engineer using GitOps is<br>
-  how you structure your Git repo: repo-per-app, repo-per-team, monrepo, etc.<br>
-  I always apply the Separation of Concerns Principle and typically use repo-per-app.<br>
-  But it really depends on how your Organization works and is structured.<br>
-  Trying all methods isn't a bad idea to see which one works best.<br>
-  Visualizing IaC with and without GitOps<br>
-  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_1T9Tx62ig3yqX26IHIoWQ.png
+&ensp;&ensp;GitOps is centered around using a version control system (such as Git, GitLab, Github)<br>
+&ensp;&ensp;to house all information, documentation, and code for a Kubernetes deployment,<br>
+&ensp;&ensp;and then use automated directors to deploy changes to the cluster.<br>
+&ensp;&ensp;GitOps enables the same process developers use to merge code using pull requests<br>
+&ensp;&ensp;or merge requests to be used to deploy to Kubernetes.<br>
+&ensp;&ensp;In a GitOps workflow the desired state of your infrastructure is<br>
+&ensp;&ensp;represented by the configurations stored in a Git repository.<br>
+&ensp;&ensp;This Git repository serves as the single source of truth,<br>
+&ensp;&ensp;and GitOps enforces the state that the cluster should be in.<br>
+&ensp;&ensp;Any changes to the cluster are made by updating the configuration files<br>
+&ensp;&ensp;in the Git repository, rather than directly interacting with the cluster.<br>
+&ensp;&ensp;GitOps enables an auditable and reproducible process for deployments.<br>
+&ensp;&ensp;Rollbacks become as simple as reverting to a known working state in the Git history.<br>
+&ensp;&ensp;The changes in the infrastructure can be seen easily in the git log.<br>
+&ensp;&ensp;GitOps allows for automatic and continuous synchronization between the<br>
+&ensp;&ensp;desired state in the Git repository and the actual state in the cluster,<br>
+&ensp;&ensp;ensuring consistency across environments, simplifying the traditionally<br>
+&ensp;&ensp;complex CI/CD pipelines, and reducing human error.<br>
+&ensp;&ensp;GitOps promotes collaboration and transparency among development and operations teams.<br>
+&ensp;&ensp;Changes to the cluster are transparently tracked in Git,<br>
+&ensp;&ensp;making it easy for team members to understand what's happening and when.<br>
+&ensp;&ensp;GitOps provides self-heal capabilities.<br>
+&ensp;&ensp;If somebody changes the state of the infrastructure manually, the state<br>
+&ensp;&ensp;will automatically change to reflect what is defined in the Git repository.<br>
+&ensp;&ensp;This brings resilience and a cluster that will be easier to debug if there is a problem.<br>
+&ensp;&ensp;In GitOps, the traditional CI/CD pipeline is "reversed".<br>
+&ensp;&ensp;This is called "pull-based deployments", where the target cluster constantly<br>
+&ensp;&ensp;"pulls" its desired state from the Git repository, rather than relying on a<br>
+&ensp;&ensp;"push" from an external entity (e.g. a CI/CD tool like Jenkins or Github Actions).<br>
+&ensp;&ensp;This "pull" approach provides a self-healing mechanism, allowing the cluster to<br>
+&ensp;&ensp;autonomously converge to the desired state even if it drifts due to manual changes<br>
+&ensp;&ensp;or unforeseen events.<br>
+&ensp;&ensp;One of the decisions you have to make as a Platform Engineer using GitOps is<br>
+&ensp;&ensp;how you structure your Git repo: repo-per-app, repo-per-team, monrepo, etc.<br>
+&ensp;&ensp;I always apply the Separation of Concerns Principle and typically use repo-per-app.<br>
+&ensp;&ensp;But it really depends on how your Organization works and is structured.<br>
+&ensp;&ensp;Trying all methods isn't a bad idea to see which one works best.<br>
+&ensp;&ensp;[Visualizing IaC with and without GitOps](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_1T9Tx62ig3yqX26IHIoWQ.png)<br>
 What is FinOps?<br>
-  FinOps is about spending your money most cost-effectively.<br>
-  Yes, this might mean spending less money, but it also might<br>
-  mean spending more money and making more money.<br>
+&ensp;&ensp;FinOps is about spending your money most cost-effectively.<br>
+&ensp;&ensp;Yes, this might mean spending less money, but it also might<br>
+&ensp;&ensp;mean spending more money and making more money.<br>
 What is a Software Development LifeCycle (SDLC)?<br>
-  SDLC is a framework that describes the stages involved in the development of software.<br>
-  The typical stages of the SDLC include:<br>
-    1) Planning:<br>
-    2) Analysis:<br>
-    3) Design:<br>
-    4) Implementation:<br>
-    5) Testing:<br>
-    6) Deployment:<br>
-    7) Maintenance:<br>
-  Visualizing SDLC:<br> 
-  https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg
+&ensp;&ensp;[SDLC](https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg) is a framework that describes the stages involved in the development of software.<br>
+&ensp;&ensp;The typical stages of the SDLC include:<br>
+&ensp;&ensp;1) Planning:<br>
+&ensp;&ensp;2) Analysis:<br>
+&ensp;&ensp;3) Design:<br>
+&ensp;&ensp;4) Implementation:<br>
+&ensp;&ensp;5) Testing:<br>
+&ensp;&ensp;6) Deployment:<br>
+&ensp;&ensp;7) Maintenance:<br>
 What is CI/CD?<br>
-  CI/CD stands for Continuous Integration/Continuous Delivery or Deployment<br>
-  A CI/CD Pipeline is a series of steps that must be performed<br>
-  in order to deliver a new version of software.<br>
-  GitOps simplifies CI/CD Pipelines.<br>
+&ensp;&ensp;CI/CD stands for Continuous Integration/Continuous Delivery or Deployment.<br>
+&ensp;&ensp;A CI/CD Pipeline is a series of steps that must be performed<br>
+&ensp;&ensp;in order to deliver a new version of software.<br>
+&ensp;&ensp;GitOps simplifies CI/CD Pipelines.<br>
 What is a Software Deployment?<br>
-  Kubernetes enables easy application deployment.<br>
-  There are many types of deployment strategies.<br>
-  Here are 3 popular Deployment Strategies:<br>
-  1) Canary Deployment:<br>
-     A technique for rolling out new features or changes to a small subset<br>
-     of users or servers before releasing the update to the entire system.<br>
-     A Canary deployment strategy is used for applications that require frequent updates.<br>
-  2) Rolling Deployment:<br>
-     A strategy for updating and deploying new versions of software in a controlled and gradual manner.<br>
-     Instead of deploying updates all at once,<br>
-     a rolling deployment rolls out changes incrementally,<br>
-     reducing the risk of downtime and allowing for easy rollbacks in case of errors.<br>
-     A Rolling deployment strategy is ideal for applications that require zero downtime during deployment.<br>
-  3) Blue-Green Deployment:<br>
-     Involves running two identical environments,<br>
-     one serving as the active production environment (blue)<br>
-     and the other as a new release candidate (green).<br>
-     The new release candidate is thoroughly tested<br>
-     before being switched with the production environment,<br>
-     allowing for a smooth transition without any downtime or errors.<br>
+&ensp;&ensp;Kubernetes enables easy application deployment.<br>
+&ensp;&ensp;There are many types of deployment strategies.<br>
+&ensp;&ensp;Here are 3 popular Deployment Strategies:<br>
+&ensp;&ensp;1) Canary Deployment:<br>
+&ensp;&ensp;&ensp;&ensp;A technique for rolling out new features or changes to a small subset<br>
+&ensp;&ensp;&ensp;&ensp;of users or servers before releasing the update to the entire system.<br>
+&ensp;&ensp;&ensp;&ensp;A Canary deployment strategy is used for applications that require frequent updates.<br>
+&ensp;&ensp;2) Rolling Deployment:<br>
+&ensp;&ensp;&ensp;&ensp;A strategy for updating and deploying new versions of software in a controlled and gradual manner.<br>
+&ensp;&ensp;&ensp;&ensp;Instead of deploying updates all at once,<br>
+&ensp;&ensp;&ensp;&ensp;a rolling deployment rolls out changes incrementally,<br>
+&ensp;&ensp;&ensp;&ensp;reducing the risk of downtime and allowing for easy rollbacks in case of errors.<br>
+&ensp;&ensp;&ensp;&ensp;A Rolling deployment strategy is ideal for applications that require zero downtime during deployment.<br>
+&ensp;&ensp;3) Blue-Green Deployment:<br>
+&ensp;&ensp;&ensp;&ensp;Involves running two identical environments,<br>
+&ensp;&ensp;&ensp;&ensp;one serving as the active production environment (blue)<br>
+&ensp;&ensp;&ensp;&ensp;and the other as a new release candidate (green).<br>
+&ensp;&ensp;&ensp;&ensp;The new release candidate is thoroughly tested<br>
+&ensp;&ensp;&ensp;&ensp;before being switched with the production environment,<br>
+&ensp;&ensp;&ensp;&ensp;allowing for a smooth transition without any downtime or errors.<br>
 What is a Polystore?<br>
   A polystore is the combining of different database technologies tailored for specific use cases,<br>
   enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure.<br>
