@@ -347,29 +347,41 @@ Performance:<br>
 &ensp;&ensp;typically similar or identical to maintaining less performant equipment.<br>
 &ensp;&ensp;Although high performance equipment may cost more to power and cool, thus increasing Opex.<br>
 
-High Availability: (HA)
-  High Availability is about adding redundancy which eliminates all single points of failure.
-  HA increases resiliency because the system avoids failures by eliminating single points of failure. 
-  HA increases Capex because you have to buy more equipment,
-  and increases Opex because there is more equipment to power, cool, and maintain
-  and a more complex configuration and interactions among the equipment.
-  Configuring redundancy typically falls into two categories/scenarios:
-  1) Active-Active:
-     All equipment is actively used.
-     Capacity planning is important in this scenario.
-     If you configure each item to handle full capacity, then there is no loss of performance when a failure happens, but this significantly increases Capex.
-     If you configure each item to handle less than 50% capacity,
-     then your system will become overloaded when a failure happens
-     which may lead to less than desirable performance for your customers at best,
-     and a complete failure of your system (which defeats the purpose of redundancy) at worst.
-     If you configure each item to handle more than 50% capacity,
-     then your performance will decrease when a failure happens,
-     but your system is still fully functional.
-     How much capacity you configure per item determines your customer's experience.
-     Active-Active can handle higher capacity than Active-Passive for obvious reasons.
-  2) Active-Passive: aka., Hot Standby
-     Each item should be configured to have the same capacity,
-     so when a failure happens there is no loss of service.
+High Availability (HA):<br>
+&ensp;&ensp;High Availability is a Full Stack endeavor.<br>
+&ensp;&ensp;High Availability is about adding redundancy which eliminates all single points of failure.<br>
+&ensp;&ensp;HA increases resiliency because the system avoids failures by eliminating single points of failure.<br>
+&ensp;&ensp;HA increases Capex because you have to buy more equipment,<br>
+&ensp;&ensp;and increases Opex because there is more equipment to power, cool, and maintain<br>
+&ensp;&ensp;and a more complex configuration and interactions among the equipment.<br>
+&ensp;&ensp;Configuring redundancy typically falls into two categories/scenarios:<br>
+&ensp;&ensp;1) Active-Active:<br>
+&ensp;&ensp;&ensp;&ensp;All equipment is actively used.<br>
+&ensp;&ensp;&ensp;&ensp;Capacity planning is important in this scenario.<br>
+&ensp;&ensp;&ensp;&ensp;If you configure each device to handle full 100% capacity,<br>
+&ensp;&ensp;&ensp;&ensp;then there is no loss of performance when a failure happens,<br>
+&ensp;&ensp;&ensp;&ensp;but this essentially doubles Capex.<br>
+&ensp;&ensp;&ensp;&ensp;If you configure each item to handle less than 50% capacity,<br>
+&ensp;&ensp;&ensp;&ensp;then your system will become overloaded when a failure happens<br>
+&ensp;&ensp;&ensp;&ensp;which may lead to less than desirable performance for your customers at best,<br>
+&ensp;&ensp;&ensp;&ensp;and a complete failure of your system (which defeats the purpose of redundancy) at worst.<br>
+&ensp;&ensp;&ensp;&ensp;If you configure each item to handle more than 50% capacity,<br>
+&ensp;&ensp;&ensp;&ensp;then your performance will decrease when a failure happens,<br>
+&ensp;&ensp;&ensp;&ensp;but your system is still fully functional.<br>
+&ensp;&ensp;&ensp;&ensp;How much capacity you configure per item determines your customer's experience.<br>
+&ensp;&ensp;&ensp;&ensp;Active-Active can handle higher capacity than Active-Passive for obvious reasons.<br>
+&ensp;&ensp;&ensp;&ensp;Another advantage of active-active is that you're always exercising both devices<br>
+&ensp;&ensp;&ensp;&ensp;so you know they both work. In a hot-standby scenario the secondary device is just<br>
+&ensp;&ensp;&ensp;&ensp;sitting there waiting to handle traffic, so when things failover there's a non-zero<br>
+&ensp;&ensp;&ensp;&ensp;probability that the device will fail because you haven't been using it.<br>
+&ensp;&ensp;&ensp;&ensp;Is the hot-standby configuration right? Is it having hardware issues?<br>
+&ensp;&ensp;2) Active-Passive: aka., Hot Standby<br>
+&ensp;&ensp;&ensp;&ensp;Each device should be configured to have the same capacity,<br>
+&ensp;&ensp;&ensp;&ensp;so when a failure happens there is no loss of service.<br>
+&ensp;&ensp;&ensp;&ensp;If you're going to configure each device at 100% capacity<br>
+&ensp;&ensp;&ensp;&ensp;you might as well do an active-active configuration.<br>
+&ensp;&ensp;&ensp;&ensp;In a active-passive scenario you must schedule regular failovers<br>
+&ensp;&ensp;&ensp;&ensp;to verify the hot-standby device is working properly.<br>
 
 ### IT Industry Definitions/Buzzwords:
 What is a Data Center? 
