@@ -640,13 +640,12 @@ What is Curse of Dimensionality:<br>
 &ensp;&ensp;which prevents common data organization strategies from being efficient.<br>
 
 ### The Six Pillars of Platform Engineering:
-https://thenewstack.io/author/michael-fonseca/
-1) Security: https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security/
-2) Pipeline: (VCS, CI/CD) https://thenewstack.io/the-6-pillars-of-platform-engineering-part-2-ci-cd-vcs-pipeline/
-3) Provisioning: https://thenewstack.io/the-pillars-of-platform-engineering-part-3-provisioning/
-4) Connectivity: https://thenewstack.io/the-pillars-of-platform-engineering-part-4-connectivity/
-5) Orchestration: https://thenewstack.io/the-pillars-of-platform-engineering-part-5-orchestration/
-6) Observability: https://thenewstack.io/the-pillars-of-platform-engineering-part-6-observability/
+1) [Security:](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security/)<br>
+2) [Pipeline (VCS, CI/CD):](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-2-ci-cd-vcs-pipeline/)<br>
+3) [Provisioning:](https://thenewstack.io/the-pillars-of-platform-engineering-part-3-provisioning/)<br>
+4) [Connectivity:](https://thenewstack.io/the-pillars-of-platform-engineering-part-4-connectivity/)<br>
+5) [Orchestration:](https://thenewstack.io/the-pillars-of-platform-engineering-part-5-orchestration/)<br>
+6) [Observability:](https://thenewstack.io/the-pillars-of-platform-engineering-part-6-observability/)<br>
 
 ### Principles of GitOps:
 1) Declarative:
