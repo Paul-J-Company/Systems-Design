@@ -649,15 +649,15 @@ What is Curse of Dimensionality:<br>
 
 ### Principles of GitOps:
 1) Declarative:<br>
-   A system managed by GitOps must have it's state expressed declaratively.<br>
+&ensp;&ensp;A system managed by GitOps must have it's state expressed declaratively.<br>
 2) Versioned and Immutable:<br>
-   Desired state is stored in a way that enforces immutability,<br>
-   versioning and retains a complete version history.<br>
+&ensp;&ensp;Desired state is stored in a way that enforces immutability,<br>
+&ensp;&ensp;versioning and retains a complete version history.<br>
 3) Pulled Automatically:<br>
-   Software agents automatically pull the desired state declarations from the source.<br>
+&ensp;&ensp;Software agents automatically pull the desired state declarations from the source.<br>
 4) Continuously Reconciled:<br>
-   Software agents continuously observe actual system state<br>
-   and attempt to apply the desired state.<br>
+&ensp;&ensp;Software agents continuously observe actual system state<br>
+&ensp;&ensp;and attempt to apply the desired state.<br>
 
 ### Three Levels of Maturity for Infrastructure Automation:
 1) Ad-hoc:<br>
@@ -692,7 +692,7 @@ EDAs can:<br>
 3) Support real-time processing and analytics.<br>
 4) Be more scalable and resilient to failures.<br>
 
-### AI/ML/DL/RL and Platform Engineering
+### AI and Platform Engineering
 AI, especially LLMs, are designed to take in an enormous amount<br>
 of data and "learn" from it to achieve better than human results.<br>
 LLMs like ChatGPT4, Llama2, PaLM2, DALL-E3, Dolly2, and Diffusion Models<br>
@@ -704,31 +704,28 @@ LLMs can be trained to automatically create tickets in your ticketing system<br>
 and initiate the next actions in a workflow spurred by an incident or other IT event.<br>
 Reinforcement Learning AI can outperform humans in any game<br>
 such as Go, Chess, and any Compter Games like Atari Breakout, and Doda2.<br>
-The potential of AI is enormous and I believe it will be used in every<br>
-aspect of every industry to some extent.<br>
-Platform Engineering is a perfect match for current AI technologies<br>
-because AI excels in learning from large amounts of data.<br>
-AI technologies, especially LLMs excel in Platform Engineering tasks, like:<br>
-  1) Writing code in Bash, Python, YAML, and JSON.<br>
-  2) Learning from Platform Engineering Data:<br>
-     Telemetry data, Logs, , Business and Customer data;<br>
-     Configuration files, Network Topology data, etc.<br>
+The potential of AI is enormous and I believe it will be used in every aspect of every industry.<br>
+Platform Engineering is a perfect match for current AI technologies because AI excels<br>
+in learning from large amounts of data and Platforms generate large amounts of data.<br>
 
-### HOWTO: Use AI/ML/DL to Improve the Speed, Accuracy and Clarity of your Platform
-See: AI-ML-DL-in-Platform-Engineering<br>
-1) Use LLMs to Write Boilerplate Code: This accelerates the code writing experience.<br>
-   AI Coding Assistants to write code in Bash, Python, YAML, JSON, etc.<br>
-2) Use LLMs to Learn from Telemetry Data: Log data, Monitoring data, Analytics data, Trace data, Network Topology data, etc.<br>
+### HOWTO: Use AI to Improve the Speed, Accuracy and Clarity of your Platform
+1) Use LLMs to Write Boilerplate Code:<br>
+   This accelerates the code writing experience.<br>
+   Use AI Coding Assistants to write code in Bash, Python, Go, YAML, JSON, etc.<br>
+3) Use LLMs to Learn from Telemetry Data:<br>
+   Log data, Monitoring data, Analytics data, Trace data, Network Topology data, etc.<br>
    This helps predict future possible outages, find errors, and accelerates incidence response and root cause analysis.<br>
-3) Use LLMs to Learn from Business Data: This helps minimize CapEx and Opex.<br>
-4) Use LLMs to Learn from Customer Data: This helps your customers become more product and leads to a higher level of customer satisfaction.<br>
+4) Use LLMs to Learn from Business Data:<br>
+   This helps minimize CapEx and Opex.<br>
+5) Use LLMs to Learn from Customer Data:<br>
+   This helps your customers become more product and leads to a higher level of customer satisfaction.<br>
    
-### My AI/ML/DL/RL Platform Engineering Objectives
-1) Learn how to build, train and fine tune LLMs on Platform Engineering data<br>
+### My AI Platform Engineering Objectives
+1) Learn how to build, train and finetune LLMs on Platform Engineering data<br>
    to assisit and hopefully outperform humans in tasks such<br>
    as incidence response, root cause analysis, and Market predictions.<br>
    I'm using LangChain to develop my LLMs.<br>
-3) Continue learning AI Coding Assistants to write code in Bash, Python, YAML, JSON, etc.<br>
+2) Continue learning AI Coding Assistants to write code in Bash, Python, Go, YAML, JSON, etc.<br>
    Here's a short list of AI Coding Assistants I'm currently using everyday<br>
    to generate boilerplate code, which I review, correct and test; and also<br>
    to generate Documentation, Code Comments, Github pull requests, Static analysis, generate SQL, etc.<br>
@@ -738,226 +735,211 @@ See: AI-ML-DL-in-Platform-Engineering<br>
    
 ### On Prem Information
 Introduction:<br>
-  The purpose of this section is to give a "bigpicture" view of an OnPrem Infrastructure.<br>
-  ***I you're going Cloud Native/Fully Managed, you don't need to know a lot of the following steps.***<br>
-  The following is a description of a basic setup of an OnPrem Infrastructure:<br>
-  This is a quick, short, and incomplete list of necessities.<br>
-  I'm skipping Data Center topics like Generators, UPSes, Power Design, HVAC Cooling Design, Security,<br>
-  Peering Relationships and Negotiations, Cost Estimation, etc. because that really requires another full document to explain.<br>
-  And, I'm not a Data Center Design Engineer, eventhough I've now spent over 30+ years in Data Centers.<br>
-  Data Center Design Engineering is a complete field on to itself.<br>
+&ensp;&ensp;The purpose of this section is to give a "bigpicture" view of an OnPrem Infrastructure.<br>
+&ensp;&ensp;***I you're going Cloud Native/Fully Managed, you don't need to know a lot of the following steps.***<br>
+&ensp;&ensp;The following is a description of a basic setup of an OnPrem Infrastructure:<br>
+&ensp;&ensp;This is a quick, short, and incomplete list of necessities.<br>
+&ensp;&ensp;I'm skipping Data Center topics like Generators, UPSes, Power Design, HVAC Cooling Design, Security,<br>
+&ensp;&ensp;Peering Relationships and Negotiations, Cost Estimation, etc. because that really requires another full document to explain.<br>
+&ensp;&ensp;And, I'm not a Data Center Design Engineer, eventhough I've now spent over 30+ years in Data Centers.<br>
+&ensp;&ensp;Data Center Design Engineering is a complete field on to itself.<br>
 Pick at least 3 Data Centers: (for redundancy)<br>
-  Configure BGP Peering Connections on your Border Routers - aka., Connect your Data Center to the Internet and other Data Centers.<br>
-  Purchase equipment (routers, switches, servers, loadbalancers, Firewalls, etc.).<br>
-  Ship Equipment to Data Centers.<br>
-  Rack and Cable all the equipment: Power, Network, Out-of-band Access: IPMI: Dell iDRAC, HP iLO, etc.<br>
-  Create and Deploy LAN Network Design: Valley-free Routing vs. Leaf and Spine Topology, LAG and/or MLAG, etc.<br>
-  Install OS or Type-1 Hypervisor on all baremetal machines with bootstrap tools: iPXE, ipmitool, Tinkerbell, Shoelaces, Redfish, etc.<br>
-  Configure all servers with your Provisioning Tools: Ansible, Terraform, DNF/RPM, etc.<br>
-  Create VMs and/or Containers on your servers.<br>
-  Install Container Orchestration Software on baremetal or VMs: Kubernetes et.al.<br>
-  Design Kubernetes System Design to best support your workload.<br>
-  Deploy applications on Kubernetes cluster.<br>
-  Maintain everything!<br>
-  Have Fun!<br>
-  Make Money!<br>
+&ensp;&ensp;Purchase equipment (routers, switches, servers, loadbalancers, Firewalls, etc.).<br>
+&ensp;&ensp;Ship Equipment to Data Centers.<br>
+&ensp;&ensp;Rack and Cable all the equipment: Power, Network, Out-of-band Access: IPMI: Dell iDRAC, HP iLO, etc.<br>
+&ensp;&ensp;Configure WAN BGP Peering Connections on your Border Routers - aka., Connect your Data Center to the Internet and other Data Centers.<br>
+&ensp;&ensp;Create and Deploy LAN Network Design: Valley-free Routing vs. Leaf and Spine Topology, LAG and/or MLAG, etc.<br>
+&ensp;&ensp;Install OS or Type-1 Hypervisor on all baremetal machines with bootstrap tools: iPXE, ipmitool, Tinkerbell, Shoelaces, Redfish, etc.<br>
+&ensp;&ensp;Configure all servers with your Provisioning Tools: Ansible, Terraform, DNF/RPM, APT/DPKG, Pacman, OSTree, etc.<br>
+&ensp;&ensp;Create VMs and/or Containers on your servers.<br>
+&ensp;&ensp;Install Container Orchestration Software on baremetal or VMs: Kubernetes et.al.<br>
+&ensp;&ensp;Design Kubernetes System Design to best support your workload.<br>
+&ensp;&ensp;Deploy applications on Kubernetes cluster.<br>
+&ensp;&ensp;Maintain everything!<br>
+&ensp;&ensp;Have Fun!<br>
+&ensp;&ensp;Make Money!<br>
 Aquire and Configure all non-hardware Internet Related Resources to get you up and running.<br>
-  This short list includes:<br>
-  aquiring an ASN, CIDR Blocks, establishing BGP Peering, configure BGP Anycast, create and implement WAN design, etc.<br>
-  Again, the details of doing even this short list took me 30+ years to perfect.<br>
-  Network Engineering is a complete field on to itself.<br>
-ARIN:<br>
-  All resource requests require an ARIN Online account linked to either an Admin or Tech Point of Contact (POC) record<br>
-  with the authority to request resources for a valid Organization Identifier (Org ID).<br>
-  Aquire ASN from ARIN:<br>
-    https://www.arin.net/resources/guide/quickguide.pdf<br>
-    https://www.arin.net/blog/2019/09/24/how-to-request-an-asn-from-arin/<br>
-    https://ipinfo.io/<ASN><br>
-    https://mxtoolbox.com/asn.aspx<br>
-    http://navigators.com/isp.html<br>
-    https://www.peeringdb.com/<br>
+&ensp;&ensp;This short list includes:<br>
+&ensp;&ensp;aquiring an ASN, CIDR Blocks, establishing BGP Peering, configure BGP Anycast, create and implement WAN design, etc.<br>
+&ensp;&ensp;Again, the details of doing even this short list took me 30+ years to perfect.<br>
+&ensp;&ensp;Network Engineering is a complete field on to itself.<br>
+Aquire ASN from ARIN:<br>
+&ensp;&ensp;All resource requests require an ARIN Online account linked to either an Admin or Tech Point of Contact (POC) record<br>
+&ensp;&ensp;with the authority to request resources for a valid Organization Identifier (Org ID).<br>
+&ensp;&ensp;https://www.arin.net/resources/guide/quickguide.pdf<br>
+&ensp;&ensp;https://www.arin.net/blog/2019/09/24/how-to-request-an-asn-from-arin/<br>
+&ensp;&ensp;https://ipinfo.io/<ASN><br>
+&ensp;&ensp;https://mxtoolbox.com/asn.aspx<br>
+&ensp;&ensp;http://navigators.com/isp.html<br>
+&ensp;&ensp;https://www.peeringdb.com/<br>
   Aquire from ARIN IP CIDR Block/Addresses (IPv4 or IPv6) - IPv6 is preferred!<br>
-    https://www.youtube.com/watch?v=nCm6bLPh-Pw#t=00h00m00s?=#- Using Your ARIN Online Account - Requesting IP Address Space<br>
-    https://www.arin.net/resources/guide/request/<br>
-    https://www.arin.net/resources/guide/ipv4/request/<br>
-    https://www.arin.net/resources/guide/ipv6/<br>
-    https://www.arin.net/resources/guide/ipv6/first_request/<br>
-    https://www.arin.net/resources/guide/ipv6/preparing_apps_for_v6.pdf<br>
-    https://www.arin.net/reference/materials/cidr.pdf<br>
-    https://mxtoolbox.com/arin.aspx<br>
-    https://datatracker.ietf.org/doc/html/rfc4632<br>
-    http://www.cidr-report.org/as2.0<br>
-    https://bgp.potaroo.net/index-cidr.html<br>
-    https://ip2cidr.com/<br>
-    https://whoisrequest.com/<br>
+&ensp;&ensp;https://www.youtube.com/watch?v=nCm6bLPh-Pw#t=00h00m00s?=#- Using Your ARIN Online Account - Requesting IP Address Space<br>
+&ensp;&ensp;https://www.arin.net/resources/guide/request/<br>
+&ensp;&ensp;https://www.arin.net/resources/guide/ipv4/request/<br>
+&ensp;&ensp;https://www.arin.net/resources/guide/ipv6/<br>
+&ensp;&ensp;https://www.arin.net/resources/guide/ipv6/first_request/<br>
+&ensp;&ensp;https://www.arin.net/resources/guide/ipv6/preparing_apps_for_v6.pdf<br>
+&ensp;&ensp;https://www.arin.net/reference/materials/cidr.pdf<br>
+&ensp;&ensp;https://mxtoolbox.com/arin.aspx<br>
+&ensp;&ensp;https://datatracker.ietf.org/doc/html/rfc4632<br>
+&ensp;&ensp;http://www.cidr-report.org/as2.0<br>
+&ensp;&ensp;https://bgp.potaroo.net/index-cidr.html<br>
+&ensp;&ensp;https://ip2cidr.com/<br>
+&ensp;&ensp;https://whoisrequest.com/<br>
 BGP: (iBGP,eBGP)<br>
-  Establish BGP peering relationship, aka., Connect your Data Center to the Internet.<br>
-  Implement your WAN Design to connect all your Datacenters together.<br>
-  Configure BGP Anycast to connect your customers to all of your Data Centers.<br>
-  For static data, use Edge Networking or CDNs to improve latency for your customers.<br>
-  For dynamic data, include a Caching layer to improve latency for your customers.<br>
+&ensp;&ensp;Establish BGP peering relationship, aka., Connect your Data Center to the Internet.<br>
+&ensp;&ensp;Implement your WAN Design to connect all your Datacenters together.<br>
+&ensp;&ensp;Configure BGP Anycast to connect your customers to all of your Data Centers.<br>
+&ensp;&ensp;For static data, use Edge Networking or CDNs to improve latency for your customers.<br>
+&ensp;&ensp;For dynamic data, include a Caching layer to improve latency for your customers.<br>
 BGP Tools:<br>
-  https://bgplay.massimocandela.com/<br>
-  https://github.com/massimocandela/BGPlay<br>
-  https://lookinglass.org/<br>
-  https://www.bgp4.as/looking-glasses<br>
-  https://bgpview.io/<br>
-  https://bgp.potaroo.net/index-bgp.html<br>
-  https://github.com/irrtoolset/irrtoolset<br>
+&ensp;&ensp;https://bgplay.massimocandela.com/<br>
+&ensp;&ensp;https://github.com/massimocandela/BGPlay<br>
+&ensp;&ensp;https://lookinglass.org/<br>
+&ensp;&ensp;https://www.bgp4.as/looking-glasses<br>
+&ensp;&ensp;https://bgpview.io/<br>
+&ensp;&ensp;https://bgp.potaroo.net/index-bgp.html<br>
+&ensp;&ensp;https://github.com/irrtoolset/irrtoolset<br>
 IPv4:<br>
-  RFC1918: Non-Routable IPv4 Networks/Addresses<br>
+&ensp;&ensp;RFC1918: Non-Routable IPv4 Networks/Addresses<br>
 IPv4 Tools:<br>
-  https://mxtoolbox.com/NetworkTools.aspx<br>
-  https://mxtoolbox.com/subnetcalculator.aspx<br>
-  Display arp cache: aka., MAC Addresses<br>
-  # arp -a<br>
-  Display IP Addressess:<br>
-  # ip a | grep inet | grep -v inet6 | grep -v 127.0.0.0<br>
-  Display Routing Table and Default Gateway<br>
-  # ip r<br>
-  Display open TCP and UDP Ports on your host<br>
-  # nmap -sU <ip-address><br>
-  # nmap -Pn <ip-address><br>
+&ensp;&ensp;[MXToolBox Network Tools](https://mxtoolbox.com/NetworkTools.aspx)<br>
+&ensp;&ensp;[MXToolBox Subnet Calculator](https://mxtoolbox.com/subnetcalculator.aspx)<br>
+&ensp;&ensp;Display arp cache: aka., MAC Addresses<br>
+&ensp;&ensp;# arp -a<br>
+&ensp;&ensp;Display IP Addressess:<br>
+&ensp;&ensp;# ip a | grep inet | grep -v inet6 | grep -v 127.0.0.0<br>
+&ensp;&ensp;Display Routing Table and Default Gateway<br>
+&ensp;&ensp;# ip r<br>
+&ensp;&ensp;Display open TCP and UDP Ports on your host<br>
+&ensp;&ensp;# nmap -sU <ip-address><br>
+&ensp;&ensp;# nmap -Pn <ip-address><br>
 IPv6:<br>
-  IPv6 has two Internal address types:<br>
-  1) Link Local:<br>
-     Link local addresses are not routed on the Internal network or the Internet.<br>
-     Link local addresses start with fe80<br>
-     Link Local addresses are self assigned i.e. they do not require a DHCP server.<br>
-     A link local address is required on every IP6 interface even if no routing is present.<br>
-  2) Unique Local:<br>
-     Unique Local addresses are meant to be used inside an internal network.<br>
-     Unique Local addresses are equivalent to RFC1918 addresses.<br>
-     The address space is divided into two /8 spaces: fc00::/8 for globally assigned addressing, and fd00::/8 for locally assigned addressing.<br>
-  RFC4193: Unique Local IPv6 Unicast Addresses<br>
-  https://datatracker.ietf.org/doc/html/rfc4193<br>
-  https://www.ripe.net/manage-ips-and-asns/ipv6/ipv6-address-types/ipv6addresstypes.pdf<br>
-  IPv4/IPv6 dual-stack<br>
-  https://kubernetes.io/docs/concepts/services-networking/dual-stack/<br>
-  Validate IPv4/IPv6 dual-stack<br>
-  https://kubernetes.io/docs/tasks/network/validate-dual-stack/<br>
-  Tutorial: Assigning IPv6 addresses to Kubernetes Pods and services<br>
-  https://docs.aws.amazon.com/eks/latest/userguide/cni-ipv6.html<br>
-  What the Arrival of IPv6 Support in Kubernetes Means for You<br>
-  https://deploy.equinix.com/blog/kubernetes-ipv6-ipv4-dual-stack-networking/<br>
-  https://mxtoolbox.com/NetworkTools.aspx<br>
+IPv6 has two Internal address types:<br>
+&ensp;&ensp;1) Link Local:<br>
+&ensp;&ensp;&ensp;&ensp;Link local addresses are not routed on the Internal network or the Internet.<br>
+&ensp;&ensp;&ensp;&ensp;Link local addresses start with fe80<br>
+&ensp;&ensp;&ensp;&ensp;Link Local addresses are self assigned i.e. they do not require a DHCP server.<br>
+&ensp;&ensp;&ensp;&ensp;A link local address is required on every IP6 interface even if no routing is present.<br>
+&ensp;&ensp;2) Unique Local:<br>
+&ensp;&ensp;&ensp;&ensp;Unique Local addresses are meant to be used inside an internal network.<br>
+&ensp;&ensp;&ensp;&ensp;Unique Local addresses are equivalent to RFC1918 addresses.<br>
+&ensp;&ensp;&ensp;&ensp;The address space is divided into two /8 spaces: fc00::/8 for globally assigned addressing, and fd00::/8 for locally assigned addressing.<br>
+&ensp;&ensp;&ensp;&ensp;[RFC4193: Unique Local IPv6 Unicast Addresses](https://datatracker.ietf.org/doc/html/rfc4193)<br>
+&ensp;&ensp;&ensp;&ensp;[IPv6 Address Types](https://www.ripe.net/manage-ips-and-asns/ipv6/ipv6-address-types/ipv6addresstypes.pdf)<br>
+&ensp;&ensp;&ensp;&ensp;[IPv4/IPv6 dual-stack](https://kubernetes.io/docs/concepts/services-networking/dual-stack/)<br>
+&ensp;&ensp;&ensp;&ensp;[Validate IPv4/IPv6 dual-stack](https://kubernetes.io/docs/tasks/network/validate-dual-stack/)<br>
+&ensp;&ensp;&ensp;&ensp;[Tutorial: Assigning IPv6 addresses to Kubernetes Pods and services](https://docs.aws.amazon.com/eks/latest/userguide/cni-ipv6.htm)<br>
+&ensp;&ensp;&ensp;&ensp;[What the Arrival of IPv6 Support in Kubernetes Means for You](https://deploy.equinix.com/blog/kubernetes-ipv6-ipv4-dual-stack-networking/)<br>
 IPv6 Tools:<br>
-  http://www.ipamworldwide.com/libraries/toolmenu.html<br>
+&ensp;&ensp;&ensp;&ensp;[Free IPv6 Tools](http://www.ipamworldwide.com/libraries/toolmenu.html)<br>
+&ensp;&ensp;&ensp;&ensp;[MXToolBox Network Tools](https://mxtoolbox.com/NetworkTools.aspx)<br>
 Register Domain Names:<br>
-  There are several Domain Registrars:<br>
-  https://www.bluehost.com/domains<br>
-  https://www.godaddy.com/domains<br>
+&ensp;&ensp;There are several Domain Registrars:<br>
+&ensp;&ensp;https://www.bluehost.com/domains<br>
+&ensp;&ensp;https://www.godaddy.com/domains<br>
 Install and Configure certbot (aka., LetsEncrypt)<br>
-  Let's Encrypt is a global Certificate Authority (CA).<br>
-  Certbot lets people and organizations around the world<br>
-  obtain, renew, and manage SSL/TLS certificates.<br>
-  Certbot certificates can be used by websites to enable secure HTTPS connections.<br>
-  Certbot certifactes are free!<br>
-  https://letsencrypt.org/docs/faq/<br>
-  https://letsencrypt.org/getting-started/<br>
-  https://github.com/letsencrypt/website/<br>
-  https://letsencrypt.org/documents/isrg-cps-v3.0/<br>
-  https://letsencrypt.org/docs/client-options/<br>
+&ensp;&ensp;Let's Encrypt is a global Certificate Authority (CA).<br>
+&ensp;&ensp;Certbot lets people and organizations around the world<br>
+&ensp;&ensp;obtain, renew, and manage SSL/TLS certificates.<br>
+&ensp;&ensp;Certbot certificates can be used by websites to enable secure HTTPS connections.<br>
+&ensp;&ensp;Certbot certifactes are free!<br>
+&ensp;&ensp;https://letsencrypt.org/docs/faq/<br>
+&ensp;&ensp;https://letsencrypt.org/getting-started/<br>
+&ensp;&ensp;https://github.com/letsencrypt/website/<br>
+&ensp;&ensp;https://letsencrypt.org/documents/isrg-cps-v3.0/<br>
+&ensp;&ensp;https://letsencrypt.org/docs/client-options/<br>
 Network Time Protocol (NTP):<br>
-  If your time is off on your servers, then your logs will be off<br>
-  and other applications will also start to fail!<br>
-  NTP gives client synchronization accuracies in the millisecond range.<br>
-  I use NTPsec:<br>
-  $ dnf install -y ntpsec<br>
-  ftp://ftp.ntpsec.org/pub/releases/ntpsec-1.1.8.tar.gz<br>
-  https://www.ntpsec.org/<br>
-  https://docs.ntpsec.org/latest/NTS-QuickStart.html<br>
-  https://docs.ntpsec.org/latest/build.html#unix<br>
-  https://github.com/ntpsec/ntpsec<br>
-  https://github.com/ntpsec/ntpsec.github.io<br>
-  https://gitlab.com/NTPsec<br>
-  https://gitlab.com/NTPsec/ntpsec/blob/master/devel/nts.adoc<br>
-  https://weberblog.net/setting-up-nts-secured-ntp-with-ntpsec/<br>
-  $ cat /etc/ntpsec/ntp.conf<br>
-  $ hwclock --show<br>
-  $ timedatectl status<br>
-  $ ntpdate -q us.pool.ntp.org<br>
-  $ ntpdate -q 0.pool.ntp.org<br>
-  $ ntpq -p<br>
-  $ ntpq -c rv<br>
-  Computer Network Time Synchronization:<br>
-    https://www.eecis.udel.edu/~mills/book.html<br>
-  Open Time Server:<br>
-    http://www.opentimeserver.com/<br>
-    https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Open-Time-Server<br>
-  Google Public NTP:<br>
-    https://developers.google.com/time<br>
-  Cloudflare Time Services:<br>
-    time-services@cloudflare.com<br>
-    https://time.cloudflare.com/<br>
-    https://www.cloudflare.com/time/<br>
-  NIST Internet Time Servers:<br>
-    https://tf.nist.gov/tf-cgi/servers.cgi<br>
-  NTP Pool Project:<br>
-    https://www.ntppool.org/en/<br>
+&ensp;&ensp;If your time is off on your servers, then your logs will be off<br>
+&ensp;&ensp;and other applications will also start to fail!<br>
+&ensp;&ensp;NTP gives client synchronization accuracies in the millisecond range.<br>
+&ensp;&ensp;I use NTPsec:<br>
+&ensp;&ensp;$ dnf install -y ntpsec<br>
+&ensp;&ensp;ftp://ftp.ntpsec.org/pub/releases/ntpsec-1.1.8.tar.gz<br>
+&ensp;&ensp;https://www.ntpsec.org/<br>
+&ensp;&ensp;https://docs.ntpsec.org/latest/NTS-QuickStart.html<br>
+&ensp;&ensp;https://docs.ntpsec.org/latest/build.html#unix<br>
+&ensp;&ensp;https://github.com/ntpsec/ntpsec<br>
+&ensp;&ensp;https://github.com/ntpsec/ntpsec.github.io<br>
+&ensp;&ensp;https://gitlab.com/NTPsec<br>
+&ensp;&ensp;https://gitlab.com/NTPsec/ntpsec/blob/master/devel/nts.adoc<br>
+&ensp;&ensp;https://weberblog.net/setting-up-nts-secured-ntp-with-ntpsec/<br>
+&ensp;&ensp;$ cat /etc/ntpsec/ntp.conf<br>
+&ensp;&ensp;$ hwclock --show<br>
+&ensp;&ensp;$ timedatectl status<br>
+&ensp;&ensp;$ ntpdate -q us.pool.ntp.org<br>
+&ensp;&ensp;$ ntpdate -q 0.pool.ntp.org<br>
+&ensp;&ensp;$ ntpq -p<br>
+&ensp;&ensp;$ ntpq -c rv<br>
+&ensp;&ensp;[Computer Network Time Synchronization](https://www.eecis.udel.edu/~mills/book.html)<br>
+&ensp;&ensp;[Open Time Server](http://www.opentimeserver.com/)<br>  
+&ensp;&ensp;[Open Time Server on Github](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Open-Time-Server)<br>
+&ensp;&ensp;[Google Public NTP](https://developers.google.com/time)<br>
+&ensp;&ensp;[Cloudflare Time Services](https://time.cloudflare.com/)<br>
+&ensp;&ensp;time-services@cloudflare.com<br>
+&ensp;&ensp;https://www.cloudflare.com/time/<br>
+&ensp;&ensp;[NIST Internet Time Servers](https://tf.nist.gov/tf-cgi/servers.cgi)<br>
+&ensp;&ensp;[NTP Pool Project](https://www.ntppool.org/en/)<br>
 Precision Time Protocol: (PPT) IEEE 1588<br>
-  PPT gives slave synchronization accuracies in the nanosecond or microsecond range.<br>
-  https://en.wikipedia.org/wiki/Precision_Time_Protocol<br>
-  https://en.wikipedia.org/wiki/IEEE_1588<br>
-  https://www.nist.gov/el/intelligent-systems-division-73500/ieee-1588<br>
-  https://linuxptp.sourceforge.net/<br>
+&ensp;&ensp;PPT gives slave synchronization accuracies in the nanosecond or microsecond range.<br>
+&ensp;&ensp;https://en.wikipedia.org/wiki/Precision_Time_Protocol<br>
+&ensp;&ensp;https://en.wikipedia.org/wiki/IEEE_1588<br>
+&ensp;&ensp;https://www.nist.gov/el/intelligent-systems-division-73500/ieee-1588<br>
+&ensp;&ensp;https://linuxptp.sourceforge.net/<br>
 DNS: ISC-BIND (stable versions are even release numbers)<br>
-  Kubernetes uses CoreDNS for DNS resolution amoung their Pods.<br>
-  I use ISC-BIND for the Baremetal and VMs underneath Kubernetes.<br>
-  Public DNS: 1.1.1.1, 8.8.8.8, 8.8.4.4, 9.9.9.9<br>
-  https://www.isc.org/bind/<br>
-  https://downloads.isc.org/isc/bind9/cur/<br>
-  https://downloads.isc.org/isc/bind9/cur/9.18/doc/arm/Bv9ARM.pdf<br>
+&ensp;&ensp;Kubernetes uses CoreDNS for DNS resolution amoung their Pods.<br>
+&ensp;&ensp;I use ISC-BIND for the Baremetal and VMs underneath Kubernetes.<br>
+&ensp;&ensp;Public DNS: 1.1.1.1, 8.8.8.8, 8.8.4.4, 9.9.9.9<br>
+&ensp;&ensp;https://www.isc.org/bind/<br>
+&ensp;&ensp;https://downloads.isc.org/isc/bind9/cur/<br>
+&ensp;&ensp;https://downloads.isc.org/isc/bind9/cur/9.18/doc/arm/Bv9ARM.pdf<br>
 DNSSEC:<br>
-  DNSSEC - What Is It and Why Is It Important?<br>
-  https://www.icann.org/resources/pages/dnssec-what-is-it-why-important-2019-03-05-en<br>
-  DNSSEC Basics<br>
-  https://www.internetsociety.org/deploy360/dnssec/basics/<br>
-  DNSSEC Overview<br>
-  https://www.youtube.com/watch?v=MrtsKTC3KDM#t=00h00m00s?=#- DNSSEC Overview<br>
-  DNSSec Explained<br>
-  https://www.youtube.com/watch?v=_8M_vuFcdZU#t=00h00m00s?=#- DNSSec Explained<br>
+&ensp;&ensp;DNSSEC - What Is It and Why Is It Important?<br>
+&ensp;&ensp;https://www.icann.org/resources/pages/dnssec-what-is-it-why-important-2019-03-05-en<br>
+&ensp;&ensp;[DNSSEC Basics](https://www.internetsociety.org/deploy360/dnssec/basics/)<br>
+&ensp;&ensp;[DNSSEC Overview](https://www.youtube.com/watch?v=MrtsKTC3KDM)<br>
+&ensp;&ensp;[DNSSec Explained](https://www.youtube.com/watch?v=_8M_vuFcdZU)<br>
 DNS Tools:<br>
-  Stork is a dashboard for BIND 9 and Kea DHCP:<br>
-  https://gitlab.isc.org/isc-projects/stork<br>
-  $ man dig<br>
-  $ man mdig<br>
-  $ man delv<br>
-  $ nmap --script broadcast-dhcp-discover -e <nic-interface><br>
-  https://www.isc.org/dns-tools/<br>
-  https://who.is/<br>
-  https://dnschecker.org/<br>
-  https://www.dnswatch.info/<br>
-  http://www.mavetju.org/download/dnstracer-1.9.tar.gz<br>
+&ensp;&ensp;Stork is a dashboard for BIND 9 and Kea DHCP:<br>
+&ensp;&ensp;https://gitlab.isc.org/isc-projects/stork<br>
+&ensp;&ensp;$ man dig<br>
+&ensp;&ensp;$ man mdig<br>
+&ensp;&ensp;$ man delv<br>
+&ensp;&ensp;$ nmap --script broadcast-dhcp-discover -e <nic-interface><br>
+&ensp;&ensp;https://www.isc.org/dns-tools/<br>
+&ensp;&ensp;https://who.is/<br>
+&ensp;&ensp;https://dnschecker.org/<br>
+&ensp;&ensp;https://www.dnswatch.info/<br>
+&ensp;&ensp;http://www.mavetju.org/download/dnstracer-1.9.tar.gz<br>
 DNS Root Servers:<br>
-  https://www.iana.org/domains/root/servers<br>
-  https://www.internic.net/domain/root.zone<br>
-  https://root-servers.org/<br>
+&ensp;&ensp;https://www.iana.org/domains/root/servers<br>
+&ensp;&ensp;https://www.internic.net/domain/root.zone<br>
+&ensp;&ensp;https://root-servers.org/<br>
 DHCP: ISC-KEA (replaces ISC-DHCP)<br>
-  https://www.isc.org/kea/<br>
-  https://gitlab.isc.org/isc-projects/kea<br>
-  https://kea.readthedocs.io/en/latest/<br>
+&ensp;&ensp;https://www.isc.org/kea/<br>
+&ensp;&ensp;https://gitlab.isc.org/isc-projects/kea<br>
+&ensp;&ensp;https://kea.readthedocs.io/en/latest/<br>
 DHCP Tools:<br>
-  Stork is a dashboard for BIND 9 and Kea DHCP:<br>
-  https://gitlab.isc.org/isc-projects/stork<br>
-  https://www.isc.org/kea-tools/<br>
-  https://www.isc.org/dhcp-tools/<br> ISC announced the end of maintenance for ISC DHCP as of the end of 2022 - use Kea instead!<br>
-  http://www.mavetju.org/download/dhcping-1.2.tar.gz<br>
-  http://www.mavetju.org/download/dhcpdump-1.8.tar.gz<br>
+&ensp;&ensp;Stork is a dashboard for BIND 9 and Kea DHCP:<br>
+&ensp;&ensp;https://gitlab.isc.org/isc-projects/stork<br>
+&ensp;&ensp;https://www.isc.org/kea-tools/<br>
+&ensp;&ensp;https://www.isc.org/dhcp-tools/ <-- ISC announced the end of maintenance for ISC DHCP as of the end of 2022 - use Kea instead!<br>
+&ensp;&ensp;http://www.mavetju.org/download/dhcping-1.2.tar.gz<br>
+&ensp;&ensp;http://www.mavetju.org/download/dhcpdump-1.8.tar.gz<br>
 Configure Out-of-band Access to all Servers:<br>
-  IPMI: Dell iDRAC, HP iLO, etc.<br>
-  # dnf install ipmitool ipmiutil<br>
-  Discover all ipmi servers on your network:<br>
-  # ipmiutil discover<br>
+&ensp;&ensp;IPMI: Dell iDRAC, HP iLO, etc.<br>
+&ensp;&ensp;# dnf install ipmitool ipmiutil<br>
+&ensp;&ensp;Discover all ipmi servers on your network:<br>
+&ensp;&ensp;# ipmiutil discover<br>
 Find your NAT IP:<br>
-  https://www.ipchicken.com/<br>
-  # curl ifconfig.me<br>
-  # tranceroute arin.net<br>
+&ensp;&ensp;https://www.ipchicken.com/<br>
+&ensp;&ensp;# curl ifconfig.me<br>
+&ensp;&ensp;# tranceroute arin.net<br>
 Other Random Tools:<br>
-  https://www.google.com/intl/en/ipv6/statistics.html<br>
-  https://time.is/<br>
-  http://www.convertunits.com/dates/from/Jan+1,+2023/to/Sep+28,+2023<br>
-  https://thetruesize.com/<br>
+&ensp;&ensp;https://www.google.com/intl/en/ipv6/statistics.html<br>
+&ensp;&ensp;https://time.is/<br>
+&ensp;&ensp;http://www.convertunits.com/dates/from/Jan+1,+2023/to/Sep+28,+2023<br>
+&ensp;&ensp;https://thetruesize.com/<br>
 
 ## My Favorite Hardware/Software for OnPrem Compute and Storage
 Network Hardware:
