@@ -270,7 +270,7 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;Follow that up with "[Principia Mathematica](https://en.wikipedia.org/wiki/Principia_Mathematica)" by [Alfred North Whitehead](https://en.wikipedia.org/wiki/Alfred_Whitehead) and [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell).<br>
    &ensp;&ensp;Follow that up with "[Certain Factors Affecting Telegraph Speed](https://monoskop.org/images/9/9f/Nyquist_Harry_1924_Certain_Factors_Affecting_Telegraph_Speed.pdf)" and "[Certain Topics in Telegraph Transmission Theory](https://bayes.wustl.edu/Manual/CertainTopicsInTelegraphTransmissionTheory.pdf)" by [Harry Nyquist](https://en.wikipedia.org/wiki/Harry_Nyquist)<br>
    &ensp;&ensp;Follow that up with "[Transmission of Information](https://monoskop.org/images/a/a6/Hartley_Ralph_VL_1928_Transmission_of_Information.pdf)" by [Ralph Hartley](https://en.wikipedia.org/wiki/Ralph_Hartley)<br>
-   &ensp;&ensp;Information Theory is a rich field of study and worth the deep dive.<br>
+   &ensp;&ensp;Information Theory and Communication Theory is a rich field of study and worth the deep dive.<br>
    System Level:<br>
    &ensp;&ensp;[Virtual Reality (VR)](https://en.wikipedia.org/wiki/Virtual_reality)<br>
    &ensp;&ensp;[Augmented Reality (AR)](https://en.wikipedia.org/wiki/Augmented_reality)<br>
@@ -650,7 +650,7 @@ What is Data?<br>
 &ensp;&ensp;Data in the context of digital computing is just a collection of bits.<br>
 &ensp;&ensp;Technically, "data" is a plural noun (it is the plural form of the noun "datum").<br>
 &ensp;&ensp;However, it is used with both singular and plural verbs.<br>
-&ensp;&ensp;The term data is so general it almost has no meaning.<br>
+&ensp;&ensp;The term data (like bit) is so general, it almost has no meaning.<br>
 &ensp;&ensp;Yet, it's probably the most important and most used word in all of modern Computer Science.<br>
 What Is Structured Data?<br>
 &ensp;&ensp;Structured data follows a specific format, making it easy to store and analyze.<br>
