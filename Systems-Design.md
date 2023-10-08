@@ -776,7 +776,7 @@ in learning from large amounts of data and Platforms generate large amounts of d
 ### On Prem Information
 Introduction:<br>
 &ensp;&ensp;The purpose of this section is to give a "bigpicture" view of an OnPrem Infrastructure.<br>
-&ensp;&ensp;***I you're going Cloud Native/Fully Managed, you don't need to know a lot of the following steps.***<br>
+&ensp;&ensp;**I you're going Cloud Native/Fully Managed, you don't need to know a lot of the following steps.**<br>
 &ensp;&ensp;The following is a description of a basic setup of an OnPrem Infrastructure:<br>
 &ensp;&ensp;This is a quick, short, and incomplete list of necessities.<br>
 &ensp;&ensp;I'm skipping Data Center topics like Generators, UPSes, Power Design, HVAC Cooling Design, Security,<br>
