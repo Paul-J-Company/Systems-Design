@@ -212,7 +212,7 @@ An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) includes
 &ensp;&ensp;[Cohesion:](https://en.wikipedia.org/wiki/Cohesion_(computer_science))<br>
 &ensp;&ensp;&ensp;&ensp;[Cohesion Metrics](https://www.aivosto.com/project/help/pm-oo-cohesion.html)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A cohesive class performs one function.<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A non-cohesive class performs two or more unrelated functions.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A non-cohesive class performs two or more **unrelated** functions.<br>
 
 ### Computer Abstractions:
 Introduction:<br>
