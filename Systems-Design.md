@@ -186,6 +186,7 @@ Starting from a blank slate is different than inheriting an existing system infr
    Noise is what you don't want.<br>
 8) [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
 9) [Keep it Simple Stupid: (KISS)](https://en.wikipedia.org/wiki/KISS_principle)<br>
+   Simple is the opposite of complex.<br.
    Complexity is the enemy of clarity!<br>
    Simple does not always imply easy!<br>
 10) [Separation of Concerns: (SoP)](https://en.wikipedia.org/wiki/Separation_of_concerns)<br>
