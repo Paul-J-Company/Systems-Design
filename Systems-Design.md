@@ -523,10 +523,6 @@ What is a Software Deployment?<br>
 &ensp;&ensp;&ensp;&ensp;The new release candidate is thoroughly tested<br>
 &ensp;&ensp;&ensp;&ensp;before being switched with the production environment,<br>
 &ensp;&ensp;&ensp;&ensp;allowing for a smooth transition without any downtime or errors.<br>
-What is a Polystore?<br>
-&ensp;&ensp;A polystore is the combining of different database technologies tailored for specific use cases,<br>
-&ensp;&ensp;enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure.<br>
-&ensp;&ensp;Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.<br>
 What is Serverless?<br>
 &ensp;&ensp;The purpose of serverless technology is to provide a way<br>
 &ensp;&ensp;to build and run applications without having to consider<br>
@@ -637,6 +633,10 @@ What Is Unstructured Data?<br>
 &ensp;&ensp;However, unstructured data can also include less common examples like protein structures,<br>
 &ensp;&ensp;executable file hashes and human-readable code, among others - the possibilities are endless.<br>
 &ensp;&ensp;An astonishing 80% of newly generated data is unstructured.<br>
+&ensp;&ensp;Examples of Unstructured Data include:<br>
+&ensp;&ensp;&ensp;&ensp;Sensor data, Machine log data, Internet of Things (IoT) data, Computer vision data,<br>
+&ensp;&ensp;&ensp;&ensp;Natural Language Processing (NLP) data, Web and application data, Emails, Text messages,<br>
+&ensp;&ensp;&ensp;&ensp;Social media posts, Audio recordings, Handwritten notes, Meeting notes, Transcripts, User-generated content
 What is Semi-Structured Data? aka., Partially Structured Data<br>
 &ensp;&ensp;Semi-structured data is a mixture of structured and unstructured data.<br>
 &ensp;&ensp;Semi-structured data contains some level of organization, such as metadata or tags, but is not fully structured.<br>
@@ -670,6 +670,10 @@ What is Curse of Dimensionality?<br>
 &ensp;&ensp;The amount of data needed often grows exponentially with the dimensionality.<br>
 &ensp;&ensp;In high dimensional data, all objects appear to be sparse and dissimilar in many ways,<br>
 &ensp;&ensp;which prevents common data organization strategies from being efficient.<br>
+What is a Polystore?<br>
+&ensp;&ensp;A polystore is the combining of different database technologies tailored for specific use cases,<br>
+&ensp;&ensp;enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure.<br>
+&ensp;&ensp;Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.<br>
 
 ### The Six Pillars of Platform Engineering:
 1) [Security:](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security/)<br>
