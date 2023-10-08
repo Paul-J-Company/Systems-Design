@@ -181,9 +181,9 @@ Starting from a blank slate is different than inheriting an existing system infr
    CCC = Correct, Concise, Clear<br>
    Rule #1: Know your audience!<br>
    Always stay calm and rational.<br>
-   You want a good signal-to-noise ration (SNR).
-   Signal is what you want.
-   Noise is what you don't want.
+   You want a good signal-to-noise ration (SNR).<br>
+   Signal is what you want.<br>
+   Noise is what you don't want.<br>
 8) [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
 9) [Keep it Simple Stupid: (KISS)](https://en.wikipedia.org/wiki/KISS_principle)<br>
    Complexity is the enemy of clarity!<br>
