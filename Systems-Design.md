@@ -231,7 +231,7 @@ Introduction:<br>
 There are 3 Major Types of Computer Abstraction:<br>
 1. One-to-Many Abstraction:<br>
    **Appears and behaves like one thing, but is actually many things.**<br>
-   Network:<br>
+   Network Abstractions:<br>
    &ensp;&ensp;[Load Balancer:](https://en.wikipedia.org/wiki/Load_balancing_(computing)) hardware-based and software-based<br>
    &ensp;&ensp;[API Gateway:](https://en.wikipedia.org/wiki/API_management#Gateway)<br>
    &ensp;&ensp;[1-to-Many NAT/PAT:](https://en.wikipedia.org/wiki/Network_address_translation#One-to-many_NAT)<br>
@@ -240,18 +240,18 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[HSRP](https://en.wikipedia.org/wiki/Hot_Standby_Router_Protocol)/[VRRP](https://en.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol)/[CARP:](https://en.wikipedia.org/wiki/Common_Address_Redundancy_Protocol)<br>
    &ensp;&ensp;[Link Aggregation Group (LAG)](https://en.wikipedia.org/wiki/Link_aggregation)/[Link Aggregation Control Protocol (LACP):](https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol) aka., NIC Bonding/Teaming/Trunking/Bundling/Channeling<br>
    &ensp;&ensp;[Multi-Chassis Link Aggregation Group (MLAG):](https://en.wikipedia.org/wiki/Multi-chassis_link_aggregation_group)<br>
-   Storeage:<br>
+   Storeage Abstractions:<br>
    &ensp;&ensp;[RAID:](https://en.wikipedia.org/wiki/Raid)<br>
    &ensp;&ensp;[Controlled Replication Under Scalable Hashing (CRUSH):](https://ceph.com/assets/pdfs/weil-crush-sc06.pdf)<br>
-   Compute:<br>
+   Compute Abstractions:<br>
    &ensp;&ensp;[Cluster:](https://en.wikipedia.org/wiki/Computer_cluster)<br>
 2) Local-Remote Abstraction:<br>
    **Appears and behaves like a local resource, but is actually a remote resource.**<br>
-   Storage:<br>
+   Storage Abstractions:<br>
    &ensp;&ensp;[Clusterd Filesystems:](https://en.wikipedia.org/wiki/Clustered_file_system) aka., Distributed Filesystems<br>
    &ensp;&ensp;[Network File System (NFS):](https://en.wikipedia.org/wiki/Network_File_System)<br>
    &ensp;&ensp;[Samba](https://en.wikipedia.org/wiki/Samba)/[SMB/CIFS](https://en.wikipedia.org/wiki/Server_Message_Block):<br>
-   Compute:<br>
+   Compute Abstractions:<br>
    &ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
 3) [Emulation](https://en.wikipedia.org/wiki/Emulator)/[Simulation](https://en.wikipedia.org/wiki/Computer_simulation)/[Virtualization](https://en.wikipedia.org/wiki/Virtualization) Abstraction:<br>
    **Appears and behaves like one thing, but is actually another.**<br>
@@ -271,11 +271,11 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;Follow that up with "[Certain Factors Affecting Telegraph Speed](https://monoskop.org/images/9/9f/Nyquist_Harry_1924_Certain_Factors_Affecting_Telegraph_Speed.pdf)" and "[Certain Topics in Telegraph Transmission Theory](https://bayes.wustl.edu/Manual/CertainTopicsInTelegraphTransmissionTheory.pdf)" by [Harry Nyquist](https://en.wikipedia.org/wiki/Harry_Nyquist)<br>
    &ensp;&ensp;Follow that up with "[Transmission of Information](https://monoskop.org/images/a/a6/Hartley_Ralph_VL_1928_Transmission_of_Information.pdf)" by [Ralph Hartley](https://en.wikipedia.org/wiki/Ralph_Hartley)<br>
    &ensp;&ensp;Information Theory and Communication Theory is a rich field of study and worth the deep dive.<br>
-   System Level:<br>
+   System Level Abstractions:<br>
    &ensp;&ensp;[Virtual Reality (VR)](https://en.wikipedia.org/wiki/Virtual_reality)<br>
    &ensp;&ensp;[Augmented Reality (AR)](https://en.wikipedia.org/wiki/Augmented_reality)<br>
    &ensp;&ensp;[Mixed Reality (MR)](https://en.wikipedia.org/wiki/Mixed_reality)<br>
-   Network:<br>
+   Network Abstractions:<br>
    &ensp;&ensp;OS Implements:<br>
    &ensp;&ensp;[Virtual Routing and Forwarding: (VRF)](https://en.wikipedia.org/wiki/Virtual_routing_and_forwarding)<br>
    &ensp;&ensp;[Virtual LAN (VLAN):](https://en.wikipedia.org/wiki/VLAN)<br>
@@ -283,12 +283,12 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[Overlay Network:](https://en.wikipedia.org/wiki/Overlay_network)<br>
    &ensp;&ensp;[TCP/IP Stack:](https://en.wikipedia.org/wiki/Internet_protocol_suite)<br>
    &ensp;&ensp;[OSI Model:](https://en.wikipedia.org/wiki/OSI_model)<br>
-   Storage:<br>
+   Storage Abstractions:<br>
    &ensp;&ensp;OS Implements:<br>
    &ensp;&ensp;[Virtual Memory:](https://en.wikipedia.org/wiki/Virtual_memory)<br>
    &ensp;&ensp;[Filesystem:](https://en.wikipedia.org/wiki/File_system)<br>
    &ensp;&ensp;[Cache:](https://en.wikipedia.org/wiki/Cache_(computing))<br>
-   Compute:<br>
+   Compute Abstractions:<br>
    &ensp;&ensp;OS Implements:<br>
    &ensp;&ensp;[Virtual Machines (VMs):](https://en.wikipedia.org/wiki/Virtual_machine)<br>
    &ensp;&ensp;&ensp;&ensp;[Type-1 Hypervisor:](https://en.wikipedia.org/wiki/Hypervisor#Classification) aka , VMM<br>
@@ -703,10 +703,69 @@ What is Curse of Dimensionality?<br>
 &ensp;&ensp;The amount of data needed often grows exponentially with the dimensionality.<br>
 &ensp;&ensp;In high dimensional data, all objects appear to be sparse and dissimilar in many ways,<br>
 &ensp;&ensp;which prevents common data organization strategies from being efficient.<br>
+What is a [Database[(https://en.wikipedia.org/wiki/Category:Databases)?<br>
+&ensp;&ensp;A [Database](https://en.wikipedia.org/wiki/Database) is an organized collection of data (also known as a data store)<br>
+&ensp;&ensp;stored and accessed electronically through the use of a [Database Management System (DBMS)](https://en.wikipedia.org/wiki/Database#Database_management_system).<br>
 What is a Polystore?<br>
 &ensp;&ensp;A polystore is the combining of different database technologies tailored for specific use cases,<br>
 &ensp;&ensp;enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure.<br>
 &ensp;&ensp;Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.<br>
+Database Models/Types:<br>
+&ensp;&ensp;[Database Models](https://en.wikipedia.org/wiki/Category:Database_models)<br>
+&ensp;&ensp;[Types of Databases](https://en.wikipedia.org/wiki/Category:Types_of_databases)<br>
+&ensp;&ensp;[Database Software Comarisons](https://en.wikipedia.org/wiki/Category:Database_software_comparisons)<br>
+  1) Relational Databases:<br>
+     https://en.wikipedia.org/wiki/List_of_relational_database_management_systems<br>
+     https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems<br>
+  2) NoSQL Databases:<br>
+     https://en.wikipedia.org/wiki/Category:NoSQL<br>
+     Schemaless Documents:<br>
+       The number of fields, content and size of the document<br>
+       can differ from one document to another in the same collection.<br>
+  3) Key-Value Stores:<br>
+     https://en.wikipedia.org/wiki/Category:Key-value_databases<br>
+       See: "Simularities between Object stores and key-value stores:"<br>
+       See: "Differences between key-value stores and object stores:"<br>
+  4) Document-Oriented Databases:<br>
+     https://en.wikipedia.org/wiki/Document-oriented_database<br>
+       One of the main categories of NoSQL databases.<br>
+       Document-oriented databases are inherently a subclass of the key-value store.<br>
+     How to Choose the Right Document-Oriented NoSQL Database for Your Application<br>
+     https://dev.to/kalashin1/how-to-choose-the-right-document-oriented-nosql-database-for-your-application-3hac<br>
+  5) Wide Column Store:<br>
+     https://en.wikipedia.org/wiki/Wide-column_store<br>
+       A special type of NoSQL database.<br>
+  6) Graph Database:<br>
+     https://en.wikipedia.org/wiki/Category:Graph_databases<br>
+  7) In-Memory Databases:<br>
+     https://en.wikipedia.org/wiki/In-memory_database<br>
+     https://en.wikipedia.org/wiki/List_of_in-memory_databases<br>
+  8) NewSQL Databases:<br>
+     https://en.wikipedia.org/wiki/Category:NewSQL<br>
+  9) Blockchain:<br>
+     https://en.wikipedia.org/wiki/Blockchain-based_database<br>
+ 10) Distributed Filesystems: aka., Network File Systems<br>
+     https://en.wikipedia.org/wiki/Category:Distributed_file_systems<br>
+     https://en.wikipedia.org/wiki/List_of_file_systems#Distributed_file_systems<br>
+       S3, CephFS, Lustre, NFS, etc.<br>
+     https://en.wikipedia.org/wiki/Clustered_file_system#Distributed_file_systems<br>
+       The difference between a distributed file system and a distributed data store<br>
+       is that a distributed file system allows files to be accessed using the<br>
+       same interfaces and semantics as local files.<br>
+       Distributed data stores, by contrast, require using a different API<br>
+       or library and have different semantics (most often those of a database).<br>
+ 11) Distributed Data Store:<br>
+     https://en.wikipedia.org/wiki/Category:Distributed_data_storage<br>
+     https://en.wikipedia.org/wiki/Category:Distributed_data_stores<br>
+     https://en.wikipedia.org/wiki/Distributed_data_store<br>
+ 12) Distribute Databases:<br>
+     https://en.wikipedia.org/wiki/Distributed_database<br>
+ 13) Distributed Cache:<br>
+     https://en.wikipedia.org/wiki/Distributed_cache<br>
+     https://en.wikipedia.org/wiki/Distributed_hash_table<br>
+  14) Cloud Databases:<br>
+     https://en.wikipedia.org/wiki/Category:Cloud_storage<br>
+     https://en.wikipedia.org/wiki/Category:Cloud_databases<br>
 
 ### The Six Pillars of Platform Engineering:
 1) [Security:](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security/)<br>
