@@ -37,7 +37,7 @@ This is just one of the causes that makes any System ***"complex"***;<br>
 and why it requires a qualified ***System Designer*** to achieve these ***System Properties***.<br>
 Other causes of complexity include:<br> 
 &ensp;&ensp;non-linear dynamics, chaotic behavior, randomness (difficult to predict),<br>
-&ensp;&ensp;a deep nesting of many layers of abstraction, etc. which are all symptoms<br>
+&ensp;&ensp;a deep nesting of many layers of abstraction which are all symptoms<br>
 &ensp;&ensp;of the combinatorial explosion I already mentioned.<br>
 Complexity is incremental.<br>
 Complexity comes from dependencies and obscurity.<br>
@@ -78,7 +78,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - How do they choose the best Security Design, Tools and Policies/Practices for your Workload?
   - How do they choose the best Observability/Telemetry/Monitoring/Logging/Tracing/Analytics Design, Tools and Practices for your Workload?
   - How do they choose the best Testing/Benchmarking Design, Tools and Practices for your Workload?
-  - How do they choose the best Programming Language, IDE, etc. to implement your Workload?
+  - How do they choose the best Programming Language and IDE to implement your Workload?
   - How do they choose the best SDLC, CI/CD, and Distributed Version Control System Tools and Practices/Workflows for your Workload?
 + How do your Architects/Designers/Programmers/Teams/Departments communicate and how often?
   - In person Meetings, Email, Mailing Lists, Chat, Slack, Discord, Mastadon, IRC; Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
@@ -102,30 +102,30 @@ Starting from a blank slate is different than inheriting an existing system infr
   - What are your Incidence Response and Root Cause Analysis (RCA) procedures.
 + What is your Network Design?
   - Where are your High-Level Network Architecture/Design Diagrams?
-  - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, Redfish, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; Failover, Redundancy, etc.
+  - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, Redfish, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; Failover, Redundancy
   - What Network Tools do you use?
-    - RANCID, Netcat, Netbox, iperf, etc.
+    - RANCID, Netcat, Netbox, iperf
 + What is your Storage/Data Design?
   - Where are your High-level Storage/Data Architecture/Design Diagrams?
   - Data Lake, Wherehouse, Data Catalog
   - Relational, NoSQL, Document Oriented, Graph DB
   - Block Storage, Filesystem Storage, Object Storage
-  - CePH, BigTable, DynamoDB, etc.
+  - CePH, BigTable, DynamoDB
   - How do you [snapshot](https://en.wikipedia.org/wiki/Snapshot_(computer_storage))/[replicate](https://en.wikipedia.org/wiki/Replication_(computing))/[migrate](https://en.wikipedia.org/wiki/Data_migration)/[backup](https://en.wikipedia.org/wiki/Backup) large amounts of data?
   - What Data Tools do you use?
-    - DataDog, Splunk, Greylog, etc.
+    - DataDog, Splunk, Greylog
 + What is your Compute Design?
   - Where are your High-level Compute Architecture/Design Diagrams?
-  - AWS EC2 VMs, OnPrem Servers/VMs/Containers, etc.
+  - AWS EC2 VMs, OnPrem Servers/VMs/Containers
 + What Infrastructure Provisioning Tools do you use?
   - Terraform, Ansible, Nomad, Kubernetes?
 + What Programming Languages do you use?
-  - Python, Go, Bash, Rust, C, C++, Java, Javascript, etc.
+  - Python, Go, Bash, Rust, C, C++, Java, Javascript
   - What Programming Tools and/or Frameworks do you use?
     - IDEs: VSC, Vim, Emacs
     - Distributed Version Control System: Git, Github, Gitlab
     -  Programming Style Guides
-    -  Frameworks: Angular, Kafka, React, Backbone, etc.
+    -  Frameworks: Angular, Kafka, React, Backbone
 + What is your SDLC, CI/CD Workflow?
   - What SDLC, CI/CD Tools do you use?
     - CircleCD, ArgoCD, Jenkins
@@ -221,7 +221,7 @@ Introduction:<br>
 &ensp;&ensp;In other words, Layers and Levels are synonyms/equivalent.<br>
 &ensp;&ensp;Every layer has it's own [language](https://en.wikipedia.org/wiki/Category:Language)/[vocabulary](https://en.wikipedia.org/wiki/Category:Vocabulary)/[terminology](https://en.wikipedia.org/wiki/Category:Terminology)/[nomenclature](https://en.wikipedia.org/wiki/Nomenclature).<br>
 &ensp;&ensp;Every layer produces and Emergent Higher Layer by defining an Interface.<br>
-&ensp;&ensp;An Interface is the location where objects interact/couple/etc.<br>
+&ensp;&ensp;An Interface is the location where objects interact/couple.<br>
 &ensp;&ensp;I call the combination of all the Layers of your System the "Full Stack".<br>
 &ensp;&ensp;John Ousterhout, creator of the TCL Language likes to ask the following question:<br>
 &ensp;&ensp;"What is the most important concept in Computer Science?"<br>
@@ -315,7 +315,7 @@ Efficiency:<br>
 &ensp;&ensp;Efficiency is about doing more with less.<br>
 &ensp;&ensp;Efficiency is all about minimizing resources while maximizing productivity.<br>
 &ensp;&ensp;Efficiency decreases Capex because you have to buy fewer things;<br>
-&ensp;&ensp;and also decreases Opex because there are fewer things to maintain (install, configure, etc.)<br>
+&ensp;&ensp;and also decreases Opex because there are fewer things to maintain.<br>
 &ensp;&ensp;and fewer things to power and cool;<br>
 &ensp;&ensp;and by definition each item is more efficient to power and cool.<br>
 
@@ -335,7 +335,7 @@ Economy of Scale:<br>
 &ensp;&ensp;Typically, the larger something is, the more efficient it is (up to a point).<br>
 &ensp;&ensp;&ensp;&ensp;e.g., HVAC units are more efficient the larger they are.<br>
 &ensp;&ensp;Economy of Scale increases Capex because larger items cost more and use more power and cooling,<br>
-&ensp;&ensp;but decreases Opex because there are fewer things to maintain (install, configure, etc.).<br>
+&ensp;&ensp;but decreases Opex because there are fewer things to maintain.<br>
 
 Performance:<br>
 &ensp;&ensp;Performance is a Full Stack endeavor.<br>
@@ -485,7 +485,7 @@ What is GitOps?<br>
 &ensp;&ensp;autonomously converge to the desired state even if it drifts due to manual changes<br>
 &ensp;&ensp;or unforeseen events.<br>
 &ensp;&ensp;One of the decisions you have to make as a Platform Engineer using GitOps is<br>
-&ensp;&ensp;how you structure your Git repo: repo-per-app, repo-per-team, monrepo, etc.<br>
+&ensp;&ensp;how you structure your Git repo: repo-per-app, repo-per-team, monrepo<br>
 &ensp;&ensp;I always apply the Separation of Concerns Principle and typically use repo-per-app.<br>
 &ensp;&ensp;But it really depends on how your Organization works and is structured.<br>
 &ensp;&ensp;Trying all methods isn't a bad idea to see which one works best.<br>
@@ -624,7 +624,7 @@ What is OpenTelemetry?<br>
 &ensp;&ensp;code is instrumented, to help make a system observable.<br>
 &ensp;&ensp;OpenTelemetry is natively supported by a number of vendors.<br>
 &ensp;&ensp;[List of Vendors that support OpenTelemetry:](https://opentelemetry.io/ecosystem/vendors/)<br>
-&ensp;&ensp;Cloud Observability, Grafana Labs, Jaeger, SigNoz, AppDynamics, etc.<br>
+&ensp;&ensp;Cloud Observability, Grafana Labs, Jaeger, SigNoz, AppDynamics<br>
 What is Data?<br>
 &ensp;&ensp;Data is anything you can assign meaning to.<br>
 &ensp;&ensp;Technically, "data" is a plural noun (it is the plural form of the noun "datum").<br>
@@ -754,9 +754,9 @@ in learning from large amounts of data and Platforms generate large amounts of d
 ### HOWTO: Use AI to Improve the Speed, Accuracy and Clarity of your Platform
 1) Use LLMs to Write Boilerplate Code:<br>
    This accelerates the code writing experience.<br>
-   Use AI Coding Assistants to write code in Bash, Python, Go, Rust, YAML, JSON, etc.<br>
+   Use AI Coding Assistants to write code in Bash, Python, Go, Rust, YAML, JSON<br>
 3) Use LLMs to Learn from Telemetry Data:<br>
-   Log data, Monitoring data, Analytics data, Trace data, Network Topology data, etc.<br>
+   Log data, Monitoring data, Analytics data, Trace data, Network Topology data<br>
    This helps predict future possible outages, find errors, and accelerates incidence response and root cause analysis.<br>
 4) Use LLMs to Learn from Business Data:<br>
    This helps minimize CapEx and Opex.<br>
@@ -769,10 +769,10 @@ in learning from large amounts of data and Platforms generate large amounts of d
    as incidence response, root cause analysis, and Market predictions.<br>
    I'm using [LangChain](https://github.com/langchain-ai/langchain)/[LangChain](https://github.com/hwchase17/langchain), [LangChainHub](https://blog.langchain.dev/langchain-prompt-hub/), the [LangChainBlog](https://blog.langchain.dev/), and [Chat-Your-Data](https://github.com/hwchase17/chat-your-data) to develop my LLMs.<br>
    I'm using [Deepmind's PromptBreeder](https://the-decoder.com/deepminds-promptbreeder-automates-prompt-engineering/) generate prompts.<br>
-2) Continue learning AI Coding Assistants to write code in Bash, Python, Go, Rust, YAML, JSON, etc.<br>
+2) Continue learning AI Coding Assistants to write code in Bash, Python, Go, Rust, YAML, JSON<br>
    Here's a short list of AI Coding Assistants I'm currently using everyday<br>
    to generate boilerplate code, which I review, correct and test; and also<br>
-   to generate Documentation, Code Comments, Github pull requests, Static analysis, generate SQL, etc.<br>
+   to generate Documentation, Code Comments, Github pull requests, Static analysis, generate SQL<br>
    Github CopilotX, Codex, CodeWhisperer, Code Interpreter, Google Vertex AI Codey, Alphacode, BLOOM,<br>
    Tabnine, StarCoder, Polycoder, CodeQL, InfraCopilot, Cody, WhatTheDiff, Stenography, Mintlify, Kats,<br>
    Grit, Adrenaline, text2sql, askcodi, mutable.ai, Codeium, Readable, CodeT5 and CodeT5+, kiteco-public<br>
@@ -806,7 +806,7 @@ Pick at least 3 Data Centers: (for redundancy)<br>
 &ensp;&ensp;Make Money!<br>
 Aquire and Configure all non-hardware Internet Related Resources to get you up and running.<br>
 &ensp;&ensp;This short list includes:<br>
-&ensp;&ensp;aquiring an ASN, CIDR Blocks, establishing BGP Peering, configure BGP Anycast, create and implement WAN design, etc.<br>
+&ensp;&ensp;aquiring an ASN, CIDR Blocks, establishing BGP Peering, configure BGP Anycast, create and implement WAN design<br>
 &ensp;&ensp;Again, the details of doing even this short list took me 30+ years to perfect.<br>
 &ensp;&ensp;Network Engineering is a complete field on to itself.<br>
 Aquire ASN from ARIN:<br>
@@ -973,7 +973,7 @@ DHCP Tools:<br>
 &ensp;&ensp;http://www.mavetju.org/download/dhcping-1.2.tar.gz<br>
 &ensp;&ensp;http://www.mavetju.org/download/dhcpdump-1.8.tar.gz<br>
 Configure Out-of-band Access to all Servers:<br>
-&ensp;&ensp;IPMI: Dell iDRAC, HP iLO, etc.<br>
+&ensp;&ensp;IPMI: Dell iDRAC, HP iLO<br>
 &ensp;&ensp;# dnf install ipmitool ipmiutil<br>
 &ensp;&ensp;Discover all ipmi servers on your network:<br>
 &ensp;&ensp;# ipmiutil discover<br>
