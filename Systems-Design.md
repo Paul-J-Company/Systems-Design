@@ -988,33 +988,29 @@ Other Random Tools:<br>
 Network Hardware:<br>
 &ensp;&ensp;NOTE:<br>
 &ensp;&ensp;&ensp;&ensp;I'm not including Load Balancers or Firewalls because I prefer<br>
-&ensp;&ensp;&ensp;&ensp;using the built-in security features of Kubernetes and all of<br>
-&ensp;&ensp;&ensp;&ensp;the Kubernetes 3rd party options for securing a cluster.<br>
+&ensp;&ensp;&ensp;&ensp;using the built-in load balancing and security features of Kubernetes and all of<br>
+&ensp;&ensp;&ensp;&ensp;the Kubernetes 3rd party options for distributing data and securing a cluster.<br>
 &ensp;&ensp;Routers:<br>
 &ensp;&ensp;&ensp;&ensp;Juniper:<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;I prefer JunOS over Cisco IOS.<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://www.juniper.net/us/en/products/routers.html<br>
-    Cisco:<br>
-      https://www.cisco.com/c/en/us/products/routers/product-listing.html<br>
-      https://www.cisco.com/c/en_my/products/routers/index.html<br>
-    FRR:<br>
-      An inexpensive alternative would be to use a powerful Linux server with 100Gb NICs and FRR software.<br>
-      The only issue is FRR doesn't support MLAG which is a critical protocol for configuring redundancy.<br>
-      https://en.wikipedia.org/wiki/FRRouting<br>
-      https://github.com/FRRouting/frr<br>
-      https://frrouting.org/<br>
-      https://docs.frrouting.org/en/stable-9.0/<br>
-  Switches:<br>
-    Edgecore<br>
-      https://www.edge-core.com/productsList.php?cls=291&cls2=327<br>
-    100Gb Switches<br>
-      https://www.edge-core.com/productsList.php?cls=1&cls2=5<br>
-    AS7816-64X: 64 ports 100G QSFP28<br>
-      https://www.edge-core.com/productsInfo.php?cls=1&cls2=5&cls3=166&id=309<br>
-    AS7726-32X: 32 ports 100G QSFP28, 2 x 10G SFP<br>
-      https://www.edge-core.com/productsInfo.php?cls=&cls2=&cls3=15&id=545<br>
-    Edgecore AS5912-54X: 48 ports 10G + 6 ports 100G<br>
-      https://www.edge-core.com/productsInfo.php?cls=291&cls2=327&cls3=328&id=264<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;I prefer Juniper JunOS over Cisco IOS.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[Juniper Routers](https://www.juniper.net/us/en/products/routers.html)<br>
+&ensp;&ensp;&ensp;&ensp;Cisco:<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[All Cisco Routers Products](https://www.cisco.com/c/en/us/products/routers/product-listing.html)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[Cisco Routers](https://www.cisco.com/c/en_my/products/routers/index.html)<br>
+&ensp;&ensp;&ensp;&ensp;FRR:<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;An inexpensive alternative would be to use a powerful Linux server with 100Gb NICs and FRR software.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;The only issue is FRR doesn't support MLAG which is a critical protocol for configuring redundancy.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[FRRouting](https://en.wikipedia.org/wiki/FRRouting)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://github.com/FRRouting/frr<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://frrouting.org/<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://docs.frrouting.org/en/stable-9.0/<br>
+&ensp;&ensp;Switches:<br>
+&ensp;&ensp;&ensp;&ensp;[Edgecore](https://www.edge-core.com/productsList.php?cls=291&cls2=327)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[100Gb Switches](https://www.edge-core.com/productsList.php?cls=1&cls2=5)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[AS7816-64X: 64 ports 100G QSFP28](https://www.edge-core.com/productsInfo.php?cls=1&cls2=5&cls3=166&id=309)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[AS7726-32X: 32 ports 100G QSFP28, 2 x 10G SFP](https://www.edge-core.com/productsInfo.php?cls=&cls2=&cls3=15&id=545)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[10Gb Switches](https://www.edge-core.com/productsList.php?cls=1&cls2=154)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[Edgecore AS5912-54X: 48 ports 10G + 6 ports 100G](https://www.edge-core.com/productsInfo.php?cls=291&cls2=327&cls3=328&id=264)<br>
   Fiber NICs:<br>
     10Gb SFP+ PCI-E Network Card NIC, with Broadcom BCM57810S Chip, Dual SFP+ Port, PCI Express X8<br>
       https://www.amazon.com/Ethernet-Broadcom-BCM57810S-Controller-Interface/dp/B06X9T683K?th=1<br>
@@ -1073,23 +1069,23 @@ Storage Software:<br>
 
 ### Other System Design Resources
 *) [ByteByteCode:](https://www.youtube.com/@ByteByteGo/videos)<br>
-   This Youtube channel is a great example of implementing "[Efficient Communication](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#design-principles)"
-   [Data Replication: A Key Component for Building Large-Scale Distributed Systems](https://blog.bytebytego.com/p/data-replication-a-key-component)
-   [The Most Beloved Burger for Developers](https://www.youtube.com/watch?v=7swoLEqABhQ)<br>
-   [10+ Key Memory & Storage Systems: Crash Course System Design #5](https://www.youtube.com/watch?v=lX4CrbXMsNQ)<br>
-   [10 Key Data Structures We Use Every Day](https://www.youtube.com/watch?v=ouipSd_5ivQ)<br>
-   [Top 7 Most-Used Distributed System Patterns](https://www.youtube.com/watch?v=nH4qjmP2KEE)<br>
-   [Latency Numbers Programmer Should Know](https://www.youtube.com/watch?v=FqR5vESuKe0)<br>
-   [What Are Microservices Really All About? (And When Not To Use It)](https://www.youtube.com/watch?v=lTAcCNbJ7KE)<br>
-   [Kubernetes Explained in 6 Minutes](https://www.youtube.com/watch?v=TlHvYWVUZyc)<br>
-   [CI/CD In 5 Minutes](https://www.youtube.com/watch?v=42UP1fxi2SY)<br>
-   [8 Key Data Structures That Power Modern Databases](https://www.youtube.com/watch?v=W_v05d_2RTo)<br>
+&ensp;&ensp;This Youtube channel is a great example of implementing "[Efficient Communication](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#design-principles)."<br>
+&ensp;&ensp;[Data Replication: A Key Component for Building Large-Scale Distributed Systems](https://blog.bytebytego.com/p/data-replication-a-key-component)<br>
+&ensp;&ensp;[The Most Beloved Burger for Developers](https://www.youtube.com/watch?v=7swoLEqABhQ)<br>
+&ensp;&ensp;[10+ Key Memory & Storage Systems: Crash Course System Design #5](https://www.youtube.com/watch?v=lX4CrbXMsNQ)<br>
+&ensp;&ensp;[10 Key Data Structures We Use Every Day](https://www.youtube.com/watch?v=ouipSd_5ivQ)<br>
+&ensp;&ensp;[Top 7 Most-Used Distributed System Patterns](https://www.youtube.com/watch?v=nH4qjmP2KEE)<br>
+&ensp;&ensp;[Latency Numbers Programmer Should Know](https://www.youtube.com/watch?v=FqR5vESuKe0)<br>
+&ensp;&ensp;[What Are Microservices Really All About? (And When Not To Use It)](https://www.youtube.com/watch?v=lTAcCNbJ7KE)<br>
+&ensp;&ensp;[Kubernetes Explained in 6 Minutes](https://www.youtube.com/watch?v=TlHvYWVUZyc)<br>
+&ensp;&ensp;[CI/CD In 5 Minutes](https://www.youtube.com/watch?v=42UP1fxi2SY)<br>
+&ensp;&ensp;[8 Key Data Structures That Power Modern Databases](https://www.youtube.com/watch?v=W_v05d_2RTo)<br>
 
 *) [Be A Better Dev:](https://www.youtube.com/@BeABetterDev/videos)<br>
-   This Youtube Channel has several videos on AWS and are well made.<br>
-   [Intro to AWS - The Most Important Services To Learn](https://www.youtube.com/watch?v=FDEpdNdFglI)<br>
-   [Real Life AWS Project Architectures](https://www.youtube.com/watch?v=_W1xlhDsiAE)<br>
-   [Introduction to AWS | A Complete Beginner Roadmap](https://www.youtube.com/watch?v=lTyqzyk86f8)<br>
+&ensp;&ensp;This Youtube Channel has several videos on AWS and are well made.<br>
+&ensp;&ensp;[Intro to AWS - The Most Important Services To Learn](https://www.youtube.com/watch?v=FDEpdNdFglI)<br>
+&ensp;&ensp;[Real Life AWS Project Architectures](https://www.youtube.com/watch?v=_W1xlhDsiAE)<br>
+&ensp;&ensp;[Introduction to AWS | A Complete Beginner Roadmap](https://www.youtube.com/watch?v=lTyqzyk86f8)<br>
    
    
    
