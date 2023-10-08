@@ -33,7 +33,7 @@ As you probably surmised by now, the meaning of<br>
 **"I'm running Kubernetes?" is Kubernetes Proper + Kubernetes World running on one or more different Kubernetes Platforms**<br>
 
 **Kubernetes "Installation"** is my term I use to describe a unique installation of kubernetes<br>
-comprised of Kubernetes Proper + Kubernetes World running on one of many different Kubernetes Platforms.<br>
+comprised of Kubernetes Proper + Kubernetes World running on one or more different Kubernetes Platforms.<br>
 
 So every Kubernetes installation is unique!<br>
 There is no "ONE" Kubernetes installation, environment or platform!<br>
