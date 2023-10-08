@@ -749,11 +749,11 @@ Introduction:<br>
 Pick at least 3 Data Centers: (for redundancy)<br>
 &ensp;&ensp;Purchase equipment (routers, switches, servers, loadbalancers, Firewalls, etc.).<br>
 &ensp;&ensp;Ship Equipment to Data Centers.<br>
-&ensp;&ensp;Rack and Cable all the equipment: Power, Network, Out-of-band Access: [IPMI:](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface) Dell iDRAC, HP iLO, etc.<br>
+&ensp;&ensp;Rack and Cable all the equipment: Power, Network, Out-of-band Access: [IPMI:](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface) [Dell iDRAC](https://en.wikipedia.org/wiki/Dell_DRAC), [HP iLO](https://en.wikipedia.org/wiki/HP_Integrated_Lights-Out), etc.<br>
 &ensp;&ensp;Configure WAN BGP Peering Connections on your Border Routers - aka., Connect your Data Center to the Internet and other Data Centers.<br>
 &ensp;&ensp;Create and Deploy LAN Network Design: Valley-free Routing vs. Leaf and Spine Topology, LAG and/or MLAG, etc.<br>
 &ensp;&ensp;Install OS or Type-1 Hypervisor on all baremetal machines with bootstrap tools: [cloud-init](https://cloud-init.io/)/[cloud-init Github](https://github.com/canonical/cloud-init), [iPXE](https://en.wikipedia.org/wiki/IPXE), [ipmitool](https://github.com/ipmitool/ipmitool)/[ipmiutil](https://github.com/arcress0/ipmiutil), [Tinkerbell](https://tinkerbell.org/), [Shoelaces](https://github.com/thousandeyes/shoelaces), [Redfish](https://dmtf.github.io/python-redfish-utility/#overview)/[RedfishTool](https://github.com/DMTF/Redfishtool), etc.<br>
-&ensp;&ensp;Configure all servers with your Provisioning Tools: Ansible, Terraform, Pulumi; [Package Managers:](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) DNF/RPM, APT/DPKG, Pacman, OSTree, etc.<br>
+&ensp;&ensp;Configure all servers with your [Provisioning Tools:](https://en.wikipedia.org/wiki/Category:Orchestration_software) [Ansible](https://en.wikipedia.org/wiki/Ansible_(software)), [Terraform](https://en.wikipedia.org/wiki/Terraform_(software)), [Pulumi](https://en.wikipedia.org/wiki/Pulumi); [Package Managers:](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) DNF/RPM, APT/DPKG, Pacman, OSTree, etc.<br>
 &ensp;&ensp;Create VMs and/or Containers on your servers.<br>
 &ensp;&ensp;Install Container Orchestration Software on baremetal or VMs: Kubernetes et.al.<br>
 &ensp;&ensp;Design Kubernetes System Design to best support your workload.<br>
@@ -875,7 +875,7 @@ Network Time Protocol (NTP):<br>
 &ensp;&ensp;$ ntpq -p<br>
 &ensp;&ensp;$ ntpq -c rv<br>
 &ensp;&ensp;[Computer Network Time Synchronization](https://www.eecis.udel.edu/~mills/book.html)<br>
-&ensp;&ensp;[Open Time Server](http://www.opentimeserver.com/)<br>  
+&ensp;&ensp;[Open Time Server](http://www.opentimeserver.com/)<br>
 &ensp;&ensp;[Open Time Server on Github](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Open-Time-Server)<br>
 &ensp;&ensp;[Google Public NTP](https://developers.google.com/time)<br>
 &ensp;&ensp;[Cloudflare Time Services](https://time.cloudflare.com/)<br>
