@@ -253,7 +253,7 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[Network File System (NFS):](https://en.wikipedia.org/wiki/Network_File_System)<br>
    &ensp;&ensp;[Samba](https://en.wikipedia.org/wiki/Samba)/[SMB/CIFS](https://en.wikipedia.org/wiki/Server_Message_Block):<br>
    Compute Abstractions:<br>
-   &ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
+   &ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br><br>
 3) [Emulation](https://en.wikipedia.org/wiki/Emulator)/[Simulation](https://en.wikipedia.org/wiki/Computer_simulation)/[Virtualization](https://en.wikipedia.org/wiki/Virtualization) Abstraction:<br>
    **Appears and behaves like one thing, but is actually another.**<br>
    The Abstraction of [Information:](https://en.wikipedia.org/wiki/Information)<br>
@@ -297,11 +297,9 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;&ensp;&ensp;[GuestOS:](https://www.techtarget.com/searchitoperations/definition/guest-OS-guest-operating-system) runs inside Type-1,2 Hypervisors<br>
    &ensp;&ensp;[Containers:](https://en.wikipedia.org/wiki/Containerization_(computing))<br>
    &ensp;&ensp;[List of Command Line Interpreters](https://en.wikipedia.org/wiki/List_of_command-line_interpreters), [Shell](https://en.wikipedia.org/wiki/Shell_(computing)), [Unix Shell:](https://en.wikipedia.org/wiki/Unix_shell), [Terminal Emulator](https://en.wikipedia.org/wiki/Terminal_emulator) aka., Console. Terminal<br>
-   &ensp;&ensp;[Computer/Processor Instruction](https://en.wikipedia.org/wiki/Instruction) - one operation of a processor within a computer architecture<br>
-   &ensp;&ensp;[Instruction Set Architecture (ISA)](https://en.wikipedia.org/wiki/Category:Instruction_set_architectures):<br>
    &ensp;&ensp;[Application:](https://en.wikipedia.org/wiki/Application_software) aka., [Computer Program](https://en.wikipedia.org/wiki/Computer_program)<br>
-   &ensp;&ensp;[Procedure/Subroutine/Function](https://en.wikipedia.org/wiki/Function_(computer_programming))<br>
-   &ensp;&ensp;[Job:](https://en.wikipedia.org/wiki/Job_(computing)), [Unix Job](https://en.wikipedia.org/wiki/Job_control_(Unix)), [Batch Job](https://en.wikipedia.org/wiki/Batch_processing)<br>
+   &ensp;&ensp;[Procedure/Subroutine/Function:](https://en.wikipedia.org/wiki/Function_(computer_programming))<br>
+   &ensp;&ensp;[Job](https://en.wikipedia.org/wiki/Job_(computing))/[Unix Job](https://en.wikipedia.org/wiki/Job_control_(Unix))/[Batch Job](https://en.wikipedia.org/wiki/Batch_processing)<br>
    &ensp;&ensp;[Task:](https://en.wikipedia.org/wiki/Task_(computing))<br>
    &ensp;&ensp;[Process:](https://en.wikipedia.org/wiki/Process_(computing))<br>
    &ensp;&ensp;[Thread:](https://en.wikipedia.org/wiki/Thread_(computing))<br>
@@ -309,12 +307,140 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[Context Switching:](https://en.wikipedia.org/wiki/Context_switch)<br>
    &ensp;&ensp;[Driver:](https://en.wikipedia.org/wiki/Driver_(software)), [Device Driver](https://en.wikipedia.org/wiki/Device_driver)<br>
    &ensp;&ensp;Hardware Implements:<br>
+   &ensp;&ensp;[Computer/Processor Instruction:](https://en.wikipedia.org/wiki/Instruction) one operation of a processor within a computer architecture<br>
+   &ensp;&ensp;[Instruction Set Architecture (ISA):](https://en.wikipedia.org/wiki/Category:Instruction_set_architectures)<br>
+   &ensp;&ensp;[Data](https://en.wikipedia.org/wiki/Data)<br>
    &ensp;&ensp;[Hardware Registers:](https://en.wikipedia.org/wiki/Hardware_register), [Processor Register](https://en.wikipedia.org/wiki/Processor_register)<br>
    &ensp;&ensp;[L1/L2/L3 Cache:](https://en.wikipedia.org/wiki/Cache_hierarchy)<br>
    &ensp;&ensp;[Pipelining:](https://en.wikipedia.org/wiki/Pipeline_(computing))<br>
-   &ensp;&ensp;[Application Binary Interface (ABI)](https://en.wikipedia.org/wiki/Application_binary_interface):<br>
-   &ensp;&ensp;[Hardware Abstraction Layer (HAL)](https://en.wikipedia.org/wiki/Hardware_abstraction#In_operating_systems):<br>
+   &ensp;&ensp;[Application Binary Interface (ABI):](https://en.wikipedia.org/wiki/Application_binary_interface)<br>
+   &ensp;&ensp;[Hardware Abstraction Layer (HAL):](https://en.wikipedia.org/wiki/Hardware_abstraction#In_operating_systems)<br>
 
+### The Concept of Data and its Application in Computer Science:
+This section covers the concept of data and it's application in our main focus of<br>
+System Design, Platform Engineering, SRE, and DevOps.<br>
+What is [Data](https://en.wikipedia.org/wiki/Data)?<br>
+&ensp;&ensp;Data is anything you can assign meaning to.<br>
+&ensp;&ensp;Data in the context of digital computing is just a collection of bits.<br>
+&ensp;&ensp;Technically, "data" is a plural noun (it is the plural form of the noun "datum").<br>
+&ensp;&ensp;However, it is used with both singular and plural verbs.<br>
+&ensp;&ensp;The term data (like bit) is so general, it almost has no meaning.<br>
+&ensp;&ensp;Yet, it's probably the most important and most used word in all of modern Computer Science.<br>
+What Is Structured Data?<br>
+&ensp;&ensp;Structured data follows a specific format, making it easy to store and analyze.<br>
+&ensp;&ensp;Examples of structured data include: customer information, transaction records and inventory lists.<br>
+What Is Unstructured Data?<br>
+&ensp;&ensp;Unstructured data refers to data that does not have a specific format or structure.<br>
+&ensp;&ensp;This data type is often created by humans in forms such as text, images, videos, emails and social media posts.<br>
+&ensp;&ensp;However, unstructured data can also include less common examples like protein structures,<br>
+&ensp;&ensp;executable file hashes and human-readable code, among others - the possibilities are endless.<br>
+&ensp;&ensp;Working with unstructured data can be challenging due to its lack of a standardized format.<br>
+&ensp;&ensp;In addition, things become more complicated when it comes to querying and analyzing data,<br>
+&ensp;&ensp;especially when compared to structured and semi-structured data.<br>
+&ensp;&ensp;Unstructured data contains a wealth of information that can provide valuable insights into customer behaviors,<br>
+&ensp;&ensp;market trends and other essential business metrics for more accurate decision-making.<br>
+&ensp;&ensp;An astonishing 80% of newly generated data is unstructured.<br>
+&ensp;&ensp;Examples of Unstructured Data include:<br>
+&ensp;&ensp;&ensp;&ensp;Sensor data, Machine log data, Internet of Things (IoT) data, Computer vision data,<br>
+&ensp;&ensp;&ensp;&ensp;Natural Language Processing (NLP) data, Web and application data, Emails, Text messages,<br>
+&ensp;&ensp;&ensp;&ensp;Social media posts, Audio recordings, Handwritten notes, Meeting notes, Transcripts, User-generated content<br>
+What is Semi-Structured Data? aka., Partially Structured Data<br>
+&ensp;&ensp;Semi-structured data is a mixture of structured and unstructured data.<br>
+&ensp;&ensp;Semi-structured data contains some level of organization, such as metadata or tags, but is not fully structured.<br>
+&ensp;&ensp;Semi-structured data is commonly found in XML files, JSON documents and other data types that follow a specific schema.<br>
+&ensp;&ensp;This type of data is usually stored in a NoSQL database like a wide-column store<br>
+&ensp;&ensp;or object/document database since it cannot be directly stored in a relational database.<br>
+What is High-Cardinality Data (HCD)?<br>
+&ensp;&ensp;HCD is a large set of unique values that can be queried and analyzed<br>
+&ensp;&ensp;and is the most effective data when it comes to resolving an incident.<br>
+&ensp;&ensp;The ability to properly analyze high-cardinality data leads to faster incident resolution.<br>
+&ensp;&ensp;High-cardinality data can showcase the "where" and the "why" of a problem,<br>
+&ensp;&ensp;and nothing is more effective at finding anomalies.<br>
+&ensp;&ensp;To achieve true observability, leveraging high-cardinality data is a must.<br>
+&ensp;&ensp;Cardinality is simply a reflection of an attribute's uniqueness.<br>
+&ensp;&ensp;A user-ID, Social Security Number, Passport ID, Email Address are all<br>
+&ensp;&ensp;high cardinality attributes, while geo-location is low cardinality.<br>
+&ensp;&ensp;Low-cardinality data can help teams examine broad patterns in a service.<br>
+&ensp;&ensp;High-cardinality data is a narrow magnifying glass into a service's problems,<br>
+&ensp;&ensp;making it possible to look at outlying events that can help guide troubleshooting efforts.<br>
+What is High-Dimensionality Data (HDD)?<br>
+&ensp;&ensp;While high cardinality refers to a large number of data points (values) in a given attribute,<br>
+&ensp;&ensp;dimensionality takes it further: how many attributes does an event have?<br>
+&ensp;&ensp;Being able to analyze trends across many dimensions quickly is important<br>
+&ensp;&ensp;when you're trying to figure out what changed but don't know what to ask.<br>
+&ensp;&ensp;When you're trying to solve unknown-unknowns, high-dimensionality data is your friend.<br>
+What is Curse of Dimensionality?<br>
+&ensp;&ensp;The curse of dimensionality refers to various phenomena that arise when<br>
+&ensp;&ensp;analyzing and organizing data in high-dimensional spaces that do not<br>
+&ensp;&ensp;occur in low-dimensional settings such as the three-dimensional physical<br>
+&ensp;&ensp;space of everyday experience.<br>
+&ensp;&ensp;The amount of data needed often grows exponentially with the dimensionality.<br>
+&ensp;&ensp;In high dimensional data, all objects appear to be sparse and dissimilar in many ways,<br>
+&ensp;&ensp;which prevents common data organization strategies from being efficient.<br>
+What is a [Database[(https://en.wikipedia.org/wiki/Category:Databases)?<br>
+&ensp;&ensp;A [Database](https://en.wikipedia.org/wiki/Database) is an organized collection of data (also known as a data store)<br>
+&ensp;&ensp;stored and accessed electronically through the use of a [Database Management System (DBMS)](https://en.wikipedia.org/wiki/Database#Database_management_system).<br>
+What is a Polystore?<br>
+&ensp;&ensp;A polystore is the combining of different database technologies tailored for specific use cases,<br>
+&ensp;&ensp;enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure.<br>
+&ensp;&ensp;Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.<br>
+Database Models/Types:<br>
+&ensp;&ensp;[Database Models](https://en.wikipedia.org/wiki/Category:Database_models)<br>
+&ensp;&ensp;[Types of Databases](https://en.wikipedia.org/wiki/Category:Types_of_databases)<br>
+&ensp;&ensp;[Database Software Comarisons](https://en.wikipedia.org/wiki/Category:Database_software_comparisons)<br>
+  1) Relational Databases:<br>
+     https://en.wikipedia.org/wiki/List_of_relational_database_management_systems<br>
+     https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems<br>
+  2) NoSQL Databases:<br>
+     https://en.wikipedia.org/wiki/Category:NoSQL<br>
+     Schemaless Documents:<br>
+       The number of fields, content and size of the document<br>
+       can differ from one document to another in the same collection.<br>
+  3) Key-Value Stores:<br>
+     https://en.wikipedia.org/wiki/Category:Key-value_databases<br>
+       See: "Simularities between Object stores and key-value stores:"<br>
+       See: "Differences between key-value stores and object stores:"<br>
+  4) Document-Oriented Databases:<br>
+     https://en.wikipedia.org/wiki/Document-oriented_database<br>
+       One of the main categories of NoSQL databases.<br>
+       Document-oriented databases are inherently a subclass of the key-value store.<br>
+     How to Choose the Right Document-Oriented NoSQL Database for Your Application<br>
+     https://dev.to/kalashin1/how-to-choose-the-right-document-oriented-nosql-database-for-your-application-3hac<br>
+  5) Wide Column Store:<br>
+     https://en.wikipedia.org/wiki/Wide-column_store<br>
+       A special type of NoSQL database.<br>
+  6) Graph Database:<br>
+     https://en.wikipedia.org/wiki/Category:Graph_databases<br>
+  7) In-Memory Databases:<br>
+     https://en.wikipedia.org/wiki/In-memory_database<br>
+     https://en.wikipedia.org/wiki/List_of_in-memory_databases<br>
+  8) NewSQL Databases:<br>
+     https://en.wikipedia.org/wiki/Category:NewSQL<br>
+  9) Blockchain:<br>
+     https://en.wikipedia.org/wiki/Blockchain-based_database<br>
+ 10) Distributed Filesystems: aka., Network File Systems<br>
+     https://en.wikipedia.org/wiki/Category:Distributed_file_systems<br>
+     https://en.wikipedia.org/wiki/List_of_file_systems#Distributed_file_systems<br>
+       S3, CephFS, Lustre, NFS, etc.<br>
+     https://en.wikipedia.org/wiki/Clustered_file_system#Distributed_file_systems<br>
+       The difference between a distributed file system and a distributed data store<br>
+       is that a distributed file system allows files to be accessed using the<br>
+       same interfaces and semantics as local files.<br>
+       Distributed data stores, by contrast, require using a different API<br>
+       or library and have different semantics (most often those of a database).<br>
+ 11) Distributed Data Store:<br>
+     https://en.wikipedia.org/wiki/Category:Distributed_data_storage<br>
+     https://en.wikipedia.org/wiki/Category:Distributed_data_stores<br>
+     https://en.wikipedia.org/wiki/Distributed_data_store<br>
+ 12) Distribute Databases:<br>
+     https://en.wikipedia.org/wiki/Distributed_database<br>
+ 13) Distributed Cache:<br>
+     https://en.wikipedia.org/wiki/Distributed_cache<br>
+     https://en.wikipedia.org/wiki/Distributed_hash_table<br>
+ 14) Cloud Databases:<br>
+     https://en.wikipedia.org/wiki/Category:Cloud_storage<br>
+     https://en.wikipedia.org/wiki/Category:Cloud_databases<br>
+     
 ### System Property Definitions:
 Security:<br>
 &ensp;&ensp;Security is a Full Stack endeavor.<br>
@@ -643,131 +769,6 @@ What is OpenTelemetry?<br>
 &ensp;&ensp;OpenTelemetry is natively supported by a number of vendors.<br>
 &ensp;&ensp;[List of Vendors that support OpenTelemetry:](https://opentelemetry.io/ecosystem/vendors/)<br>
 &ensp;&ensp;Cloud Observability, Grafana Labs, Jaeger, SigNoz, AppDynamics<br>
-
-### The Concept of Data and its Application in Computer Science:
-This section covers the concept of data and it's application in our main focus of<br>
-System Design, Platform Engineering, SRE, and DevOps.<br>
-What is Data?<br>
-&ensp;&ensp;Data is anything you can assign meaning to.<br>
-&ensp;&ensp;Data in the context of digital computing is just a collection of bits.<br>
-&ensp;&ensp;Technically, "data" is a plural noun (it is the plural form of the noun "datum").<br>
-&ensp;&ensp;However, it is used with both singular and plural verbs.<br>
-&ensp;&ensp;The term data (like bit) is so general, it almost has no meaning.<br>
-&ensp;&ensp;Yet, it's probably the most important and most used word in all of modern Computer Science.<br>
-What Is Structured Data?<br>
-&ensp;&ensp;Structured data follows a specific format, making it easy to store and analyze.<br>
-&ensp;&ensp;Examples of structured data include: customer information, transaction records and inventory lists.<br>
-What Is Unstructured Data?<br>
-&ensp;&ensp;Unstructured data refers to data that does not have a specific format or structure.<br>
-&ensp;&ensp;This data type is often created by humans in forms such as text, images, videos, emails and social media posts.<br>
-&ensp;&ensp;However, unstructured data can also include less common examples like protein structures,<br>
-&ensp;&ensp;executable file hashes and human-readable code, among others - the possibilities are endless.<br>
-&ensp;&ensp;Working with unstructured data can be challenging due to its lack of a standardized format.<br>
-&ensp;&ensp;In addition, things become more complicated when it comes to querying and analyzing data,<br>
-&ensp;&ensp;especially when compared to structured and semi-structured data.<br>
-&ensp;&ensp;Unstructured data contains a wealth of information that can provide valuable insights into customer behaviors,<br>
-&ensp;&ensp;market trends and other essential business metrics for more accurate decision-making.<br>
-&ensp;&ensp;An astonishing 80% of newly generated data is unstructured.<br>
-&ensp;&ensp;Examples of Unstructured Data include:<br>
-&ensp;&ensp;&ensp;&ensp;Sensor data, Machine log data, Internet of Things (IoT) data, Computer vision data,<br>
-&ensp;&ensp;&ensp;&ensp;Natural Language Processing (NLP) data, Web and application data, Emails, Text messages,<br>
-&ensp;&ensp;&ensp;&ensp;Social media posts, Audio recordings, Handwritten notes, Meeting notes, Transcripts, User-generated content<br>
-What is Semi-Structured Data? aka., Partially Structured Data<br>
-&ensp;&ensp;Semi-structured data is a mixture of structured and unstructured data.<br>
-&ensp;&ensp;Semi-structured data contains some level of organization, such as metadata or tags, but is not fully structured.<br>
-&ensp;&ensp;Semi-structured data is commonly found in XML files, JSON documents and other data types that follow a specific schema.<br>
-&ensp;&ensp;This type of data is usually stored in a NoSQL database like a wide-column store<br>
-&ensp;&ensp;or object/document database since it cannot be directly stored in a relational database.<br>
-What is High-Cardinality Data (HCD)?<br>
-&ensp;&ensp;HCD is a large set of unique values that can be queried and analyzed<br>
-&ensp;&ensp;and is the most effective data when it comes to resolving an incident.<br>
-&ensp;&ensp;The ability to properly analyze high-cardinality data leads to faster incident resolution.<br>
-&ensp;&ensp;High-cardinality data can showcase the "where" and the "why" of a problem,<br>
-&ensp;&ensp;and nothing is more effective at finding anomalies.<br>
-&ensp;&ensp;To achieve true observability, leveraging high-cardinality data is a must.<br>
-&ensp;&ensp;Cardinality is simply a reflection of an attribute's uniqueness.<br>
-&ensp;&ensp;A user-ID, Social Security Number, Passport ID, Email Address are all<br>
-&ensp;&ensp;high cardinality attributes, while geo-location is low cardinality.<br>
-&ensp;&ensp;Low-cardinality data can help teams examine broad patterns in a service.<br>
-&ensp;&ensp;High-cardinality data is a narrow magnifying glass into a service's problems,<br>
-&ensp;&ensp;making it possible to look at outlying events that can help guide troubleshooting efforts.<br>
-What is High-Dimensionality Data (HDD)?<br>
-&ensp;&ensp;While high cardinality refers to a large number of data points (values) in a given attribute,<br>
-&ensp;&ensp;dimensionality takes it further: how many attributes does an event have?<br>
-&ensp;&ensp;Being able to analyze trends across many dimensions quickly is important<br>
-&ensp;&ensp;when you're trying to figure out what changed but don't know what to ask.<br>
-&ensp;&ensp;When you're trying to solve unknown-unknowns, high-dimensionality data is your friend.<br>
-What is Curse of Dimensionality?<br>
-&ensp;&ensp;The curse of dimensionality refers to various phenomena that arise when<br>
-&ensp;&ensp;analyzing and organizing data in high-dimensional spaces that do not<br>
-&ensp;&ensp;occur in low-dimensional settings such as the three-dimensional physical<br>
-&ensp;&ensp;space of everyday experience.<br>
-&ensp;&ensp;The amount of data needed often grows exponentially with the dimensionality.<br>
-&ensp;&ensp;In high dimensional data, all objects appear to be sparse and dissimilar in many ways,<br>
-&ensp;&ensp;which prevents common data organization strategies from being efficient.<br>
-What is a [Database[(https://en.wikipedia.org/wiki/Category:Databases)?<br>
-&ensp;&ensp;A [Database](https://en.wikipedia.org/wiki/Database) is an organized collection of data (also known as a data store)<br>
-&ensp;&ensp;stored and accessed electronically through the use of a [Database Management System (DBMS)](https://en.wikipedia.org/wiki/Database#Database_management_system).<br>
-What is a Polystore?<br>
-&ensp;&ensp;A polystore is the combining of different database technologies tailored for specific use cases,<br>
-&ensp;&ensp;enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure.<br>
-&ensp;&ensp;Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.<br>
-Database Models/Types:<br>
-&ensp;&ensp;[Database Models](https://en.wikipedia.org/wiki/Category:Database_models)<br>
-&ensp;&ensp;[Types of Databases](https://en.wikipedia.org/wiki/Category:Types_of_databases)<br>
-&ensp;&ensp;[Database Software Comarisons](https://en.wikipedia.org/wiki/Category:Database_software_comparisons)<br>
-  1) Relational Databases:<br>
-     https://en.wikipedia.org/wiki/List_of_relational_database_management_systems<br>
-     https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems<br>
-  2) NoSQL Databases:<br>
-     https://en.wikipedia.org/wiki/Category:NoSQL<br>
-     Schemaless Documents:<br>
-       The number of fields, content and size of the document<br>
-       can differ from one document to another in the same collection.<br>
-  3) Key-Value Stores:<br>
-     https://en.wikipedia.org/wiki/Category:Key-value_databases<br>
-       See: "Simularities between Object stores and key-value stores:"<br>
-       See: "Differences between key-value stores and object stores:"<br>
-  4) Document-Oriented Databases:<br>
-     https://en.wikipedia.org/wiki/Document-oriented_database<br>
-       One of the main categories of NoSQL databases.<br>
-       Document-oriented databases are inherently a subclass of the key-value store.<br>
-     How to Choose the Right Document-Oriented NoSQL Database for Your Application<br>
-     https://dev.to/kalashin1/how-to-choose-the-right-document-oriented-nosql-database-for-your-application-3hac<br>
-  5) Wide Column Store:<br>
-     https://en.wikipedia.org/wiki/Wide-column_store<br>
-       A special type of NoSQL database.<br>
-  6) Graph Database:<br>
-     https://en.wikipedia.org/wiki/Category:Graph_databases<br>
-  7) In-Memory Databases:<br>
-     https://en.wikipedia.org/wiki/In-memory_database<br>
-     https://en.wikipedia.org/wiki/List_of_in-memory_databases<br>
-  8) NewSQL Databases:<br>
-     https://en.wikipedia.org/wiki/Category:NewSQL<br>
-  9) Blockchain:<br>
-     https://en.wikipedia.org/wiki/Blockchain-based_database<br>
- 10) Distributed Filesystems: aka., Network File Systems<br>
-     https://en.wikipedia.org/wiki/Category:Distributed_file_systems<br>
-     https://en.wikipedia.org/wiki/List_of_file_systems#Distributed_file_systems<br>
-       S3, CephFS, Lustre, NFS, etc.<br>
-     https://en.wikipedia.org/wiki/Clustered_file_system#Distributed_file_systems<br>
-       The difference between a distributed file system and a distributed data store<br>
-       is that a distributed file system allows files to be accessed using the<br>
-       same interfaces and semantics as local files.<br>
-       Distributed data stores, by contrast, require using a different API<br>
-       or library and have different semantics (most often those of a database).<br>
- 11) Distributed Data Store:<br>
-     https://en.wikipedia.org/wiki/Category:Distributed_data_storage<br>
-     https://en.wikipedia.org/wiki/Category:Distributed_data_stores<br>
-     https://en.wikipedia.org/wiki/Distributed_data_store<br>
- 12) Distribute Databases:<br>
-     https://en.wikipedia.org/wiki/Distributed_database<br>
- 13) Distributed Cache:<br>
-     https://en.wikipedia.org/wiki/Distributed_cache<br>
-     https://en.wikipedia.org/wiki/Distributed_hash_table<br>
-  14) Cloud Databases:<br>
-     https://en.wikipedia.org/wiki/Category:Cloud_storage<br>
-     https://en.wikipedia.org/wiki/Category:Cloud_databases<br>
 
 ### The Six Pillars of Platform Engineering:
 1) [Security:](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security/)<br>
