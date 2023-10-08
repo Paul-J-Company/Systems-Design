@@ -230,7 +230,7 @@ There are 3 Major Types of Computer Abstraction:<br>
 1. One-to-Many Abstraction:<br>
    *Appears and behaves like one thing, but is actually many things.*<br>
    Network:<br>
-   &ensp;&ensp;[Load Balancer:](https://en.wikipedia.org/wiki/Load_balancing_(computing))  hardware-based and software-based<br>
+   &ensp;&ensp;[Load Balancer:](https://en.wikipedia.org/wiki/Load_balancing_(computing)) hardware-based and software-based<br>
    &ensp;&ensp;[API Gateway:](https://en.wikipedia.org/wiki/API_management#Gateway)<br>
    &ensp;&ensp;[1-to-Many NAT/PAT:](https://en.wikipedia.org/wiki/Network_address_translation#One-to-many_NAT)<br>
    &ensp;&ensp;[Forward Proxy:](https://en.wikipedia.org/wiki/Proxy_server#Forward_proxies)<br>
@@ -250,45 +250,46 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[Network File System (NFS):](https://en.wikipedia.org/wiki/Network_File_System)<br>
    &ensp;&ensp;[Samba](https://en.wikipedia.org/wiki/Samba)/[SMB/CIFS](https://en.wikipedia.org/wiki/Server_Message_Block):<br>
    Compute:<br>
-   &ensp;&ensp;[Application Program Interface (API):]()<br>
+   &ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
 3) Emulation/Simulation/Virtualization Abstraction:<br>
    Appears and behaves like one thing, but is actually another.<br>
    Network:<br>
    &ensp;&ensp;OS Implements:<br>
-   &ensp;&ensp;[Virtual Routing and Forwarding: (VRF)]()<br>
-   &ensp;&ensp;[Virtual LAN (VLAN):]()<br>
-   &ensp;&ensp;[Virtual Private Network (VPN):]() aka., Tunnel<br>
-   &ensp;&ensp;[Overlay Network:]()<br>
-   &ensp;&ensp;[TCP/IP Stack:]()<br>
-   &ensp;&ensp;[OSI Model:]()<br>
+   &ensp;&ensp;[Virtual Routing and Forwarding: (VRF)](https://en.wikipedia.org/wiki/Virtual_routing_and_forwarding)<br>
+   &ensp;&ensp;[Virtual LAN (VLAN):](https://en.wikipedia.org/wiki/VLAN)<br>
+   &ensp;&ensp;[Virtual Private Network (VPN):](https://en.wikipedia.org/wiki/Virtual_private_network) aka., Tunnel<br>
+   &ensp;&ensp;[Overlay Network:](https://en.wikipedia.org/wiki/Overlay_network)<br>
+   &ensp;&ensp;[TCP/IP Stack:](https://en.wikipedia.org/wiki/Internet_protocol_suite)<br>
+   &ensp;&ensp;[OSI Model:](https://en.wikipedia.org/wiki/OSI_model)<br>
    Storage:<br>
    &ensp;&ensp;OS Implements:<br>
-   &ensp;&ensp;[Virtual Memory:]()<br>
-   &ensp;&ensp;[Filesystem:]()<br>
-   &ensp;&ensp;[Cache:]()<br>
+   &ensp;&ensp;[Virtual Memory:](https://en.wikipedia.org/wiki/Virtual_memory)<br>
+   &ensp;&ensp;[Filesystem:](https://en.wikipedia.org/wiki/File_system)<br>
+   &ensp;&ensp;[Cache:](https://en.wikipedia.org/wiki/Cache_(computing))<br>
    Compute:<br>
    &ensp;&ensp;OS Implements:<br>
-   &ensp;&ensp;[Virtual Machines (VMs):]()<br>
-   &ensp;&ensp;&ensp;&ensp;[Type-1 Hypervisor:]() aka , VMM<br>
-   &ensp;&ensp;&ensp;&ensp;[Type-2 Hypervisor:]()<br>
-   &ensp;&ensp;&ensp;&ensp;[GuestOS:]() runs inside Type-1,2 Hypervisors<br>
-   &ensp;&ensp;[Containers:]()<br>
-   &ensp;&ensp;[Shell:]() aka , Console. Terminal<br>
-   &ensp;&ensp;[Applications:]() aka., Programs<br>
-   &ensp;&ensp;[Jobs:]()<br>
-   &ensp;&ensp;[Tasks:]()<br>
-   &ensp;&ensp;[Processes:]()<br>
-   &ensp;&ensp;[Threads:]()<br>
-   &ensp;&ensp;[Fibers:]()<br>
-   &ensp;&ensp;[Context Switching:]()<br>
-   &ensp;&ensp;[Drivers:]()<br>
+   &ensp;&ensp;[Virtual Machines (VMs):](https://en.wikipedia.org/wiki/Virtual_machine)<br>
+   &ensp;&ensp;&ensp;&ensp;[Type-1 Hypervisor:](https://en.wikipedia.org/wiki/Hypervisor#Classification) aka , VMM<br>
+   &ensp;&ensp;&ensp;&ensp;[Type-2 Hypervisor:](https://en.wikipedia.org/wiki/Hypervisor#Classification)<br>
+   &ensp;&ensp;&ensp;&ensp;[GuestOS:](https://www.techtarget.com/searchitoperations/definition/guest-OS-guest-operating-system) runs inside Type-1,2 Hypervisors<br>
+   &ensp;&ensp;[Containers:](https://en.wikipedia.org/wiki/Containerization_(computing))<br>
+   &ensp;&ensp;[List of Command Line Interpreters](https://en.wikipedia.org/wiki/List_of_command-line_interpreters), [Shell](https://en.wikipedia.org/wiki/Shell_(computing)), [Unix Shell:](https://en.wikipedia.org/wiki/Unix_shell), [Terminal Emulator](https://en.wikipedia.org/wiki/Terminal_emulator) aka., Console. Terminal<br>
+   &ensp;&ensp;[Application:](https://en.wikipedia.org/wiki/Application_software) aka., [Computer Program](https://en.wikipedia.org/wiki/Computer_program)<br>
+   &ensp;&ensp;[Procedure/Subroutine/Function](https://en.wikipedia.org/wiki/Function_(computer_programming))<br>
+   &ensp;&ensp;[Job:](https://en.wikipedia.org/wiki/Job_(computing)), [Unix Job](https://en.wikipedia.org/wiki/Job_control_(Unix)), [Batch Job](https://en.wikipedia.org/wiki/Batch_processing)<br>
+   &ensp;&ensp;[Task:](https://en.wikipedia.org/wiki/Task_(computing))<br>
+   &ensp;&ensp;[Process:](https://en.wikipedia.org/wiki/Process_(computing))<br>
+   &ensp;&ensp;[Thread:](https://en.wikipedia.org/wiki/Thread_(computing))<br>
+   &ensp;&ensp;[Fiber:](https://en.wikipedia.org/wiki/Fiber_(computer_science))<br>
+   &ensp;&ensp;[Context Switching:](https://en.wikipedia.org/wiki/Context_switch)<br>
+   &ensp;&ensp;[Driver:](https://en.wikipedia.org/wiki/Driver_(software)), [Device Driver](https://en.wikipedia.org/wiki/Device_driver)<br>
    &ensp;&ensp;[Instruction Set Architecture (ISA)](https://en.wikipedia.org/wiki/Category:Instruction_set_architectures):<br>
    &ensp;&ensp;Hardware Implements:<br>
-   &ensp;&ensp;&ensp;&ensp;[Registers:]()<br>
-   &ensp;&ensp;&ensp;&ensp;[L1/L2/L3 Cache:]()<br>
-   &ensp;&ensp;&ensp;&ensp;[Pipelining:]()<br>
-   &ensp;&ensp;&ensp;&ensp;[Application Binary Interface (ABI)]():<br>
-   &ensp;&ensp;&ensp;&ensp;[Hardware Abstraction Layer (HAL)]():<br>
+   &ensp;&ensp;&ensp;&ensp;[Hardware Registers:](https://en.wikipedia.org/wiki/Hardware_register), [Processor Register](https://en.wikipedia.org/wiki/Processor_register)<br>
+   &ensp;&ensp;&ensp;&ensp;[L1/L2/L3 Cache:](https://en.wikipedia.org/wiki/Cache_hierarchy)<br>
+   &ensp;&ensp;&ensp;&ensp;[Pipelining:](https://en.wikipedia.org/wiki/Pipeline_(computing))<br>
+   &ensp;&ensp;&ensp;&ensp;[Application Binary Interface (ABI)](https://en.wikipedia.org/wiki/Application_binary_interface):<br>
+   &ensp;&ensp;&ensp;&ensp;[Hardware Abstraction Layer (HAL)](https://en.wikipedia.org/wiki/Hardware_abstraction#In_operating_systems):<br>
 
 ### System Property Definitions:
 Security:<br>
@@ -984,7 +985,7 @@ Other Random Tools:<br>
 &ensp;&ensp;http://www.convertunits.com/dates/from/Jan+1,+2023/to/Sep+28,+2023<br>
 &ensp;&ensp;https://thetruesize.com/<br>
 
-## My Favorite Hardware/Software for OnPrem Compute and Storage
+## My Favorite Hardware/Software for OnPrem Network, Compute and Storage
 NOTE: These are my favorites but there are numerous other valid choices out there.<br>
 Network Hardware:<br>
 [List of Network Buses](https://en.wikipedia.org/wiki/List_of_network_buses)<br>
