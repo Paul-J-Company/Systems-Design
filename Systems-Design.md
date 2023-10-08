@@ -636,7 +636,7 @@ What Is Unstructured Data?<br>
 &ensp;&ensp;Examples of Unstructured Data include:<br>
 &ensp;&ensp;&ensp;&ensp;Sensor data, Machine log data, Internet of Things (IoT) data, Computer vision data,<br>
 &ensp;&ensp;&ensp;&ensp;Natural Language Processing (NLP) data, Web and application data, Emails, Text messages,<br>
-&ensp;&ensp;&ensp;&ensp;Social media posts, Audio recordings, Handwritten notes, Meeting notes, Transcripts, User-generated content
+&ensp;&ensp;&ensp;&ensp;Social media posts, Audio recordings, Handwritten notes, Meeting notes, Transcripts, User-generated content<br>
 What is Semi-Structured Data? aka., Partially Structured Data<br>
 &ensp;&ensp;Semi-structured data is a mixture of structured and unstructured data.<br>
 &ensp;&ensp;Semi-structured data contains some level of organization, such as metadata or tags, but is not fully structured.<br>
@@ -760,8 +760,8 @@ in learning from large amounts of data and Platforms generate large amounts of d
 1) Learn how to build, train and finetune LLMs on Platform Engineering data<br>
    to assisit and hopefully outperform humans in tasks such<br>
    as incidence response, root cause analysis, and Market predictions.<br>
-   I'm using LangChain to develop my LLMs.<br>
-   I'm using 
+   I'm using [LangChain](https://github.com/langchain-ai/langchain)/[LangChain](https://github.com/hwchase17/langchain), [LangChainHub](https://blog.langchain.dev/langchain-prompt-hub/), the [LangChainBlog](https://blog.langchain.dev/), and [Chat-Your-Data](https://github.com/hwchase17/chat-your-data) to develop my LLMs.<br>
+   I'm using [Deepmind's PromptBreeder](https://the-decoder.com/deepminds-promptbreeder-automates-prompt-engineering/) generate prompts.<br>
 2) Continue learning AI Coding Assistants to write code in Bash, Python, Go, Rust, YAML, JSON, etc.<br>
    Here's a short list of AI Coding Assistants I'm currently using everyday<br>
    to generate boilerplate code, which I review, correct and test; and also<br>
@@ -769,6 +769,8 @@ in learning from large amounts of data and Platforms generate large amounts of d
    Github CopilotX, Codex, CodeWhisperer, Code Interpreter, Google Vertex AI Codey, Alphacode, BLOOM,<br>
    Tabnine, StarCoder, Polycoder, CodeQL, InfraCopilot, Cody, WhatTheDiff, Stenography, Mintlify, Kats,<br>
    Grit, Adrenaline, text2sql, askcodi, mutable.ai, Codeium, Readable, CodeT5 and CodeT5+, kiteco-public<br>
+3) Continue learning AI in general and all of it's applications!<br>
+   **I consider AI so important, that the rest of my life will probably be dedicated to studying this subject!**<br>
    
 ### On Prem Information
 Introduction:<br>
