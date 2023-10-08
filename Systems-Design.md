@@ -255,6 +255,22 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
 3) [Emulation](https://en.wikipedia.org/wiki/Emulator)/[Simulation](https://en.wikipedia.org/wiki/Computer_simulation)/[Virtualization](https://en.wikipedia.org/wiki/Virtualization) Abstraction:<br>
    **Appears and behaves like one thing, but is actually another.**<br>
+   The Abstraction of [Information:](https://en.wikipedia.org/wiki/Information)<br>
+   &ensp;&ensp;The term bit is short for "**b**inary dig**it**".<br>
+   &ensp;&ensp;A [bit](https://en.wikipedia.org/wiki/Bit) is the lowest level of abstraction in Computer Science.<br>
+   &ensp;&ensp;Without getting too techincal or philisophical,<br>
+   &ensp;&ensp;a bit should only represent two states (thus the word binary, latin for "consisting of two") and persist over time.<br>
+   &ensp;&ensp;The assignment of meaning to a collection of bits is the most powerful form of<br>
+   &ensp;&ensp;abstraction because without it, information has no meaning and does not persist.<br>
+   &ensp;&ensp;You can assign any meaning you want to a collection of bits, but we use [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) to assign meaning.<br>
+   &ensp;&ensp;The reason for this is very philosophical and deep, and rooted in [Information Theory](https://en.wikipedia.org/wiki/Information_theory) and [Communication Theory](https://en.wikipedia.org/wiki/Communication_theory).<br>
+   &ensp;&ensp;If you're interested in deep diving, start by reading [Claude Shannon's](https://en.wikipedia.org/wiki/Claude_Shannon) seminal 1948 paper "[A Mathematical Theory of Communication](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)".<br>
+   &ensp;&ensp;Follow that up with "[Computing Machinery and Intelligence](https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence)" by [Alan Turning](https://en.wikipedia.org/wiki/Alan_Turing).<br>
+   &ensp;&ensp;Follow that up with "[Church's Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus)/[The λ-Calculus and Type Theory](https://plato.stanford.edu/entries/church/supplementD.html)" and the "[Chruch Turing Thesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis)" by [Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church)<br>
+   &ensp;&ensp;Follow that up with "[Principia Mathematica](https://en.wikipedia.org/wiki/Principia_Mathematica)" by [Alfred North Whitehead](https://en.wikipedia.org/wiki/Alfred_Whitehead) and [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell).<br>
+   &ensp;&ensp;Follow that up with "[Certain Factors Affecting Telegraph Speed](https://monoskop.org/images/9/9f/Nyquist_Harry_1924_Certain_Factors_Affecting_Telegraph_Speed.pdf)" and "[Certain Topics in Telegraph Transmission Theory](https://bayes.wustl.edu/Manual/CertainTopicsInTelegraphTransmissionTheory.pdf)" by [Harry Nyquist](https://en.wikipedia.org/wiki/Harry_Nyquist)<br>
+   &ensp;&ensp;Follow that up with "[Transmission of Information](https://monoskop.org/images/a/a6/Hartley_Ralph_VL_1928_Transmission_of_Information.pdf)" by [Ralph Hartley](https://en.wikipedia.org/wiki/Ralph_Hartley)<br>
+   &ensp;&ensp;Information Theory is a rich field of study and worth the deep dive.<br>
    System Level:<br>
    &ensp;&ensp;[Virtual Reality (VR)](https://en.wikipedia.org/wiki/Virtual_reality)<br>
    &ensp;&ensp;[Augmented Reality (AR)](https://en.wikipedia.org/wiki/Augmented_reality)<br>
@@ -625,8 +641,13 @@ What is OpenTelemetry?<br>
 &ensp;&ensp;OpenTelemetry is natively supported by a number of vendors.<br>
 &ensp;&ensp;[List of Vendors that support OpenTelemetry:](https://opentelemetry.io/ecosystem/vendors/)<br>
 &ensp;&ensp;Cloud Observability, Grafana Labs, Jaeger, SigNoz, AppDynamics<br>
+
+### The Concept of Data and its Application in Computer Science:
+This section covers the concept of data and it's application in our main focus of<br>
+System Design, Platform Engineering, SRE, and DevOps.<br>
 What is Data?<br>
 &ensp;&ensp;Data is anything you can assign meaning to.<br>
+&ensp;&ensp;Data in the context of digital computing is just a collection of bits.<br>
 &ensp;&ensp;Technically, "data" is a plural noun (it is the plural form of the noun "datum").<br>
 &ensp;&ensp;However, it is used with both singular and plural verbs.<br>
 &ensp;&ensp;The term data is so general it almost has no meaning.<br>
