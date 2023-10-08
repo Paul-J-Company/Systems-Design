@@ -202,6 +202,7 @@ Starting from a blank slate is different than inheriting an existing system infr
 An [Abstraction](https://en.wikipedia.org/wiki/Abstraction) is hiding complexity and/or [hiding information](https://en.wikipedia.org/wiki/Information_hiding).<br>
 [Abstraction in Computer Science](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) is a simple interface that hides the complexity behind it.<br>
 An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) includes the following concepts:<br>
+&ensp;&ensp;[Interface:](https://en.wikipedia.org/wiki/Interface_(computing)) See: ABI, API, HAL<br>
 &ensp;&ensp;[Encapsulation:](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))<br>
 &ensp;&ensp;[Modularity:](https://en.wikipedia.org/wiki/Modularity)<br>
 &ensp;&ensp;&ensp;&ensp;[Criteria for Modularization](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf)<br>
@@ -296,6 +297,8 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;&ensp;&ensp;[GuestOS:](https://www.techtarget.com/searchitoperations/definition/guest-OS-guest-operating-system) runs inside Type-1,2 Hypervisors<br>
    &ensp;&ensp;[Containers:](https://en.wikipedia.org/wiki/Containerization_(computing))<br>
    &ensp;&ensp;[List of Command Line Interpreters](https://en.wikipedia.org/wiki/List_of_command-line_interpreters), [Shell](https://en.wikipedia.org/wiki/Shell_(computing)), [Unix Shell:](https://en.wikipedia.org/wiki/Unix_shell), [Terminal Emulator](https://en.wikipedia.org/wiki/Terminal_emulator) aka., Console. Terminal<br>
+   &ensp;&ensp;[Computer/Processor Instruction](https://en.wikipedia.org/wiki/Instruction) - one operation of a processor within a computer architecture<br>
+   &ensp;&ensp;[Instruction Set Architecture (ISA)](https://en.wikipedia.org/wiki/Category:Instruction_set_architectures):<br>
    &ensp;&ensp;[Application:](https://en.wikipedia.org/wiki/Application_software) aka., [Computer Program](https://en.wikipedia.org/wiki/Computer_program)<br>
    &ensp;&ensp;[Procedure/Subroutine/Function](https://en.wikipedia.org/wiki/Function_(computer_programming))<br>
    &ensp;&ensp;[Job:](https://en.wikipedia.org/wiki/Job_(computing)), [Unix Job](https://en.wikipedia.org/wiki/Job_control_(Unix)), [Batch Job](https://en.wikipedia.org/wiki/Batch_processing)<br>
@@ -305,7 +308,6 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[Fiber:](https://en.wikipedia.org/wiki/Fiber_(computer_science))<br>
    &ensp;&ensp;[Context Switching:](https://en.wikipedia.org/wiki/Context_switch)<br>
    &ensp;&ensp;[Driver:](https://en.wikipedia.org/wiki/Driver_(software)), [Device Driver](https://en.wikipedia.org/wiki/Device_driver)<br>
-   &ensp;&ensp;[Instruction Set Architecture (ISA)](https://en.wikipedia.org/wiki/Category:Instruction_set_architectures):<br>
    &ensp;&ensp;Hardware Implements:<br>
    &ensp;&ensp;[Hardware Registers:](https://en.wikipedia.org/wiki/Hardware_register), [Processor Register](https://en.wikipedia.org/wiki/Processor_register)<br>
    &ensp;&ensp;[L1/L2/L3 Cache:](https://en.wikipedia.org/wiki/Cache_hierarchy)<br>
