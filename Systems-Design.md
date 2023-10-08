@@ -985,11 +985,14 @@ Other Random Tools:<br>
 &ensp;&ensp;https://thetruesize.com/<br>
 
 ## My Favorite Hardware/Software for OnPrem Compute and Storage
+NOTE: These are my favorites but there are numerous other valid choices out there.<br>
 Network Hardware:<br>
+[List of Network Buses](https://en.wikipedia.org/wiki/List_of_network_buses)<br>
 &ensp;&ensp;NOTE:<br>
-&ensp;&ensp;&ensp;&ensp;I'm not including Load Balancers or Firewalls because I prefer<br>
-&ensp;&ensp;&ensp;&ensp;using the built-in load balancing and security features of Kubernetes and all of<br>
+&ensp;&ensp;&ensp;&ensp;I'm not including hardware Load Balancers or Firewalls because I prefer<br>
+&ensp;&ensp;&ensp;&ensp;using the built-in software load balancing and security features of Kubernetes and all of<br>
 &ensp;&ensp;&ensp;&ensp;the Kubernetes 3rd party options for distributing data and securing a cluster.<br>
+&ensp;&ensp;&ensp;&ensp;In addition, I like using [BGP Anycast](https://en.wikipedia.org/wiki/Anycast) for WAN routing customers to the different data centers.<br>
 &ensp;&ensp;Routers:<br>
 &ensp;&ensp;&ensp;&ensp;Juniper:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;I prefer Juniper JunOS over Cisco IOS.<br>
@@ -1011,61 +1014,66 @@ Network Hardware:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[AS7726-32X: 32 ports 100G QSFP28, 2 x 10G SFP](https://www.edge-core.com/productsInfo.php?cls=&cls2=&cls3=15&id=545)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[10Gb Switches](https://www.edge-core.com/productsList.php?cls=1&cls2=154)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[Edgecore AS5912-54X: 48 ports 10G + 6 ports 100G](https://www.edge-core.com/productsInfo.php?cls=291&cls2=327&cls3=328&id=264)<br>
-  Fiber NICs:<br>
-    10Gb SFP+ PCI-E Network Card NIC, with Broadcom BCM57810S Chip, Dual SFP+ Port, PCI Express X8<br>
-      https://www.amazon.com/Ethernet-Broadcom-BCM57810S-Controller-Interface/dp/B06X9T683K?th=1<br>
-    100GbE Intel Ethernet Network Adapter E810<br>
-      https://www.intel.com/content/www/us/en/products/details/ethernet/800-network-adapters/e810-network-adapters/products.html<br>
-      https://www.intel.com/content/www/us/en/content-details/787658/deliver-high-performance-networking-on-ethernet.html<br>
+&ensp;&ensp;Fiber NICs:<br>
+&ensp;&ensp;&ensp;&ensp;[10Gb SFP+ PCI-E Network Card NIC, with Broadcom BCM57810S Chip, Dual SFP+ Port, PCI Express X8](https://www.amazon.com/Ethernet-Broadcom-BCM57810S-Controller-Interface/dp/B06X9T683K?th=1)<br>
+&ensp;&ensp;&ensp;&ensp;[100GbE Intel Ethernet Network Adapter E810](https://www.intel.com/content/www/us/en/products/details/ethernet/800-network-adapters/e810-network-adapters/products.html)<br>
+&ensp;&ensp;&ensp;&ensp;[Deliver High-Performance Networking on Ethernet ](https://www.intel.com/content/www/us/en/content-details/787658/deliver-high-performance-networking-on-ethernet.html)<br>
 Baremetal Servers:<br>
-  SuperStorage SSG-136R-NEL32JBF:<br>
-  https://www.supermicro.com/en/products/system/1U/136/SSG-136R-NEL32JBF.cfm<br>
-    32 Hot-swap NVMe, 9.5mm EDSFF Long SSDs<br>
-    https://www.supermicro.com/en/products/nvme<br>
-  Fujisu RX2540M7:<br>
-  https://www.fujitsu.com/global/products/computing/servers/primergy/rack/rx2540m7/index.html<br>
-    2RU, dual-socket server with<br>
-    up to 60 Xeon cores per CPU,<br>
-    up to 8TB of DDR5 memory,<br>
-    PCIe gen 5 connectivity,<br>
-    up to 6x Nvidia GPUs,<br>
-    up to 24x 2.5-inch NVMe storage drives,<br>
-    and optionally six more at the rear of the chassis.<br>
+&ensp;&ensp;[List of Computer Buses](https://en.wikipedia.org/wiki/Category:Computer_buses)<br>
+&ensp;&ensp;[List of Interface Bit Rates](https://en.wikipedia.org/wiki/List_of_interface_bit_rates)<br>
+&ensp;&ensp;The biggest bottlenecks for computation are the "[Memory Wall](https://en.wikipedia.org/wiki/Random-access_memory#Memory_wall)" and the "[Von Neumann Bottleneck](https://en.wikipedia.org/wiki/Von_Neumann_architecture#Von_Neumann_bottleneck)".<br>
+&ensp;&ensp;From 1986 to 2000, CPU speed improved at an annual rate of 55% while off-chip memory response time only improved at 10%.<br>
+&ensp;&ensp;Given these trends, it was expected that memory latency would become an overwhelming bottleneck in computer performance.<br>
+&ensp;&ensp;The other major problem is the [Power Problem](https://journal.uptimeinstitute.com/data-center-operators-will-face-more-grid-disturbances/).<br>
+&ensp;&ensp;**According to McKinsey, U.S. data center power consumption is expected to reach 35 gigawatts by 2030.**<br>
+&ensp;&ensp;[SuperStorage SSG-136R-NEL32JBF](https://www.supermicro.com/en/products/system/1U/136/SSG-136R-NEL32JBF.cfm)<br>
+&ensp;&ensp;&ensp;&ensp;[32 32GB Hot-swap NVMe, 9.5mm EDSFF Long SSDs](https://www.supermicro.com/en/products/nvme) which is 1PB of storage capacity in 1U.<br>
+&ensp;&ensp;&ensp;&ensp;[32 32GB Hot-swap E1.L SSD Server](https://www.facebook.com/Supermicro/videos/supermicro-superminute-e1l/378205252868226/)<br>
+&ensp;&ensp;[Fujisu RX2540M7](https://www.fujitsu.com/global/products/computing/servers/primergy/rack/rx2540m7/index.html)<br>
+&ensp;&ensp;&ensp;&ensp;2RU, dual-socket server with<br>
+&ensp;&ensp;&ensp;&ensp;up to 60 Xeon cores per CPU,<br>
+&ensp;&ensp;&ensp;&ensp;up to 8TB of DDR5 memory,<br>
+&ensp;&ensp;&ensp;&ensp;PCIe gen 5 connectivity,<br>
+&ensp;&ensp;&ensp;&ensp;up to 6x Nvidia GPUs,<br>
+&ensp;&ensp;&ensp;&ensp;up to 24x 2.5-inch NVMe storage drives,<br>
+&ensp;&ensp;&ensp;&ensp;and optionally six more at the rear of the chassis.<br>
+[Storage Buses:]()<br>
+&ensp;&ensp;[PCI Express (PCIe)](https://en.wikipedia.org/wiki/PCI_Express)<br>
+&ensp;&ensp;&ensp;&ensp;PCIe 6.0  128 GB/s (PAM4)<br>
+&ensp;&ensp;&ensp;&ensp;PCIe 5.0   64 GB/s (NRZ)<br>
+&ensp;&ensp;&ensp;&ensp;PCIe 4.0   32 GB/s (2 GB/s/lane)<br>
+&ensp;&ensp;&ensp;&ensp;PCIe 3.0   16 GB/s (1 GB/s/lane)<br>
 Storage Devices: SSDs, HDDs<br>
-  I/O Bandwidth Doubles every 3 years - BUT latency lags behind "Memory Wall" "Von Neumann Bottleneck"<br>
-  PCIe 6.0  128 GB/s (PAM4)<br>
-  PCIe 5.0   64 GB/s (NRZ)<br>
-  PCIe 4.0   32 GB/s (2 GB/s/lane)<br>
-  PCIe 3.0   16 GB/s (1 GB/s/lane)<br>
-  1) E1.L (Long) NVMe SSDs<br>
-     https://www.intel.com/content/www/us/en/products/docs/memory-storage/solid-state-drives/edsff-brief.html<br>
-  2) Ultrastar DC HC670<br>
-     https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-hc670-hdd#ultrastar-dc-hc670-26-tb<br>
-     26TB, 7200 RPM, 261MB/s<br>
+&ensp;&ensp;I/O Bandwidth Doubles every 3 years - BUT latency lags behind See: "the [Memory Wall](https://en.wikipedia.org/wiki/Random-access_memory#Memory_wall)" problem.<br> 
+&ensp;&ensp;1) [E1.L (Long) NVMe SSDs](https://www.intel.com/content/www/us/en/products/docs/memory-storage/solid-state-drives/edsff-brief.html)<br>
+&ensp;&ensp;2) [Ultrastar DC HC670](https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-hc670-hdd#ultrastar-dc-hc670-26-tb)<br>
+&ensp;&ensp;&ensp;&ensp;26TB, 7200 RPM, 261MB/s<br>
 Storage Software:<br>
-  1) Ceph:<br>
-     Supports object, block, and filesystem storage<br>
-     https://github.com/ceph/ceph<br>
-     https://ceph.com/<br>
-     https://github.com/ceph/ceph-csi<br>
-  2) Linstor: high performance block storage<br>
-     https://github.com/piraeusdatastore/linstor-csi<br>
-     https://linbit.com/linstor/<br>
-  3) OpenEBS: aka., Maystor, based on SPDK<br>
-     Perfect for a database farm in Kubernetes.<br>
-     https://spdk.io/<br>
-     https://github.com/openebs/cstor-csi<br>
-     https://github.com/openebs/mayastor<br>
-     https://openebs.io/docs/concepts/mayastor<br>
-     https://mayastor.gitbook.io/introduction/<br>
-     https://percona.community/blog/2020/10/23/mayastor-lightning-fast-storage-for-kubernetes/<br>
-     https://blocksandfiles.com/2021/03/08/intel-says-mayastor-is-fastest-open-source-storage/<br>
-  4) RAMCloud: great for streaming applications; very specialized; trying to get it to work with Kubernetes<br>
-     https://github.com/PlatformLab/RAMCloud<br>
-     https://ramcloud.atlassian.net/wiki/spaces/RAM/overview<br>
-     https://ramcloud.atlassian.net/wiki/spaces/RAM/pages/6848537/Deciding+Whether+to+Use+RAMCloud<br>
-     https://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud-tocs.pdf<br>
-     To achieve low latency, RAMCloud stores all data in DRAM at all times.<br>
+&ensp;&ensp;1) Ceph:<br>
+&ensp;&ensp;&ensp;&ensp;Supports object, block, and filesystem storage<br>
+&ensp;&ensp;&ensp;&ensp;https://github.com/ceph/ceph<br>
+&ensp;&ensp;&ensp;&ensp;https://ceph.com/<br>
+&ensp;&ensp;&ensp;&ensp;https://github.com/ceph/ceph-csi<br>
+&ensp;&ensp;2) Linstor:<br>
+&ensp;&ensp;&ensp;&ensp;High performance block storage.<br>
+&ensp;&ensp;&ensp;&ensp;https://github.com/piraeusdatastore/linstor-csi<br>
+&ensp;&ensp;&ensp;&ensp;https://linbit.com/linstor/<br>
+&ensp;&ensp;3) OpenEBS: aka., Maystor, based on SPDK<br>
+&ensp;&ensp;&ensp;&ensp;Perfect for a database farm in Kubernetes.<br>
+&ensp;&ensp;&ensp;&ensp;https://spdk.io/<br>
+&ensp;&ensp;&ensp;&ensp;https://github.com/openebs/cstor-csi<br>
+&ensp;&ensp;&ensp;&ensp;https://github.com/openebs/mayastor<br>
+&ensp;&ensp;&ensp;&ensp;https://openebs.io/docs/concepts/mayastor<br>
+&ensp;&ensp;&ensp;&ensp;https://mayastor.gitbook.io/introduction/<br>
+&ensp;&ensp;&ensp;&ensp;https://percona.community/blog/2020/10/23/mayastor-lightning-fast-storage-for-kubernetes/<br>
+&ensp;&ensp;&ensp;&ensp;https://blocksandfiles.com/2021/03/08/intel-says-mayastor-is-fastest-open-source-storage/<br>
+&ensp;&ensp;4) RAMCloud:<br>
+&ensp;&ensp;&ensp;&ensp;Great for streaming applications; very specialized; trying to get it to work with Kubernetes<br>
+&ensp;&ensp;&ensp;&ensp;To achieve low latency, RAMCloud stores all data in DRAM at all times.<br>
+&ensp;&ensp;&ensp;&ensp;https://github.com/PlatformLab/RAMCloud<br>
+&ensp;&ensp;&ensp;&ensp;https://ramcloud.atlassian.net/wiki/spaces/RAM/overview<br>
+&ensp;&ensp;&ensp;&ensp;https://ramcloud.atlassian.net/wiki/spaces/RAM/pages/6848537/Deciding+Whether+to+Use+RAMCloud<br>
+&ensp;&ensp;&ensp;&ensp;https://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud-tocs.pdf<br>
 
 ### Other System Design Resources
 *) [ByteByteCode:](https://www.youtube.com/@ByteByteGo/videos)<br>
