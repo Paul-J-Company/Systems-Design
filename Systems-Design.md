@@ -162,6 +162,7 @@ Starting from a blank slate is different than inheriting an existing system infr
    Book learning will only get you so far.<br>
 2) Design is about making tradeoffs and compromises at all levels of your System.<br>
    e.g., Security vs. Convenience, Capex vs. Opex, etc.<br>
+   Design is a Full Stack endeavor.<br>
    Great design includes great documentation.<br>
    [Teaching the art of great documentation](https://developers.googleblog.com/2020/07/teaching-art-of-great-documentation.html)<br>
    [The eight rules of good documentation](https://www.oreilly.com/content/the-eight-rules-of-good-documentation/)<br>
