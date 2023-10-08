@@ -639,6 +639,11 @@ What Is Unstructured Data?<br>
 &ensp;&ensp;This data type is often created by humans in forms such as text, images, videos, emails and social media posts.<br>
 &ensp;&ensp;However, unstructured data can also include less common examples like protein structures,<br>
 &ensp;&ensp;executable file hashes and human-readable code, among others - the possibilities are endless.<br>
+&ensp;&ensp;Working with unstructured data can be challenging due to its lack of a standardized format.<br>
+&ensp;&ensp;In addition, things become more complicated when it comes to querying and analyzing data,<br>
+&ensp;&ensp;especially when compared to structured and semi-structured data.<br>
+&ensp;&ensp;Unstructured data contains a wealth of information that can provide valuable insights into customer behaviors,<br>
+&ensp;&ensp;market trends and other essential business metrics for more accurate decision-making.<br>
 &ensp;&ensp;An astonishing 80% of newly generated data is unstructured.<br>
 &ensp;&ensp;Examples of Unstructured Data include:<br>
 &ensp;&ensp;&ensp;&ensp;Sensor data, Machine log data, Internet of Things (IoT) data, Computer vision data,<br>
