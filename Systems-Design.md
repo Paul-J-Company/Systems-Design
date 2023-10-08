@@ -303,14 +303,6 @@ Security:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Your business data.<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Any noun: person, place or thing.<br>
 
-Optimization:<br>
-&ensp;&ensp;Optimization is a Full Stack endeavor.<br>
-&ensp;&ensp;Optimization is finding the maxima of key performance metrics.<br>
-&ensp;&ensp;Optimization is the selection of a best element, with regard to some criterion, from some set of available alternatives.<br>
-&ensp;&ensp;A quote from Donald Knuth on Optimization:<br>
-&ensp;&ensp;&ensp;&ensp;"We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.<br>
-&ensp;&ensp;&ensp;&ensp;&nbsp;Yet we should not pass up our opportunities in that critical 3%."<br>
-
 Efficiency:<br>
 &ensp;&ensp;Efficiency is a Full Stack endeavor.<br>
 &ensp;&ensp;Efficiency is about doing more with less.<br>
@@ -357,6 +349,14 @@ Performance:<br>
 &ensp;&ensp;but are typically Opex neutral because maintaining high performance equipment is<br>
 &ensp;&ensp;typically similar or identical to maintaining less performant equipment.<br>
 &ensp;&ensp;Although high performance equipment may cost more to power and cool, thus increasing Opex.<br>
+
+Optimization:<br>
+&ensp;&ensp;Optimization is a Full Stack endeavor.<br>
+&ensp;&ensp;Optimization is finding the maxima of key performance metrics.<br>
+&ensp;&ensp;Optimization is the selection of a best element, with regard to some criterion, from some set of available alternatives.<br>
+&ensp;&ensp;A quote from Donald Knuth on Optimization:<br>
+&ensp;&ensp;&ensp;&ensp;"We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.<br>
+&ensp;&ensp;&ensp;&ensp;&nbsp;Yet we should not pass up our opportunities in that critical 3%."<br>
 
 High Availability (HA):<br>
 &ensp;&ensp;High Availability is a Full Stack endeavor.<br>
@@ -622,7 +622,28 @@ What is OpenTelemetry?<br>
 &ensp;&ensp;OpenTelemetry is natively supported by a number of vendors.<br>
 &ensp;&ensp;[List of Vendors that support OpenTelemetry:](https://opentelemetry.io/ecosystem/vendors/)<br>
 &ensp;&ensp;Cloud Observability, Grafana Labs, Jaeger, SigNoz, AppDynamics, etc.<br>
-What is High-Cardinality Data (HCD):<br>
+What is Data?<br>
+&ensp;&ensp;Data is anything you can assign meaning to.<br>
+&ensp;&ensp;Technically, "data" is a plural noun (it is the plural form of the noun "datum").<br>
+&ensp;&ensp;However, it is used with both singular and plural verbs.<br>
+&ensp;&ensp;The term data is so general it almost has no meaning.<br>
+&ensp;&ensp;Yet, it's probably the most important and most used word in all of modern Computer Science.<br>
+What Is Structured Data?<br>
+&ensp;&ensp;Structured data follows a specific format, making it easy to store and analyze.<br>
+&ensp;&ensp;Examples of structured data include: customer information, transaction records and inventory lists.<br>
+What Is Unstructured Data?<br>
+&ensp;&ensp;Unstructured data refers to data that does not have a specific format or structure.<br>
+&ensp;&ensp;This data type is often created by humans in forms such as text, images, videos, emails and social media posts.<br>
+&ensp;&ensp;However, unstructured data can also include less common examples like protein structures,<br>
+&ensp;&ensp;executable file hashes and human-readable code, among others - the possibilities are endless.<br>
+&ensp;&ensp;An astonishing 80% of newly generated data is unstructured.<br>
+What is Semi-Structured Data? aka., Partially Structured Data<br>
+&ensp;&ensp;Semi-structured data is a mixture of structured and unstructured data.<br>
+&ensp;&ensp;Semi-structured data contains some level of organization, such as metadata or tags, but is not fully structured.<br>
+&ensp;&ensp;Semi-structured data is commonly found in XML files, JSON documents and other data types that follow a specific schema.<br>
+&ensp;&ensp;This type of data is usually stored in a NoSQL database like a wide-column store<br>
+&ensp;&ensp;or object/document database since it cannot be directly stored in a relational database.<br>
+What is High-Cardinality Data (HCD)?<br>
 &ensp;&ensp;HCD is a large set of unique values that can be queried and analyzed<br>
 &ensp;&ensp;and is the most effective data when it comes to resolving an incident.<br>
 &ensp;&ensp;The ability to properly analyze high-cardinality data leads to faster incident resolution.<br>
@@ -635,13 +656,13 @@ What is High-Cardinality Data (HCD):<br>
 &ensp;&ensp;Low-cardinality data can help teams examine broad patterns in a service.<br>
 &ensp;&ensp;High-cardinality data is a narrow magnifying glass into a service's problems,<br>
 &ensp;&ensp;making it possible to look at outlying events that can help guide troubleshooting efforts.<br>
-What is High-Dimensionality Data (HDD):<br>
+What is High-Dimensionality Data (HDD)?<br>
 &ensp;&ensp;While high cardinality refers to a large number of data points (values) in a given attribute,<br>
 &ensp;&ensp;dimensionality takes it further: how many attributes does an event have?<br>
 &ensp;&ensp;Being able to analyze trends across many dimensions quickly is important<br>
 &ensp;&ensp;when you're trying to figure out what changed but don't know what to ask.<br>
 &ensp;&ensp;When you're trying to solve unknown-unknowns, high-dimensionality data is your friend.<br>
-What is Curse of Dimensionality:<br>
+What is Curse of Dimensionality?<br>
 &ensp;&ensp;The curse of dimensionality refers to various phenomena that arise when<br>
 &ensp;&ensp;analyzing and organizing data in high-dimensional spaces that do not<br>
 &ensp;&ensp;occur in low-dimensional settings such as the three-dimensional physical<br>
