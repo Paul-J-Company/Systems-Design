@@ -228,7 +228,7 @@ Introduction:<br>
 
 There are 3 Major Types of Computer Abstraction:<br>
 1. One-to-Many Abstraction:<br>
-   *Appears and behaves like one thing, but is actually many things.*<br>
+   **Appears and behaves like one thing, but is actually many things.**<br>
    Network:<br>
    &ensp;&ensp;[Load Balancer:](https://en.wikipedia.org/wiki/Load_balancing_(computing)) hardware-based and software-based<br>
    &ensp;&ensp;[API Gateway:](https://en.wikipedia.org/wiki/API_management#Gateway)<br>
@@ -244,7 +244,7 @@ There are 3 Major Types of Computer Abstraction:<br>
    Compute:<br>
    &ensp;&ensp;[Cluster:](https://en.wikipedia.org/wiki/Computer_cluster)<br>
 2) Local-Remote Abstraction:<br>
-   *Appears and behaves like a local resource, but is actually a remote resource.*<br>
+   **Appears and behaves like a local resource, but is actually a remote resource.**<br>
    Storage:<br>
    &ensp;&ensp;[Clusterd Filesystems:](https://en.wikipedia.org/wiki/Clustered_file_system) aka., Distributed Filesystems<br>
    &ensp;&ensp;[Network File System (NFS):](https://en.wikipedia.org/wiki/Network_File_System)<br>
@@ -252,7 +252,7 @@ There are 3 Major Types of Computer Abstraction:<br>
    Compute:<br>
    &ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
 3) Emulation/Simulation/Virtualization Abstraction:<br>
-   Appears and behaves like one thing, but is actually another.<br>
+   **Appears and behaves like one thing, but is actually another.**<br>
    Network:<br>
    &ensp;&ensp;OS Implements:<br>
    &ensp;&ensp;[Virtual Routing and Forwarding: (VRF)](https://en.wikipedia.org/wiki/Virtual_routing_and_forwarding)<br>
@@ -285,11 +285,11 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[Driver:](https://en.wikipedia.org/wiki/Driver_(software)), [Device Driver](https://en.wikipedia.org/wiki/Device_driver)<br>
    &ensp;&ensp;[Instruction Set Architecture (ISA)](https://en.wikipedia.org/wiki/Category:Instruction_set_architectures):<br>
    &ensp;&ensp;Hardware Implements:<br>
-   &ensp;&ensp;&ensp;&ensp;[Hardware Registers:](https://en.wikipedia.org/wiki/Hardware_register), [Processor Register](https://en.wikipedia.org/wiki/Processor_register)<br>
-   &ensp;&ensp;&ensp;&ensp;[L1/L2/L3 Cache:](https://en.wikipedia.org/wiki/Cache_hierarchy)<br>
-   &ensp;&ensp;&ensp;&ensp;[Pipelining:](https://en.wikipedia.org/wiki/Pipeline_(computing))<br>
-   &ensp;&ensp;&ensp;&ensp;[Application Binary Interface (ABI)](https://en.wikipedia.org/wiki/Application_binary_interface):<br>
-   &ensp;&ensp;&ensp;&ensp;[Hardware Abstraction Layer (HAL)](https://en.wikipedia.org/wiki/Hardware_abstraction#In_operating_systems):<br>
+   &ensp;&ensp;[Hardware Registers:](https://en.wikipedia.org/wiki/Hardware_register), [Processor Register](https://en.wikipedia.org/wiki/Processor_register)<br>
+   &ensp;&ensp;[L1/L2/L3 Cache:](https://en.wikipedia.org/wiki/Cache_hierarchy)<br>
+   &ensp;&ensp;[Pipelining:](https://en.wikipedia.org/wiki/Pipeline_(computing))<br>
+   &ensp;&ensp;[Application Binary Interface (ABI)](https://en.wikipedia.org/wiki/Application_binary_interface):<br>
+   &ensp;&ensp;[Hardware Abstraction Layer (HAL)](https://en.wikipedia.org/wiki/Hardware_abstraction#In_operating_systems):<br>
 
 ### System Property Definitions:
 Security:<br>
