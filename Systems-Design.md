@@ -111,7 +111,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Relational, NoSQL, Document Oriented, Graph DB
   - Block Storage, Filesystem Storage, Object Storage
   - CePH, BigTable, DynamoDB, etc.
-  - How do you snapshot/replicate/migrate/backup large amounts of data?
+  - How do you [snapshot](https://en.wikipedia.org/wiki/Snapshot_(computer_storage))/[replicate](https://en.wikipedia.org/wiki/Replication_(computing))/[migrate](https://en.wikipedia.org/wiki/Data_migration)/[backup](https://en.wikipedia.org/wiki/Backup) large amounts of data?
   - What Data Tools do you use?
     - DataDog, Splunk, Greylog, etc.
 + What is your Compute Design?
@@ -251,7 +251,7 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[Samba](https://en.wikipedia.org/wiki/Samba)/[SMB/CIFS](https://en.wikipedia.org/wiki/Server_Message_Block):<br>
    Compute:<br>
    &ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
-3) Emulation/Simulation/Virtualization Abstraction:<br>
+3) [Emulation](https://en.wikipedia.org/wiki/Emulator)/[Simulation](https://en.wikipedia.org/wiki/Computer_simulation)/[Virtualization](https://en.wikipedia.org/wiki/Virtualization) Abstraction:<br>
    **Appears and behaves like one thing, but is actually another.**<br>
    Network:<br>
    &ensp;&ensp;OS Implements:<br>
