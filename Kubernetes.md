@@ -30,7 +30,7 @@ In other words,<br>
 you'll need many of the other supporting technologies to achieve the desired [System Properties](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#system-properties).
 
 As you probably surmised by now, the meaning of<br>
-**"I'm running Kubernetes?" is Kubernetes Proper + Kubernetes World running on one of many different Kubernetes Platforms**<br>
+**"I'm running Kubernetes?" is Kubernetes Proper + Kubernetes World running on one or more different Kubernetes Platforms**<br>
 
 **Kubernetes "Installation"** is my term I use to describe a unique installation of kubernetes<br>
 comprised of Kubernetes Proper + Kubernetes World running on one of many different Kubernetes Platforms.<br>
