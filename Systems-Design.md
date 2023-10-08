@@ -81,7 +81,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - How do they choose the best Programming Language, IDE, etc. to implement your Workload?
   - How do they choose the best SDLC, CI/CD, and Distributed Version Control System Tools and Practices/Workflows for your Workload?
 + How do your Architects/Designers/Programmers/Teams/Departments communicate and how often?
-  - In person Meetings, Email, Mailing Lists, Chat, Slack, Mastadon, IRC; Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
+  - In person Meetings, Email, Mailing Lists, Chat, Slack, Discord, Mastadon, IRC; Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
   - Every Week, Daily (15 min scrum), every Month, Never?
 + What Environment/Platform does your workload run?
   - OnPrem, Cloud, MultiCloud or Hybrid?
@@ -302,6 +302,14 @@ Security:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Your customer data.<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Your business data.<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Any noun: person, place or thing.<br>
+
+Optimization:<br>
+&ensp;&ensp;Optimization is a Full Stack endeavor.<br>
+&ensp;&ensp;Optimization is finding the maxima of key performance metrics.<br>
+&ensp;&ensp;Optimization is the selection of a best element, with regard to some criterion, from some set of available alternatives.<br>
+&ensp;&ensp;A quote from Donald Knuth on Optimization:<br>
+&ensp;&ensp;&ensp;&ensp;"We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.<br>
+&ensp;&ensp;&ensp;&ensp;&nbsp;Yet we should not pass up our opportunities in that critical 3%."<br>
 
 Efficiency:<br>
 &ensp;&ensp;Efficiency is a Full Stack endeavor.<br>
@@ -706,7 +714,7 @@ LLMs can turn massive amounts of unstructured information into structured data t
 LLMs can be trained to automatically create tickets in your ticketing system<br>
 and initiate the next actions in a workflow spurred by an incident or other IT event.<br>
 Reinforcement Learning AI can outperform humans in any game<br>
-such as Go, Chess, and any Compter Games like Atari Breakout, and Doda2.<br>
+such as Go, Chess, and any Computer Games like Atari Breakout, and Doda2.<br>
 The potential of AI is enormous and I believe it will be used in every aspect of every industry.<br>
 Platform Engineering is a perfect match for current AI technologies because AI excels<br>
 in learning from large amounts of data and Platforms generate large amounts of data.<br>
@@ -728,6 +736,7 @@ in learning from large amounts of data and Platforms generate large amounts of d
    to assisit and hopefully outperform humans in tasks such<br>
    as incidence response, root cause analysis, and Market predictions.<br>
    I'm using LangChain to develop my LLMs.<br>
+   I'm using 
 2) Continue learning AI Coding Assistants to write code in Bash, Python, Go, Rust, YAML, JSON, etc.<br>
    Here's a short list of AI Coding Assistants I'm currently using everyday<br>
    to generate boilerplate code, which I review, correct and test; and also<br>
@@ -939,7 +948,11 @@ Find your NAT IP:<br>
 &ensp;&ensp;# curl ifconfig.me<br>
 &ensp;&ensp;# tranceroute arin.net<br>
 Other Random Tools:<br>
-&ensp;&ensp;https://www.google.com/intl/en/ipv6/statistics.html<br>
+&ensp;&ensp;[Google Statuistics](https://www.google.com/intl/en/ipv6/statistics.html)<br>
+&ensp;&ensp;[Google Trending Page](https://trends.google.com/trends/)<br>
+&ensp;&ensp;[Basics of Google Trends](https://newsinitiative.withgoogle.com/resources/trainings/basics-of-google-trends/)<br>
+&ensp;&ensp;[Google Trends: See what's trending across Google Search, Google News and YouTube](https://newsinitiative.withgoogle.com/resources/trainings/google-trends-lesson/)<br>
+&ensp;&ensp;[Github Trending Page](https://github.com/trending)<br>
 &ensp;&ensp;https://time.is/<br>
 &ensp;&ensp;http://www.convertunits.com/dates/from/Jan+1,+2023/to/Sep+28,+2023<br>
 &ensp;&ensp;https://thetruesize.com/<br>
