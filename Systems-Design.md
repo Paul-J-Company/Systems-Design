@@ -120,7 +120,7 @@ Starting from a blank slate is different than inheriting an existing system infr
 + What Infrastructure Provisioning Tools do you use?
   - Terraform, Ansible, Nomad, Kubernetes?
 + What Programming Languages do you use?
-  - Python, Go, Bash, C, C++, Java, Javascript, etc.
+  - Python, Go, Bash, Rust, C, C++, Java, Javascript, etc.
   - What Programming Tools and/or Frameworks do you use?
     - IDEs: VSC, Vim, Emacs
     - Distributed Version Control System: Git, Github, Gitlab
@@ -180,16 +180,19 @@ Starting from a blank slate is different than inheriting an existing system infr
    CCC = Correct, Concise, Clear<br>
    Rule #1: Know your audience!<br>
    Always stay calm and rational.<br>
-7) [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
-8) [Keep it Simple Stupid: (KISS)](https://en.wikipedia.org/wiki/KISS_principle)<br>
+   You want a good signal-to-noise ration (SNR).
+   Signal is what you want.
+   Noise is what you don't want.
+8) [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
+9) [Keep it Simple Stupid: (KISS)](https://en.wikipedia.org/wiki/KISS_principle)<br>
    Complexity is the enemy of clarity!<br>
    Simple does not always imply easy!<br>
-9) [Separation of Concerns: (SoP)](https://en.wikipedia.org/wiki/Separation_of_concerns)<br>
+10) [Separation of Concerns: (SoP)](https://en.wikipedia.org/wiki/Separation_of_concerns)<br>
    [Separation of Content and Presentation](https://en.wikipedia.org/wiki/Separation_of_content_and_presentation)<br>
-10) [Single Responsibility Principle: (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle)<br>
-11) [Principle of Least Privilege:](https://en.wikipedia.org/wiki/Principle_of_least_privilege) aka., (PoLP), Principle of Least Authority (PoLA)<br>
-12) [Principle of Compositionality:](https://en.wikipedia.org/wiki/Principle_of_compositionality)<br>
-13) Abstraction:<br>
+11) [Single Responsibility Principle: (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle)<br>
+12) [Principle of Least Privilege:](https://en.wikipedia.org/wiki/Principle_of_least_privilege) aka., (PoLP), Principle of Least Authority (PoLA)<br>
+13) [Principle of Compositionality:](https://en.wikipedia.org/wiki/Principle_of_compositionality)<br>
+14) Abstraction:<br>
     See: "[General Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#general-abstractions)"<br>
     See: "[Computer Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#computer-abstractions)"<br>
 
@@ -711,7 +714,7 @@ in learning from large amounts of data and Platforms generate large amounts of d
 ### HOWTO: Use AI to Improve the Speed, Accuracy and Clarity of your Platform
 1) Use LLMs to Write Boilerplate Code:<br>
    This accelerates the code writing experience.<br>
-   Use AI Coding Assistants to write code in Bash, Python, Go, YAML, JSON, etc.<br>
+   Use AI Coding Assistants to write code in Bash, Python, Go, Rust, YAML, JSON, etc.<br>
 3) Use LLMs to Learn from Telemetry Data:<br>
    Log data, Monitoring data, Analytics data, Trace data, Network Topology data, etc.<br>
    This helps predict future possible outages, find errors, and accelerates incidence response and root cause analysis.<br>
@@ -725,7 +728,7 @@ in learning from large amounts of data and Platforms generate large amounts of d
    to assisit and hopefully outperform humans in tasks such<br>
    as incidence response, root cause analysis, and Market predictions.<br>
    I'm using LangChain to develop my LLMs.<br>
-2) Continue learning AI Coding Assistants to write code in Bash, Python, Go, YAML, JSON, etc.<br>
+2) Continue learning AI Coding Assistants to write code in Bash, Python, Go, Rust, YAML, JSON, etc.<br>
    Here's a short list of AI Coding Assistants I'm currently using everyday<br>
    to generate boilerplate code, which I review, correct and test; and also<br>
    to generate Documentation, Code Comments, Github pull requests, Static analysis, generate SQL, etc.<br>
@@ -746,11 +749,11 @@ Introduction:<br>
 Pick at least 3 Data Centers: (for redundancy)<br>
 &ensp;&ensp;Purchase equipment (routers, switches, servers, loadbalancers, Firewalls, etc.).<br>
 &ensp;&ensp;Ship Equipment to Data Centers.<br>
-&ensp;&ensp;Rack and Cable all the equipment: Power, Network, Out-of-band Access: IPMI: Dell iDRAC, HP iLO, etc.<br>
+&ensp;&ensp;Rack and Cable all the equipment: Power, Network, Out-of-band Access: [IPMI:](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface) Dell iDRAC, HP iLO, etc.<br>
 &ensp;&ensp;Configure WAN BGP Peering Connections on your Border Routers - aka., Connect your Data Center to the Internet and other Data Centers.<br>
 &ensp;&ensp;Create and Deploy LAN Network Design: Valley-free Routing vs. Leaf and Spine Topology, LAG and/or MLAG, etc.<br>
-&ensp;&ensp;Install OS or Type-1 Hypervisor on all baremetal machines with bootstrap tools: iPXE, ipmitool, Tinkerbell, Shoelaces, Redfish, etc.<br>
-&ensp;&ensp;Configure all servers with your Provisioning Tools: Ansible, Terraform, DNF/RPM, APT/DPKG, Pacman, OSTree, etc.<br>
+&ensp;&ensp;Install OS or Type-1 Hypervisor on all baremetal machines with bootstrap tools: [cloud-init](https://cloud-init.io/)/[cloud-init Github](https://github.com/canonical/cloud-init), [iPXE](https://en.wikipedia.org/wiki/IPXE), [ipmitool](https://github.com/ipmitool/ipmitool)/[ipmiutil](https://github.com/arcress0/ipmiutil), [Tinkerbell](https://tinkerbell.org/), [Shoelaces](https://github.com/thousandeyes/shoelaces), [Redfish](https://dmtf.github.io/python-redfish-utility/#overview)/[RedfishTool](https://github.com/DMTF/Redfishtool), etc.<br>
+&ensp;&ensp;Configure all servers with your Provisioning Tools: Ansible, Terraform, Pulumi; [Package Managers:](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) DNF/RPM, APT/DPKG, Pacman, OSTree, etc.<br>
 &ensp;&ensp;Create VMs and/or Containers on your servers.<br>
 &ensp;&ensp;Install Container Orchestration Software on baremetal or VMs: Kubernetes et.al.<br>
 &ensp;&ensp;Design Kubernetes System Design to best support your workload.<br>
@@ -942,124 +945,113 @@ Other Random Tools:<br>
 &ensp;&ensp;https://thetruesize.com/<br>
 
 ## My Favorite Hardware/Software for OnPrem Compute and Storage
-Network Hardware:
-  NOTE:
-    I'm not including Load Balancers or Firewalls because I prefer
-    using the built-in security features of Kubernetes and all of
-    the Kubernetes 3rd party options for securing a cluster.
-  Routers:
-    Juniper:
-      I prefer JunOS over Cisco IOS.
-      https://www.juniper.net/us/en/products/routers.html
-    Cisco:
-      https://www.cisco.com/c/en/us/products/routers/product-listing.html
-      https://www.cisco.com/c/en_my/products/routers/index.html
-    FRR:
-      An inexpensive alternative would be to use a powerful Linux server with 100Gb NICs and FRR software.
-      The only issue is FRR doesn't support MLAG which is a critical protocol for configuring redundancy.
-      https://en.wikipedia.org/wiki/FRRouting
-      https://github.com/FRRouting/frr
-      https://frrouting.org/
-      https://docs.frrouting.org/en/stable-9.0/
-  Switches:
-    Edgecore
-      https://www.edge-core.com/productsList.php?cls=291&cls2=327
-    100Gb Switches
-      https://www.edge-core.com/productsList.php?cls=1&cls2=5
-    AS7816-64X: 64 ports 100G QSFP28 
-      https://www.edge-core.com/productsInfo.php?cls=1&cls2=5&cls3=166&id=309
-    AS7726-32X: 32 ports 100G QSFP28, 2 x 10G SFP
-      https://www.edge-core.com/productsInfo.php?cls=&cls2=&cls3=15&id=545
-    Edgecore AS5912-54X: 48 ports 10G + 6 ports 100G 
-      https://www.edge-core.com/productsInfo.php?cls=291&cls2=327&cls3=328&id=264
-  Fiber NICs:
-    10Gb SFP+ PCI-E Network Card NIC, with Broadcom BCM57810S Chip, Dual SFP+ Port, PCI Express X8
-      https://www.amazon.com/Ethernet-Broadcom-BCM57810S-Controller-Interface/dp/B06X9T683K?th=1
-    100GbE Intel Ethernet Network Adapter E810
-      https://www.intel.com/content/www/us/en/products/details/ethernet/800-network-adapters/e810-network-adapters/products.html
-      https://www.intel.com/content/www/us/en/content-details/787658/deliver-high-performance-networking-on-ethernet.html
-Baremetal Servers:
-  SuperStorage SSG-136R-NEL32JBF:
-  https://www.supermicro.com/en/products/system/1U/136/SSG-136R-NEL32JBF.cfm
-    32 Hot-swap NVMe, 9.5mm EDSFF Long SSDs
-    https://www.supermicro.com/en/products/nvme
-  Fujisu RX2540M7:
-  https://www.fujitsu.com/global/products/computing/servers/primergy/rack/rx2540m7/index.html
-    2RU, dual-socket server with
-    up to 60 Xeon cores per CPU,
-    up to 8TB of DDR5 memory,
-    PCIe gen 5 connectivity,
-    up to 6x Nvidia GPUs,
-    up to 24x 2.5-inch NVMe storage drives,
-    and optionally six more at the rear of the chassis.
-Storage Devices: SSDs, HDDs
-  I/O Bandwidth Doubles every 3 years - BUT latency lags behind "Memory Wall" "Von Neumann Bottleneck"
-  PCIe 6.0  128 GB/s (PAM4)
-  PCIe 5.0   64 GB/s (NRZ)
-  PCIe 4.0   32 GB/s (2 GB/s/lane)
-  PCIe 3.0   16 GB/s (1 GB/s/lane)
-  1) E1.L (Long) NVMe SSDs
-     https://www.intel.com/content/www/us/en/products/docs/memory-storage/solid-state-drives/edsff-brief.html
-  2) Ultrastar DC HC670
-     https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-hc670-hdd#ultrastar-dc-hc670-26-tb
-     26TB, 7200 RPM, 261MB/s
-Storage Software:
-  1) Ceph:
-     Supports object, block, and filesystem storage
-     https://github.com/ceph/ceph
-     https://ceph.com/
-     https://github.com/ceph/ceph-csi
-  2) Linstor: high performance block storage
-     https://github.com/piraeusdatastore/linstor-csi
-     https://linbit.com/linstor/
-  3) OpenEBS: aka., Maystor, based on SPDK
-     Perfect for a database farm in Kubernetes.
-     https://spdk.io/
-     https://github.com/openebs/cstor-csi
-     https://github.com/openebs/mayastor
-     https://openebs.io/docs/concepts/mayastor
-     https://mayastor.gitbook.io/introduction/
-     https://percona.community/blog/2020/10/23/mayastor-lightning-fast-storage-for-kubernetes/
-     https://blocksandfiles.com/2021/03/08/intel-says-mayastor-is-fastest-open-source-storage/
-  4) RAMCloud: great for streaming applications; very specialized; trying to get it to work with Kubernetes
-     https://github.com/PlatformLab/RAMCloud
-     https://ramcloud.atlassian.net/wiki/spaces/RAM/overview
-     https://ramcloud.atlassian.net/wiki/spaces/RAM/pages/6848537/Deciding+Whether+to+Use+RAMCloud
-     https://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud-tocs.pdf
-     To achieve low latency, RAMCloud stores all data in DRAM at all times.
+Network Hardware:<br>
+&ensp;&ensp;NOTE:<br>
+&ensp;&ensp;&ensp;&ensp;I'm not including Load Balancers or Firewalls because I prefer<br>
+&ensp;&ensp;&ensp;&ensp;using the built-in security features of Kubernetes and all of<br>
+&ensp;&ensp;&ensp;&ensp;the Kubernetes 3rd party options for securing a cluster.<br>
+&ensp;&ensp;Routers:<br>
+&ensp;&ensp;&ensp;&ensp;Juniper:<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;I prefer JunOS over Cisco IOS.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://www.juniper.net/us/en/products/routers.html<br>
+    Cisco:<br>
+      https://www.cisco.com/c/en/us/products/routers/product-listing.html<br>
+      https://www.cisco.com/c/en_my/products/routers/index.html<br>
+    FRR:<br>
+      An inexpensive alternative would be to use a powerful Linux server with 100Gb NICs and FRR software.<br>
+      The only issue is FRR doesn't support MLAG which is a critical protocol for configuring redundancy.<br>
+      https://en.wikipedia.org/wiki/FRRouting<br>
+      https://github.com/FRRouting/frr<br>
+      https://frrouting.org/<br>
+      https://docs.frrouting.org/en/stable-9.0/<br>
+  Switches:<br>
+    Edgecore<br>
+      https://www.edge-core.com/productsList.php?cls=291&cls2=327<br>
+    100Gb Switches<br>
+      https://www.edge-core.com/productsList.php?cls=1&cls2=5<br>
+    AS7816-64X: 64 ports 100G QSFP28<br>
+      https://www.edge-core.com/productsInfo.php?cls=1&cls2=5&cls3=166&id=309<br>
+    AS7726-32X: 32 ports 100G QSFP28, 2 x 10G SFP<br>
+      https://www.edge-core.com/productsInfo.php?cls=&cls2=&cls3=15&id=545<br>
+    Edgecore AS5912-54X: 48 ports 10G + 6 ports 100G<br>
+      https://www.edge-core.com/productsInfo.php?cls=291&cls2=327&cls3=328&id=264<br>
+  Fiber NICs:<br>
+    10Gb SFP+ PCI-E Network Card NIC, with Broadcom BCM57810S Chip, Dual SFP+ Port, PCI Express X8<br>
+      https://www.amazon.com/Ethernet-Broadcom-BCM57810S-Controller-Interface/dp/B06X9T683K?th=1<br>
+    100GbE Intel Ethernet Network Adapter E810<br>
+      https://www.intel.com/content/www/us/en/products/details/ethernet/800-network-adapters/e810-network-adapters/products.html<br>
+      https://www.intel.com/content/www/us/en/content-details/787658/deliver-high-performance-networking-on-ethernet.html<br>
+Baremetal Servers:<br>
+  SuperStorage SSG-136R-NEL32JBF:<br>
+  https://www.supermicro.com/en/products/system/1U/136/SSG-136R-NEL32JBF.cfm<br>
+    32 Hot-swap NVMe, 9.5mm EDSFF Long SSDs<br>
+    https://www.supermicro.com/en/products/nvme<br>
+  Fujisu RX2540M7:<br>
+  https://www.fujitsu.com/global/products/computing/servers/primergy/rack/rx2540m7/index.html<br>
+    2RU, dual-socket server with<br>
+    up to 60 Xeon cores per CPU,<br>
+    up to 8TB of DDR5 memory,<br>
+    PCIe gen 5 connectivity,<br>
+    up to 6x Nvidia GPUs,<br>
+    up to 24x 2.5-inch NVMe storage drives,<br>
+    and optionally six more at the rear of the chassis.<br>
+Storage Devices: SSDs, HDDs<br>
+  I/O Bandwidth Doubles every 3 years - BUT latency lags behind "Memory Wall" "Von Neumann Bottleneck"<br>
+  PCIe 6.0  128 GB/s (PAM4)<br>
+  PCIe 5.0   64 GB/s (NRZ)<br>
+  PCIe 4.0   32 GB/s (2 GB/s/lane)<br>
+  PCIe 3.0   16 GB/s (1 GB/s/lane)<br>
+  1) E1.L (Long) NVMe SSDs<br>
+     https://www.intel.com/content/www/us/en/products/docs/memory-storage/solid-state-drives/edsff-brief.html<br>
+  2) Ultrastar DC HC670<br>
+     https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-hc670-hdd#ultrastar-dc-hc670-26-tb<br>
+     26TB, 7200 RPM, 261MB/s<br>
+Storage Software:<br>
+  1) Ceph:<br>
+     Supports object, block, and filesystem storage<br>
+     https://github.com/ceph/ceph<br>
+     https://ceph.com/<br>
+     https://github.com/ceph/ceph-csi<br>
+  2) Linstor: high performance block storage<br>
+     https://github.com/piraeusdatastore/linstor-csi<br>
+     https://linbit.com/linstor/<br>
+  3) OpenEBS: aka., Maystor, based on SPDK<br>
+     Perfect for a database farm in Kubernetes.<br>
+     https://spdk.io/<br>
+     https://github.com/openebs/cstor-csi<br>
+     https://github.com/openebs/mayastor<br>
+     https://openebs.io/docs/concepts/mayastor<br>
+     https://mayastor.gitbook.io/introduction/<br>
+     https://percona.community/blog/2020/10/23/mayastor-lightning-fast-storage-for-kubernetes/<br>
+     https://blocksandfiles.com/2021/03/08/intel-says-mayastor-is-fastest-open-source-storage/<br>
+  4) RAMCloud: great for streaming applications; very specialized; trying to get it to work with Kubernetes<br>
+     https://github.com/PlatformLab/RAMCloud<br>
+     https://ramcloud.atlassian.net/wiki/spaces/RAM/overview<br>
+     https://ramcloud.atlassian.net/wiki/spaces/RAM/pages/6848537/Deciding+Whether+to+Use+RAMCloud<br>
+     https://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud-tocs.pdf<br>
+     To achieve low latency, RAMCloud stores all data in DRAM at all times.<br>
 
 ### Other System Design Resources
-*) ByteByteCode:
-   https://www.youtube.com/@ByteByteGo/videos
-   Data Replication: A Key Component for Building Large-Scale Distributed Systems
-   https://blog.bytebytego.com/p/data-replication-a-key-component
-   The Most Beloved Burger for Developers
-   https://www.youtube.com/watch?v=7swoLEqABhQ
-   10+ Key Memory & Storage Systems: Crash Course System Design #5
-   https://www.youtube.com/watch?v=lX4CrbXMsNQ
-   10 Key Data Structures We Use Every Day
-   https://www.youtube.com/watch?v=ouipSd_5ivQ
-   Top 7 Most-Used Distributed System Patterns
-   https://www.youtube.com/watch?v=nH4qjmP2KEE
-   Latency Numbers Programmer Should Know
-   https://www.youtube.com/watch?v=FqR5vESuKe0
-   What Are Microservices Really All About? (And When Not To Use It)
-   https://www.youtube.com/watch?v=lTAcCNbJ7KE
-   Kubernetes Explained in 6 Minutes
-   https://www.youtube.com/watch?v=TlHvYWVUZyc
-   CI/CD In 5 Minutes
-   https://www.youtube.com/watch?v=42UP1fxi2SY
-   8 Key Data Structures That Power Modern Databases
-   https://www.youtube.com/watch?v=W_v05d_2RTo
+*) [ByteByteCode:](https://www.youtube.com/@ByteByteGo/videos)<br>
+   This Youtube channel is a great example of implementing "[Efficient Communication](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#design-principles)"
+   [Data Replication: A Key Component for Building Large-Scale Distributed Systems](https://blog.bytebytego.com/p/data-replication-a-key-component)
+   [The Most Beloved Burger for Developers](https://www.youtube.com/watch?v=7swoLEqABhQ)<br>
+   [10+ Key Memory & Storage Systems: Crash Course System Design #5](https://www.youtube.com/watch?v=lX4CrbXMsNQ)<br>
+   [10 Key Data Structures We Use Every Day](https://www.youtube.com/watch?v=ouipSd_5ivQ)<br>
+   [Top 7 Most-Used Distributed System Patterns](https://www.youtube.com/watch?v=nH4qjmP2KEE)<br>
+   [Latency Numbers Programmer Should Know](https://www.youtube.com/watch?v=FqR5vESuKe0)<br>
+   [What Are Microservices Really All About? (And When Not To Use It)](https://www.youtube.com/watch?v=lTAcCNbJ7KE)<br>
+   [Kubernetes Explained in 6 Minutes](https://www.youtube.com/watch?v=TlHvYWVUZyc)<br>
+   [CI/CD In 5 Minutes](https://www.youtube.com/watch?v=42UP1fxi2SY)<br>
+   [8 Key Data Structures That Power Modern Databases](https://www.youtube.com/watch?v=W_v05d_2RTo)<br>
 
-*) Be A Better Dev:
-   https://www.youtube.com/@BeABetterDev/videos
-   Intro to AWS - The Most Important Services To Learn
-   https://www.youtube.com/watch?v=FDEpdNdFglI
-   Real Life AWS Project Architectures
-   https://www.youtube.com/watch?v=_W1xlhDsiAE
-   Introduction to AWS | A Complete Beginner Roadmap
-   https://www.youtube.com/watch?v=lTyqzyk86f8
+*) [Be A Better Dev:](https://www.youtube.com/@BeABetterDev/videos)<br>
+   This Youtube Channel has several videos on AWS and are well made.<br>
+   [Intro to AWS - The Most Important Services To Learn](https://www.youtube.com/watch?v=FDEpdNdFglI)<br>
+   [Real Life AWS Project Architectures](https://www.youtube.com/watch?v=_W1xlhDsiAE)<br>
+   [Introduction to AWS | A Complete Beginner Roadmap](https://www.youtube.com/watch?v=lTyqzyk86f8)<br>
+   
+   
    
 
 
