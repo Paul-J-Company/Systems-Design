@@ -26,7 +26,7 @@ These ***System Properties*** align with the high level business goal of ***"sat
 
 In order to achieve the above ***System Properties*** you have to:<br>
 heir the ***"best people"***, applying the ***"best practices"***, using the ***"best technologies"***<br>
-for each system property, and at each layer of your stack (I call this ***"Full Stack"*** implementation).<br>
+for each system property, and at each layer of your stack (I call this a ***"Full Stack"*** endeaver).<br>
 
 This is a daunting task because there are so many choices available and so many different ways<br>
 your system will behave depending on the choices you make for each property at each layer.<br>
