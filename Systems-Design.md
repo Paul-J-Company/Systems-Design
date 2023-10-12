@@ -214,6 +214,9 @@ Starting from a blank slate is different than inheriting an existing system infr
 ### General Abstractions:
 An [Abstraction](https://en.wikipedia.org/wiki/Abstraction) is hiding complexity and/or [hiding information](https://en.wikipedia.org/wiki/Information_hiding).<br>
 [Abstraction in Computer Science](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) is a simple interface that hides the complexity behind it.<br>
+Another view on abstraction is the more abstract something is, the more general/implicit, and/or less specific/explicit/detailed it is.<br>
+In a broader sense, Abstraction [simplifies](https://en.wikipedia.org/wiki/Simplicity) things.<br>
+But remember, simple does not necessarily imply easy.<br>
 An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) includes the following concepts:<br>
 &ensp;&ensp;[Interface:](https://en.wikipedia.org/wiki/Interface_(computing)) See: ABI, API, HAL<br>
 &ensp;&ensp;[Encapsulation:](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))<br>
