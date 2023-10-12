@@ -262,6 +262,7 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[Controlled Replication Under Scalable Hashing (CRUSH):](https://ceph.com/assets/pdfs/weil-crush-sc06.pdf)<br>
    Compute Abstractions:<br>
    &ensp;&ensp;[Cluster:](https://en.wikipedia.org/wiki/Computer_cluster)<br>
+   &ensp;&ensp;[Cloud Computing](https://en.wikipedia.org/wiki/Cloud_computing)<br>
 2) Local-Remote Abstraction:<br>
    **Appears and behaves like a local resource, but is actually a remote resource.**<br>
    Storage Abstractions:<br>
@@ -281,6 +282,8 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;abstraction because without it, information has no meaning and does not persist.<br>
    &ensp;&ensp;You can assign any meaning you want to a collection of bits, but we use [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) to assign meaning.<br>
    &ensp;&ensp;The reason for this is very philosophical and deep, and rooted in [Information Theory](https://en.wikipedia.org/wiki/Information_theory) and [Communication Theory](https://en.wikipedia.org/wiki/Communication_theory).<br>
+   &ensp;&ensp;See: "[Theory and Concepts that will make you a better Systems Designer]()"<br>
+   <br><br.
    &ensp;&ensp;If you're interested in deep diving, start by reading [Claude Shannon's](https://en.wikipedia.org/wiki/Claude_Shannon) seminal 1948 paper "[A Mathematical Theory of Communication](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)".<br>
    &ensp;&ensp;Follow that up with "[Computing Machinery and Intelligence](https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence)" by [Alan Turning](https://en.wikipedia.org/wiki/Alan_Turing).<br>
    &ensp;&ensp;Follow that up with "[Church's Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus)/[The λ-Calculus and Type Theory](https://plato.stanford.edu/entries/church/supplementD.html)" and the "[Chruch Turing Thesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis)" by [Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church)<br>
