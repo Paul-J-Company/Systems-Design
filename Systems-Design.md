@@ -284,11 +284,13 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;Follow that up with "[Transmission of Information](https://monoskop.org/images/a/a6/Hartley_Ralph_VL_1928_Transmission_of_Information.pdf)" by [Ralph Hartley](https://en.wikipedia.org/wiki/Ralph_Hartley)<br>
    &ensp;&ensp;Information Theory and Communication Theory is a rich field of study and worth the deep dive.<br>
    System Level Abstractions:<br>
+   &ensp;&ensp;Bottom line: a computer system is nothing more than a series of abstractions layered on top of each other!<br>
+   &ensp;&ensp;[Operating System (OS) Abstractions:](https://en.wikipedia.org/wiki/Operating_system)<br>
    &ensp;&ensp;[Virtual Reality (VR)](https://en.wikipedia.org/wiki/Virtual_reality)<br>
    &ensp;&ensp;[Augmented Reality (AR)](https://en.wikipedia.org/wiki/Augmented_reality)<br>
    &ensp;&ensp;[Mixed Reality (MR)](https://en.wikipedia.org/wiki/Mixed_reality)<br>
    Network Abstractions:<br>
-   &ensp;&ensp;OS Implements:<br>
+   &ensp;&ensp;OS Abstraction Implements:<br>
    &ensp;&ensp;[Virtual Routing and Forwarding: (VRF)](https://en.wikipedia.org/wiki/Virtual_routing_and_forwarding)<br>
    &ensp;&ensp;[Virtual LAN (VLAN):](https://en.wikipedia.org/wiki/VLAN)<br>
    &ensp;&ensp;[Virtual Private Network (VPN):](https://en.wikipedia.org/wiki/Virtual_private_network) aka., Tunnel<br>
@@ -296,12 +298,12 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[TCP/IP Stack:](https://en.wikipedia.org/wiki/Internet_protocol_suite)<br>
    &ensp;&ensp;[OSI Model:](https://en.wikipedia.org/wiki/OSI_model)<br>
    Storage Abstractions:<br>
-   &ensp;&ensp;OS Implements:<br>
+   &ensp;&ensp;OS Abstraction Implements:<br>
    &ensp;&ensp;[Virtual Memory:](https://en.wikipedia.org/wiki/Virtual_memory)<br>
    &ensp;&ensp;[Filesystem:](https://en.wikipedia.org/wiki/File_system)<br>
    &ensp;&ensp;[Cache:](https://en.wikipedia.org/wiki/Cache_(computing))<br>
    Compute Abstractions:<br>
-   &ensp;&ensp;OS Implements:<br>
+   &ensp;&ensp;OS Abstraction Implements:<br>
    &ensp;&ensp;[Virtual Machines (VMs):](https://en.wikipedia.org/wiki/Virtual_machine)<br>
    &ensp;&ensp;&ensp;&ensp;[Type-1 Hypervisor:](https://en.wikipedia.org/wiki/Hypervisor#Classification) aka , VMM<br>
    &ensp;&ensp;&ensp;&ensp;[Type-2 Hypervisor:](https://en.wikipedia.org/wiki/Hypervisor#Classification)<br>
