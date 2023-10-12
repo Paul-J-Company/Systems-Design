@@ -103,6 +103,7 @@ Starting from a blank slate is different than inheriting an existing system infr
 + What is your Network Design?
   - Where are your High-Level Network Architecture/Design Diagrams?
   - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, Redfish, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; Failover, Redundancy
+  - What are the results of your Network capacity planning?
   - What Network Tools do you use?
     - RANCID, Netcat, Netbox, iperf
 + What is your Storage/Data Design?
@@ -112,11 +113,13 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Block Storage, Filesystem Storage, Object Storage
   - CePH, BigTable, DynamoDB
   - How do you [snapshot](https://en.wikipedia.org/wiki/Snapshot_(computer_storage))/[replicate](https://en.wikipedia.org/wiki/Replication_(computing))/[migrate](https://en.wikipedia.org/wiki/Data_migration)/[backup](https://en.wikipedia.org/wiki/Backup) large amounts of data?
+  - What are the results of your Storage capacity planning?
   - What Data Tools do you use?
     - DataDog, Splunk, Greylog
 + What is your Compute Design?
   - Where are your High-level Compute Architecture/Design Diagrams?
   - AWS EC2 VMs, OnPrem Servers/VMs/Containers
+  - What are the results of your Compute capacity planning?
 + What Infrastructure Provisioning Tools do you use?
   - Terraform, Ansible, Nomad, Kubernetes?
 + What Programming Languages do you use?
@@ -163,6 +166,14 @@ Starting from a blank slate is different than inheriting an existing system infr
 2) Design is about making tradeoffs and compromises at all levels of your System.<br>
    e.g., Security vs. Convenience, Capex vs. Opex, etc.<br>
    Design is a Full Stack endeavor.<br>
+   Identify all the trade-offs, bottlenecks and single points of failure.<br>
+   Have a broad knowledge of alternative technologies.<br>
+   Ask many counter questions:<br>
+   &ensp;&ensp;How many daily users?<br>
+   &ensp;&ensp;What are the edge cases?<br>
+   Get feedback from your stakeholders - Are these tradeoffs acceptable?<br>
+   Don't forget capacity planning.<br>
+   Validate your design.<br>
    Great design includes great documentation.<br>
    [Teaching the art of great documentation](https://developers.googleblog.com/2020/07/teaching-art-of-great-documentation.html)<br>
    [The eight rules of good documentation](https://www.oreilly.com/content/the-eight-rules-of-good-documentation/)<br>
