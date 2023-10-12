@@ -900,7 +900,7 @@ Aquire and Configure all non-hardware Internet Related Resources to get you up a
 &ensp;&ensp;This short list includes:<br>
 &ensp;&ensp;aquiring an ASN, CIDR Blocks, establishing BGP Peering, configure BGP Anycast, create and implement WAN design<br>
 &ensp;&ensp;Again, the details of doing even this short list took me 30+ years to perfect.<br>
-&ensp;&ensp;Network Engineering is a complete field on to itself.<br>
+&ensp;&ensp;Network Engineering is a complete field of study on to itself.<br>
 Aquire ASN from ARIN:<br>
 &ensp;&ensp;All resource requests require an ARIN Online account linked to either an Admin or Tech Point of Contact (POC) record<br>
 &ensp;&ensp;with the authority to request resources for a valid Organization Identifier (Org ID).<br>
