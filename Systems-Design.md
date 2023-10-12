@@ -163,7 +163,17 @@ Starting from a blank slate is different than inheriting an existing system infr
    Practice!, Practice!, Practice!<br>
    **There's no substitute for doing!**<br>
    **Book learning will only get you so far.**<br>
-2) Design is about making tradeoffs and compromises at all levels of your System.<br>
+2) Efficient Communication:<br>
+   ABC = Accurate, Brief and Clear<br>
+   CCC = Correct, Concise, Clear<br>
+   Rule #1: Know your audience!<br>
+   Always stay calm and rational.<br>
+   You want a good signal-to-noise ration (SNR).<br>
+   Signal is what you want.<br>
+   Noise is what you don't want.<br>
+   Always be kind!<br>
+   Being a good person is more important than any technical skill you may have or aquire.<br>
+3) Design is about making tradeoffs and compromises at all levels of your System.<br>
    e.g., Security vs. Convenience, Capex vs. Opex, etc.<br>
    Design is a Full Stack endeavor.<br>
    Identify all the trade-offs, bottlenecks and single points of failure.<br>
@@ -187,25 +197,17 @@ Starting from a blank slate is different than inheriting an existing system infr
    Pays back in the long run.<br>
 4) Define Clear Objectives:<br>
 5) Define How you Measure Success:<br>
-6) Efficient Communication:<br>
-   ABC = Accurate, Brief and Clear<br>
-   CCC = Correct, Concise, Clear<br>
-   Rule #1: Know your audience!<br>
-   Always stay calm and rational.<br>
-   You want a good signal-to-noise ration (SNR).<br>
-   Signal is what you want.<br>
-   Noise is what you don't want.<br>
-8) [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
-9) [Keep it Simple Stupid: (KISS)](https://en.wikipedia.org/wiki/KISS_principle)<br>
+6) [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
+7) [Keep it Simple Stupid: (KISS)](https://en.wikipedia.org/wiki/KISS_principle)<br>
    Simple is the opposite of complex.<br>
    Complexity is the enemy of clarity!<br>
    Simple does not always imply easy!<br>
-10) [Separation of Concerns: (SoP)](https://en.wikipedia.org/wiki/Separation_of_concerns)<br>
+ 8) [Separation of Concerns: (SoP)](https://en.wikipedia.org/wiki/Separation_of_concerns)<br>
    [Separation of Content and Presentation](https://en.wikipedia.org/wiki/Separation_of_content_and_presentation)<br>
-11) [Single Responsibility Principle: (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle)<br>
-12) [Principle of Least Privilege:](https://en.wikipedia.org/wiki/Principle_of_least_privilege) aka., (PoLP), Principle of Least Authority (PoLA)<br>
-13) [Principle of Compositionality:](https://en.wikipedia.org/wiki/Principle_of_compositionality)<br>
-14) Abstraction:<br>
+ 9) [Single Responsibility Principle: (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle)<br>
+10) [Principle of Least Privilege:](https://en.wikipedia.org/wiki/Principle_of_least_privilege) aka., (PoLP), Principle of Least Authority (PoLA)<br>
+11) [Principle of Compositionality:](https://en.wikipedia.org/wiki/Principle_of_compositionality)<br>
+12) Abstraction:<br>
     See: "[General Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#general-abstractions)"<br>
     See: "[Computer Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#computer-abstractions)"<br>
 
@@ -563,16 +565,43 @@ High Availability (HA):<br>
 &ensp;&ensp;&ensp;&ensp;to verify the hot-standby device is working properly.<br>
 
 ### IT Industry Definitions/Buzzwords:
+Buzzwords are one thing about the IT Industry I don't care for.<br>
+Buzzwords are typically ambiguous and violate the Efficient Communications rule.<br>
+IT Systems are complicated enough without having to add to the confusion with buzzwords.<br>
+But as a rational person, you have to deal with reality, and sadly, buzzwords are a reality of today's modern IT Industry.<br>
+Here is my attempt to apply Efficient Communication (filter the signal from the noise) to IT buzzwords.<br>
+[Wikipedia]() and Google]() are good sources for looking up these buzzwords.<br>
 What is a Data Center?<br>
-&ensp;&ensp;A Data Center is a physical building located around the world that houses your Platforms, Systems, Workloads.<br>
+&ensp;&ensp;A [Data Center](https://www.youtube.com/watch?v=qUmLnSEVVDw) is a physical building located around the world that houses your Platforms, Systems, Workloads.<br>
 &ensp;&ensp;There are currently [four data center tiers](https://phoenixnap.com/blog/data-center-tiers-classification), [ranked by performance and uptime](https://www.impactmybiz.com/blog/data-center-tiers-explained/<).<br>
+&ensp;&ensp;[Facebook's](https://www.youtube.com/watch?v=hkT0QKDmCiY) largest data center houses more than 400,000 computer servers.<br>
+&ensp;&ensp;[Google Data Centers](https://www.google.com/about/datacenters/) information.<br>
+&ensp;&ensp;[How does Google design its data centers?](https://www.youtube.com/watch?v=9IZ4qPAL-vA)<br>
+&ensp;&ensp;[Google Cloud Infrastructure](https://cloud.google.com/infrastructure)<br>
+&ensp;&ensp;[AWS Cloud Infrastructure](https://www.youtube.com/watch?v=q6WlzHLxNKI)<br>
+&ensp;&ensp;"Normal" deployed power density ranges from 5-6kW per rack,<br>
+&ensp;&ensp;anything above that could be considered high density, up to around 30kW per rack.<br>
+&ensp;&ensp;Some data centers exceed this, even achieving ultrahigh density of up to 50-60kW per rack.<br>
+&ensp;&ensp;When it comes to data centers, more power in a smaller footprint equals more efficiency.<br>
+&ensp;&ensp;In 2020, US data centers are expected to consume 73 billion kilowatt-hours of energy, according to one energy-usage report.<br>
+&ensp;&ensp;As if that wasn't bad enough, each kilowatt-hour of energy requires two gallons of water to cool it.<br>
+&ensp;&ensp;So for 2020 alone, that equates to some 220,000 Olympic-size swimming pools of water.<br>
+&ensp;&ensp;[2023 Global Data Center Trends](https://www.cbre.com/insights/reports/global-data-center-trends-2023): Northern Virginia remains the world's largest data center market with 2,132 megawatts (MW) of total inventory.<br>
 What is Infrastructure as Code (IaC)?<br>
 &ensp;&ensp;IAC is a DevOps practice of managing infrastructure in a declarative manner using code,<br>
 &ensp;&ensp;rather than manually configuring it through a graphical user interface.<br>
 &ensp;&ensp;Declarative: The process of declaring your desired result and the system "learns" how to achieve it.<br>
 &ensp;&ensp;Imperative: The process of explaining every step to accomplish a desired result.<br>
+What is Software Defined X (SD-X)?<br>
+&ensp;&ensp;The term software defined is related to IaC in the sense that it has to do with using **code** to manage something verses using a **GUI/Dashboard**.<br>
+&ensp;&ensp;The difference between IaC and SD-X is that IaC is a more general term and SD-X is usually limited to networking devices, but that's a convention.<br>
+&ensp;&ensp;Some SD terms include: SD-WAN, SD-LAN, SD-WLAN, SD-Security, etc. uggggh!!!!<br>
+What is "as a Service" (aaS)?<br>
+&ensp;&ensp;[aaS](https://en.wikipedia.org/wiki/As_a_service) is a postfix, attached to any service you can think of that is accessed via the Internet typically using a REST API over http/https.<br>
+&ensp;&ensp;The term XaaS can mean "anything as a service".<br>
+&ensp;&ensp;[Some aaS terms include:](https://www.auvik.com/franklyit/blog/aas-as-a-service-list/) SaaS, PaaS, FaaS, CaaS, ..., rediculous! Did I mention I hate buzzwords!
 What is Platform as a Service (PaaS)?<br>
-&ensp;&ensp;PaaS is an abstraction over infrastructure that runs applications and hosts stacks.<br>
+&ensp;&ensp;[PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service) is an abstraction over infrastructure that runs applications and hosts stacks.<br>
 &ensp;&ensp;PaaS supports custom workflows to enable teams to function efficiently.<br>
 &ensp;&ensp;PaaS enables the introduction of new ways to build, run, and deploy apps easily.<br>
 &ensp;&ensp;PaaS allows underlying technology to be swapped out with no impact on teams.<br>
