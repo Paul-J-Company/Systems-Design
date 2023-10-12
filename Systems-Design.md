@@ -161,8 +161,8 @@ Starting from a blank slate is different than inheriting an existing system infr
    Practice does NOT make Perfect!<br>
    Perfect Practice makes Perfect!<br>
    Practice!, Practice!, Practice!<br>
-   There's no substitute for doing!<br>
-   Book learning will only get you so far.<br>
+   **There's no substitute for doing!**<br>
+   **Book learning will only get you so far.**<br>
 2) Design is about making tradeoffs and compromises at all levels of your System.<br>
    e.g., Security vs. Convenience, Capex vs. Opex, etc.<br>
    Design is a Full Stack endeavor.<br>
