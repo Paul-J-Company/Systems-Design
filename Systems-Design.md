@@ -444,6 +444,10 @@ Database Models/Types:<br>
 ### System Property Definitions:
 Security:<br>
 &ensp;&ensp;Security is a Full Stack endeavor.<br>
+&ensp;&ensp;Security is a complete field of study on to itself.<br>
+&ensp;&ensp;[Visualizing Cybersecurity](https://media.licdn.com/dms/image/C4E12AQEAjtq7T89h9A/article-cover_image-shrink_600_2000/0/1619282865626?e=1702512000&v=beta&t=yVJFR4c5VswXWv1qn-oWX6GYKfHYD8hgFgy1eSlEgU0)<br>
+&ensp;&ensp;[Cybersecurity Domain Map ver 3.0](https://www.linkedin.com/pulse/cybersecurity-domain-map-ver-30-henry-jiang)<br>
+&ensp;&ensp;[Cybersecurity Domain Map ver 3.1](https://media.licdn.com/dms/image/C4E12AQFEgFdbEtEl3Q/article-inline_image-shrink_1500_2232/0/1619282900607?e=1702512000&v=beta&t=y_bX1iXK-yLdgRHAgLp6UKHdl1IlqIna1RW0TN5LPF4)<br>
 &ensp;&ensp;Security is the elimination or containment of threats to resources you care about.<br>
 &ensp;&ensp;&ensp;&ensp;What constitutes a threat?<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Any thing or anyone who wants to damage, destroy, steal, or inhibit any resource you care about.<br>
@@ -876,7 +880,7 @@ Introduction:<br>
 &ensp;&ensp;I'm skipping Data Center topics like Generators, UPSes, Power Design, HVAC Cooling Design, Security,<br>
 &ensp;&ensp;Peering Relationships and Negotiations, Cost Estimation, etc. because that really requires another full document to explain.<br>
 &ensp;&ensp;And, I'm not a Data Center Design Engineer, eventhough I've now spent over 30+ years in Data Centers.<br>
-&ensp;&ensp;Data Center Design Engineering is a complete field on to itself.<br>
+&ensp;&ensp;Data Center Design Engineering is a complete field of study on to itself.<br>
 Pick at least 3 Data Centers: (for redundancy)<br>
 &ensp;&ensp;Purchase equipment (routers, switches, servers, loadbalancers, Firewalls, etc.).<br>
 &ensp;&ensp;Ship Equipment to Data Centers.<br>
