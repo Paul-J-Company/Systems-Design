@@ -218,7 +218,7 @@ Another view on abstraction is the more abstract something is, the more general/
 In a broader sense, Abstraction [simplifies](https://en.wikipedia.org/wiki/Simplicity) things.<br>
 But remember, simple does not necessarily imply easy.<br>
 An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) includes the following concepts:<br>
-&ensp;&ensp;[Interface:](https://en.wikipedia.org/wiki/Interface_(computing)) See: ABI, API, HAL<br>
+&ensp;&ensp;[Interface:](https://en.wikipedia.org/wiki/Interface_(computing)) See: ABI, API, HAL; A good rule of thumb is if you see the word Interface, you're probably talking about an abstraction.<br>
 &ensp;&ensp;[Encapsulation:](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))<br>
 &ensp;&ensp;[Modularity:](https://en.wikipedia.org/wiki/Modularity)<br>
 &ensp;&ensp;&ensp;&ensp;[Criteria for Modularization](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf)<br>
@@ -270,7 +270,9 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[Network File System (NFS):](https://en.wikipedia.org/wiki/Network_File_System)<br>
    &ensp;&ensp;[Samba](https://en.wikipedia.org/wiki/Samba)/[SMB/CIFS](https://en.wikipedia.org/wiki/Server_Message_Block):<br>
    Compute Abstractions:<br>
-   &ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br><br>
+   &ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
+   &ensp;&ensp;[RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)<br>
+   &ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC)<br><br>
 3) [Emulation](https://en.wikipedia.org/wiki/Emulator)/[Simulation](https://en.wikipedia.org/wiki/Computer_simulation)/[Virtualization](https://en.wikipedia.org/wiki/Virtualization) Abstraction:<br>
    **Appears and behaves like one thing, but is actually another.**<br>
    The Abstraction of [Information:](https://en.wikipedia.org/wiki/Information)<br>
@@ -310,6 +312,8 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[Virtual Memory:](https://en.wikipedia.org/wiki/Virtual_memory)<br>
    &ensp;&ensp;[Filesystem:](https://en.wikipedia.org/wiki/File_system)<br>
    &ensp;&ensp;[Cache:](https://en.wikipedia.org/wiki/Cache_(computing))<br>
+   &ensp;&ensp;[CNI](https://github.com/containernetworking/cni)<br>
+   &ensp;&ensp;[CSI](https://github.com/container-storage-interface/)<br>
    Compute Abstractions:<br>
    &ensp;&ensp;OS Abstraction Implements:<br>
    &ensp;&ensp;[Virtual Machines (VMs):](https://en.wikipedia.org/wiki/Virtual_machine)<br>
