@@ -219,13 +219,13 @@ In a broader sense, Abstraction [simplifies](https://en.wikipedia.org/wiki/Simpl
 But remember, simple does not necessarily imply easy.<br>
 An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) includes the following concepts:<br>
 &ensp;&ensp;[Interface:](https://en.wikipedia.org/wiki/Interface_(computing)) See: ABI, API, HAL; A good rule of thumb is if you see the word Interface, you're probably talking about an abstraction.<br>
-&ensp;&ensp;[Encapsulation:](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))<br>
+&ensp;&ensp;[Encapsulation:](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) See: [ACID](https://en.wikipedia.org/wiki/ACID)<br>
 &ensp;&ensp;[Modularity:](https://en.wikipedia.org/wiki/Modularity)<br>
 &ensp;&ensp;&ensp;&ensp;[Criteria for Modularization](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf)<br>
 &ensp;&ensp;&ensp;&ensp;[Modular Design](https://en.wikipedia.org/wiki/Modular_design)<br>
 &ensp;&ensp;[Markov Blanket:](https://en.wikipedia.org/wiki/Markov_blanket)<br>
 &ensp;&ensp;[Coupling:](https://en.wikipedia.org/wiki/Coupling_(computer_programming))<br>
-&ensp;&ensp;&ensp;&ensp;[Loose Coupling](https://en.wikipedia.org/wiki/Loose_coupling)<br>
+&ensp;&ensp;&ensp;&ensp;[Loose Coupling](https://en.wikipedia.org/wiki/Loose_coupling) increases availability through fault tolerance<br>
 &ensp;&ensp;[Cohesion:](https://en.wikipedia.org/wiki/Cohesion_(computer_science))<br>
 &ensp;&ensp;&ensp;&ensp;[Cohesion Metrics](https://www.aivosto.com/project/help/pm-oo-cohesion.html)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A cohesive class performs one function.<br>
@@ -746,6 +746,8 @@ What is a Microservice Application?<br>
 &ensp;&ensp;In general, a microservice is an architectural pattern that arranges an application<br>
 &ensp;&ensp;as a collection of loosely-coupled, fine-grained services, communicating through lightweight protocols.<br>
 &ensp;&ensp;The key attribute is microservices need to be independent of one another (loosely-coupled).<br>
+&ensp;&ensp;Loosely Coupled means you can change things without affecting anything outside itself.<br>
+&ensp;&ensp;Loose Coupling can be thought of as a principle to increase availability through fault tolerance.<br>
 &ensp;&ensp;Microservices run on multiple computers and communicate with each other via networked connections.<br>
 &ensp;&ensp;Transactions add complexity to running microservice architectures, compared to a monolith.<br>
 &ensp;&ensp;In workloads that cannot run concurrently across the network, monoliths may deliver better performance.<br>
