@@ -58,7 +58,7 @@ Starting from a blank slate is different than inheriting an existing system infr
 + Definitions:
   - Infrastructure: The physical resources that support your environment, includes: Data Centers, Platforms, Systems, Workloads, People.
   - Data Center: A Physical Building located around the world that houses your Platforms, Systems, Workloads.
-  - Platform: The logical term that supports your environment: OnPrem, Cloud, MultiCloud or Hybrid?
+  - Platform: The logical term that supports your environment: OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid Cloud; Private Cloud, Public Cloud
   - System: the collection of components (hardware,software,people) that interact together to implement your Platform.
   - Workload: the main application your customers interact with (aka., your "Product and/or Service").
   - People: all your employess across all of your departments: Platform Engineers/SREs/DevOps/DevSecOps/Programmers; Sales, Marketing
@@ -84,7 +84,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - In person Meetings, Email, Mailing Lists, Chat, Slack, Discord, Mastadon, IRC; Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
   - Every Week, Daily (15 min scrum), every Month, Never?
 + What Environment/Platform does your workload run?
-  - OnPrem, Cloud, MultiCloud or Hybrid?
+  - OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid Cloud; Private Cloud, Public Cloud
   - Bare Metal, VMs, Containers, Mixture of All of them?
   - Cloud Agnostic/Cloud Native?
   - Self-Hosted/Fully Managed?
