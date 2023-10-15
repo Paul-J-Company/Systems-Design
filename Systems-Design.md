@@ -596,9 +596,9 @@ What is a Data Center?<br>
 &ensp;&ensp;anything above that could be considered high density, up to around 30kW per rack.<br>
 &ensp;&ensp;Some data centers exceed this, even achieving ultrahigh density of up to 50-60kW per rack.<br>
 &ensp;&ensp;When it comes to data centers, more power in a smaller footprint equals more efficiency.<br>
-&ensp;&ensp;In 2020, US data centers are expected to consume 73 billion kilowatt-hours of energy, according to one energy-usage report.<br>
+&ensp;&ensp;In 2023, US data centers are expected to consume 100 billion kilowatt-hours of energy (100 GWh), according to one energy-usage report.<br>
 &ensp;&ensp;As if that wasn't bad enough, each kilowatt-hour of energy requires two gallons of water to cool it.<br>
-&ensp;&ensp;So for 2020 alone, that equates to some 220,000 Olympic-size swimming pools of water.<br>
+&ensp;&ensp;So for 2023 alone, that equates to some 250,000 Olympic-size swimming pools of water.<br>
 &ensp;&ensp;[2023 Global Data Center Trends](https://www.cbre.com/insights/reports/global-data-center-trends-2023): Northern Virginia remains the world's largest data center market with 2,132 megawatts (MW) of total inventory.<br>
 What is Infrastructure as Code (IaC)?<br>
 &ensp;&ensp;IAC is a DevOps practice of managing infrastructure in a declarative manner using code,<br>
