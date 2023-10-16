@@ -1,6 +1,8 @@
 
 # Kubernetes
 
+**[Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*-GmCgKeebCe9AMjW.png)<br>**
+
 **When someone says: "I'm running Kubernetes?"**<br> 
 **What does that really mean?**<br> 
 The following is my attempt to answer that simple question,<br>
