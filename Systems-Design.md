@@ -465,6 +465,8 @@ Database Models/Types:<br>
  14) Cloud Databases:<br>
      https://en.wikipedia.org/wiki/Category:Cloud_storage<br>
      https://en.wikipedia.org/wiki/Category:Cloud_databases<br>
+ 15) Vector Databases:<br>
+     https://en.wikipedia.org/wiki/Vector_database
      
 ### System Property Definitions:
 Security:<br>
@@ -580,7 +582,11 @@ Buzzwords are typically ambiguous and violate the Efficient Communications rule.
 IT Systems are complicated enough without having to add to the confusion with buzzwords.<br>
 But as a rational person, you have to deal with reality, and sadly, buzzwords are a reality of today's modern IT Industry.<br>
 Here is my attempt to apply Efficient Communication (filter the signal from the noise) to IT buzzwords.<br>
-[Wikipedia]() and Google]() are good sources for looking up these buzzwords.<br>
+**A quick comment on the buzzwords Platform Engineering, DevOps, and Site Reliability Engineer (SRE):<br>**
+Don't sweat the details of these 3 buzzwords, they all really mean the same thing:<br>
+you have an infrastructure, people using that infrastructure (Ops, Developers, etc.)<br>
+and your job is to design, build and maintain the infrastructure and make the people using it happy.<br>
+[Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br>
 What is a Data Center?<br>
 &ensp;&ensp;A [Data Center](https://www.youtube.com/watch?v=qUmLnSEVVDw) is a physical building located around the world that houses your Platforms, Systems, Workloads.<br>
 &ensp;&ensp;There are currently [four data center tiers](https://phoenixnap.com/blog/data-center-tiers-classification), [ranked by performance and uptime](https://www.impactmybiz.com/blog/data-center-tiers-explained/<).<br>
