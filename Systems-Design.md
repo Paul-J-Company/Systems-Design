@@ -412,7 +412,7 @@ What is Curse of Dimensionality?<br>
 &ensp;&ensp;The amount of data needed often grows exponentially with the dimensionality.<br>
 &ensp;&ensp;In high dimensional data, all objects appear to be sparse and dissimilar in many ways,<br>
 &ensp;&ensp;which prevents common data organization strategies from being efficient.<br>
-What is a [Database[(https://en.wikipedia.org/wiki/Category:Databases)?<br>
+What is a [Database](https://en.wikipedia.org/wiki/Category:Databases)?<br>
 &ensp;&ensp;A [Database](https://en.wikipedia.org/wiki/Database) is an organized collection of data (also known as a data store)<br>
 &ensp;&ensp;stored and accessed electronically through the use of a [Database Management System (DBMS)](https://en.wikipedia.org/wiki/Database#Database_management_system).<br>
 What is a Polystore?<br>
