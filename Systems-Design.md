@@ -75,6 +75,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - How do they choose the best Network Design, Tools and Practices for your Workload?
   - How do they choose the best Compute Design, Tools and Practices for your Workload?
   - How do they choose the best Data Structures, Algorithms and Protocols for your Workload??
+  - How do they choose the best Standards for your Workload?? Do you standardize on implementation or semantics?<br>
   - How do they choose the best Security Design, Tools and Policies/Practices for your Workload?
   - How do they choose the best Observability/Telemetry/Monitoring/Logging/Tracing/Analytics Design, Tools and Practices for your Workload?
   - How do they choose the best Testing/Benchmarking Design, Tools and Practices for your Workload?
@@ -230,6 +231,15 @@ An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) includes
 &ensp;&ensp;&ensp;&ensp;[Cohesion Metrics](https://www.aivosto.com/project/help/pm-oo-cohesion.html)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A cohesive class performs one function.<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A non-cohesive class performs two or more **unrelated** functions.<br>
+&ensp;&ensp;[Unix Philosophy:](https://en.wikipedia.org/wiki/Unix_philosophy)<br>
+&ensp;&ensp;[Continuous:](https://en.wikipedia.org/wiki/Continuity)<br>
+&ensp;&ensp;[Discrete:](https://en.wikipedia.org/wiki/Discrete_mathematics)<br>
+&ensp;&ensp;[Isolation:](https://en.wikipedia.org/wiki/Isolation_lemma)<br>
+&ensp;&ensp;[Autonomy:](https://en.wikipedia.org/wiki/Learner_autonomy)<br>
+&ensp;&ensp;[Autonomic](https://en.wikipedia.org/wiki/Autonomic_computing)<br>
+&ensp;&ensp;[Independent:](https://en.wikipedia.org/wiki/Linear_independence)<br>
+&ensp;&ensp;[Disjoint](https://en.wikipedia.org/wiki/Disjoint_union) [[1]](https://en.wikipedia.org/wiki/Disjoint_sets) [[2]](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)<br>
+&ensp;&ensp;[Mutual Exclusivity](https://en.wikipedia.org/wiki/Mutual_exclusivity)<br>
 
 ### Computer Abstractions:
 Introduction:<br>
