@@ -424,7 +424,7 @@ Database Models/Types:<br>
 &ensp;&ensp;[Types of Databases](https://en.wikipedia.org/wiki/Category:Types_of_databases)<br>
 &ensp;&ensp;[Database Software Comarisons](https://en.wikipedia.org/wiki/Category:Database_software_comparisons)<br>
   1) Relational Databases:<br>
-     Examples: MySQL, Postgres
+     Examples: MySQL, Postgres<br>
      Best used for:<br> 
      [List of Relational Database Management Systems](https://en.wikipedia.org/wiki/List_of_relational_database_management_systems)<br>
      [Comparison of Relational Database Management Systems](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems)<br>
@@ -436,7 +436,7 @@ Database Models/Types:<br>
        The number of fields, content and size of the document<br>
        can differ from one document to another in the same collection.<br>
   3) Key-Value Stores:<br>
-     Examples: Redis, Memcached, etcd
+     Examples: Redis, Memcached, etcd<br>
      Best used for:<br>
      [Key-value Databases](https://en.wikipedia.org/wiki/Category:Key-value_databases)<br>
        See: "Simularities between Object stores and key-value stores:"<br>
@@ -456,7 +456,7 @@ Database Models/Types:<br>
        A special type of NoSQL database.<br>
   6) Graph Database:<br>
      Examples: neo4j<br>
-     Best used for: <br>
+     Best used for:<br>
      [Graph Databases](https://en.wikipedia.org/wiki/Category:Graph_databases)<br>
   7) In-Memory Databases:<br>
      Examples:<br>
