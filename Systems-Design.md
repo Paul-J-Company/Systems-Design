@@ -445,10 +445,10 @@ Database Models/Types:<br>
      Examples:<br>
      Best used for:<br>
      [Document-Oriented Database](https://en.wikipedia.org/wiki/Document-oriented_database)<br>
-       One of the main categories of NoSQL databases.
-       Document-oriented databases are inherently a subclass of the key-value store.
+       One of the main categories of NoSQL databases.<br>
+       Document-oriented databases are inherently a subclass of the key-value store.<br>
      [How to Choose the Right Document-Oriented NoSQL Database for Your Application](https://dev.to/kalashin1/how-to-choose-the-right-document-oriented-nosql-database-for-your-application-3hac)<br>
-     [Google Cloud Firestore vs MongoDB: Which Tool is Better for Your Next Project?[(https://www.projectpro.io/compare/google-cloud-firestore-vs-mongodb)<br>
+     [Google Cloud Firestore vs MongoDB: Which Tool is Better for Your Next Project?](https://www.projectpro.io/compare/google-cloud-firestore-vs-mongodb)<br>
   5) Wide Column Store:<br>
      Examples:<br>
      Best used for:<br>
