@@ -285,7 +285,7 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;You can assign any meaning you want to a collection of bits, but we use [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) to assign meaning.<br>
    &ensp;&ensp;The reason for this is very philosophical and deep, and rooted in [Information Theory](https://en.wikipedia.org/wiki/Information_theory) and [Communication Theory](https://en.wikipedia.org/wiki/Communication_theory).<br>
    &ensp;&ensp;See: "[Theory and Concepts that will make you a better Systems Designer]()"<br>
-   <br><br.
+   <br><br>
    &ensp;&ensp;If you're interested in deep diving, start by reading [Claude Shannon's](https://en.wikipedia.org/wiki/Claude_Shannon) seminal 1948 paper "[A Mathematical Theory of Communication](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)".<br>
    &ensp;&ensp;Follow that up with "[Computing Machinery and Intelligence](https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence)" by [Alan Turning](https://en.wikipedia.org/wiki/Alan_Turing).<br>
    &ensp;&ensp;Follow that up with "[Church's Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus)/[The λ-Calculus and Type Theory](https://plato.stanford.edu/entries/church/supplementD.html)" and the "[Chruch Turing Thesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis)" by [Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church)<br>
@@ -661,6 +661,7 @@ What is DORA?<br>
 &ensp;&ensp;[The Four Keys](https://github.com/dora-team/fourkeys)<br>
 &ensp;&ensp;[2021 Accelerate State of DevOps report addresses burnout, team performance](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report)<br>
 &ensp;&ensp;[Google Cloud DevOps Awards](https://cloud.google.com/awards/devops)<br>
+&ensp;&ensp;[https://devops.com/using-dora-metrics-to-measure-devops-success/](Using DORA Metrics to Measure DevOps Success)<br>
 What is GitOps?<br>
 &ensp;&ensp;GitOps is centered around using a version control system (such as Git, GitLab, Github)<br>
 &ensp;&ensp;to house all information, documentation, and code for a Kubernetes deployment,<br>
@@ -837,6 +838,9 @@ What is OpenTelemetry?<br>
 &ensp;&ensp;OpenTelemetry is natively supported by a number of vendors.<br>
 &ensp;&ensp;[List of Vendors that support OpenTelemetry:](https://opentelemetry.io/ecosystem/vendors/)<br>
 &ensp;&ensp;Cloud Observability, Grafana Labs, Jaeger, SigNoz, AppDynamics<br>
+What is Single Pain of Glass?<br>
+&ensp;&ensp;[Single pane of glass](https://www.mitel.com/features-benefits/single-pane-of-glass) is a term used throughout the IT and management fields relating to a management tool<br>
+&ensp;&ensp;that unifies data or interfaces across several different sources and presents them in a single view.<br>
 
 ### The Six Pillars of Platform Engineering:
 1) [Security:](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security/)<br>
