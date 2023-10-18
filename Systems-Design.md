@@ -466,17 +466,17 @@ Database Models/Types:<br>
   8) NewSQL Databases:<br>
      Examples:<br>
      Best used for:<br>
-     https://en.wikipedia.org/wiki/Category:NewSQL<br>
+     [NewSQL](https://en.wikipedia.org/wiki/Category:NewSQL)<br>
   9) Blockchain:<br>
      Examples:<br>
      Best used for:<br>
-     https://en.wikipedia.org/wiki/Blockchain-based_database<br>
+     [Blockchain-based Databases](https://en.wikipedia.org/wiki/Blockchain-based_database)<br>
  10) Distributed Filesystems: aka., Network File Systems<br>
      Examples: S3, CephFS, Lustre, NFS, etc.<br>
      Best used for:<br>
-     https://en.wikipedia.org/wiki/Category:Distributed_file_systems<br>
-     https://en.wikipedia.org/wiki/List_of_file_systems#Distributed_file_systems<br>
-     https://en.wikipedia.org/wiki/Clustered_file_system#Distributed_file_systems<br>
+     [Distributed File Systems](https://en.wikipedia.org/wiki/Category:Distributed_file_systems)<br>
+     [List of File Distributed Files Systems](https://en.wikipedia.org/wiki/List_of_file_systems#Distributed_file_systems)<br>
+     [Clustered File Systems](https://en.wikipedia.org/wiki/Clustered_file_system#Distributed_file_systems)<br>
        The difference between a distributed file system and a distributed data store<br>
        is that a distributed file system allows files to be accessed using the<br>
        same interfaces and semantics as local files.<br>
@@ -485,28 +485,29 @@ Database Models/Types:<br>
  11) Distributed Data Store:<br>
      Examples:<br>
      Best used for:<br>
-     https://en.wikipedia.org/wiki/Category:Distributed_data_storage<br>
-     https://en.wikipedia.org/wiki/Category:Distributed_data_stores<br>
-     https://en.wikipedia.org/wiki/Distributed_data_store<br>
+     [Distributed Data Storage](https://en.wikipedia.org/wiki/Category:Distributed_data_storage)<br>
+     [Distributed Data Stores](https://en.wikipedia.org/wiki/Category:Distributed_data_stores)<br>
+     [Distributed Data Store](https://en.wikipedia.org/wiki/Distributed_data_store)<br>
  12) Distribute Databases:<br>
      Examples:<br>
      Best used for:<br>
-     https://en.wikipedia.org/wiki/Distributed_database<br>
+     [Distributed Database](https://en.wikipedia.org/wiki/Distributed_database)<br>
  13) Distributed Cache:<br>
      Examples:<br>
      Best used for:<br>
-     https://en.wikipedia.org/wiki/Distributed_cache<br>
-     https://en.wikipedia.org/wiki/Distributed_hash_table<br>
+     [Distributed Cache](https://en.wikipedia.org/wiki/Distributed_cache)<br>
+     [Distributed hash Table](https://en.wikipedia.org/wiki/Distributed_hash_table)<br>
  14) Cloud Databases:<br>
      Examples:<br>
      Best used for:<br>
-     https://en.wikipedia.org/wiki/Category:Cloud_storage<br>
-     https://en.wikipedia.org/wiki/Category:Cloud_databases<br>
+     [Cloud Storage](https://en.wikipedia.org/wiki/Category:Cloud_storage)<br>
+     [Cloud Database](https://en.wikipedia.org/wiki/Category:Cloud_databases)<br>
  15) Vector Databases:<br>
      Examples:<br>
      Best used for: Machine Learning<br>
-     https://en.wikipedia.org/wiki/Vector_database
-     
+     [Vector Database](https://en.wikipedia.org/wiki/Vector_database)<br>
+XX) [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw)<br>
+
 ### System Property Definitions:
 Security:<br>
 &ensp;&ensp;Security is a Full Stack endeavor.<br>
