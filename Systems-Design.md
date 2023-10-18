@@ -424,58 +424,87 @@ Database Models/Types:<br>
 &ensp;&ensp;[Types of Databases](https://en.wikipedia.org/wiki/Category:Types_of_databases)<br>
 &ensp;&ensp;[Database Software Comarisons](https://en.wikipedia.org/wiki/Category:Database_software_comparisons)<br>
   1) Relational Databases:<br>
+     Examples: MySQL, Postgres
+     Best used for: <br>
      https://en.wikipedia.org/wiki/List_of_relational_database_management_systems<br>
      https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems<br>
-  2) NoSQL Databases:<br>
+  3) NoSQL Databases:<br>
+     Examples:
+     Best used for: <br>
      https://en.wikipedia.org/wiki/Category:NoSQL<br>
      Schemaless Documents:<br>
        The number of fields, content and size of the document<br>
        can differ from one document to another in the same collection.<br>
-  3) Key-Value Stores:<br>
+  4) Key-Value Stores:<br>
+     Examples: Redis, Memcached, etcd
+     Best used for: <br>
      https://en.wikipedia.org/wiki/Category:Key-value_databases<br>
        See: "Simularities between Object stores and key-value stores:"<br>
        See: "Differences between key-value stores and object stores:"<br>
-  4) Document-Oriented Databases:<br>
+  5) Document-Oriented Databases:<br>
+     Examples: <br>
+     Best used for: <br>
      https://en.wikipedia.org/wiki/Document-oriented_database<br>
        One of the main categories of NoSQL databases.<br>
        Document-oriented databases are inherently a subclass of the key-value store.<br>
      How to Choose the Right Document-Oriented NoSQL Database for Your Application<br>
      https://dev.to/kalashin1/how-to-choose-the-right-document-oriented-nosql-database-for-your-application-3hac<br>
-  5) Wide Column Store:<br>
+  6) Wide Column Store:<br>
+     Examples: <br>
+     Best used for: <br>
      https://en.wikipedia.org/wiki/Wide-column_store<br>
        A special type of NoSQL database.<br>
-  6) Graph Database:<br>
+  7) Graph Database:<br>
+     Examples: neo4j<br>
+     Best used for: <br>
      https://en.wikipedia.org/wiki/Category:Graph_databases<br>
-  7) In-Memory Databases:<br>
+  8) In-Memory Databases:<br>
+     Examples: <br>
+     Best used for: <br>
      https://en.wikipedia.org/wiki/In-memory_database<br>
      https://en.wikipedia.org/wiki/List_of_in-memory_databases<br>
-  8) NewSQL Databases:<br>
+  9) NewSQL Databases:<br>
+     Examples: <br>
+     Best used for: <br>
      https://en.wikipedia.org/wiki/Category:NewSQL<br>
-  9) Blockchain:<br>
+  10) Blockchain:<br>
+     Examples: <br>
+     Best used for: <br>
      https://en.wikipedia.org/wiki/Blockchain-based_database<br>
- 10) Distributed Filesystems: aka., Network File Systems<br>
+ 11) Distributed Filesystems: aka., Network File Systems<br>
+     Examples: S3, CephFS, Lustre, NFS, etc.<br>
+     Best used for: <br>
      https://en.wikipedia.org/wiki/Category:Distributed_file_systems<br>
      https://en.wikipedia.org/wiki/List_of_file_systems#Distributed_file_systems<br>
-       S3, CephFS, Lustre, NFS, etc.<br>
      https://en.wikipedia.org/wiki/Clustered_file_system#Distributed_file_systems<br>
        The difference between a distributed file system and a distributed data store<br>
        is that a distributed file system allows files to be accessed using the<br>
        same interfaces and semantics as local files.<br>
        Distributed data stores, by contrast, require using a different API<br>
        or library and have different semantics (most often those of a database).<br>
- 11) Distributed Data Store:<br>
+ 12) Distributed Data Store:<br>
+     Examples: <br>
+     Best used for: <br>
      https://en.wikipedia.org/wiki/Category:Distributed_data_storage<br>
      https://en.wikipedia.org/wiki/Category:Distributed_data_stores<br>
      https://en.wikipedia.org/wiki/Distributed_data_store<br>
- 12) Distribute Databases:<br>
+ 13) Distribute Databases:<br>
+     Examples: <br>
+     Best used for: <br>
      https://en.wikipedia.org/wiki/Distributed_database<br>
- 13) Distributed Cache:<br>
+ 14) Distributed Cache:<br>
+     Examples: <br>
+     Best used for: <br>
      https://en.wikipedia.org/wiki/Distributed_cache<br>
      https://en.wikipedia.org/wiki/Distributed_hash_table<br>
- 14) Cloud Databases:<br>
+ 15) Cloud Databases:<br>
+     Examples: <br>
+     Best used for: <br>
      https://en.wikipedia.org/wiki/Category:Cloud_storage<br>
      https://en.wikipedia.org/wiki/Category:Cloud_databases<br>
- 15) Vector Databases:<br>
+ 16) Vector Databases:<br>
+     Examples: <br>
+     Best used for: Machine Learning<br>
      https://en.wikipedia.org/wiki/Vector_database
      
 ### System Property Definitions:
