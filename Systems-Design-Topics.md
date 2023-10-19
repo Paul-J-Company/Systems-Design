@@ -210,9 +210,9 @@ What is Cloud Computing, OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid 
 &ensp;&ensp;[Private Cloud](https://en.wikipedia.org/wiki/Cloud_computing#Private_cloud) [[1](https://www.cloudflare.com/learning/cloud/what-is-a-private-cloud/)], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Public Cloud](https://en.wikipedia.org/wiki/Cloud_computing#Public_cloud) [[1](https://www.cloudflare.com/learning/cloud/what-is-a-public-cloud/)], [[2]()], [[3]()]<br>
 What is Bare Metal, VMs, Containers?<br>
-&ensp;&ensp;[Bare Metal]() [[1]()], [[2]()], [[3]()]<br>
-&ensp;&ensp;[VMs]() [[1]()], [[2]()], [[3]()]<br>
-&ensp;&ensp;[Containers]() [[1]()], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Bare Metal](https://en.wikipedia.org/wiki/BareMetal) [[1]()], [[2]()], [[3]()]<br>
+&ensp;&ensp;[VMs](https://en.wikipedia.org/wiki/Virtual_machine) [[1]()], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Containers](https://en.wikipedia.org/wiki/Containerization_(computing)) [[1]()], [[2]()], [[3]()]<br>
 What is Cloud Agnostic and Cloud Native?<br>
 &ensp;&ensp;[Cloud Agnostic]() [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Cloud Native]() [[1]()], [[2]()], [[3]()]<br>
