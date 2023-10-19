@@ -711,6 +711,7 @@ Here is my attempt to apply Efficient Communication (filter the signal from the 
 Don't sweat the details of these 3 buzzwords, they all really mean the same thing:<br>
 you have an infrastructure, people using that infrastructure (Ops, Developers, etc.)<br>
 and your job is to design, build and maintain the infrastructure and make the people using it happy.<br>
+The definition of "happy" is created by analyzing your Company's needs and objectives.<br>
 [Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br>
 What is a Data Center?<br>
 &ensp;&ensp;A [Data Center](https://www.youtube.com/watch?v=qUmLnSEVVDw) is a physical building located around the world that houses your Platforms, Systems, Workloads.<br>
@@ -732,10 +733,17 @@ What is a Data Center?<br>
 &ensp;&ensp;So for 2023 alone, that equates to some 250,000 Olympic-size swimming pools of water.<br>
 &ensp;&ensp;[2023 Global Data Center Trends](https://www.cbre.com/insights/reports/global-data-center-trends-2023): Northern Virginia remains the world's largest data center market with 2,132 megawatts (MW) of total inventory.<br>
 What is Infrastructure as Code (IaC)?<br>
-&ensp;&ensp;IAC is a DevOps practice of managing infrastructure in a declarative manner using code,<br>
+&ensp;&ensp;IaC is a DevOps practice of managing infrastructure in a declarative manner using code,<br>
 &ensp;&ensp;rather than manually configuring it through a graphical user interface.<br>
 &ensp;&ensp;Declarative: The process of declaring your desired result and the system "learns" how to achieve it.<br>
 &ensp;&ensp;Imperative: The process of explaining every step to accomplish a desired result.<br>
+What is Infrastructure as a Catalog (InCa)?<br>
+&ensp;&ensp;[Navigating the Evolution: Infrastructure as Catalog](https://thenewstack.io/navigating-the-evolution-infrastructure-as-catalog/)<br>
+&ensp;&ensp;InCa is a conceptual framework focusing on declaring infrastructure components with precision,<br>
+&ensp;&ensp;while the implementation details are separated and managed independently.<br>
+&ensp;&ensp;InCa takes all the good stuff from IaC and streamlines it, making things more transparent and a lot easier to manage.<br>
+&ensp;&ensp;InCa aims to enhance transparency and understanding of architecture.<br>
+&ensp;&ensp;InCa ensures that all changes are auditable, reversible and thoroughly documented in Git.<br>
 What is Software Defined X (SD-X)?<br>
 &ensp;&ensp;The term software defined is related to IaC in the sense that it has to do with using **code** to manage something verses using a **GUI/Dashboard**.<br>
 &ensp;&ensp;The difference between IaC and SD-X is that IaC is a more general term and SD-X is usually limited to networking devices, but that's a convention.<br>
@@ -745,7 +753,7 @@ What is "as a Service" (aaS)?<br>
 &ensp;&ensp;The term XaaS can mean "anything as a service".<br>
 &ensp;&ensp;[Some aaS terms include:](https://www.auvik.com/franklyit/blog/aas-as-a-service-list/) SaaS, PaaS, FaaS, CaaS, ..., rediculous! Did I mention I hate buzzwords!
 What is Platform as a Service (PaaS)?<br>
-&ensp;&ensp;[PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service) is an abstraction over infrastructure that runs applications and hosts stacks.<br>
+&ensp;&ensp;[Platform as a Service (PaaS)](https://en.wikipedia.org/wiki/Platform_as_a_service) is an abstraction over infrastructure that runs applications and hosts stacks.<br>
 &ensp;&ensp;PaaS supports custom workflows to enable teams to function efficiently.<br>
 &ensp;&ensp;PaaS enables the introduction of new ways to build, run, and deploy apps easily.<br>
 &ensp;&ensp;PaaS allows underlying technology to be swapped out with no impact on teams.<br>
