@@ -518,10 +518,14 @@ Database Models/Types:<br>
      Examples:<br>
      Best used for: Machine Learning<br>
      [Vector Database](https://en.wikipedia.org/wiki/Vector_database)<br>
- 98) Polymorphic Databases: aka., Multi-Model Database
-     Examples: TypeDB, FaunaDB<br> 
+ 98) Polystore: aka., Polymorphic Databases, Multi-Model Database
+     Examples: TypeDB, FaunaDB, BigDAWG<br> 
      Best used for:<br>
-     [Polymorphic Databases]()<br>
+     Polymorphic data means that in one collection you have many versions of document schema<br>
+     (e.g. different field type, fields that occur in some documents etc.).<br>
+     [Polystores: The Data Management Game Changer](https://thenewstack.io/polystores-the-data-management-game-changer/)<br>
+     [The Case for Polystores](https://wp.sigmod.org/?p=1629)<br>
+     [Polystore]()<br>
  99) [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw)<br>
 
 ### System Property Definitions:
