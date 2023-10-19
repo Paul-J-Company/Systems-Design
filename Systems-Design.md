@@ -51,9 +51,9 @@ Don't let complexity creep in.<br>
 
 ### So where do you begin?
 
-It always starts with understanding your workload.<br>
+It always starts with understanding your [workload](https://en.wikipedia.org/wiki/Workload).<br>
 
-You can't make the ***"best choices"*** without understanding your workload intimately and ***testing*** it thoroughly.<br>
+You can't make the ***"best choices"*** without understanding your [workload](https://en.wikipedia.org/wiki/Workload) intimately and ***testing*** it thoroughly.<br>
 
 Starting from a blank slate is different than inheriting an existing system infrastructure.<br>
 
@@ -65,7 +65,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Data Center: A Physical Building located around the world that houses your Platforms, Systems, Workloads.
   - Platform: The logical term that supports your environment: OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid Cloud; Private Cloud, Public Cloud
   - System: the collection of components (hardware,software,people) that interact together to implement your Platform.
-  - Workload: the main application your customers interact with (aka., your "Product and/or Service").
+  - [Workload:](https://en.wikipedia.org/wiki/Workload) the main application your customers interact with (aka., your "Product and/or Service").
   - People: all your employess across all of your departments: Platform Engineers/SREs/DevOps/DevSecOps/Programmers; Sales, Marketing
 + How do you make decisions regarding all of the questions below?
   - Who are your Architects/Designers?
