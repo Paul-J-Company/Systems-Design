@@ -786,7 +786,7 @@ What is DORA?<br>
 &ensp;&ensp;[The Four Keys](https://github.com/dora-team/fourkeys)<br>
 &ensp;&ensp;[2021 Accelerate State of DevOps report addresses burnout, team performance](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report)<br>
 &ensp;&ensp;[Google Cloud DevOps Awards](https://cloud.google.com/awards/devops)<br>
-&ensp;&ensp;[https://devops.com/using-dora-metrics-to-measure-devops-success/](Using DORA Metrics to Measure DevOps Success)<br>
+&ensp;&ensp;[Using DORA Metrics to Measure DevOps Success](https://devops.com/using-dora-metrics-to-measure-devops-success/)<br>
 What is GitOps?<br>
 &ensp;&ensp;GitOps is centered around using a version control system (such as Git, GitLab, Github)<br>
 &ensp;&ensp;to house all information, documentation, and code for a Kubernetes deployment,<br>
