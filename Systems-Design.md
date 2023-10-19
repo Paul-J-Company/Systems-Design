@@ -153,8 +153,9 @@ Starting from a blank slate is different than inheriting an existing system infr
 
 ## So what are the next steps?
 + Read the [System Design Topics](https://github.com/Paul-J-Company/Systems-Design/blob/main/README.md#system-design-topics) information below which adds more details to what we've already discussed above.
-+ Read my [Kubernetes]() information for how I apply these principles to a Kubernetes Environment.
-
++ Read my [Kubernetes](https://github.com/Paul-J-Company/Systems-Design/blob/main/Kubernetes.md) information for how I apply these principles to a Kubernetes Environment.
++ Read [Theory and Concepts that will make you a better Systems Designer](https://github.com/Paul-J-Company/Systems-Design/blob/main/System-Design-Theory-and-Concepts.md).
+  
 ## System Design Topics:
 
 ### System Property Definitions:
@@ -319,6 +320,8 @@ High Availability (HA):<br>
 12) Abstraction:<br>
     See: "[General Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#general-abstractions)"<br>
     See: "[Computer Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#computer-abstractions)"<br>
+
+##Theory and Concepts that will make you a better Systems Designer
 
 ### General Abstractions:
 An [Abstraction](https://en.wikipedia.org/wiki/Abstraction) is hiding complexity and/or [hiding information](https://en.wikipedia.org/wiki/Information_hiding).<br>
