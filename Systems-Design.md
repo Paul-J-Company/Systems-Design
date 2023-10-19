@@ -68,7 +68,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - People: all your employess across all of your departments: Platform Engineers/SREs/DevOps/DevSecOps/Programmers; Sales, Marketing
 + How do you make decisions regarding all of the questions below?
   - Who are your Architects/Designers?
-  - Where are their [High-Level](https://en.wiktionary.org/wiki/grand_scheme#English) Architecture/Design Diagrams?
+  - Where are their [High-Level](https://en.wikipedia.org/wiki/High-level_design) Architecture/Design Diagrams?
   - How do they strike the ***right balance*** between all the ***trade-offs*** during the [design process](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#system-design-principles-and-processes)?
   - How do they know the right questions to ask?
   - How do they define clear objectives?
@@ -106,13 +106,13 @@ Starting from a blank slate is different than inheriting an existing system infr
   - How do you [Failover](https://en.wikipedia.org/wiki/Failover) your workload?
   - What are your Incidence Response and Root Cause Analysis (RCA) procedures.
 + What is your Network Design?
-  - Where are your High-Level Network Architecture/Design Diagrams?
+  - Where are your [High-Level](https://en.wikipedia.org/wiki/High-level_design) Network Architecture/Design Diagrams?
   - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, Redfish, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; [Failover](https://en.wikipedia.org/wiki/Failover), Redundancy
   - What are the results of your Network capacity planning?
   - What Network Tools do you use?
     - RANCID, Netcat, Netbox, iperf
 + What is your [Storage/Database/Data Design](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#the-concept-of-data-and-its-application-in-computer-science)?
-  - Where are your High-level Storage/Data Architecture/Design Diagrams?
+  - Where are your [High-Level](https://en.wikipedia.org/wiki/High-level_design) Storage/Data Architecture/Design Diagrams?
   - Data Lake, Wherehouse, Data Catalog
   - Relational, NoSQL, Document Oriented, Graph DB
   - Block Storage, Filesystem Storage, Object Storage
@@ -122,7 +122,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - What Data Tools do you use?
     - DataDog, Splunk, Greylog
 + What is your Compute Design?
-  - Where are your High-level Compute Architecture/Design Diagrams?
+  - Where are your [High-Level](https://en.wikipedia.org/wiki/High-level_design) Compute Architecture/Design Diagrams?
   - AWS EC2 VMs, OnPrem Servers/VMs/Containers
   - What are the results of your Compute capacity planning?
 + What Infrastructure Provisioning Tools do you use?
