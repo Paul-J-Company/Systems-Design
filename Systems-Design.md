@@ -492,6 +492,7 @@ Database Models/Types:<br>
      [Data Vault](https://en.wikipedia.org/wiki/Data_vault)<br>
      [Data Lake](https://en.wikipedia.org/wiki/Data_lake)<br>
      [Data Hub](https://en.wikipedia.org/wiki/Data_hub)<br>
+     [Data Mart](https://en.wikipedia.org/wiki/Data_mart)<br>
      [Data Store](https://en.wikipedia.org/wiki/Data_store)<br>
      [Extract, Transform, Load (ETL)](https://en.wikipedia.org/wiki/Extract,_transform,_load)<br>
  12) Blockchain:<br>
