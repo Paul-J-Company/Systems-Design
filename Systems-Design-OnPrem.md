@@ -297,6 +297,7 @@ Storage Software:<br>
 &ensp;&ensp;&ensp;&ensp;https://blocksandfiles.com/2021/03/08/intel-says-mayastor-is-fastest-open-source-storage/<br>
 &ensp;&ensp;4) Redis:<br>
 &ensp;&ensp;&ensp;&ensp;Great for streaming applications.<br>
+&ensp;&ensp;&ensp;&ensp;[Solving Concurrency Problems with Redis and Golang](https://blog.stackademic.com/solving-concurrency-problems-with-redis-and-golang-720e68b2b95a)<br>
 &ensp;&ensp;5) RAMCloud:<br>
 &ensp;&ensp;&ensp;&ensp;Great for streaming applications; very specialized; trying to get it to work with Kubernetes<br>
 &ensp;&ensp;&ensp;&ensp;To achieve low latency, RAMCloud stores all data in DRAM at all times.<br>
