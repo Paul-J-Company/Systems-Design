@@ -18,11 +18,9 @@
   - Flexible: easy to change and adapt; Extensible: easy to add features.<br>
 + Cost Effective: minimize Capex & Opex
 + Well Documented: strive for [Great Documentation](https://www.linkedin.com/pulse/great-ation-defined-daniel-smith/); [Writing Great Documentation](https://medium.com/@episod/writing-great-documentation-44d90367115a)
-+ Aligned with Business Objectes: the reason your business exists
-    
-Every business has Business Objectives.
-
-These ***System Properties*** align with the high level business objective of ***"satisfy your customers"***.
++ Aligned with Business Objectes: the reason your business exists 
+  - Every business has Business Objectives.
+  - These ***System Properties*** align with the high level business objective of ***"satisfy your customers"***.
 
 ### Your System is a Stack of [Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#computer-abstractions):
 
