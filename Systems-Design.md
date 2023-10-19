@@ -425,7 +425,10 @@ Database Models/Types:<br>
 &ensp;&ensp;[Database Software Comarisons](https://en.wikipedia.org/wiki/Category:Database_software_comparisons)<br>
   1) Relational Databases:<br>
      Examples: MySQL, Postgres<br>
-     Best used for:<br> 
+     Best used for: <br>
+     Relational Database Transactions support [ACID](https://en.wikipedia.org/wiki/ACID) properties.<br>
+     [A Relational Model of Data for Large Shared Data Banks by E.F. Codd](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)<br>
+     [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)<br>
      [List of Relational Database Management Systems](https://en.wikipedia.org/wiki/List_of_relational_database_management_systems)<br>
      [Comparison of Relational Database Management Systems](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems)<br>
   2) NoSQL Databases:<br>
@@ -446,6 +449,7 @@ Database Models/Types:<br>
      Best used for: Most apps, Games, IoT<br>
      Schema-less, No Normalization, Relational-ish Queries without Joins<br>
      Not good when you have disconnected but related data that is updated often like Social Media apps.<br>
+     Not ideal for graphs.<br>
      [Document-Oriented Database](https://en.wikipedia.org/wiki/Document-oriented_database)<br>
        One of the main categories of NoSQL databases.<br>
        Document-oriented databases are inherently a subclass of the key-value store.<br>
