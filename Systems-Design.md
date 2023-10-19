@@ -99,7 +99,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - Monolithic, Microservices, Serverless?
   - Request-Response (Synchronous)/Event-driven (Asynchronous)?
   - Multitenant/Single Tenant?
-  - What Cloud Platform(s) and Services do you use?
+  - What Cloud Provider(s) and Services do you use?
     - AWS has over [535 Cloud Services spanning 20+ Categories](https://www.antvaset.com/c/21gjdl7gz4) 
     - GCP has over [32 Cloud Services](https://cloud.google.com/products/) [spanning 7 Categories](https://www.infiflex.com/what-are-the-google-cloud-platform-services)
     - Azure has over [295 Cloud Services spanning 21 Categories](https://azure.microsoft.com/en-us/products/) 
