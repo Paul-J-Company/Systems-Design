@@ -484,11 +484,18 @@ Database Models/Types:<br>
      Best used for:<br>
      [Time Series Database](https://en.wikipedia.org/wiki/Time_series_database)<br>
  11) Data Warehouses:<br>
-     Examples: Apache Kudu, Amazon Redshift<br>
+     Examples: Apache Kudu, Amazon Redshift, Snowflake, HP Vertica, RDBMS<br>
      Best used for:<br>
      [A data vault, warehouse, lake, and hub explained](https://www.cloverdx.com/blog/a-data-vault-warehouse-lake-and-hub-explained)<br>
-     [Data Warehouses](https://en.wikipedia.org/wiki/Data_warehouse)<br>
      [Data Warehousing](https://en.wikipedia.org/wiki/Category:Data_warehousing)<br>
+     [Data Warehouse](https://en.wikipedia.org/wiki/Data_warehouse)<br>
+     &ensp;&ensp;A data warehouse is a consolidated, structured repository for storing data assets.<br>
+     &ensp;&ensp;Data warehouses will store data in one of two ways: Star Schema or 3NF,<br>
+     &ensp;&ensp;but these are only fundamental principles in how you store your data model.<br>
+     &ensp;&ensp;Consolidate data and answer a business-related question.<br>
+     &ensp;&ensp;How many users are visiting my product pages from North America?<br>
+     &ensp;&ensp;[Visualizing a Datawarehouse](https://www.cloverdx.com/hs-fs/hubfs/Blog_Files/DWH/data-lake--fig1.png?width=2175&name=data-lake--fig1.png)
+     &ensp;&ensp;[Visualizing a Datawarehouse](https://www.cloverdx.com/hs-fs/hubfs/Blog_Files/DWH/data-lake--fig2.png?width=2175&name=data-lake--fig2.png)
      [Data Vault](https://en.wikipedia.org/wiki/Data_vault)<br>
      &ensp;&ensp;A data vault is a system made up of a model, methodology and architecture<br>
      &ensp;&ensp;that is specifically designed to solve a complete business problem as requirements change.<br>
