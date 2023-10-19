@@ -480,8 +480,8 @@ Database Models/Types:<br>
      Best used for:<br>
      [NewSQL](https://en.wikipedia.org/wiki/Category:NewSQL)<br>
  10) Time Series Databases:<br>
-     Examples:Amazon Timestream,<br>
-     Best used for:<br>
+     Examples: Amazon Timestream,<br>
+     Best used for: Time series data<br>
      [Time Series Database](https://en.wikipedia.org/wiki/Time_series_database)<br>
  11) Data Warehouses:<br>
      Examples: Apache Kudu, Amazon Redshift, Snowflake, HP Vertica, RDBMS<br>
