@@ -471,6 +471,9 @@ Incident management often involves:<br>
 &ensp;&ensp;&ensp;&ensp;Steps are taken to lessen the incident's impact.<br>
 &ensp;&ensp;5) Resolution:<br>
 &ensp;&ensp;&ensp;&ensp;Final resolution and measures to avert future recurrences.<br>
+What is Free and Opensource?<br>
+&ensp;&ensp;[The Open Source Definition:](https://opensource.org/osd/)<br>
+&ensp;&ensp;[The Free Software Definition:](https://www.gnu.org/philosophy/free-sw.en.html#fs-definition)<br>
 What is Single Pain of Glass?<br>
 &ensp;&ensp;[Single pane of glass](https://www.mitel.com/features-benefits/single-pane-of-glass) is a term used throughout the IT and management fields relating to a management tool<br>
 &ensp;&ensp;that unifies data or interfaces across several different sources and presents them in a single view.<br>
