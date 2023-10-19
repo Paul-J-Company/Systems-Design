@@ -485,7 +485,7 @@ Database Models/Types:<br>
      [Time Series Database](https://en.wikipedia.org/wiki/Time_series_database)<br>
  11) Data Warehouses:<br>
      Examples: Apache Kudu, Amazon Redshift, Snowflake, HP Vertica, RDBMS<br>
-     Best used for:<br>
+     Best used for: read below for descriptions<br>
      [A data vault, warehouse, lake, and hub explained](https://www.cloverdx.com/blog/a-data-vault-warehouse-lake-and-hub-explained)<br>
      [Data Warehousing](https://en.wikipedia.org/wiki/Category:Data_warehousing)<br>
      [Extract, Transform, Load (ETL)](https://en.wikipedia.org/wiki/Extract,_transform,_load)<br>
