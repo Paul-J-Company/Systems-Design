@@ -517,6 +517,17 @@ Database Models/Types:<br>
      &ensp;&ensp;reporting, visualization, analytics, and machine learning.<br>
      &ensp;&ensp;[Visualizing a Data Lake](https://www.cloverdx.com/hs-fs/hubfs/Blog_Files/DWH/data-lake--fig3.png?width=2175&name=data-lake--fig3.png)<br>
      [Data Hub](https://en.wikipedia.org/wiki/Data_hub)<br>
+     &ensp;&ensp;A data hub is a centralized system where data is stored, defined, and served from.<br>
+     &ensp;&ensp;We like to think of it as a hybrid of a data lake and a database warehouse,<br>
+     &ensp;&ensp;as it provides a central repository for your applications to dump data.<br>
+     &ensp;&ensp;A Data Hub also adds a level of harmonization at ingest<br>
+     &ensp;&ensp;so the data is indexed and can easily be queried.<br> 
+     &ensp;&ensp;Please note that this is not the same as a data warehouse architecture,<br>
+     &ensp;&ensp;as the ETL processing is merely for indexing the data you have<br>
+     &ensp;&ensp;rather than mapping it into a strict structure.<br>
+     &ensp;&ensp;The challenge comes when you have to implement the data hub<br>
+     &ensp;&ensp;and how can you harmonize all of your siloed data sources.<br>
+     &ensp;&ensp;In general, we see the same use cases for a data hub as we would for a data lake:<br>
      [Data Mart](https://en.wikipedia.org/wiki/Data_mart)<br>
      [Data Store](https://en.wikipedia.org/wiki/Data_store)<br>
  12) Blockchain:<br>
