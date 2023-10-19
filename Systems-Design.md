@@ -425,7 +425,8 @@ Database Models/Types:<br>
 &ensp;&ensp;[Database Software Comarisons](https://en.wikipedia.org/wiki/Category:Database_software_comparisons)<br>
   1) Relational Databases:<br>
      Examples: MySQL, Postgres<br>
-     Best used for: <br>
+     Best used for: most apps<br> 
+     Not ideal for: Unstructured Data<br>
      Relational Database Transactions support [ACID](https://en.wikipedia.org/wiki/ACID) properties.<br>
      [A Relational Model of Data for Large Shared Data Banks by E.F. Codd](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)<br>
      [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)<br>
@@ -461,7 +462,7 @@ Database Models/Types:<br>
      [Wide Column Store](https://en.wikipedia.org/wiki/Wide-column_store)<br>
        A special type of NoSQL database.<br>
   6) Graph Database:<br>
-     Examples: neo4j<br>
+     Examples: [neo4j](https://neo4j.com/blog/why-graph-databases-are-the-future), [Dgraph](https://dgraph.io/)<br>
      Best used for:<br>
      [Graph Databases](https://en.wikipedia.org/wiki/Category:Graph_databases)<br>
   7) In-Memory Databases:<br>
