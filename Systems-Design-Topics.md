@@ -219,7 +219,9 @@ What is Cloud Agnostic, Cloud Native and Cloud Enabled?<br>
 &ensp;&ensp;[Cloud Enabled](https://metrixdata360.com/cloud-series/cloud-agnostic-vs-cloud-enabled-vs-cloud-native-the-terms-explained/) [[1](https://www.alation.com/blog/cloud-native-vs-cloud-enabled/) [[2](https://www.techtarget.com/searchcloudcomputing/tip/Explore-cloud-native-vs-cloud-based-vs-cloud-enabled-apps)], [[3](https://www.comparethecloud.net/articles/cloud-native-vs-cloud-enabled-are-you-using-the-right-term/)]
 What is Self-Hosted and Fully Managed?<br>
 &ensp;&ensp;[Self-Hosted](https://en.wikipedia.org/wiki/Self-hosting_(web_services)) [[1](https://www.openproject.org/blog/why-self-hosting-software/)], [[2](https://github.com/awesome-selfhosted/awesome-selfhosted)], [[3](https://www.linkedin.com/pulse/what-self-hosting-how-self-host-using-docker-przemys%C5%82aw-kuciel-1c/)] [[4](https://medium.com/swlh/the-step-by-step-guide-to-starting-your-own-self-hosted-website-from-scratch-d10a8e6ccf0c)]<br>
-&ensp;&ensp;[Fully Managed](https://en.wikipedia.org/wiki/Dedicated_hosting_service) [[1]()], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Fully Managed](https://en.wikipedia.org/wiki/Dedicated_hosting_service) [[1](https://docs.aws.amazon.com/managedservices/latest/userguide/what-is-ams.html)], [[2](https://docs.aws.amazon.com/managedservices/latest/userguide/key-terms.html)], [[3](https://www.freecodecamp.org/news/serverless-fully-managed-service-difference/)]<br>
+What is Serverless?<br>
+&ensp;&ensp;[Serverless](https://en.wikipedia.org/wiki/Serverless_computing) [[1](https://www.cloudflare.com/learning/serverless/what-is-serverless/)], [[2](https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless)], [[3](https://aws.amazon.com/serverless/)]<br>
 What is Infrastructure as Code (IaC)?<br>
 &ensp;&ensp;IaC is a DevOps practice of managing infrastructure in a declarative manner using code,<br>
 &ensp;&ensp;rather than manually configuring it through a graphical user interface.<br>
