@@ -216,8 +216,8 @@ What is Cloud Agnostic and Cloud Native?<br>
 &ensp;&ensp;[Cloud Agnostic]() [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Cloud Native]() [[1]()], [[2]()], [[3]()]<br>
 What is Self-Hosted and Fully Managed?<br>
-&ensp;&ensp;[Self-Hosted]() [[1]()], [[2]()], [[3]()]
-&ensp;&ensp;[Fully Managed]() [[1]()], [[2]()], [[3]()]
+&ensp;&ensp;[Self-Hosted]() [[1]()], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Fully Managed]() [[1]()], [[2]()], [[3]()]<br>
 What is Infrastructure as Code (IaC)?<br>
 &ensp;&ensp;IaC is a DevOps practice of managing infrastructure in a declarative manner using code,<br>
 &ensp;&ensp;rather than manually configuring it through a graphical user interface.<br>
