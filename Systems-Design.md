@@ -43,8 +43,8 @@ This is just one of the causes that makes any System ***"complex"***;<br>
 and why it requires a qualified ***System Designer*** to achieve these ***System Properties***.<br>
 Other causes of complexity include:<br> 
 &ensp;&ensp;non-linear dynamics, chaotic behavior, randomness (difficult to predict),<br>
-&ensp;&ensp;a deep nesting of many layers of abstraction which are all symptoms<br>
-&ensp;&ensp;of the combinatorial explosion I already mentioned.<br>
+&ensp;&ensp;a deep nesting of many layers of abstraction which all contribute<br>
+&ensp;&ensp;to the combinatorial explosion I already mentioned.<br>
 Complexity is incremental.<br>
 Complexity comes from dependencies and obscurity.<br>
 You have to sweat the details.<br>
