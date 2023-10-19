@@ -201,7 +201,7 @@ What is a Data Center?<br>
 &ensp;&ensp;So for 2023 alone, that equates to some 250,000 Olympic-size swimming pools of water.<br>
 &ensp;&ensp;[2023 Global Data Center Trends](https://www.cbre.com/insights/reports/global-data-center-trends-2023): Northern Virginia remains the world's largest data center market with 2,132 MW of total inventory.<br>
 What is Cloud Computing, OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid Cloud; Private Cloud, Public Cloud<br>
-&ensp;&ensp;[Cloud-Computing Comparison](https://en.wikipedia.org/wiki/Cloud-computing_comparison) [[1](https://www.cloudflare.com/learning/cloud/what-is-the-cloud/)], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Cloud-Computing Comparison](https://en.wikipedia.org/wiki/Cloud-computing_comparison) [[1](https://www.cloudflare.com/learning/cloud/what-is-the-cloud/)], [[2](https://aws.amazon.com/what-is-cloud-computing/)], [[3]()]<br>
 &ensp;&ensp;[OnPrem](https://en.wikipedia.org/wiki/On-premises_software) [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Cloud-Based]() [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Cloud Native](https://en.wikipedia.org/wiki/Cloud-native_computing) [[1]()], [[2]()], [[3]()]<br>
@@ -213,9 +213,10 @@ What is Bare Metal, VMs, Containers?<br>
 &ensp;&ensp;[Bare Metal](https://en.wikipedia.org/wiki/BareMetal) [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[VMs](https://en.wikipedia.org/wiki/Virtual_machine) [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Containers](https://en.wikipedia.org/wiki/Containerization_(computing)) [[1]()], [[2]()], [[3]()]<br>
-What is Cloud Agnostic and Cloud Native?<br>
-&ensp;&ensp;[Cloud Agnostic]() [[1]()], [[2]()], [[3]()]<br>
-&ensp;&ensp;[Cloud Native]() [[1]()], [[2]()], [[3]()]<br>
+What is Cloud Agnostic, Cloud Native and Cloud Enabled?<br>
+&ensp;&ensp;[Cloud Agnostic](https://www.nops.io/what-does-cloud-agnostic-mean/) [[1](https://www.synopsys.com/cloud/insights/cloud-native-vs-cloud-agnostic.html)], [[2](https://www.techtarget.com/searchapparchitecture/tip/Ways-cloud-native-and-cloud-agnostic-architecture-differ)], [[3](https://medium.com/path-to-software-architect/cloud-agnostic-design-925c08e1d610)] [[4](https://blog.equinix.com/blog/2022/06/20/how-to-build-a-cloud-agnostic-architecture/)]<br>
+&ensp;&ensp;[Cloud Native](https://www.sdxcentral.com/cloud/cloud-native/definitions/what-is-cloud-native-definition/) [[1](https://www.linkedin.com/pulse/cloud-agnostic-vs-native-knowing-difference-yogish-suvarna/)], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Cloud Enabled](https://metrixdata360.com/cloud-series/cloud-agnostic-vs-cloud-enabled-vs-cloud-native-the-terms-explained/) [[1](https://www.alation.com/blog/cloud-native-vs-cloud-enabled/) [[2](https://www.techtarget.com/searchcloudcomputing/tip/Explore-cloud-native-vs-cloud-based-vs-cloud-enabled-apps)], [[3](https://www.comparethecloud.net/articles/cloud-native-vs-cloud-enabled-are-you-using-the-right-term/)]
 What is Self-Hosted and Fully Managed?<br>
 &ensp;&ensp;[Self-Hosted](https://en.wikipedia.org/wiki/Self-hosting_(web_services)) [[1](https://www.openproject.org/blog/why-self-hosting-software/)], [[2](https://github.com/awesome-selfhosted/awesome-selfhosted)], [[3](https://www.linkedin.com/pulse/what-self-hosting-how-self-host-using-docker-przemys%C5%82aw-kuciel-1c/)] [[4](https://medium.com/swlh/the-step-by-step-guide-to-starting-your-own-self-hosted-website-from-scratch-d10a8e6ccf0c)]<br>
 &ensp;&ensp;[Fully Managed](https://en.wikipedia.org/wiki/Dedicated_hosting_service) [[1]()], [[2]()], [[3]()]<br>
