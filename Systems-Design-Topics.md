@@ -183,7 +183,9 @@ What is a Data Center?<br>
 &ensp;&ensp;There are currently [four data center tiers](https://phoenixnap.com/blog/data-center-tiers-classification), [ranked by performance and uptime](https://www.impactmybiz.com/blog/data-center-tiers-explained/<).<br>
 &ensp;&ensp;[Azure Global Infrastructure](https://azure.microsoft.com/en-us/explore/global-infrastructure) Microsoft Azure is comprised of 300+ physical datacenters.<br>
 &ensp;&ensp;[Facebook's](https://www.youtube.com/watch?v=hkT0QKDmCiY) The largest Facebook data center houses more than 400,000 computer servers.<br>
-&ensp;&ensp;[AWS Data Centers Today: 100+ Locations, 1.5 Million Servers, and More](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiPgJmE4vaBAxVaD0QIHTYPB-8QFnoECBMQAw&url=https%3A%2F%2Fwww.cloudzero.com%2Fblog%2Faws-data-center-locations&usg=AOvVaw00IBauiqtFxZ3jWJ3jOZFk&opi=89978449) AWS has over 100 data centers globally, covering 31 AWS Regions, 99 Availability Zones, over 400 edge locations/local zones, and 245 countries and territories.<br>
+&ensp;&ensp;[AWS Data Centers Today: 100+ Locations, 1.5 Million Servers, and More](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiPgJmE4vaBAxVaD0QIHTYPB-8QFnoECBMQAw&url=https%3A%2F%2Fwww.cloudzero.com%2Fblog%2Faws-data-center-locations&usg=AOvVaw00IBauiqtFxZ3jWJ3jOZFk&opi=89978449)<br>
+&ensp;&ensp;AWS has over 100 data centers globally, covering 31 AWS Regions, 99 Availability Zones,<br>
+&ensp;&ensp;over 400 edge locations/local zones, and 245 countries and territories.<br>
 &ensp;&ensp;[AWS Cloud Infrastructure](https://www.youtube.com/watch?v=q6WlzHLxNKI)<br>
 &ensp;&ensp;[Google Cloud’s Data Center Locations: Regions and Availability Zones](https://dgtlinfra.com/google-cloud-data-center-locations/) Google operates or is developing 35 data centers around the world.<br>
 &ensp;&ensp;[Google Data Centers](https://www.google.com/about/datacenters/)<br>
