@@ -157,7 +157,115 @@ Starting from a blank slate is different than inheriting an existing system infr
 
 ## System Design Topics:
 
-### Design Principles
+### System Property Definitions:
+Security:<br>
+&ensp;&ensp;Security is a Full Stack endeavor.<br>
+&ensp;&ensp;Security is a complete field of study on to itself.<br>
+&ensp;&ensp;[Visualizing Cybersecurity](https://media.licdn.com/dms/image/C4E12AQEAjtq7T89h9A/article-cover_image-shrink_600_2000/0/1619282865626?e=1702512000&v=beta&t=yVJFR4c5VswXWv1qn-oWX6GYKfHYD8hgFgy1eSlEgU0)<br>
+&ensp;&ensp;[Cybersecurity Domain Map ver 3.0](https://www.linkedin.com/pulse/cybersecurity-domain-map-ver-30-henry-jiang)<br>
+&ensp;&ensp;[Cybersecurity Domain Map ver 3.1](https://media.licdn.com/dms/image/C4E12AQFEgFdbEtEl3Q/article-inline_image-shrink_1500_2232/0/1619282900607?e=1702512000&v=beta&t=y_bX1iXK-yLdgRHAgLp6UKHdl1IlqIna1RW0TN5LPF4)<br>
+&ensp;&ensp;Security is the elimination or containment of threats to resources you care about.<br>
+&ensp;&ensp;&ensp;&ensp;What constitutes a threat?<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Any thing or anyone who wants to damage, destroy, steal, or inhibit any resource you care about.<br>
+&ensp;&ensp;&ensp;&ensp;What constitutes a resource you care about?<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Your physical infrastructure.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Your services and/or products.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Your customer data.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Your business data.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Any noun: person, place or thing.<br>
+
+Efficiency:<br>
+&ensp;&ensp;Efficiency is a Full Stack endeavor.<br>
+&ensp;&ensp;Efficiency is about doing more with less.<br>
+&ensp;&ensp;Efficiency is all about minimizing resources while maximizing productivity.<br>
+&ensp;&ensp;Efficiency decreases Capex because you have to buy fewer things;<br>
+&ensp;&ensp;and also decreases Opex because there are fewer things to maintain.<br>
+&ensp;&ensp;and fewer things to power and cool;<br>
+&ensp;&ensp;and by definition each item is more efficient to power and cool.<br>
+
+Economy of Scale:<br>
+&ensp;&ensp;Economy of Scale is a Full Stack endeavor.<br>
+&ensp;&ensp;Economy of Scale is about doing more with more.<br>
+&ensp;&ensp;Economy of Scale is a ratio of signal (what you want) to noise (what you don't want).<br>
+&ensp;&ensp;For example:<br>
+&ensp;&ensp;&ensp;&ensp;Consider a square bottle (cube) of liquid soap.<br>
+&ensp;&ensp;&ensp;&ensp;The bottle is 1/16" thick.<br>
+&ensp;&ensp;&ensp;&ensp;The soap is the signal, the bottle is the noise.<br>
+&ensp;&ensp;&ensp;&ensp;A square bottle (cube) with dimensions 5"x5"x5" has an area of 6x5"^2x1/16" ~= 40cu.in. and a volume of 5^3=125cu.in. with ratio 125(signal):40(noise) ~= 3.<br>
+&ensp;&ensp;&ensp;&ensp;A square bottle (cube) with dimensions 10"x10"x10" has an area of 6x10"^2x1/16" ~= 38cu.in. and a volume of 10^3=1000cu.in. with ratio 1000(signal):38(noise) ~= 26.<br>
+&ensp;&ensp;&ensp;&ensp;Thus, the larger the bottle, the more soap (signal) you get per material of bottle (noise).<br>
+&ensp;&ensp;&ensp;&ensp;In our soap example, you get approximately 26/3 ~= 8 times more soap per material of bottle for the larger bottle versus the smaller bottle.<br>
+&ensp;&ensp;&ensp;&ensp;This is because volume grows larger than area.<br>
+&ensp;&ensp;Typically, the larger something is, the more efficient it is (up to a point).<br>
+&ensp;&ensp;&ensp;&ensp;e.g., HVAC units are more efficient the larger they are.<br>
+&ensp;&ensp;Economy of Scale increases Capex because larger items cost more and use more power and cooling,<br>
+&ensp;&ensp;but decreases Opex because there are fewer things to maintain.<br>
+
+Performance:<br>
+&ensp;&ensp;Performance is a Full Stack endeavor.<br>
+&ensp;&ensp;Performance is about maximizing speed, capacity, and efficiency.<br>
+&ensp;&ensp;Throughput is speed x capacity.<br>
+&ensp;&ensp;Consider a highway with a maximum speed limit (speed) and some number of lanes (capacity).<br>
+&ensp;&ensp;You increase throughput and efficiency by:<br>
+&ensp;&ensp;1) Increasing the speed limit (clock rate for computers).<br>
+&ensp;&ensp;and/or<br>
+&ensp;&ensp;2) Increasing the number of lanes (parallelism: more cores or processors).<br>
+&ensp;&ensp;and/or<br>
+&ensp;&ensp;3) Removing any obstructions (bottlenecks) from the road/lanes (roadkill) inhibiting your speed.<br>
+&ensp;&ensp;and/or<br>
+&ensp;&ensp;4) Avoiding rush hour traffic (scheduling/concurrency).<br>
+&ensp;&ensp;My highway example is a simple single level system.<br>
+&ensp;&ensp;Complex systems (like computers) are non-linear/dynamic multilevel (Full Stack) systems.<br>
+&ensp;&ensp;High performance equipment increases Capex because they are more expensive to buy;<br>
+&ensp;&ensp;but are typically Opex neutral because maintaining high performance equipment is<br>
+&ensp;&ensp;typically similar or identical to maintaining less performant equipment.<br>
+&ensp;&ensp;Although high performance equipment may cost more to power and cool, thus increasing Opex.<br>
+
+Optimization:<br>
+&ensp;&ensp;Optimization is a Full Stack endeavor.<br>
+&ensp;&ensp;Optimization is finding the maxima of key performance metrics.<br>
+&ensp;&ensp;Optimization is the selection of a best element, with regard to some criterion, from some set of available alternatives.<br>
+&ensp;&ensp;A quote from Donald Knuth on Optimization:<br>
+&ensp;&ensp;&ensp;&ensp;"We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.<br>
+&ensp;&ensp;&ensp;&ensp;&nbsp;Yet we should not pass up our opportunities in that critical 3%."<br>
+
+High Availability (HA):<br>
+&ensp;&ensp;High Availability is a Full Stack endeavor.<br>
+&ensp;&ensp;High Availability is about adding redundancy which eliminates all single points of failure.<br>
+&ensp;&ensp;HA increases resiliency because the system avoids failures by eliminating single points of failure.<br>
+&ensp;&ensp;HA increases Capex because you have to buy more equipment,<br>
+&ensp;&ensp;and increases Opex because there is more equipment to power, cool, and maintain<br>
+&ensp;&ensp;and a more complex configuration and interactions among the equipment.<br>
+&ensp;&ensp;Configuring redundancy typically falls into two categories/scenarios:<br>
+&ensp;&ensp;1) Active-Active:<br>
+&ensp;&ensp;&ensp;&ensp;All equipment is actively used.<br>
+&ensp;&ensp;&ensp;&ensp;Capacity planning is important in this scenario.<br>
+&ensp;&ensp;&ensp;&ensp;If you configure each device to handle full 100% capacity,<br>
+&ensp;&ensp;&ensp;&ensp;then there is no loss of performance when a failure happens,<br>
+&ensp;&ensp;&ensp;&ensp;but this essentially doubles Capex.<br>
+&ensp;&ensp;&ensp;&ensp;If you configure each item to handle less than 50% capacity,<br>
+&ensp;&ensp;&ensp;&ensp;then your system will become overloaded when a failure happens<br>
+&ensp;&ensp;&ensp;&ensp;which may lead to less than desirable performance for your customers at best,<br>
+&ensp;&ensp;&ensp;&ensp;and a complete failure of your system (which defeats the purpose of redundancy) at worst.<br>
+&ensp;&ensp;&ensp;&ensp;If you configure each item to handle more than 50% capacity,<br>
+&ensp;&ensp;&ensp;&ensp;then your performance will decrease when a failure happens,<br>
+&ensp;&ensp;&ensp;&ensp;but your system is still fully functional.<br>
+&ensp;&ensp;&ensp;&ensp;How much capacity you configure per item determines your customer's experience.<br>
+&ensp;&ensp;&ensp;&ensp;Active-Active can handle higher capacity than Active-Passive for obvious reasons.<br>
+&ensp;&ensp;&ensp;&ensp;Another advantage of active-active is that you're always exercising both devices<br>
+&ensp;&ensp;&ensp;&ensp;so you know they both work. In a hot-standby scenario the secondary device is just<br>
+&ensp;&ensp;&ensp;&ensp;sitting there waiting to handle traffic, so when things failover there's a non-zero<br>
+&ensp;&ensp;&ensp;&ensp;probability that the device will fail because you haven't been using it.<br>
+&ensp;&ensp;&ensp;&ensp;Is the hot-standby configuration right? Is it having hardware issues?<br>
+&ensp;&ensp;2) Active-Passive: aka., Hot Standby<br>
+&ensp;&ensp;&ensp;&ensp;Each device should be configured to have the same capacity,<br>
+&ensp;&ensp;&ensp;&ensp;so when a failure happens there is no loss of service.<br>
+&ensp;&ensp;&ensp;&ensp;If you're going to configure each device at 100% capacity<br>
+&ensp;&ensp;&ensp;&ensp;you might as well do an active-active configuration.<br>
+&ensp;&ensp;&ensp;&ensp;In a active-passive scenario you must schedule regular failovers<br>
+&ensp;&ensp;&ensp;&ensp;to verify the hot-standby device is working properly.<br>
+
+### System Design Principles
 1) Practice these Design Priciples:<br>
    Practice does NOT make Perfect!<br>
    Perfect Practice makes Perfect!<br>
@@ -596,114 +704,6 @@ Database Models/Types:<br>
      [The Case for Polystores](https://wp.sigmod.org/?p=1629)<br>
      [Polystore]()<br>
  99) [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw)<br>
-
-### System Property Definitions:
-Security:<br>
-&ensp;&ensp;Security is a Full Stack endeavor.<br>
-&ensp;&ensp;Security is a complete field of study on to itself.<br>
-&ensp;&ensp;[Visualizing Cybersecurity](https://media.licdn.com/dms/image/C4E12AQEAjtq7T89h9A/article-cover_image-shrink_600_2000/0/1619282865626?e=1702512000&v=beta&t=yVJFR4c5VswXWv1qn-oWX6GYKfHYD8hgFgy1eSlEgU0)<br>
-&ensp;&ensp;[Cybersecurity Domain Map ver 3.0](https://www.linkedin.com/pulse/cybersecurity-domain-map-ver-30-henry-jiang)<br>
-&ensp;&ensp;[Cybersecurity Domain Map ver 3.1](https://media.licdn.com/dms/image/C4E12AQFEgFdbEtEl3Q/article-inline_image-shrink_1500_2232/0/1619282900607?e=1702512000&v=beta&t=y_bX1iXK-yLdgRHAgLp6UKHdl1IlqIna1RW0TN5LPF4)<br>
-&ensp;&ensp;Security is the elimination or containment of threats to resources you care about.<br>
-&ensp;&ensp;&ensp;&ensp;What constitutes a threat?<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Any thing or anyone who wants to damage, destroy, steal, or inhibit any resource you care about.<br>
-&ensp;&ensp;&ensp;&ensp;What constitutes a resource you care about?<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Your physical infrastructure.<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Your services and/or products.<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Your customer data.<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Your business data.<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Any noun: person, place or thing.<br>
-
-Efficiency:<br>
-&ensp;&ensp;Efficiency is a Full Stack endeavor.<br>
-&ensp;&ensp;Efficiency is about doing more with less.<br>
-&ensp;&ensp;Efficiency is all about minimizing resources while maximizing productivity.<br>
-&ensp;&ensp;Efficiency decreases Capex because you have to buy fewer things;<br>
-&ensp;&ensp;and also decreases Opex because there are fewer things to maintain.<br>
-&ensp;&ensp;and fewer things to power and cool;<br>
-&ensp;&ensp;and by definition each item is more efficient to power and cool.<br>
-
-Economy of Scale:<br>
-&ensp;&ensp;Economy of Scale is a Full Stack endeavor.<br>
-&ensp;&ensp;Economy of Scale is about doing more with more.<br>
-&ensp;&ensp;Economy of Scale is a ratio of signal (what you want) to noise (what you don't want).<br>
-&ensp;&ensp;For example:<br>
-&ensp;&ensp;&ensp;&ensp;Consider a square bottle (cube) of liquid soap.<br>
-&ensp;&ensp;&ensp;&ensp;The bottle is 1/16" thick.<br>
-&ensp;&ensp;&ensp;&ensp;The soap is the signal, the bottle is the noise.<br>
-&ensp;&ensp;&ensp;&ensp;A square bottle (cube) with dimensions 5"x5"x5" has an area of 6x5"^2x1/16" ~= 40cu.in. and a volume of 5^3=125cu.in. with ratio 125(signal):40(noise) ~= 3.<br>
-&ensp;&ensp;&ensp;&ensp;A square bottle (cube) with dimensions 10"x10"x10" has an area of 6x10"^2x1/16" ~= 38cu.in. and a volume of 10^3=1000cu.in. with ratio 1000(signal):38(noise) ~= 26.<br>
-&ensp;&ensp;&ensp;&ensp;Thus, the larger the bottle, the more soap (signal) you get per material of bottle (noise).<br>
-&ensp;&ensp;&ensp;&ensp;In our soap example, you get approximately 26/3 ~= 8 times more soap per material of bottle for the larger bottle versus the smaller bottle.<br>
-&ensp;&ensp;&ensp;&ensp;This is because volume grows larger than area.<br>
-&ensp;&ensp;Typically, the larger something is, the more efficient it is (up to a point).<br>
-&ensp;&ensp;&ensp;&ensp;e.g., HVAC units are more efficient the larger they are.<br>
-&ensp;&ensp;Economy of Scale increases Capex because larger items cost more and use more power and cooling,<br>
-&ensp;&ensp;but decreases Opex because there are fewer things to maintain.<br>
-
-Performance:<br>
-&ensp;&ensp;Performance is a Full Stack endeavor.<br>
-&ensp;&ensp;Performance is about maximizing speed, capacity, and efficiency.<br>
-&ensp;&ensp;Throughput is speed x capacity.<br>
-&ensp;&ensp;Consider a highway with a maximum speed limit (speed) and some number of lanes (capacity).<br>
-&ensp;&ensp;You increase throughput and efficiency by:<br>
-&ensp;&ensp;1) Increasing the speed limit (clock rate for computers).<br>
-&ensp;&ensp;and/or<br>
-&ensp;&ensp;2) Increasing the number of lanes (parallelism: more cores or processors).<br>
-&ensp;&ensp;and/or<br>
-&ensp;&ensp;3) Removing any obstructions (bottlenecks) from the road/lanes (roadkill) inhibiting your speed.<br>
-&ensp;&ensp;and/or<br>
-&ensp;&ensp;4) Avoiding rush hour traffic (scheduling/concurrency).<br>
-&ensp;&ensp;My highway example is a simple single level system.<br>
-&ensp;&ensp;Complex systems (like computers) are non-linear/dynamic multilevel (Full Stack) systems.<br>
-&ensp;&ensp;High performance equipment increases Capex because they are more expensive to buy;<br>
-&ensp;&ensp;but are typically Opex neutral because maintaining high performance equipment is<br>
-&ensp;&ensp;typically similar or identical to maintaining less performant equipment.<br>
-&ensp;&ensp;Although high performance equipment may cost more to power and cool, thus increasing Opex.<br>
-
-Optimization:<br>
-&ensp;&ensp;Optimization is a Full Stack endeavor.<br>
-&ensp;&ensp;Optimization is finding the maxima of key performance metrics.<br>
-&ensp;&ensp;Optimization is the selection of a best element, with regard to some criterion, from some set of available alternatives.<br>
-&ensp;&ensp;A quote from Donald Knuth on Optimization:<br>
-&ensp;&ensp;&ensp;&ensp;"We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.<br>
-&ensp;&ensp;&ensp;&ensp;&nbsp;Yet we should not pass up our opportunities in that critical 3%."<br>
-
-High Availability (HA):<br>
-&ensp;&ensp;High Availability is a Full Stack endeavor.<br>
-&ensp;&ensp;High Availability is about adding redundancy which eliminates all single points of failure.<br>
-&ensp;&ensp;HA increases resiliency because the system avoids failures by eliminating single points of failure.<br>
-&ensp;&ensp;HA increases Capex because you have to buy more equipment,<br>
-&ensp;&ensp;and increases Opex because there is more equipment to power, cool, and maintain<br>
-&ensp;&ensp;and a more complex configuration and interactions among the equipment.<br>
-&ensp;&ensp;Configuring redundancy typically falls into two categories/scenarios:<br>
-&ensp;&ensp;1) Active-Active:<br>
-&ensp;&ensp;&ensp;&ensp;All equipment is actively used.<br>
-&ensp;&ensp;&ensp;&ensp;Capacity planning is important in this scenario.<br>
-&ensp;&ensp;&ensp;&ensp;If you configure each device to handle full 100% capacity,<br>
-&ensp;&ensp;&ensp;&ensp;then there is no loss of performance when a failure happens,<br>
-&ensp;&ensp;&ensp;&ensp;but this essentially doubles Capex.<br>
-&ensp;&ensp;&ensp;&ensp;If you configure each item to handle less than 50% capacity,<br>
-&ensp;&ensp;&ensp;&ensp;then your system will become overloaded when a failure happens<br>
-&ensp;&ensp;&ensp;&ensp;which may lead to less than desirable performance for your customers at best,<br>
-&ensp;&ensp;&ensp;&ensp;and a complete failure of your system (which defeats the purpose of redundancy) at worst.<br>
-&ensp;&ensp;&ensp;&ensp;If you configure each item to handle more than 50% capacity,<br>
-&ensp;&ensp;&ensp;&ensp;then your performance will decrease when a failure happens,<br>
-&ensp;&ensp;&ensp;&ensp;but your system is still fully functional.<br>
-&ensp;&ensp;&ensp;&ensp;How much capacity you configure per item determines your customer's experience.<br>
-&ensp;&ensp;&ensp;&ensp;Active-Active can handle higher capacity than Active-Passive for obvious reasons.<br>
-&ensp;&ensp;&ensp;&ensp;Another advantage of active-active is that you're always exercising both devices<br>
-&ensp;&ensp;&ensp;&ensp;so you know they both work. In a hot-standby scenario the secondary device is just<br>
-&ensp;&ensp;&ensp;&ensp;sitting there waiting to handle traffic, so when things failover there's a non-zero<br>
-&ensp;&ensp;&ensp;&ensp;probability that the device will fail because you haven't been using it.<br>
-&ensp;&ensp;&ensp;&ensp;Is the hot-standby configuration right? Is it having hardware issues?<br>
-&ensp;&ensp;2) Active-Passive: aka., Hot Standby<br>
-&ensp;&ensp;&ensp;&ensp;Each device should be configured to have the same capacity,<br>
-&ensp;&ensp;&ensp;&ensp;so when a failure happens there is no loss of service.<br>
-&ensp;&ensp;&ensp;&ensp;If you're going to configure each device at 100% capacity<br>
-&ensp;&ensp;&ensp;&ensp;you might as well do an active-active configuration.<br>
-&ensp;&ensp;&ensp;&ensp;In a active-passive scenario you must schedule regular failovers<br>
-&ensp;&ensp;&ensp;&ensp;to verify the hot-standby device is working properly.<br>
 
 ### IT Industry Definitions/Buzzwords:
 Buzzwords are one thing about the IT Industry I don't care for.<br>
