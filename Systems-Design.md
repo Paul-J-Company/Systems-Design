@@ -39,7 +39,7 @@ your system will behave depending on the choices you make for each [system prope
 The permutations of choices and behavior quickly [explode combinatorally](https://en.wikipedia.org/wiki/Combinatorial_explosion).<br>
 
 This is just one of the causes that makes any System ***"complex"***;<br>
-and why it requires a qualified ***System Designer*** to achieve these ***System Properties***.<br>
+and why it requires a qualified [***System Designer***](https://www.linkedin.com/in/paul-company-7229011/) to achieve these [***System Properties***](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#system-properties).<br>
 Other causes of complexity include:<br> 
 &ensp;&ensp;non-linear dynamics, chaotic behavior, randomness (difficult to predict),<br>
 &ensp;&ensp;a deep nesting of many layers of abstraction which all contribute<br>
