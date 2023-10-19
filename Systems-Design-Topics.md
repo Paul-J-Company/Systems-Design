@@ -175,6 +175,9 @@ you have an infrastructure, people using that infrastructure (Ops, Developers, e
 and your job is to design, build and maintain the infrastructure and make the people using it happy.<br>
 The definition of "happy" is created by analyzing your Company's needs and objectives.<br>
 [Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br>
+What is Free and Opensource?<br>
+&ensp;&ensp;[The Open Source Definition:](https://opensource.org/osd/)<br>
+&ensp;&ensp;[The Free Software Definition:](https://www.gnu.org/philosophy/free-sw.en.html#fs-definition)<br>
 What is a Data Center?<br>
 &ensp;&ensp;A [Data Center](https://www.youtube.com/watch?v=qUmLnSEVVDw) is a physical building located around the world that houses your Platforms, Systems, Workloads.<br>
 &ensp;&ensp;There are currently [four data center tiers](https://phoenixnap.com/blog/data-center-tiers-classification), [ranked by performance and uptime](https://www.impactmybiz.com/blog/data-center-tiers-explained/<).<br>
@@ -471,9 +474,32 @@ Incident management often involves:<br>
 &ensp;&ensp;&ensp;&ensp;Steps are taken to lessen the incident's impact.<br>
 &ensp;&ensp;5) Resolution:<br>
 &ensp;&ensp;&ensp;&ensp;Final resolution and measures to avert future recurrences.<br>
-What is Free and Opensource?<br>
-&ensp;&ensp;[The Open Source Definition:](https://opensource.org/osd/)<br>
-&ensp;&ensp;[The Free Software Definition:](https://www.gnu.org/philosophy/free-sw.en.html#fs-definition)<br>
+What is [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)?<br>
+&ensp;&ensp;[WebAssembly:](https://webassembly.org/)<br>
+&ensp;&ensp;WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine.<br>
+&ensp;&ensp;Wasm is designed as a portable compilation target for programming languages,<br>
+&ensp;&ensp;enabling deployment on the web for client and server applications.<br>
+&ensp;&ensp;The main goal of WebAssembly is to enable high-performance applications on web pages,<br>
+&ensp;&ensp;"but it does not make any Web-specific assumptions<br>
+&ensp;&ensp;&ensp;or provide Web-specific features,<br>
+&ensp;&ensp;&ensp;so it can be employed in other environments as well."<br>
+What is eBPF?<br>
+&ensp;&ensp;[eBPF](https://en.wikipedia.org/wiki/EBPF)<br>
+&ensp;&ensp;[eBPF](https://ebpf.io/) stands for extended Berkeley Packet Filter (eBPF)<br>
+&ensp;&ensp;eBPF is a technology that can run programs in a privileged context such as the operating system kernel.<br>
+&ensp;&ensp;eBPF is used to safely and efficiently extend the capabilities of the kernel at runtime<br>
+&ensp;&ensp;without requiring changes to kernel source code or loading kernel modules.<br>
+What are Protocol Buffers?<br>
+&ensp;&ensp;[Protocol Buffers:](https://protobuf.dev/)<br>
+&ensp;&ensp;[Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers) is a data format used to serialize structured data.<br>
+&ensp;&ensp;Google use Protocol Bufferes to implement gRPC.<br>
+&ensp;&ensp;Protocol Buffers are similar to the Apache Thrift, Ion, and Microsoft Bond protocols.<br>
+What is gRPC?<br>
+&ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC)<br>
+&ensp;&ensp;gRPC is a modern, open source, high-performance remote<br>
+&ensp;&ensp;procedure call (RPC) framework that can run anywhere.<br>
+&ensp;&ensp;gRPC enables client and server applications to communicate transparently,<br>
+&ensp;&ensp;and simplifies the building of connected systems.<br>
 What is Single Pain of Glass?<br>
 &ensp;&ensp;[Single pane of glass](https://www.mitel.com/features-benefits/single-pane-of-glass) is a term used throughout the IT and management fields relating to a management tool<br>
 &ensp;&ensp;that unifies data or interfaces across several different sources and presents them in a single view.<br>
