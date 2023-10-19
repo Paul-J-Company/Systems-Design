@@ -771,6 +771,27 @@ What is Site Reliability Engineering (SRE)?<br>
 &ensp;&ensp;SRE is the practice of using software tools to automate IT infrastructure<br>
 &ensp;&ensp;tasks such as system management and application monitoring.<br>
 &ensp;&ensp;SRE teams use software as a tool to manage systems, solve problems, and automate operations tasks.<br>
+&ensp;&ensp;SRE constitutes practices aiming to enhance the reliability and availability of software systems.<br>
+&ensp;&ensp;Merging software engineering, systems engineering, and operations, SRE focuses on designing, building,<br>
+&ensp;&ensp;and maintaining large-scale, fault-tolerant systems with high reliability.<br>
+&ensp;&ensp;SRE teams collaborate with developers to ensure newly introduced features prioritize reliability.<br>
+&ensp;&ensp;A fundamental SRE principle is maximizing automation in tasks like infrastructure management, code deployment, and system monitoring.<br>
+&ensp;&ensp;SRE also diminishes the mean time to recovery (MTTR) post incidents, ensuring rapid problem resolution, thus minimizing business impact.<br>
+&ensp;&ensp;SRE vs. DevOps:<br>
+&ensp;&ensp;DevOps represents a cultural and organizational model stressing synergy between development<br>
+&ensp;&ensp;and operations units, aiming to boost software delivery speed and quality.<br>
+&ensp;&ensp;Conversely, SRE is a specialized DevOps offshoot centering on reliability.<br>
+&ensp;&ensp;Even though SRE teams liaise with both development and operations,<br>
+&ensp;&ensp;their chief objective remains system reliability, continuous uptime, and scalability.<br>
+&ensp;&ensp;Among the primary roles of an SRE team is incident management.<br>
+&ensp;&ensp;When such events arise, the SRE team quickly identifies the problem, ascertains its origin, and executes solutions.<br>
+&ensp;&ensp;SRE Roles & Responsibilities:<br>
+SRE teams are typically responsible for ensuring that systems are always up and running.<br>
+  1) Monitoring: SRE teams use monitoring tools to detect issues as soon as possible.<br>
+  2) Incident Response: SRE teams respond to incidents and work to resolve them quickly and effectively.<br>
+  3) Automation: SRE teams automate repetitive tasks to reduce the likelihood of human error.<br>
+  4) Performance Engineering: SRE teams work to ensure that systems are performing well, even in the face of high traffic volumes.<br>
+  5) Capacity Planning: SRE teams plan for future growth and ensure that systems can handle increased traffic volumes.<br>
 What is DevOps?<br>
 &ensp;&ensp;DevOps is supposed to solve the problem of siloed teams blaming each other when things go wrong.<br>
 &ensp;&ensp;DevOps is mainly a culture of communication and cross-functional collaboration.<br>
