@@ -442,8 +442,10 @@ Database Models/Types:<br>
        See: "Simularities between Object stores and key-value stores:"<br>
        See: "Differences between key-value stores and object stores:"<br>
   4) Document-Oriented Databases:<br>
-     Examples:<br>
-     Best used for:<br>
+     Examples: MongoDB, Google Firestore, DynamoDB, CouchDB<br>
+     Best used for: Most apps, Games, IoT<br>
+     Schema-less, No Normalization, Relational-ish Queries without Joins<br>
+     Not good when you have disconnected but related data that is updated often like Social Media apps.<br>
      [Document-Oriented Database](https://en.wikipedia.org/wiki/Document-oriented_database)<br>
        One of the main categories of NoSQL databases.<br>
        Document-oriented databases are inherently a subclass of the key-value store.<br>
@@ -506,7 +508,7 @@ Database Models/Types:<br>
      Examples:<br>
      Best used for: Machine Learning<br>
      [Vector Database](https://en.wikipedia.org/wiki/Vector_database)<br>
-XX) [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw)<br>
+ 99) [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw)<br>
 
 ### System Property Definitions:
 Security:<br>
