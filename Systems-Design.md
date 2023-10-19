@@ -528,6 +528,7 @@ Database Models/Types:<br>
      &ensp;&ensp;The challenge comes when you have to implement the data hub<br>
      &ensp;&ensp;and how can you harmonize all of your siloed data sources.<br>
      &ensp;&ensp;In general, we see the same use cases for a data hub as we would for a data lake:<br>
+     &ensp;&ensp;[Visualizing a Data Hub](https://www.cloverdx.com/hs-fs/hubfs/Blog_Files/DWH/data-lake--fig4.png?width=2175&name=data-lake--fig4.png)<br>
      [Data Mart](https://en.wikipedia.org/wiki/Data_mart)<br>
      [Data Store](https://en.wikipedia.org/wiki/Data_store)<br>
  12) Blockchain:<br>
