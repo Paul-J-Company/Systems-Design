@@ -200,6 +200,10 @@ What is Curse of Dimensionality?<br>
 &ensp;&ensp;The amount of data needed often grows exponentially with the dimensionality.<br>
 &ensp;&ensp;In high dimensional data, all objects appear to be sparse and dissimilar in many ways,<br>
 &ensp;&ensp;which prevents common data organization strategies from being efficient.<br>
+What are the 3 Main Storage Types?<br>
+&ensp;&ensp;1) Block Storage<br>
+&ensp;&ensp;2) Filesystem Storage<br>
+&ensp;&ensp;3) Object Storage<br>
 What is a [Database](https://en.wikipedia.org/wiki/Category:Databases)?<br>
 &ensp;&ensp;A [Database](https://en.wikipedia.org/wiki/Database) is an organized collection of data (also known as a data store)<br>
 &ensp;&ensp;stored and accessed electronically through the use of a [Database Management System (DBMS)](https://en.wikipedia.org/wiki/Database#Database_management_system).<br>
@@ -220,6 +224,8 @@ Database Models/Types:<br>
      [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)<br>
      [List of Relational Database Management Systems](https://en.wikipedia.org/wiki/List_of_relational_database_management_systems)<br>
      [Comparison of Relational Database Management Systems](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems)<br>
+     [Database Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture))<br>
+     [Shared-Nothing Architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture)<br>
   2) NoSQL Databases:<br>
      Examples:<br>
      Best used for:<br> 
