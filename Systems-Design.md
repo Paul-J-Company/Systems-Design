@@ -463,22 +463,25 @@ Database Models/Types:<br>
        A special type of NoSQL database.<br>
   6) Graph Database:<br>
      Examples: [neo4j](https://neo4j.com/blog/why-graph-databases-are-the-future), [Dgraph](https://dgraph.io/)<br>
-     Best used for:<br>
+     Best used for: Graphs, Knowledge Graphs, Recommendation Engines<br> 
      [Graph Databases](https://en.wikipedia.org/wiki/Category:Graph_databases)<br>
-  7) In-Memory Databases:<br>
+  7) Search Engine:<br>
+     Examples: Apache Lucene, Solr, ElasticSearch,<br>
+     Best used for:<br>
+  8) In-Memory Databases:<br>
      Examples:<br>
      Best used for:<br>
      [In-Memory Database](https://en.wikipedia.org/wiki/In-memory_database)<br>
      [List of In-Memory Databases](https://en.wikipedia.org/wiki/List_of_in-memory_databases)<br>
-  8) NewSQL Databases:<br>
+  9) NewSQL Databases:<br>
      Examples:<br>
      Best used for:<br>
      [NewSQL](https://en.wikipedia.org/wiki/Category:NewSQL)<br>
-  9) Blockchain:<br>
+ 10) Blockchain:<br>
      Examples:<br>
      Best used for:<br>
      [Blockchain-based Databases](https://en.wikipedia.org/wiki/Blockchain-based_database)<br>
- 10) Distributed Filesystems: aka., Network File Systems<br>
+ 11) Distributed Filesystems: aka., Network File Systems<br>
      Examples: S3, CephFS, Lustre, NFS, etc.<br>
      Best used for:<br>
      [Distributed File Systems](https://en.wikipedia.org/wiki/Category:Distributed_file_systems)<br>
@@ -489,27 +492,27 @@ Database Models/Types:<br>
        same interfaces and semantics as local files.<br>
        Distributed data stores, by contrast, require using a different API<br>
        or library and have different semantics (most often those of a database).<br>
- 11) Distributed Data Store:<br>
+ 12) Distributed Data Store:<br>
      Examples:<br>
      Best used for:<br>
      [Distributed Data Storage](https://en.wikipedia.org/wiki/Category:Distributed_data_storage)<br>
      [Distributed Data Stores](https://en.wikipedia.org/wiki/Category:Distributed_data_stores)<br>
      [Distributed Data Store](https://en.wikipedia.org/wiki/Distributed_data_store)<br>
- 12) Distribute Databases:<br>
+ 13) Distribute Databases:<br>
      Examples:<br>
      Best used for:<br>
      [Distributed Database](https://en.wikipedia.org/wiki/Distributed_database)<br>
- 13) Distributed Cache:<br>
+ 14) Distributed Cache:<br>
      Examples:<br>
      Best used for:<br>
      [Distributed Cache](https://en.wikipedia.org/wiki/Distributed_cache)<br>
      [Distributed hash Table](https://en.wikipedia.org/wiki/Distributed_hash_table)<br>
- 14) Cloud Databases:<br>
+ 15) Cloud Databases:<br>
      Examples:<br>
      Best used for:<br>
      [Cloud Storage](https://en.wikipedia.org/wiki/Category:Cloud_storage)<br>
      [Cloud Database](https://en.wikipedia.org/wiki/Category:Cloud_databases)<br>
- 15) Vector Databases:<br>
+ 16) Vector Databases:<br>
      Examples:<br>
      Best used for: Machine Learning<br>
      [Vector Database](https://en.wikipedia.org/wiki/Vector_database)<br>
