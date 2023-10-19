@@ -68,7 +68,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - People: all your employess across all of your departments: Platform Engineers/SREs/DevOps/DevSecOps/Programmers; Sales, Marketing
 + How do you make decisions regarding all of the questions below?
   - Who are your Architects/Designers?
-  - Where are their High-Level Architecture/Design Diagrams?
+  - Where are their [High-Level](https://en.wiktionary.org/wiki/grand_scheme#English) Architecture/Design Diagrams?
   - How do they strike the ***right balance*** between all the ***trade-offs*** during the [design process](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#system-design-principles-and-processes)?
   - How do they know the right questions to ask?
   - How do they define clear objectives?
