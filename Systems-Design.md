@@ -471,7 +471,7 @@ Database Models/Types:<br>
      [Database Search Engine](https://en.wikipedia.org/wiki/Database_search_engine)<br>
      [Search-Engine Database](https://aws.amazon.com/nosql/search/)<br>
   8) In-Memory Databases:<br>
-     Examples:<br>
+     Examples: Redis, <br>
      Best used for:<br>
      [In-Memory Database](https://en.wikipedia.org/wiki/In-memory_database)<br>
      [List of In-Memory Databases](https://en.wikipedia.org/wiki/List_of_in-memory_databases)<br>
@@ -479,11 +479,19 @@ Database Models/Types:<br>
      Examples:<br>
      Best used for:<br>
      [NewSQL](https://en.wikipedia.org/wiki/Category:NewSQL)<br>
- 10) Blockchain:<br>
+ 10) Time Series Databases:<br>
+     Examples:Amazon Timestream,<br>
+     Best used for:<br>
+     [Time Series Database](https://en.wikipedia.org/wiki/Time_series_database)<br>
+ 11) Blockchain:<br>
      Examples:<br>
      Best used for:<br>
      [Blockchain-based Databases](https://en.wikipedia.org/wiki/Blockchain-based_database)<br>
- 11) Distributed Filesystems: aka., Network File Systems<br>
+ 12) Data Warehouses:<br>
+     Examples: Apache Kudu<br>
+     Best used for:<br>
+     [Data Warehouses](https://en.wikipedia.org/wiki/Data_warehouse)<br>
+ 13) Distributed Filesystems: aka., Network File Systems<br>
      Examples: S3, CephFS, Lustre, NFS, etc.<br>
      Best used for:<br>
      [Distributed File Systems](https://en.wikipedia.org/wiki/Category:Distributed_file_systems)<br>
@@ -494,33 +502,34 @@ Database Models/Types:<br>
        same interfaces and semantics as local files.<br>
        Distributed data stores, by contrast, require using a different API<br>
        or library and have different semantics (most often those of a database).<br>
- 12) Distributed Data Store:<br>
+ 14) Distributed Data Store:<br>
      Examples:<br>
      Best used for:<br>
      [Distributed Data Storage](https://en.wikipedia.org/wiki/Category:Distributed_data_storage)<br>
      [Distributed Data Stores](https://en.wikipedia.org/wiki/Category:Distributed_data_stores)<br>
      [Distributed Data Store](https://en.wikipedia.org/wiki/Distributed_data_store)<br>
- 13) Distribute Databases:<br>
+ 15) Distribute Databases:<br>
      Examples:<br>
      Best used for:<br>
      [Distributed Database](https://en.wikipedia.org/wiki/Distributed_database)<br>
- 14) Distributed Cache:<br>
+ 16) Distributed Cache:<br>
      Examples:<br>
      Best used for:<br>
      [Distributed Cache](https://en.wikipedia.org/wiki/Distributed_cache)<br>
      [Distributed hash Table](https://en.wikipedia.org/wiki/Distributed_hash_table)<br>
- 15) Cloud Databases:<br>
+ 17) Cloud Databases:<br>
      Examples:<br>
      Best used for:<br>
      [Cloud Storage](https://en.wikipedia.org/wiki/Category:Cloud_storage)<br>
      [Cloud Database](https://en.wikipedia.org/wiki/Category:Cloud_databases)<br>
- 16) Vector Databases:<br>
+ 18) Vector Databases:<br>
      Examples:<br>
      Best used for: Machine Learning<br>
      [Vector Database](https://en.wikipedia.org/wiki/Vector_database)<br>
  98) Polystore: aka., Polymorphic Databases, Multi-Model Database
      Examples: TypeDB, FaunaDB, BigDAWG<br> 
-     Best used for:<br>
+     Best used for: everything<br>
+     Polystores are ACID compliant.<br>
      Polymorphic data means that in one collection you have many versions of document schema<br>
      (e.g. different field type, fields that occur in some documents etc.).<br>
      [Polystores: The Data Management Game Changer](https://thenewstack.io/polystores-the-data-management-game-changer/)<br>
@@ -1294,7 +1303,9 @@ Storage Software:<br>
 &ensp;&ensp;&ensp;&ensp;https://mayastor.gitbook.io/introduction/<br>
 &ensp;&ensp;&ensp;&ensp;https://percona.community/blog/2020/10/23/mayastor-lightning-fast-storage-for-kubernetes/<br>
 &ensp;&ensp;&ensp;&ensp;https://blocksandfiles.com/2021/03/08/intel-says-mayastor-is-fastest-open-source-storage/<br>
-&ensp;&ensp;4) RAMCloud:<br>
+&ensp;&ensp;4) Redis:<br>
+&ensp;&ensp;&ensp;&ensp;Great for streaming applications.<br>
+&ensp;&ensp;5) RAMCloud:<br>
 &ensp;&ensp;&ensp;&ensp;Great for streaming applications; very specialized; trying to get it to work with Kubernetes<br>
 &ensp;&ensp;&ensp;&ensp;To achieve low latency, RAMCloud stores all data in DRAM at all times.<br>
 &ensp;&ensp;&ensp;&ensp;https://github.com/PlatformLab/RAMCloud<br>
