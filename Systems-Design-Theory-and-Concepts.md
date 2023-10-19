@@ -139,7 +139,7 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[Application Binary Interface (ABI):](https://en.wikipedia.org/wiki/Application_binary_interface)<br>
    &ensp;&ensp;[Hardware Abstraction Layer (HAL):](https://en.wikipedia.org/wiki/Hardware_abstraction#In_operating_systems)<br>
 
-   ### The Concept of Data and its Application in Computer Science:
+### The Concept of Data and its Application in Computer Science:
 This section covers the concept of data and it's application in our main focus of<br>
 System Design, Platform Engineering, SRE, and DevOps.<br>
 What is [Data](https://en.wikipedia.org/wiki/Data)?<br>
