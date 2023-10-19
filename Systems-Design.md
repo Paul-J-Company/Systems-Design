@@ -465,9 +465,11 @@ Database Models/Types:<br>
      Examples: [neo4j](https://neo4j.com/blog/why-graph-databases-are-the-future), [Dgraph](https://dgraph.io/)<br>
      Best used for: Graphs, Knowledge Graphs, Recommendation Engines<br> 
      [Graph Databases](https://en.wikipedia.org/wiki/Category:Graph_databases)<br>
-  7) Search Engine:<br>
-     Examples: Apache Lucene, Solr, ElasticSearch,<br>
-     Best used for:<br>
+  7) Database Search Engine:<br>
+     Examples: Apache Lucene, Solr, Meilisearch, Toshi, Quickwit, AWS Elasticsearch, Algolia, Sphinx, MS Azure Cognitive Search, Arango, Virtuoso, OpenSearch<br>
+     Best used for: Search Engines, Typeahead<br>
+     [Database Search Engine](https://en.wikipedia.org/wiki/Database_search_engine)<br>
+     [Search-Engine Database](https://aws.amazon.com/nosql/search/)<br>
   8) In-Memory Databases:<br>
      Examples:<br>
      Best used for:<br>
@@ -516,6 +518,10 @@ Database Models/Types:<br>
      Examples:<br>
      Best used for: Machine Learning<br>
      [Vector Database](https://en.wikipedia.org/wiki/Vector_database)<br>
+ 98) Polymorphic Databases: aka., Multi-Model Database
+     Examples: TypeDB, FaunaDB<br> 
+     Best used for:<br>
+     [Polymorphic Databases]()<br>
  99) [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw)<br>
 
 ### System Property Definitions:
