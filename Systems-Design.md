@@ -22,7 +22,7 @@
   - Every business has Business Objectives.
   - These ***System Properties*** align with the high level business objective of ***"satisfy your customers"***.
 
-### Your System is a Stack of [Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#computer-abstractions):
+### Your System is a [Stack](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*NsNFTKROicAKdw1z.png) of [Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#computer-abstractions):
 
 * Storage/Data Layer:
 * Network Layer:
