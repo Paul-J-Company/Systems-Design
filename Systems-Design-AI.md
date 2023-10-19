@@ -29,7 +29,7 @@ in learning from large amounts of data and Platforms generate large amounts of d
 5) Use LLMs to Learn from Customer Data:<br>
    This helps your customers become more product and leads to a higher level of customer satisfaction.<br>
    
-### My AI Platform Engineering Objectives
+### My Personal AI Platform Engineering Objectives
 1) Learn how to build, train and finetune LLMs on Platform Engineering data<br>
    to assisit and hopefully outperform humans in tasks such<br>
    as incidence response, root cause analysis, and Market predictions.<br>
