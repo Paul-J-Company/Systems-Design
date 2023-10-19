@@ -274,7 +274,7 @@ Database Models/Types:<br>
      Best used for:<br>
      [NewSQL](https://en.wikipedia.org/wiki/Category:NewSQL)<br>
  10) Time Series Databases:<br>
-     Examples: Amazon Timestream,<br>
+     Examples: Amazon Timestream, [VictoriaMetrics](https://victoriametrics.com/)<br>
      Best used for: Time series data<br>
      [Time Series Database](https://en.wikipedia.org/wiki/Time_series_database)<br>
  11) Data Warehouses:<br>
