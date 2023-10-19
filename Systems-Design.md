@@ -9,7 +9,7 @@
 + Highly Available: 99.999% uptime = less than 6 minutes downtime per year
 + High Performance: maximize speed/minimize latency
 + Scalable: maximize capacity/bandwidth (take advantage of Economy of Scale)
-+ Maintainable: maximize "frictionless automation"
++ Maintainable: maximize "frictionless automation"; easy to Install, Configure, Use and Upgrade
 + Cost Effective:  minimize Capex & Opex
 + Well Documented: strive for [Great Documentation](https://www.linkedin.com/pulse/great-ation-defined-daniel-smith/); [Writing Great Documentation](https://medium.com/@episod/writing-great-documentation-44d90367115a)
   
@@ -487,8 +487,12 @@ Database Models/Types:<br>
      Examples: Apache Kudu, Amazon Redshift, Snowflake, HP Vertica, RDBMS<br>
      Best used for: read below for descriptions<br>
      [A data vault, warehouse, lake, and hub explained](https://www.cloverdx.com/blog/a-data-vault-warehouse-lake-and-hub-explained)<br>
+     [10 Amazing Tools for Data Extraction in October 2023](https://www.analyticsinsight.net/10-amazing-tools-for-data-extraction-in-october-2023/)<br>
+     &ensp;&ensp;Data extraction is the process of converting data from its source into a structured format for enhanced analysis and usability.<br>
+     &ensp;&ensp;This structured format may involve organizing data into columns and rows, making it suitable for import into database management<br>
+     &ensp;&ensp;or other programs; or organizing data to be consumed by Machine Learning Artificial Neural Networks; or any other format.<br>
+     &ensp;&ensp;[Extract, Transform, Load (ETL)](https://en.wikipedia.org/wiki/Extract,_transform,_load)<br>
      [Data Warehousing](https://en.wikipedia.org/wiki/Category:Data_warehousing)<br>
-     [Extract, Transform, Load (ETL)](https://en.wikipedia.org/wiki/Extract,_transform,_load)<br>
      [Data Warehouse](https://en.wikipedia.org/wiki/Data_warehouse)<br>
      &ensp;&ensp;A data warehouse is a large structure that gathers data from multiple sources into one single repository.<br>
      &ensp;&ensp;A data warehouse is a consolidated, structured repository for storing data assets.<br>
