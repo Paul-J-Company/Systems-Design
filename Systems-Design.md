@@ -17,7 +17,7 @@ Every business has business goals.
 
 These ***System Properties*** align with the high level business goal of ***"satisfy your customers"***.
 
-### Your System is a Stack of [Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design-Theory-and-Concepts.md#computer-abstractions):
+### Your System is a Stack of [Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#computer-abstractions):
 
 * Storage/Data Layer:
 * Network Layer:
