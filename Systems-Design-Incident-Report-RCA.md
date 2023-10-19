@@ -1,7 +1,7 @@
 
 ## Systems Design Incident Report RCA
 
-###Root Cause Analysis (RCA)
+### Root Cause Analysis (RCA)
 
 Subject: Incident Report RCA for Incident-MM.DD.YYYY-<description>.txt<br>
 Root Cause Analysis: (RCA)<br>
