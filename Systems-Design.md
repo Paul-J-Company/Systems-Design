@@ -615,13 +615,13 @@ What is Infrastructure as a Catalog (InCa)?<br>
 &ensp;&ensp;InCa aims to enhance transparency and understanding of architecture.<br>
 &ensp;&ensp;InCa ensures that all changes are auditable, reversible and thoroughly documented in Git.<br>
 What is Software Defined X (SD-X)?<br>
-&ensp;&ensp;The term software defined is related to IaC in the sense that it has to do with using **code** to manage something verses using a **GUI/Dashboard**.<br>
+&ensp;&ensp;The term Software Defined is related to IaC in the sense that it has to do with using **code** to manage something verses using a **GUI/Dashboard**.<br>
 &ensp;&ensp;The difference between IaC and SD-X is that IaC is a more general term and SD-X is usually limited to networking devices, but that's a convention.<br>
 &ensp;&ensp;Some SD terms include: SD-WAN, SD-LAN, SD-WLAN, SD-Security, etc. uggggh!!!!<br>
 What is "as a Service" (aaS)?<br>
 &ensp;&ensp;[aaS](https://en.wikipedia.org/wiki/As_a_service) is a postfix, attached to any service you can think of that is accessed via the Internet typically using a REST API over http/https.<br>
 &ensp;&ensp;The term XaaS can mean "anything as a service".<br>
-&ensp;&ensp;[Some aaS terms include:](https://www.auvik.com/franklyit/blog/aas-as-a-service-list/) SaaS, PaaS, FaaS, CaaS, ..., rediculous! Did I mention I hate buzzwords!
+&ensp;&ensp;[Some aaS terms include:](https://www.auvik.com/franklyit/blog/aas-as-a-service-list/) SaaS, PaaS, FaaS, CaaS, ..., rediculous! Did I mention I hate buzzwords!<br>
 What is Platform as a Service (PaaS)?<br>
 &ensp;&ensp;[Platform as a Service (PaaS)](https://en.wikipedia.org/wiki/Platform_as_a_service) is an abstraction over infrastructure that runs applications and hosts stacks.<br>
 &ensp;&ensp;PaaS supports custom workflows to enable teams to function efficiently.<br>
@@ -633,13 +633,14 @@ What is Platform Engineering?<br>
 &ensp;&ensp;Platform Engineering is all about accelerating software delivery efficiency and velocity.<br>
 &ensp;&ensp;Platform Engineering gives developers the tools they want to use.<br>
 What is Site Reliability Engineering (SRE)?<br>
+&ensp;&ensp;[Site Reliability Engineering: A Comprehensive Guide](https://semaphoreci.com/blog/site-reliability-engineering)<br>
 &ensp;&ensp;SRE is all about performance and application/system reliability.<br>
 &ensp;&ensp;SRE is the practice of using software tools to automate IT infrastructure<br>
 &ensp;&ensp;tasks such as system management and application monitoring.<br>
 &ensp;&ensp;SRE teams use software as a tool to manage systems, solve problems, and automate operations tasks.<br>
 &ensp;&ensp;SRE constitutes practices aiming to enhance the reliability and availability of software systems.<br>
-&ensp;&ensp;Merging software engineering, systems engineering, and operations, SRE focuses on designing, building,<br>
-&ensp;&ensp;and maintaining large-scale, fault-tolerant systems with high reliability.<br>
+&ensp;&ensp;Merging software engineering, systems engineering, and operations,<br>
+&ensp;&ensp;SRE focuses on designing, building, and maintaining large-scale, fault-tolerant systems with high reliability.<br>
 &ensp;&ensp;SRE teams collaborate with developers to ensure newly introduced features prioritize reliability.<br>
 &ensp;&ensp;A fundamental SRE principle is maximizing automation in tasks like infrastructure management, code deployment, and system monitoring.<br>
 &ensp;&ensp;SRE also diminishes the mean time to recovery (MTTR) post incidents, ensuring rapid problem resolution, thus minimizing business impact.<br>
