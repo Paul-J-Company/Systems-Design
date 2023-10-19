@@ -484,9 +484,15 @@ Database Models/Types:<br>
      Best used for:<br>
      [Time Series Database](https://en.wikipedia.org/wiki/Time_series_database)<br>
  11) Data Warehouses:<br>
-     Examples: Apache Kudu<br>
+     Examples: Apache Kudu, Amazon Redshift<br>
      Best used for:<br>
+     [A data vault, warehouse, lake, and hub explained](https://www.cloverdx.com/blog/a-data-vault-warehouse-lake-and-hub-explained)<br>
      [Data Warehouses](https://en.wikipedia.org/wiki/Data_warehouse)<br>
+     [Data Warehousing:](https://en.wikipedia.org/wiki/Category:Data_warehousing)<br>
+     [Data Vault:](https://en.wikipedia.org/wiki/Data_vault)<br>
+     [Data Lake:](https://en.wikipedia.org/wiki/Data_lake)<br>
+     [Data Hub:](https://en.wikipedia.org/wiki/Data_hub)<br>
+     [Data Store:](https://en.wikipedia.org/wiki/Data_store)<br>
      [Extract, Transform, Load (ETL)](https://en.wikipedia.org/wiki/Extract,_transform,_load)<br>
  12) Blockchain:<br>
      Examples:<br>
