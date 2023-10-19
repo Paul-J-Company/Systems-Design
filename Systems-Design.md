@@ -90,7 +90,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - In person Meetings, Email, Mailing Lists, Chat, Slack, Discord, Mastadon, IRC; Video: Office365, MSTeams, Zoom, WebEx, GoToMeeting?
   - Every Week, Daily (15 min scrum), every Month, Never?
 + What Environment/Platform does your workload run?
-  - OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid Cloud; Private Cloud, Public Cloud
+  - [OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid Cloud; Private Cloud, Public Cloud](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Topics.md#it-industry-definitionsbuzzwords)?
   - Bare Metal, VMs, Containers, Mixture of All of them?
   - Cloud Agnostic/Cloud Native?
   - Self-Hosted/Fully Managed?
