@@ -205,10 +205,10 @@ What is Cloud Computing, OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid 
 &ensp;&ensp;[OnPrem](https://en.wikipedia.org/wiki/On-premises_software) [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Cloud-Based]() [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Cloud Native](https://en.wikipedia.org/wiki/Cloud-native_computing) [[1]()], [[2]()], [[3]()]<br>
-&ensp;&ensp;[Multi-Cloud](https://en.wikipedia.org/wiki/Multicloud) [[1]()], [[2]()], [[3]()]<br>
-&ensp;&ensp;[Hybrid Cloud](https://en.wikipedia.org/wiki/Cloud_computing#Hybrid_cloud) [[1](https://en.wikipedia.org/wiki/Cloud_computing#Hybrid)], [[2]()], [[3]()]<br>
-&ensp;&ensp;[Private Cloud](https://en.wikipedia.org/wiki/Cloud_computing#Private_cloud) [[1]()], [[2]()], [[3]()]<br>
-&ensp;&ensp;[Public Cloud](https://en.wikipedia.org/wiki/Cloud_computing#Public_cloud) [[1]()], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Multi-Cloud](https://en.wikipedia.org/wiki/Multicloud) [[1](https://www.cloudflare.com/learning/cloud/what-is-multicloud/)], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Hybrid Cloud](https://en.wikipedia.org/wiki/Cloud_computing#Hybrid_cloud) [[1](https://en.wikipedia.org/wiki/Cloud_computing#Hybrid)], [[2](https://www.cloudflare.com/learning/cloud/what-is-hybrid-cloud/)], [[3](https://www.youtube.com/watch?v=sUoeVhbp4cQ&list=PLOspHqNVtKABPTyvxoNW0e4XSgCNdZ40F)]<br>
+&ensp;&ensp;[Private Cloud](https://en.wikipedia.org/wiki/Cloud_computing#Private_cloud) [[1](https://www.cloudflare.com/learning/cloud/what-is-a-private-cloud/)], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Public Cloud](https://en.wikipedia.org/wiki/Cloud_computing#Public_cloud) [[1](https://www.cloudflare.com/learning/cloud/what-is-a-public-cloud/)], [[2]()], [[3]()]<br>
 What is Bare Metal, VMs, Containers?<br>
 &ensp;&ensp;[Bare Metal]() [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[VMs]() [[1]()], [[2]()], [[3]()]<br>
