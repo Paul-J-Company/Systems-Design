@@ -200,14 +200,15 @@ What is a Data Center?<br>
 &ensp;&ensp;As if that wasn't bad enough, each kilowatt-hour of energy requires two gallons of water to cool it.<br>
 &ensp;&ensp;So for 2023 alone, that equates to some 250,000 Olympic-size swimming pools of water.<br>
 &ensp;&ensp;[2023 Global Data Center Trends](https://www.cbre.com/insights/reports/global-data-center-trends-2023): Northern Virginia remains the world's largest data center market with 2,132 MW of total inventory.<br>
-What is OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid Cloud; Private Cloud, Public Cloud<br>
-&ensp;&ensp;[OnPrem]() [[1]()], [[2]()], [[3]()]<br>
+What is Cloud Computing, OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid Cloud; Private Cloud, Public Cloud<br>
+&ensp;&ensp;[Cloud-Computing Comparison](https://en.wikipedia.org/wiki/Cloud-computing_comparison) [[1](https://www.cloudflare.com/learning/cloud/what-is-the-cloud/)], [[2]()], [[3]()]<br>
+&ensp;&ensp;[OnPrem](https://en.wikipedia.org/wiki/On-premises_software) [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Cloud-Based]() [[1]()], [[2]()], [[3]()]<br>
-&ensp;&ensp;[Cloud Native]() [[1]()], [[2]()], [[3]()]<br>
-&ensp;&ensp;[Multi-Cloud]() [[1]()], [[2]()], [[3]()]<br>
-&ensp;&ensp;[Hybrid Cloud]() [[1]()], [[2]()], [[3]()]<br>
-&ensp;&ensp;[Private Cloud]() [[1]()], [[2]()], [[3]()]<br>
-&ensp;&ensp;[Public Cloud]() [[1]()], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Cloud Native](https://en.wikipedia.org/wiki/Cloud-native_computing) [[1]()], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Multi-Cloud](https://en.wikipedia.org/wiki/Multicloud) [[1]()], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Hybrid Cloud](https://en.wikipedia.org/wiki/Cloud_computing#Hybrid_cloud) [[1](https://en.wikipedia.org/wiki/Cloud_computing#Hybrid)], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Private Cloud](https://en.wikipedia.org/wiki/Cloud_computing#Private_cloud) [[1]()], [[2]()], [[3]()]<br>
+&ensp;&ensp;[Public Cloud](https://en.wikipedia.org/wiki/Cloud_computing#Public_cloud) [[1]()], [[2]()], [[3]()]<br>
 What is Bare Metal, VMs, Containers?<br>
 &ensp;&ensp;[Bare Metal]() [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[VMs]() [[1]()], [[2]()], [[3]()]<br>
