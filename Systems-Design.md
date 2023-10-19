@@ -483,14 +483,15 @@ Database Models/Types:<br>
      Examples:Amazon Timestream,<br>
      Best used for:<br>
      [Time Series Database](https://en.wikipedia.org/wiki/Time_series_database)<br>
- 11) Blockchain:<br>
-     Examples:<br>
-     Best used for:<br>
-     [Blockchain-based Databases](https://en.wikipedia.org/wiki/Blockchain-based_database)<br>
- 12) Data Warehouses:<br>
+ 11) Data Warehouses:<br>
      Examples: Apache Kudu<br>
      Best used for:<br>
      [Data Warehouses](https://en.wikipedia.org/wiki/Data_warehouse)<br>
+     [Extract, Transform, Load (ETL)](https://en.wikipedia.org/wiki/Extract,_transform,_load)<br>
+ 12) Blockchain:<br>
+     Examples:<br>
+     Best used for:<br>
+     [Blockchain-based Databases](https://en.wikipedia.org/wiki/Blockchain-based_database)<br>
  13) Distributed Filesystems: aka., Network File Systems<br>
      Examples: S3, CephFS, Lustre, NFS, etc.<br>
      Best used for:<br>
