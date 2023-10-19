@@ -1,4 +1,4 @@
-##Theory and Concepts that will make you a better Systems Designer
+## Theory and Concepts that will make you a better Systems Designer
 
 ### General Abstractions:
 An [Abstraction](https://en.wikipedia.org/wiki/Abstraction) is hiding complexity and/or [hiding information](https://en.wikipedia.org/wiki/Information_hiding).<br>
