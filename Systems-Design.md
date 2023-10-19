@@ -490,6 +490,7 @@ Database Models/Types:<br>
      [Data Warehousing](https://en.wikipedia.org/wiki/Category:Data_warehousing)<br>
      [Extract, Transform, Load (ETL)](https://en.wikipedia.org/wiki/Extract,_transform,_load)<br>
      [Data Warehouse](https://en.wikipedia.org/wiki/Data_warehouse)<br>
+     &ensp;&ensp;A data warehouse is a large structure that gathers data from multiple sources into one single repository.<br>
      &ensp;&ensp;A data warehouse is a consolidated, structured repository for storing data assets.<br>
      &ensp;&ensp;Data warehouses will store data in one of two ways: Star Schema or 3NF,<br>
      &ensp;&ensp;but these are only fundamental principles in how you store your data model.<br>
@@ -497,6 +498,13 @@ Database Models/Types:<br>
      &ensp;&ensp;How many users are visiting my product pages from North America?<br>
      &ensp;&ensp;[Visualizing a Datawarehouse with ETL](https://www.cloverdx.com/hs-fs/hubfs/Blog_Files/DWH/data-lake--fig1.png?width=2175&name=data-lake--fig1.png)<br>
      &ensp;&ensp;[Visualizing a Datawarehouse](https://www.cloverdx.com/hs-fs/hubfs/Blog_Files/DWH/data-lake--fig2.png?width=2175&name=data-lake--fig2.png)<br>
+     [Data Mart](https://en.wikipedia.org/wiki/Data_mart)<br>
+     [What is a data mart?](https://www.cloverdx.com/blog/what-is-a-data-mart)<br>
+     &ensp;&ensp;A data mart is a smaller, specified data warehouse that focuses on one function or line of business.<br>
+     &ensp;&ensp;This makes it much easier for departments to find the data that’s important to them.<br>
+     &ensp;&ensp;These data marts are only accessible to groups within those business functions.<br>
+     &ensp;&ensp;For example, a marketing manager can access a marketing-specific data mart,<br>
+     &ensp;&ensp;but they wouldn't be able to view its financial counterpart.<br>
      [Data Vault](https://en.wikipedia.org/wiki/Data_vault)<br>
      &ensp;&ensp;A data vault is a system made up of a model, methodology and architecture<br>
      &ensp;&ensp;that is specifically designed to solve a complete business problem as requirements change.<br>
@@ -529,14 +537,11 @@ Database Models/Types:<br>
      &ensp;&ensp;and how can you harmonize all of your siloed data sources.<br>
      &ensp;&ensp;In general, we see the same use cases for a data hub as we would for a data lake:<br>
      &ensp;&ensp;[Visualizing a Data Hub](https://www.cloverdx.com/hs-fs/hubfs/Blog_Files/DWH/data-lake--fig4.png?width=2175&name=data-lake--fig4.png)<br>
-     [Data Mart](https://en.wikipedia.org/wiki/Data_mart)<br>
-     [What is a data mart?](https://www.cloverdx.com/blog/what-is-a-data-mart)<br>
-     &ensp;&ensp;A data mart is a smaller, specified data warehouse that focuses on one function or line of business.<br>
-     &ensp;&ensp;This makes it much easier for departments to find the data that’s important to them.<br>
-     &ensp;&ensp;These data marts are only accessible to groups within those business functions.<br>
-     &ensp;&ensp;For example, a marketing manager can access a marketing-specific data mart,<br>
-     &ensp;&ensp;but they wouldn't be able to view its financial counterpart.<br>
      [Data Store](https://en.wikipedia.org/wiki/Data_store)<br>
+     [What is an Operational Data Store (ODS)](https://www.cloverdx.com/blog/what-is-an-operational-data-store)<br>
+     &ensp;&ensp;An operational data store (ODS) houses and processes transactional data in real-time.<br>
+     &ensp;&ensp;ODSes collate current data from various source systems to provide a snapshot of your business at one point in time.<br>
+     &ensp;&ensp;You can use the data inside for day-to-day data processing tasks, such as reporting and analysis.<br>
  12) Blockchain:<br>
      Examples:<br>
      Best used for:<br>
