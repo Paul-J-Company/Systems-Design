@@ -66,7 +66,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - System: the collection of components (hardware,software,people) that interact together to implement your Platform.
   - [Workload:](https://en.wikipedia.org/wiki/Workload) the main application your customers interact with (aka., your "Product and/or Service").
   - People: all your employess across all of your departments: Platform Engineers/SREs/DevOps/DevSecOps/Programmers; Sales, Marketing
-  - [High-Level]() typically means [Grand Scheme](https://en.wiktionary.org/wiki/grand_scheme#English) and is sometimes referred to as [The Big Picture]() or [The ]().
+  - [High-Level](https://en.wikipedia.org/wiki/High-level_design) typically means [Grand Scheme](https://en.wiktionary.org/wiki/grand_scheme#English) and is sometimes referred to as [The Big Picture](https://www.linkedin.com/pulse/its-30000-foot-view-objective-big-picture-luis-a-ramirez-mba-mir/) or [The 30,000-foot view](https://nanoglobals.com/glossary/30000-foot-view/).
 + How do you make decisions regarding all of the questions below?
   - Who are your Architects/Designers?
   - Where are their [High-Level](https://en.wikipedia.org/wiki/High-level_design) Architecture/Design Diagrams?
