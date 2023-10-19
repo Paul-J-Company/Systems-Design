@@ -52,9 +52,8 @@ Don't let complexity creep in.<br>
 ### So where do you begin?
 
 It always starts with understanding your [workload](https://en.wikipedia.org/wiki/Workload).<br>
-
+Your [workload](https://en.wikipedia.org/wiki/Workload) is the main application your customers interact with (aka., your "Product and/or Service").<br>
 You can't make the ***"best choices"*** without understanding your [workload](https://en.wikipedia.org/wiki/Workload) intimately and ***testing*** it thoroughly.<br>
-
 Starting from a blank slate is different than inheriting an existing system infrastructure.<br>
 
 ### Here are some System Design questions to get you started:
