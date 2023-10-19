@@ -559,7 +559,7 @@ Database Models/Types:<br>
        Distributed data stores, by contrast, require using a different API<br>
        or library and have different semantics (most often those of a database).<br>
  14) Distributed Data Store:<br>
-     Examples:<br>
+     Examples: CockroachDB, Amazon Neptune, Apache Cassandra, Apache HBase, Apache Kudu, Bigtable, ClickHouse<br>
      Best used for:<br>
      [Distributed Data Storage](https://en.wikipedia.org/wiki/Category:Distributed_data_storage)<br>
      [Distributed Data Stores](https://en.wikipedia.org/wiki/Category:Distributed_data_stores)<br>
