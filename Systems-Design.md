@@ -113,7 +113,7 @@ Starting from a blank slate is different than inheriting an existing system infr
   - What are the results of your Network capacity planning?
   - What Network Tools do you use?
     - RANCID, Netcat, Netbox, iperf
-+ What is your Storage/Data Design?
++ What is your [Storage/Database/Data Design](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#the-concept-of-data-and-its-application-in-computer-science)?
   - Where are your High-level Storage/Data Architecture/Design Diagrams?
   - Data Lake, Wherehouse, Data Catalog
   - Relational, NoSQL, Document Oriented, Graph DB
