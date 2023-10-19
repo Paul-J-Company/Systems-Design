@@ -208,14 +208,14 @@ What is OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid Cloud; Private Cl
 &ensp;&ensp;[Hybrid Cloud]() [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Private Cloud]() [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Public Cloud]() [[1]()], [[2]()], [[3]()]<br>
-What is Bare Metal, VMs, Containers?
+What is Bare Metal, VMs, Containers?<br>
 &ensp;&ensp;[Bare Metal]() [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[VMs]() [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Containers]() [[1]()], [[2]()], [[3]()]<br>
-What is Cloud Agnostic and Cloud Native?
+What is Cloud Agnostic and Cloud Native?<br>
 &ensp;&ensp;[Cloud Agnostic]() [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Cloud Native]() [[1]()], [[2]()], [[3]()]<br>
-What is Self-Hosted and Fully Managed?
+What is Self-Hosted and Fully Managed?<br>
 &ensp;&ensp;[Self-Hosted]() [[1]()], [[2]()], [[3]()]
 &ensp;&ensp;[Fully Managed]() [[1]()], [[2]()], [[3]()]
 What is Infrastructure as Code (IaC)?<br>
