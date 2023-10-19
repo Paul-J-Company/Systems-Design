@@ -504,6 +504,18 @@ Database Models/Types:<br>
      &ensp;&ensp;Used to give an audit trail and other scenarios where you need current and historical data.<br>
      &ensp;&ensp;[Visualizing a Data Vault](https://www.cloverdx.com/hs-fs/hubfs/Blog_Files/DWH/data-lake--fig5.png?width=2175&name=data-lake--fig5.png)<br>
      [Data Lake](https://en.wikipedia.org/wiki/Data_lake)<br>
+     &ensp;&ensp;A data lake is a term that represents a methodology<br>
+     &ensp;&ensp;of storing raw data in a single repository.<br>
+     &ensp;&ensp;The type of data that's stored in the lake does not matter<br>
+     &ensp;&ensp;and could be unstructured, structured, semi-structured, or binary.<br> 
+     &ensp;&ensp;The fundamental idea for a data lake is to make available any/all data<br>
+     &ensp;&ensp;from applications so your data team can provide insights on a business<br>
+     &ensp;&ensp;problem or value proposition.<br>
+     &ensp;&ensp;How do you know what data you need and what data you don't need?<br>
+     &ensp;&ensp;How do you determine where the data resides in the lake?<br>
+     &ensp;&ensp;Data lakes are typically used for:<br>
+     &ensp;&ensp;reporting, visualization, analytics, and machine learning.<br>
+     &ensp;&ensp;[Visualizing a Data Lake](https://www.cloverdx.com/hs-fs/hubfs/Blog_Files/DWH/data-lake--fig3.png?width=2175&name=data-lake--fig3.png)<br>
      [Data Hub](https://en.wikipedia.org/wiki/Data_hub)<br>
      [Data Mart](https://en.wikipedia.org/wiki/Data_mart)<br>
      [Data Store](https://en.wikipedia.org/wiki/Data_store)<br>
