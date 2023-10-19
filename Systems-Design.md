@@ -530,6 +530,12 @@ Database Models/Types:<br>
      &ensp;&ensp;In general, we see the same use cases for a data hub as we would for a data lake:<br>
      &ensp;&ensp;[Visualizing a Data Hub](https://www.cloverdx.com/hs-fs/hubfs/Blog_Files/DWH/data-lake--fig4.png?width=2175&name=data-lake--fig4.png)<br>
      [Data Mart](https://en.wikipedia.org/wiki/Data_mart)<br>
+     [What is a data mart?](https://www.cloverdx.com/blog/what-is-a-data-mart)<br>
+     &ensp;&ensp;A data mart is a smaller, specified data warehouse that focuses on one function or line of business.<br>
+     &ensp;&ensp;This makes it much easier for departments to find the data that’s important to them.<br>
+     &ensp;&ensp;These data marts are only accessible to groups within those business functions.<br>
+     &ensp;&ensp;For example, a marketing manager can access a marketing-specific data mart,<br>
+     &ensp;&ensp;but they wouldn't be able to view its financial counterpart.<br>
      [Data Store](https://en.wikipedia.org/wiki/Data_store)<br>
  12) Blockchain:<br>
      Examples:<br>
