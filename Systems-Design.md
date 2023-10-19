@@ -490,6 +490,12 @@ Database Models/Types:<br>
      [Data Warehouses](https://en.wikipedia.org/wiki/Data_warehouse)<br>
      [Data Warehousing](https://en.wikipedia.org/wiki/Category:Data_warehousing)<br>
      [Data Vault](https://en.wikipedia.org/wiki/Data_vault)<br>
+       A data vault is a system made up of a model, methodology and architecture<br>
+       that is specifically designed to solve a complete business problem as requirements change.<br>
+       A dynamic solution that gives business users access to all data (current and historical).<br>
+       Used to give an audit trail and other scenarios where you need current and historical data.<br>
+       [Visualizing a Data Vault](https://www.cloverdx.com/hs-fs/hubfs/Blog_Files/DWH/data-lake--fig5.png?width=2175&name=data-lake--fig5.png)<br>
+
      [Data Lake](https://en.wikipedia.org/wiki/Data_lake)<br>
      [Data Hub](https://en.wikipedia.org/wiki/Data_hub)<br>
      [Data Mart](https://en.wikipedia.org/wiki/Data_mart)<br>
