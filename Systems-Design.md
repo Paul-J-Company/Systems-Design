@@ -105,11 +105,11 @@ Starting from a blank slate is different than inheriting an existing system infr
     - Azure has over [295 Cloud Services spanning 21 Categories](https://azure.microsoft.com/en-us/products/) 
 + What is your Disaster Recovery Plan (DRP)?
   - How often to you practice your DRP?
-  - How do you Failover your workload?
+  - How do you [Failover](https://en.wikipedia.org/wiki/Failover) your workload?
   - What are your Incidence Response and Root Cause Analysis (RCA) procedures.
 + What is your Network Design?
   - Where are your High-Level Network Architecture/Design Diagrams?
-  - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, Redfish, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; Failover, Redundancy
+  - Describes your Network: Traffic Ingress/Egress, Routers, Switches, Firewalls, Load Balancers, API Gateways, iPXE, Redfish, NTP/PPT, DNS, DHCP, BGP (eBGP,iBGP), OSPF; CDNs, Edge Networking; [Failover](https://en.wikipedia.org/wiki/Failover), Redundancy
   - What are the results of your Network capacity planning?
   - What Network Tools do you use?
     - RANCID, Netcat, Netbox, iperf
@@ -241,8 +241,8 @@ Optimization:<br>
 
 High Availability (HA):<br>
 &ensp;&ensp;High Availability is a Full Stack endeavor.<br>
-&ensp;&ensp;High Availability is about adding redundancy which eliminates all single points of failure.<br>
-&ensp;&ensp;HA increases resiliency because the system avoids failures by eliminating single points of failure.<br>
+&ensp;&ensp;High Availability is about adding redundancy which eliminates all [single points of failure](Single point of failure).<br>
+&ensp;&ensp;HA increases resiliency because the system avoids failures by eliminating [single points of failure](Single point of failure).<br>
 &ensp;&ensp;HA increases Capex because you have to buy more equipment,<br>
 &ensp;&ensp;and increases Opex because there is more equipment to power, cool, and maintain<br>
 &ensp;&ensp;and a more complex configuration and interactions among the equipment.<br>
@@ -264,7 +264,7 @@ High Availability (HA):<br>
 &ensp;&ensp;&ensp;&ensp;Active-Active can handle higher capacity than Active-Passive for obvious reasons.<br>
 &ensp;&ensp;&ensp;&ensp;Another advantage of active-active is that you're always exercising both devices<br>
 &ensp;&ensp;&ensp;&ensp;so you know they both work. In a hot-standby scenario the secondary device is just<br>
-&ensp;&ensp;&ensp;&ensp;sitting there waiting to handle traffic, so when things failover there's a non-zero<br>
+&ensp;&ensp;&ensp;&ensp;sitting there waiting to handle traffic, so when things [failover](https://en.wikipedia.org/wiki/Failover) there's a non-zero<br>
 &ensp;&ensp;&ensp;&ensp;probability that the device will fail because you haven't been using it.<br>
 &ensp;&ensp;&ensp;&ensp;Is the hot-standby configuration right? Is it having hardware issues?<br>
 &ensp;&ensp;2) Active-Passive: aka., Hot Standby<br>
@@ -272,7 +272,7 @@ High Availability (HA):<br>
 &ensp;&ensp;&ensp;&ensp;so when a failure happens there is no loss of service.<br>
 &ensp;&ensp;&ensp;&ensp;If you're going to configure each device at 100% capacity<br>
 &ensp;&ensp;&ensp;&ensp;you might as well do an active-active configuration.<br>
-&ensp;&ensp;&ensp;&ensp;In a active-passive scenario you must schedule regular failovers<br>
+&ensp;&ensp;&ensp;&ensp;In a active-passive scenario you must schedule regular [failovers](https://en.wikipedia.org/wiki/Failover)<br>
 &ensp;&ensp;&ensp;&ensp;to verify the hot-standby device is working properly.<br>
 
 ### System Design Principles and Processes
@@ -295,7 +295,7 @@ High Availability (HA):<br>
 3) Design is about making tradeoffs and compromises at all levels of your System.<br>
    e.g., Security vs. Convenience, Capex vs. Opex, etc.<br>
    Design is a Full Stack endeavor.<br>
-   Identify all the trade-offs, bottlenecks and single points of failure.<br>
+   Identify all the trade-offs, bottlenecks and [single points of failure](Single point of failure).<br>
    Have a broad knowledge of alternative technologies.<br>
    Ask many counter questions:<br>
    &ensp;&ensp;How many daily users?<br>
