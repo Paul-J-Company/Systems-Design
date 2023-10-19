@@ -9,7 +9,13 @@
 + Highly Available: 99.999% uptime = less than 6 minutes downtime per year
 + High Performance: maximize speed/minimize latency
 + Scalable: maximize capacity/bandwidth (take advantage of Economy of Scale)
-+ Maintainable: maximize "frictionless automation"; easy to Install, Configure, Use and Upgrade; Simple: easy to learn/understand; Sustainable: the capacity to maintain or improve the state and availability of something desirable; Predictable: no surprises or unforseen side-e-effects; Flexible: easy to change and adapt; Extensible: easy to add features
++ Maintainable:<br>
+  - Maximize "[frictionless automation]()".<br>
+  - Easy to Install, Configure, Use and Upgrade.<br>
+  - Simple: easy to learn and understand.<br>
+  - Sustainable: the capacity to maintain or improve the state and availability of something desirable.<br>
+  - Predictable: no surprises or unforseen side-e-effects.<br>
+  - Flexible: easy to change and adapt; Extensible: easy to add features.<br>
 + Cost Effective:  minimize Capex & Opex
 + Well Documented: strive for [Great Documentation](https://www.linkedin.com/pulse/great-ation-defined-daniel-smith/); [Writing Great Documentation](https://medium.com/@episod/writing-great-documentation-44d90367115a)
   
