@@ -498,6 +498,7 @@ Database Models/Types:<br>
      Examples:<br>
      Best used for:<br>
      [Blockchain-based Databases](https://en.wikipedia.org/wiki/Blockchain-based_database)<br>
+     [Distributed Ledger](https://en.wikipedia.org/wiki/Distributed_ledger)<br>
  13) Distributed Filesystems: aka., Network File Systems<br>
      Examples: S3, CephFS, Lustre, NFS, etc.<br>
      Best used for:<br>
