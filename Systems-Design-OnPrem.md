@@ -17,6 +17,13 @@ Data Center Performance Tuning:<br>
 &ensp;&ensp;[Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers) [[1]](https://protobuf.dev/overview/) [[2]](https://github.com/protocolbuffers/protobuf)<br>
 &ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC) [[1]](https://github.com/grpc/grpc) [[2]](https://grpc.io/docs/what-is-grpc/introduction/)<br>
 Pick at least 3 Data Centers: (for redundancy)<br>
+My Favorite 6 Data Centers:
+&ensp;&ensp;1) [PheonixNAP](https://phoenixnap.com/)<br>
+&ensp;&ensp;2) []()<br>
+&ensp;&ensp;3) []()<br>
+&ensp;&ensp;4) []()<br>
+&ensp;&ensp;5) []()<br>
+&ensp;&ensp;6) []()<br>
 &ensp;&ensp;Purchase equipment (routers, switches, servers, loadbalancers, Firewalls, etc.).<br>
 &ensp;&ensp;Ship Equipment to Data Centers.<br>
 &ensp;&ensp;Rack and Cable all the equipment: Power, Network, Out-of-band Access: [IPMI:](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface) [Dell iDRAC](https://en.wikipedia.org/wiki/Dell_DRAC), [HP iLO](https://en.wikipedia.org/wiki/HP_Integrated_Lights-Out), etc.<br>
