@@ -27,7 +27,7 @@ Pick at least 3 Data Centers: (for redundancy)<br>
 &ensp;&ensp;Make Money!<br>
 Aquire and Configure all non-hardware Internet Related Resources to get you up and running.<br>
 &ensp;&ensp;This short list includes:<br>
-&ensp;&ensp;aquiring an ASN, CIDR Blocks, establishing BGP Peering, configure BGP [Anycast](https://en.wikipedia.org/wiki/Anycast), create and implement WAN design<br>
+&ensp;&ensp;aquiring an ASN, [CIDR Blocks](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing), establishing BGP Peering, configure BGP [Anycast](https://en.wikipedia.org/wiki/Anycast), create and implement WAN design<br>
 &ensp;&ensp;Again, the details of doing even this short list took me 30+ years to perfect.<br>
 &ensp;&ensp;Network Engineering is a complete field of study on to itself.<br>
 Aquire [ASN](https://en.wikipedia.org/wiki/Autonomous_system_(Internet)) from [ARIN](https://en.wikipedia.org/wiki/American_Registry_for_Internet_Numbers):<br>
@@ -39,7 +39,7 @@ Aquire [ASN](https://en.wikipedia.org/wiki/Autonomous_system_(Internet)) from [A
 &ensp;&ensp;https://mxtoolbox.com/asn.aspx<br>
 &ensp;&ensp;http://navigators.com/isp.html<br>
 &ensp;&ensp;https://www.peeringdb.com/<br>
-  Aquire from ARIN IP CIDR Block/Addresses (IPv4 or IPv6) - IPv6 is preferred!<br>
+  Aquire from [ARIN](https://en.wikipedia.org/wiki/American_Registry_for_Internet_Numbers) IP [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) Block/Addresses (IPv4 or IPv6) - IPv6 is preferred!<br>
 &ensp;&ensp;https://www.youtube.com/watch?v=nCm6bLPh-Pw#t=00h00m00s?=#- Using Your ARIN Online Account - Requesting IP Address Space<br>
 &ensp;&ensp;https://www.arin.net/resources/guide/request/<br>
 &ensp;&ensp;https://www.arin.net/resources/guide/ipv4/request/<br>
