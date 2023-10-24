@@ -13,6 +13,9 @@ Introduction:<br>
 Data Center Performance Tuning:<br>
 &ensp;&ensp;[]()<br>
 &ensp;&ensp;[TCP Offload Engine (TOE)](https://en.wikipedia.org/wiki/TCP_offload_engine)<br>
+&ensp;&ensp;[eBPF](https://en.wikipedia.org/wiki/EBPF) [[1]](https://ebpf.io/)<br>
+&ensp;&ensp;[Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers) [[1]](https://protobuf.dev/overview/) [[2]](https://github.com/protocolbuffers/protobuf)<br>
+&ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC) [[1]](https://github.com/grpc/grpc) [[2]](https://grpc.io/docs/what-is-grpc/introduction/)<br>
 Pick at least 3 Data Centers: (for redundancy)<br>
 &ensp;&ensp;Purchase equipment (routers, switches, servers, loadbalancers, Firewalls, etc.).<br>
 &ensp;&ensp;Ship Equipment to Data Centers.<br>
