@@ -19,10 +19,10 @@ Data Center Performance Tuning:<br>
 Pick at least 3 Data Centers: (for redundancy)<br>
 &ensp;&ensp;My Favorite 6 Data Centers:<br>
 &ensp;&ensp;&ensp;&ensp;1) [PheonixNAP](https://phoenixnap.com/)<br>
-&ensp;&ensp;&ensp;&ensp;2) [SwitchNAP - Tahoe](https://www.switch.com/tahoe-reno/) [[1]](click video link)<br>
-&ensp;&ensp;&ensp;&ensp;3) [SwitchNAP - Las Vegas](https://www.switch.com/las-vegas/) [[1]](https://www.switch.com/locations/) [[2]](click video link)<br>
-&ensp;&ensp;&ensp;&ensp;4) [SwitchNAP - Grand Rapids](https://www.switch.com/grand-rapids/) [[1]](click video link)<br>
-&ensp;&ensp;&ensp;&ensp;5) [SwitchNAP - Atlanta](https://www.switch.com/atlanta/) [[1]](click video link)<br>
+&ensp;&ensp;&ensp;&ensp;2) [SwitchNAP - Tahoe](https://www.switch.com/tahoe-reno/)<br>
+&ensp;&ensp;&ensp;&ensp;3) [SwitchNAP - Las Vegas](https://www.switch.com/las-vegas/) [[1]](https://www.switch.com/locations/)<br>
+&ensp;&ensp;&ensp;&ensp;4) [SwitchNAP - Grand Rapids](https://www.switch.com/grand-rapids/)<br>
+&ensp;&ensp;&ensp;&ensp;5) [SwitchNAP - Atlanta](https://www.switch.com/atlanta/)<br>
 &ensp;&ensp;&ensp;&ensp;6) [SwitchNAP - Austin](https://www.switch.com/switch-announces-fifth-prime-expansion-with-development-of-exascale-data-center-campus-in-texas/)<br>
 &ensp;&ensp;Purchase equipment (routers, switches, servers, loadbalancers, Firewalls, etc.).<br>
 &ensp;&ensp;Ship Equipment to Data Centers.<br>
