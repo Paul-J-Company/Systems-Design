@@ -106,7 +106,7 @@ There are 3 Major Types of Computer Abstraction:<br>
    &ensp;&ensp;[NIC - eth0](https://en.wikipedia.org/wiki/Network_interface_controller)<br>
    &ensp;&ensp;[Loopback](https://en.wikipedia.org/wiki/Loopback) [[1]](https://en.wikipedia.org/wiki/Loopback#LOOPBACK-INTERFACE)<br>
    &ensp;&ensp;[Localhost](https://en.wikipedia.org/wiki/Localhost)<br>
-   &ensp;&ensp;[VNI](https://en.wikipedia.org/wiki/Virtual_network_interface)<br>
+   &ensp;&ensp;[Virtual Network Interface (VNI)](https://en.wikipedia.org/wiki/Virtual_network_interface)<br>
    &ensp;&ensp;[Virtual Routing and Forwarding (VRF)](https://en.wikipedia.org/wiki/Virtual_routing_and_forwarding)<br>
    &ensp;&ensp;[Virtual LAN (VLAN)](https://en.wikipedia.org/wiki/VLAN)<br>
    &ensp;&ensp;[Virtual Private Network (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network) aka., Tunnel<br>
