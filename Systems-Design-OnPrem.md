@@ -19,6 +19,17 @@ Data Center Concerns and Issues:<br>
 &ensp;&ensp;As if that wasn't bad enough, each kilowatt-hour of energy requires two gallons of water to cool it.<br>
 &ensp;&ensp;So for 2023 alone, that equates to some 250,000 Olympic-size swimming pools of water.<br>
 &ensp;&ensp;[2023 Global Data Center Trends](https://www.cbre.com/insights/reports/global-data-center-trends-2023): Northern Virginia remains the world's largest data center market with [2,132 MW of total inventory](https://img.datacenterfrontier.com/files/base/ebm/datacenterfrontier/image/2023/10/Dominion_Data_Center_Dorecast_Through_2038.6526914266bfc.png?auto=format,compress&w=1500&h=843&cache=0.28452957888253116&fit=max) and growing.<br>
+Cloud Data Centers:<br>
+&ensp;&ensp;[Azure Global Infrastructure](https://azure.microsoft.com/en-us/explore/global-infrastructure) is comprised of 300+ physical datacenters.<br>
+&ensp;&ensp;[Facebook's](https://www.youtube.com/watch?v=hkT0QKDmCiY) largest data center houses more than 400,000 computer servers.<br>
+&ensp;&ensp;[AWS Data Centers Today: 100+ Locations, 1.5 Million Servers, and More](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiPgJmE4vaBAxVaD0QIHTYPB-8QFnoECBMQAw&url=https%3A%2F%2Fwww.cloudzero.com%2Fblog%2Faws-data-center-locations&usg=AOvVaw00IBauiqtFxZ3jWJ3jOZFk&opi=89978449)<br>
+&ensp;&ensp;AWS has over 100 data centers globally, covering 31 AWS Regions, 99 Availability Zones,<br>
+&ensp;&ensp;over 400 edge locations/local zones, and 245 countries and territories.<br>
+&ensp;&ensp;[AWS Cloud Infrastructure](https://www.youtube.com/watch?v=q6WlzHLxNKI)<br>
+&ensp;&ensp;[Google Cloud’s Data Center Locations: Regions and Availability Zones](https://dgtlinfra.com/google-cloud-data-center-locations/) Google operates or is developing 35 data centers around the world.<br>
+&ensp;&ensp;[Google Data Centers](https://www.google.com/about/datacenters/)<br>
+&ensp;&ensp;[Google Cloud Infrastructure](https://cloud.google.com/infrastructure)<br>
+&ensp;&ensp;[How does Google design its data centers?](https://www.youtube.com/watch?v=9IZ4qPAL-vA)<br>
 Data Center Performance Tuning:<br>
 &ensp;&ensp;[It's Time to Replace TCP in the Datacenter](https://www.youtube.com/watch?v=o2HBHckrdQc) [[1]](https://arxiv.org/abs/2210.00714) [[2]](https://netdevconf.info/0x16/keynote/netdev0x16-keynote.pdf) [[3]](https://blog.ipspace.net/2023/01/data-center-tcp-replacement.html)<br>
 &ensp;&ensp;[TCP Offload Engine (TOE)](https://en.wikipedia.org/wiki/TCP_offload_engine)<br>
@@ -26,6 +37,7 @@ Data Center Performance Tuning:<br>
 &ensp;&ensp;[Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers) [[1]](https://protobuf.dev/overview/) [[2]](https://github.com/protocolbuffers/protobuf)<br>
 &ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC) [[1]](https://github.com/grpc/grpc) [[2]](https://grpc.io/docs/what-is-grpc/introduction/)<br>
 Pick at least 3 Data Centers: (for redundancy)<br>
+&ensp;&ensp;There are currently [four data center tiers](https://phoenixnap.com/blog/data-center-tiers-classification), [ranked by performance and uptime](https://www.impactmybiz.com/blog/data-center-tiers-explained/<).<br>
 &ensp;&ensp;My Favorite Data Centers:<br>
 &ensp;&ensp;&ensp;&ensp;1) [PheonixNAP](https://phoenixnap.com/)<br>
 &ensp;&ensp;&ensp;&ensp;2) [SwitchNAP - Tahoe](https://www.switch.com/tahoe-reno/)<br>
