@@ -95,17 +95,24 @@ There are 3 Major Types of Computer Abstraction:<br>
    System Level Abstractions:<br>
    &ensp;&ensp;Bottom line: a computer system is nothing more than a series of abstractions layered on top of each other!<br>
    &ensp;&ensp;[Operating System (OS) Abstractions:](https://en.wikipedia.org/wiki/Operating_system)<br>
+   &ensp;&ensp;[Kernel Space:](https://en.wikipedia.org/wiki/User_space_and_kernel_space)<br>
+   &ensp;&ensp;[Userspace:](https://en.wikipedia.org/wiki/User_space_and_kernel_space)<br>
    &ensp;&ensp;[Virtual Reality (VR)](https://en.wikipedia.org/wiki/Virtual_reality)<br>
    &ensp;&ensp;[Augmented Reality (AR)](https://en.wikipedia.org/wiki/Augmented_reality)<br>
    &ensp;&ensp;[Mixed Reality (MR)](https://en.wikipedia.org/wiki/Mixed_reality)<br>
    Network Abstractions:<br>
    &ensp;&ensp;OS Abstraction Implements:<br>
-   &ensp;&ensp;[Virtual Routing and Forwarding: (VRF)](https://en.wikipedia.org/wiki/Virtual_routing_and_forwarding)<br>
-   &ensp;&ensp;[Virtual LAN (VLAN):](https://en.wikipedia.org/wiki/VLAN)<br>
-   &ensp;&ensp;[Virtual Private Network (VPN):](https://en.wikipedia.org/wiki/Virtual_private_network) aka., Tunnel<br>
-   &ensp;&ensp;[Overlay Network:](https://en.wikipedia.org/wiki/Overlay_network)<br>
-   &ensp;&ensp;[TCP/IP Stack:](https://en.wikipedia.org/wiki/Internet_protocol_suite)<br>
-   &ensp;&ensp;[OSI Model:](https://en.wikipedia.org/wiki/OSI_model)<br>
+   &ensp;&ensp;[Sockets](https://en.wikipedia.org/wiki/Network_socket)<br>
+   &ensp;&ensp;[NIC - eth0](https://en.wikipedia.org/wiki/Network_interface_controller)<br>
+   &ensp;&ensp;[Loopback](https://en.wikipedia.org/wiki/Loopback) [[1]](https://en.wikipedia.org/wiki/Loopback#LOOPBACK-INTERFACE)<br>
+   &ensp;&ensp;[Localhost](https://en.wikipedia.org/wiki/Localhost)<br>
+   &ensp;&ensp;[VNI](https://en.wikipedia.org/wiki/Virtual_network_interface)<br>
+   &ensp;&ensp;[Virtual Routing and Forwarding (VRF)](https://en.wikipedia.org/wiki/Virtual_routing_and_forwarding)<br>
+   &ensp;&ensp;[Virtual LAN (VLAN)](https://en.wikipedia.org/wiki/VLAN)<br>
+   &ensp;&ensp;[Virtual Private Network (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network) aka., Tunnel<br>
+   &ensp;&ensp;[Overlay Network](https://en.wikipedia.org/wiki/Overlay_network)<br>
+   &ensp;&ensp;[TCP/IP Stack](https://en.wikipedia.org/wiki/Internet_protocol_suite)<br>
+   &ensp;&ensp;[OSI Model](https://en.wikipedia.org/wiki/OSI_model)<br>
    Storage Abstractions:<br>
    &ensp;&ensp;OS Abstraction Implements:<br>
    &ensp;&ensp;[Virtual Memory:](https://en.wikipedia.org/wiki/Virtual_memory)<br>
