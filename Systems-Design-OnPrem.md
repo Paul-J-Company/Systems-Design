@@ -10,6 +10,9 @@ Introduction:<br>
 &ensp;&ensp;Peering Relationships and Negotiations, Cost Estimation, etc. because that really requires another full document to explain.<br>
 &ensp;&ensp;And, I'm not a Data Center Design Engineer, eventhough I've now spent over 30+ years in Data Centers.<br>
 &ensp;&ensp;Data Center Design Engineering is a complete field of study on to itself.<br>
+Data Center Performance Tuning:<br>
+&ensp;&ensp;[]()<br>
+&ensp;&ensp;[TCP Offload Engine (TOE)](https://en.wikipedia.org/wiki/TCP_offload_engine)<br>
 Pick at least 3 Data Centers: (for redundancy)<br>
 &ensp;&ensp;Purchase equipment (routers, switches, servers, loadbalancers, Firewalls, etc.).<br>
 &ensp;&ensp;Ship Equipment to Data Centers.<br>
