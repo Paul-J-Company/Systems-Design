@@ -18,7 +18,8 @@ Data Center Concerns and Issues:<br>
 &ensp;&ensp;In 2023, US data centers are expected to consume 100 billion kilowatt-hours of energy (100 GWh), according to one energy-usage report.<br>
 &ensp;&ensp;As if that wasn't bad enough, each kilowatt-hour of energy requires two gallons of water to cool it.<br>
 &ensp;&ensp;So for 2023 alone, that equates to some 250,000 Olympic-size swimming pools of water.<br>
-&ensp;&ensp;[2023 Global Data Center Trends](https://www.cbre.com/insights/reports/global-data-center-trends-2023): Northern Virginia remains the world's largest data center market with [2,132 MW of total inventory](https://img.datacenterfrontier.com/files/base/ebm/datacenterfrontier/image/2023/10/Dominion_Data_Center_Dorecast_Through_2038.6526914266bfc.png?auto=format,compress&w=1500&h=843&cache=0.28452957888253116&fit=max) and growing.<br>
+&ensp;&ensp;[2023 Global Data Center Trends](https://www.cbre.com/insights/reports/global-data-center-trends-2023):<br>
+&ensp;&ensp;Northern Virginia remains the world's largest data center market with [2,132 MW of total inventory](https://img.datacenterfrontier.com/files/base/ebm/datacenterfrontier/image/2023/10/Dominion_Data_Center_Dorecast_Through_2038.6526914266bfc.png?auto=format,compress&w=1500&h=843&cache=0.28452957888253116&fit=max) and growing.<br>
 Cloud Data Centers:<br>
 &ensp;&ensp;[Azure Global Infrastructure](https://azure.microsoft.com/en-us/explore/global-infrastructure) is comprised of 300+ physical datacenters.<br>
 &ensp;&ensp;[Facebook's](https://www.youtube.com/watch?v=hkT0QKDmCiY) largest data center houses more than 400,000 computer servers.<br>
