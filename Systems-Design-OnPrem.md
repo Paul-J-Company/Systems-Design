@@ -17,7 +17,7 @@ Data Center Performance Tuning:<br>
 &ensp;&ensp;[Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers) [[1]](https://protobuf.dev/overview/) [[2]](https://github.com/protocolbuffers/protobuf)<br>
 &ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC) [[1]](https://github.com/grpc/grpc) [[2]](https://grpc.io/docs/what-is-grpc/introduction/)<br>
 Pick at least 3 Data Centers: (for redundancy)<br>
-&ensp;&ensp;My Favorite 6 Data Centers:<br>
+&ensp;&ensp;My Favorite Data Centers:<br>
 &ensp;&ensp;&ensp;&ensp;1) [PheonixNAP](https://phoenixnap.com/)<br>
 &ensp;&ensp;&ensp;&ensp;2) [SwitchNAP - Tahoe](https://www.switch.com/tahoe-reno/)<br>
 &ensp;&ensp;&ensp;&ensp;3) [SwitchNAP - Las Vegas](https://www.switch.com/las-vegas/) [[1]](https://www.switch.com/locations/)<br>
