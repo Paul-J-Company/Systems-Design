@@ -18,7 +18,7 @@ Data Center Concerns and Issues:<br>
 &ensp;&ensp;In 2023, US data centers are expected to consume 100 billion kilowatt-hours of energy (100 GWh), according to one energy-usage report.<br>
 &ensp;&ensp;As if that wasn't bad enough, each kilowatt-hour of energy requires two gallons of water to cool it.<br>
 &ensp;&ensp;So for 2023 alone, that equates to some 250,000 Olympic-size swimming pools of water.<br>
-&ensp;&ensp;[2023 Global Data Center Trends](https://www.cbre.com/insights/reports/global-data-center-trends-2023): Northern Virginia remains the world's largest data center market with 2,132 MW of total inventory.<br>
+&ensp;&ensp;[2023 Global Data Center Trends](https://www.cbre.com/insights/reports/global-data-center-trends-2023): Northern Virginia remains the world's largest data center market with [2,132 MW of total inventory](https://www.datacenterfrontier.com/energy/article/33013010/dominion-virginias-data-center-cluster-could-double-in-size) and growing.<br>
 Data Center Performance Tuning:<br>
 &ensp;&ensp;[It's Time to Replace TCP in the Datacenter](https://www.youtube.com/watch?v=o2HBHckrdQc) [[1]](https://arxiv.org/abs/2210.00714) [[2]](https://netdevconf.info/0x16/keynote/netdev0x16-keynote.pdf) [[3]](https://blog.ipspace.net/2023/01/data-center-tcp-replacement.html)<br>
 &ensp;&ensp;[TCP Offload Engine (TOE)](https://en.wikipedia.org/wiki/TCP_offload_engine)<br>
