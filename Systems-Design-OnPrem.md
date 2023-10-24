@@ -31,7 +31,7 @@ Aquire and Configure all non-hardware Internet Related Resources to get you up a
 &ensp;&ensp;Again, the details of doing even this short list took me 30+ years to perfect.<br>
 &ensp;&ensp;Network Engineering is a complete field of study on to itself.<br>
 Aquire [ASN](https://en.wikipedia.org/wiki/Autonomous_system_(Internet)) from [ARIN](https://en.wikipedia.org/wiki/American_Registry_for_Internet_Numbers):<br>
-&ensp;&ensp;All resource requests require an ARIN Online account linked to either an Admin or Tech [Point of Contact (POC)](https://www.arin.net/resources/guide/account/records/poc/) [[1]](https://en.wikipedia.org/wiki/Point_of_contact) record<br>
+&ensp;&ensp;All resource requests require an [ARIN](https://en.wikipedia.org/wiki/American_Registry_for_Internet_Numbers) Online account linked to either an Admin or Tech [Point of Contact (POC)](https://www.arin.net/resources/guide/account/records/poc/) [[1]](https://en.wikipedia.org/wiki/Point_of_contact) record<br>
 &ensp;&ensp;with the authority to request resources for a valid [Organization Identifier (Org ID)](https://www.arin.net/resources/guide/account/records/org/).<br>
 &ensp;&ensp;https://www.arin.net/resources/guide/quickguide.pdf<br>
 &ensp;&ensp;https://www.arin.net/blog/2019/09/24/how-to-request-an-asn-from-arin/<br>
@@ -201,7 +201,7 @@ Configure Out-of-band Access to all Servers:<br>
 Find your NAT IP:<br>
 &ensp;&ensp;https://www.ipchicken.com/<br>
 &ensp;&ensp;# curl ifconfig.me<br>
-&ensp;&ensp;# tranceroute arin.net<br>
+&ensp;&ensp;# tranceroute .net<br>
 
 ## OnPrem Tools
 &ensp;&ensp;[Wireguard:](https://en.wikipedia.org/wiki/WireGuard) [Installing WireGuard-UI to Manage Your WireGuard VPN Server](https://insights.ditatompel.com/en/tutorials/installing-wireguard-ui-to-manage-your-wireguard-vpn-server/) [[1]](https://www.wireguard.com/) [[2]](https://git.zx2c4.com/wireguard-linux) [[3]](https://www.wireguard.com/repositories/) [[4]](https://www.wireguard.com/quickstart/) [[5]](https://www.freecodecamp.org/news/build-your-own-wireguard-vpn-in-five-minutes/) [[6]](https://superuser.com/questions/1770829/how-to-setup-a-vpn-tunnel-using-wireguard) [[7]](https://upcloud.com/resources/tutorials/get-started-wireguard-vpn) [[8]](https://docs.opnsense.org/manual/how-tos/wireguard-client.html) [[9]](https://www.asus.com/support/FAQ/1048280/) [[10]](https://wiki.archlinux.org/title/WireGuard) [[11]](https://www.ivpn.net/setup/linux-wireguard/) [[12]](https://www.techrepublic.com/videos/how-to-install-and-configure-wireguard-vpn-on-linux/) [[13]](https://fedoramagazine.org/configure-wireguard-vpns-with-networkmanager/) [[14]](https://docs.fedoraproject.org/en-US/fedora-coreos/sysconfig-configure-wireguard/) [[15]](https://two-oes.medium.com/wireguard-as-a-vpn-solution-for-home-connection-b79e2812baa2) [[16]](https://bash-prompt.net/guides/wireguard-setup/) [[17]](https://www.youtube.com/watch?v=SMF301vQqJo) [[18]](https://github.com/pirate/wireguard-docs)<br>
