@@ -182,17 +182,8 @@ What is Free and Opensource?<br>
 &ensp;&ensp;[Fear and Loathing in Free and Open-Source](https://medium.com/@mbianchidev/fear-and-loathing-in-free-and-open-source-8439a1dbf5da)<br>
 What is a Data Center?<br>
 &ensp;&ensp;A [Data Center](https://www.youtube.com/watch?v=qUmLnSEVVDw) is a physical building located around the world that houses your Platforms, Systems, Workloads.<br>
-&ensp;&ensp;There are currently [four data center tiers](https://phoenixnap.com/blog/data-center-tiers-classification), [ranked by performance and uptime](https://www.impactmybiz.com/blog/data-center-tiers-explained/<).<br>
-&ensp;&ensp;[Azure Global Infrastructure](https://azure.microsoft.com/en-us/explore/global-infrastructure) is comprised of 300+ physical datacenters.<br>
-&ensp;&ensp;[Facebook's](https://www.youtube.com/watch?v=hkT0QKDmCiY) largest data center houses more than 400,000 computer servers.<br>
-&ensp;&ensp;[AWS Data Centers Today: 100+ Locations, 1.5 Million Servers, and More](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiPgJmE4vaBAxVaD0QIHTYPB-8QFnoECBMQAw&url=https%3A%2F%2Fwww.cloudzero.com%2Fblog%2Faws-data-center-locations&usg=AOvVaw00IBauiqtFxZ3jWJ3jOZFk&opi=89978449)<br>
-&ensp;&ensp;AWS has over 100 data centers globally, covering 31 AWS Regions, 99 Availability Zones,<br>
-&ensp;&ensp;over 400 edge locations/local zones, and 245 countries and territories.<br>
-&ensp;&ensp;[AWS Cloud Infrastructure](https://www.youtube.com/watch?v=q6WlzHLxNKI)<br>
-&ensp;&ensp;[Google Cloud’s Data Center Locations: Regions and Availability Zones](https://dgtlinfra.com/google-cloud-data-center-locations/) Google operates or is developing 35 data centers around the world.<br>
-&ensp;&ensp;[Google Data Centers](https://www.google.com/about/datacenters/)<br>
-&ensp;&ensp;[Google Cloud Infrastructure](https://cloud.google.com/infrastructure)<br>
-&ensp;&ensp;[How does Google design its data centers?](https://www.youtube.com/watch?v=9IZ4qPAL-vA)<br>
+&ensp;&ensp;There are [four data center tiers](https://phoenixnap.com/blog/data-center-tiers-classification), [ranked by performance and uptime](https://www.impactmybiz.com/blog/data-center-tiers-explained/<).<br>
+&ensp;&ensp;For more information on Data Centers, see "[Systems Design OnPrem](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-OnPrem.md)"<br>
 What is Cloud Computing, OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid Cloud; Private Cloud, Public Cloud<br>
 &ensp;&ensp;[Cloud-Computing Comparison](https://en.wikipedia.org/wiki/Cloud-computing_comparison) [[1](https://www.cloudflare.com/learning/cloud/what-is-the-cloud/)], [[2](https://aws.amazon.com/what-is-cloud-computing/)], [[3]()]<br>
 &ensp;&ensp;[OnPrem](https://en.wikipedia.org/wiki/On-premises_software) [[1](https://www.insight.com/en_US/content-and-resources/glossary/o/on-premises.html)], [[2](https://andrewschoen.medium.com/software-people-of-the-world-stop-saying-on-premise-you-sound-dumb-56692dae871d)], [[3](https://www.hpe.com/us/en/what-is/on-premises-vs-cloud.html)] [[4](https://www.suse.com/suse-defines/definition/on-premises/)]<br>
