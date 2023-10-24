@@ -27,12 +27,12 @@ Pick at least 3 Data Centers: (for redundancy)<br>
 &ensp;&ensp;Make Money!<br>
 Aquire and Configure all non-hardware Internet Related Resources to get you up and running.<br>
 &ensp;&ensp;This short list includes:<br>
-&ensp;&ensp;aquiring an ASN, CIDR Blocks, establishing BGP Peering, configure BGP Anycast, create and implement WAN design<br>
+&ensp;&ensp;aquiring an ASN, CIDR Blocks, establishing BGP Peering, configure BGP [Anycast](https://en.wikipedia.org/wiki/Anycast), create and implement WAN design<br>
 &ensp;&ensp;Again, the details of doing even this short list took me 30+ years to perfect.<br>
 &ensp;&ensp;Network Engineering is a complete field of study on to itself.<br>
-Aquire ASN from ARIN:<br>
-&ensp;&ensp;All resource requests require an ARIN Online account linked to either an Admin or Tech Point of Contact (POC) record<br>
-&ensp;&ensp;with the authority to request resources for a valid Organization Identifier (Org ID).<br>
+Aquire [ASN](https://en.wikipedia.org/wiki/Autonomous_system_(Internet)) from [ARIN](https://en.wikipedia.org/wiki/American_Registry_for_Internet_Numbers):<br>
+&ensp;&ensp;All resource requests require an ARIN Online account linked to either an Admin or Tech [Point of Contact (POC)](https://www.arin.net/resources/guide/account/records/poc/) [[1]](https://en.wikipedia.org/wiki/Point_of_contact) record<br>
+&ensp;&ensp;with the authority to request resources for a valid [Organization Identifier (Org ID)](https://www.arin.net/resources/guide/account/records/org/).<br>
 &ensp;&ensp;https://www.arin.net/resources/guide/quickguide.pdf<br>
 &ensp;&ensp;https://www.arin.net/blog/2019/09/24/how-to-request-an-asn-from-arin/<br>
 &ensp;&ensp;https://ipinfo.io/<ASN><br>
@@ -56,7 +56,7 @@ Aquire ASN from ARIN:<br>
 BGP: (iBGP,eBGP)<br>
 &ensp;&ensp;Establish BGP peering relationship, aka., Connect your Data Center to the Internet.<br>
 &ensp;&ensp;Implement your WAN Design to connect all your Datacenters together.<br>
-&ensp;&ensp;Configure BGP Anycast to connect your customers to all of your Data Centers.<br>
+&ensp;&ensp;Configure BGP [Anycast](https://en.wikipedia.org/wiki/Anycast) to connect your customers to all of your Data Centers.<br>
 &ensp;&ensp;For static data, use Edge Networking or CDNs to improve latency for your customers.<br>
 &ensp;&ensp;For dynamic data, include a Caching layer to improve latency for your customers.<br>
 BGP Tools:<br>
