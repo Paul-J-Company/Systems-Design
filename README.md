@@ -4,7 +4,7 @@ that a Systems Designer, Platform Engineer, SRE, and/or DevOps Engineer entail.
 
 These are introductory notes about the subject and is meant to
 get someone not familiar<br> 
-with System Design "up to speed" on the latest terminology, techologies and techiques.
+with System Design "up to speed" on the latest terminology, techologies and techniques.
 
 It also serves the purpose as my System Design site for my home lab.<br>
 So the examples you see, like:<br>
