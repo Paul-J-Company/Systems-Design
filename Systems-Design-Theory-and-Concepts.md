@@ -1,4 +1,6 @@
 ## Theory and Concepts that will make you a better Systems Designer
+I recommend viewing the corresponding [YouTube Playlist]() for this page.<br>
+You can also jump down to the end of this page to review the [Additional Resources]() section.<br>
 
 ### General Abstractions:
 An [Abstraction](https://en.wikipedia.org/wiki/Abstraction) is hiding complexity and/or [hiding information](https://en.wikipedia.org/wiki/Information_hiding).<br>
@@ -399,3 +401,5 @@ Database Models/Types:<br>
      [Polystore]()<br>
  99) [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw)<br>
 
+### Additional Resources
+TBD
