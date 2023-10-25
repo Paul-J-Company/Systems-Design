@@ -1,5 +1,5 @@
 
-## System Design AI
+## System Designs AI
 I recommend viewing the corresponding [YouTube Playlist]() for this page.<br>
 You can also jump down to the end of this page to review the [Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-AI.md#additional-resources) section.<br>
 
