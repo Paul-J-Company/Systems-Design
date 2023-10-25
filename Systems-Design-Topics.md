@@ -1,4 +1,6 @@
 ## System Design Topics:
+I recommend viewing the corresponding [YouTube Playlist]() for this page.<br>
+You can also jump down to the end of this page to review the [Additional Resources]() section.<br>
 
 ### System Property Definitions:
 Security:<br>
@@ -561,6 +563,10 @@ EDAs are a way of designing and building systems that are based on the exchange 
 Events are notifications of some change in state or data, and they are typically<br>
 published by one component and consumed by another in real time.<br>
 EDAs can:<br>
+
+### Additional Resources
+
+
 1) Decouple systems that can be independently scaled and updated.<br>
 2) Handle high volumes of data with low latency.<br>
 3) Support real-time processing and analytics.<br>
