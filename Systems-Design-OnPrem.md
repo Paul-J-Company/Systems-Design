@@ -32,6 +32,7 @@ Cloud Data Centers:<br>
 &ensp;&ensp;[Google Cloud Infrastructure](https://cloud.google.com/infrastructure)<br>
 &ensp;&ensp;[How does Google design its data centers?](https://www.youtube.com/watch?v=9IZ4qPAL-vA)<br>
 Data Center Performance Tuning:<br>
+&ensp;&ensp;48V DC for Data Center Devices: Routers, Switches, Servers, Load Balancers, etc.<br>
 &ensp;&ensp;[It's Time to Replace TCP in the Datacenter](https://www.youtube.com/watch?v=o2HBHckrdQc) [[1]](https://arxiv.org/abs/2210.00714) [[2]](https://netdevconf.info/0x16/keynote/netdev0x16-keynote.pdf) [[3]](https://blog.ipspace.net/2023/01/data-center-tcp-replacement.html)<br>
 &ensp;&ensp;[TCP Offload Engine (TOE)](https://en.wikipedia.org/wiki/TCP_offload_engine)<br>
 &ensp;&ensp;[eBPF](https://en.wikipedia.org/wiki/EBPF) [[1]](https://ebpf.io/)<br>
