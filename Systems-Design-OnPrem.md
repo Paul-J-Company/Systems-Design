@@ -359,7 +359,7 @@ Storage Software:<br>
 &ensp;&ensp;&ensp;&ensp;https://ramcloud.atlassian.net/wiki/spaces/RAM/pages/6848537/Deciding+Whether+to+Use+RAMCloud<br>
 &ensp;&ensp;&ensp;&ensp;https://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud-tocs.pdf<br>
 
-### Other System Design Resources
+### Additional Resources
 *) [ByteByteCode:](https://www.youtube.com/@ByteByteGo/videos)<br>
 &ensp;&ensp;This Youtube channel is a great example of implementing "[Efficient Communication](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#design-principles)."<br>
 &ensp;&ensp;[Data Replication: A Key Component for Building Large-Scale Distributed Systems](https://blog.bytebytego.com/p/data-replication-a-key-component)<br>
@@ -379,5 +379,3 @@ Storage Software:<br>
 &ensp;&ensp;[Real Life AWS Project Architectures](https://www.youtube.com/watch?v=_W1xlhDsiAE)<br>
 &ensp;&ensp;[Introduction to AWS | A Complete Beginner Roadmap](https://www.youtube.com/watch?v=lTyqzyk86f8)<br>
    
-### Additional Resources
-TBD
