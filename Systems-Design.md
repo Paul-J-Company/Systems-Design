@@ -164,3 +164,35 @@ Starting from a blank slate is different than inheriting an existing system infr
   - How much time a week do you spend keeping up on the latest technology?
 + ***and many many more things to consider. I told you it was complicated***
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
