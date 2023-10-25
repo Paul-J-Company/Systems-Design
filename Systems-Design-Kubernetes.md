@@ -1,7 +1,8 @@
 
-# Kubernetes
+# [Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*-GmCgKeebCe9AMjW.png)
 
-**[Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*-GmCgKeebCe9AMjW.png)<br>**
+I recommend viewing the corresponding [YouTube Playlist]() for this page.<br>
+You can also jump down to the end of this page to review the [Additional Resources]() section.<br>
 
 **When someone says: "I'm running Kubernetes?"**<br> 
 **What does that really mean?**<br> 
@@ -62,5 +63,5 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 (NOT DONE YET, EXAMPLES COMING SOON)<br>
 
-
-
+### Additional Resources
+TBD
