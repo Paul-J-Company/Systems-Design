@@ -20,6 +20,10 @@ Data Center Concerns and Issues:<br>
 &ensp;&ensp;So for 2023 alone, that equates to some 250,000 Olympic-size swimming pools of water.<br>
 &ensp;&ensp;[2023 Global Data Center Trends](https://www.cbre.com/insights/reports/global-data-center-trends-2023):<br>
 &ensp;&ensp;Northern Virginia remains the world's largest data center market with [2,132 MW of total inventory](https://img.datacenterfrontier.com/files/base/ebm/datacenterfrontier/image/2023/10/Dominion_Data_Center_Dorecast_Through_2038.6526914266bfc.png?auto=format,compress&w=1500&h=843&cache=0.28452957888253116&fit=max) and growing.<br>
+&ensp;&ensp;[The AI Disruption: Challenges and Guidance for Data Center Design](https://www.se.com/us/en/download/document/SPD_WP110_EN/)<br>
+&ensp;&ensp;[AI Data Center Energy Consumption](https://www.youtube.com/watch?v=wz6K9C6G5oA#t=00h13m34s)<br>
+&ensp;&ensp;Data Centers account for 1.5% of global electricity use, which is 300TWh of energy per year<br>
+&ensp;&ensp;which is about the energy consumption of the entire United Kingdom!<br>
 Cloud Data Centers:<br>
 &ensp;&ensp;[Azure Global Infrastructure](https://azure.microsoft.com/en-us/explore/global-infrastructure) is comprised of 300+ physical datacenters.<br>
 &ensp;&ensp;[Facebook's](https://www.youtube.com/watch?v=hkT0QKDmCiY) largest data center houses more than 400,000 computer servers.<br>
