@@ -1,5 +1,7 @@
 
 ## System Design AI
+I recommend viewing the corresponding [YouTube Playlist]() for this page.<br>
+You can also jump down to the end of this page to review the [Additional Resources](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design-AI.md#additional-resources) section.<br>
 
 ### AI and Platform Engineering
 AI, especially LLMs, are designed to take in an enormous amount<br>
@@ -45,3 +47,5 @@ in learning from large amounts of data and Platforms generate large amounts of d
 3) Continue learning AI in general and all of it's applications!<br>
    **I consider AI so important, that the rest of my life will probably be dedicated to studying this subject!**<br>
    
+### Additional Resources
+TBD
