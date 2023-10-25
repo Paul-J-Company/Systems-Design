@@ -1,6 +1,6 @@
 ## Theory and Concepts that will make you a better Systems Designer
 I recommend viewing the corresponding [YouTube Playlist]() for this page.<br>
-You can also jump down to the end of this page to review the [Additional Resources]() section.<br>
+You can also jump down to the end of this page to review the [Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#additional-resources) section.<br>
 
 ### General Abstractions:
 An [Abstraction](https://en.wikipedia.org/wiki/Abstraction) is hiding complexity and/or [hiding information](https://en.wikipedia.org/wiki/Information_hiding).<br>
