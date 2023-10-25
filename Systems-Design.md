@@ -1,13 +1,14 @@
 # Systems Design
 
 ## Systems Design Table of Contents (ToC)
-+ Start by Reading [Systems Design Topics](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Topics.md) information below which adds more details to what we've already discussed above.
++ Start by reading [Systems Properties](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#system-properties) - this page.
++ Then read my [Systems Design Topics](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Topics.md) information that adds more details to what we've already discussed here.
 + Then read my [Systems Design Kubernetes](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Kubernetes.md) information for how I apply these principles to a Kubernetes Environment.
 + Then read my [Systems Design AI](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-AI.md) information for how AI helps in System Desgin.
 + Then read my [Systems Design OnPrem](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-OnPrem.md) information for how to setup an OnPrem Infrastructure.
 + Then read my [Theory and Concepts that will make you a better Systems Designer](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md) information for how theory helps in Systems Design.
 
-## System Properties:
+## Systems Properties:
 ### You want your System to be:
 
 + Secure: authentication, authorization, accounting (aaa); Zero-Trust
