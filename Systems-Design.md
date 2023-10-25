@@ -163,3 +163,10 @@ Starting from a blank slate is different than inheriting an existing system infr
 + What is your Continuous Learning/Improvement Strategy?
   - How much time a week do you spend keeping up on the latest technology?
 + ***and many many more things to consider. I told you it was complicated***
+
+## So what are the next steps?
++ Read my [Systems Design Topics](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Topics.md) information that adds more details to what we've already discussed here.
++ Read my [Systems Design Kubernetes](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Kubernetes.md) information for how I apply these principles to a Kubernetes Environment.
++ Read my [Systems Design AI](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-AI.md) information for how AI helps in System Design.
++ Read my [Systems Design OnPrem](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-OnPrem.md) information for how to setup an OnPrem Infrastructure.
++ Read my [Theory and Concepts that will make you a better Systems Designer](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md) information for how theory helps in Systems Design.
