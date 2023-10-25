@@ -1,7 +1,7 @@
 # Systems Design
 
 ## Systems Design Table of Contents (ToC)
-+ Start by reading [Systems Properties](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#system-properties) - this page.
++ Start by reading [Systems Properties](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#systems-properties) - this page.
 + Then read my [Systems Design Topics](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Topics.md) information that adds more details to what we've already discussed here.
 + Then read my [Systems Design Kubernetes](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Kubernetes.md) information for how I apply these principles to a Kubernetes Environment.
 + Then read my [Systems Design AI](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-AI.md) information for how AI helps in System Design.
