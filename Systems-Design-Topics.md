@@ -589,7 +589,7 @@ EDAs can:<br>
 &ensp;&ensp;[Introduction to AWS | A Complete Beginner Roadmap](https://www.youtube.com/watch?v=lTyqzyk86f8)<br>
 
 *) Tech With Lucy:
-&ensp;&ensp;https://www.youtube.com/@TechwithLucy/videos?=#- Tech With Lucy (YOUTUBE)
+&ensp;&ensp;https://www.youtube.com/@TechwithLucy/videos?=#- Tech With Lucy (YOUTUBE)<br>
 &ensp;&ensp;https://www.youtube.com/watch?v=FvCt7GxvRDA#t=00h00m00s?=#- The Best AWS Certification Learning Paths (Roadmap by AWS)<br>
 &ensp;&ensp;https://www.youtube.com/watch?v=m4_QxziMuq8#t=00h00m00s?=#- The Best Books To Learn AWS Cloud (2023)<br>
 &ensp;&ensp;https://www.youtube.com/watch?v=Lc_-XACO4wc#t=00h00m00s?=#- Top 5 Simple Ways to Save Money on Your AWS Bill<br>
