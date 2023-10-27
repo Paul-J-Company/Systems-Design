@@ -379,7 +379,7 @@ Storage Software:<br>
 &ensp;&ensp;[Shining a light in the dark: Measuring global internet shutdowns](https://cloud.google.com/blog/products/identity-security/shining-a-light-in-the-dark-measuring-global-internet-shutdowns)<br>
 &ensp;&ensp;[Google Jigsaw:](https://jigsaw.google.com/)<br>
 &ensp;&ensp;[Government-imposed internet shutdowns are on the rise globally](https://jigsaw.google.com/the-current/shutdown/)<br>
-&ensp;&ensp;[Outline:(https://getoutline.org/)<br>
+&ensp;&ensp;[Outline:](https://getoutline.org/)<br>
 &ensp;&ensp;&ensp;&ensp;Outline enables anyone to access the free and<br>
 &ensp;&ensp;&ensp;&ensp;open internet more safely by running their own VPN.<br>
 &ensp;&ensp;[Censored Planet Observatory:](https://censoredplanet.org/)<br>
