@@ -372,4 +372,6 @@ Storage Software:<br>
 &ensp;&ensp;&ensp;&ensp;for on-premises cloud computing", according to the company literature."<br>
 &ensp;&ensp;[In Pursuit of a Superior Server: Oxide Computer Ships Its First Rack](https://thenewstack.io/in-pursuit-of-a-superior-server-oxide-computer-ships-its-first-rack/)<br>
    
+*) [Data Center Dynamics:](https://www.datacenterdynamics.com/en/)<br>
+&ensp;&ensp;[Meta's CapEx drops almost $3bn during data center construction pause](https://www.datacenterdynamics.com/en/news/metas-capex-drops-almost-3bn-during-data-center-construction-pause/)<br>
 
