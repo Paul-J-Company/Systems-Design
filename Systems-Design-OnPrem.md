@@ -365,5 +365,12 @@ Storage Software:<br>
 &ensp;&ensp;[Custodian Data Centres Youtube Channel](https://www.youtube.com/@Custodiandc-DataCentres/videos)<br>
 &ensp;&ensp;[HOW TO BUILD A DATA CENTRE - Introduction - Episode 1 (NEW DA2)](https://www.youtube.com/watch?v=DsJ6Bn2NHr4)<br>
 
+*) [Oxide Computers:](https://oxide.computer/)<br>
+&ensp;&ensp;[Oxide Launches the World’s First Commercial Cloud Computer](https://thenewstack.io/oxide-launches-the-worlds-first-commercial-cloud-computer/)<br>
+&ensp;&ensp;&ensp;&ensp;The oxide cloud computer is "purpose-built" for high-performance computing,<br>
+&ensp;&ensp;&ensp;&ensp;networking, and storage, and Oxide is hailing it as<br>
+&ensp;&ensp;&ensp;&ensp;"a true rack-scale system with fully unified hardware and software designed<br>
+&ensp;&ensp;&ensp;&ensp;for on-premises cloud computing", according to the company literature."<br>
+&ensp;&ensp;[In Pursuit of a Superior Server: Oxide Computer Ships Its First Rack](https://thenewstack.io/in-pursuit-of-a-superior-server-oxide-computer-ships-its-first-rack/)<br>
    
-   
+
