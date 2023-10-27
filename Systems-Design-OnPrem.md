@@ -361,8 +361,8 @@ Storage Software:<br>
 
 ### Additional Resources
 *) Custodian Data Centres:<br>
-&ensp;&ensp;https://www.custodiandc.com/<br>
-&ensp;&ensp;[Custodian Data Centres](https://www.youtube.com/@Custodiandc-DataCentres/videos)<br>
+&ensp;&ensp;[Custodian Data Centres](https://www.custodiandc.com/)<br>
+&ensp;&ensp;[Custodian Data Centres Youtube Channel](https://www.youtube.com/@Custodiandc-DataCentres/videos)<br>
 &ensp;&ensp;[HOW TO BUILD A DATA CENTRE - Introduction - Episode 1 (NEW DA2)](https://www.youtube.com/watch?v=DsJ6Bn2NHr4)<br>
 
    
