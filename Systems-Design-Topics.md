@@ -266,6 +266,7 @@ What is Site Reliability Engineering (SRE)?<br>
 &ensp;&ensp;&ensp;&ensp;4) Performance Engineering: SRE teams work to ensure that systems are performing well, even in the face of high traffic volumes.<br>
 &ensp;&ensp;&ensp;&ensp;5) Capacity Planning: SRE teams plan for future growth and ensure that systems can handle increased traffic volumes.<br>
 What is DevOps?<br>
+&ensp;&ensp;[DevOps Engineer Roles and Responsibilities](https://www.techrepublic.com/article/devops-engineer-roles-and-responsibilities/)<br>
 &ensp;&ensp;DevOps is supposed to solve the problem of siloed teams blaming each other when things go wrong.<br>
 &ensp;&ensp;DevOps is mainly a culture of communication and cross-functional collaboration.<br>
 &ensp;&ensp;DevOps is a set of practices that emphasizes collaboration and communication<br>
