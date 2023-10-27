@@ -375,3 +375,25 @@ Storage Software:<br>
 *) [Data Center Dynamics:](https://www.datacenterdynamics.com/en/)<br>
 &ensp;&ensp;[Meta's CapEx drops almost $3bn during data center construction pause](https://www.datacenterdynamics.com/en/news/metas-capex-drops-almost-3bn-during-data-center-construction-pause/)<br>
 
+*) Google Measuring Global Internet:<br>
+&ensp;&ensp;[Shining a light in the dark: Measuring global internet shutdowns](https://cloud.google.com/blog/products/identity-security/shining-a-light-in-the-dark-measuring-global-internet-shutdowns)<br>
+&ensp;&ensp;[Google Jigsaw:](https://jigsaw.google.com/)<br>
+&ensp;&ensp;[Government-imposed internet shutdowns are on the rise globally](https://jigsaw.google.com/the-current/shutdown/)<br>
+&ensp;&ensp;[Outline:(https://getoutline.org/)<br>
+&ensp;&ensp;&ensp;&ensp;Outline enables anyone to access the free and<br>
+&ensp;&ensp;&ensp;&ensp;open internet more safely by running their own VPN.<br>
+&ensp;&ensp;[Censored Planet Observatory:](https://censoredplanet.org/)<br>
+&ensp;&ensp;&ensp;&ensp;Censored Planet develops and maintains various next-generation remote measurement techniques.<br>
+&ensp;&ensp;[Censored Planet Dashboard](https://lookerstudio.google.com/u/0/reporting/91bed90c-585b-4575-a993-fc8597bc26bf/page/p_cp26urbo9c)<br>
+&ensp;&ensp;[Processed Censored Planet Data](https://data.censoredplanet.org/raw)<br>
+&ensp;&ensp;[Looker Studio:](https://support.google.com/looker-studio/answer/6283323)<br>
+&ensp;&ensp;[Censored Planet Dashboard](https://lookerstudio.google.com/c/reporting/91bed90c-585b-4575-a993-fc8597bc26bf/page/T33gB)
+&ensp;&ensp;[Dataprep by Trifacta:](https://cloud.google.com/dataprep)<br>
+&ensp;&ensp;[Google Dataflow:](https://cloud.google.com/dataflow)<br>
+&ensp;&ensp;[Youtube-API-Test-Project-91302](https://console.cloud.google.com/?walkthrough_id=dataflow--quickstart-beam--quickstart-beam-python&_ga=2.179244333.826637338.1681841126-1197446265.1681841126$cgcb-salt-censoredplanet-end)<br>
+&ensp;&ensp;[Apache Beam:](https://beam.apache.org/)<br>
+&ensp;&ensp;[Programming model for Apache Beam](https://cloud.google.com/dataflow/docs/concepts/beam-programming-model)<br>
+&ensp;&ensp;[Google Clustered Tables](https://cloud.google.com/bigquery/docs/clustered-tables)<br>
+&ensp;&ensp;[Google Partitioned Tables](https://cloud.google.com/bigquery/docs/partitioned-tables)<br>
+&ensp;&ensp;[merged_reduced_scans.sql](https://github.com/censoredplanet/censoredplanet-analysis/blob/master/table/queries/merged_reduced_scans.sql)<br>
+&ensp;&ensp;[Advancing the Art of Censorship Data Analysis](https://www.petsymposium.org/foci/2023/foci-2023-0003.php)<br>
