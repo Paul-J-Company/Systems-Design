@@ -360,8 +360,7 @@ Storage Software:<br>
 &ensp;&ensp;&ensp;&ensp;https://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud-tocs.pdf<br>
 
 ### Additional Resources
-*) Custodian Data Centres:<br>
-&ensp;&ensp;[Custodian Data Centres](https://www.custodiandc.com/)<br>
+*) [Custodian Data Centres:](https://www.custodiandc.com/)<br>
 &ensp;&ensp;[Custodian Data Centres Youtube Channel](https://www.youtube.com/@Custodiandc-DataCentres/videos)<br>
 &ensp;&ensp;[HOW TO BUILD A DATA CENTRE - Introduction - Episode 1 (NEW DA2)](https://www.youtube.com/watch?v=DsJ6Bn2NHr4)<br>
 
