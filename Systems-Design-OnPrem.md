@@ -425,5 +425,5 @@ Storage Software:<br>
 &ensp;&ensp;[Advancing the Art of Censorship Data Analysis](https://www.petsymposium.org/foci/2023/foci-2023-0003.php)<br>
 
 *) [CyberNews:](https://cybernews.com/)<br>
-   [Red Alert, Israel's rocket alert app, breached by hacktivists](https://cybernews.com/cyber-war/israel-redalert-breached-anonghost-hamas/)<br>
+&ensp;&ensp;[Red Alert, Israel's rocket alert app, breached by hacktivists](https://cybernews.com/cyber-war/israel-redalert-breached-anonghost-hamas/)<br>
 
