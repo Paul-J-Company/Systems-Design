@@ -1,6 +1,6 @@
 This Git Repository is dedicated to the topic of Systems Design
 and the roles and responsibilities<br> 
-that a Systems Designer, Platform Engineer, SRE, and/or DevOps Engineer entail.
+that a Systems Designer, Platform Engineer, SRE, and/or DevOps Engineer [entail](https://dictionary.cambridge.org/us/dictionary/english/entail).
 
 These are introductory notes about the subject and is meant to get someone not familiar<br> 
 with System Design "[up to speed](https://dictionary.cambridge.org/us/dictionary/english/up-to-speed)" on the latest terminology, techologies and techniques.<br>
