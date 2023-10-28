@@ -374,7 +374,7 @@ Storage Software:<br>
    
 *) [Data Center Dynamics:](https://www.datacenterdynamics.com/en/)<br>
 &ensp;&ensp;[Meta's CapEx drops almost $3bn during data center construction pause](https://www.datacenterdynamics.com/en/news/metas-capex-drops-almost-3bn-during-data-center-construction-pause/)<br>
-
+&ensp;&ensp;[JLL, Lumen, and Schneider partner for modular Edge offering](https://www.datacenterdynamics.com/en/news/jll-lumen-schneider-partner-for-modular-edge-offering/)<br>
 *) [CloudFlare:](https://www.cloudflare.com/)<br>
 &ensp;&ensp;[The Cloudflare global network](https://www.cloudflare.com/network/)<br>
 &ensp;&ensp;[Cloudforce One Threat Operations Team](https://blog.cloudflare.com/introducing-cloudforce-one-threat-operations-and-threat-research/)<br>
