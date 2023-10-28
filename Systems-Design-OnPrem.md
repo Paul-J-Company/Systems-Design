@@ -427,6 +427,6 @@ Storage Software:<br>
 *) [CyberNews:](https://cybernews.com/)<br>
 &ensp;&ensp;[Red Alert, Israel's rocket alert app, breached by hacktivists](https://cybernews.com/cyber-war/israel-redalert-breached-anonghost-hamas/)<br>
 
-*) BinaryDefense:](https://www.binarydefense.com/)<br>
+*) [BinaryDefense:](https://www.binarydefense.com/)<br>
 &ensp;&ensp;[AnonGhost Possibly Returns from ISIS](https://www.binarydefense.com/resources/threat-watch/anonghost-possibly-returns-from-isis/)<br>
 
