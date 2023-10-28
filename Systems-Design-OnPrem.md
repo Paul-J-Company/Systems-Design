@@ -375,6 +375,32 @@ Storage Software:<br>
 *) [Data Center Dynamics:](https://www.datacenterdynamics.com/en/)<br>
 &ensp;&ensp;[Meta's CapEx drops almost $3bn during data center construction pause](https://www.datacenterdynamics.com/en/news/metas-capex-drops-almost-3bn-during-data-center-construction-pause/)<br>
 
+*) [CloudFlare:](https://www.cloudflare.com/)<br>
+&ensp;&ensp;[The Cloudflare global network](https://www.cloudflare.com/network/)<br>
+&ensp;&ensp;[Cloudforce One Threat Operations Team](https://blog.cloudflare.com/introducing-cloudforce-one-threat-operations-and-threat-research/)<br>
+&ensp;&ensp;[Nine years of Project Galileo and how the last year has changed it](https://blog.cloudflare.com/nine-years-of-project-galileo-and-how-the-last-year-has-changed-it/)<br>
+&ensp;&ensp;[Cloudflare API Shield](https://developers.cloudflare.com/api-shield/)<br>
+&ensp;&ensp;[What is IP spoofing?](https://www.cloudflare.com/learning/ddos/glossary/ip-spoofing/)<br>
+&ensp;&ensp;[What is a DDoS attack?](https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/)<br>
+&ensp;&ensp;[Respond to DDoS attacks](https://developers.cloudflare.com/ddos-protection/best-practices/respond-to-ddos-attacks/)<br>
+&ensp;&ensp;[Cloudflare mitigates record-breaking 71 million request-per-second DDoS attack](https://blog.cloudflare.com/cloudflare-mitigates-record-breaking-71-million-request-per-second-ddos-attack/)<br>
+&ensp;&ensp;[Quarterly DDoS threat reports](https://developers.cloudflare.com/radar/reference/quarterly-ddos-reports)<br>
+&ensp;&ensp;[DDoS threat report for 2023 Q1](https://blog.cloudflare.com/ddos-threat-report-2023-q1/)<br>
+&ensp;&ensp;[DDoS threat report for 2023 Q2](https://blog.cloudflare.com/ddos-threat-report-2023-q2/)<br>
+&ensp;&ensp;[DDoS threat report for 2023 Q3](https://blog.cloudflare.com/ddos-threat-report-2023-q3/)<br>
+&ensp;&ensp;[DDoS Attack Trends for 2023 Q1](https://radar.cloudflare.com/reports/ddos-2023-q1)<br>
+&ensp;&ensp;[DDoS Attack Trends for 2023 Q2](https://radar.cloudflare.com/reports/ddos-2023-q2)<br>
+&ensp;&ensp;[DDoS Attack Trends for 2023 Q3](https://radar.cloudflare.com/reports/ddos-2023-q3)<br>
+&ensp;&ensp;[What is a ransom DDoS attack?](https://www.cloudflare.com/learning/ddos/ransom-ddos-attack/)<br>
+&ensp;&ensp;[HTTP flood attack](https://www.cloudflare.com/learning/ddos/http-flood-ddos-attack/)<br>
+&ensp;&ensp;[HTTP/2 Rapid Reset: deconstructing the record-breaking attack](https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/)<br>
+&ensp;&ensp;[How do layer 3 DDoS attacks work? | L3 DDoS](https://www.cloudflare.com/learning/ddos/layer-3-ddos-attacks/)<br>
+&ensp;&ensp;[What is a DNS flood? | DNS flood DDoS attack](https://www.cloudflare.com/learning/ddos/dns-flood-ddos-attack/)<br>
+&ensp;&ensp;[SYN flood attack](https://www.cloudflare.com/learning/ddos/syn-flood-ddos-attack/)<br>
+&ensp;&ensp;[UDP flood attack](https://www.cloudflare.com/learning/ddos/udp-flood-ddos-attack/)<br>
+&ensp;&ensp;[What is the Mirai Botnet?](https://www.cloudflare.com/learning/ddos/glossary/mirai-botnet/)<br>
+&ensp;&ensp;[What is IPsec? | How IPsec VPNs work](https://www.cloudflare.com/learning/network-layer/what-is-ipsec/)<br>
+
 *) Google Measuring Global Internet:<br>
 &ensp;&ensp;[Shining a light in the dark: Measuring global internet shutdowns](https://cloud.google.com/blog/products/identity-security/shining-a-light-in-the-dark-measuring-global-internet-shutdowns)<br>
 &ensp;&ensp;[Google Jigsaw:](https://jigsaw.google.com/)<br>
@@ -397,3 +423,7 @@ Storage Software:<br>
 &ensp;&ensp;[Google Partitioned Tables](https://cloud.google.com/bigquery/docs/partitioned-tables)<br>
 &ensp;&ensp;[merged_reduced_scans.sql](https://github.com/censoredplanet/censoredplanet-analysis/blob/master/table/queries/merged_reduced_scans.sql)<br>
 &ensp;&ensp;[Advancing the Art of Censorship Data Analysis](https://www.petsymposium.org/foci/2023/foci-2023-0003.php)<br>
+
+*) [CyberNews:](https://cybernews.com/)<br>
+   [Red Alert, Israel's rocket alert app, breached by hacktivists](https://cybernews.com/cyber-war/israel-redalert-breached-anonghost-hamas/)<br>
+
