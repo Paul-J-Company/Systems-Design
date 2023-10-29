@@ -86,8 +86,7 @@ There are 3 Major Types of Computer Abstraction:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;The assignment of meaning to a collection of bits is the most powerful form of<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;abstraction because without it, information has no meaning and does not persist.<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;You can assign any meaning you want to a collection of bits, but we use [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) to assign meaning.<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;The reason for this is very philosophical and deep, and rooted in [Information Theory](https://en.wikipedia.org/wiki/Information_theory) and [Communication Theory](https://en.wikipedia.org/wiki/Communication_theory).<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;See: "[Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#additional-resources) Theoretical Computer Science section"<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;The reason for this is very philosophical and deep, See: "[Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#additional-resources) Theoretical Computer Science section"<br>
 &ensp;&ensp;&ensp;System Level Abstractions:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;Bottom line: a computer system is nothing more than a series of abstractions layered on top of each other!<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Operating System (OS) Abstractions:](https://en.wikipedia.org/wiki/Operating_system)<br>
@@ -398,6 +397,8 @@ Database Models/Types:<br>
 ### Additional Resources
 Resources for deep diving in to the realm of "Theory":<br>
 [Theoretical Computer Science](https://en.wikipedia.org/wiki/Theoretical_computer_science) [[1]](https://en.wikipedia.org/wiki/Category:Theoretical_computer_science)<br>
+&ensp;&ensp;[Information Theory](https://en.wikipedia.org/wiki/Information_theory)<br>
+&ensp;&ensp;[Communication Theory](https://en.wikipedia.org/wiki/Communication_theory)<br>
 &ensp;&ensp;Start by reading [Claude Shannon's](https://en.wikipedia.org/wiki/Claude_Shannon) seminal 1948 paper "[A Mathematical Theory of Communication](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)".<br>
 &ensp;&ensp;Follow that up with "[Computing Machinery and Intelligence](https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence)" by [Alan Turning](https://en.wikipedia.org/wiki/Alan_Turing).<br>
 &ensp;&ensp;Follow that up with "[Church's Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus)/[The λ-Calculus and Type Theory](https://plato.stanford.edu/entries/church/supplementD.html)" and the "[Chruch Turing Thesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis)" by [Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church)<br>
