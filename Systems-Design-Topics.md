@@ -36,11 +36,13 @@ Economy of Scale:<br>
 &ensp;&ensp;&ensp;&ensp;Consider a square bottle (cube) of liquid soap.<br>
 &ensp;&ensp;&ensp;&ensp;The bottle is 1/16" thick.<br>
 &ensp;&ensp;&ensp;&ensp;The soap is the signal, the bottle is the noise.<br>
-&ensp;&ensp;&ensp;&ensp;A square bottle (cube) with dimensions 5"x5"x5" has an area of 6x5"^2x1/16" ~= 40cu.in. and a volume of 5^3=125cu.in. with ratio 125(signal):40(noise) ~= 3.<br>
-&ensp;&ensp;&ensp;&ensp;A square bottle (cube) with dimensions 10"x10"x10" has an area of 6x10"^2x1/16" ~= 38cu.in. and a volume of 10^3=1000cu.in. with ratio 1000(signal):38(noise) ~= 26.<br>
+&ensp;&ensp;&ensp;&ensp;A square bottle (cube) with dimensions 5"x5"x5" has an area of 6x5"^2x1/16" ~= 40cu.in.<br>
+&ensp;&ensp;&ensp;&ensp;and a volume of 5^3=125cu.in. with ratio 125(signal):40(noise) ~= 3.<br>
+&ensp;&ensp;&ensp;&ensp;A square bottle (cube) with dimensions 10"x10"x10" has an area of 6x10"^2x1/16" ~= 38cu.in.<br>
+&ensp;&ensp;&ensp;&ensp;and a volume of 10^3=1000cu.in. with ratio 1000(signal):38(noise) ~= 26.<br>
 &ensp;&ensp;&ensp;&ensp;Thus, the larger the bottle, the more soap (signal) you get per material of bottle (noise).<br>
 &ensp;&ensp;&ensp;&ensp;In our soap example, you get approximately 26/3 ~= 8 times more soap per material of bottle for the larger bottle versus the smaller bottle.<br>
-&ensp;&ensp;&ensp;&ensp;This is because [volume increases faster (x^3) than area (x^2)](https://media.licdn.com/dms/image/C5612AQGuKyJaC_fwWQ/article-inline_image-shrink_1000_1488/0/1525127312587?e=1703721600&v=beta&t=990KFy_GVZrfqsT4dTr-EuEnRFjT2XcVn8znID3agFw) for any quantity greater than 6.<br>
+&ensp;&ensp;&ensp;&ensp;This is because [volume (x^3) increases faster than area (x^2)](https://media.licdn.com/dms/image/C5612AQGuKyJaC_fwWQ/article-inline_image-shrink_1000_1488/0/1525127312587?e=1703721600&v=beta&t=990KFy_GVZrfqsT4dTr-EuEnRFjT2XcVn8znID3agFw) for any quantity greater than 6.<br>
 &ensp;&ensp;Typically, the larger something is, the more efficient it is (up to a point).<br>
 &ensp;&ensp;&ensp;&ensp;e.g., HVAC units are more efficient the larger they are.<br>
 &ensp;&ensp;Economy of Scale increases Capex because larger items cost more and use more power and cooling,<br>
