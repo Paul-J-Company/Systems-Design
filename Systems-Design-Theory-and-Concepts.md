@@ -45,11 +45,12 @@ Introduction:<br>
 &ensp;&ensp;"What is the most important concept in Computer Science?"<br>
 &ensp;&ensp;He asked Donald Knuth this question and his answer was: "Layers of Abstraction".<br>
 &ensp;&ensp;John Ousterhout's answer to this question was: "[Problem Decomposition](https://www.youtube.com/watch?v=lgZ7Cxt5uIU#t=00h03m56s)".<br>
+
 There are 3 Major Types of Computer Abstraction:<br>
-1. One-to-Many Abstraction:<br>
-   **Appears and behaves like one thing, but is actually many things.**<br>
-   Network Abstractions:<br>
-   &ensp;&ensp;[Load Balancer:](https://en.wikipedia.org/wiki/Load_balancing_(computing)) hardware-based and software-based<br>
+&ensp;1. One-to-Many Abstraction:<br>
+&ensp;&ensp;**Appears and behaves like one thing, but is actually many things.**<br>
+&ensp;&ensp;Network Abstractions:<br>
+&ensp;&ensp;&ensp;[Load Balancer:](https://en.wikipedia.org/wiki/Load_balancing_(computing)) hardware-based and software-based<br>
    &ensp;&ensp;[API Gateway:](https://en.wikipedia.org/wiki/API_management#Gateway)<br>
    &ensp;&ensp;[1-to-Many NAT/PAT:](https://en.wikipedia.org/wiki/Network_address_translation#One-to-many_NAT)<br>
    &ensp;&ensp;[Forward Proxy:](https://en.wikipedia.org/wiki/Proxy_server#Forward_proxies)<br>
