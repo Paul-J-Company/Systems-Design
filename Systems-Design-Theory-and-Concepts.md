@@ -396,7 +396,7 @@ Database Models/Types:<br>
 
 ### Additional Resources
 **Resources for deep diving in to the realm of "Theory":**<br>
-A main concept to know is that diversity is good!<br>
+A main concept to know is that [diversity](https://dictionary.cambridge.org/us/dictionary/english/variety-is-the-spice-of-life?q=Variety+Is+the+Spice+of+Life) is good!<br>
 The concepts of [Interdisciplinarity (aka., Multidisciplinarity, Pluridisciplinarity](https://en.wikipedia.org/wiki/Interdisciplinarity) [[1]](https://en.wikipedia.org/wiki/Interdiscipline), and [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity)<br>
 is critical to the goal of [BROAD and DEEP Learning]()<br>
 
