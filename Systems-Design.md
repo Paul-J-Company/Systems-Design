@@ -28,7 +28,7 @@
 + Well Documented: strive for [Great Documentation](https://www.linkedin.com/pulse/great-ation-defined-daniel-smith/); [Writing Great Documentation](https://medium.com/@episod/writing-great-documentation-44d90367115a)
 + Aligned with Business Objectes: the reason your business exists 
   - Every business has Business Objectives.
-  - These ***System Properties*** align with the high level business objective of ***"satisfy your customers"***.
+  - These ***System Properties*** align with the high level business objective of ***"satisfy your internal and external customers"***.
 
 ### Your System is a [Stack](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*NsNFTKROicAKdw1z.png) of [Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#computer-abstractions):
 
