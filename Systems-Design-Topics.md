@@ -183,7 +183,7 @@ Don't sweat the details of these 3 buzzwords, they all really mean the same thin
 you have an infrastructure, people using that infrastructure (Internal: Ops, Developers; External: Customers)<br>
 and your job is to design, build and maintain the infrastructure and make the people using it happy.<br>
 The definition of "happy" is created by analyzing your Company's needs and objectives.<br>
-Bottom line is **"your job is to implement the [System Properties](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#system-properties) defined in this repo."**<br>
+Bottom line is **"your job is to implement the [System Properties](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#systems-properties) defined in this repo."**<br>
 [Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br>
 What is Free and Opensource?<br>
 &ensp;&ensp;[The Open Source Definition:](https://opensource.org/osd/)<br>
