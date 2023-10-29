@@ -73,7 +73,7 @@ There are 3 Major Types of Computer Abstraction:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Samba](https://en.wikipedia.org/wiki/Samba)/[SMB/CIFS:](https://en.wikipedia.org/wiki/Server_Message_Block)<br>
 &ensp;&ensp;&ensp;&ensp;Compute Abstractions:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) remote code invocation (aka., procedure call) appear like it's local code invocation.<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC)<br>
 
 &ensp;3) [Emulation](https://en.wikipedia.org/wiki/Emulator)/[Simulation](https://en.wikipedia.org/wiki/Computer_simulation)/[Virtualization](https://en.wikipedia.org/wiki/Virtualization) Abstraction:<br>
