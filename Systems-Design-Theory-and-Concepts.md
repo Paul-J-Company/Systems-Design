@@ -48,32 +48,32 @@ Introduction:<br>
 
 There are 3 Major Types of Computer Abstraction:<br>
 &ensp;1. One-to-Many Abstraction:<br>
-&ensp;&ensp;**Appears and behaves like one thing, but is actually many things.**<br>
-&ensp;&ensp;Network Abstractions:<br>
-&ensp;&ensp;&ensp;[Load Balancer:](https://en.wikipedia.org/wiki/Load_balancing_(computing)) hardware-based and software-based<br>
-   &ensp;&ensp;[API Gateway:](https://en.wikipedia.org/wiki/API_management#Gateway)<br>
-   &ensp;&ensp;[1-to-Many NAT/PAT:](https://en.wikipedia.org/wiki/Network_address_translation#One-to-many_NAT)<br>
-   &ensp;&ensp;[Forward Proxy:](https://en.wikipedia.org/wiki/Proxy_server#Forward_proxies)<br>
-   &ensp;&ensp;[Reverse Proxy:](https://en.wikipedia.org/wiki/Reverse_proxy)<br>
-   &ensp;&ensp;[HSRP](https://en.wikipedia.org/wiki/Hot_Standby_Router_Protocol)/[VRRP](https://en.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol)/[CARP:](https://en.wikipedia.org/wiki/Common_Address_Redundancy_Protocol)<br>
-   &ensp;&ensp;[Link Aggregation Group (LAG)](https://en.wikipedia.org/wiki/Link_aggregation)/[Link Aggregation Control Protocol (LACP):](https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol) aka., NIC Bonding/Teaming/Trunking/Bundling/Channeling<br>
-   &ensp;&ensp;[Multi-Chassis Link Aggregation Group (MLAG):](https://en.wikipedia.org/wiki/Multi-chassis_link_aggregation_group)<br>
-   Storeage Abstractions:<br>
-   &ensp;&ensp;[RAID:](https://en.wikipedia.org/wiki/Raid)<br>
-   &ensp;&ensp;[Controlled Replication Under Scalable Hashing (CRUSH):](https://ceph.com/assets/pdfs/weil-crush-sc06.pdf)<br>
-   Compute Abstractions:<br>
-   &ensp;&ensp;[Cluster:](https://en.wikipedia.org/wiki/Computer_cluster)<br>
-   &ensp;&ensp;[Cloud Computing](https://en.wikipedia.org/wiki/Cloud_computing)<br>
-2) Local-Remote Abstraction:<br>
-   **Appears and behaves like a local resource, but is actually a remote resource.**<br>
-   Storage Abstractions:<br>
-   &ensp;&ensp;[Clusterd Filesystems:](https://en.wikipedia.org/wiki/Clustered_file_system) aka., Distributed Filesystems<br>
-   &ensp;&ensp;[Network File System (NFS):](https://en.wikipedia.org/wiki/Network_File_System)<br>
-   &ensp;&ensp;[Samba](https://en.wikipedia.org/wiki/Samba)/[SMB/CIFS](https://en.wikipedia.org/wiki/Server_Message_Block):<br>
-   Compute Abstractions:<br>
-   &ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
-   &ensp;&ensp;[RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)<br>
-   &ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC)<br><br>
+&ensp;&ensp;&ensp;**Appears and behaves like one thing, but is actually many things.**<br>
+&ensp;&ensp;&ensp;Network Abstractions:<br>
+&ensp;&ensp;&ensp;&ensp;[Load Balancer:](https://en.wikipedia.org/wiki/Load_balancing_(computing)) hardware-based and software-based<br>
+&ensp;&ensp;&ensp;&ensp;[API Gateway:](https://en.wikipedia.org/wiki/API_management#Gateway)<br>
+&ensp;&ensp;&ensp;&ensp;[1-to-Many NAT/PAT:](https://en.wikipedia.org/wiki/Network_address_translation#One-to-many_NAT)<br>
+&ensp;&ensp;&ensp;&ensp;[Forward Proxy:](https://en.wikipedia.org/wiki/Proxy_server#Forward_proxies)<br>
+&ensp;&ensp;&ensp;&ensp;[Reverse Proxy:](https://en.wikipedia.org/wiki/Reverse_proxy)<br>
+&ensp;&ensp;&ensp;&ensp;[HSRP](https://en.wikipedia.org/wiki/Hot_Standby_Router_Protocol)/[VRRP](https://en.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol)/[CARP:](https://en.wikipedia.org/wiki/Common_Address_Redundancy_Protocol)<br>
+&ensp;&ensp;&ensp;&ensp;[Link Aggregation Group (LAG)](https://en.wikipedia.org/wiki/Link_aggregation)/[Link Aggregation Control Protocol (LACP):](https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol) aka., NIC Bonding/Teaming/Trunking/Bundling/Channeling<br>
+&ensp;&ensp;&ensp;&ensp;[Multi-Chassis Link Aggregation Group (MLAG):](https://en.wikipedia.org/wiki/Multi-chassis_link_aggregation_group)<br>
+&ensp;&ensp;&ensp;Storeage Abstractions:<br>
+&ensp;&ensp;&ensp;&ensp;[RAID:](https://en.wikipedia.org/wiki/Raid)<br>
+&ensp;&ensp;&ensp;&ensp;[Controlled Replication Under Scalable Hashing (CRUSH):](https://ceph.com/assets/pdfs/weil-crush-sc06.pdf)<br>
+&ensp;&ensp;&ensp;Compute Abstractions:<br>
+&ensp;&ensp;&ensp;&ensp;[Cluster:](https://en.wikipedia.org/wiki/Computer_cluster)<br>
+&ensp;&ensp;&ensp;&ensp;[Cloud Computing](https://en.wikipedia.org/wiki/Cloud_computing)<br>
+&ensp;2) Local-Remote Abstraction:<br>
+&ensp;&ensp;&ensp;*Appears and behaves like a local resource, but is actually a remote resource.**<br>
+&ensp;&ensp;&ensp;Storage Abstractions:<br>
+&ensp;&ensp;&ensp;&ensp;[Clusterd Filesystems:](https://en.wikipedia.org/wiki/Clustered_file_system) aka., Distributed Filesystems<br>
+&ensp;&ensp;&ensp;&ensp;[Network File System (NFS):](https://en.wikipedia.org/wiki/Network_File_System)<br>
+&ensp;&ensp;&ensp;&ensp;[Samba](https://en.wikipedia.org/wiki/Samba)/[SMB/CIFS](https://en.wikipedia.org/wiki/Server_Message_Block):<br>
+&ensp;&ensp;&ensp;Compute Abstractions:<br>
+&ensp;&ensp;&ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
+&ensp;&ensp;&ensp;&ensp;[RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)<br>
+&ensp;&ensp;&ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC)<br><br>
 3) [Emulation](https://en.wikipedia.org/wiki/Emulator)/[Simulation](https://en.wikipedia.org/wiki/Computer_simulation)/[Virtualization](https://en.wikipedia.org/wiki/Virtualization) Abstraction:<br>
    **Appears and behaves like one thing, but is actually another.**<br>
    The Abstraction of [Information:](https://en.wikipedia.org/wiki/Information)<br>
