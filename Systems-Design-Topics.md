@@ -132,8 +132,8 @@ High Availability (HA):<br>
    Design is a Full Stack endeavor.<br>
    There is no "**[one size that fits all](https://dictionary.cambridge.org/us/dictionary/english/one-size-fits-all)**" design.<br>
    Identify all the trade-offs, bottlenecks and [single points of failure](Single point of failure).<br>
-   Have a broad knowledge of alternative technologies.<br>
-   Ask many counter questions:<br>
+   Have a [broad]() knowledge of alternative technologies.<br>
+   There are always "[two sides to a coin](https://dictionary.cambridge.org/us/dictionary/english/other-side-of-the-coin?q=the+other+side+of+the+coin)", so ask many counter questions:<br>
    &ensp;&ensp;How many daily users?<br>
    &ensp;&ensp;What are the edge cases?<br>
    Get feedback from your stakeholders - Are these tradeoffs acceptable?<br>
@@ -146,10 +146,9 @@ High Availability (HA):<br>
    [The importance of documentation](https://www.atlassian.com/work-management/knowledge-sharing/documentation/importance-of-documentation)<br>
    Be Strategic:<br>
    The overall goal MUST be a great design.<br>
-   Simplifies future development.<br>
+   A great reat design simplifies future development.<br>
    Don't be short sighted, have a long term vision for your success!<br>
-   Take extra time today.<br>
-   Pays back in the long run.<br>
+   Take extra time today, because it will pay back in the long run.<br>
 4) Define Clear Objectives:<br>
 5) Define How you Measure Success:<br>
 6) [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
