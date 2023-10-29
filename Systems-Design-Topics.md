@@ -498,19 +498,16 @@ What is [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)?<br>
 &ensp;&ensp;&ensp;or provide Web-specific features,<br>
 &ensp;&ensp;&ensp;so it can be employed in other environments as well."<br>
 What is eBPF?<br>
-&ensp;&ensp;[eBPF](https://en.wikipedia.org/wiki/EBPF)<br>
-&ensp;&ensp;[eBPF](https://ebpf.io/) stands for extended Berkeley Packet Filter (eBPF)<br>
+&ensp;&ensp;[eBPF](https://ebpf.io/) [[1]](https://en.wikipedia.org/wiki/EBPF) stands for extended Berkeley Packet Filter (eBPF)<br>
 &ensp;&ensp;eBPF is a technology that can run programs in a privileged context such as the operating system kernel.<br>
 &ensp;&ensp;eBPF is used to safely and efficiently extend the capabilities of the kernel at runtime<br>
 &ensp;&ensp;without requiring changes to kernel source code or loading kernel modules.<br>
 What are Protocol Buffers?<br>
-&ensp;&ensp;[Protocol Buffers:](https://protobuf.dev/)<br>
-&ensp;&ensp;[Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers) is a data format used to serialize structured data.<br>
+&ensp;&ensp;[Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers) [[1]](https://protobuf.dev/) is a data format used to serialize structured data.<br>
 &ensp;&ensp;Google use Protocol Bufferes to implement gRPC.<br>
 &ensp;&ensp;Protocol Buffers are similar to the Apache Thrift, Ion, and Microsoft Bond protocols.<br>
 What is gRPC?<br>
-&ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC)<br>
-&ensp;&ensp;gRPC is a modern, open source, high-performance remote<br>
+&ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC) is a modern, open source, high-performance remote<br>
 &ensp;&ensp;procedure call (RPC) framework that can run anywhere.<br>
 &ensp;&ensp;gRPC enables client and server applications to communicate transparently,<br>
 &ensp;&ensp;and simplifies the building of connected systems.<br>
