@@ -525,15 +525,15 @@ What is Single Pain of Glass?<br>
 
 ### Principles of GitOps:
 1) Declarative:<br>
-&ensp;A system managed by GitOps must have it's state expressed declaratively.<br>
+   A system managed by GitOps must have it's state expressed declaratively.<br>
 2) Versioned and Immutable:<br>
-&ensp;Desired state is stored in a way that enforces immutability,<br>
-&ensp;versioning and retains a complete version history.<br>
+   Desired state is stored in a way that enforces immutability,<br>
+   versioning and retains a complete version history.<br>
 3) Pulled Automatically:<br>
-&ensp;Software agents automatically pull the desired state declarations from the source.<br>
+   Software agents automatically pull the desired state declarations from the source.<br>
 4) Continuously Reconciled:<br>
-&ensp;Software agents continuously observe actual system state<br>
-&ensp;and attempt to apply the desired state.<br>
+   Software agents continuously observe actual system state<br>
+   and attempt to apply the desired state.<br>
 
 ### Three Levels of Maturity for Infrastructure Automation:
 1) Ad-hoc:<br>
