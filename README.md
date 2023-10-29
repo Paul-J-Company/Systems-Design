@@ -3,7 +3,7 @@ and the roles and responsibilities<br>
 that a Systems Designer, Platform Engineer, SRE, and/or DevOps Engineer [entail](https://dictionary.cambridge.org/us/dictionary/english/entail).
 
 These are introductory notes about the subject and is meant to get someone not familiar<br> 
-with System Design "[up to speed](https://dictionary.cambridge.org/us/dictionary/english/up-to-speed)" on the latest terminology, techologies and techniques.<br>
+with Systems Design "[up to speed](https://dictionary.cambridge.org/us/dictionary/english/up-to-speed)" on the latest terminology, techologies and techniques.<br>
 All content in this repo are "[tips of Iceburgs](https://dictionary.cambridge.org/us/dictionary/english/tip-of-the-iceberg?q=the+tip+of+the+iceberg)" meant to to give you a [**BROAD**]()<br>
 understanding of what it takes to become a "[well rounded](https://dictionary.cambridge.org/us/dictionary/english/well-rounded)" Systems Designer.<br>
 It is up to you to go [**DEEP**]() on every subject to become an "[expert](https://dictionary.cambridge.org/us/dictionary/english/expert)" on the subject of Systems Design.<br>
