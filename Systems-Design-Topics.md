@@ -490,8 +490,7 @@ Incident management often involves:<br>
 &ensp;&ensp;5) Resolution:<br>
 &ensp;&ensp;&ensp;&ensp;Final resolution and measures to avert future recurrences.<br>
 What is [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)?<br>
-&ensp;&ensp;[WebAssembly:](https://webassembly.org/)<br>
-&ensp;&ensp;WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine.<br>
+&ensp;&ensp;[WebAssembly:](https://webassembly.org/) (abbreviated WASM) is a binary instruction format for a stack-based virtual machine.<br>
 &ensp;&ensp;Wasm is designed as a portable compilation target for programming languages,<br>
 &ensp;&ensp;enabling deployment on the web for client and server applications.<br>
 &ensp;&ensp;The main goal of WebAssembly is to enable high-performance applications on web pages,<br>
