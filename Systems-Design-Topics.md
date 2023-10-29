@@ -157,13 +157,14 @@ High Availability (HA):<br>
    Simple does not always imply easy!<br>
 5) Define Clear Objectives:<br>
 6) Define How you Measure Success:<br>
-7) [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
+7) Always break down a complex problem into smaller, more understandable pieces.<br>
+   [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
+   [Principle of Compositionality:](https://en.wikipedia.org/wiki/Principle_of_compositionality)<br>
 8) [Separation of Concerns: (SoP)](https://en.wikipedia.org/wiki/Separation_of_concerns)<br>
    [Separation of Content and Presentation](https://en.wikipedia.org/wiki/Separation_of_content_and_presentation)<br>
 9) [Single Responsibility Principle: (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle)<br>
 10) [Principle of Least Privilege:](https://en.wikipedia.org/wiki/Principle_of_least_privilege) aka., (PoLP), Principle of Least Authority (PoLA)<br>
-11) [Principle of Compositionality:](https://en.wikipedia.org/wiki/Principle_of_compositionality)<br>
-12) Abstraction:<br>
+11) Abstraction:<br>
     See: "[General Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#general-abstractions)"<br>
     See: "[Computer Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#computer-abstractions)"<br>
 
