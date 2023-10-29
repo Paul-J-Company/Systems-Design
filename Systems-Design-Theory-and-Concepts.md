@@ -397,7 +397,8 @@ Database Models/Types:<br>
 ### Additional Resources
 **Resources for deep diving in to the realm of "Theory":**<br>
 A main concept to know is that diversity is good!<br>
-The concepts of [Interdisciplinarity (aka., Multidisciplinarity, Pluridisciplinarity](https://en.wikipedia.org/wiki/Interdisciplinarity) [[1]](https://en.wikipedia.org/wiki/Interdiscipline), and [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity) is critical to the goal of [BROAD and DEEP Learning]()<br>
+The concepts of [Interdisciplinarity (aka., Multidisciplinarity, Pluridisciplinarity](https://en.wikipedia.org/wiki/Interdisciplinarity) [[1]](https://en.wikipedia.org/wiki/Interdiscipline), and [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity)<br>
+is critical to the goal of [BROAD and DEEP Learning]()<br>
 
 [Philosophy:](https://en.wikipedia.org/wiki/Philosophy) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy)<br>
 &ensp;&ensp;[Metaphysics](https://en.wikipedia.org/wiki/Metaphysics) [[1]](https://en.wikipedia.org/wiki/Category:Metaphysics) [[2]]() [[3]]()<br>
