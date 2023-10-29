@@ -111,23 +111,7 @@ High Availability (HA):<br>
 &ensp;&ensp;&ensp;&ensp;to verify the hot-standby device is working properly.<br>
 
 ### System Design Principles and Processes
-1) Practice these Design Priciples:<br>
-   Practice does NOT make Perfect!<br>
-   Perfect Practice makes Perfect!<br>
-   Practice!, Practice!, Practice!<br>
-   **There's no substitute for doing!**<br>
-   **Book learning will only get you so far.**<br>
-2) Efficient Communication:<br>
-   ABC = Accurate, Brief and Clear<br>
-   CCC = Correct, Concise, Clear<br>
-   Rule #1: Know your audience!<br>
-   Always stay calm and rational.<br>
-   You want a good signal-to-noise ration (SNR).<br>
-   Signal is what you want.<br>
-   Noise is what you don't want.<br>
-   Always be kind!<br>
-   Being a good person is more important than any technical skill you may have or aquire.<br>
-3) Design is about making tradeoffs and compromises at all levels of your System.<br>
+1) Design is about making tradeoffs and compromises at all levels of your System.<br>
    e.g., Security vs. Convenience, Capex vs. Opex, etc.<br>
    Design is a Full Stack endeavor.<br>
    There is no "**[one size that fits all](https://dictionary.cambridge.org/us/dictionary/english/one-size-fits-all)**" design.<br>
@@ -149,17 +133,33 @@ High Availability (HA):<br>
    A great reat design simplifies future development.<br>
    Don't be short sighted, have a long term vision for your success!<br>
    Take extra time today, because it will pay back in the long run.<br>
-4) Define Clear Objectives:<br>
-5) Define How you Measure Success:<br>
-6) [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
-7) [Keep it Simple Stupid: (KISS)](https://en.wikipedia.org/wiki/KISS_principle)<br>
+2) Practice these Design Principles:<br>
+   Practice does NOT make Perfect!<br>
+   Perfect Practice makes Perfect!<br>
+   Practice!, Practice!, Practice!<br>
+   **There's no substitute for doing!**<br>
+   **Book learning will only get you so far.**<br>
+3) Efficient Communication:<br>
+   ABC = Accurate, Brief and Clear<br>
+   CCC = Correct, Concise, Clear<br>
+   Rule #1: Know your audience!<br>
+   Always stay calm and rational.<br>
+   You want a good signal-to-noise ration (SNR).<br>
+   Signal is what you want.<br>
+   Noise is what you don't want.<br>
+   Always be kind!<br>
+   Being a good person is more important than any technical skill you may have or aquire.<br>
+4) [Keep it Simple Stupid: (KISS)](https://en.wikipedia.org/wiki/KISS_principle)<br>
    Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.<br>
    Simple is the opposite of complex.<br>
    Complexity is the enemy of clarity!<br>
    Simple does not always imply easy!<br>
- 8) [Separation of Concerns: (SoP)](https://en.wikipedia.org/wiki/Separation_of_concerns)<br>
+5) Define Clear Objectives:<br>
+6) Define How you Measure Success:<br>
+7) [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
+8) [Separation of Concerns: (SoP)](https://en.wikipedia.org/wiki/Separation_of_concerns)<br>
    [Separation of Content and Presentation](https://en.wikipedia.org/wiki/Separation_of_content_and_presentation)<br>
- 9) [Single Responsibility Principle: (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle)<br>
+9) [Single Responsibility Principle: (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle)<br>
 10) [Principle of Least Privilege:](https://en.wikipedia.org/wiki/Principle_of_least_privilege) aka., (PoLP), Principle of Least Authority (PoLA)<br>
 11) [Principle of Compositionality:](https://en.wikipedia.org/wiki/Principle_of_compositionality)<br>
 12) Abstraction:<br>
