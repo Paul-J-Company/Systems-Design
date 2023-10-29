@@ -395,8 +395,53 @@ Database Models/Types:<br>
  99) [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw)<br>
 
 ### Additional Resources
-Resources for deep diving in to the realm of "Theory":<br>
-[Theoretical Computer Science](https://en.wikipedia.org/wiki/Theoretical_computer_science) [[1]](https://en.wikipedia.org/wiki/Category:Theoretical_computer_science)<br>
+**Resources for deep diving in to the realm of "Theory":**<br>
+A main concept to know is that diversity is good!<br>
+The concepts of [Interdisciplinarity (aka., Multidisciplinarity, Pluridisciplinarity](https://en.wikipedia.org/wiki/Interdisciplinarity) [[1]](https://en.wikipedia.org/wiki/Interdiscipline), [](), [](), [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity)<br>
+is critical to the goal of [BROAD and DEEP Learning]()<br>
+
+[Philosophy:](https://en.wikipedia.org/wiki/Philosophy) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy)<br>
+&ensp;&ensp;[Metaphysics](https://en.wikipedia.org/wiki/Metaphysics) [[1]](https://en.wikipedia.org/wiki/Category:Metaphysics) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Epistemology](https://en.wikipedia.org/wiki/Epistemology) [[1]](https://en.wikipedia.org/wiki/Category:Epistemology) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Mereology](https://en.wikipedia.org/wiki/Mereology) [[1]](https://en.wikipedia.org/wiki/Category:Mereology) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Philosophy of Education](https://en.wikipedia.org/wiki/Philosophy_of_education) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy_of_education) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Philosophy of Science](https://en.wikipedia.org/wiki/Philosophy_of_science) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy_of_science) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Philosophy of Mind](https://en.wikipedia.org/wiki/Philosophy_of_mind) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy_of_mind) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Philosophy of Artificial Intelligence](https://en.wikipedia.org/wiki/Philosophy_of_artificial_intelligence) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy_of_artificial_intelligence) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Philosophy of]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Philosophy of]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Philosophy of]() [[1]]() [[2]]() [[3]]()<br>
+
+[Pure Mathematics:](https://en.wikipedia.org/wiki/Pure_mathematics)<br>
+&ensp;&ensp;[Fields of Mathematics](https://en.wikipedia.org/wiki/Category:Fields_of_mathematics) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Areas of Mathematics](https://en.wikipedia.org/wiki/Mathematics#Areas_of_mathematics) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+
+[Applied Mathematics:](https://en.wikipedia.org/wiki/Applied_mathematics) [[1]](https://en.wikipedia.org/wiki/Category:Applied_mathematics)<br>
+&ensp;&ensp;[Applied Mathematicians](https://en.wikipedia.org/wiki/Category:Applied_mathematicians) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+
+[Theoretical Physics:](https://en.wikipedia.org/wiki/Theoretical_physics) [[1]](https://en.wikipedia.org/wiki/Category:Theoretical_physics)<br>
+&ensp;&ensp;[Standard Model of Particle Physics](https://en.wikipedia.org/wiki/Standard_Model) [[1]](https://en.wikipedia.org/wiki/Category:Standard_Model) [[2]](https://en.wikipedia.org/wiki/Category:Concepts_in_physics) [[3]]()<br>
+&ensp;&ensp;[The Core Theory](https://frankwilczek.com/2014/coreTheory.pdf) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Interpretations of Quantum Mechanics](https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics) [[1]](https://www.youtube.com/watch?v=f-OFP5tNtMY) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Quantum Mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Special Relativity](https://en.wikipedia.org/wiki/Special_relativity) [[1]](https://en.wikipedia.org/wiki/Category:Special_relativity) [[2]]() [[3]]()<br>
+&ensp;&ensp;[General Ralativity](https://en.wikipedia.org/wiki/General_relativity) [[1]](https://en.wikipedia.org/wiki/Category:General_relativity) [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+
+[Experimental Physics:](https://en.wikipedia.org/wiki/Experimental_physics) [[1]](https://en.wikipedia.org/wiki/Category:Experimental_physics)<br>
+&ensp;&ensp;[Experimental Physicists](https://en.wikipedia.org/wiki/Experimental_physics) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+
+[Theoretical Computer Science:](https://en.wikipedia.org/wiki/Theoretical_computer_science) [[1]](https://en.wikipedia.org/wiki/Category:Theoretical_computer_science)<br>
+&ensp;&ensp;[Information Science](https://en.wikipedia.org/wiki/Information_science) [[1]](https://en.wikipedia.org/wiki/Category:Information_science)<br>
 &ensp;&ensp;[Information Theory](https://en.wikipedia.org/wiki/Information_theory)<br>
 &ensp;&ensp;[Communication Theory](https://en.wikipedia.org/wiki/Communication_theory)<br>
 &ensp;&ensp;Start by reading [Claude Shannon's](https://en.wikipedia.org/wiki/Claude_Shannon) seminal 1948 paper "[A Mathematical Theory of Communication](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)".<br>
@@ -405,5 +450,14 @@ Resources for deep diving in to the realm of "Theory":<br>
 &ensp;&ensp;Follow that up with "[Principia Mathematica](https://en.wikipedia.org/wiki/Principia_Mathematica)" by [Alfred North Whitehead](https://en.wikipedia.org/wiki/Alfred_Whitehead) and [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell).<br>
 &ensp;&ensp;Follow that up with "[Certain Factors Affecting Telegraph Speed](https://monoskop.org/images/9/9f/Nyquist_Harry_1924_Certain_Factors_Affecting_Telegraph_Speed.pdf)" and "[Certain Topics in Telegraph Transmission Theory](https://bayes.wustl.edu/Manual/CertainTopicsInTelegraphTransmissionTheory.pdf)" by [Harry Nyquist](https://en.wikipedia.org/wiki/Harry_Nyquist)<br>
 &ensp;&ensp;Follow that up with "[Transmission of Information](https://monoskop.org/images/a/a6/Hartley_Ralph_VL_1928_Transmission_of_Information.pdf)" by [Ralph Hartley](https://en.wikipedia.org/wiki/Ralph_Hartley)<br>
-&ensp;&ensp;Information Theory and Communication Theory is a rich field of study and worth the deep dive.<br>
+
+**Resources for deep diving in to the realm of "Computational Science":**<br>
+&ensp;&ensp;[Computational Science](https://en.wikipedia.org/wiki/Computational_science) [[1]](https://en.wikipedia.org/wiki/Category:Computational_science) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Computational Fields of Study](https://en.wikipedia.org/wiki/Category:Computational_fields_of_study) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Computational Fluid Dynamics](https://en.wikipedia.org/wiki/Computational_fluid_dynamics) [[1]](https://en.wikipedia.org/wiki/Category:Computational_fluid_dynamics) [[2]]() [[3]]()<<br>
+&ensp;&ensp;[Computational Chemistry](https://en.wikipedia.org/wiki/Computational_chemistry) [[1]](https://en.wikipedia.org/wiki/Category:Computational_chemistry) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Computational Biology](https://en.wikipedia.org/wiki/Computational_biology) [[1]](https://en.wikipedia.org/wiki/Category:Computational_biology) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Computational ]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Computational ]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Computational ]() [[1]]() [[2]]() [[3]]()<br>
 
