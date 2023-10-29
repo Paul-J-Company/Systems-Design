@@ -59,87 +59,89 @@ There are 3 Major Types of Computer Abstraction:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Link Aggregation Group (LAG)](https://en.wikipedia.org/wiki/Link_aggregation)/[Link Aggregation Control Protocol (LACP):](https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol) aka., NIC Bonding/Teaming/Trunking/Bundling/Channeling<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Multi-Chassis Link Aggregation Group (MLAG):](https://en.wikipedia.org/wiki/Multi-chassis_link_aggregation_group)<br>
 &ensp;&ensp;&ensp;Storeage Abstractions:<br>
-&ensp;&ensp;&ensp;&ensp;[RAID:](https://en.wikipedia.org/wiki/Raid)<br>
-&ensp;&ensp;&ensp;&ensp;[Controlled Replication Under Scalable Hashing (CRUSH):](https://ceph.com/assets/pdfs/weil-crush-sc06.pdf)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[RAID:](https://en.wikipedia.org/wiki/Raid)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Controlled Replication Under Scalable Hashing (CRUSH):](https://ceph.com/assets/pdfs/weil-crush-sc06.pdf)<br>
 &ensp;&ensp;&ensp;Compute Abstractions:<br>
-&ensp;&ensp;&ensp;&ensp;[Cluster:](https://en.wikipedia.org/wiki/Computer_cluster)<br>
-&ensp;&ensp;&ensp;&ensp;[Cloud Computing](https://en.wikipedia.org/wiki/Cloud_computing)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Cluster:](https://en.wikipedia.org/wiki/Computer_cluster)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Cloud Computing](https://en.wikipedia.org/wiki/Cloud_computing)<br>
+
 &ensp;2) Local-Remote Abstraction:<br>
-&ensp;&ensp;&ensp;*Appears and behaves like a local resource, but is actually a remote resource.**<br>
+&ensp;&ensp;&ensp;**Appears and behaves like a local resource, but is actually a remote resource.**<br>
 &ensp;&ensp;&ensp;Storage Abstractions:<br>
-&ensp;&ensp;&ensp;&ensp;[Clusterd Filesystems:](https://en.wikipedia.org/wiki/Clustered_file_system) aka., Distributed Filesystems<br>
-&ensp;&ensp;&ensp;&ensp;[Network File System (NFS):](https://en.wikipedia.org/wiki/Network_File_System)<br>
-&ensp;&ensp;&ensp;&ensp;[Samba](https://en.wikipedia.org/wiki/Samba)/[SMB/CIFS](https://en.wikipedia.org/wiki/Server_Message_Block):<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Clusterd Filesystems:](https://en.wikipedia.org/wiki/Clustered_file_system) aka., Distributed Filesystems<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Network File System (NFS):](https://en.wikipedia.org/wiki/Network_File_System)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Samba](https://en.wikipedia.org/wiki/Samba)/[SMB/CIFS:](https://en.wikipedia.org/wiki/Server_Message_Block)<br>
+&ensp;&ensp;&ensp;&ensp;Compute Abstractions:<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC)<br>
+
+&ensp;3) [Emulation](https://en.wikipedia.org/wiki/Emulator)/[Simulation](https://en.wikipedia.org/wiki/Computer_simulation)/[Virtualization](https://en.wikipedia.org/wiki/Virtualization) Abstraction:<br>
+&ensp;&ensp;&ensp;**Appears and behaves like one thing, but is actually another.**<br>
+&ensp;&ensp;&ensp;The Abstraction of [Information:](https://en.wikipedia.org/wiki/Information)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;The term bit is short for "**b**inary dig**it**".<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;A [bit](https://en.wikipedia.org/wiki/Bit) is the lowest level of abstraction in Computer Science.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;Without getting too techincal or philisophical,<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;a bit should only represent two states (thus the word binary, latin for "consisting of two") and persist over time.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;The assignment of meaning to a collection of bits is the most powerful form of<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;abstraction because without it, information has no meaning and does not persist.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;You can assign any meaning you want to a collection of bits, but we use [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) to assign meaning.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;The reason for this is very philosophical and deep, and rooted in [Information Theory](https://en.wikipedia.org/wiki/Information_theory) and [Communication Theory](https://en.wikipedia.org/wiki/Communication_theory).<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;See: "[Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#additional-resources) Theoretical Computer Science section"<br>
+&ensp;&ensp;&ensp;System Level Abstractions:<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;Bottom line: a computer system is nothing more than a series of abstractions layered on top of each other!<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Operating System (OS) Abstractions:](https://en.wikipedia.org/wiki/Operating_system)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Kernel Space:](https://en.wikipedia.org/wiki/User_space_and_kernel_space)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Userspace:](https://en.wikipedia.org/wiki/User_space_and_kernel_space)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Virtual Reality (VR)](https://en.wikipedia.org/wiki/Virtual_reality)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Augmented Reality (AR)](https://en.wikipedia.org/wiki/Augmented_reality)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Mixed Reality (MR)](https://en.wikipedia.org/wiki/Mixed_reality)<br>
+&ensp;&ensp;&ensp;Network Abstractions:<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;OS Abstraction Implements:<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Sockets](https://en.wikipedia.org/wiki/Network_socket)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[NIC - eth0](https://en.wikipedia.org/wiki/Network_interface_controller)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Loopback](https://en.wikipedia.org/wiki/Loopback) [[1]](https://en.wikipedia.org/wiki/Loopback#LOOPBACK-INTERFACE)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Localhost](https://en.wikipedia.org/wiki/Localhost)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Virtual Network Interface (VNI)](https://en.wikipedia.org/wiki/Virtual_network_interface)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Virtual Routing and Forwarding (VRF)](https://en.wikipedia.org/wiki/Virtual_routing_and_forwarding)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Virtual LAN (VLAN)](https://en.wikipedia.org/wiki/VLAN)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Virtual Private Network (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network) aka., Tunnel<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Overlay Network](https://en.wikipedia.org/wiki/Overlay_network)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[TCP/IP Stack](https://en.wikipedia.org/wiki/Internet_protocol_suite)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[OSI Model](https://en.wikipedia.org/wiki/OSI_model)<br>
+&ensp;&ensp;&ensp;Storage Abstractions:<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;OS Abstraction Implements:<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Virtual Memory:](https://en.wikipedia.org/wiki/Virtual_memory)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Filesystem:](https://en.wikipedia.org/wiki/File_system)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Cache:](https://en.wikipedia.org/wiki/Cache_(computing))<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[CNI](https://github.com/containernetworking/cni)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[CSI](https://github.com/container-storage-interface/)<br>
 &ensp;&ensp;&ensp;Compute Abstractions:<br>
-&ensp;&ensp;&ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
-&ensp;&ensp;&ensp;&ensp;[RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)<br>
-&ensp;&ensp;&ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC)<br><br>
-3) [Emulation](https://en.wikipedia.org/wiki/Emulator)/[Simulation](https://en.wikipedia.org/wiki/Computer_simulation)/[Virtualization](https://en.wikipedia.org/wiki/Virtualization) Abstraction:<br>
-   **Appears and behaves like one thing, but is actually another.**<br>
-   The Abstraction of [Information:](https://en.wikipedia.org/wiki/Information)<br>
-   &ensp;&ensp;The term bit is short for "**b**inary dig**it**".<br>
-   &ensp;&ensp;A [bit](https://en.wikipedia.org/wiki/Bit) is the lowest level of abstraction in Computer Science.<br>
-   &ensp;&ensp;Without getting too techincal or philisophical,<br>
-   &ensp;&ensp;a bit should only represent two states (thus the word binary, latin for "consisting of two") and persist over time.<br>
-   &ensp;&ensp;The assignment of meaning to a collection of bits is the most powerful form of<br>
-   &ensp;&ensp;abstraction because without it, information has no meaning and does not persist.<br>
-   &ensp;&ensp;You can assign any meaning you want to a collection of bits, but we use [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) to assign meaning.<br>
-   &ensp;&ensp;The reason for this is very philosophical and deep, and rooted in [Information Theory](https://en.wikipedia.org/wiki/Information_theory) and [Communication Theory](https://en.wikipedia.org/wiki/Communication_theory).<br>
-   &ensp;&ensp;See: "[Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#additional-resources)"<br>
-   System Level Abstractions:<br>
-   &ensp;&ensp;Bottom line: a computer system is nothing more than a series of abstractions layered on top of each other!<br>
-   &ensp;&ensp;[Operating System (OS) Abstractions:](https://en.wikipedia.org/wiki/Operating_system)<br>
-   &ensp;&ensp;[Kernel Space:](https://en.wikipedia.org/wiki/User_space_and_kernel_space)<br>
-   &ensp;&ensp;[Userspace:](https://en.wikipedia.org/wiki/User_space_and_kernel_space)<br>
-   &ensp;&ensp;[Virtual Reality (VR)](https://en.wikipedia.org/wiki/Virtual_reality)<br>
-   &ensp;&ensp;[Augmented Reality (AR)](https://en.wikipedia.org/wiki/Augmented_reality)<br>
-   &ensp;&ensp;[Mixed Reality (MR)](https://en.wikipedia.org/wiki/Mixed_reality)<br>
-   Network Abstractions:<br>
-   &ensp;&ensp;OS Abstraction Implements:<br>
-   &ensp;&ensp;[Sockets](https://en.wikipedia.org/wiki/Network_socket)<br>
-   &ensp;&ensp;[NIC - eth0](https://en.wikipedia.org/wiki/Network_interface_controller)<br>
-   &ensp;&ensp;[Loopback](https://en.wikipedia.org/wiki/Loopback) [[1]](https://en.wikipedia.org/wiki/Loopback#LOOPBACK-INTERFACE)<br>
-   &ensp;&ensp;[Localhost](https://en.wikipedia.org/wiki/Localhost)<br>
-   &ensp;&ensp;[Virtual Network Interface (VNI)](https://en.wikipedia.org/wiki/Virtual_network_interface)<br>
-   &ensp;&ensp;[Virtual Routing and Forwarding (VRF)](https://en.wikipedia.org/wiki/Virtual_routing_and_forwarding)<br>
-   &ensp;&ensp;[Virtual LAN (VLAN)](https://en.wikipedia.org/wiki/VLAN)<br>
-   &ensp;&ensp;[Virtual Private Network (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network) aka., Tunnel<br>
-   &ensp;&ensp;[Overlay Network](https://en.wikipedia.org/wiki/Overlay_network)<br>
-   &ensp;&ensp;[TCP/IP Stack](https://en.wikipedia.org/wiki/Internet_protocol_suite)<br>
-   &ensp;&ensp;[OSI Model](https://en.wikipedia.org/wiki/OSI_model)<br>
-   Storage Abstractions:<br>
-   &ensp;&ensp;OS Abstraction Implements:<br>
-   &ensp;&ensp;[Virtual Memory:](https://en.wikipedia.org/wiki/Virtual_memory)<br>
-   &ensp;&ensp;[Filesystem:](https://en.wikipedia.org/wiki/File_system)<br>
-   &ensp;&ensp;[Cache:](https://en.wikipedia.org/wiki/Cache_(computing))<br>
-   &ensp;&ensp;[CNI](https://github.com/containernetworking/cni)<br>
-   &ensp;&ensp;[CSI](https://github.com/container-storage-interface/)<br>
-   Compute Abstractions:<br>
-   &ensp;&ensp;OS Abstraction Implements:<br>
-   &ensp;&ensp;[Virtual Machines (VMs):](https://en.wikipedia.org/wiki/Virtual_machine)<br>
-   &ensp;&ensp;&ensp;&ensp;[Type-1 Hypervisor:](https://en.wikipedia.org/wiki/Hypervisor#Classification) aka , VMM<br>
-   &ensp;&ensp;&ensp;&ensp;[Type-2 Hypervisor:](https://en.wikipedia.org/wiki/Hypervisor#Classification)<br>
-   &ensp;&ensp;&ensp;&ensp;[GuestOS:](https://www.techtarget.com/searchitoperations/definition/guest-OS-guest-operating-system) runs inside Type-1,2 Hypervisors<br>
-   &ensp;&ensp;[Containers:](https://en.wikipedia.org/wiki/Containerization_(computing))<br>
-   &ensp;&ensp;[List of Command Line Interpreters](https://en.wikipedia.org/wiki/List_of_command-line_interpreters), [Shell](https://en.wikipedia.org/wiki/Shell_(computing)), [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell), [Terminal Emulator](https://en.wikipedia.org/wiki/Terminal_emulator) aka., Console. Terminal<br>
-   &ensp;&ensp;[Application:](https://en.wikipedia.org/wiki/Application_software) aka., [Computer Program](https://en.wikipedia.org/wiki/Computer_program)<br>
-   &ensp;&ensp;[Procedure/Subroutine/Function:](https://en.wikipedia.org/wiki/Function_(computer_programming))<br>
-   &ensp;&ensp;[Job](https://en.wikipedia.org/wiki/Job_(computing))/[Unix Job](https://en.wikipedia.org/wiki/Job_control_(Unix))/[Batch Job](https://en.wikipedia.org/wiki/Batch_processing)<br>
-   &ensp;&ensp;[Task:](https://en.wikipedia.org/wiki/Task_(computing))<br>
-   &ensp;&ensp;[Process:](https://en.wikipedia.org/wiki/Process_(computing))<br>
-   &ensp;&ensp;[Thread:](https://en.wikipedia.org/wiki/Thread_(computing))<br>
-   &ensp;&ensp;[Fiber:](https://en.wikipedia.org/wiki/Fiber_(computer_science))<br>
-   &ensp;&ensp;[Context Switching:](https://en.wikipedia.org/wiki/Context_switch)<br>
-   &ensp;&ensp;[Driver:](https://en.wikipedia.org/wiki/Driver_(software)), [Device Driver](https://en.wikipedia.org/wiki/Device_driver)<br>
-   &ensp;&ensp;Hardware Implements:<br>
-   &ensp;&ensp;[Computer/Processor Instruction:](https://en.wikipedia.org/wiki/Instruction) one operation of a processor within a computer architecture<br>
-   &ensp;&ensp;[Instruction Set Architecture (ISA):](https://en.wikipedia.org/wiki/Category:Instruction_set_architectures)<br>
-   &ensp;&ensp;[Data](https://en.wikipedia.org/wiki/Data)<br>
-   &ensp;&ensp;[Hardware Registers:](https://en.wikipedia.org/wiki/Hardware_register), [Processor Register](https://en.wikipedia.org/wiki/Processor_register)<br>
-   &ensp;&ensp;[L1/L2/L3 Cache:](https://en.wikipedia.org/wiki/Cache_hierarchy)<br>
-   &ensp;&ensp;[Pipelining:](https://en.wikipedia.org/wiki/Pipeline_(computing))<br>
-   &ensp;&ensp;[Application Binary Interface (ABI):](https://en.wikipedia.org/wiki/Application_binary_interface)<br>
-   &ensp;&ensp;[Hardware Abstraction Layer (HAL):](https://en.wikipedia.org/wiki/Hardware_abstraction#In_operating_systems)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;OS Abstraction Implements:<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Virtual Machines (VMs):](https://en.wikipedia.org/wiki/Virtual_machine)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[Type-1 Hypervisor:](https://en.wikipedia.org/wiki/Hypervisor#Classification) aka , VMM<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[Type-2 Hypervisor:](https://en.wikipedia.org/wiki/Hypervisor#Classification)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[GuestOS:](https://www.techtarget.com/searchitoperations/definition/guest-OS-guest-operating-system) runs inside Type-1,2 Hypervisors<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Containers:](https://en.wikipedia.org/wiki/Containerization_(computing))<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[List of Command Line Interpreters](https://en.wikipedia.org/wiki/List_of_command-line_interpreters), [Shell](https://en.wikipedia.org/wiki/Shell_(computing)), [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell), [Terminal Emulator](https://en.wikipedia.org/wiki/Terminal_emulator) aka., Console. Terminal<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Application:](https://en.wikipedia.org/wiki/Application_software) aka., [Computer Program](https://en.wikipedia.org/wiki/Computer_program)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Procedure/Subroutine/Function:](https://en.wikipedia.org/wiki/Function_(computer_programming))<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Job](https://en.wikipedia.org/wiki/Job_(computing))/[Unix Job](https://en.wikipedia.org/wiki/Job_control_(Unix))/[Batch Job](https://en.wikipedia.org/wiki/Batch_processing)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Task:](https://en.wikipedia.org/wiki/Task_(computing))<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Process:](https://en.wikipedia.org/wiki/Process_(computing))<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Thread:](https://en.wikipedia.org/wiki/Thread_(computing))<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Fiber:](https://en.wikipedia.org/wiki/Fiber_(computer_science))<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Context Switching:](https://en.wikipedia.org/wiki/Context_switch)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Driver:](https://en.wikipedia.org/wiki/Driver_(software)), [Device Driver](https://en.wikipedia.org/wiki/Device_driver)<br>
+&ensp;&ensp;&ensp;Hardware Implements:<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Computer/Processor Instruction:](https://en.wikipedia.org/wiki/Instruction) one operation of a processor within a computer architecture<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Instruction Set Architecture (ISA):](https://en.wikipedia.org/wiki/Category:Instruction_set_architectures)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Data](https://en.wikipedia.org/wiki/Data)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Hardware Registers:](https://en.wikipedia.org/wiki/Hardware_register), [Processor Register](https://en.wikipedia.org/wiki/Processor_register)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[L1/L2/L3 Cache:](https://en.wikipedia.org/wiki/Cache_hierarchy)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Pipelining:](https://en.wikipedia.org/wiki/Pipeline_(computing))<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Application Binary Interface (ABI):](https://en.wikipedia.org/wiki/Application_binary_interface)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Hardware Abstraction Layer (HAL):](https://en.wikipedia.org/wiki/Hardware_abstraction#In_operating_systems)<br>
 
 ### The Concept of Data and its Application in Computer Science:
 This section covers the concept of data and it's application in our main focus of<br>
