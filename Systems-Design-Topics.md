@@ -209,11 +209,11 @@ What is Self-Hosted and Fully Managed?<br>
 What is Serverless?<br>
 &ensp;&ensp;[Serverless](https://en.wikipedia.org/wiki/Serverless_computing) [[1](https://www.cloudflare.com/learning/serverless/what-is-serverless/)], [[2](https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless)], [[3](https://aws.amazon.com/serverless/)]<br>
 What is Infrastructure as Code (IaC)?<br>
+&ensp;&ensp;[Why Infrastructure as Code Is Vital for Modern DevOps](https://thenewstack.io/why-infrastructure-as-code-is-vital-for-modern-devops/)<br>
 &ensp;&ensp;[IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code) is a DevOps practice of managing infrastructure in a declarative manner using code,<br>
 &ensp;&ensp;rather than manually configuring it through a graphical user interface.<br>
 &ensp;&ensp;Declarative: The process of declaring your desired result and the system "learns" how to achieve it.<br>
 &ensp;&ensp;Imperative: The process of explaining every step to accomplish a desired result.<br>
-&ensp;&ensp;[Why Infrastructure as Code Is Vital for Modern DevOps](https://thenewstack.io/why-infrastructure-as-code-is-vital-for-modern-devops/)<br>
 What is Infrastructure as a Catalog (InCa)?<br>
 &ensp;&ensp;[Navigating the Evolution: Infrastructure as Catalog](https://thenewstack.io/navigating-the-evolution-infrastructure-as-catalog/)<br>
 &ensp;&ensp;InCa is a conceptual framework focusing on declaring infrastructure components with precision,<br>
