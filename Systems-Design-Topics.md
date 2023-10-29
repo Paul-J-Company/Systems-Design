@@ -213,6 +213,7 @@ What is Infrastructure as Code (IaC)?<br>
 &ensp;&ensp;rather than manually configuring it through a graphical user interface.<br>
 &ensp;&ensp;Declarative: The process of declaring your desired result and the system "learns" how to achieve it.<br>
 &ensp;&ensp;Imperative: The process of explaining every step to accomplish a desired result.<br>
+&ensp;&ensp;[Why Infrastructure as Code Is Vital for Modern DevOps](https://thenewstack.io/why-infrastructure-as-code-is-vital-for-modern-devops/)<br>
 What is Infrastructure as a Catalog (InCa)?<br>
 &ensp;&ensp;[Navigating the Evolution: Infrastructure as Catalog](https://thenewstack.io/navigating-the-evolution-infrastructure-as-catalog/)<br>
 &ensp;&ensp;InCa is a conceptual framework focusing on declaring infrastructure components with precision,<br>
