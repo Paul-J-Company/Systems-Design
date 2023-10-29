@@ -131,7 +131,7 @@ High Availability (HA):<br>
    [The importance of documentation](https://www.atlassian.com/work-management/knowledge-sharing/documentation/importance-of-documentation)<br>
    Be Strategic:<br>
    The overall goal MUST be a great design.<br>
-   A great reat design simplifies future development.<br>
+   Great design simplifies future development.<br>
    Don't be short sighted, have a long term vision for your success!<br>
    Take extra time today, because it will pay back in the long run.<br>
 2) Practice these Design Principles:<br>
