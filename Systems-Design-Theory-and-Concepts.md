@@ -21,7 +21,7 @@ An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) includes
 &ensp;&ensp;&ensp;&ensp;[Cohesion Metrics](https://www.aivosto.com/project/help/pm-oo-cohesion.html)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A cohesive class performs one function.<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A non-cohesive class performs two or more **unrelated** functions.<br>
-&ensp;&ensp;[High-Level](https://en.wikipedia.org/wiki/High-level_design) typically means [Grand Scheme](https://en.wiktionary.org/wiki/grand_scheme#English) and is sometimes referred to as [The Big Picture](https://www.linkedin.com/pulse/its-30000-foot-view-objective-big-picture-luis-a-ramirez-mba-mir/) or [The 30,000-foot view](https://nanoglobals.com/glossary/30000-foot-view/).
+&ensp;&ensp;[High-Level](https://en.wikipedia.org/wiki/High-level_design) typically means [Grand Scheme](https://en.wiktionary.org/wiki/grand_scheme#English) and is sometimes referred to as [The Big Picture](https://www.linkedin.com/pulse/its-30000-foot-view-objective-big-picture-luis-a-ramirez-mba-mir/) or [The 30,000-foot view](https://nanoglobals.com/glossary/30000-foot-view/).<br>
 &ensp;&ensp;[Unix Philosophy:](https://en.wikipedia.org/wiki/Unix_philosophy)<br>
 &ensp;&ensp;[Continuous:](https://en.wikipedia.org/wiki/Continuity)<br>
 &ensp;&ensp;[Discrete:](https://en.wikipedia.org/wiki/Discrete_mathematics)<br>
