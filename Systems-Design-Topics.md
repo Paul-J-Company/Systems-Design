@@ -114,7 +114,7 @@ High Availability (HA):<br>
 1) Design is about making tradeoffs and compromises at all levels of your System.<br>
    e.g., Security vs. Convenience, Capex vs. Opex, etc.<br>
    Design is a Full Stack endeavor.<br>
-   There is no "**[one size that fits all](https://dictionary.cambridge.org/us/dictionary/english/one-size-fits-all)**" design.<br>
+   There is no "**[one size that fits all](https://dictionary.cambridge.org/us/dictionary/english/one-size-fits-all)**" design, you will always have to deal with [mutual exclusivity](https://en.wikipedia.org/wiki/Mutual_exclusivity).<br>
    Identify all the trade-offs, bottlenecks and [single points of failure](Single point of failure).<br>
    Have a [broad]() knowledge of alternative technologies.<br>
    There are always "[two sides to a coin](https://dictionary.cambridge.org/us/dictionary/english/other-side-of-the-coin?q=the+other+side+of+the+coin)", so ask many counter questions:<br>
