@@ -153,6 +153,7 @@ High Availability (HA):<br>
 5) Define How you Measure Success:<br>
 6) [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
 7) [Keep it Simple Stupid: (KISS)](https://en.wikipedia.org/wiki/KISS_principle)<br>
+   Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.<br>
    Simple is the opposite of complex.<br>
    Complexity is the enemy of clarity!<br>
    Simple does not always imply easy!<br>
