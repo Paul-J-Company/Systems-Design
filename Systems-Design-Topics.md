@@ -160,7 +160,7 @@ High Availability (HA):<br>
 6) Always break down a complex problem into smaller, more understandable pieces.<br>
    [Problem Decomposition:](https://en.wikipedia.org/wiki/Decomposition_(computer_science))<br>
    [Principle of Compositionality:](https://en.wikipedia.org/wiki/Principle_of_compositionality)<br>
-7) Apply the most effective [Design Patterns](https://en.wikipedia.org/wiki/Design_pattern) [[1]](https://en.wikipedia.org/wiki/Design_Patterns) [[2]](https://en.wikipedia.org/wiki/Software_design_pattern) [[2]](https://en.wikipedia.org/wiki/Category:Software_design_patterns)<br>
+7) Apply the most effective [Design Patterns](https://en.wikipedia.org/wiki/Design_pattern) [[1]](https://en.wikipedia.org/wiki/Design_Patterns) [[2]](https://en.wikipedia.org/wiki/Software_design_pattern) [[3]](https://en.wikipedia.org/wiki/Category:Software_design_patterns)<br>
    [Separation of Concerns: (SoP)](https://en.wikipedia.org/wiki/Separation_of_concerns)<br>
    [Separation of Content and Presentation](https://en.wikipedia.org/wiki/Separation_of_content_and_presentation)<br>
    [Single Responsibility Principle: (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle)<br>
