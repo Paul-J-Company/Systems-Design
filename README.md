@@ -21,7 +21,7 @@ Start by reading the [System Design](https://github.com/Paul-J-Company/Systems-D
 
 **When I will make my Private Code Repository Public**
 1) When I retire.<br>
-2) If I make enough money from my [YouTube Channel](https://www.youtube.com/@PaulJCompany) and/or my [Patreon]() to either make this a full time job or I make enough money to retire. So Like, Subscribe, and click the Notification bell icon on my [YouTube Channel](https://www.youtube.com/@PaulJCompany) videos and donate to my [Patreon Account]().<br>
+2) If I make enough money from my [YouTube Channel](https://www.youtube.com/@PaulJCompany) and/or my [Patreon](https://www.patreon.com/SystemsDesign) to either make this a full time job or I make enough money to retire. So Like, Subscribe, and click the Notification bell icon on my [YouTube Channel](https://www.youtube.com/@PaulJCompany) videos and donate to my [Patreon Account]().<br>
 3) If I get enough subscribers, stars, and/or likes on [my Github page](https://github.com/Paul-J-Company/Systems-Design/edit/main/README.md) to either make this a full time job or I make enough money to retire.<br>
 4) Someone heirs me full time to do this for a long enough time or pays me enough to retire.
 5) I win the lottery.
