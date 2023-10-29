@@ -224,8 +224,8 @@ What is Infrastructure as a Catalog (InCa)?<br>
 What is Software Defined X (SD-X)?<br>
 &ensp;&ensp;The term [Software Defined](https://en.wikipedia.org/wiki/Software-defined) [[1]](https://en.wikipedia.org/wiki/Software-defined_infrastructure) is related to IaC in the sense that it has to do with using<br>
 &ensp;&ensp;**code** to manage something verses using a **GUI/Dashboard**.<br>
-&ensp;&ensp;The difference between IaC and SD-X is that IaC is a more general term and SD-X is usually<br>
-&ensp;&ensp;limited to networking devices, but that's a convention.<br>
+&ensp;&ensp;The difference between IaC and SD-X is that IaC is a more general term and SD-X<br>
+&ensp;&ensp;is usually limited to networking devices, but that's a convention.<br>
 &ensp;&ensp;Some SD terms include: SD-WAN, SD-LAN, SD-WLAN, SD-Security, etc.<br>
 What is "as a Service" (aaS)?<br>
 &ensp;&ensp;[aaS](https://en.wikipedia.org/wiki/As_a_service) is a postfix, attached to any service you can think of that is accessed via the Internet typically using a REST API over http/https.<br>
