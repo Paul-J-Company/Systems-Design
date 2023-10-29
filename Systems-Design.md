@@ -18,7 +18,7 @@
 + High Performance: maximize speed/minimize latency
 + Scalable: maximize capacity/bandwidth (take advantage of Economy of Scale)
 + Maintainable:<br>
-  - Maximize "[frictionless automation]()".<br>
+  - Maximize "[frictionless automation](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Topics.md#three-levels-of-maturity-for-infrastructure-automation)".<br>
   - Easy to Install, Configure, Use and Upgrade.<br>
   - Simple: easy to learn and understand.<br>
   - Sustainable: the capacity to maintain or improve the state and availability of something desirable.<br>
