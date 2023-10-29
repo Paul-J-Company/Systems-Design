@@ -598,4 +598,5 @@ EDAs can:<br>
 &ensp;&ensp;https://www.youtube.com/watch?v=m4_QxziMuq8#t=00h00m00s?=#- The Best Books To Learn AWS Cloud (2023)<br>
 &ensp;&ensp;https://www.youtube.com/watch?v=Lc_-XACO4wc#t=00h00m00s?=#- Top 5 Simple Ways to Save Money on Your AWS Bill<br>
 
-
+*) [System Design Newsletter:](https://newsletter.systemdesign.one/)<br>
+&ensp;&ensp;[Slack Architecture That Powers Billions of Messages a Day](https://newsletter.systemdesign.one/p/messaging-architecture)<br>
