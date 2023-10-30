@@ -488,7 +488,7 @@ is critical to the goal of [BROAD and DEEP Learning]()<br>
 **Resources for deep diving in to the realm of "Computational Science":**<br>
 &ensp;&ensp;[Computational Science](https://en.wikipedia.org/wiki/Computational_science) [[1]](https://en.wikipedia.org/wiki/Category:Computational_science) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Computational Fields of Study](https://en.wikipedia.org/wiki/Category:Computational_fields_of_study) [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;[Computational Fluid Dynamics](https://en.wikipedia.org/wiki/Computational_fluid_dynamics) [[1]](https://en.wikipedia.org/wiki/Category:Computational_fluid_dynamics) [[2]]() [[3]]()<<br>
+&ensp;&ensp;[Computational Fluid Dynamics](https://en.wikipedia.org/wiki/Computational_fluid_dynamics) [[1]](https://en.wikipedia.org/wiki/Category:Computational_fluid_dynamics) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Computational Chemistry](https://en.wikipedia.org/wiki/Computational_chemistry) [[1]](https://en.wikipedia.org/wiki/Category:Computational_chemistry) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Computational Biology](https://en.wikipedia.org/wiki/Computational_biology) [[1]](https://en.wikipedia.org/wiki/Category:Computational_biology) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Computational ]() [[1]]() [[2]]() [[3]]()<br>
