@@ -4,6 +4,7 @@ You can also jump down to the end of this page to review the [Additional Resourc
 
 ### Concept of Broad and Deep Learning:
 Synonym for Broad is Wide so they are equivalent and will be used interchangeably.<br>
+The goal of **_BROAD AND DEEP Learning_** is to become a [polymath](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath).<br>
 **_Steps for Broad and Deep Learning_:**<br>
 &ensp;&ensp;1) Pick a Topic, Subject Area, Field of Study, or [Problem Domain](https://en.wikipedia.org/wiki/Problem_domain) that you are passionate about. [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;&ensp;&ensp;Examples:<br>
