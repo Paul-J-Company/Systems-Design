@@ -15,14 +15,14 @@ Synonym for Broad is Wide so they are equivalent and will be used interchangeabl
 &ensp;&ensp;&ensp;&ensp;Classify, Categorize, Taxonomy, Ontology.<br>
 &ensp;&ensp;&ensp;&ensp;Rank, Sort (ascending/descending by-type/kind, by-class, same/different, by-date, by-time, by-person)<br>
 &ensp;&ensp;4) Do Shallow Learning: [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;&ensp;&ensp;Steps 1, 2 and 3 are already forms of shallow learning, so you've alread started!
-&ensp;&ensp;&ensp;&ensp;Use AI/ML/DL to summarize information, answer shallow questions. 
-&ensp;&ensp;&ensp;&ensp;Read the index of books:
-&ensp;&ensp;&ensp;&ensp;Read the abstract of articles:
-&ensp;&ensp;&ensp;&ensp;Read the summary and conclusions of books, articles, journals, etc:
-&ensp;&ensp;&ensp;&ensp;Skim material quickly to get general idea of what's trying to be communicated.
+&ensp;&ensp;&ensp;&ensp;Steps 1, 2 and 3 are already forms of shallow learning, so you've alread started!<br>
+&ensp;&ensp;&ensp;&ensp;Use AI/ML/DL to summarize information, answer shallow questions.<br>
+&ensp;&ensp;&ensp;&ensp;Read the index of books:<br>
+&ensp;&ensp;&ensp;&ensp;Read the abstract of articles:<br>
+&ensp;&ensp;&ensp;&ensp;Read the summary and conclusions of books, articles, journals, etc:<br>
+&ensp;&ensp;&ensp;&ensp;Skim material quickly to get general idea of what's trying to be communicated.<br>
 &ensp;&ensp;&ensp;&ensp;**_Identify correlations among all past shallow knowledge_**: [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;&ensp;&ensp;Goto step 6.
+&ensp;&ensp;&ensp;&ensp;Goto step 6.<br>
 &ensp;&ensp;5) Do Deep(er) Learning: [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;&ensp;&ensp;Use AI/ML/DL to "go deep" on the information, answer deep questions.<br>
 &ensp;&ensp;&ensp;&ensp;Read every word, contemplate, reflect, focus, etc.<br>
