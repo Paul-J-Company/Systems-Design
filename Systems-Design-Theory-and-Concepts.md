@@ -472,7 +472,7 @@ is critical to the goal of [BROAD and DEEP Learning]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 
 [Theoretical Computer Science:](https://en.wikipedia.org/wiki/Theoretical_computer_science) [[1]](https://en.wikipedia.org/wiki/Category:Theoretical_computer_science)<br>
-&ensp;&ensp;[Systems Theory](https://en.wikipedia.org/wiki/Systems_theory) A [system](https://en.wikipedia.org/wiki/System) is a group of interacting or interrelated elements that act according to a set of rules to form a unified whole. [[[1]](https://en.wikipedia.org/wiki/Category:Systems_theory) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Systems Theory](https://en.wikipedia.org/wiki/Systems_theory) - A [system](https://en.wikipedia.org/wiki/System) is a group of interacting or interrelated elements that act according to a set of rules to form a unified whole. [[1]](https://en.wikipedia.org/wiki/Category:Systems_theory) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Information Science](https://en.wikipedia.org/wiki/Information_science) [[1]](https://en.wikipedia.org/wiki/Category:Information_science)<br>
 &ensp;&ensp;[Information Theory](https://en.wikipedia.org/wiki/Information_theory)<br>
 &ensp;&ensp;[Communication Theory](https://en.wikipedia.org/wiki/Communication_theory)<br>
