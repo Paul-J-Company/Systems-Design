@@ -4,16 +4,31 @@ You can also jump down to the end of this page to review the [Additional Resourc
 
 ### Concept of Broad and Deep Learning:
 Synonym for Broad is Wide so they are equivalent and will be used interchangeably.<br>
-**_Steps for Broad and Deep Learning_:**
-&ensp;&ensp;1) Pick a Topic  or Subject Area: aka., [Problem Domain]()<br>
-&ensp;&ensp;2) <br>
-&ensp;&ensp;3) <br>
-&ensp;&ensp;4) <br>
-&ensp;&ensp;5) <br>
-&ensp;&ensp;6) <br>
-&ensp;&ensp;7) <br>
-&ensp;&ensp;8) <br>
-&ensp;&ensp;9) <br>
+**_Steps for Broad and Deep Learning_:**<br>
+&ensp;&ensp;1) Pick a Topic, Subject Area, Field of Study, or [Problem Domain](https://en.wikipedia.org/wiki/Problem_domain) that you are passionate about. [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;&ensp;&ensp;Examples:<br>
+&ensp;&ensp;&ensp;&ensp;Philosophy, Mathematics, Physics, Chemistry, Biology, Engineering, Economics,<br>
+&ensp;&ensp;&ensp;&ensp;Psychology, Sociology, History, Art, Music, Athletics/Sports, Games, etc.<br>
+&ensp;&ensp;2) Gather Information about the Topic: [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;&ensp;&ensp;Use typical sources: [Search Engines](), [Google Scholar](), [Arxiv](), etc.<br>
+&ensp;&ensp;3) Organize the Topic Information into Knowledge: [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;&ensp;&ensp;Classify, Categorize, Taxonomy, Ontology.<br>
+&ensp;&ensp;&ensp;&ensp;Rank, Sort (ascending/descending by-type/kind, by-class, same/different, by-date, by-time, by-person)<br>
+&ensp;&ensp;4) Do Shallow Learning: [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;&ensp;&ensp;Steps 1, 2 and 3 are already forms of shallow learning, so you've alread started!
+&ensp;&ensp;&ensp;&ensp;Use AI/ML/DL to summarize information, answer shallow questions. 
+&ensp;&ensp;&ensp;&ensp;Read the index of books:
+&ensp;&ensp;&ensp;&ensp;Read the abstract of articles:
+&ensp;&ensp;&ensp;&ensp;Read the summary and conclusions of books, articles, journals, etc:
+&ensp;&ensp;&ensp;&ensp;Skim material quickly to get general idea of what's trying to be communicated.
+&ensp;&ensp;&ensp;&ensp;**_Identify correlations among all past shallow knowledge_**: [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;&ensp;&ensp;Goto step 5.
+&ensp;&ensp;5) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;6) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;7) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;8) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;9) [[1]]() [[2]]() [[3]]()<br>
+[Flowsheets](https://engineering.buffalo.edu/home/academics/undergrad/advisement/flowsheets.html?plan=EE-2023)<br>
 
 ### General Abstractions:
 An [Abstraction](https://en.wikipedia.org/wiki/Abstraction) is hiding complexity and/or [hiding information](https://en.wikipedia.org/wiki/Information_hiding).<br>
