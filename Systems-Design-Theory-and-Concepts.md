@@ -401,10 +401,11 @@ The concepts of [Interdisciplinarity (aka., Multidisciplinarity, Pluridisciplina
 is critical to the goal of [BROAD and DEEP Learning]()<br>
 
 [Philosophy:](https://en.wikipedia.org/wiki/Philosophy) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy) [[2]](https://en.wikipedia.org/wiki/Outline_of_philosophy) [[3]](https://en.wikipedia.org/wiki/Index_of_philosophy) [[4]](https://en.wikipedia.org/wiki/List_of_schools_of_philosophy)<br>
+&ensp;&ensp;[Glossary of Philosophy](https://en.wikipedia.org/wiki/Glossary_of_philosophy) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy-related_glossaries) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Lists of Philosophers](https://en.wikipedia.org/wiki/Lists_of_philosophers) [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;[Philosophical_theory](https://en.wikipedia.org/wiki/Philosophical_theory) [[1]](https://en.wikipedia.org/wiki/Category:Philosophical_theories) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Philosophical Theory](https://en.wikipedia.org/wiki/Philosophical_theory) [[1]](https://en.wikipedia.org/wiki/Category:Philosophical_theories) [[2]]() [[3]]()<br>
 &ensp;&ensp;[List of Philosophical Concepts](https://en.wikipedia.org/wiki/List_of_philosophical_concepts) [[1]](https://en.wikipedia.org/wiki/A_priori_and_a_posteriori) [[2]](https://en.wikipedia.org/wiki/Absolute_(philosophy)) [[3]](https://en.wikipedia.org/wiki/Absolute_space_and_time) [[4]](https://en.wikipedia.org/wiki/Abstract_and_concrete)<br>
-&ensp;&ensp;[Metaphysics](https://en.wikipedia.org/wiki/Metaphysics) [[1]](https://en.wikipedia.org/wiki/Category:Metaphysics) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Metaphysics](https://en.wikipedia.org/wiki/Metaphysics) [[1]](https://en.wikipedia.org/wiki/Category:Metaphysics) [[2]](https://en.wikipedia.org/wiki/Absolute_(philosophy)) [[3]]()<br>
 &ensp;&ensp;[Epistemology](https://en.wikipedia.org/wiki/Epistemology) [[1]](https://en.wikipedia.org/wiki/Category:Epistemology) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Mereology](https://en.wikipedia.org/wiki/Mereology) [[1]](https://en.wikipedia.org/wiki/Category:Mereology) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Philosophy of Education](https://en.wikipedia.org/wiki/Philosophy_of_education) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy_of_education) [[2]]() [[3]]()<br>
@@ -433,9 +434,9 @@ is critical to the goal of [BROAD and DEEP Learning]()<br>
 &ensp;&ensp;[Modular Forms](https://en.wikipedia.org/wiki/Modular_form) [[1]](https://en.wikipedia.org/wiki/Category:Modular_forms) [[2]](https://en.wikipedia.org/wiki/Hilbert_modular_form) [[3]](https://en.wikipedia.org/wiki/Siegel_modular_form) [[4]](https://en.wikipedia.org/wiki/Theta_function)<br>
 &ensp;&ensp;[Category Theory](https://en.wikipedia.org/wiki/Category_theory) [[1]](https://en.wikipedia.org/wiki/Category:Category_theory) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Group Theory](https://en.wikipedia.org/wiki/Group_theory) The study of [Symmetry](https://en.wikipedia.org/wiki/Symmetry_group) [[1]](https://en.wikipedia.org/wiki/Category:Group_theory) [[2]]() [[3]]()<br>
-&ensp;&ensp;[Differential Geometry](https://en.wikipedia.org/wiki/Differential_geometry) [[1]](https://en.wikipedia.org/wiki/Category:Differential_geometry) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Galois Theory](https://en.wikipedia.org/wiki/Galois_theory) [[1]](https://en.wikipedia.org/wiki/Category:Galois_theory) [[2]]() [[3]]()<br>
-&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Differential Geometry](https://en.wikipedia.org/wiki/Differential_geometry) [[1]](https://en.wikipedia.org/wiki/Category:Differential_geometry) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Topology]() [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 
