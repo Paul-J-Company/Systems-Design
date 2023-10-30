@@ -447,7 +447,7 @@ is critical to the goal of [BROAD and DEEP Learning]()<br>
 &ensp;&ensp;[Fields of Mathematics](https://en.wikipedia.org/wiki/Category:Fields_of_mathematics) [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[Fields of Abstract Algebra](https://en.wikipedia.org/wiki/Category:Fields_of_abstract_algebra) [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[Areas of Mathematics](https://en.wikipedia.org/wiki/Mathematics#Areas_of_mathematics) [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;[Mathematical Logic](https://en.wikipedia.org/wiki/Mathematical_logic) [[1]]() [[2]]() [[3]]()<br>https://en.wikipedia.org/wiki/Mathematical_logic
+&ensp;&ensp;[Mathematical Logic](https://en.wikipedia.org/wiki/Mathematical_logic) [[1]](https://en.wikipedia.org/wiki/Category:Mathematical_logic) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Langlands Program](https://en.wikipedia.org/wiki/Langlands_program) [[1]](https://en.wikipedia.org/wiki/Category:Langlands_program) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Modular Forms](https://en.wikipedia.org/wiki/Modular_form) [[1]](https://en.wikipedia.org/wiki/Category:Modular_forms) [[2]](https://en.wikipedia.org/wiki/Hilbert_modular_form) [[3]](https://en.wikipedia.org/wiki/Siegel_modular_form) [[4]](https://en.wikipedia.org/wiki/Theta_function)<br>
 &ensp;&ensp;[Category Theory](https://en.wikipedia.org/wiki/Category_theory) [[1]](https://en.wikipedia.org/wiki/Category:Category_theory) [[2]]() [[3]]()<br>
