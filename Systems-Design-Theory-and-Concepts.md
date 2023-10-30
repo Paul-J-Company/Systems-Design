@@ -22,8 +22,15 @@ Synonym for Broad is Wide so they are equivalent and will be used interchangeabl
 &ensp;&ensp;&ensp;&ensp;Read the summary and conclusions of books, articles, journals, etc:
 &ensp;&ensp;&ensp;&ensp;Skim material quickly to get general idea of what's trying to be communicated.
 &ensp;&ensp;&ensp;&ensp;**_Identify correlations among all past shallow knowledge_**: [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;&ensp;&ensp;Goto step 5.
-&ensp;&ensp;5) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;&ensp;&ensp;Goto step 6.
+&ensp;&ensp;5) Do Deep(er) Learning: [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;&ensp;&ensp;Use AI/ML/DL to "go deep" on the information, answer deep questions.<br>
+&ensp;&ensp;&ensp;&ensp;Read every word, contemplate, reflect, focus, etc.<br>
+&ensp;&ensp;&ensp;&ensp;Create questions you want answered and ask an expert:<br>
+&ensp;&ensp;&ensp;&ensp;Experts can answer them or help you figure out how to answer them.<br>
+&ensp;&ensp;&ensp;&ensp;Caveat: "[out of the mouths of babes](https://en.wiktionary.org/wiki/out_of_the_mouths_of_babes)" "comes truth or wisdom"<br>
+&ensp;&ensp;&ensp;&ensp;In other words, sometimes experts can lead you astray because they're humans and have biases and other imperfections.<br>
+&ensp;&ensp;&ensp;&ensp;Goto step 6.<br>
 &ensp;&ensp;6) [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;7) [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;8) [[1]]() [[2]]() [[3]]()<br>
