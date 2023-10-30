@@ -33,16 +33,36 @@ DEEP Learners are [Specialists]() [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;5) Do Deep(er) Learning: [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;&ensp;&ensp;Use AI/ML/DL to "go deep" on the information, answer deep questions.<br>
 &ensp;&ensp;&ensp;&ensp;Read every word, contemplate, reflect, focus, etc.<br>
+&ensp;&ensp;&ensp;&ensp;Identify all the limits (max, min, constraints).<br>
+&ensp;&ensp;&ensp;&ensp;Record context, build model of the knowledge space, etc.<br>
+&ensp;&ensp;&ensp;&ensp;Record all special knowledge (the subtle and nuanced things you learn by doing; key principles, slices of wisdom).<br>
+&ensp;&ensp;&ensp;&ensp;Build [Flowsheets](https://engineering.buffalo.edu/home/academics/undergrad/advisement/flowsheets.html?plan=EE-2023)<br>
 &ensp;&ensp;&ensp;&ensp;Create questions you want answered and ask an expert:<br>
 &ensp;&ensp;&ensp;&ensp;Experts can answer them or help you figure out how to answer them.<br>
 &ensp;&ensp;&ensp;&ensp;Caveat: "[out of the mouths of babes](https://en.wiktionary.org/wiki/out_of_the_mouths_of_babes)" "comes truth or wisdom"<br>
 &ensp;&ensp;&ensp;&ensp;In other words, sometimes experts can lead you astray because they're humans and have biases and other imperfections.<br>
 &ensp;&ensp;&ensp;&ensp;Goto step 6.<br>
-&ensp;&ensp;6) [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;7) [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;8) [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;9) [[1]]() [[2]]() [[3]]()<br>
-[Flowsheets](https://engineering.buffalo.edu/home/academics/undergrad/advisement/flowsheets.html?plan=EE-2023)<br>
+&ensp;&ensp;6) Validate everyting you've learned so far: [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;&ensp;&ensp;Can you prove the correlation is causation?<br>
+&ensp;&ensp;&ensp;&ensp;Can you generalize this new knowledge?<br>
+&ensp;&ensp;&ensp;&ensp;Can you identify all the limits (max, min, constraints).<br>
+&ensp;&ensp;&ensp;&ensp;Can you identify all the special knowledge (the subtle and nuanced things you learn by doing; key principles, slices of wisdom).<br>
+&ensp;&ensp;&ensp;&ensp;Did you record context, build model of the knowledge space, etc.<br>
+&ensp;&ensp;&ensp;&ensp;Did you generate new questions (more unknowns)?<br>
+&ensp;&ensp;&ensp;&ensp;Did you create new information, knowledge, wisdom, topics, etc.?<br>
+&ensp;&ensp;&ensp;&ensp;If you think you created a new topic (it is very difficult to discover a new topic!),<br>
+&ensp;&ensp;&ensp;&ensp;then goto step 7.<br>
+&ensp;&ensp;&ensp;&ensp;If you answered no to questions above, the ask an expert: goto step 8.<br>
+&ensp;&ensp;7) Add your new topic and goto step 2.<br>
+&ensp;&ensp;8) Identify the people (experts) behind everything and establish a positive relationship with them.<br>
+&ensp;&ensp;&ensp;&ensp;Record the people (experts) behind the technology, topic resources.<br>
+&ensp;&ensp;&ensp;&ensp;Collaboration and cooperation is the greatest skill one can have when advancing knowledge/learning.<br>
+&ensp;&ensp;&ensp;&ensp;Inspire others to "pay it forward!"<br>
+&ensp;&ensp;&ensp;&ensp;Goto Step 9.<br>
+&ensp;&ensp;9) Goto step 2, and iterate until you die:<br>
+&ensp;&ensp;&ensp;&ensp;[Life Long Learning]() (aka., [Continuous Learning]()) leads to [Continuous Improvement]() which perpetuates progress, fulfillment and flourishing.<br>
+
+
 
 ### General Abstractions:
 An [Abstraction](https://en.wikipedia.org/wiki/Abstraction) is hiding complexity and/or [hiding information](https://en.wikipedia.org/wiki/Information_hiding).<br>
