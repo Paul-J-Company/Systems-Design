@@ -4,13 +4,16 @@ You can also jump down to the end of this page to review the [Additional Resourc
 
 ### Concept of Broad and Deep Learning:
 Synonym for Broad is Wide so they are equivalent and will be used interchangeably.<br>
+BROAD Learning is finding the correlations, relationships, similarities, differences, etc. among all fields of study.<br>
+You can think of Breadth as the "[BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture)"  or the "[Holistic View](https://beyo.global/thinking/what-are-holistic-approaches-and-why-are-companies-using-them)" or the "[Can't See the Forrest Through the Trees](https://www.linkedin.com/pulse/whats-meaning-cant-see-forest-through-trees-jared-jerotz)" [colloquialism](https://www.quora.com/What-does-it-mean-to-see-the-forest-through-the-trees).<br>
+It's imperitive that you don't miss the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture) by focusing on tiny details.<br>
 BROAD Learning enables you to **_Identify correlations among all past shallow knowledge_**.<br>
 BROAD Learning is essential for Leaders who have to make high-level decisions and see the [BIGPICTURE]().<br>
 DEEP Learning enables you to **_become and expert in your narrow field of study_**.<br>
 DEEP Learning is essential because coupled with broad learning it allows for the completion of high-level decisions.<br>
-BROAD Learners are [Generalists]() [[1]]() [[2]]() [[3]]()<br>
-DEEP Learners are [Specialists]() [[1]]() [[2]]() [[3]]()<br>
-**_BROAD AND DEEP Learners_** are [polymaths](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath).<br>
+BROAD Learners are [Generalists](https://dictionary.cambridge.org/us/dictionary/english/generalist) [[1]](https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none) [[2]]() [[3]]()<br>
+DEEP Learners are [Specialists](https://dictionary.cambridge.org/us/dictionary/english/specialist) [[1]](https://en.wikipedia.org/wiki/Specialization_of_knowledge)) [[2]]() [[3]]()<br>
+**_BROAD AND DEEP Learners_** are [polymaths](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath) and [Philomaths](https://en.wikipedia.org/wiki/Philomath).<br>
 **_Steps for Broad and Deep Learning_:**<br>
 &ensp;&ensp;1) Pick a Topic, Subject Area, Field of Study, or [Problem Domain](https://en.wikipedia.org/wiki/Problem_domain) that you are passionate about. [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;&ensp;&ensp;Examples:<br>
