@@ -189,6 +189,7 @@ What is Free and Opensource?<br>
 &ensp;&ensp;[The Open Source Definition:](https://opensource.org/osd/)<br>
 &ensp;&ensp;[The Free Software Definition:](https://www.gnu.org/philosophy/free-sw.en.html#fs-definition)<br>
 &ensp;&ensp;[Fear and Loathing in Free and Open-Source](https://medium.com/@mbianchidev/fear-and-loathing-in-free-and-open-source-8439a1dbf5da)<br>
+&ensp;&ensp;[Understanding Open Source Licensing](https://semaphoreci.medium.com/understanding-open-source-licensing-263c6201b414)<br>
 What is a Data Center?<br>
 &ensp;&ensp;A [Data Center](https://www.youtube.com/watch?v=qUmLnSEVVDw) is a physical building located around the world that houses your Platforms, Systems, Workloads.<br>
 &ensp;&ensp;There are [four data center tiers](https://phoenixnap.com/blog/data-center-tiers-classification), [ranked by performance and uptime](https://www.impactmybiz.com/blog/data-center-tiers-explained/<).<br>
