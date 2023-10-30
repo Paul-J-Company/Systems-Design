@@ -9,7 +9,7 @@ You can think of Breadth as the "[BIGPICTURE](https://dictionary.cambridge.org/u
 ).<br>
 It's imperitive that you don't miss the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture) by focusing on tiny details.<br>
 BROAD Learning enables you to **_Identify correlations among all past shallow knowledge_**.<br>
-BROAD Learning is essential for Leaders who have to make high-level decisions and see the [BIGPICTURE]().<br>
+BROAD Learning is essential for Leaders who have to make high-level decisions and see the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture).<br>
 DEEP Learning enables you to **_become and expert in your narrow field of study_**.<br>
 DEEP Learning is essential because coupled with broad learning it allows for the completion of high-level decisions.<br>
 BROAD Learners are [Generalists](https://dictionary.cambridge.org/us/dictionary/english/generalist) [[1]](https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none) [[2]]() [[3]]()<br>
