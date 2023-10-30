@@ -4,7 +4,13 @@ You can also jump down to the end of this page to review the [Additional Resourc
 
 ### Concept of Broad and Deep Learning:
 Synonym for Broad is Wide so they are equivalent and will be used interchangeably.<br>
-The goal of **_BROAD AND DEEP Learning_** is to become a [polymath](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath).<br>
+BROAD Learning enables you to **_Identify correlations among all past shallow knowledge_**.<br>
+BROAD Learning is essential for Leaders who have to make high-level decisions and see the [BIGPICTURE]().<br>
+DEEP Learning enables you to **_become and expert in your narrow field of study_**.<br>
+DEEP Learning is essential because coupled with broad learning it allows for the completion of high-level decisions.<br>
+BROAD Learners are [Generalists]() [[1]]() [[2]]() [[3]]()<br>
+DEEP Learners are [Specialists]() [[1]]() [[2]]() [[3]]()<br>
+**_BROAD AND DEEP Learners_** are [polymaths](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath).<br>
 **_Steps for Broad and Deep Learning_:**<br>
 &ensp;&ensp;1) Pick a Topic, Subject Area, Field of Study, or [Problem Domain](https://en.wikipedia.org/wiki/Problem_domain) that you are passionate about. [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;&ensp;&ensp;Examples:<br>
