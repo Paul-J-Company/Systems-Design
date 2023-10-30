@@ -43,7 +43,7 @@ Economy of Scale:<br>
 &ensp;&ensp;&ensp;&ensp;Thus, the larger the bottle, the more soap (signal) you get per material of bottle (noise).<br>
 &ensp;&ensp;&ensp;&ensp;In our soap example, you get approximately 26/3 ~= 8 times more soap per material of bottle<br>
 &ensp;&ensp;&ensp;&ensp;for the larger bottle versus the smaller bottle.<br>
-&ensp;&ensp;&ensp;&ensp;This is because [volume (x^3) increases faster than area (x^2)](https://media.licdn.com/dms/image/C5612AQGuKyJaC_fwWQ/article-inline_image-shrink_1000_1488/0/1525127312587?e=1703721600&v=beta&t=990KFy_GVZrfqsT4dTr-EuEnRFjT2XcVn8znID3agFw) [[1]](https://qph.cf2.quoracdn.net/main-qimg-ab1a15f4ece60635f050c7ae939d1641) for any quantity greater than 6.<br>
+&ensp;&ensp;&ensp;&ensp;This is because [volume (x^3) increases faster than area (x^2)](https://media.licdn.com/dms/image/C5612AQGuKyJaC_fwWQ/article-inline_image-shrink_1000_1488/0/1525127312587?e=1703721600&v=beta&t=990KFy_GVZrfqsT4dTr-EuEnRFjT2XcVn8znID3agFw) [[1]](https://qph.cf2.quoracdn.net/main-qimg-ab1a15f4ece60635f050c7ae939d1641) [[2]](https://www.researchgate.net/publication/337704315/figure/fig2/AS:831883772452875@1575347955541/Comparison-of-the-Eulerian-and-Lagrangian-finite-strains-derived-by-expansion-of-the.ppm) for any quantity greater than 6.<br>
 &ensp;&ensp;Typically, the larger something is, the more efficient it is (up to a point).<br>
 &ensp;&ensp;&ensp;&ensp;e.g., HVAC units are more efficient the larger they are.<br>
 &ensp;&ensp;Economy of Scale increases Capex because larger items cost more and use more power and cooling,<br>
