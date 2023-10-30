@@ -2,6 +2,10 @@
 I recommend viewing the corresponding [YouTube Playlist]() for this page.<br>
 You can also jump down to the end of this page to review the [Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#additional-resources) section.<br>
 
+### Concept of Broad and Deep Learning:
+Synonym for Broad is Wide so they are equivalent and will be used interchangeably.<br>
+
+
 ### General Abstractions:
 An [Abstraction](https://en.wikipedia.org/wiki/Abstraction) is hiding complexity and/or [hiding information](https://en.wikipedia.org/wiki/Information_hiding).<br>
 [Abstraction in Computer Science](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) is a simple interface that hides the complexity behind it.<br>
@@ -468,6 +472,7 @@ is critical to the goal of [BROAD and DEEP Learning]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 
 [Theoretical Computer Science:](https://en.wikipedia.org/wiki/Theoretical_computer_science) [[1]](https://en.wikipedia.org/wiki/Category:Theoretical_computer_science)<br>
+&ensp;&ensp;[Systems Theory](https://en.wikipedia.org/wiki/Systems_theory) A [system](https://en.wikipedia.org/wiki/System) is a group of interacting or interrelated elements that act according to a set of rules to form a unified whole. [[[1]](https://en.wikipedia.org/wiki/Category:Systems_theory) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Information Science](https://en.wikipedia.org/wiki/Information_science) [[1]](https://en.wikipedia.org/wiki/Category:Information_science)<br>
 &ensp;&ensp;[Information Theory](https://en.wikipedia.org/wiki/Information_theory)<br>
 &ensp;&ensp;[Communication Theory](https://en.wikipedia.org/wiki/Communication_theory)<br>
@@ -477,7 +482,6 @@ is critical to the goal of [BROAD and DEEP Learning]()<br>
 &ensp;&ensp;Follow that up with "[Principia Mathematica](https://en.wikipedia.org/wiki/Principia_Mathematica)" by [Alfred North Whitehead](https://en.wikipedia.org/wiki/Alfred_Whitehead) and [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell).<br>
 &ensp;&ensp;Follow that up with "[Certain Factors Affecting Telegraph Speed](https://monoskop.org/images/9/9f/Nyquist_Harry_1924_Certain_Factors_Affecting_Telegraph_Speed.pdf)" and "[Certain Topics in Telegraph Transmission Theory](https://bayes.wustl.edu/Manual/CertainTopicsInTelegraphTransmissionTheory.pdf)" by [Harry Nyquist](https://en.wikipedia.org/wiki/Harry_Nyquist)<br>
 &ensp;&ensp;Follow that up with "[Transmission of Information](https://monoskop.org/images/a/a6/Hartley_Ralph_VL_1928_Transmission_of_Information.pdf)" by [Ralph Hartley](https://en.wikipedia.org/wiki/Ralph_Hartley)<br>
-&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 
