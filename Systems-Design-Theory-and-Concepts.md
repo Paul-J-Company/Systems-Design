@@ -400,7 +400,10 @@ A main concept to know is that [diversity](https://dictionary.cambridge.org/us/d
 The concepts of [Interdisciplinarity (aka., Multidisciplinarity, Pluridisciplinarity)](https://en.wikipedia.org/wiki/Interdisciplinarity) [[1]](https://en.wikipedia.org/wiki/Interdiscipline), and [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity)<br>
 is critical to the goal of [BROAD and DEEP Learning]()<br>
 
-[Philosophy:](https://en.wikipedia.org/wiki/Philosophy) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy)<br>
+[Philosophy:](https://en.wikipedia.org/wiki/Philosophy) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy) [[2]](https://en.wikipedia.org/wiki/Outline_of_philosophy) [[3]](https://en.wikipedia.org/wiki/Index_of_philosophy) [[4]](https://en.wikipedia.org/wiki/List_of_schools_of_philosophy)<br>
+&ensp;&ensp;[Lists of Philosophers](https://en.wikipedia.org/wiki/Lists_of_philosophers) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Philosophical_theory](https://en.wikipedia.org/wiki/Philosophical_theory) [[1]](https://en.wikipedia.org/wiki/Category:Philosophical_theories) [[2]]() [[3]]()<br>
+&ensp;&ensp;[List of Philosophical Concepts](https://en.wikipedia.org/wiki/List_of_philosophical_concepts) [[1]](https://en.wikipedia.org/wiki/A_priori_and_a_posteriori) [[2]](https://en.wikipedia.org/wiki/Absolute_(philosophy)) [[3]](https://en.wikipedia.org/wiki/Absolute_space_and_time) [[4]](https://en.wikipedia.org/wiki/Abstract_and_concrete)<br>
 &ensp;&ensp;[Metaphysics](https://en.wikipedia.org/wiki/Metaphysics) [[1]](https://en.wikipedia.org/wiki/Category:Metaphysics) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Epistemology](https://en.wikipedia.org/wiki/Epistemology) [[1]](https://en.wikipedia.org/wiki/Category:Epistemology) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Mereology](https://en.wikipedia.org/wiki/Mereology) [[1]](https://en.wikipedia.org/wiki/Category:Mereology) [[2]]() [[3]]()<br>
@@ -408,19 +411,39 @@ is critical to the goal of [BROAD and DEEP Learning]()<br>
 &ensp;&ensp;[Philosophy of Science](https://en.wikipedia.org/wiki/Philosophy_of_science) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy_of_science) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Philosophy of Mind](https://en.wikipedia.org/wiki/Philosophy_of_mind) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy_of_mind) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Philosophy of Artificial Intelligence](https://en.wikipedia.org/wiki/Philosophy_of_artificial_intelligence) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy_of_artificial_intelligence) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Philosophy of Language](https://en.wikipedia.org/wiki/Philosophy_of_language) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy_of_language) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Philosophy of Mathematics](https://en.wikipedia.org/wiki/Philosophy_of_mathematics) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy_of_mathematics) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Philosophy of]() [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[Philosophy of]() [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;[Philosophy of]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Probability Theory](https://en.wikipedia.org/wiki/Probability_theory) [[1]](https://en.wikipedia.org/wiki/Category:Probability_theory) [[2]](https://en.wikipedia.org/wiki/Outline_of_probability) [[3]](https://en.wikipedia.org/wiki/Catalog_of_articles_in_probability_theory) [[4]](https://en.wikipedia.org/wiki/List_of_mathematical_probabilists) [[5]](https://en.wikipedia.org/wiki/Glossary_of_probability_and_statistics) [[6]](https://en.wikipedia.org/wiki/Notation_in_probability_and_statistics) [[7]](https://en.wikipedia.org/wiki/List_of_probability_journals) [[8]]() [[9]]()<br>
+&ensp;&ensp;[Probability](https://en.wikipedia.org/wiki/Probability) [[1]](https://en.wikipedia.org/wiki/Category:Probability) [[2]](https://en.wikipedia.org/wiki/Probability_axioms) [[3]]()<br>
+&ensp;&ensp;[Decision Theory](https://en.wikipedia.org/wiki/Decision_theory) [[1]](https://en.wikipedia.org/wiki/Category:Decision_theory) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Analytic Philosophy](https://en.wikipedia.org/wiki/Analytic_philosophy) [[1]](https://en.wikipedia.org/wiki/Category:Analytic_philosophy) [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 
 [Pure Mathematics:](https://en.wikipedia.org/wiki/Pure_mathematics)<br>
+&ensp;&ensp;[Foundations of Mathematics](https://en.wikipedia.org/wiki/Foundations_of_mathematics) [[1]](https://en.wikipedia.org/wiki/Category:Foundations_of_mathematics) [[2]](https://en.wikipedia.org/wiki/Category:Theorems_in_the_foundations_of_mathematics) [[3]](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory) [[4]](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory) [[5]](https://en.wikipedia.org/wiki/Foundations_of_geometry) [[6]]() [[7]]() [[8]]()<br>
 &ensp;&ensp;[Fields of Mathematics](https://en.wikipedia.org/wiki/Category:Fields_of_mathematics) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Fields of Abstract Algebra](https://en.wikipedia.org/wiki/Category:Fields_of_abstract_algebra) [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[Areas of Mathematics](https://en.wikipedia.org/wiki/Mathematics#Areas_of_mathematics) [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Langlands Program](https://en.wikipedia.org/wiki/Langlands_program) [[1]](https://en.wikipedia.org/wiki/Category:Langlands_program) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Modular Forms](https://en.wikipedia.org/wiki/Modular_form) [[1]](https://en.wikipedia.org/wiki/Category:Modular_forms) [[2]](https://en.wikipedia.org/wiki/Hilbert_modular_form) [[3]](https://en.wikipedia.org/wiki/Siegel_modular_form) [[4]](https://en.wikipedia.org/wiki/Theta_function)<br>
+&ensp;&ensp;[Category Theory](https://en.wikipedia.org/wiki/Category_theory) [[1]](https://en.wikipedia.org/wiki/Category:Category_theory) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Group Theory](https://en.wikipedia.org/wiki/Group_theory) The study of [Symmetry](https://en.wikipedia.org/wiki/Symmetry_group) [[1]](https://en.wikipedia.org/wiki/Category:Group_theory) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Differential Geometry](https://en.wikipedia.org/wiki/Differential_geometry) [[1]](https://en.wikipedia.org/wiki/Category:Differential_geometry) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Galois Theory](https://en.wikipedia.org/wiki/Galois_theory) [[1]](https://en.wikipedia.org/wiki/Category:Galois_theory) [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 
 [Applied Mathematics:](https://en.wikipedia.org/wiki/Applied_mathematics) [[1]](https://en.wikipedia.org/wiki/Category:Applied_mathematics)<br>
 &ensp;&ensp;[Applied Mathematicians](https://en.wikipedia.org/wiki/Category:Applied_mathematicians) [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[Algorithms](https://en.wikipedia.org/wiki/Algorithm) [[1]](https://en.wikipedia.org/wiki/Category:Algorithms) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Information_Theory](https://en.wikipedia.org/wiki/Information_theory) [[1]](https://en.wikipedia.org/wiki/Category:Information_theory) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Control_Theory](https://en.wikipedia.org/wiki/Control_theory) [[1]](https://en.wikipedia.org/wiki/Category:Control_theory) [[2]]() [[3]]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 
@@ -431,6 +454,9 @@ is critical to the goal of [BROAD and DEEP Learning]()<br>
 &ensp;&ensp;[Quantum Mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics) [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[Special Relativity](https://en.wikipedia.org/wiki/Special_relativity) [[1]](https://en.wikipedia.org/wiki/Category:Special_relativity) [[2]]() [[3]]()<br>
 &ensp;&ensp;[General Ralativity](https://en.wikipedia.org/wiki/General_relativity) [[1]](https://en.wikipedia.org/wiki/Category:General_relativity) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Einstein Field Equations](https://en.wikipedia.org/wiki/Einstein_field_equations) [[1]](https://github.com/topics/einstein-field-equations) [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 
@@ -450,6 +476,9 @@ is critical to the goal of [BROAD and DEEP Learning]()<br>
 &ensp;&ensp;Follow that up with "[Principia Mathematica](https://en.wikipedia.org/wiki/Principia_Mathematica)" by [Alfred North Whitehead](https://en.wikipedia.org/wiki/Alfred_Whitehead) and [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell).<br>
 &ensp;&ensp;Follow that up with "[Certain Factors Affecting Telegraph Speed](https://monoskop.org/images/9/9f/Nyquist_Harry_1924_Certain_Factors_Affecting_Telegraph_Speed.pdf)" and "[Certain Topics in Telegraph Transmission Theory](https://bayes.wustl.edu/Manual/CertainTopicsInTelegraphTransmissionTheory.pdf)" by [Harry Nyquist](https://en.wikipedia.org/wiki/Harry_Nyquist)<br>
 &ensp;&ensp;Follow that up with "[Transmission of Information](https://monoskop.org/images/a/a6/Hartley_Ralph_VL_1928_Transmission_of_Information.pdf)" by [Ralph Hartley](https://en.wikipedia.org/wiki/Ralph_Hartley)<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
 
 **Resources for deep diving in to the realm of "Computational Science":**<br>
 &ensp;&ensp;[Computational Science](https://en.wikipedia.org/wiki/Computational_science) [[1]](https://en.wikipedia.org/wiki/Category:Computational_science) [[2]]() [[3]]()<br>
