@@ -120,7 +120,7 @@ High Availability (HA):<br>
    There is no "**[one size that fits all](https://dictionary.cambridge.org/us/dictionary/english/one-size-fits-all)**" design, you will always have to deal with [mutual exclusivity](https://en.wikipedia.org/wiki/Mutual_exclusivity).<br>
    Identify all the trade-offs, bottlenecks and [single points of failure](https://en.wikipedia.org/wiki/Single_point_of_failure).<br>
    Focus on minimizing all negative [side-effects](https://en.wikipedia.org/wiki/Side_effect) because they are difficult to predict in a complex system.<br>
-   Have a [broad]() knowledge of alternative technologies.<br>
+   Have a [broad](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#concept-of-broad-and-deep-learning) knowledge of alternative technologies.<br>
    There are always "[two sides to a coin](https://dictionary.cambridge.org/us/dictionary/english/other-side-of-the-coin?q=the+other+side+of+the+coin)", so ask many counter questions:<br>
    &ensp;&ensp;How many daily users?<br>
    &ensp;&ensp;What are the edge cases?<br>
