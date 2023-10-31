@@ -428,7 +428,7 @@ What is OWASP?<br>
 &ensp;&ensp;OWASP is a community initiative focused on improving web application security<br>
 &ensp;&ensp;through providing open-source methodologies, tools, and techniques.<br>
 &ensp;&ensp;[OWASP Kubernetes Top 10: A Comprehensive Guide](https://medium.com/@seifeddinerajhi/owasp-kubernetes-top-10-a-comprehensive-guide-f03af6fd66ed)<br>
-&ensp;&ensp;[OWASP Kubernetes Top 10](https://owasp.org/www-project-kubernetes-top-ten/)<br>
+&ensp;&ensp;[OWASP Kubernetes Top 10](https://owasp.org/www-project-kubernetes-top-ten/) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*rTdzX0JKoBZ9dOtC.png)<br>
 What is CASB?<br>
 &ensp;&ensp;Cloud Access Security Broker: (CASB)<br>
 &ensp;&ensp;CASB acts as a bridge between an organization's<br>
