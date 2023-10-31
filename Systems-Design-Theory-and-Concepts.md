@@ -303,22 +303,21 @@ Database Models/Types:<br>
      [Comparison of Relational Database Management Systems](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems)<br>
      [Database Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture))<br>
      [Shared-Nothing Architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture)<br>
-  2) NoSQL Databases:<br>
-     Examples: Cassandra, DynamoDB, SyllabaDB, etc.<br>
+  2) [NoSQL](https://en.wikipedia.org/wiki/Category:NoSQL) Databases:<br>
+     Examples: Cassandra, DynamoDB, ScyllaDB, etc.<br>
      Best used for: applications that can handle eventual consistency<br> 
-     [NoSQL](https://en.wikipedia.org/wiki/Category:NoSQL)<br>
-       NoSQL databases are eventually consistent databases which prioritize availability over strong consistency.<br>
+     NoSQL databases are [eventually consistent](https://en.wikipedia.org/wiki/Eventual_consistency) databases which prioritize availability over [strong consistency](https://en.wikipedia.org/wiki/Eventual_consistency#Strong_eventual_consistency).<br>
      Schemaless Documents:<br>
-       The number of fields, content and size of the document<br>
-       can differ from one document to another in the same collection.<br>
+&ensp;&ensp;The number of fields, content and size of the document<br>
+&ensp;&ensp;can differ from one document to another in the same collection.<br>
      Recommended Reading:<br>
      [NoSQL Database Resources](https://www.scylladb.com/learn/nosql/nosql-database-resources/)<br>
      [NoSQL Database Guide](https://www.scylladb.com/learn/nosql/)<br>
      [NoSQL vs SQL](https://www.scylladb.com/learn/nosql/nosql-vs-sql/)<br>
+     [What is Apache Cassandra?](https://www.scylladb.com/learn/apache-cassandra/introduction-to-apache-cassandra/)<br>
      [DynamoDB FAQs](https://www.scylladb.com/learn/dynamodb/introduction-to-dynamodb/)<br>
      [CQL vs. DynamoDB API](https://www.scylladb.com/resources/cql-vs-dynamodb-api/)<br>
      [Project Alternator - an Amazon DynamoDB-compatible API](https://www.scylladb.com/alternator/)<br>
-     [What is Apache Cassandra?](https://www.scylladb.com/learn/apache-cassandra/introduction-to-apache-cassandra/)<br>
   3) Key-Value Stores:<br>
      Examples: Redis, Memcached, Etcd, etc.<br>
      Best used for:<br>
