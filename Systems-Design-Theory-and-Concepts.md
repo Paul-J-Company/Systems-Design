@@ -282,6 +282,7 @@ What is a Polystore?<br>
 &ensp;&ensp;enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure.<br>
 &ensp;&ensp;Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.<br>
 Recommended Reading/Viewing:<br>
+&ensp;&ensp;[Open Source Database Guide](https://www.scylladb.com/learn/open-source-database/)<br>
 &ensp;&ensp;[Distributed Systems Safety Research](https://jepsen.io/) [[1]](https://www.youtube.com/watch?v=tRc0O9VgzB0)<br>
 &ensp;&ensp;[Database Performance at Scale](https://link.springer.com/content/pdf/10.1007/978-1-4842-9711-7.pdf)<br>
 &ensp;&ensp;[Distributed Database Consistency: Architectural Considerations and Tradeoffs](https://www.youtube.com/watch?v=nfDGhoAEwXc)<br>
@@ -303,12 +304,21 @@ Database Models/Types:<br>
      [Database Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture))<br>
      [Shared-Nothing Architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture)<br>
   2) NoSQL Databases:<br>
-     Examples: Cassandra, DynamoDB, etc.<br>
-     Best used for:<br> 
+     Examples: Cassandra, DynamoDB, SyllabaDB, etc.<br>
+     Best used for: applications that can handle eventual consistency<br> 
      [NoSQL](https://en.wikipedia.org/wiki/Category:NoSQL)<br>
+       NoSQL databases are eventually consistent databases which prioritize availability over strong consistency.<br>
      Schemaless Documents:<br>
        The number of fields, content and size of the document<br>
        can differ from one document to another in the same collection.<br>
+     Recommended Reading:<br>
+     [NoSQL Database Resources](https://www.scylladb.com/learn/nosql/nosql-database-resources/)<br>
+     [NoSQL Database Guide](https://www.scylladb.com/learn/nosql/)<br>
+     [NoSQL vs SQL](https://www.scylladb.com/learn/nosql/nosql-vs-sql/)<br>
+     [DynamoDB FAQs](https://www.scylladb.com/learn/dynamodb/introduction-to-dynamodb/)<br>
+     [CQL vs. DynamoDB API](https://www.scylladb.com/resources/cql-vs-dynamodb-api/)<br>
+     [Project Alternator - an Amazon DynamoDB-compatible API](https://www.scylladb.com/alternator/)<br>
+     [What is Apache Cassandra?](https://www.scylladb.com/learn/apache-cassandra/introduction-to-apache-cassandra/)<br>
   3) Key-Value Stores:<br>
      Examples: Redis, Memcached, Etcd, etc.<br>
      Best used for:<br>
