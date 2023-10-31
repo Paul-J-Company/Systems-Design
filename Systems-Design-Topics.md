@@ -168,6 +168,7 @@ High Availability (HA):<br>
    [Separation of Content and Presentation](https://en.wikipedia.org/wiki/Separation_of_content_and_presentation)<br>
    [Single Responsibility Principle: (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle)<br>
    [Principle of Least Privilege:](https://en.wikipedia.org/wiki/Principle_of_least_privilege) aka., (PoLP), Principle of Least Authority (PoLA)<br>
+   [Microservice Pattern](https://microservices.io/patterns/microservices.html)<br>
    [Database per Service Pattern:](https://microservices.io/patterns/data/database-per-service.html)<br>
    [The SAGA Pattern:](https://microservices.io/patterns/data/saga.html) [[1]](https://www.youtube.com/watch?v=txlSrGVCK18) [[2]](https://www.c-sharpcorner.com/article/microservices-architecture-pattern-saga/) [[3]](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga)<br>
 8) Abstraction:<br>
