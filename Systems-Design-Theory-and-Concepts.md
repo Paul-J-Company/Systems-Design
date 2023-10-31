@@ -302,14 +302,14 @@ Database Models/Types:<br>
      [Database Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture))<br>
      [Shared-Nothing Architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture)<br>
   2) NoSQL Databases:<br>
-     Examples:<br>
+     Examples: Cassandra, DynamoDB, etc.<br>
      Best used for:<br> 
      [NoSQL](https://en.wikipedia.org/wiki/Category:NoSQL)<br>
      Schemaless Documents:<br>
        The number of fields, content and size of the document<br>
        can differ from one document to another in the same collection.<br>
   3) Key-Value Stores:<br>
-     Examples: Redis, Memcached, etcd<br>
+     Examples: Redis, Memcached, Etcd, etc.<br>
      Best used for:<br>
      [Key-value Databases](https://en.wikipedia.org/wiki/Category:Key-value_databases)<br>
        See: "Simularities between Object stores and key-value stores:"<br>
