@@ -270,6 +270,20 @@ What is Curse of Dimensionality?<br>
 &ensp;&ensp;The amount of data needed often grows exponentially with the dimensionality.<br>
 &ensp;&ensp;In high dimensional data, all objects appear to be sparse and dissimilar in many ways,<br>
 &ensp;&ensp;which prevents common data organization strategies from being efficient.<br>
+What is [Data Synchronization](https://en.wikipedia.org/wiki/Category:Data_synchronization)?<br>
+&ensp;&ensp;[Data Synchronization:](https://en.wikipedia.org/wiki/Data_synchronization)<br>
+&ensp;&ensp;&ensp;&ensp;The process of establishing consistency between source and target data stores,<br>
+&ensp;&ensp;&ensp;&ensp;and the continuous harmonization of the data over time.<br>
+&ensp;&ensp;[Compensating Transactions:](https://en.wikipedia.org/wiki/Compensating_transaction)<br>
+&ensp;&ensp;&ensp;&ensp;A process consists of one or more transactions.<br>
+&ensp;&ensp;&ensp;&ensp;Each transaction may consist of several individual operations yet,<br>
+&ensp;&ensp;&ensp;&ensp;as a whole, it moves the system between consistent states.<br>
+&ensp;&ensp;[SAGA Interaction Pattern](https://en.wikipedia.org/wiki/Long-running_transaction) aka., A Long-Running Transaction<br>
+&ensp;&ensp;&ensp;&ensp;Computer database transactions that avoid locks on non-local resources, use compensation to handle failures,<br>
+&ensp;&ensp;&ensp;&ensp;potentially aggregate smaller ACID transactions (also referred to as atomic transactions),<br>
+&ensp;&ensp;&ensp;&ensp;and typically use a coordinator to complete or abort the transaction.<br>
+&ensp;&ensp;&ensp;&ensp;In contrast to rollback in ACID transactions, compensation restores the original state, or an equivalent, and is business-specific.<br>
+&ensp;&ensp;&ensp;&ensp;For example, the compensating action for making a hotel reservation is canceling that reservation.<br>
 What are the 3 Main Storage Types?<br>
 &ensp;&ensp;1) [Block Storage](https://en.wikipedia.org/wiki/Block_(data_storage))<br>
 &ensp;&ensp;2) [Filesystem Storage](https://en.wikipedia.org/wiki/File_system), [List of File Systems](https://en.wikipedia.org/wiki/List_of_file_systems)<br>
