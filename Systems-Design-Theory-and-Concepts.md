@@ -363,7 +363,7 @@ Database Models/Types:<br>
      Examples: Amazon Timestream, [VictoriaMetrics](https://victoriametrics.com/)<br>
      Best used for: Time series data<br>
      [Time Series Database](https://en.wikipedia.org/wiki/Time_series_database)<br>
- 11) Data Warehouses:<br>
+ 11) Data Warehouses, Lakes, Marts, Vaults, and Hubs:<br>
      Examples: Apache Kudu, Amazon Redshift, Snowflake, HP Vertica, RDBMS<br>
      Best used for: read below for descriptions<br>
      [A data vault, warehouse, lake, and hub explained](https://www.cloverdx.com/blog/a-data-vault-warehouse-lake-and-hub-explained)<br>
