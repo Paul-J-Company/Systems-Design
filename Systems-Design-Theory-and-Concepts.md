@@ -547,7 +547,7 @@ is critical to the goal of [BROAD and DEEP Learning](https://github.com/Paul-J-C
 
 [Applied Mathematics:](https://en.wikipedia.org/wiki/Applied_mathematics) [[1]](https://en.wikipedia.org/wiki/Category:Applied_mathematics)<br>
 &ensp;&ensp;[Applied Mathematicians](https://en.wikipedia.org/wiki/Category:Applied_mathematicians) [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;[Algorithms](https://en.wikipedia.org/wiki/Algorithm) [[1]](https://en.wikipedia.org/wiki/Category:Algorithms) [[2]]() [[3]]()<br>
+&ensp;&ensp;[Algorithms](https://en.wikipedia.org/wiki/Algorithm) [[1]](https://en.wikipedia.org/wiki/Category:Algorithms) [[2]](https://en.wikipedia.org/wiki/Apriori_algorithm) [[3]]()<br>
 &ensp;&ensp;[Information Theory](https://en.wikipedia.org/wiki/Information_theory) [[1]](https://en.wikipedia.org/wiki/Category:Information_theory) [[2]]() [[3]]()<br>
 &ensp;&ensp;[Control Theory](https://en.wikipedia.org/wiki/Control_theory) [[1]](https://en.wikipedia.org/wiki/Category:Control_theory) [[2]]() [[3]]()<br>
 &ensp;&ensp;[]() [[1]]() [[2]]() [[3]]()<br>
