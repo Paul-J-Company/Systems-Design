@@ -30,7 +30,7 @@
   - Every business has Business Objectives.
   - These ***System Properties*** align with the high level business objective of ***"satisfy your internal and external customers"***.
 
-### Your System is a [Stack](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*NsNFTKROicAKdw1z.png) of [Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#computer-abstractions):
+### Your System is a [Stack](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*NsNFTKROicAKdw1z.png) of [Distributed](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) [Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#computer-abstractions):
 
 * Storage/Data Layer:
 * Network Layer:
@@ -48,7 +48,8 @@ The permutations of choices and behavior quickly [explode combinatorally](https:
 
 This is just one of the causes that makes any System ***"complex"***;<br>
 and why it requires a qualified [***System Designer***](https://www.linkedin.com/in/paul-company-7229011/) to achieve these [***System Properties***](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#system-properties).<br>
-Other causes of complexity include:<br> 
+Other causes of complexity include:<br>
+&ensp;&ensp;[Fallacies of Distributed Computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)<br>
 &ensp;&ensp;non-linear dynamics, chaotic behavior, randomness (difficult to predict),<br>
 &ensp;&ensp;a deep nesting of many layers of abstraction which all contribute<br>
 &ensp;&ensp;to the [combinatorial explosion](https://en.wikipedia.org/wiki/Combinatorial_explosion) I already mentioned.<br>
