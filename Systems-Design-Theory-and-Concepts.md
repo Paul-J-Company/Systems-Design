@@ -296,6 +296,7 @@ Database Models/Types:<br>
      Examples: MySQL, Postgres<br>
      Best used for: most apps<br> 
      Not ideal for: Unstructured Data<br>
+     Recommended Reading/Viewing:<br>
      Relational Database Transactions support [ACID](https://en.wikipedia.org/wiki/ACID) properties.<br>
      [A Relational Model of Data for Large Shared Data Banks by E.F. Codd](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)<br>
      [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)<br>
@@ -310,7 +311,7 @@ Database Models/Types:<br>
      Schemaless Documents:<br>
 &ensp;&ensp;The number of fields, content and size of the document<br>
 &ensp;&ensp;can differ from one document to another in the same collection.<br>
-     Recommended Reading:<br>
+     Recommended Reading/Viewing:<br>
      [NoSQL Database Resources](https://www.scylladb.com/learn/nosql/nosql-database-resources/)<br>
      [NoSQL Database Guide](https://www.scylladb.com/learn/nosql/)<br>
      [NoSQL vs SQL](https://www.scylladb.com/learn/nosql/nosql-vs-sql/)<br>
