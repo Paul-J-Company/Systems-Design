@@ -305,7 +305,7 @@ Recommended Reading/Viewing:<br>
 Database Models/Types:<br>
 &ensp;&ensp;[Database Models](https://en.wikipedia.org/wiki/Category:Database_models)<br>
 &ensp;&ensp;[Types of Databases](https://en.wikipedia.org/wiki/Category:Types_of_databases)<br>
-&ensp;&ensp;[Database Software Comarisons](https://en.wikipedia.org/wiki/Category:Database_software_comparisons)<br>
+&ensp;&ensp;[Database Software Comparisons](https://en.wikipedia.org/wiki/Category:Database_software_comparisons)<br>
   1) Relational Databases:<br>
      Examples: MySQL, Postgres<br>
      Best used for: most apps<br> 
