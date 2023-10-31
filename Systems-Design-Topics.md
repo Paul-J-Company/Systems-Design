@@ -412,6 +412,10 @@ What is a Microservice Application?<br>
 &ensp;&ensp;The main advantages of microservices are that you can scale them horizontally and you can deploy them<br>
 &ensp;&ensp;independently, so each team can deploy in parallel, accelerating the deployment process.<br>
 &ensp;&ensp;The other advantage is each team can use the programming language that best suits the service.<br>
+&ensp;&ensp;Most people have a love-hate relationship with microservices.<br>
+&ensp;&ensp;They think they are great; until you face one of the many issues,<br>
+&ensp;&ensp;like [data sharing](https://itnext.io/the-issue-with-sharing-data-in-a-microservice-architecture-d6a36f297ff5), then they driving you insane like a toxic relationship.<br>
+&ensp;&ensp;Maybe monoliths are not so bad?<br>
 What is a Monolithic Application?<br>
 &ensp;&ensp;An application is made up of services.<br>
 &ensp;&ensp;A monolithic application all services run on one process/threads (memory space) on one server.<br>
