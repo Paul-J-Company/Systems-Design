@@ -282,6 +282,7 @@ What is a Polystore?<br>
 &ensp;&ensp;enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure.<br>
 &ensp;&ensp;Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.<br>
 Recommended Reading/Viewing:<br>
+&ensp;&ensp;[Distributed Systems Safety Research](https://jepsen.io/) [[1]](https://www.youtube.com/watch?v=tRc0O9VgzB0)<br>
 &ensp;&ensp;[Database Performance at Scale](https://link.springer.com/content/pdf/10.1007/978-1-4842-9711-7.pdf)<br>
 &ensp;&ensp;[Distributed Database Consistency: Architectural Considerations and Tradeoffs](https://www.youtube.com/watch?v=nfDGhoAEwXc)<br>
 &ensp;&ensp;[Eventual Consistency Definition](https://www.scylladb.com/glossary/eventual-consistency/)<br>
