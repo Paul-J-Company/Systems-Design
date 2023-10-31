@@ -297,7 +297,7 @@ Database Models/Types:<br>
      Best used for: most apps<br> 
      Not ideal for: Unstructured Data<br>
      Recommended Reading/Viewing:<br>
-&ensp;&ensp;Relational Database Transactions support [ACID](https://en.wikipedia.org/wiki/ACID) properties.<br>
+     Relational Database Transactions support [ACID](https://en.wikipedia.org/wiki/ACID) properties.<br>
 &ensp;&ensp;[A Relational Model of Data for Large Shared Data Banks by E.F. Codd](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)<br>
 &ensp;&ensp;[Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)<br>
 &ensp;&ensp;[List of Relational Database Management Systems](https://en.wikipedia.org/wiki/List_of_relational_database_management_systems)<br>
