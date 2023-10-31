@@ -281,6 +281,11 @@ What is a Polystore?<br>
 &ensp;&ensp;A polystore is the combining of different database technologies tailored for specific use cases,<br>
 &ensp;&ensp;enabling organizations to optimize performance, scalability, and analytical capabilities throughout their infrastructure.<br>
 &ensp;&ensp;Polystores embrace a hybrid approach, leveraging the strengths of different database technologies tailored to specific use cases.<br>
+Recommended Reading/Viewing:<br>
+&ensp;&ensp;[Database Performance at Scale](https://link.springer.com/content/pdf/10.1007/978-1-4842-9711-7.pdf)<br>
+&ensp;&ensp;[Distributed Database Consistency: Architectural Considerations and Tradeoffs](https://www.youtube.com/watch?v=nfDGhoAEwXc)<br>
+&ensp;&ensp;[Eventual Consistency Definition](https://www.scylladb.com/glossary/eventual-consistency/)<br>
+&ensp;&ensp;[Data Sharing Issues in a Microservice Architecture](https://itnext.io/the-issue-with-sharing-data-in-a-microservice-architecture-d6a36f297ff5)<br>
 Database Models/Types:<br>
 &ensp;&ensp;[Database Models](https://en.wikipedia.org/wiki/Category:Database_models)<br>
 &ensp;&ensp;[Types of Databases](https://en.wikipedia.org/wiki/Category:Types_of_databases)<br>
