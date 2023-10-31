@@ -171,6 +171,7 @@ High Availability (HA):<br>
    [Microservice Pattern](https://microservices.io/patterns/microservices.html)<br>
    [Database per Service Pattern:](https://microservices.io/patterns/data/database-per-service.html)<br>
    [The SAGA Pattern:](https://microservices.io/patterns/data/saga.html) [[1]](https://www.youtube.com/watch?v=txlSrGVCK18) [[2]](https://www.c-sharpcorner.com/article/microservices-architecture-pattern-saga/) [[3]](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga)<br>
+   [Exponential Backoff Retries Pattern:](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/implement-retries-exponential-backoff)<br>
 8) Abstraction:<br>
    See: "[General Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#general-abstractions)"<br>
    See: "[Computer Abstractions](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#computer-abstractions)"<br>
