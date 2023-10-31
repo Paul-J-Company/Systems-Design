@@ -297,13 +297,13 @@ Database Models/Types:<br>
      Best used for: most apps<br> 
      Not ideal for: Unstructured Data<br>
      Recommended Reading/Viewing:<br>
-     Relational Database Transactions support [ACID](https://en.wikipedia.org/wiki/ACID) properties.<br>
-     [A Relational Model of Data for Large Shared Data Banks by E.F. Codd](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)<br>
-     [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)<br>
-     [List of Relational Database Management Systems](https://en.wikipedia.org/wiki/List_of_relational_database_management_systems)<br>
-     [Comparison of Relational Database Management Systems](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems)<br>
-     [Database Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture))<br>
-     [Shared-Nothing Architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture)<br>
+&ensp;&ensp;Relational Database Transactions support [ACID](https://en.wikipedia.org/wiki/ACID) properties.<br>
+&ensp;&ensp;[A Relational Model of Data for Large Shared Data Banks by E.F. Codd](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)<br>
+&ensp;&ensp;[Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)<br>
+&ensp;&ensp;[List of Relational Database Management Systems](https://en.wikipedia.org/wiki/List_of_relational_database_management_systems)<br>
+&ensp;&ensp;[Comparison of Relational Database Management Systems](https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems)<br>
+&ensp;&ensp;[Database Shard](https://en.wikipedia.org/wiki/Shard_(database_architecture))<br>
+&ensp;&ensp;[Shared-Nothing Architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture)<br>
   2) [NoSQL](https://en.wikipedia.org/wiki/Category:NoSQL) Databases:<br>
      Examples: Cassandra, DynamoDB, ScyllaDB, etc.<br>
      Best used for: applications that can handle eventual consistency<br> 
@@ -312,13 +312,13 @@ Database Models/Types:<br>
 &ensp;&ensp;The number of fields, content and size of the document<br>
 &ensp;&ensp;can differ from one document to another in the same collection.<br>
      Recommended Reading/Viewing:<br>
-     [NoSQL Database Resources](https://www.scylladb.com/learn/nosql/nosql-database-resources/)<br>
-     [NoSQL Database Guide](https://www.scylladb.com/learn/nosql/)<br>
-     [NoSQL vs SQL](https://www.scylladb.com/learn/nosql/nosql-vs-sql/)<br>
-     [What is Apache Cassandra?](https://www.scylladb.com/learn/apache-cassandra/introduction-to-apache-cassandra/)<br>
-     [DynamoDB FAQs](https://www.scylladb.com/learn/dynamodb/introduction-to-dynamodb/)<br>
-     [CQL vs. DynamoDB API](https://www.scylladb.com/resources/cql-vs-dynamodb-api/)<br>
-     [Project Alternator - an Amazon DynamoDB-compatible API](https://www.scylladb.com/alternator/)<br>
+&ensp;&ensp;[NoSQL Database Resources](https://www.scylladb.com/learn/nosql/nosql-database-resources/)<br>
+&ensp;&ensp;[NoSQL Database Guide](https://www.scylladb.com/learn/nosql/)<br>
+&ensp;&ensp;[NoSQL vs SQL](https://www.scylladb.com/learn/nosql/nosql-vs-sql/)<br>
+&ensp;&ensp;[What is Apache Cassandra?](https://www.scylladb.com/learn/apache-cassandra/introduction-to-apache-cassandra/)<br>
+&ensp;&ensp;[DynamoDB FAQs](https://www.scylladb.com/learn/dynamodb/introduction-to-dynamodb/)<br>
+&ensp;&ensp;[CQL vs. DynamoDB API](https://www.scylladb.com/resources/cql-vs-dynamodb-api/)<br>
+&ensp;&ensp;[Project Alternator - an Amazon DynamoDB-compatible API](https://www.scylladb.com/alternator/)<br>
   3) Key-Value Stores:<br>
      Examples: Redis, Memcached, Etcd, etc.<br>
      Best used for:<br>
