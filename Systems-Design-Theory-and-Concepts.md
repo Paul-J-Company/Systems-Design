@@ -2,21 +2,21 @@
 I recommend viewing the corresponding [YouTube Playlist]() for this page.<br>
 You can also jump down to the end of this page to review the [Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#additional-resources) section.<br>
 
-### Concept of Broad and Deep Learning:
-Synonym for Broad is Wide so they are equivalent and will be used interchangeably.<br>
-BROAD Learning is finding the correlations, relationships, similarities, differences, etc. among all fields of study.<br>
+### Concept of Wide and Deep Learning:
+Synonym for Wide is Wide so they are equivalent and will be used interchangeably.<br>
+WIDE Learning is finding the correlations, relationships, similarities, differences, etc. among all fields of study.<br>
 You can think of Breadth as the "[BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture)" or the "[Holistic View](https://beyo.global/thinking/what-are-holistic-approaches-and-why-are-companies-using-them)" or the "[Can't See the Forrest Through the Trees](https://www.linkedin.com/pulse/whats-meaning-cant-see-forest-through-trees-jared-jerotz)" [colloquialism](https://www.quora.com/What-does-it-mean-to-see-the-forest-through-the-trees) [[1]](https://medium.com/collaborative-synchronous-data-visualization/a-tree-is-not-a-forest-why-trees-are-a-perfect-metaphor-for-human-communities-3fb4f74c24cb
 ).<br>
 It's imperitive that you don't miss the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture) by focusing on tiny details.<br>
-BROAD Learning capures to concepts of [Interdisciplinarity (aka., Multidisciplinarity, Pluridisciplinarity)](https://en.wikipedia.org/wiki/Interdisciplinarity) [[1]](https://en.wikipedia.org/wiki/Interdiscipline), and [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity)<br>
-BROAD Learning enables you to **_Identify correlations among all past shallow knowledge_**.<br>
-BROAD Learning is essential for Leaders who have to make high-level decisions and see the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture).<br>
+WIDE Learning capures to concepts of [Interdisciplinarity (aka., Multidisciplinarity, Pluridisciplinarity)](https://en.wikipedia.org/wiki/Interdisciplinarity) [[1]](https://en.wikipedia.org/wiki/Interdiscipline), and [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity)<br>
+WIDE Learning enables you to **_Identify correlations among all past shallow knowledge_**.<br>
+WIDE Learning is essential for Leaders who have to make high-level decisions and see the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture).<br>
 DEEP Learning enables you to **_become and expert in your narrow field of study_**.<br>
 DEEP Learning is essential because coupled with broad learning it allows for the completion of high-level decisions.<br>
-BROAD Learners are [Generalists](https://dictionary.cambridge.org/us/dictionary/english/generalist) [[1]](https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none) [[2]]() [[3]]()<br>
+WIDE Learners are [Generalists](https://dictionary.cambridge.org/us/dictionary/english/generalist) [[1]](https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none) [[2]]() [[3]]()<br>
 DEEP Learners are [Specialists](https://dictionary.cambridge.org/us/dictionary/english/specialist) [[1]](https://en.wikipedia.org/wiki/Specialization_of_knowledge)) [[2]]() [[3]]()<br>
-**_BROAD AND DEEP Learners_** are [polymaths](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath), [Philomaths](https://en.wikipedia.org/wiki/Philomath) and [Autodidacts](https://dictionary.cambridge.org/us/dictionary/english/autodidact) [[1]](https://en.wikipedia.org/wiki/Autodidacticism) [[2]](https://en.wikipedia.org/wiki/List_of_autodidacts) [[3]](https://en.wikiquote.org/wiki/Autodidacticism).<br>
-**_Steps for Broad and Deep Learning_:**<br>
+**_WIDE AND DEEP Learners_** are [polymaths](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath), [Philomaths](https://en.wikipedia.org/wiki/Philomath) and [Autodidacts](https://dictionary.cambridge.org/us/dictionary/english/autodidact) [[1]](https://en.wikipedia.org/wiki/Autodidacticism) [[2]](https://en.wikipedia.org/wiki/List_of_autodidacts) [[3]](https://en.wikiquote.org/wiki/Autodidacticism).<br>
+**_Steps for Wide and Deep Learning_:**<br>
 &ensp;&ensp;1) Pick a Topic, Subject Area, Field of Study, or [Problem Domain](https://en.wikipedia.org/wiki/Problem_domain) that you are passionate about. [[1]]() [[2]]() [[3]]()<br>
 &ensp;&ensp;&ensp;&ensp;Examples:<br>
 &ensp;&ensp;&ensp;&ensp;Philosophy, Mathematics, Physics, Chemistry, Biology, Engineering, Economics,<br>
@@ -496,7 +496,7 @@ Database Models/Types:<br>
 **Resources for deep diving in to the realm of "Theory":**<br>
 A main concept to know is that [diversity](https://dictionary.cambridge.org/us/dictionary/english/variety-is-the-spice-of-life?q=Variety+Is+the+Spice+of+Life) is good!<br>
 The concepts of [Interdisciplinarity (aka., Multidisciplinarity, Pluridisciplinarity)](https://en.wikipedia.org/wiki/Interdisciplinarity) [[1]](https://en.wikipedia.org/wiki/Interdiscipline), and [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity)<br>
-is critical to the goal of [BROAD and DEEP Learning](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#concept-of-broad-and-deep-learning)<br>
+is critical to the goal of [WIDE and DEEP Learning](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#concept-of-broad-and-deep-learning)<br>
 
 [Philosophy:](https://en.wikipedia.org/wiki/Philosophy) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy) [[2]](https://en.wikipedia.org/wiki/Outline_of_philosophy) [[3]](https://en.wikipedia.org/wiki/Index_of_philosophy) [[4]](https://en.wikipedia.org/wiki/List_of_schools_of_philosophy)<br>
 &ensp;&ensp;[Glossary of Philosophy](https://en.wikipedia.org/wiki/Glossary_of_philosophy) [[1]](https://en.wikipedia.org/wiki/Category:Philosophy-related_glossaries) [[2]]() [[3]]()<br>
