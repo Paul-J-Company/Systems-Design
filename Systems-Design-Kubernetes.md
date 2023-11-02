@@ -92,33 +92,21 @@ NOTE: This is just one of the ways how networking between containers can be conf
 
 [Visualizing the service access relationship in Kubernetes and service mesh (one sidecar per pod model)](https://cdn.thenewstack.io/media/2021/03/200a2844-image4.png)<br>
 
-  Visualizing CSI Volume Plugin
-  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png
+[Visualizing Kubernetes without CSI Volume Plugin](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png)<br>
 
-  Visualizing Kubernetes Resources
-  https://miro.medium.com/v2/resize:fit:1400/format:webp/0*mdClEni7Za7F1DY5.png
-  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MK7WOMTF-Ks1sD67PIiphg.png
-  https://laurinevala.medium.com/visualizing-kubernetes-resources-ee9d8c16d264
-
-  Visualizing Kubernetes Services
-  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jC28wQvePsmbic8AIqo_AA.png
-
-  Visualizing Virtual Kublet
-  https://github.com/virtual-kubelet/virtual-kubelet/blob/master/website/static/img/diagram.svg
-
-  Visualization of how Kubelet, CRI, CRI-O, OCI & runc & kata-runtime fit together
-  https://miro.medium.com/v2/resize:fit:1100/format:webp/0*h2j060L-iJMlyW9F.jpg
+[Visualizing Kubernetes Resources](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*mdClEni7Za7F1DY5.png) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MK7WOMTF-Ks1sD67PIiphg.png) [[2]](https://laurinevala.medium.com/visualizing-kubernetes-resources-ee9d8c16d264)<br>
   
-  Visualization of how Podman, Containerd use crun, runc, gVisor, Nabla, katacontainers, Firecracker
-  https://adriancitu.files.wordpress.com/2021/12/untitled-diagram-image-run.drawio1.png
+[Visualizing Kubernetes Services](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jC28wQvePsmbic8AIqo_AA.png)<br>
 
-  Visualization of how Docker, Kubernetes, CRI, CRI-O, containerd, OCI & runc fit together
-  https://www.tutorialworks.com/assets/images/container-ecosystem.drawio.png?ezimgfmt=rs:704x1183/rscb6/ng:webp/ngcb6
-  https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/ (GREAT)
+[Visualizing Virtual Kublet](https://github.com/virtual-kubelet/virtual-kubelet/blob/master/website/static/img/diagram.svg)<br>
+
+[Visualization of how Kubelet, CRI, CRI-O, OCI & runc & kata-runtime fit together](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*h2j060L-iJMlyW9F.jpg)<br>
   
-  Visualization of how Kubernetes, CRI, CRI-O, containerd fit together
-  https://www.tutorialworks.com/assets/images/container-ecosystem-cri.drawio.png?ezimgfmt=rs:704x353/rscb6/ng:webp/ngcb6
-  https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/ (GREAT)
+[Visualization of how Podman, Containerd use crun, runc, gVisor, Nabla, katacontainers, Firecracker](https://adriancitu.files.wordpress.com/2021/12/untitled-diagram-image-run.drawio1.png)<br>
+
+[Visualization of how Docker, Kubernetes, CRI, CRI-O, containerd, OCI & runc fit together](https://www.tutorialworks.com/assets/images/container-ecosystem.drawio.png?ezimgfmt=rs:704x1183/rscb6/ng:webp/ngcb6) [[1]](https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/)<br>
+  
+[Visualization of how Kubernetes, CRI, CRI-O, containerd fit together](https://www.tutorialworks.com/assets/images/container-ecosystem-cri.drawio.png?ezimgfmt=rs:704x353/rscb6/ng:webp/ngcb6) [[1]](https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/)<br>
   
   Visualization of how Kubelet, CRI, CRI-O, OCI & runc & kata-runtime fit together
   https://miro.medium.com/v2/resize:fit:1100/format:webp/0*h2j060L-iJMlyW9F.jpg
