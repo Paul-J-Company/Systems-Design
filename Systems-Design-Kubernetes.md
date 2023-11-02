@@ -85,8 +85,6 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing the interactions between Containerd CRI Plugin and CNI plugins](https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/kubelet-cri-cni-interactions.png])<br>
 [Visualizing Bridge Networking](https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/bridge-networking.png)<br>
 [Visualizing Flannel Networking](https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/flannel-networking.png)<br>
-NOTE: This is just one of the ways how networking between containers can be configured.
-[Visualizing Comparing CNI for OKE](
 [Visualizing Native CNI Pod Networking](https://blogs.oracle.com/content/published/api/v1.1/assets/CONT78BF0A5D337F41A887531F7969A18FDE/Medium?cb=_cache_6177&format=jpg&channelToken=f7814d202b7d468686f50574164024ec)<br>
 [Visualizing Flannel Overlay Networking](https://blogs.oracle.com/content/published/api/v1.1/assets/CONT94FDF8973EA4486AB65E88CA4DF72114/Medium?cb=_cache_6177&format=jpg&channelToken=f7814d202b7d468686f50574164024ec)<br>
 
@@ -108,17 +106,11 @@ NOTE: This is just one of the ways how networking between containers can be conf
   
 [Visualization of how Kubernetes, CRI, CRI-O, containerd fit together](https://www.tutorialworks.com/assets/images/container-ecosystem-cri.drawio.png?ezimgfmt=rs:704x353/rscb6/ng:webp/ngcb6) [[1]](https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/)<br>
   
-  Visualization of how Kubelet, CRI, CRI-O, OCI & runc & kata-runtime fit together
-  https://miro.medium.com/v2/resize:fit:1100/format:webp/0*h2j060L-iJMlyW9F.jpg
-  https://medium.com/kata-containers/why-kata-containers-doesnt-replace-kubernetes-75e484679727
+[Visualization of how Kubelet, CRI, CRI-O, OCI & runc & kata-runtime fit together](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*h2j060L-iJMlyW9F.jpg) [[1]](https://medium.com/kata-containers/why-kata-containers-doesnt-replace-kubernetes-75e484679727)<br>
   
-  Visualization of how Kubelet, CRI, Dockershim & CRI-Containerd & containerd fit together
-  https://lh6.googleusercontent.com/DUu4PrZ_KYIEEkTJ3s_T7o7X2BhT09ZuTAKvHFfbnD7F_gHb-6Hol0trGcEiU7Xu797SdkbFpDDUUDeB5XHTKFo9yab11kPjBWsg2PiPreu90Ktbak__isL9NkI-b_Ovh6GeLfrA
-  Visualization of how Kubelet, containerd & runc fit together
-  https://lh3.googleusercontent.com/4RJz6Kbqa3z2AQ5QZQgNZKKLqa-VcSJq84IIEhhO6Rl0fIR09Aq8ODIiS2YgbuWbaCUP2kaZhC8EUPHJFrVRRXaLl09z0tVtjpcOTU_pdB17APS-qgbN_Ab5R9NNHX5ew8104-_X
-  Visualization of CRI-Containerd Architecture: Kubelet -> gRPC -> cri-containerd -> gRPC -> containerd -> containerd shim
-  https://lh3.googleusercontent.com/U2WuYpgyAOknVzhwJbZz1y4Jk1wAlJDP1n42tiF-CpTEbvScGts_Z6_NOeVDF0SiaV4YRT1gl79MzdtD3mgzKET8xNDs6LAyjzH9J74xcs-0cgxBaPi6KbMsEhOH6WfqXu-H6Oq-
-  https://cto.ai/blog/overview-of-different-container-runtimes/
+[Visualizing of how Kubelet, CRI, Dockershim & CRI-Containerd & containerd fit together](https://lh6.googleusercontent.com/DUu4PrZ_KYIEEkTJ3s_T7o7X2BhT09ZuTAKvHFfbnD7F_gHb-6Hol0trGcEiU7Xu797SdkbFpDDUUDeB5XHTKFo9yab11kPjBWsg2PiPreu90Ktbak__isL9NkI-b_Ovh6GeLfrA)<br>
+[Visualization of how Kubelet, containerd & runc fit together](https://lh3.googleusercontent.com/4RJz6Kbqa3z2AQ5QZQgNZKKLqa-VcSJq84IIEhhO6Rl0fIR09Aq8ODIiS2YgbuWbaCUP2kaZhC8EUPHJFrVRRXaLl09z0tVtjpcOTU_pdB17APS-qgbN_Ab5R9NNHX5ew8104-_X)<br>
+[Visualization of CRI-Containerd Architecture: Kubelet -> gRPC -> cri-containerd -> gRPC -> containerd -> containerd shim](https://lh3.googleusercontent.com/U2WuYpgyAOknVzhwJbZz1y4Jk1wAlJDP1n42tiF-CpTEbvScGts_Z6_NOeVDF0SiaV4YRT1gl79MzdtD3mgzKET8xNDs6LAyjzH9J74xcs-0cgxBaPi6KbMsEhOH6WfqXu-H6Oq-) [[1]](https://cto.ai/blog/overview-of-different-container-runtimes/)<br>
 
   Visualizing Pulumi
   https://www.pulumi.com/images/docs/reference/engine-block-diagram.png
