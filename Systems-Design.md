@@ -16,7 +16,7 @@
 + Robust:  quick to recover from failure.
 + Highly Available: 99.999% uptime = less than 6 minutes downtime per year
 + High Performance: maximize speed/minimize latency
-+ Scalable: maximize capacity/bandwidth (take advantage of [Economy of Scale](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Topics.md#system-property-definitions))
++ Scalable: maximize capacity/bandwidth (take advantage of [Economy of Scale](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Topics.md#system-property-definitions) [[1]](https://hwchiu.medium.com/what-are-the-differences-between-vpa-hpa-ca-and-cpa-in-kubernetes-5f74c97001ed))
 + Maintainable:<br>
   - Maximize "[frictionless automation](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Topics.md#three-levels-of-maturity-for-infrastructure-automation)".<br>
   - Easy to Install, Configure, Use and Upgrade.<br>
