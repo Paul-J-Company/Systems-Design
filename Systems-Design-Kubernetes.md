@@ -164,6 +164,10 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;[Container Journal Youtube  Playlists](https://www.youtube.com/playlist?list=PLotLY1RC8HovfOnTmbMQ0m609u9Eiq71N)<br>
 &ensp;&ensp;[]()<br>
 
+*) Container Camp:<br>
+&ensp;&ensp;[Container Camp Youtube Channel](https://www.youtube.com/c/ContainerCamp/videos)<br>
+&ensp;&ensp;[]()<br>  
+   
 *) [Continuous Delivery Foundation:](https://cd.foundation)<br>
 &ensp;&ensp;[]()<br>
 
