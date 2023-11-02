@@ -83,7 +83,23 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;https://thenewstack.io/serverless/<br>
 &ensp;&ensp;https://thenewstack.io/webassembly/<br>
 &ensp;&ensp;https://thenewstack.io/internal-developer-platform/<br>
-&ensp;&ensp;<br>
+&ensp;&ensp;[]()<br>
+&ensp;&ensp;[]()<br>
+
+*) DevOpsTV:<br>
+&ensp;&ensp;[DevOpsTV Youtube Channel](https://www.youtube.com/c/Devopsdotcom/videos)<br>
+&ensp;&ensp;[]()<br>
+&ensp;&ensp;[]()<br>
+
+*) [StackState:](https://stackstate.com/)<br>
+&ensp;&ensp;info@stackstate.com<br>
+&ensp;&ensp;[StatckState Youtube Channel](https://www.youtube.com/@stackstate8010/videos)<br>
+&ensp;&ensp;[]()<br>
+&ensp;&ensp;[]()<br>
+
+*) [Container Journal:](https://containerjournal.com/)<br>
+&ensp;&ensp;[Container Journal Youtube  Playlists](https://www.youtube.com/playlist?list=PLotLY1RC8HovfOnTmbMQ0m609u9Eiq71N)<br>
+&ensp;&ensp;[]()<br>
 
 ## Visualizing Kubernetes
 [Visualizing Kubernetes Benefits & Drawbacks](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63a81651-7767-4161-bb47-5beb1e681315_1600x1230.png) [[1]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb9b5087-426f-45cb-bb7a-a190323453f7_1230x1600.png) [[2]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb56f56bd-fbd4-4ed1-9e69-b78bfe788c8a_1230x1600.png) [[3]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18ce810d-ce16-438a-83da-6b52d8d7c619_1230x1600.png)<br>
