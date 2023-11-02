@@ -64,6 +64,22 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 (NOT DONE YET, EXAMPLES COMING SOON)<br>
 
 ### Additional Resources
+*) CNCF: [Cloud Native Computing Foundation](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation)<br>
+&ensp;&ensp;[CNCF Youtube Channel](https://www.youtube.com/c/cloudnativefdn/videos)<br>
+&ensp;&ensp;[CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)<br>
+
+*) [KubeCon:](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)<br>
+&ensp;&ensp;[KubeCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)<br>
+
+*) The New Stack:
+&ensp;&ensp;https://thenewstack.io/category/cloud-native/<br>
+&ensp;&ensp;https://thenewstack.io/platform-engineering/<br>
+&ensp;&ensp;https://thenewstack.io/devops/<br>
+&ensp;&ensp;https://thenewstack.io/ai/<br>
+&ensp;&ensp;https://thenewstack.io/observability/<br>
+&ensp;&ensp;https://thenewstack.io/serverless/<br>
+&ensp;&ensp;https://thenewstack.io/webassembly/<br>
+&ensp;&ensp;https://thenewstack.io/internal-developer-platform/<br>
 
 ## Visualizing Kubernetes
 [Visualizing Kubernetes Benefits & Drawbacks](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63a81651-7767-4161-bb47-5beb1e681315_1600x1230.png) [[1]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb9b5087-426f-45cb-bb7a-a190323453f7_1230x1600.png) [[2]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb56f56bd-fbd4-4ed1-9e69-b78bfe788c8a_1230x1600.png) [[3]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18ce810d-ce16-438a-83da-6b52d8d7c619_1230x1600.png)<br>
