@@ -15,7 +15,7 @@ Which is one or more Control Plane Node(s) and one or more Worker Node(s).<br>
 **Kubernetes Control Plane Node:** aka., Master Node<br>
 &ensp;&ensp;**Runs:** kube-apiserver, kube-controller-manager, kube-scheduler, etcd, cloud-controller-manager (OPTIONAL)<br>
 **Kubernetes Worker Node:** aka., Slave Node, Minion Node<br>
-&ensp;&ensp;**Runs:** kubelet, kube-proxy [kubeadm to join?]<br>
+&ensp;&ensp;**Runs:** kubelet, kube-proxy [kubeadm to join as one option]<br>
 
 **Kubernetes "World"** is my term for all the supporting technologies surrounding Kubernetes.<br>
 To get an idea of what I mean, the [CNCF Landscape](https://landscape.cncf.io/) is just a few options you have!<br>
