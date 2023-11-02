@@ -4,10 +4,10 @@ that a Systems Designer, Platform Engineer, SRE, and/or DevOps Engineer [entail]
 
 These are introductory notes about the subject and is meant to get someone not familiar<br> 
 with Systems Design "[up to speed](https://dictionary.cambridge.org/us/dictionary/english/up-to-speed)" on the latest terminology, techologies and techniques.<br>
-All content in this repo are "[tips of Iceburgs](https://dictionary.cambridge.org/us/dictionary/english/tip-of-the-iceberg?q=the+tip+of+the+iceberg)" meant to to give you a [**BROAD**](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#concept-of-broad-and-deep-learning)<br>
+All content in this repo are "[tips of Iceburgs](https://dictionary.cambridge.org/us/dictionary/english/tip-of-the-iceberg?q=the+tip+of+the+iceberg)" meant to to give you a [**WIDE**](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#concept-of-broad-and-deep-learning)<br>
 understanding of what it takes to become a "[well rounded](https://dictionary.cambridge.org/us/dictionary/english/well-rounded)" Systems Designer.<br>
 It is up to you to go [**DEEP**](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#concept-of-broad-and-deep-learning) on every subject to become an "[expert](https://dictionary.cambridge.org/us/dictionary/english/expert)" on the subject of Systems Design.<br>
-The goal is to go [**BROAD**](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#concept-of-broad-and-deep-learning) AND [**DEEP**](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#concept-of-broad-and-deep-learning) and become a [polymath](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath) of Systems Design.<br>
+The goal is to go [**WIDE**](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#concept-of-broad-and-deep-learning) AND [**DEEP**](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#concept-of-broad-and-deep-learning) and become a [polymath](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath) of Systems Design.<br>
 
 
 It also serves as my Systems Design site for my home lab.<br>
