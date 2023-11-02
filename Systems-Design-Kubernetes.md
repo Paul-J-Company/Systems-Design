@@ -58,7 +58,7 @@ Each instance is specific to a single Kubernetes installation.<br>
 &ensp;&ensp;Remember: **Every Kubernetes installation is unique!**<br>
 &ensp;&ensp;Remember: **There is no "ONE" Kubernetes installation or environment!**<br>
 
-Each instance has an accompanying Youtube video that shows the details of<br>
+Each instance has an [accompanying Youtube video](https://www.youtube.com/@PaulJCompany/) that shows the details of<br>
 how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 (NOT DONE YET, EXAMPLES COMING SOON)<br>
