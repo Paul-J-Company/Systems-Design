@@ -64,7 +64,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 (NOT DONE YET, EXAMPLES COMING SOON)<br>
 
 ### Additional Resources
-*) CNCF: [Cloud Native Computing Foundation](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation)<br>
+*) [CNCF:](https://www.cncf.io/) [Cloud Native Computing Foundation](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation)<br>
 &ensp;&ensp;[CNCF Youtube Channel](https://www.youtube.com/c/cloudnativefdn/videos)<br>
 &ensp;&ensp;[CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)<br>
 
