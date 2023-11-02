@@ -42,7 +42,7 @@ heir the ***"best people"***, applying the ***"best practices"***, using the ***
 for each [system property](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#system-properties), and at each [layer of your stack](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#your-system-is-a-stack-of-abstract-layers) (I call this a ***"Full Stack"*** endeaver).<br>
 
 This is a daunting task because there are so many choices available and so many different ways<br>
-your system will behave depending on the choices you make for each [system property](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#system-properties) at each [layer of your stack](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#your-system-is-a-stack-of-abstract-layers).<br>
+your system will behave depending on the choices you make for each [system property](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#system-properties) at each [layer of your stack](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#your-system-is-a-stack-of-distributed-abstract-layers).<br>
 
 The permutations of choices and behavior quickly [explode combinatorally](https://en.wikipedia.org/wiki/Combinatorial_explosion).<br>
 
