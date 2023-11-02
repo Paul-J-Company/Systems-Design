@@ -2,7 +2,7 @@
 # [Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*-GmCgKeebCe9AMjW.png)
 
 I recommend viewing the corresponding [YouTube Playlist](https://www.youtube.com/@PaulJCompany/playlists) for this page.<br>
-You can also jump down to the end of this page to review the [Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Kubernetes.md#additional-resources) or [Visualizing Kubernetes](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Kubernetes.md#visualizing-kubernetes) section.<br>
+You can also jump down to the end of this page to review the [Visualizing Kubernetes](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Kubernetes.md#visualizing-kubernetes) or [Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Kubernetes.md#additional-resources) section.<br>
 
 **When someone says: "I'm running Kubernetes?"**<br> 
 **What does that really mean?**<br> 
@@ -63,44 +63,6 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 (NOT DONE YET, EXAMPLES COMING SOON)<br>
 
-### Additional Resources
-*) [CNCF:](https://www.cncf.io/) [Cloud Native Computing Foundation](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation)<br>
-&ensp;&ensp;[CNCF Youtube Channel](https://www.youtube.com/c/cloudnativefdn/videos)<br>
-&ensp;&ensp;[CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)<br>
-
-*) KubeCon:<br>
-&ensp;&ensp;[KubeCon Europe](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)<br>
-&ensp;&ensp;[KubeCon North America](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)<br>
-
-*) The New Stack:<br>
-&ensp;&ensp;[The New Stack Youtube Channel](https://www.youtube.com/@TheNewStack/videos)<br>
-&ensp;&ensp;[The New Stack Podcasts](https://thenewstack.io/podcasts/)<br>
-&ensp;&ensp;https://thenewstack.io/category/cloud-native/<br>
-&ensp;&ensp;https://thenewstack.io/platform-engineering/<br>
-&ensp;&ensp;https://thenewstack.io/devops/<br>
-&ensp;&ensp;https://thenewstack.io/ai/<br>
-&ensp;&ensp;https://thenewstack.io/observability/<br>
-&ensp;&ensp;https://thenewstack.io/serverless/<br>
-&ensp;&ensp;https://thenewstack.io/webassembly/<br>
-&ensp;&ensp;https://thenewstack.io/internal-developer-platform/<br>
-&ensp;&ensp;[]()<br>
-&ensp;&ensp;[]()<br>
-
-*) DevOpsTV:<br>
-&ensp;&ensp;[DevOpsTV Youtube Channel](https://www.youtube.com/c/Devopsdotcom/videos)<br>
-&ensp;&ensp;[]()<br>
-&ensp;&ensp;[]()<br>
-
-*) [StackState:](https://stackstate.com/)<br>
-&ensp;&ensp;info@stackstate.com<br>
-&ensp;&ensp;[StatckState Youtube Channel](https://www.youtube.com/@stackstate8010/videos)<br>
-&ensp;&ensp;[]()<br>
-&ensp;&ensp;[]()<br>
-
-*) [Container Journal:](https://containerjournal.com/)<br>
-&ensp;&ensp;[Container Journal Youtube  Playlists](https://www.youtube.com/playlist?list=PLotLY1RC8HovfOnTmbMQ0m609u9Eiq71N)<br>
-&ensp;&ensp;[]()<br>
-
 ## Visualizing Kubernetes
 [Visualizing Kubernetes Benefits & Drawbacks](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63a81651-7767-4161-bb47-5beb1e681315_1600x1230.png) [[1]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb9b5087-426f-45cb-bb7a-a190323453f7_1230x1600.png) [[2]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb56f56bd-fbd4-4ed1-9e69-b78bfe788c8a_1230x1600.png) [[3]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18ce810d-ce16-438a-83da-6b52d8d7c619_1230x1600.png)<br>
 
@@ -159,6 +121,44 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing kopf](https://kopf.readthedocs.io/en/stable/_images/architecture-layers.png)<br>
 
 [Visualizing Prometheus Architecture](https://github.com/prometheus/prometheus/raw/main/documentation/images/architecture.svg)<br>
+
+### Additional Resources
+*) [CNCF:](https://www.cncf.io/) [Cloud Native Computing Foundation](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation)<br>
+&ensp;&ensp;[CNCF Youtube Channel](https://www.youtube.com/c/cloudnativefdn/videos)<br>
+&ensp;&ensp;[CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)<br>
+
+*) KubeCon:<br>
+&ensp;&ensp;[KubeCon Europe](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)<br>
+&ensp;&ensp;[KubeCon North America](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)<br>
+
+*) The New Stack:<br>
+&ensp;&ensp;[The New Stack Youtube Channel](https://www.youtube.com/@TheNewStack/videos)<br>
+&ensp;&ensp;[The New Stack Podcasts](https://thenewstack.io/podcasts/)<br>
+&ensp;&ensp;https://thenewstack.io/category/cloud-native/<br>
+&ensp;&ensp;https://thenewstack.io/platform-engineering/<br>
+&ensp;&ensp;https://thenewstack.io/devops/<br>
+&ensp;&ensp;https://thenewstack.io/ai/<br>
+&ensp;&ensp;https://thenewstack.io/observability/<br>
+&ensp;&ensp;https://thenewstack.io/serverless/<br>
+&ensp;&ensp;https://thenewstack.io/webassembly/<br>
+&ensp;&ensp;https://thenewstack.io/internal-developer-platform/<br>
+&ensp;&ensp;[]()<br>
+&ensp;&ensp;[]()<br>
+
+*) DevOpsTV:<br>
+&ensp;&ensp;[DevOpsTV Youtube Channel](https://www.youtube.com/c/Devopsdotcom/videos)<br>
+&ensp;&ensp;[]()<br>
+&ensp;&ensp;[]()<br>
+
+*) [StackState:](https://stackstate.com/)<br>
+&ensp;&ensp;info@stackstate.com<br>
+&ensp;&ensp;[StatckState Youtube Channel](https://www.youtube.com/@stackstate8010/videos)<br>
+&ensp;&ensp;[]()<br>
+&ensp;&ensp;[]()<br>
+
+*) [Container Journal:](https://containerjournal.com/)<br>
+&ensp;&ensp;[Container Journal Youtube  Playlists](https://www.youtube.com/playlist?list=PLotLY1RC8HovfOnTmbMQ0m609u9Eiq71N)<br>
+&ensp;&ensp;[]()<br>
 
 [Visualizing SDLC](https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg)<br>
 
