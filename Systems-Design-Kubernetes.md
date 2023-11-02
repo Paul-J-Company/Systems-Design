@@ -40,7 +40,7 @@ comprised of Kubernetes Proper + Kubernetes World running on one or more differe
 
 So every Kubernetes installation is unique!<br>
 There is no "ONE" Kubernetes installation, environment or platform!<br>
-The number of options one has explodes combinatorically.<br>
+The number of options one has [explodes combinatorically](https://en.wikipedia.org/wiki/Combinatorial_explosion).<br>
 This is what makes Kubernetes "complex".<br>
 
 I call the process of describing a unique Kubernetes installation:<br>
