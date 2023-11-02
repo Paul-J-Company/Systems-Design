@@ -123,6 +123,9 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing Prometheus Architecture](https://github.com/prometheus/prometheus/raw/main/documentation/images/architecture.svg)<br>
 
+[Visualizing SDLC](https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg)<br>
+
+
 ### Additional Resources
 *) [CNCF:](https://www.cncf.io/) [Cloud Native Computing Foundation](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation)<br>
 &ensp;&ensp;[CNCF Youtube Channel](https://www.youtube.com/c/cloudnativefdn/videos)<br>
@@ -160,6 +163,4 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 *) [Container Journal:](https://containerjournal.com/)<br>
 &ensp;&ensp;[Container Journal Youtube  Playlists](https://www.youtube.com/playlist?list=PLotLY1RC8HovfOnTmbMQ0m609u9Eiq71N)<br>
 &ensp;&ensp;[]()<br>
-
-[Visualizing SDLC](https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg)<br>
 
