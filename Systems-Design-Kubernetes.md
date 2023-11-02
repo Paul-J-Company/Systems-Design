@@ -68,8 +68,9 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;[CNCF Youtube Channel](https://www.youtube.com/c/cloudnativefdn/videos)<br>
 &ensp;&ensp;[CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)<br>
 
-*) [KubeCon:](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)<br>
-&ensp;&ensp;[KubeCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)<br>
+*) KubeCon:<br>
+&ensp;&ensp;[KubeCon Europe](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)<br>
+&ensp;&ensp;[KubeCon North America](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)<br>
 
 *) The New Stack:<br>
 &ensp;&ensp;[The New Stack Youtube Channel](https://www.youtube.com/@TheNewStack/videos)<br>
