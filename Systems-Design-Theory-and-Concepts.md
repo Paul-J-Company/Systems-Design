@@ -326,6 +326,7 @@ Database Models/Types:<br>
 &ensp;&ensp;The number of fields, content and size of the document<br>
 &ensp;&ensp;can differ from one document to another in the same collection.<br>
      Recommended Reading/Viewing:<br>
+&ensp;&ensp;[NoSQL: System Design Cheat Sheet](https://hackernoon.com/nosql-system-design-cheat-sheet)<br>
 &ensp;&ensp;[NoSQL Database Resources](https://www.scylladb.com/learn/nosql/nosql-database-resources/)<br>
 &ensp;&ensp;[NoSQL Database Guide](https://www.scylladb.com/learn/nosql/)<br>
 &ensp;&ensp;[NoSQL vs SQL](https://www.scylladb.com/learn/nosql/nosql-vs-sql/)<br>
