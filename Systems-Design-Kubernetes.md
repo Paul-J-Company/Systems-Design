@@ -64,4 +64,128 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 (NOT DONE YET, EXAMPLES COMING SOON)<br>
 
 ### Additional Resources
-TBD
+[[1]]() [[2]]() [[3]]() [[4]]() [[5]]() [[6]]() [[7]]() [[8]]() [[9]]() [[10]]() [[11]]() [[12]]() [[13]]() [[14]]() [[15]]() [[15]]() [[16]]() [[17]]() [[18]]() [[19]]() [[20]]()<br>
+
+## Visualizing Kubernetes
+[Visualizing Kubernetes Benefits & Drawbacks](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63a81651-7767-4161-bb47-5beb1e681315_1600x1230.png) [[1]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb9b5087-426f-45cb-bb7a-a190323453f7_1230x1600.png) [[2]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb56f56bd-fbd4-4ed1-9e69-b78bfe788c8a_1230x1600.png) [[3]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18ce810d-ce16-438a-83da-6b52d8d7c619_1230x1600.png)<br>
+
+    
+
+  Visualizing DevOps in Kubernetes
+  https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf
+
+  Visualizing Kuberentes Architecture
+  https://airplane.ghost.io/content/images/d7605fbe-f2fb-40f1-99f4-8a2eeeda4bc6_img.png
+  Visualizing Kubernetes:
+  https://d33wubrfki0l68.cloudfront.net/2475489eaf20163ec0f54ddc1d92aa8d4c87c96b/e7c81/images/docs/components-of-kubernetes.svg
+  Visualizing Kubernetes:
+  https://cheatsheetseries.owasp.org/assets/Kubernetes_Architecture.png
+  Visualizing Kubernetes
+  https://www.aquasec.com/wp-content/uploads/2020/11/Kubernetes-101-Architecture-Diagram-1.jpg
+
+  Visualizing the Kubeconfig File
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*1_CPoxcOYR_Uynu8tkdwMQ.png
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*swJsT8BDqO1THFSq7AhSBA.png
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bOU0KxmuyTRaKp08ykYxXg.png
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vdjG88Zjg-lbW_yQor5Azg.png
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xH5TUFpmWtEBCBYe7Mrz-g.png
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*C8vHKBhyU4BjluoFY9cFnA.png
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*aMkKPmkuontJqqQel3a75Q.png
+
+  Visualizing Pods and Nodes
+  https://kubernetes.io/docs/tutorials/kubernetes-basics/public/images/module_03_pods.svg
+  Visualizing How a Kubernetes Pod Gets an IP Address:
+  https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/kubelet-cri-cni-flowchart.png
+
+  Visualizing CRI
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ocwsqqkP6SUv8e-egJquDg.png
+  https://landscape.cncf.io/guide#runtime--container-runtime
+  Visualizing Architecture of The CRI Plugin
+  https://github.com/containerd/cri/blob/v1.11.1/docs/architecture.md
+
+  Visualizing CNI Plugin Popularity
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xwdMl2qi-KthYx73sF3wfQ.png
+  Visualizing the interactions between Containerd CRI Plugin and CNI plugins: 
+  https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/kubelet-cri-cni-interactions.png
+  Visualizing Bridge Networking
+  https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/bridge-networking.png
+  Visualizing Flannel Networking
+  https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/flannel-networking.png
+  NOTE: This is just one of the ways how networking between containers can be configured.
+  Visualizing Comparing CNI for OKE
+  Native pod networking
+  https://blogs.oracle.com/content/published/api/v1.1/assets/CONT78BF0A5D337F41A887531F7969A18FDE/Medium?cb=_cache_6177&format=jpg&channelToken=f7814d202b7d468686f50574164024ec
+  Flannel overlay networking
+  https://blogs.oracle.com/content/published/api/v1.1/assets/CONT94FDF8973EA4486AB65E88CA4DF72114/Medium?cb=_cache_6177&format=jpg&channelToken=f7814d202b7d468686f50574164024ec
+
+  Visualizing the service access relationship in Kubernetes and service mesh (one sidecar per pod model)
+  https://cdn.thenewstack.io/media/2021/03/200a2844-image4.png
+
+  Visualizing CSI Volume Plugin
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png
+
+  Visualizing Kubernetes Resources
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/0*mdClEni7Za7F1DY5.png
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MK7WOMTF-Ks1sD67PIiphg.png
+  https://laurinevala.medium.com/visualizing-kubernetes-resources-ee9d8c16d264
+
+  Visualizing Kubernetes Services
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jC28wQvePsmbic8AIqo_AA.png
+
+  Visualizing Virtual Kublet
+  https://github.com/virtual-kubelet/virtual-kubelet/blob/master/website/static/img/diagram.svg
+
+  Visualization of how Kubelet, CRI, CRI-O, OCI & runc & kata-runtime fit together
+  https://miro.medium.com/v2/resize:fit:1100/format:webp/0*h2j060L-iJMlyW9F.jpg
+  
+  Visualization of how Podman, Containerd use crun, runc, gVisor, Nabla, katacontainers, Firecracker
+  https://adriancitu.files.wordpress.com/2021/12/untitled-diagram-image-run.drawio1.png
+
+  Visualization of how Docker, Kubernetes, CRI, CRI-O, containerd, OCI & runc fit together
+  https://www.tutorialworks.com/assets/images/container-ecosystem.drawio.png?ezimgfmt=rs:704x1183/rscb6/ng:webp/ngcb6
+  https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/ (GREAT)
+  
+  Visualization of how Kubernetes, CRI, CRI-O, containerd fit together
+  https://www.tutorialworks.com/assets/images/container-ecosystem-cri.drawio.png?ezimgfmt=rs:704x353/rscb6/ng:webp/ngcb6
+  https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/ (GREAT)
+  
+  Visualization of how Kubelet, CRI, CRI-O, OCI & runc & kata-runtime fit together
+  https://miro.medium.com/v2/resize:fit:1100/format:webp/0*h2j060L-iJMlyW9F.jpg
+  https://medium.com/kata-containers/why-kata-containers-doesnt-replace-kubernetes-75e484679727
+  
+  Visualization of how Kubelet, CRI, Dockershim & CRI-Containerd & containerd fit together
+  https://lh6.googleusercontent.com/DUu4PrZ_KYIEEkTJ3s_T7o7X2BhT09ZuTAKvHFfbnD7F_gHb-6Hol0trGcEiU7Xu797SdkbFpDDUUDeB5XHTKFo9yab11kPjBWsg2PiPreu90Ktbak__isL9NkI-b_Ovh6GeLfrA
+  Visualization of how Kubelet, containerd & runc fit together
+  https://lh3.googleusercontent.com/4RJz6Kbqa3z2AQ5QZQgNZKKLqa-VcSJq84IIEhhO6Rl0fIR09Aq8ODIiS2YgbuWbaCUP2kaZhC8EUPHJFrVRRXaLl09z0tVtjpcOTU_pdB17APS-qgbN_Ab5R9NNHX5ew8104-_X
+  Visualization of CRI-Containerd Architecture: Kubelet -> gRPC -> cri-containerd -> gRPC -> containerd -> containerd shim
+  https://lh3.googleusercontent.com/U2WuYpgyAOknVzhwJbZz1y4Jk1wAlJDP1n42tiF-CpTEbvScGts_Z6_NOeVDF0SiaV4YRT1gl79MzdtD3mgzKET8xNDs6LAyjzH9J74xcs-0cgxBaPi6KbMsEhOH6WfqXu-H6Oq-
+  https://cto.ai/blog/overview-of-different-container-runtimes/
+
+  Visualizing Pulumi
+  https://www.pulumi.com/images/docs/reference/engine-block-diagram.png
+
+  Visualize Redis Architectures
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/0*Z8EXKcgNhmckzX4x.png
+  Visualize Redis Enterprise vs. Redis Open-Source
+  https://miro.medium.com/v2/resize:fit:1400/0*gegAWGzw5szaUykG
+
+  Visualizing a Kustomize Kubernetes Environment
+  https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2B6A0s-S3i2KLCbhY1IdeA.jpeg
+
+  Visualizing the Flux Notification Controller
+  https://fluxcd.io/img/notification-controller.png
+  Visualizing the Flux image-reflector-controller and image-automation-controller
+  https://fluxcd.io/img/image-update-automation.png
+
+  Visualizing Flagger:
+  https://raw.githubusercontent.com/fluxcd/flagger/main/docs/diagrams/flagger-overview.png
+
+  Visualizing kopf:
+  https://kopf.readthedocs.io/en/stable/_images/architecture-layers.png
+
+  Visualizing Prometheus Architecture
+  https://github.com/prometheus/prometheus/raw/main/documentation/images/architecture.svg
+
+  Visualizing SDLC:   
+  https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg
+
