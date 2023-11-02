@@ -64,7 +64,6 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 (NOT DONE YET, EXAMPLES COMING SOON)<br>
 
 ### Additional Resources
-[[1]]() [[2]]() [[3]]() [[4]]() [[5]]() [[6]]() [[7]]() [[8]]() [[9]]() [[10]]() [[11]]() [[12]]() [[13]]() [[14]]() [[15]]() [[15]]() [[16]]() [[17]]() [[18]]() [[19]]() [[20]]()<br>
 
 ## Visualizing Kubernetes
 [Visualizing Kubernetes Benefits & Drawbacks](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63a81651-7767-4161-bb47-5beb1e681315_1600x1230.png) [[1]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb9b5087-426f-45cb-bb7a-a190323453f7_1230x1600.png) [[2]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb56f56bd-fbd4-4ed1-9e69-b78bfe788c8a_1230x1600.png) [[3]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18ce810d-ce16-438a-83da-6b52d8d7c619_1230x1600.png)<br>
