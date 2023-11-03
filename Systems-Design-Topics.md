@@ -199,7 +199,14 @@ What is a Data Center?<br>
 &ensp;&ensp;There are [four data center tiers](https://phoenixnap.com/blog/data-center-tiers-classification), [ranked by performance and uptime](https://www.impactmybiz.com/blog/data-center-tiers-explained/<).<br>
 &ensp;&ensp;For more information on Data Centers, see "[Systems Design OnPrem](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-OnPrem.md)"<br>
 What is Cloud Computing, OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid Cloud; Private Cloud, Public Cloud<br>
-&ensp;&ensp;[Cloud-Computing Comparison](https://en.wikipedia.org/wiki/Cloud-computing_comparison) [[1](https://www.cloudflare.com/learning/cloud/what-is-the-cloud/)], [[2](https://aws.amazon.com/what-is-cloud-computing/)], [[3]()]<br>
+&ensp;&ensp;[Cloud-Computing Comparison](https://en.wikipedia.org/wiki/Cloud-computing_comparison) [[1](https://www.cloudflare.com/learning/cloud/what-is-the-cloud/)], [[2](https://aws.amazon.com/what-is-cloud-computing/)], [[3](https://www.cloudflare.com/learning/cloud/multicloud-vs-hybrid-cloud/)]<br>
+&ensp;&ensp;&ensp;&ensp;Both "multi-cloud" and "hybrid cloud" refer to cloud deployments<br>
+&ensp;&ensp;&ensp;&ensp;that integrate more than one cloud.<br>
+&ensp;&ensp;&ensp;&ensp;They differ in the kinds of cloud infrastructure they include.<br>
+&ensp;&ensp;&ensp;&ensp;A hybrid cloud infrastructure blends two or more different types of clouds,<br>
+&ensp;&ensp;&ensp;&ensp;while multi-cloud blends different clouds of the same type.<br>
+&ensp;&ensp;&ensp;&ensp;You might say hybrid cloud is like combining apples and oranges,<br>
+&ensp;&ensp;&ensp;&ensp;while multi-cloud is like combining different types of apples.<br>
 &ensp;&ensp;[OnPrem](https://en.wikipedia.org/wiki/On-premises_software) [[1](https://www.insight.com/en_US/content-and-resources/glossary/o/on-premises.html)], [[2](https://andrewschoen.medium.com/software-people-of-the-world-stop-saying-on-premise-you-sound-dumb-56692dae871d)], [[3](https://www.hpe.com/us/en/what-is/on-premises-vs-cloud.html)] [[4](https://www.suse.com/suse-defines/definition/on-premises/)]<br>
 &ensp;&ensp;[Cloud-Based]() [[1]()], [[2]()], [[3]()]<br>
 &ensp;&ensp;[Cloud Native](https://en.wikipedia.org/wiki/Cloud-native_computing) [[1](https://k8s.vmware.com/how-to-think-cloud-native/)], [[2](https://aws.amazon.com/what-is/cloud-native/)], [[3](https://www.oracle.com/cloud/cloud-native/what-is-cloud-native/)] [[4](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition)] [[5](https://cloud.google.com/learn/what-is-cloud-native)] [[6](https://about.gitlab.com/topics/cloud-native/)]<br>
