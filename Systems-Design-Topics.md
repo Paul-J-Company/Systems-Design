@@ -200,8 +200,7 @@ What is a Data Center?<br>
 &ensp;&ensp;For more information on Data Centers, see "[Systems Design OnPrem](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-OnPrem.md)"<br>
 What is Cloud Computing, OnPrem, Cloud-Based, Cloud Native, Multi-Cloud, Hybrid Cloud; Private Cloud, Public Cloud<br>
 &ensp;&ensp;[Cloud-Computing Comparison](https://en.wikipedia.org/wiki/Cloud-computing_comparison) [[1](https://www.cloudflare.com/learning/cloud/what-is-the-cloud/)], [[2](https://aws.amazon.com/what-is-cloud-computing/)], [[3](https://www.cloudflare.com/learning/cloud/multicloud-vs-hybrid-cloud/)]<br>
-&ensp;&ensp;&ensp;&ensp;Both "multi-cloud" and "hybrid cloud" refer to cloud deployments<br>
-&ensp;&ensp;&ensp;&ensp;that integrate more than one cloud.<br>
+&ensp;&ensp;&ensp;&ensp;Both "multi-cloud" and "hybrid cloud" refer to cloud deployments that integrate more than one cloud.<br>
 &ensp;&ensp;&ensp;&ensp;They differ in the kinds of cloud infrastructure they include.<br>
 &ensp;&ensp;&ensp;&ensp;A hybrid cloud infrastructure blends two or more different types of clouds,<br>
 &ensp;&ensp;&ensp;&ensp;while multi-cloud blends different clouds of the same type.<br>
