@@ -138,6 +138,11 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;[KubeCon Europe](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)<br>
 &ensp;&ensp;[KubeCon North America](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)<br>
 
+*) [Medium:](https://medium.com/) [[1]](https://www.facebook.com/medium) [[2]](https://twitter.com/medium) [[3]](https://www.instagram.com/medium)<br>
+&ensp;&ensp;[Kubernetes on Medium](https://medium.com/tag/kubernetes)<br>
+&ensp;&ensp;[How to Achieve Zero-Downtime Application with Kubernetes](https://blog.devops.dev/how-to-achieve-zero-downtime-application-with-kubernetes-ba52fdea9a9b)<br>
+&ensp;&ensp;[Medium Youtube Channel](https://www.youtube.com/@medium/videos)<br>   
+   
 *) The New Stack:<br>
 &ensp;&ensp;[The New Stack Youtube Channel](https://www.youtube.com/@TheNewStack/videos)<br>
 &ensp;&ensp;[The New Stack Podcasts](https://thenewstack.io/podcasts/)<br>
