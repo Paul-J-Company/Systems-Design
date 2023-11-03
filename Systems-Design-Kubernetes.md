@@ -157,7 +157,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;[]()<br>
 &ensp;&ensp;[]()<br>
 
-*) DevOpsTV:<br>
+*) [DevOpsTV:](https://techstrong.tv/) [[1]](https://techstronggroup.com/)<br>
 &ensp;&ensp;[DevOpsTV Youtube Channel](https://www.youtube.com/c/Devopsdotcom/videos)<br>
 &ensp;&ensp;[]()<br>
 &ensp;&ensp;[]()<br>
