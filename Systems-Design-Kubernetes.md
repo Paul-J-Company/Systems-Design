@@ -112,6 +112,8 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing Pulumi](https://www.pulumi.com/images/docs/reference/engine-block-diagram.png)<br>
 
+[Visualizing Amazon AWS Controllers for Kubernetes (ACK)](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*cG9lUQ28fynCB_Li.png)<br>
+
 [Visualize Redis Architectures](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*Z8EXKcgNhmckzX4x.png)<br>
 [Visualize Redis Enterprise vs. Redis Open-Source]( https://miro.medium.com/v2/resize:fit:1400/0*gegAWGzw5szaUykG)<br>
 
