@@ -97,6 +97,19 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing Kubernetes Resources](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*mdClEni7Za7F1DY5.png) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MK7WOMTF-Ks1sD67PIiphg.png) [[2]](https://laurinevala.medium.com/visualizing-kubernetes-resources-ee9d8c16d264)<br>
   
 [Visualizing Kubernetes Services](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jC28wQvePsmbic8AIqo_AA.png)<br>
+[Visualizing Ingress vs. GatewayAPI](https://www.haproxy.com/assets/posts/kubernetes-ingress-vs-gateway-api.png)<br>
+[Visualizing Gateway API](https://www.haproxy.com/assets/posts/kubernetes-gateway-api.png)<br>
+[Visualizing GatewayAPI Multi-cluster](https://miro.medium.com/v2/resize:fit:828/format:webp/1*4cmidUu2s1NHSvTTSPs_Zg.png)<br>
+[Visualizing Kubernetes Ingress Vs Gateway API](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ZoMqn6ppkzNGLRWPDCWPXA.png)<br>
+[Visualizing Kubernetes Ingress Routing](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*sVPaw5BfTB2nh9lVEOSOsg.png)<br>
+[Visualizing ClusterIP](https://kodekloud.com/blog/content/images/2023/02/ClusterIP-Service.png)<br>
+[Visualizing a ClusterIP service](https://assets-global.website-files.com/64196dbe03e13c204de1b1c8/64774e3c68ce95e4149e38f0_58-image-2.png)<br>
+[Visualizing NodePort](https://kodekloud.com/blog/content/images/2023/02/NodePort-Service.png)<br>
+[Visualizing LoadBalancer Service](https://kodekloud.com/blog/content/images/2023/02/LoadBalancer-Service.png)<br>
+[Visualizing a LoadBalancer Service](https://assets-global.website-files.com/64196dbe03e13c204de1b1c8/64774e59b2fabaa1dc069fcc_58-image-3.png)<br>
+[Visualizing Service Ports](https://assets-global.website-files.com/64196dbe03e13c204de1b1c8/64774dfe998bc59f64a72793_58-image-1.png)<br>
+
+[Visualizing Ingress Path](https://lh5.googleusercontent.com/ZKJZ5_b2BuaU9KnDYkeCOc0ePvpHQdhfMwvZPjU3pTK5aHL1022YNwY0G9qr4udwae7yI9hgGmhK3g0fuC66HK8ol3BtdVQ_z27nJFfHAfW38oMmhL9Ot8nc3r2Jxel5yTM9h5az33ws0DLwoCKmIZs)<br>
 
 [Visualizing Virtual Kublet](https://github.com/virtual-kubelet/virtual-kubelet/blob/master/website/static/img/diagram.svg)<br>
 
@@ -112,6 +125,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing CRI-Containerd Architecture: Kubelet -> gRPC -> cri-containerd -> gRPC -> containerd -> containerd shim](https://lh3.googleusercontent.com/U2WuYpgyAOknVzhwJbZz1y4Jk1wAlJDP1n42tiF-CpTEbvScGts_Z6_NOeVDF0SiaV4YRT1gl79MzdtD3mgzKET8xNDs6LAyjzH9J74xcs-0cgxBaPi6KbMsEhOH6WfqXu-H6Oq-) [[1]](https://cto.ai/blog/overview-of-different-container-runtimes/)<br>
 
 [Visualizing Pulumi](https://www.pulumi.com/images/docs/reference/engine-block-diagram.png)<br>
+[Visualizing Pulumi for Platform Teams](https://cdn.thenewstack.io/media/2023/10/fd3d0ac0-platform-teams-diagram-e1697458881245-1024x613.png)<br>
 
 [Visualizing Amazon AWS Controllers for Kubernetes (ACK)](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*cG9lUQ28fynCB_Li.png)<br>
 [Visualizing AWS Transit Gateway](https://imgopt.infoq.com/fit-in/1200x2400/filters:quality(80)/filters:no_upscale()/news/2023/10/nomura-consul-service-discovery/en/resources/1Figure-2-service-flow-1696184017912.jpeg) [[1]](https://aws.amazon.com/transit-gateway/) [[2]](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service.html) [[3]](https://github.com/aws-samples/geographical-hierarchical-service-lookup-with-consul-on-aws)<br>
