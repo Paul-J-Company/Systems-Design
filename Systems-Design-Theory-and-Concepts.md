@@ -302,6 +302,7 @@ Recommended Reading/Viewing:<br>
 &ensp;&ensp;[Distributed Database Consistency: Architectural Considerations and Tradeoffs](https://www.youtube.com/watch?v=nfDGhoAEwXc)<br>
 &ensp;&ensp;[Eventual Consistency Definition](https://www.scylladb.com/glossary/eventual-consistency/)<br>
 &ensp;&ensp;[Data Sharing Issues in a Microservice Architecture](https://itnext.io/the-issue-with-sharing-data-in-a-microservice-architecture-d6a36f297ff5)<br>
+&ensp;&ensp;[How I Documented an Entire Database From Scratch (Without DB Diagram)](https://igorcomune.medium.com/how-i-documented-an-entire-database-from-scratch-without-db-diagram-85ce8b3cbccc)<br>
 Database Models/Types:<br>
 &ensp;&ensp;[Database Models](https://en.wikipedia.org/wiki/Category:Database_models)<br>
 &ensp;&ensp;[Types of Databases](https://en.wikipedia.org/wiki/Category:Types_of_databases)<br>
