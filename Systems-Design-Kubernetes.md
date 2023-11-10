@@ -114,6 +114,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing Pulumi](https://www.pulumi.com/images/docs/reference/engine-block-diagram.png)<br>
 
 [Visualizing Amazon AWS Controllers for Kubernetes (ACK)](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*cG9lUQ28fynCB_Li.png)<br>
+[Visualizing AWS Transit Gateway](https://imgopt.infoq.com/fit-in/1200x2400/filters:quality(80)/filters:no_upscale()/news/2023/10/nomura-consul-service-discovery/en/resources/1Figure-2-service-flow-1696184017912.jpeg) [[1]](https://aws.amazon.com/transit-gateway/) [[2]](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service.html) [[3]](https://github.com/aws-samples/geographical-hierarchical-service-lookup-with-consul-on-aws)<br>
 
 [Visualize Redis Architectures](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*Z8EXKcgNhmckzX4x.png)<br>
 [Visualize Redis Enterprise vs. Redis Open-Source]( https://miro.medium.com/v2/resize:fit:1400/0*gegAWGzw5szaUykG)<br>
