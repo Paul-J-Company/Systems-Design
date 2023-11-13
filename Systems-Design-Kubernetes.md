@@ -105,7 +105,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;controllers start making changes aiming to bring the<br>
 &ensp;&ensp;current state of the cluster closer to the desired one.<br>
 &ensp;&ensp;Operators are how Kubernetes runs CRDs.<br>
-&ensp;&ensp;Operator = CRD + Custom Controller + your knowledge (aka., [[SME]](https://en.wikipedia.org/wiki/Subject-matter_expert)/domain/application specific knowledge)<br>
+&ensp;&ensp;Operator = CRD + Custom Controller + your knowledge (aka., [SME](https://en.wikipedia.org/wiki/Subject-matter_expert)/domain/application specific knowledge)<br>
 &ensp;&ensp;CRDs are a way to write your own custom Kubernetes object type.<br>
 
 [Visualizing Kubernetes Objects & Interaction with System Resources](https://iximiuz.com/writing-kubernetes-controllers-operators/kdpv.png) [[1]](https://iximiuz.com/en/posts/kubernetes-operator-pattern/)<br>
