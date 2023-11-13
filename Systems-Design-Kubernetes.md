@@ -98,7 +98,9 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing Kubernetes without CSI Volume Plugin](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png)<br>
 
 [Visualizing Kubernetes API]() [[1]](https://kubernetes.io/docs/concepts/overview/kubernetes-api/) [[2]](https://kubernetes.io/docs/concepts/overview/kubernetes-api/#api-groups-and-versioning) [[3]](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md)<br>
-
+&ensp;&ensp;API objects are fully qualified by their<br>
+&ensp;&ensp;API group, resource type, namespace (unless cluster-scoped), and name.<br>
+    
 [Visualizing Kubernetes Resources](https://laurinevala.medium.com/visualizing-kubernetes-resources-ee9d8c16d264) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*mdClEni7Za7F1DY5.png) [[2]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MK7WOMTF-Ks1sD67PIiphg.png)<br>
 &ensp;&ensp;A Kubernetes Resource is a declarative API with a well defined Schema structure and endpoints.<br>
 &ensp;&ensp;Because the structure of the Schema and Endpoints are predictable and structured,<br>
@@ -118,7 +120,9 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;current state of the cluster closer to the desired one.<br>
 &ensp;&ensp;All interactions with Kubernetes objects, directly or indirectly, happen through [Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/) [[1]](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md).<br>
 &ensp;&ensp;Directly via [Client Libraries](https://kubernetes.io/docs/reference/using-api/client-libraries/)<br>
-&ensp;&ensp;Indirectly via [Command line tool (kubectl)](https://kubernetes.io/docs/reference/kubectl/)<br>
+&ensp;&ensp;&ensp;&ensp;Indirectly via [Command line tool (kubectl)](https://kubernetes.io/docs/reference/kubectl/)<br>
+&ensp;&ensp;&ensp;&ensp;API objects are fully qualified by their<br>
+&ensp;&ensp;&ensp;&ensp;API group, resource type, namespace (unless cluster-scoped), and name.<br>
 &ensp;&ensp;[Operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) are how Kubernetes runs CRDs.<br>
 &ensp;&ensp;Operator = CRD + Custom Controller + your knowledge (aka., [SME](https://en.wikipedia.org/wiki/Subject-matter_expert)/domain/application specific knowledge)<br>
 &ensp;&ensp;[CRDs](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#customresourcedefinition-v1-apiextensions-k8s-io) are a way to write your own custom Kubernetes object type [[1]](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/).<br>
