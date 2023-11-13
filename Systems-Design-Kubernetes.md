@@ -94,7 +94,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing CSI Volume Plugin](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png)<br>
 [Visualizing Kubernetes without CSI Volume Plugin](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png)<br>
 
-**Summary of Objects, Controllers Operators and CRDs**<br>
+**Summary of Objects, Controllers, Operators and CRDs**<br>
 &ensp;&ensp;Objects are like data structures.<br>
 &ensp;&ensp;Controllers are like algorithms.<br>
 &ensp;&ensp;Controllers are infinite loops that watch the actual and the desired states of your cluster.<br>
