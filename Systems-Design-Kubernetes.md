@@ -101,15 +101,22 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;Objects are like data structures.<br>
 &ensp;&ensp;Controllers are like algorithms.<br>
 &ensp;&ensp;Controllers are infinite loops that watch the actual and the desired states of your cluster.<br>
+&ensp;&ensp;Controllers keep the current state of Kubernetes objects in sync with your declared desired state.<br>
 &ensp;&ensp;When Objects & Controller states diverge,<br>
 &ensp;&ensp;controllers start making changes aiming to bring the<br>
 &ensp;&ensp;current state of the cluster closer to the desired one.<br>
-&ensp;&ensp;All interactions with Kubernetes objects, directly or indirectly, happen through Kubernetes API.<br>
+&ensp;&ensp;All interactions with Kubernetes objects, directly or indirectly, happen through [Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/).<br>
 &ensp;&ensp;Directly via [Client Libraries](https://kubernetes.io/docs/reference/using-api/client-libraries/)<br>
 &ensp;&ensp;Indirectly via [Command line tool (kubectl)](https://kubernetes.io/docs/reference/kubectl/)<br>
-&ensp;&ensp;Operators are how Kubernetes runs CRDs.<br>
+&ensp;&ensp;[Operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) are how Kubernetes runs CRDs.<br>
 &ensp;&ensp;Operator = CRD + Custom Controller + your knowledge (aka., [SME](https://en.wikipedia.org/wiki/Subject-matter_expert)/domain/application specific knowledge)<br>
 &ensp;&ensp;CRDs are a way to write your own custom Kubernetes object type.<br>
+&ensp;&ensp;A [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#custom-resources) is is an extension of the Kubernetes API that is not necessarily available in a default Kubernetes installation.<br>
+&ensp;&ensp;Custom resources let you store and retrieve structured data.<br>
+&ensp;&ensp;A [Custom Controller](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#custom-controllers) is one of the ways in which you can extend Kubernetes.<br>
+&ensp;&ensp;Custom controllers can handle in-built Kubernetes objects, such as Deployment, Service, in new ways.<br>
+&ensp;&ensp;Custom controllers can work with any kind of resource, but they are especially effective when combined with custom resources.<br>
+&ensp;&ensp;When you combine a custom resource with a custom controller, custom resources provide a true declarative API.<br>
 
 [Visualizing Kubernetes Objects & Interaction with System Resources](https://iximiuz.com/writing-kubernetes-controllers-operators/kdpv.png) [[1]](https://iximiuz.com/en/posts/kubernetes-operator-pattern/)<br>
 [Visualizing Kubernetes Go Client Controller: client-go](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*dmvNSeSIORAMaTF2WdE9fg.jpeg) [[1]](https://cloudark.medium.com/kubernetes-custom-controllers-b6c7d0668fdf)<br>
