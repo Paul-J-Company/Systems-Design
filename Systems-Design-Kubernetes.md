@@ -119,7 +119,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;controllers start making changes aiming to bring the<br>
 &ensp;&ensp;current state of the cluster closer to the desired one.<br>
 &ensp;&ensp;All interactions with Kubernetes objects, directly or indirectly, happen through [Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/) [[1]](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md).<br>
-&ensp;&ensp;Directly via [Client Libraries](https://kubernetes.io/docs/reference/using-api/client-libraries/)<br>
+&ensp;&ensp;&ensp;&ensp;Directly via [Client Libraries](https://kubernetes.io/docs/reference/using-api/client-libraries/)<br>
 &ensp;&ensp;&ensp;&ensp;Indirectly via [Command line tool (kubectl)](https://kubernetes.io/docs/reference/kubectl/)<br>
 &ensp;&ensp;&ensp;&ensp;API objects are fully qualified by their<br>
 &ensp;&ensp;&ensp;&ensp;API group, resource type, namespace (unless cluster-scoped), and name.<br>
