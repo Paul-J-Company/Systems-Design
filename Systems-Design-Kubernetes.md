@@ -105,6 +105,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;**IMPORTANT WARNING:**<br>
 &ensp;&ensp;&ensp;&ensp;The word **resource** sometimes is used in the meaning of an object (but not vice versa)<br>
 &ensp;&ensp;&ensp;&ensp;and sometimes in the meaning of an API endpoint - **context matters**!!!<br>
+&ensp;&ensp;A resource specifies a Kubernetes API endpoint.<br>
 &ensp;&ensp;The Kubernetes API consists of endpoints called resources.<br>
 &ensp;&ensp;A Kubernetes Resource is a declarative API with a well defined Schema structure and endpoints.<br>
 &ensp;&ensp;Because the structure of the Schema and Endpoints are predictable and structured,<br>
@@ -115,6 +116,10 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;A Kubernetes Resource Schema is the contents/structure of a yaml file.<br>
 
 **Summary of Objects, Controllers, Operators and CRDs**<br>
+&ensp;&ensp;**IMPORTANT WARNING:**<br>
+&ensp;&ensp;&ensp;&ensp;The word **resource** sometimes is used in the meaning of an object (but not vice versa)<br>
+&ensp;&ensp;&ensp;&ensp;and sometimes in the meaning of an API endpoint - **context matters**!!!<br>
+&ensp;&ensp;A resource specifies a certain kind of Kubernetes object.
 &ensp;&ensp;Objects are like data structures.<br>
 &ensp;&ensp;Controllers are like algorithms.<br>
 &ensp;&ensp;Controllers are infinite loops that watch the actual and the desired states of your cluster.<br>
