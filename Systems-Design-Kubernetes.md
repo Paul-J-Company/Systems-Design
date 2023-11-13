@@ -98,7 +98,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing Kubernetes Resources](https://laurinevala.medium.com/visualizing-kubernetes-resources-ee9d8c16d264) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*mdClEni7Za7F1DY5.png) [[2]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MK7WOMTF-Ks1sD67PIiphg.png)<br>
 &ensp;&ensp;A Kubernetes Resource is a declarative API with a well defined Schema structure and endpoints.<br>
 &ensp;&ensp;Because the structure of the Schema and Endpoints are predictable and structured, most Kubernetes tools work with any Kubernetes API<br>
-&ensp;&ensp;even if they are not part of the core (e.g. extensions through CRDs).<br>
+&ensp;&ensp;even if they are not part of the core (e.g. [extensions through CRDs](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#customresourcedefinition-v1-apiextensions-k8s-io)).<br>
 &ensp;&ensp;A Kubernetes resource is an endpoint in the Kubernetes API that stores a collection of API objects of a certain kind;<br>
 &ensp;&ensp;for example, the built-in pods resource contains a collection of Pod objects.<br>
 &ensp;&ensp;A Kubernetes Resource Schema is the contents/structure of a yaml file.<br>
