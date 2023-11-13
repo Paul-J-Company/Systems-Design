@@ -65,6 +65,8 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 (NOT DONE YET, EXAMPLES COMING SOON)<br>
 
 ## Visualizing Kubernetes
+[Tools to Visualize Kubernetes:](https://github.com/collabnix/kubetools) [[1]](https://kubeview.benco.io/) [[2]](https://steampipe.io/blog/k8s-insights) [[3]](https://dev.to/ajeetraina/10-kubernetes-visualization-tool-that-you-cant-afford-to-miss-414k) [[4]](https://www.infoworld.com/article/3488817/15-tools-that-make-kubernetes-easier.html) [[5]](https://learnk8s.io/visualise-dependencies-kubernetes) [[6]](https://github.com/spekt8/spekt8) [[7]](https://collabnix.com/exploring-cluster-resources-with-kubeview-a-visual-approach-to-kubernetes-monitoring/) [[8]](https://github.com/oslabs-beta/indiK8or) [[9]](https://github.com/datacenter/ACI-Kubernetes-Visualiser) [[10]](https://github.com/vasu1124/k8s-visualizer) [[11]](https://github.com/intelops/kubviz) [[12]](https://github.com/steveteuber/kubectl-graph) [[13]](https://github.com/joatmon08/kubernetes-demo) [[14]](https://github.com/linchpiner/kubegraph) [[15]](https://github.com/Jont828/cluster-api-visualizer) [[16]](https://github.com/stepanstipl/k8s-viz) [[17]](https://github.com/mjbright/kubeview) [[18]](https://github.com/topics/kubernetes-visualization) [[19]](https://github.com/Shopify/kubepacity) [[20]](https://github.com/oslabs-beta/Allok8) [[21]](https://github.com/n3wscott/graph) [[22]](https://github.com/salesforce/sloop) [[23]](https://github.com/kubernetes-sigs/cluster-api/issues/2916) [[24]](https://github.com/Azure/azure-kubernetes-visualizer) [[25]](https://github.com/chiradeep/qube-viz) [[26]](https://github.com/oslabs-beta/ClusterWatch)<br>
+
 [Visualizing DevOps in Kubernetes](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf)<br>
 
 [What are the Differences Between VPA, HPA, CA, and CPA in Kubernetes?](https://hwchiu.medium.com/what-are-the-differences-between-vpa-hpa-ca-and-cpa-in-kubernetes-5f74c97001ed)<br>
@@ -94,6 +96,8 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing CSI Volume Plugin](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png)<br>
 [Visualizing Kubernetes without CSI Volume Plugin](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png)<br>
+
+[Visualizing Kubernetes API]() [[1]](https://kubernetes.io/docs/concepts/overview/kubernetes-api/) [[2]](https://kubernetes.io/docs/concepts/overview/kubernetes-api/#api-groups-and-versioning) [[3]](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md)<br>
 
 [Visualizing Kubernetes Resources](https://laurinevala.medium.com/visualizing-kubernetes-resources-ee9d8c16d264) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*mdClEni7Za7F1DY5.png) [[2]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MK7WOMTF-Ks1sD67PIiphg.png)<br>
 &ensp;&ensp;A Kubernetes Resource is a declarative API with a well defined Schema structure and endpoints.<br>
@@ -180,6 +184,8 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 
 ### Additional Resources
+[Kubetools - A Curated List of Kubernetes Tools](https://github.com/collabnix/kubetools)<br>
+
 *) [CNCF:](https://www.cncf.io/) [Cloud Native Computing Foundation](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation)<br>
 &ensp;&ensp;[CNCF Youtube Channel](https://www.youtube.com/c/cloudnativefdn/videos)<br>
 &ensp;&ensp;[CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)<br>
