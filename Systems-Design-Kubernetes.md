@@ -94,6 +94,17 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing CSI Volume Plugin](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png)<br>
 [Visualizing Kubernetes without CSI Volume Plugin](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png)<br>
 
+**Summary of Objects, Controllers Operators and CRDs**<br>
+&ensp;&ensp;Objects are like data structures.<br>
+&ensp;&ensp;Controllers are like algorithms.<br>
+&ensp;&ensp;Controllers are infinite loops that watch the actual and the desired states of your cluster.<br>
+&ensp;&ensp;When Objects & Controller states diverge,<br>
+&ensp;&ensp;controllers start making changes aiming to bring the<br>
+&ensp;&ensp;current state of the cluster closer to the desired one.<br>
+&ensp;&ensp;Operators are how Kubernetes runs CRDs.<br>
+&ensp;&ensp;Operator = CRD + Custom Controller + your knowledge (aka., domain/application specific knowledge)<br>
+&ensp;&ensp;CRDs are a way to write your own custom Kubernetes object type.<br>
+
 [Visualizing Kubernetes Resources](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*mdClEni7Za7F1DY5.png) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MK7WOMTF-Ks1sD67PIiphg.png) [[2]](https://laurinevala.medium.com/visualizing-kubernetes-resources-ee9d8c16d264)<br>
 [Visualizing Kubernetes Objects & Interaction with System Resources](https://iximiuz.com/writing-kubernetes-controllers-operators/kdpv.png) [[1]](https://iximiuz.com/en/posts/kubernetes-operator-pattern/)<br>
 
