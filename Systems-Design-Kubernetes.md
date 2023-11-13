@@ -126,7 +126,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing Ingress Path](https://lh5.googleusercontent.com/ZKJZ5_b2BuaU9KnDYkeCOc0ePvpHQdhfMwvZPjU3pTK5aHL1022YNwY0G9qr4udwae7yI9hgGmhK3g0fuC66HK8ol3BtdVQ_z27nJFfHAfW38oMmhL9Ot8nc3r2Jxel5yTM9h5az33ws0DLwoCKmIZs)<br>
 
-[Visualizing Virtual Kublet](https://github.com/virtual-kubelet/virtual-kubelet/blob/master/website/static/img/diagram.svg)<br>
+[Visualizing Virtual Kublet](https://raw.githubusercontent.com/virtual-kubelet/virtual-kubelet/ce8a0ee8bd68f9c4c46a60a3db5e8e6e6c247839/website/static/img/diagram.svg) [[1]](https://github.com/virtual-kubelet/virtual-kubelet/blob/master/website/static/img/diagram.svg)<br>
 
 [Visualizing how Kubelet, CRI, CRI-O, OCI & runc & kata-runtime fit together](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*h2j060L-iJMlyW9F.jpg)<br>
   
