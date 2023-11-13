@@ -110,7 +110,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;Indirectly via [Command line tool (kubectl)](https://kubernetes.io/docs/reference/kubectl/)<br>
 &ensp;&ensp;[Operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) are how Kubernetes runs CRDs.<br>
 &ensp;&ensp;Operator = CRD + Custom Controller + your knowledge (aka., [SME](https://en.wikipedia.org/wiki/Subject-matter_expert)/domain/application specific knowledge)<br>
-&ensp;&ensp;CRDs are a way to write your own custom Kubernetes object type.<br>
+&ensp;&ensp;CRDs are a way to write your own custom Kubernetes object type [[1]](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/).<br>
 &ensp;&ensp;A [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#custom-resources) is is an extension of the Kubernetes API that is not necessarily available in a default Kubernetes installation.<br>
 &ensp;&ensp;Custom resources let you store and retrieve structured data.<br>
 &ensp;&ensp;A [Custom Controller](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#custom-controllers) is one of the ways in which you can extend Kubernetes.<br>
