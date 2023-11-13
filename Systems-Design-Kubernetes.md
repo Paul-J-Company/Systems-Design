@@ -105,7 +105,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;When Objects & Controller states diverge,<br>
 &ensp;&ensp;controllers start making changes aiming to bring the<br>
 &ensp;&ensp;current state of the cluster closer to the desired one.<br>
-&ensp;&ensp;All interactions with Kubernetes objects, directly or indirectly, happen through [Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/).<br>
+&ensp;&ensp;All interactions with Kubernetes objects, directly or indirectly, happen through [Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/) [[1]](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md).<br>
 &ensp;&ensp;Directly via [Client Libraries](https://kubernetes.io/docs/reference/using-api/client-libraries/)<br>
 &ensp;&ensp;Indirectly via [Command line tool (kubectl)](https://kubernetes.io/docs/reference/kubectl/)<br>
 &ensp;&ensp;[Operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) are how Kubernetes runs CRDs.<br>
