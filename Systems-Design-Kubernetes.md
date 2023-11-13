@@ -102,7 +102,9 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;API group, resource type, namespace (unless cluster-scoped), and name.<br>
     
 [Visualizing Kubernetes Resources](https://laurinevala.medium.com/visualizing-kubernetes-resources-ee9d8c16d264) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*mdClEni7Za7F1DY5.png) [[2]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MK7WOMTF-Ks1sD67PIiphg.png)<br>
-&ensp;&ensp;**WARNING:** The word **resource** sometimes is used in the meaning of an object (but not vice versa) and sometimes in the meaning of an API endpoint - **context matters**!!!<br>
+&ensp;&ensp;**IMPORTANT WARNING:**
+&ensp;&ensp;&ensp;&ensp;The word **resource** sometimes is used in the meaning of an object (but not vice versa)<br>
+&ensp;&ensp;&ensp;&ensp;and sometimes in the meaning of an API endpoint - **context matters**!!!<br>
 &ensp;&ensp;The Kubernetes API consists of endpoints called resources.<br>
 &ensp;&ensp;A Kubernetes Resource is a declarative API with a well defined Schema structure and endpoints.<br>
 &ensp;&ensp;Because the structure of the Schema and Endpoints are predictable and structured,<br>
