@@ -190,6 +190,12 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;[]()<br>
 &ensp;&ensp;[]()<br>
 
+*) [DevOps Toolkit:](https://www.youtube.com/@DevOpsToolkit/videos) [[1]](https://www.devopstoolkitseries.com/) [[2]](https://www.devopsparadox.com/) [[3]]()<br>
+&ensp;&ensp;[Observability - Ask Me Anything With Ivan Merrill](https://www.youtube.com/watch?v=Hr_beKZDW_c)<br>
+&ensp;&ensp;[Is eBPF The End Of Kubernetes Sidecar Containers?](https://www.youtube.com/watch?v=7ZVQSg9HX68)<br>
+&ensp;&ensp;[Is CUE The Perfect Language For Kubernetes Manifests (Helm Templates Replacement)?](https://www.youtube.com/watch?v=m6g0aWggdUQ)<br>
+&ensp;&ensp;[Is Timoni With CUE a Helm Replacement?](https://www.youtube.com/watch?v=bbE1BFCs548)<br>
+
 *) [DevOpsTV:](https://techstrong.tv/) [[1]](https://techstronggroup.com/) [[2]](mailto:editor@devops.com)<br>
 &ensp;&ensp;[DevOpsTV Youtube Channel](https://www.youtube.com/c/Devopsdotcom/videos)<br>
 &ensp;&ensp;[]()<br>
