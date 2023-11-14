@@ -119,7 +119,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;**IMPORTANT WARNING:**<br>
 &ensp;&ensp;&ensp;&ensp;The word **resource** sometimes is used in the meaning of an object (but not vice versa)<br>
 &ensp;&ensp;&ensp;&ensp;and sometimes in the meaning of an API endpoint - **context matters**!!!<br>
-&ensp;&ensp;A resource specifies a certain kind of Kubernetes object.
+&ensp;&ensp;A resource specifies a certain kind of Kubernetes object.<br>
 &ensp;&ensp;Objects are like data structures.<br>
 &ensp;&ensp;Controllers are like algorithms.<br>
 &ensp;&ensp;Controllers are infinite loops that watch the actual and the desired states of your cluster.<br>
@@ -204,7 +204,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 ### Additional Resources
 [Kubetools - A Curated List of Kubernetes Tools](https://github.com/collabnix/kubetools)<br>
-[Arcade](https://github.com/alexellis/arkade) - Open Source Marketplace For Developer Tools<br>
+[Arcade](https://github.com/alexellis/arkade) - Open Source Marketplace For Developer Tools [[1]](https://github.com/inlets/inlets-operator/blob/fb1a2a0b951a710d1a54bcab4f1eef7d21ec0b91/chart/inlets-operator/crds/operator.inlets.dev_tunnels.yaml)<br>
 
 *) [CNCF:](https://www.cncf.io/) [Cloud Native Computing Foundation](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation)<br>
 &ensp;&ensp;[CNCF Youtube Channel](https://www.youtube.com/c/cloudnativefdn/videos)<br>
