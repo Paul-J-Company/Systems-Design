@@ -142,6 +142,8 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;A [Custom Controller](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#custom-controllers) is one of the ways in which you can extend Kubernetes.<br>
 &ensp;&ensp;Custom controllers can handle in-built Kubernetes objects, such as Deployment, Service, in new ways.<br>
 &ensp;&ensp;Custom controllers can work with any kind of resource, but they are especially effective when combined with custom resources.<br>
+&ensp;&ensp;Custom resources are neat but useless in isolation.<br>
+&ensp;&ensp;You need some custom code to interact with them (aka., a custom controller)<br>
 &ensp;&ensp;When you combine a custom resource with a custom controller, custom resources provide a true declarative API.<br>
 
 [Visualizing Kubernetes Objects & Interaction with System Resources](https://iximiuz.com/writing-kubernetes-controllers-operators/kdpv.png) [[1]](https://iximiuz.com/en/posts/kubernetes-operator-pattern/)<br>
