@@ -212,6 +212,9 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;Operators can be complex and add overhead to develop and maintain.<br>
 &ensp;&ensp;You may reach that point someday but never assume it’s a requirement at the start.<br>
 
+*) [Kubesploit:](https://medium.com/kubesploit/kubesploit-digest-january-2023-ec6253e2f0b3)<br>
+&ensp;&ensp;The best Kubernetes, security-related articles, tutorials, libraries and tools republished
+
 *) [CNCF:](https://www.cncf.io/) [Cloud Native Computing Foundation](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation)<br>
 &ensp;&ensp;[CNCF Youtube Channel](https://www.youtube.com/c/cloudnativefdn/videos)<br>
 &ensp;&ensp;[CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)<br>
