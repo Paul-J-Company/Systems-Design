@@ -148,7 +148,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;When you combine a custom resource with a custom controller, custom resources provide a true declarative API.<br>
 
 [Visualizing Kubernetes Objects & Interaction with System Resources](https://iximiuz.com/writing-kubernetes-controllers-operators/kdpv.png) [[1]](https://iximiuz.com/en/posts/kubernetes-operator-pattern/)<br>
-[Visualizing the Kubernetes inlets-operator](https://iximiuz.com/kubernetes-operator-pattern/kube-operator-example-opt.gif) [[1]](https://github.com/inlets/inlets-operator) [[2]](https://github.com/inlets/inletsctl) [[3]](https://github.com/inlets/inlets-pro)<br>
+[Visualizing the Kubernetes inlets-operator](https://iximiuz.com/kubernetes-operator-pattern/kube-operator-example-opt.gif) [[1]](https://github.com/inlets/inlets-operator) [[2]](https://github.com/inlets/inletsctl) [[3]](https://github.com/inlets/inlets-pro) [[4]](https://github.com/alexellis/arkade) [[5]](https://docs.inlets.dev/#/get-started/quickstart-ingresscontroller-cert-manager?id=expose-your-ingresscontroller-and-get-tls-from-letsencrypt)<br>
 [Visualizing Kubernetes Go Client Controller: client-go](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*dmvNSeSIORAMaTF2WdE9fg.jpeg) [[1]](https://cloudark.medium.com/kubernetes-custom-controllers-b6c7d0668fdf) [[2]](https://github.com/kubernetes/sample-controller) [[3]](https://github.com/kubernetes/code-generator#readme)<br>
     
 [Visualizing Kubernetes Services](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jC28wQvePsmbic8AIqo_AA.png)<br>
