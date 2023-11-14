@@ -133,7 +133,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 &ensp;&ensp;&ensp;&ensp;API objects are fully qualified by their<br>
 &ensp;&ensp;&ensp;&ensp;API group, resource type, namespace (unless cluster-scoped), and name.<br>
 &ensp;&ensp;[Operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) are how Kubernetes runs CRDs.<br>
-&ensp;&ensp;A Kuberntes operator is a client of the Kubernetes API that acts as a controller for a Custom Resource.<br>
+&ensp;&ensp;A Kuberntes operator is a client of the Kubernetes API that acts as a controller for a Custom Resource. [[1]](https://github.com/operator-framework/community-operators/blob/master/docs/best-practices.md#summary)<br>
 &ensp;&ensp;Operator = CRD + Custom Controller + your knowledge (aka., [SME](https://en.wikipedia.org/wiki/Subject-matter_expert)/domain/application specific knowledge)<br>
 &ensp;&ensp;[CRDs](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#customresourcedefinition-v1-apiextensions-k8s-io) are a way to write your own custom Kubernetes object type [[1]](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/) [[2]](https://kubernetespodcast.com/episode/073-crds-extensibility-api-machinery/).<br>
 &ensp;&ensp;When you create a new CustomResourceDefinition (CRD), the Kubernetes API Server<br>
