@@ -205,6 +205,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 ### Additional Resources
 [Kubetools - A Curated List of Kubernetes Tools](https://github.com/collabnix/kubetools)<br>
 [Arcade](https://github.com/alexellis/arkade) - Open Source Marketplace For Developer Tools [[1]](https://github.com/inlets/inlets-operator/blob/fb1a2a0b951a710d1a54bcab4f1eef7d21ec0b91/chart/inlets-operator/crds/operator.inlets.dev_tunnels.yaml)<br>
+[When Not to Write a Kubernetes Operator](https://rm-rf.ca/posts/2020/when-not-to-write-kubernetes-operator/)<br>
 
 *) [CNCF:](https://www.cncf.io/) [Cloud Native Computing Foundation](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation)<br>
 &ensp;&ensp;[CNCF Youtube Channel](https://www.youtube.com/c/cloudnativefdn/videos)<br>
