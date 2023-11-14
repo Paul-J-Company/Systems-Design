@@ -206,6 +206,10 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Kubetools - A Curated List of Kubernetes Tools](https://github.com/collabnix/kubetools)<br>
 [Arcade](https://github.com/alexellis/arkade) - Open Source Marketplace For Developer Tools [[1]](https://github.com/inlets/inlets-operator/blob/fb1a2a0b951a710d1a54bcab4f1eef7d21ec0b91/chart/inlets-operator/crds/operator.inlets.dev_tunnels.yaml)<br>
 [When Not to Write a Kubernetes Operator](https://rm-rf.ca/posts/2020/when-not-to-write-kubernetes-operator/)<br>
+&ensp;&ensp;Operators should be reserved for more complex applications that require a noteworthy amount of manual intervention to keep running, upgrade or backup.<br>
+&ensp;&ensp;This should be a relatively rare thing, Kube itself provides what most applications should need.<br>
+&ensp;&ensp;Operators can be complex and add overhead to develop and maintain.<br>
+&ensp;&ensp;You may reach that point someday but never assume it’s a requirement at the start.<br>
 
 *) [CNCF:](https://www.cncf.io/) [Cloud Native Computing Foundation](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation)<br>
 &ensp;&ensp;[CNCF Youtube Channel](https://www.youtube.com/c/cloudnativefdn/videos)<br>
