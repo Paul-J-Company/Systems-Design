@@ -187,7 +187,8 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing Service Map](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*siUBtghrpU5niGkh.png)<br>
 
 [Visualizing Kube-State-Metrics (KSM)](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*DmdAmgv_5nAn3l2G.png) [[1]](https://medium.com/@seifeddinerajhi/monitoring-kubernetes-clusters-with-kube-state-metrics-2b9e73a67895)<br>
-     
+[Visualizing Kube-State-Metrics (KSM) integration via go-client](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*BXJmqKBHikNTuA3l-K6ouw.png)<br>
+
 [Visualizing Pulumi](https://www.pulumi.com/images/docs/reference/engine-block-diagram.png)<br>
 [Visualizing Pulumi for Platform Teams](https://cdn.thenewstack.io/media/2023/10/fd3d0ac0-platform-teams-diagram-e1697458881245-1024x613.png)<br>
 
