@@ -166,7 +166,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing Ingress Path](https://lh5.googleusercontent.com/ZKJZ5_b2BuaU9KnDYkeCOc0ePvpHQdhfMwvZPjU3pTK5aHL1022YNwY0G9qr4udwae7yI9hgGmhK3g0fuC66HK8ol3BtdVQ_z27nJFfHAfW38oMmhL9Ot8nc3r2Jxel5yTM9h5az33ws0DLwoCKmIZs)<br>
 
-[Visualizing Virtual Kublet](https://raw.githubusercontent.com/virtual-kubelet/virtual-kubelet/ce8a0ee8bd68f9c4c46a60a3db5e8e6e6c247839/website/static/img/diagram.svg) [[1]](https://github.com/virtual-kubelet/virtual-kubelet/blob/master/website/static/img/diagram.svg)<br>
+[Visualizing Virtual Kubelet](https://raw.githubusercontent.com/virtual-kubelet/virtual-kubelet/ce8a0ee8bd68f9c4c46a60a3db5e8e6e6c247839/website/static/img/diagram.svg) [[1]](https://github.com/virtual-kubelet/virtual-kubelet/blob/master/website/static/img/diagram.svg)<br>
 
 [Visualizing how Kubelet, CRI, CRI-O, OCI & runc & kata-runtime fit together](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*h2j060L-iJMlyW9F.jpg)<br>
   
@@ -179,6 +179,8 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing how Kubelet, containerd & runc fit together](https://lh3.googleusercontent.com/4RJz6Kbqa3z2AQ5QZQgNZKKLqa-VcSJq84IIEhhO6Rl0fIR09Aq8ODIiS2YgbuWbaCUP2kaZhC8EUPHJFrVRRXaLl09z0tVtjpcOTU_pdB17APS-qgbN_Ab5R9NNHX5ew8104-_X)<br>
 [Visualizing CRI-Containerd Architecture: Kubelet -> gRPC -> cri-containerd -> gRPC -> containerd -> containerd shim](https://lh3.googleusercontent.com/U2WuYpgyAOknVzhwJbZz1y4Jk1wAlJDP1n42tiF-CpTEbvScGts_Z6_NOeVDF0SiaV4YRT1gl79MzdtD3mgzKET8xNDs6LAyjzH9J74xcs-0cgxBaPi6KbMsEhOH6WfqXu-H6Oq-) [[1]](https://cto.ai/blog/overview-of-different-container-runtimes/)<br>
 
+[Visualizing 3-tier Architecture in Pools](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*LfqnGkJ5TGYDlMac4_WgdQ.png) [[1]](https://medium.com/@raphael.moutard/forget-your-microservices-the-unparalleled-benefits-of-pool-architecture-63b462989856)<br>
+  
 [Visualizing Pulumi](https://www.pulumi.com/images/docs/reference/engine-block-diagram.png)<br>
 [Visualizing Pulumi for Platform Teams](https://cdn.thenewstack.io/media/2023/10/fd3d0ac0-platform-teams-diagram-e1697458881245-1024x613.png)<br>
 
