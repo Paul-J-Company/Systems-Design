@@ -180,7 +180,12 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing CRI-Containerd Architecture: Kubelet -> gRPC -> cri-containerd -> gRPC -> containerd -> containerd shim](https://lh3.googleusercontent.com/U2WuYpgyAOknVzhwJbZz1y4Jk1wAlJDP1n42tiF-CpTEbvScGts_Z6_NOeVDF0SiaV4YRT1gl79MzdtD3mgzKET8xNDs6LAyjzH9J74xcs-0cgxBaPi6KbMsEhOH6WfqXu-H6Oq-) [[1]](https://cto.ai/blog/overview-of-different-container-runtimes/)<br>
 
 [Visualizing 3-tier Architecture in Pools](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*LfqnGkJ5TGYDlMac4_WgdQ.png) [[1]](https://medium.com/@raphael.moutard/forget-your-microservices-the-unparalleled-benefits-of-pool-architecture-63b462989856)<br>
-  
+
+[Visualizing K8s Tools](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*dRZMWKGGvqS-No8sUYTH1g.png)<br>
+[Visualizing K8s Tools Mind Map](https://github.com/metaleapca/metaleap-k8s-tools/blob/main/metaleap-k8s-tools.pdf)<br>
+[Visualizing Kubeshark](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*XTUlvLMNNtFURZQH.png)<br>
+[Visualizing Service Map](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*siUBtghrpU5niGkh.png)<br>
+
 [Visualizing Pulumi](https://www.pulumi.com/images/docs/reference/engine-block-diagram.png)<br>
 [Visualizing Pulumi for Platform Teams](https://cdn.thenewstack.io/media/2023/10/fd3d0ac0-platform-teams-diagram-e1697458881245-1024x613.png)<br>
 
