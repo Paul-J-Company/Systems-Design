@@ -181,8 +181,8 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing 3-tier Architecture in Pools](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*LfqnGkJ5TGYDlMac4_WgdQ.png) [[1]](https://medium.com/@raphael.moutard/forget-your-microservices-the-unparalleled-benefits-of-pool-architecture-63b462989856)<br>
 
-[Visualizing K8s Tools](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*dRZMWKGGvqS-No8sUYTH1g.png) [[1]]()<br>
-[Visualizing K8s Tools Mind Map](blob:null/93a53c0c-96eb-456b-82e5-eb4bdb638a85) [[1]](https://github.com/metaleapca/metaleap-k8s-tools/blob/main/metaleap-k8s-tools.pdf)<br>
+[Visualizing K8s Tools](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*dRZMWKGGvqS-No8sUYTH1g.png) [[1]](https://blog.devgenius.io/k8s-tools-kubeshark-464443bea7d7)<br>
+[Visualizing K8s Tools Mind Map](https://blob:null/93a53c0c-96eb-456b-82e5-eb4bdb638a85) [[1]](https://github.com/metaleapca/metaleap-k8s-tools/blob/main/metaleap-k8s-tools.pdf)<br>
 [Visualizing Kubeshark](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*XTUlvLMNNtFURZQH.png)<br>
 [Visualizing Service Map](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*siUBtghrpU5niGkh.png)<br>
 
