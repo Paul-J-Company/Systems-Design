@@ -196,12 +196,12 @@ Precision Time Protocol: (PPT) IEEE 1588<br>
 &ensp;&ensp;https://www.nist.gov/el/intelligent-systems-division-73500/ieee-1588<br>
 &ensp;&ensp;https://linuxptp.sourceforge.net/<br>
 DNS: IETF<br>
-[IETF Technology Deep Dives](https://www.youtube.com/playlist?list=PLC86T-6ZTP5jLEgu8to8qjzL0uxOkjNSE)<br>
-[DNS Deeper Dive: Loosely Coherent...and Loosely Defined](https://datatracker.ietf.org/doc/slides-110-tdd-dns-deep-dive-part-1-of-3/)<br>
-[DNS Deep Dive - Part 1 of 3](https://datatracker.ietf.org/meeting/110/materials/slides-110-tdd-dns-deep-dive-part-1-of-3-00.pdf)<br>
-[IETF 108: Technology Deep Dive on DNS](https://www.youtube.com/watch?v=DV0q9s94RL8)<br>
-[IETF 110: Technology Deep Dive on DNS, Part 2](https://www.youtube.com/watch?v=V5lH_nsy4EQ#t=00h00m00s)<br>
-[IETF 110: Technology Deep Dive on DNS, Part 2](https://www.youtube.com/watch?v=syFZIfg2uzY#t=00h00m00s)<br>
+&ensp;&ensp;[IETF Technology Deep Dives](https://www.youtube.com/playlist?list=PLC86T-6ZTP5jLEgu8to8qjzL0uxOkjNSE)<br>
+&ensp;&ensp;[DNS Deeper Dive: Loosely Coherent...and Loosely Defined](https://datatracker.ietf.org/doc/slides-110-tdd-dns-deep-dive-part-1-of-3/)<br>
+&ensp;&ensp;[DNS Deep Dive - Part 1 of 3](https://datatracker.ietf.org/meeting/110/materials/slides-110-tdd-dns-deep-dive-part-1-of-3-00.pdf)<br>
+&ensp;&ensp;[IETF 108: Technology Deep Dive on DNS](https://www.youtube.com/watch?v=DV0q9s94RL8)<br>
+&ensp;&ensp;[IETF 110: Technology Deep Dive on DNS, Part 2](https://www.youtube.com/watch?v=V5lH_nsy4EQ#t=00h00m00s)<br>
+&ensp;&ensp;[IETF 110: Technology Deep Dive on DNS, Part 2](https://www.youtube.com/watch?v=syFZIfg2uzY#t=00h00m00s)<br>
 DNS: ISC-BIND (stable versions are even release numbers)<br>
 &ensp;&ensp;Kubernetes uses CoreDNS for DNS resolution amoung their Pods.<br>
 &ensp;&ensp;I use ISC-BIND for the Baremetal and VMs underneath Kubernetes.<br>
