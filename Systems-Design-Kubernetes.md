@@ -221,6 +221,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing Prometheus Architecture](https://github.com/prometheus/prometheus/raw/main/documentation/images/architecture.svg)<br>
 [Visualizing Prometheus](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*SYJgDDbJ34XMRy5j.png) [[1]](https://betterprogramming.pub/set-up-thanos-with-multi-tenancy-to-power-up-your-prometheus-70123e6ea555)<br>
+[Visualizing Thanos for Prometheus](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*-DyHMDxAOFyL2r5-8DeHpA.png) [[1]](https://betterprogramming.pub/set-up-thanos-with-multi-tenancy-to-power-up-your-prometheus-70123e6ea555)<br>
 
 [Visualizing SDLC](https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg)<br>
 
