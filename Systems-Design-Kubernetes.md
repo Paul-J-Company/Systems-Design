@@ -69,7 +69,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [How to Convert Any Text Into a Graph of Concepts](https://towardsdatascience.com/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a)<br>
 
 [Visualizing DevOps](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*8nimBWvKbst1nmTnuPv-wA.jpeg)<br>
-[Visualizing DevOps in Different Environments](https://github.com/metaleapca)<br>
+[Visualizing DevOps in Different Environments](https://github.com/metaleapca) [[1]](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf)<br>
 [Visualizing DevOps in Kubernetes](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf) [[1]](https://blog.devgenius.io/devops-in-k8s-pod-lifecycle-part-one-c5c78d9da941)<br>
 [Visualizing DevOps in Linux](https://github.com/metaleapca/metaleap-devops-in-linux/blob/main/metaleap-devops-in-linux.pdf)<br>
 [Visualizing DevOps K8s Tools](https://github.com/metaleapca/metaleap-k8s-tools/blob/main/metaleap-k8s-tools.pdf)<br>
