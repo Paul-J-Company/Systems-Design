@@ -179,6 +179,8 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing a LoadBalancer Service](https://assets-global.website-files.com/64196dbe03e13c204de1b1c8/64774e59b2fabaa1dc069fcc_58-image-3.png)<br>
 [Visualizing Service Ports](https://assets-global.website-files.com/64196dbe03e13c204de1b1c8/64774dfe998bc59f64a72793_58-image-1.png)<br>
 
+[Visualizing Kubernetes Admission Controller](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ysfawao2_9xTZYsWr_HztQ.png) [[1]](https://eminalemdar.medium.com/policy-management-in-kubernetes-is-changing-9d4808f548a0)<br>
+
 [Visualizing Ingress Path](https://lh5.googleusercontent.com/ZKJZ5_b2BuaU9KnDYkeCOc0ePvpHQdhfMwvZPjU3pTK5aHL1022YNwY0G9qr4udwae7yI9hgGmhK3g0fuC66HK8ol3BtdVQ_z27nJFfHAfW38oMmhL9Ot8nc3r2Jxel5yTM9h5az33ws0DLwoCKmIZs)<br>
 
 [Visualizing Virtual Kubelet](https://raw.githubusercontent.com/virtual-kubelet/virtual-kubelet/ce8a0ee8bd68f9c4c46a60a3db5e8e6e6c247839/website/static/img/diagram.svg) [[1]](https://github.com/virtual-kubelet/virtual-kubelet/blob/master/website/static/img/diagram.svg)<br>
