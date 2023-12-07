@@ -124,7 +124,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing CSI Volume Plugin](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png)<br>
 [Visualizing Kubernetes without CSI Volume Plugin](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png)<br>
-[Visualizing Kubernetes nfs-client-provisioner](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*OiN2woM7VjC437dYk5yeIg.jpeg) [[1]](https://medium.com/@gurpreet.singh_89/deploying-nfs-client-provisioner-in-kubernetes-75e240c6ec13)<br.
+[Visualizing Kubernetes nfs-client-provisioner](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*OiN2woM7VjC437dYk5yeIg.jpeg) [[1]](https://medium.com/@gurpreet.singh_89/deploying-nfs-client-provisioner-in-kubernetes-75e240c6ec13)<br>
 
 [Visualizing Kubernetes API](https://iximiuz.com/kubernetes-operator-pattern/kube-api-structure-3000-opt.png) [[1]](https://kubernetes.io/docs/concepts/overview/kubernetes-api/) [[2]](https://kubernetes.io/docs/concepts/overview/kubernetes-api/#api-groups-and-versioning) [[3]](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md)<br>
 &ensp;&ensp;API objects are fully qualified by their<br>
