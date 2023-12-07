@@ -78,7 +78,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing GitOps with Argo & Jenkins](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*aFrAvtOtsQAR9ZFZlTtlPA.png) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*E5TUjGfs0CrZTU6QB5pXXg.png) [[2]](https://medium.com/@emrah-t/extending-your-ci-cd-pipeline-with-gitops-an-end-to-end-automation-with-argocd-and-jenkins-on-b456a8760a11)<br>
 
-[Visualizing Methodology for Building Software-as-a-Service Apps](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xj8exAVC0kguMgyYltDapg.png) [[1]](https://medium.com/@tech_18484/introduction-701b7a8f4730) [[2]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QPTyF4ejabd1db3F6hl9Mg.png) [[3]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ZoYX6WbQEbVWL1i6zylpkQ.png) [[4]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*UBvkj-wYqEp_pimuzqnQ8w.png)
+[Visualizing Methodology for Building Software-as-a-Service Apps](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xj8exAVC0kguMgyYltDapg.png) [[1]](https://medium.com/@tech_18484/introduction-701b7a8f4730) [[2]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QPTyF4ejabd1db3F6hl9Mg.png) [[3]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ZoYX6WbQEbVWL1i6zylpkQ.png) [[4]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*UBvkj-wYqEp_pimuzqnQ8w.png)<br>
     
 [Visualizing Lean Platform Engineering with Azure](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jQms01KS7IDTAC3u-AUCdQ.gif) [[1]](https://medium.com/@artem_lajko/lean-platform-engineering-0509afceaf82)<br>
 
