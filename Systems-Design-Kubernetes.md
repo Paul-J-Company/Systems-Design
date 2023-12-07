@@ -72,7 +72,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing CNCF Landscapes](https://landscape.cncf.io/) [[1]](https://landscapes.dev/) [[2]](https://landscape.lfai.foundation/) [[3]](https://landscape.openssf.org/)<br>
 [CNCF Platforms White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/)<br>
 [Visualizing CNCF Platforms White Paper](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*uLZkzTWyXlM-prhb.png)<br>
-[Visualizing Hierarchy of AppDeveloper Needs from KubeCON NA 2023](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Z6ucBR_3RJ5YL7EM7fEzMQ.jpeg)<br>
+[Visualizing Hierarchy of AppDeveloper Needs from KubeCON NA 2023](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Z6ucBR_3RJ5YL7EM7fEzMQ.jpeg) [[1]](https://medium.com/vedcraft/key-takeaways-from-kubecon-cloudnativecon-north-america-2023-86219684f2d9)<br>
 [Visualizing APIs for solving distributed application challenges](https://github.com/salaboy/dapr-testcontainers/blob/main/imgs/dapr-components.png) [[1]](https://miro.medium.com/v2/resize:fit:2000/format:webp/0*uX4rvt0DHPQxH0sK)<br>
 [Visualizing OWASP Top 10 LLM Applications](https://llmtop10.com/) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*8GG8RfUkKE3p2ym0)<br>
      
