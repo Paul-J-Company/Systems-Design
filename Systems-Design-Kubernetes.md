@@ -73,8 +73,10 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing DevOps in Kubernetes](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf) [[1]](https://blog.devgenius.io/devops-in-k8s-pod-lifecycle-part-one-c5c78d9da941)<br>
 [Visualizing DevOps in Linux](https://github.com/metaleapca/metaleap-devops-in-linux/blob/main/metaleap-devops-in-linux.pdf)<br>
 [Visualizing DevOps K8s Tools](https://github.com/metaleapca/metaleap-k8s-tools/blob/main/metaleap-k8s-tools.pdf)<br>
-[Visualizing DevOps with ArgoCD](https://github.com/metaleapca/metaleap-devops-in-argocd/blob/main/metaleap-devops-in-argocd.pdf)<br>
 [Visualizing DevOps with Terraform](https://github.com/metaleapca/metaleap-devops-in-terraform/blob/main/metaleap-devops-in-terraform.pdf)<br>
+[Visualizing DevOps with ArgoCD](https://github.com/metaleapca/metaleap-devops-in-argocd/blob/main/metaleap-devops-in-argocd.pdf)<br>
+
+[Visualizing GitOps with Argo & Jenkins](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*aFrAvtOtsQAR9ZFZlTtlPA.png) [[1]](https://medium.com/@emrah-t/extending-your-ci-cd-pipeline-with-gitops-an-end-to-end-automation-with-argocd-and-jenkins-on-b456a8760a11)<br>
 
 [Visualizing Lean Platform Engineering with Azure](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jQms01KS7IDTAC3u-AUCdQ.gif) [[1]](https://medium.com/@artem_lajko/lean-platform-engineering-0509afceaf82)<br>
 
