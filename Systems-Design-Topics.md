@@ -254,6 +254,7 @@ What is Platform as a Service (PaaS)?<br>
 &ensp;&ensp;PaaS supports custom workflows to enable teams to function efficiently.<br>
 &ensp;&ensp;PaaS enables the introduction of new ways to build, run, and deploy apps easily.<br>
 &ensp;&ensp;PaaS allows underlying technology to be swapped out with no impact on teams.<br>
+[SRE vs Platform Engineering vs DevOps](https://medium.com/@badawekoo/sre-vs-platform-engineering-vs-devops-77d1733bf4c0)<br>
 What is Platform Engineering?<br>
 &ensp;&ensp;Platform Engineering ensures that there isn't an "us and them" mentality,<br>
 &ensp;&ensp;which leads to a bad overall customer experience.<br>
