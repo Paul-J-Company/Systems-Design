@@ -219,6 +219,8 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing Kubeshark](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*XTUlvLMNNtFURZQH.png)<br>
 [Visualizing Service Map](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*siUBtghrpU5niGkh.png)<br>
 
+[Visualizing a Normal Deployment vs. a Helm Deployment](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*hlqgMPyWMcfHU-GD) [[1]](https://amanpathakdevops.medium.com/day-26-kubernetes-helm-helm-charts-chapter-1-46e23aba25e6)<br>
+    
 [Visualizing Kube-State-Metrics (KSM)](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*DmdAmgv_5nAn3l2G.png) [[1]](https://medium.com/@seifeddinerajhi/monitoring-kubernetes-clusters-with-kube-state-metrics-2b9e73a67895)<br>
 [Visualizing Kube-State-Metrics (KSM) integration via go-client](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*BXJmqKBHikNTuA3l-K6ouw.png)<br>
 
