@@ -92,6 +92,8 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
     
 [Visualizing Lean Platform Engineering with Azure](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jQms01KS7IDTAC3u-AUCdQ.gif) [[1]](https://medium.com/@artem_lajko/lean-platform-engineering-0509afceaf82)<br>
 
+[Visualizing Azure Application Gateway for Containers](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*IPHLDIJRYVDt4wRgpW_SkQ.gif) [[1]](https://medium.com/@muthanagavamsi/azure-application-gateway-for-containers-66920f18659)<br>
+       
 [What are the Differences Between VPA, HPA, CA, and CPA in Kubernetes?](https://hwchiu.medium.com/what-are-the-differences-between-vpa-hpa-ca-and-cpa-in-kubernetes-5f74c97001ed)<br>
 [Visualizing VPA, HPA, CA, and CPA in Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*hXlG9FTm02CrdyR_.png)<br>
 
@@ -246,7 +248,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing Prometheus](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*SYJgDDbJ34XMRy5j.png) [[1]](https://betterprogramming.pub/set-up-thanos-with-multi-tenancy-to-power-up-your-prometheus-70123e6ea555)<br>
 [Visualizing Thanos for Prometheus](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*-DyHMDxAOFyL2r5-8DeHpA.png) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*n_j1yPMvHL6gkDSGzq_LPw.png) [[2]](https://betterprogramming.pub/set-up-thanos-with-multi-tenancy-to-power-up-your-prometheus-70123e6ea555)<br>
 
-[Visualizing SDLC](https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg)<br>
+[Visualizing SDLC](https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg) [[1]](https://camo.githubusercontent.com/6f0862439bd339eaa14f22a28af6fa77ed6d13a1f8072022d3f8f23df9638f86/68747470733a2f2f63646e2e6472696262626c652e636f6d2f7573657275706c6f61642f373732353831342f66696c652f6f726967696e616c2d61643334653561336435383761386139306236353836646536373731303232352e676966)<br>
 
 
 ### Additional Resources
