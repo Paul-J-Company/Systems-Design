@@ -69,6 +69,7 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing Speeding up Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*b-3KinhvoUVHybyPbc6Szw.gif) [[0]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*VM_U6Gm15YAIygDRMHz-nA.gif) [[1]](https://medium.com/@muthanagavamsi/lets-speed-up-kubernetes-29d3bfa1eb4) [[2]](https://medium.com/@muthanagavamsi/lets-speed-up-kubernetes-again-666fa5de541c)<br>
 
+[Visualizing 7 Kubernetes Concepts](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*FU6O3HFQ3h1Rka1XZAZKgQ.gif) [[1]](https://medium.com/@muthanagavamsi/dont-ignore-these-7-kubernetes-concepts-7cb4143c23ad)<br>
 [Visualizing 11 Powerful Tools to Manage Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*oGFrOhsGfJ6uqVz-Fm6M-w.gif) [[1]](https://medium.com/@muthanagavamsi/11-powerful-tools-to-manage-kubernetes-aec9a6dea8c9)<br>
   
 [How to Convert Any Text Into a Graph of Concepts](https://towardsdatascience.com/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a)<br>
