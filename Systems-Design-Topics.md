@@ -191,7 +191,7 @@ Bottom line is **"your job is to implement the [System Properties](https://githu
 [Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br><br>
 What is the meaning of the term "Open" in the context of Systems Design?<br>
 &ensp;&ensp;Open = Free + Open Research + Open Design + Open Standards + Open Software + Open Hardware<br>
-&ensp;&ensp;I personally feel it is the best way to run almost all businesses (with very complicated caveats dealing with security :-))<br>
+&ensp;&ensp;I personally feel it is the best way to run almost all software businesses (with very complicated caveats dealing with security & necessity)<br>
 What is [Open Research](https://en.wikipedia.org/wiki/Open_research)? [[1]](https://en.wikipedia.org/wiki/Open-access_repository) [[2]](https://en.wikipedia.org/wiki/List_of_open-access_journals) [[3]](https://en.wikipedia.org/wiki/Open_Archives_Initiative_Protocol_for_Metadata_Harvesting) [[4]](https://en.wikipedia.org/wiki/Center_for_Open_Science) [[5]](https://en.wikipedia.org/wiki/Digital_Commons_(Elsevier)) [[6]](https://en.m.wikipedia.org/wiki/OpenDOAR) [[7]](https://en.wikipedia.org/wiki/ArXiv) [[8]](https://en.wikipedia.org/wiki/BioRxiv) [[9]](https://en.wikipedia.org/wiki/Dryad_(repository)) [[10]](https://www.openresearchlab.org/)<br>
 &ensp;&ensp;Open research is research that is openly accessible by others.<br>
 &ensp;&ensp;Those who publish research in this way are often concerned with making research more<br>
