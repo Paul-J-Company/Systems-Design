@@ -188,7 +188,16 @@ you have an infrastructure, people using that infrastructure (Internal: Ops, Dev
 and your job is to design, build and maintain the infrastructure and make the people using it happy.<br>
 The definition of "happy" is created by analyzing your Company's needs and objectives.<br>
 Bottom line is **"your job is to implement the [System Properties](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#systems-properties) defined in this repo."**<br>
-[Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br><br>
+[Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br>
+
+<details>
+<summary>What is the meaning of the term "Open" in the context of Systems Design?</summary>
+&ensp;&ensp;Open = Free + Open Research + Open Design + Open Standards + Open Software + Open Hardware<br>
+&ensp;&ensp;I personally feel it is the best way to run almost all software businesses (with very complicated caveats dealing with security & necessity)<br>
+&ensp;&ensp;Yes, those are HUGE caveats, which is why the "Open" movement is really an ideal, and not a practical reality.<br>
+&ensp;&ensp;And those caveats are why I have never in my 30+ years of experience have worked for a truly "Open" Company and probably never will.<br>
+</details>
+
 What is the meaning of the term "Open" in the context of Systems Design?<br>
 &ensp;&ensp;Open = Free + Open Research + Open Design + Open Standards + Open Software + Open Hardware<br>
 &ensp;&ensp;I personally feel it is the best way to run almost all software businesses (with very complicated caveats dealing with security & necessity)<br>
