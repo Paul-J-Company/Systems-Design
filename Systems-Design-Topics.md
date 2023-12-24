@@ -197,8 +197,9 @@ What is [Open Research](https://en.wikipedia.org/wiki/Open_research)? [[1]](http
 &ensp;&ensp;Those who publish research in this way are often concerned with making research more<br>
 &ensp;&ensp;transparent, more collaborative, more wide-reaching, and more efficient.<br>
 What is the [Open Design Movement](https://en.wikipedia.org/wiki/Open-design_movement)?<br>
-&ensp;&ensp;The open-design movement involves the development of physical products, machines and systems through use of publicly shared design information.<br>
-&ensp;&ensp;This includes the making of both [Free and Open-Source Software (FOSS)](https://www.gnu.org/philosophy/free-sw.en.html#fs-definition) as well as [Open-Source Hardware (OSH)](https://en.wikipedia.org/wiki/Open-source_hardware).
+&ensp;&ensp;The open-design movement involves the development of physical products,<br>
+&ensp;&ensp;machines and systems through use of publicly shared design information.<br>
+&ensp;&ensp;This includes the making of both [Free and Open-Source Software (FOSS)](https://www.gnu.org/philosophy/free-sw.en.html#fs-definition) as well as [Open-Source Hardware (OSH)](https://en.wikipedia.org/wiki/Open-source_hardware).<br>
 What are [Open Standards](https://en.wikipedia.org/wiki/Open_standard)?<br>
 &ensp;&ensp;An Open Standard is a standard that is openly accessible and usable by anyone.<br>
 &ensp;&ensp;Good examples of open standards include the [GSM](https://en.wikipedia.org/wiki/GSM), [4G](https://en.wikipedia.org/wiki/4G) and [5G](https://en.wikipedia.org/wiki/5G) standards that allow most modern mobile phones to work world-wide.<br>
