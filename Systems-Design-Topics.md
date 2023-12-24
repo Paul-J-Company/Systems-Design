@@ -189,6 +189,10 @@ and your job is to design, build and maintain the infrastructure and make the pe
 The definition of "happy" is created by analyzing your Company's needs and objectives.<br>
 Bottom line is **"your job is to implement the [System Properties](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#systems-properties) defined in this repo."**<br>
 [Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br>
+What is [Open Research](https://en.wikipedia.org/wiki/Open_research)? [[1]](https://en.wikipedia.org/wiki/Open-access_repository) [[2]](https://en.wikipedia.org/wiki/List_of_open-access_journals) [[3]](https://en.wikipedia.org/wiki/Open_Archives_Initiative_Protocol_for_Metadata_Harvesting) [[4]](https://en.wikipedia.org/wiki/Center_for_Open_Science) [[5]](https://en.wikipedia.org/wiki/Digital_Commons_(Elsevier)) [[6]](https://en.m.wikipedia.org/wiki/OpenDOAR) [[7]](https://en.wikipedia.org/wiki/ArXiv) [[8]](https://en.wikipedia.org/wiki/BioRxiv) [[9]](https://en.wikipedia.org/wiki/Dryad_(repository)) [[10]](https://www.openresearchlab.org/)<br>
+&ensp;&ensp;Open research is research that is openly accessible by others.<br>
+&ensp;&ensp;Those who publish research in this way are often concerned with making research more<br>
+&ensp;&ensp;transparent, more collaborative, more wide-reaching, and more efficient.<br>
 What is Free and Opensource?<br>
 &ensp;&ensp;[The Open Source Definition:](https://opensource.org/osd/)<br>
 &ensp;&ensp;[The Free Software Definition:](https://www.gnu.org/philosophy/free-sw.en.html#fs-definition)<br>
