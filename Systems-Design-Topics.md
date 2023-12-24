@@ -189,11 +189,22 @@ and your job is to design, build and maintain the infrastructure and make the pe
 The definition of "happy" is created by analyzing your Company's needs and objectives.<br>
 Bottom line is **"your job is to implement the [System Properties](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#systems-properties) defined in this repo."**<br>
 [Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br>
+What does Open mean in the context of Systems Design?<br>
+&ensp;&ensp;The term Open means Open Research + Open Design + Open Standards + Open Software + Open Hardware<br>
+&ensp;&ensp;I personally feel it is the best way to run almost all businesses (with very complicated caveats dealing with security :-))<br>
 What is [Open Research](https://en.wikipedia.org/wiki/Open_research)? [[1]](https://en.wikipedia.org/wiki/Open-access_repository) [[2]](https://en.wikipedia.org/wiki/List_of_open-access_journals) [[3]](https://en.wikipedia.org/wiki/Open_Archives_Initiative_Protocol_for_Metadata_Harvesting) [[4]](https://en.wikipedia.org/wiki/Center_for_Open_Science) [[5]](https://en.wikipedia.org/wiki/Digital_Commons_(Elsevier)) [[6]](https://en.m.wikipedia.org/wiki/OpenDOAR) [[7]](https://en.wikipedia.org/wiki/ArXiv) [[8]](https://en.wikipedia.org/wiki/BioRxiv) [[9]](https://en.wikipedia.org/wiki/Dryad_(repository)) [[10]](https://www.openresearchlab.org/)<br>
 &ensp;&ensp;Open research is research that is openly accessible by others.<br>
 &ensp;&ensp;Those who publish research in this way are often concerned with making research more<br>
 &ensp;&ensp;transparent, more collaborative, more wide-reaching, and more efficient.<br>
-What is Free and Opensource?<br>
+What is the [Open Design Movement](https://en.wikipedia.org/wiki/Open-design_movement)?<br>
+&ensp;&ensp;The open-design movement involves the development of physical products, machines and systems through use of publicly shared design information.<br>
+&ensp;&ensp;This includes the making of both [Free and Open-Source Software (FOSS)](https://www.gnu.org/philosophy/free-sw.en.html#fs-definition) as well as [Open-Source Hardware (OSH)](https://en.wikipedia.org/wiki/Open-source_hardware).
+What are [Open Standards](https://en.wikipedia.org/wiki/Open_standard)?<br>
+&ensp;&ensp;An Open Standard is a standard that is openly accessible and usable by anyone.<br>
+&ensp;&ensp;Good examples of open standards include the [GSM](https://en.wikipedia.org/wiki/GSM), [4G](https://en.wikipedia.org/wiki/4G) and [5G](https://en.wikipedia.org/wiki/5G) standards that allow most modern mobile phones to work world-wide.<br>
+What is [Open Source Hardware](https://en.wikipedia.org/wiki/Open-source_hardware)?<br>
+&ensp;&ensp;Open-source hardware (OSH) consists of physical artifacts of technology designed and offered by the open-design movement.<br>
+What is Free and Opensource Software (FOSS)? [[1]](https://www.ota.be/)<br>
 &ensp;&ensp;[The Open Source Definition:](https://opensource.org/osd/)<br>
 &ensp;&ensp;[The Free Software Definition:](https://www.gnu.org/philosophy/free-sw.en.html#fs-definition)<br>
 &ensp;&ensp;[Fear and Loathing in Free and Open-Source](https://medium.com/@mbianchidev/fear-and-loathing-in-free-and-open-source-8439a1dbf5da)<br>
