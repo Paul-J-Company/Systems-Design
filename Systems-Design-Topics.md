@@ -260,7 +260,7 @@ What is Platform Engineering?<br>
 &ensp;&ensp;which leads to a bad overall customer experience.<br>
 &ensp;&ensp;Platform Engineering is all about accelerating software delivery efficiency and velocity.<br>
 &ensp;&ensp;Platform Engineering gives developers the tools they want to use.<br>
-What is Site Reliability Engineering (SRE)?<br>
+What is Site Reliability Engineering (SRE)? [[1]](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/)<br>
 &ensp;&ensp;[Site Reliability Engineering: A Comprehensive Guide](https://semaphoreci.com/blog/site-reliability-engineering)<br>
 &ensp;&ensp;SRE is all about performance and application/system reliability.<br>
 &ensp;&ensp;SRE is the practice of using software tools to automate IT infrastructure<br>
