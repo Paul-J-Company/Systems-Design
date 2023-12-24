@@ -224,8 +224,16 @@ What is Cloud Agnostic, Cloud Native and Cloud Enabled?<br>
 What is Self-Hosted and Fully Managed?<br>
 &ensp;&ensp;[Self-Hosted](https://en.wikipedia.org/wiki/Self-hosting_(web_services)) [[1]](https://www.openproject.org/blog/why-self-hosting-software/) [[2]](https://github.com/awesome-selfhosted/awesome-selfhosted) [[3]](https://www.linkedin.com/pulse/what-self-hosting-how-self-host-using-docker-przemys%C5%82aw-kuciel-1c/) [[4]](https://medium.com/swlh/the-step-by-step-guide-to-starting-your-own-self-hosted-website-from-scratch-d10a8e6ccf0c)<br>
 &ensp;&ensp;[Fully Managed](https://en.wikipedia.org/wiki/Dedicated_hosting_service) [[1]](https://docs.aws.amazon.com/managedservices/latest/userguide/what-is-ams.html) [[2]](https://docs.aws.amazon.com/managedservices/latest/userguide/key-terms.html) [[3]](https://www.freecodecamp.org/news/serverless-fully-managed-service-difference/)<br>
-What is Serverless?<br>
-&ensp;&ensp;[Serverless](https://en.wikipedia.org/wiki/Serverless_computing) [[1]](https://www.cloudflare.com/learning/serverless/what-is-serverless/) [[2]](https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless) [[3]](https://aws.amazon.com/serverless/)<br>
+What is [Serverless](https://en.wikipedia.org/wiki/Serverless_computing)? [[1]](https://www.cloudflare.com/learning/serverless/what-is-serverless/) [[2]](https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless) [[3]](https://aws.amazon.com/serverless/)<br>
+&ensp;&ensp;The purpose of serverless technology is to provide a way<br>
+&ensp;&ensp;to build and run applications without having to consider<br>
+&ensp;&ensp;the underlying hosts at all.<br>
+&ensp;&ensp;To support serverless applications, a cloud provider provisions<br>
+&ensp;&ensp;and deallocates servers as needed behind the scenes.<br>
+&ensp;&ensp;Containers and serverless can work together.<br>
+&ensp;&ensp;For instance, the core of your application may run on containers,<br>
+&ensp;&ensp;but some supplementary backend tasks, such as user authentication,<br>
+&ensp;&ensp;may run on serverless functions.<br>
 What is Infrastructure as Code (IaC)?<br>
 &ensp;&ensp;[Why Infrastructure as Code Is Vital for Modern DevOps](https://thenewstack.io/why-infrastructure-as-code-is-vital-for-modern-devops/)<br>
 &ensp;&ensp;[IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code) is a DevOps practice of managing infrastructure in a declarative manner using code,<br>
@@ -395,16 +403,6 @@ What is a Software Deployment?<br>
 &ensp;&ensp;&ensp;&ensp;The new release candidate is thoroughly tested<br>
 &ensp;&ensp;&ensp;&ensp;before being switched with the production environment,<br>
 &ensp;&ensp;&ensp;&ensp;allowing for a smooth transition without any downtime or errors.<br>
-What is Serverless?<br>
-&ensp;&ensp;The purpose of serverless technology is to provide a way<br>
-&ensp;&ensp;to build and run applications without having to consider<br>
-&ensp;&ensp;the underlying hosts at all.<br>
-&ensp;&ensp;To support serverless applications, a cloud provider provisions<br>
-&ensp;&ensp;and deallocates servers as needed behind the scenes.<br>
-&ensp;&ensp;Containers and serverless can work together.<br>
-&ensp;&ensp;For instance, the core of your application may run on containers,<br>
-&ensp;&ensp;but some supplementary backend tasks, such as user authentication,<br>
-&ensp;&ensp;may run on serverless functions.<br>
 What is a Microservice Application?<br>
 &ensp;&ensp;The term microservice is not a well-defined term.<br>
 &ensp;&ensp;There is no rigorous/unambiguous definition of when a service starts or stops being a microservice.<br>
