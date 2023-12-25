@@ -65,47 +65,17 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 (NOT DONE YET, EXAMPLES COMING SOON)<br>
 
 ## Visualizing Kubernetes
-[Tools to Visualize Kubernetes:](https://github.com/collabnix/kubetools) [[1]](https://kubeview.benco.io/) [[2]](https://steampipe.io/blog/k8s-insights) [[3]](https://dev.to/ajeetraina/10-kubernetes-visualization-tool-that-you-cant-afford-to-miss-414k) [[4]](https://www.infoworld.com/article/3488817/15-tools-that-make-kubernetes-easier.html) [[5]](https://learnk8s.io/visualise-dependencies-kubernetes) [[6]](https://github.com/spekt8/spekt8) [[7]](https://collabnix.com/exploring-cluster-resources-with-kubeview-a-visual-approach-to-kubernetes-monitoring/) [[8]](https://github.com/oslabs-beta/indiK8or) [[9]](https://github.com/datacenter/ACI-Kubernetes-Visualiser) [[10]](https://github.com/vasu1124/k8s-visualizer) [[11]](https://github.com/intelops/kubviz) [[12]](https://github.com/steveteuber/kubectl-graph) [[13]](https://github.com/joatmon08/kubernetes-demo) [[14]](https://github.com/linchpiner/kubegraph) [[15]](https://github.com/Jont828/cluster-api-visualizer) [[16]](https://github.com/stepanstipl/k8s-viz) [[17]](https://github.com/mjbright/kubeview) [[18]](https://github.com/topics/kubernetes-visualization) [[19]](https://github.com/Shopify/kubepacity) [[20]](https://github.com/oslabs-beta/Allok8) [[21]](https://github.com/n3wscott/graph) [[22]](https://github.com/salesforce/sloop) [[23]](https://github.com/kubernetes-sigs/cluster-api/issues/2916) [[24]](https://github.com/Azure/azure-kubernetes-visualizer) [[25]](https://github.com/chiradeep/qube-viz) [[26]](https://github.com/oslabs-beta/ClusterWatch)<br>
-
-[Visualizing Speeding up Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*b-3KinhvoUVHybyPbc6Szw.gif) [[0]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*VM_U6Gm15YAIygDRMHz-nA.gif) [[1]](https://medium.com/@muthanagavamsi/lets-speed-up-kubernetes-29d3bfa1eb4) [[2]](https://medium.com/@muthanagavamsi/lets-speed-up-kubernetes-again-666fa5de541c)<br>
-
-[Visualizing 7 Kubernetes Concepts](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*FU6O3HFQ3h1Rka1XZAZKgQ.gif) [[1]](https://medium.com/@muthanagavamsi/dont-ignore-these-7-kubernetes-concepts-7cb4143c23ad)<br>
-[Visualizing 11 Powerful Tools to Manage Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*oGFrOhsGfJ6uqVz-Fm6M-w.gif) [[1]](https://medium.com/@muthanagavamsi/11-powerful-tools-to-manage-kubernetes-aec9a6dea8c9)<br>
-  
 [How to Convert Any Text Into a Graph of Concepts](https://towardsdatascience.com/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a)<br>
 
+[Tools to Visualize Kubernetes:](https://github.com/collabnix/kubetools) [[1]](https://kubeview.benco.io/) [[2]](https://steampipe.io/blog/k8s-insights) [[3]](https://dev.to/ajeetraina/10-kubernetes-visualization-tool-that-you-cant-afford-to-miss-414k) [[4]](https://www.infoworld.com/article/3488817/15-tools-that-make-kubernetes-easier.html) [[5]](https://learnk8s.io/visualise-dependencies-kubernetes) [[6]](https://github.com/spekt8/spekt8) [[7]](https://collabnix.com/exploring-cluster-resources-with-kubeview-a-visual-approach-to-kubernetes-monitoring/) [[8]](https://github.com/oslabs-beta/indiK8or) [[9]](https://github.com/datacenter/ACI-Kubernetes-Visualiser) [[10]](https://github.com/vasu1124/k8s-visualizer) [[11]](https://github.com/intelops/kubviz) [[12]](https://github.com/steveteuber/kubectl-graph) [[13]](https://github.com/joatmon08/kubernetes-demo) [[14]](https://github.com/linchpiner/kubegraph) [[15]](https://github.com/Jont828/cluster-api-visualizer) [[16]](https://github.com/stepanstipl/k8s-viz) [[17]](https://github.com/mjbright/kubeview) [[18]](https://github.com/topics/kubernetes-visualization) [[19]](https://github.com/Shopify/kubepacity) [[20]](https://github.com/oslabs-beta/Allok8) [[21]](https://github.com/n3wscott/graph) [[22]](https://github.com/salesforce/sloop) [[23]](https://github.com/kubernetes-sigs/cluster-api/issues/2916) [[24]](https://github.com/Azure/azure-kubernetes-visualizer) [[25]](https://github.com/chiradeep/qube-viz) [[26]](https://github.com/oslabs-beta/ClusterWatch)<br>
+
 [Visualizing Lightweight K8s Implementations](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*sPKAAd0_uULVhuRcQF0Whw.png) [[1]](https://alperenbayramoglu2.medium.com/simple-comparison-of-lightweight-k8s-implementations-7c07c4e6e95f) [[2]](https://thechief.io/c/editorial/k3d-vs-k3s-vs-kind-vs-microk8s-vs-minikube/) [[3]](https://faun.pub/k3d-vs-k3s-vs-kind-vs-microk8s-vs-minikube-6949ebb93d18)<br>
-    
-[Visualizing the Technology Hype Cycle](https://upload.wikimedia.org/wikipedia/commons/b/bf/Hype-Cycle-General.png) [[1]](https://www.youtube.com/watch?v=jB1RDz9jaj0)<br>
-
-[Visualizing 10 Common Statistical Concepts of Data Science](https://towardsdev.com/diagrams-for-10-common-concepts-of-data-science-bbc79cd753f6) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*KGB62_1stkcg9erYWQk8sw.png) [[2]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*huUr4hGOedKFFPcVUg1zaA.png) [[3]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*5eCQHaWzSKgSbehxWzzvpw.png) [[4]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*wv8VZJy691LPSvX_TT32dA.png) [[5]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*F6TggVdQyB9FaRhvJLtJ-g.png) [[6]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bvc18HBTqULk021KJgp-tw.png) [[7]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2bQKzOTNO7iv1KPkaT1Sog.png) [[8]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*f8POEKDgVx3nVIF9RFOohg.png) [[9]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*16VQ1ZzNFy8gXMT7a8TIgA.png) [[10]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*YW9rFvihc3gRazMkQGKZdg.png) [[11]](https://miro.medium.com/v2/resize:fit:1384/format:webp/1*gwGoctimCF5iirqJMsLYAg.png) [[12]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Z9lJw2SydDdUdnCcV4eOIw.png) [[13]](https://miro.medium.com/v2/resize:fit:1380/format:webp/1*DrP23Bx_nNBTgoMhN1sJGQ.png) [[14]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*w40PcBdM7ykYZTcG2UV08g.png) [[15]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*uSmjQSwiTdzetma81xYbKw.png) [[16]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fbzbmojqwF1UCjkGozXVnQ.png) [[17]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*p8HPlBv6OHms2bSinmwA4Q.png) [[18]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*wtcKpVKur5sRoJY2xsLDqg.png) [[19]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SO4k-HC9t2tMhYwD0ijJnA.png)<br>
-
-
-[Visualizing Master Data Management (MDM)](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*g5CbXky5MczAzIKt_ePI-g.png) [[1]](https://piethein.medium.com/understanding-master-data-managements-integration-challenges-a41f6ed0f702) [[2]](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*AX7nLMkilgOWwRAYxIYH6w.png) [[3]](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*p9pm6poLnZQc4Of6zlR2Iw.png)<br>
-    
+       
 [Visualizing CNCF Technical Advisory Groups](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*vybpMui4AHBrx-pJABbOKQ.png) [[1]](https://devstats.cncf.io/)<br>
 [Visualizing CNCF Landscapes](https://landscape.cncf.io/) [[1]](https://landscapes.dev/) [[2]](https://landscape.lfai.foundation/) [[3]](https://landscape.openssf.org/)<br>
 [CNCF Platforms White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/)<br>
 [Visualizing CNCF Platforms White Paper](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*uLZkzTWyXlM-prhb.png)<br>
 [Visualizing Hierarchy of AppDeveloper Needs from KubeCON NA 2023](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Z6ucBR_3RJ5YL7EM7fEzMQ.jpeg) [[1]](https://medium.com/vedcraft/key-takeaways-from-kubecon-cloudnativecon-north-america-2023-86219684f2d9)<br>
-[Visualizing APIs for solving distributed application challenges](https://github.com/salaboy/dapr-testcontainers/blob/main/imgs/dapr-components.png) [[1]](https://miro.medium.com/v2/resize:fit:2000/format:webp/0*uX4rvt0DHPQxH0sK)<br>
-[Visualizing OWASP Top 10 LLM Applications](https://llmtop10.com/) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*8GG8RfUkKE3p2ym0)<br>
-     
-[Visualizing DevOps](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*8nimBWvKbst1nmTnuPv-wA.jpeg) [[1]](https://cloudmize.medium.com/top-devops-tools-for-2024-essential-software-for-streamlined-software-development-91bc88a995d2)<br>
-[Visualizing DevOps in Different Environments](https://github.com/metaleapca) [[1]](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf)<br>
-[Visualizing DevOps in Kubernetes](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf) [[1]](https://blog.devgenius.io/devops-in-k8s-pod-lifecycle-part-one-c5c78d9da941)<br>
-[Visualizing DevOps in Linux](https://github.com/metaleapca/metaleap-devops-in-linux/blob/main/metaleap-devops-in-linux.pdf)<br>
-[Visualizing DevOps K8s Tools](https://github.com/metaleapca/metaleap-k8s-tools/blob/main/metaleap-k8s-tools.pdf)<br>
-[Visualizing DevOps with Terraform](https://github.com/metaleapca/metaleap-devops-in-terraform/blob/main/metaleap-devops-in-terraform.pdf)<br>
-[Visualizing DevOps with ArgoCD](https://github.com/metaleapca/metaleap-devops-in-argocd/blob/main/metaleap-devops-in-argocd.pdf)<br>
-
-[Visualizing GitOps with Argo & Jenkins](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*aFrAvtOtsQAR9ZFZlTtlPA.png) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*E5TUjGfs0CrZTU6QB5pXXg.png) [[2]](https://medium.com/@emrah-t/extending-your-ci-cd-pipeline-with-gitops-an-end-to-end-automation-with-argocd-and-jenkins-on-b456a8760a11)<br>
-
-[Visualizing Methodology for Building Software-as-a-Service Apps](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xj8exAVC0kguMgyYltDapg.png) [[1]](https://medium.com/@tech_18484/introduction-701b7a8f4730) [[2]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QPTyF4ejabd1db3F6hl9Mg.png) [[3]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ZoYX6WbQEbVWL1i6zylpkQ.png) [[4]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*UBvkj-wYqEp_pimuzqnQ8w.png)<br>
-    
-[Visualizing Lean Platform Engineering with Azure](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jQms01KS7IDTAC3u-AUCdQ.gif) [[1]](https://medium.com/@artem_lajko/lean-platform-engineering-0509afceaf82)<br>
-
-[Visualizing Azure Application Gateway for Containers](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*IPHLDIJRYVDt4wRgpW_SkQ.gif) [[1]](https://medium.com/@muthanagavamsi/azure-application-gateway-for-containers-66920f18659)<br>
        
 [What are the Differences Between VPA, HPA, CA, and CPA in Kubernetes?](https://hwchiu.medium.com/what-are-the-differences-between-vpa-hpa-ca-and-cpa-in-kubernetes-5f74c97001ed)<br>
 [Visualizing VPA, HPA, CA, and CPA in Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*hXlG9FTm02CrdyR_.png)<br>
@@ -117,17 +87,22 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing Kubernetes Benefits & Drawbacks](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63a81651-7767-4161-bb47-5beb1e681315_1600x1230.png) [[1]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb9b5087-426f-45cb-bb7a-a190323453f7_1230x1600.png) [[2]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb56f56bd-fbd4-4ed1-9e69-b78bfe788c8a_1230x1600.png) [[3]](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18ce810d-ce16-438a-83da-6b52d8d7c619_1230x1600.png)<br>
 
+[Visualizing 3-tier Architecture in Pools](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*LfqnGkJ5TGYDlMac4_WgdQ.png) [[1]](https://medium.com/@raphael.moutard/forget-your-microservices-the-unparalleled-benefits-of-pool-architecture-63b462989856)<br>
 [Visualizing Kubernetes Architecture](https://airplane.ghost.io/content/images/d7605fbe-f2fb-40f1-99f4-8a2eeeda4bc6_img.png) [[1]](https://d33wubrfki0l68.cloudfront.net/2475489eaf20163ec0f54ddc1d92aa8d4c87c96b/e7c81/images/docs/components-of-kubernetes.svg) [[2]](https://cheatsheetseries.owasp.org/assets/Kubernetes_Architecture.png) [[3]](https://www.aquasec.com/wp-content/uploads/2020/11/Kubernetes-101-Architecture-Diagram-1.jpg) [[4]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*V-fwKtm8k1ca2MnsAjhZxg.png)<br>
 [Visualizing Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*KFafWgwSW3m7LIogIO3Rbw.png) [[1]](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-1-cc50a3642)<br>
+[Visualizing 7 Kubernetes Concepts](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*FU6O3HFQ3h1Rka1XZAZKgQ.gif) [[1]](https://medium.com/@muthanagavamsi/dont-ignore-these-7-kubernetes-concepts-7cb4143c23ad)<br>
 
 [Visualizing the Kubeconfig File](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*1_CPoxcOYR_Uynu8tkdwMQ.png) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*swJsT8BDqO1THFSq7AhSBA.png) [[2]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bOU0KxmuyTRaKp08ykYxXg.png) [[3]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vdjG88Zjg-lbW_yQor5Azg.png) [[4]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xH5TUFpmWtEBCBYe7Mrz-g.png) [[5]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*C8vHKBhyU4BjluoFY9cFnA.png) [[6]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*aMkKPmkuontJqqQel3a75Q.png)<br>
-  
+
+[Visualizing Speeding up Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*b-3KinhvoUVHybyPbc6Szw.gif) [[0]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*VM_U6Gm15YAIygDRMHz-nA.gif) [[1]](https://medium.com/@muthanagavamsi/lets-speed-up-kubernetes-29d3bfa1eb4) [[2]](https://medium.com/@muthanagavamsi/lets-speed-up-kubernetes-again-666fa5de541c)<br>
+
 [Visualizing Pods and Nodes](https://kubernetes.io/docs/tutorials/kubernetes-basics/public/images/module_03_pods.svg)<br>
 [Visualizing How a Kubernetes Pod Gets an IP Address](https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/kubelet-cri-cni-flowchart.png)<br>
 [Visualizing Pod Security Admission (PSA) Controller](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*6gSvHd-VYzfa5SlFC-szNw.gif) [[1]](https://medium.com/@muthanagavamsi/kubernetes-pod-security-admission-psa-20664cb3074d)<br>
 
 [Visualizing CRI](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ocwsqqkP6SUv8e-egJquDg.png) [[1]](https://landscape.cncf.io/guide#runtime--container-runtime)<br>
 [Visualizing Architecture of The CRI Plugin](https://github.com/containerd/cri/blob/v1.11.1/docs/architecture.png) [[1]](https://github.com/containerd/cri/blob/v1.11.1/docs/architecture.md)<br>
+[Visualizing how Podman, Containerd use crun, runc, gVisor, Nabla, katacontainers, Firecracker](https://adriancitu.files.wordpress.com/2021/12/untitled-diagram-image-run.drawio1.png)<br>
 
 [Visualizing CNI Plugin Popularity](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xwdMl2qi-KthYx73sF3wfQ.png)<br>
 [Visualizing the interactions between Containerd CRI Plugin and CNI plugins](https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address/kubelet-cri-cni-interactions.png
@@ -148,11 +123,12 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing Kubernetes without CSI Volume Plugin](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RuYBVRJGfu1M0SC81Auzog.png)<br>
 [Visualizing Kubernetes nfs-client-provisioner](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*OiN2woM7VjC437dYk5yeIg.jpeg) [[1]](https://medium.com/@gurpreet.singh_89/deploying-nfs-client-provisioner-in-kubernetes-75e240c6ec13)<br>
 [Visualizing Connection pooling in Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SWHmysMNha2mhI5xJeZXDw.gif) [[1]](https://medium.com/@muthanagavamsi/connection-pooling-in-kubernetes-deb42bf38542)<br>
-    
+
+[Visualizing APIs for solving distributed application challenges](https://github.com/salaboy/dapr-testcontainers/blob/main/imgs/dapr-components.png) [[1]](https://miro.medium.com/v2/resize:fit:2000/format:webp/0*uX4rvt0DHPQxH0sK)<br>
 [Visualizing Kubernetes API](https://iximiuz.com/kubernetes-operator-pattern/kube-api-structure-3000-opt.png) [[1]](https://kubernetes.io/docs/concepts/overview/kubernetes-api/) [[2]](https://kubernetes.io/docs/concepts/overview/kubernetes-api/#api-groups-and-versioning) [[3]](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md)<br>
 &ensp;&ensp;API objects are fully qualified by their<br>
 &ensp;&ensp;API group, resource type, namespace (unless cluster-scoped), and name.<br>
-    
+
 [Visualizing Kubernetes Resources](https://laurinevala.medium.com/visualizing-kubernetes-resources-ee9d8c16d264) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*mdClEni7Za7F1DY5.png) [[2]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MK7WOMTF-Ks1sD67PIiphg.png)<br>
 &ensp;&ensp;**IMPORTANT WARNING:**<br>
 &ensp;&ensp;&ensp;&ensp;The word **resource** sometimes is used in the meaning of an object (but not vice versa)<br>
@@ -226,8 +202,6 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing how Kubelet, CRI, CRI-O, OCI & runc & kata-runtime fit together](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*h2j060L-iJMlyW9F.jpg)<br>
   
-[Visualizing how Podman, Containerd use crun, runc, gVisor, Nabla, katacontainers, Firecracker](https://adriancitu.files.wordpress.com/2021/12/untitled-diagram-image-run.drawio1.png)<br>
-
 [Visualizing how Docker, Kubernetes, CRI, CRI-O, containerd, OCI & runc fit together](https://www.tutorialworks.com/assets/images/container-ecosystem.drawio.png?ezimgfmt=rs:704x1183/rscb6/ng:webp/ngcb6) [[1]](https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/)<br>
 [Visualizing how Kubernetes, CRI, CRI-O, containerd fit together](https://www.tutorialworks.com/assets/images/container-ecosystem-cri.drawio.png?ezimgfmt=rs:704x353/rscb6/ng:webp/ngcb6) [[1]](https://www.tutorialworks.com/difference-docker-containerd-runc-crio-oci/)<br>
 [Visualizing how Kubelet, CRI, CRI-O, OCI & runc & kata-runtime fit together](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*h2j060L-iJMlyW9F.jpg) [[1]](https://medium.com/kata-containers/why-kata-containers-doesnt-replace-kubernetes-75e484679727)<br>
@@ -235,12 +209,16 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing how Kubelet, containerd & runc fit together](https://lh3.googleusercontent.com/4RJz6Kbqa3z2AQ5QZQgNZKKLqa-VcSJq84IIEhhO6Rl0fIR09Aq8ODIiS2YgbuWbaCUP2kaZhC8EUPHJFrVRRXaLl09z0tVtjpcOTU_pdB17APS-qgbN_Ab5R9NNHX5ew8104-_X)<br>
 [Visualizing CRI-Containerd Architecture: Kubelet -> gRPC -> cri-containerd -> gRPC -> containerd -> containerd shim](https://lh3.googleusercontent.com/U2WuYpgyAOknVzhwJbZz1y4Jk1wAlJDP1n42tiF-CpTEbvScGts_Z6_NOeVDF0SiaV4YRT1gl79MzdtD3mgzKET8xNDs6LAyjzH9J74xcs-0cgxBaPi6KbMsEhOH6WfqXu-H6Oq-) [[1]](https://cto.ai/blog/overview-of-different-container-runtimes/)<br>
 
-[Visualizing 3-tier Architecture in Pools](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*LfqnGkJ5TGYDlMac4_WgdQ.png) [[1]](https://medium.com/@raphael.moutard/forget-your-microservices-the-unparalleled-benefits-of-pool-architecture-63b462989856)<br>
-
+[Visualizing 11 Powerful Tools to Manage Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*oGFrOhsGfJ6uqVz-Fm6M-w.gif) [[1]](https://medium.com/@muthanagavamsi/11-powerful-tools-to-manage-kubernetes-aec9a6dea8c9)<br>
 [Visualizing K8s Tools](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*dRZMWKGGvqS-No8sUYTH1g.png) [[1]](https://blog.devgenius.io/k8s-tools-kubeshark-464443bea7d7)<br>
 [Visualizing K8s Tools Mind Map](https://github.com/metaleapca/metaleap-k8s-tools/blob/main/metaleap-k8s-tools.pdf)<br>
 [Visualizing Kubeshark](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*XTUlvLMNNtFURZQH.png)<br>
 [Visualizing Service Map](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*siUBtghrpU5niGkh.png)<br>
+
+[Visualizing OWASP Top 10 LLM Applications](https://llmtop10.com/) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*8GG8RfUkKE3p2ym0)<br>
+
+[Visualizing Lean Platform Engineering with Azure](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jQms01KS7IDTAC3u-AUCdQ.gif) [[1]](https://medium.com/@artem_lajko/lean-platform-engineering-0509afceaf82)<br>
+[Visualizing Azure Application Gateway for Containers](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*IPHLDIJRYVDt4wRgpW_SkQ.gif) [[1]](https://medium.com/@muthanagavamsi/azure-application-gateway-for-containers-66920f18659)<br>
 
 [Visualizing a Normal Deployment vs. a Helm Deployment](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*hlqgMPyWMcfHU-GD) [[1]](https://amanpathakdevops.medium.com/day-26-kubernetes-helm-helm-charts-chapter-1-46e23aba25e6)<br>
     
@@ -270,7 +248,24 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing Thanos for Prometheus](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*-DyHMDxAOFyL2r5-8DeHpA.png) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*n_j1yPMvHL6gkDSGzq_LPw.png) [[2]](https://betterprogramming.pub/set-up-thanos-with-multi-tenancy-to-power-up-your-prometheus-70123e6ea555)<br>
 
 [Visualizing SDLC](https://phoenixnap.com/blog/wp-content/uploads/2019/05/software-development-life-cycle.jpg) [[1]](https://camo.githubusercontent.com/6f0862439bd339eaa14f22a28af6fa77ed6d13a1f8072022d3f8f23df9638f86/68747470733a2f2f63646e2e6472696262626c652e636f6d2f7573657275706c6f61642f373732353831342f66696c652f6f726967696e616c2d61643334653561336435383761386139306236353836646536373731303232352e676966)<br>
+     
+[Visualizing GitOps with Argo & Jenkins](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*aFrAvtOtsQAR9ZFZlTtlPA.png) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*E5TUjGfs0CrZTU6QB5pXXg.png) [[2]](https://medium.com/@emrah-t/extending-your-ci-cd-pipeline-with-gitops-an-end-to-end-automation-with-argocd-and-jenkins-on-b456a8760a11)<br>
 
+[Visualizing DevOps](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*8nimBWvKbst1nmTnuPv-wA.jpeg) [[1]](https://cloudmize.medium.com/top-devops-tools-for-2024-essential-software-for-streamlined-software-development-91bc88a995d2)<br>
+[Visualizing DevOps in Different Environments](https://github.com/metaleapca) [[1]](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf)<br>
+[Visualizing DevOps in Kubernetes](https://github.com/metaleapca/metaleap-devops-in-k8s/blob/main/metaleap-devops-in-k8s.pdf) [[1]](https://blog.devgenius.io/devops-in-k8s-pod-lifecycle-part-one-c5c78d9da941)<br>
+[Visualizing DevOps in Linux](https://github.com/metaleapca/metaleap-devops-in-linux/blob/main/metaleap-devops-in-linux.pdf)<br>
+[Visualizing DevOps K8s Tools](https://github.com/metaleapca/metaleap-k8s-tools/blob/main/metaleap-k8s-tools.pdf)<br>
+[Visualizing DevOps with Terraform](https://github.com/metaleapca/metaleap-devops-in-terraform/blob/main/metaleap-devops-in-terraform.pdf)<br>
+[Visualizing DevOps with ArgoCD](https://github.com/metaleapca/metaleap-devops-in-argocd/blob/main/metaleap-devops-in-argocd.pdf)<br>
+
+[Visualizing Methodology for Building Software-as-a-Service Apps](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xj8exAVC0kguMgyYltDapg.png) [[1]](https://medium.com/@tech_18484/introduction-701b7a8f4730) [[2]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QPTyF4ejabd1db3F6hl9Mg.png) [[3]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ZoYX6WbQEbVWL1i6zylpkQ.png) [[4]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*UBvkj-wYqEp_pimuzqnQ8w.png)<br>
+
+[Visualizing the Technology Hype Cycle](https://upload.wikimedia.org/wikipedia/commons/b/bf/Hype-Cycle-General.png) [[1]](https://www.youtube.com/watch?v=jB1RDz9jaj0)<br>
+
+[Visualizing 10 Common Statistical Concepts of Data Science](https://towardsdev.com/diagrams-for-10-common-concepts-of-data-science-bbc79cd753f6) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*KGB62_1stkcg9erYWQk8sw.png) [[2]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*huUr4hGOedKFFPcVUg1zaA.png) [[3]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*5eCQHaWzSKgSbehxWzzvpw.png) [[4]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*wv8VZJy691LPSvX_TT32dA.png) [[5]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*F6TggVdQyB9FaRhvJLtJ-g.png) [[6]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bvc18HBTqULk021KJgp-tw.png) [[7]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2bQKzOTNO7iv1KPkaT1Sog.png) [[8]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*f8POEKDgVx3nVIF9RFOohg.png) [[9]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*16VQ1ZzNFy8gXMT7a8TIgA.png) [[10]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*YW9rFvihc3gRazMkQGKZdg.png) [[11]](https://miro.medium.com/v2/resize:fit:1384/format:webp/1*gwGoctimCF5iirqJMsLYAg.png) [[12]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Z9lJw2SydDdUdnCcV4eOIw.png) [[13]](https://miro.medium.com/v2/resize:fit:1380/format:webp/1*DrP23Bx_nNBTgoMhN1sJGQ.png) [[14]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*w40PcBdM7ykYZTcG2UV08g.png) [[15]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*uSmjQSwiTdzetma81xYbKw.png) [[16]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fbzbmojqwF1UCjkGozXVnQ.png) [[17]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*p8HPlBv6OHms2bSinmwA4Q.png) [[18]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*wtcKpVKur5sRoJY2xsLDqg.png) [[19]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SO4k-HC9t2tMhYwD0ijJnA.png)<br>
+
+[Visualizing Master Data Management (MDM)](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*g5CbXky5MczAzIKt_ePI-g.png) [[1]](https://piethein.medium.com/understanding-master-data-managements-integration-challenges-a41f6ed0f702) [[2]](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*AX7nLMkilgOWwRAYxIYH6w.png) [[3]](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*p9pm6poLnZQc4Of6zlR2Iw.png)<br>
 
 ### Additional Resources
 [Kubetools - A Curated List of Kubernetes Tools](https://github.com/collabnix/kubetools)<br>
