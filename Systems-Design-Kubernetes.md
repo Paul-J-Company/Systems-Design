@@ -138,6 +138,9 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 [Visualizing Flannel Overlay Networking](https://blogs.oracle.com/content/published/api/v1.1/assets/CONT94FDF8973EA4486AB65E88CA4DF72114/Medium?cb=_cache_6177&format=jpg&channelToken=f7814d202b7d468686f50574164024ec)<br>
 
 [Visualizing Container-to-Container & Pod-to-Pod Networking](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Ccw0MWdbKF7LoQAD-xZVfg.png) [[1]](https://ammarsuhail155.medium.com/kubernetes-networking-798c06b2a3ca)<br>
+[Visualizing Pod-to-Service Networking](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*0n-D-a_RwTnUxew1e7YM7w.png)<br>
+[Visualizing Internet-to-Service Networking](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*5RBqnUbO9-zTnEN_JvjvUA.png)<br>
+[Visualizing ServiceTypes for publishing Services](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*UTC75W7XCZ159qLHiO7ABg.png)<br>
 
 [Visualizing the service access relationship in Kubernetes and service mesh (one sidecar per pod model)](https://cdn.thenewstack.io/media/2021/03/200a2844-image4.png)<br>
 
