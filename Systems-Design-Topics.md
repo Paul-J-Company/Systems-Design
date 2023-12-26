@@ -191,6 +191,11 @@ Bottom line is **"your job is to implement the [System Properties](https://githu
 [Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br>
 
 <details>
+<summary>What is Single Pain of Glass?</summary>
+&ensp;&ensp;[Single pane of glass](https://www.mitel.com/features-benefits/single-pane-of-glass) is a term used throughout the IT and management fields relating to a management tool<br>
+&ensp;&ensp;that unifies data or interfaces across several different sources and presents them in a single view.<br>
+</details>
+<details>
 <summary>What is the meaning of the term "Open" in the context of Systems Design?</summary>
 &ensp;&ensp;Open = Free + Open Research + Open Design + Open Standards + Open Software + Open Hardware<br>
 &ensp;&ensp;I personally feel it is the best way to run almost all software businesses (with very complicated caveats dealing with security & necessity)<br>
@@ -565,9 +570,6 @@ What is gRPC?<br>
 &ensp;&ensp;procedure call (RPC) framework that can run anywhere.<br>
 &ensp;&ensp;gRPC enables client and server applications to communicate transparently,<br>
 &ensp;&ensp;and simplifies the building of connected systems.<br>
-What is Single Pain of Glass?<br>
-&ensp;&ensp;[Single pane of glass](https://www.mitel.com/features-benefits/single-pane-of-glass) is a term used throughout the IT and management fields relating to a management tool<br>
-&ensp;&ensp;that unifies data or interfaces across several different sources and presents them in a single view.<br>
 
 ### The Six Pillars of Platform Engineering:
 1) [Security:](https://thenewstack.io/the-6-pillars-of-platform-engineering-part-1-security/)<br>
