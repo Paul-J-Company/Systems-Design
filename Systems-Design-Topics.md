@@ -179,19 +179,19 @@ High Availability (HA):<br>
 ### IT Industry Definitions/Buzzwords:
 <details>
 <summary>My take on Buzzwords</summary>
-Buzzwords are one thing about the IT Industry I don't care for.<br>
-Buzzwords are typically ambiguous and violate the Efficient Communications rule.<br>
-IT Systems are complicated enough without having to add to the confusion with buzzwords.<br>
-But as a rational person, you have to deal with reality, and sadly, buzzwords are a reality of today's modern IT Industry.<br>
-Here is my attempt to apply Efficient Communication (filter the signal from the noise) to IT buzzwords.<br>
-**A quick comment on the buzzwords Platform Engineering, DevOps, and Site Reliability Engineer (SRE):<br>**
-Don't sweat the details of these 3 buzzwords, they all really mean the same thing:<br>
-you have an infrastructure, people using that infrastructure (Internal: Ops, Developers; External: Customers)<br>
-and your job is to design, build and maintain the infrastructure and make the people using it happy.<br>
-The definition of "happy" is created by analyzing your Company's needs and objectives.<br>
-
-Bottom line is **"your job is to implement the [System Properties](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#systems-properties) defined in this repo."**<br>
-[Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br>
+&ensp;&ensp;Buzzwords are one thing about the IT Industry I don't care for.<br>
+&ensp;&ensp;Buzzwords are typically ambiguous and violate the Efficient Communications rule.<br>
+&ensp;&ensp;IT Systems are complicated enough without having to add to the confusion with buzzwords.<br>
+&ensp;&ensp;But as a rational person, you have to deal with reality, and sadly, buzzwords are a reality of today's modern IT Industry.<br>
+&ensp;&ensp;Here is my attempt to apply Efficient Communication (filter the signal from the noise) to IT buzzwords.<br>
+&ensp;&ensp;**A quick comment on the buzzwords Platform Engineering, DevOps, and Site Reliability Engineer (SRE):**<br>
+&ensp;&ensp;Don't sweat the details of these 3 buzzwords, they all really mean the same thing:<br>
+&ensp;&ensp;you have an infrastructure, people using that infrastructure (Internal: Ops, Developers; External: Customers)<br>
+&ensp;&ensp;and your job is to design, build and maintain the infrastructure and make the people using it happy.<br>
+&ensp;&ensp;The definition of "happy" is created by analyzing your Company's needs and objectives.<br>
+   
+&ensp;&ensp;Bottom line is **"your job is to implement the [System Properties](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#systems-properties) defined in this repo."**<br>
+&ensp;&ensp;[Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br>
 </details>
 
 <details>
