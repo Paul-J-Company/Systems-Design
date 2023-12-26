@@ -292,8 +292,8 @@ What is Platform as a Service (PaaS)?<br>
 &ensp;&ensp;PaaS supports custom workflows to enable teams to function efficiently.<br>
 &ensp;&ensp;PaaS enables the introduction of new ways to build, run, and deploy apps easily.<br>
 &ensp;&ensp;PaaS allows underlying technology to be swapped out with no impact on teams.<br>
-[SRE vs Platform Engineering vs DevOps](https://medium.com/@badawekoo/sre-vs-platform-engineering-vs-devops-77d1733bf4c0)<br>
 What is Platform Engineering? [[1]](https://medium.com/@rphilogene/platform-engineering-predictions-for-2024-e81e8e77677d)<br>
+[SRE vs Platform Engineering vs DevOps](https://medium.com/@badawekoo/sre-vs-platform-engineering-vs-devops-77d1733bf4c0)<br>
 &ensp;&ensp;Platform Engineering ensures that there isn't an "us and them" mentality,<br>
 &ensp;&ensp;which leads to a bad overall customer experience.<br>
 &ensp;&ensp;Platform Engineering is all about accelerating software delivery efficiency and velocity.<br>
@@ -326,6 +326,7 @@ What is Site Reliability Engineering (SRE)? [[1]](https://handbook.gitlab.com/jo
 &ensp;&ensp;&ensp;&ensp;4) Performance Engineering: SRE teams work to ensure that systems are performing well, even in the face of high traffic volumes.<br>
 &ensp;&ensp;&ensp;&ensp;5) Capacity Planning: SRE teams plan for future growth and ensure that systems can handle increased traffic volumes.<br>
 What is DevOps?<br>
+[DevOps Vs Platform Engineering: Is There a Difference?](https://medium.com/@rphilogene/devops-vs-platform-engineering-is-there-a-difference-4ea42eaf132b)<br>
 &ensp;&ensp;[DevOps Engineer Roles and Responsibilities](https://www.techrepublic.com/article/devops-engineer-roles-and-responsibilities/)<br>
 &ensp;&ensp;DevOps is supposed to solve the problem of siloed teams blaming each other when things go wrong.<br>
 &ensp;&ensp;DevOps is mainly a culture of communication and cross-functional collaboration.<br>
