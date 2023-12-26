@@ -90,8 +90,11 @@ how I implemented the unique Kubernetes installation and how I evaluated it.<br>
 
 [Visualizing Speeding up Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*b-3KinhvoUVHybyPbc6Szw.gif) [[0]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*VM_U6Gm15YAIygDRMHz-nA.gif) [[1]](https://medium.com/@muthanagavamsi/lets-speed-up-kubernetes-29d3bfa1eb4) [[2]](https://medium.com/@muthanagavamsi/lets-speed-up-kubernetes-again-666fa5de541c)<br>
      
-[What are the Differences Between VPA, HPA, CA, and CPA in Kubernetes?](https://hwchiu.medium.com/what-are-the-differences-between-vpa-hpa-ca-and-cpa-in-kubernetes-5f74c97001ed)<br>
-[Visualizing VPA, HPA, CA, and CPA in Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*hXlG9FTm02CrdyR_.png)<br>
+[Visualizing VPA, HPA, CA, and CPA in Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*hXlG9FTm02CrdyR_.png) [[1]](https://hwchiu.medium.com/what-are-the-differences-between-vpa-hpa-ca-and-cpa-in-kubernetes-5f74c97001ed)<br>
+&ensp;&ensp;HPA (Horizontal Pod Autoscaler)<br>
+&ensp;&ensp;VPA (Vertical Pod Autoscaler)<br>
+&ensp;&ensp;CPA (Cluster Propotional Autoscaler)<br>
+&ensp;&ensp;CA (Cluster Autoscaler)<br>
 
 [Visualizing Cgroups](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*A6QdIrd-fC1M1Eeu) [[1]](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*VZEe-mdoRQADboTMcpSR6w.png)<br>
 [Visualizing Cgroups in Kubernetes](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*yO9CWHVsEL3Aze-X) [[1]](https://medium.com/geekculture/layer-by-layer-cgroup-in-kubernetes-c4e26bda676c) [[2]](https://man7.org/linux/man-pages/man7/cgroups.7.html) [[3]](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/configure-cgroup-driver/) [[4]](https://github.com/kubernetes/kubernetes/blob/cde45fb161c5a4bfa7cfe45dfd814f6cc95433f7/pkg/kubelet/cm/helpers_linux.go#L116)<br>
