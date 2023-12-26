@@ -193,14 +193,16 @@ High Availability (HA):<br>
 &ensp;&ensp;Bottom line is **"your job is to implement the [System Properties](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design.md#systems-properties) defined in this repo."**<br>
 &ensp;&ensp;[Wikipedia](https://en.wikipedia.org/wiki/Buzzword) and [Google](https://www.google.com/search?q=IT+buzzwords) are good sources for looking up these buzzwords.<br>
 </details>
-
 <details>
-<summary>What is Single Pain of Glass?</summary>
-   
-&ensp;&ensp;[Single pane of glass](https://www.mitel.com/features-benefits/single-pane-of-glass) is a term used throughout the IT and management fields relating to a management tool<br>
-&ensp;&ensp;that unifies data or interfaces across several different sources and presents them in a single view.<br>
-</details>
+<summary>
 
+   #### What is [Single Pain of Glass](https://www.mitel.com/features-benefits/single-pane-of-glass)?
+
+</summary>
+
+&ensp;&ensp;[Single Pane of Glass](https://www.mitel.com/features-benefits/single-pane-of-glass) is a term used throughout the IT and management fields relating to a management tool<br>
+&ensp;&ensp;that unifies data or interfaces across several different sources and presents them in a single view.
+</details>
 <details>
 <summary>What is the meaning of the term "Open" in the context of Systems Design?</summary>
 &ensp;&ensp;Open = Free + Open Research + Open Design + Open Standards + Open Software + Open Hardware<br>
