@@ -13,8 +13,8 @@ WIDE Learning enables you to **_Identify correlations among all past shallow kno
 WIDE Learning is essential for Leaders who have to make high-level decisions and see the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture).<br>
 DEEP Learning enables you to **_become and expert in your narrow field of study_**.<br>
 DEEP Learning is essential because coupled with broad learning it allows for the completion of high-level decisions.<br>
-WIDE Learners are [Generalists](https://dictionary.cambridge.org/us/dictionary/english/generalist) [[1]](https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none) [[2]]() [[3]]()<br>
-DEEP Learners are [Specialists](https://dictionary.cambridge.org/us/dictionary/english/specialist) [[1]](https://en.wikipedia.org/wiki/Specialization_of_knowledge)) [[2]]() [[3]]()<br>
+WIDE Learners are [Generalists](https://dictionary.cambridge.org/us/dictionary/english/generalist) [[1]](https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none)<br>
+DEEP Learners are [Specialists](https://dictionary.cambridge.org/us/dictionary/english/specialist) [[1]](https://en.wikipedia.org/wiki/Specialization_of_knowledge))<br>
 **_WIDE AND DEEP Learners_** are [polymaths](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath), [Philomaths](https://en.wikipedia.org/wiki/Philomath) and [Autodidacts](https://dictionary.cambridge.org/us/dictionary/english/autodidact) [[1]](https://en.wikipedia.org/wiki/Autodidacticism) [[2]](https://en.wikipedia.org/wiki/List_of_autodidacts) [[3]](https://en.wikiquote.org/wiki/Autodidacticism).<br>
 **_Steps for Wide and Deep Learning_:**<br>
 &ensp;&ensp;1) Pick a Topic, Subject Area, Field of Study, or [Problem Domain](https://en.wikipedia.org/wiki/Problem_domain) that you are passionate about.<br>
