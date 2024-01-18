@@ -48,7 +48,7 @@ DEEP Learners are [Specialists](https://dictionary.cambridge.org/us/dictionary/e
 &ensp;&ensp;&ensp;&ensp;Caveat: "[out of the mouths of babes](https://en.wiktionary.org/wiki/out_of_the_mouths_of_babes) comes truth or wisdom".<br>
 &ensp;&ensp;&ensp;&ensp;In other words, sometimes experts can lead you astray because they're humans and have biases and other imperfections.<br>
 &ensp;&ensp;&ensp;&ensp;Goto step 6.<br>
-&ensp;&ensp;6) [Verify & Validate](https://www.waldo.com/blog/verification-vs-validation) everything you've learned so far:<br>
+&ensp;&ensp;6) [Verify (QA) & Validate (Test)](https://www.waldo.com/blog/verification-vs-validation) everything you've learned so far:<br>
 &ensp;&ensp;&ensp;&ensp;Can you prove the correlation is causation?<br>
 &ensp;&ensp;&ensp;&ensp;Can you generalize this new knowledge?<br>
 &ensp;&ensp;&ensp;&ensp;Can you identify all the limits (max, min, constraints).<br>
