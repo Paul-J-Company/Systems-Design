@@ -17,25 +17,26 @@ WIDE Learners are [Generalists](https://dictionary.cambridge.org/us/dictionary/e
 DEEP Learners are [Specialists](https://dictionary.cambridge.org/us/dictionary/english/specialist) [[1]](https://en.wikipedia.org/wiki/Specialization_of_knowledge)) [[2]]() [[3]]()<br>
 **_WIDE AND DEEP Learners_** are [polymaths](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath), [Philomaths](https://en.wikipedia.org/wiki/Philomath) and [Autodidacts](https://dictionary.cambridge.org/us/dictionary/english/autodidact) [[1]](https://en.wikipedia.org/wiki/Autodidacticism) [[2]](https://en.wikipedia.org/wiki/List_of_autodidacts) [[3]](https://en.wikiquote.org/wiki/Autodidacticism).<br>
 **_Steps for Wide and Deep Learning_:**<br>
-&ensp;&ensp;1) Pick a Topic, Subject Area, Field of Study, or [Problem Domain](https://en.wikipedia.org/wiki/Problem_domain) that you are passionate about. [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;1) Pick a Topic, Subject Area, Field of Study, or [Problem Domain](https://en.wikipedia.org/wiki/Problem_domain) that you are passionate about.<br>
 &ensp;&ensp;&ensp;&ensp;Examples:<br>
-&ensp;&ensp;&ensp;&ensp;Philosophy, Mathematics, Physics, Chemistry, Biology, Engineering, Economics,<br>
+&ensp;&ensp;&ensp;&ensp;Philosophy, Mathematics, Physics, Chemistry, Biology, Engineering, Computer Science, Economics,<br>
 &ensp;&ensp;&ensp;&ensp;Psychology, Sociology, History, Art, Music, Athletics/Sports, Games, etc.<br>
-&ensp;&ensp;2) Gather Information about the Topic: [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;&ensp;&ensp;Use typical sources: [Search Engines](), [Google Scholar](), [Arxiv](), etc.<br>
-&ensp;&ensp;3) Organize the Topic Information into Knowledge: [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;2) Gather Information about the Topic:<br>
+&ensp;&ensp;&ensp;&ensp;Use typical sources: [Search Engines](https://google.com), [Google Scholar](https://scholar.google.com), [Arxiv](https://arxiv.org/), etc.<br>
+&ensp;&ensp;3) Organize the Topic Information into Knowledge:<br>
 &ensp;&ensp;&ensp;&ensp;Classify, Categorize, Taxonomy, Ontology.<br>
-&ensp;&ensp;&ensp;&ensp;Rank, Sort (ascending/descending by-type/kind, by-class, same/different, by-date, by-time, by-person)<br>
-&ensp;&ensp;4) Do Shallow Learning: [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;&ensp;&ensp;Simplify, Rank, Sort (ascending/descending by-type/kind, by-class, same/different, by-date, by-time, by-person)<br>
+&ensp;&ensp;4) Do Shallow Learning:<br>
 &ensp;&ensp;&ensp;&ensp;Steps 1, 2 and 3 are already forms of shallow learning, so you've alread started!<br>
 &ensp;&ensp;&ensp;&ensp;Use AI/ML/DL to summarize information, answer shallow questions.<br>
 &ensp;&ensp;&ensp;&ensp;Read the index of books:<br>
 &ensp;&ensp;&ensp;&ensp;Read the abstract of articles:<br>
 &ensp;&ensp;&ensp;&ensp;Read the summary and conclusions of books, articles, journals, etc:<br>
 &ensp;&ensp;&ensp;&ensp;Skim material quickly to get general idea of what's trying to be communicated.<br>
-&ensp;&ensp;&ensp;&ensp;**_Identify correlations among all past shallow knowledge_**: [[1]]() [[2]]() [[3]]()<br>
-&ensp;&ensp;&ensp;&ensp;Goto step 6.<br>
-&ensp;&ensp;5) Do Deep(er) Learning: [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;&ensp;&ensp;**_Identify correlations among all past shallow knowledge_**:<br>
+&ensp;&ensp;&ensp;&ensp;If you want to continue with shallow learning, then goto step 6.<br>
+&ensp;&ensp;&ensp;&ensp;If you want to go deeper on the subject, then goto step 5.<br>
+&ensp;&ensp;5) Do Deep(er) Learning:<br>
 &ensp;&ensp;&ensp;&ensp;Use AI/ML/DL to "go deep" on the information, answer deep questions.<br>
 &ensp;&ensp;&ensp;&ensp;Read every word, contemplate, reflect, focus, etc.<br>
 &ensp;&ensp;&ensp;&ensp;Identify all the limits (max, min, constraints).<br>
@@ -47,14 +48,14 @@ DEEP Learners are [Specialists](https://dictionary.cambridge.org/us/dictionary/e
 &ensp;&ensp;&ensp;&ensp;Caveat: "[out of the mouths of babes](https://en.wiktionary.org/wiki/out_of_the_mouths_of_babes)" "comes truth or wisdom"<br>
 &ensp;&ensp;&ensp;&ensp;In other words, sometimes experts can lead you astray because they're humans and have biases and other imperfections.<br>
 &ensp;&ensp;&ensp;&ensp;Goto step 6.<br>
-&ensp;&ensp;6) Validate everyting you've learned so far: [[1]]() [[2]]() [[3]]()<br>
+&ensp;&ensp;6) Validate/Verify everyting you've learned so far:<br>
 &ensp;&ensp;&ensp;&ensp;Can you prove the correlation is causation?<br>
 &ensp;&ensp;&ensp;&ensp;Can you generalize this new knowledge?<br>
 &ensp;&ensp;&ensp;&ensp;Can you identify all the limits (max, min, constraints).<br>
 &ensp;&ensp;&ensp;&ensp;Can you identify all the special knowledge (the subtle and nuanced things you learn by doing; key principles, slices of wisdom).<br>
-&ensp;&ensp;&ensp;&ensp;Did you record context, build model of the knowledge space, etc.<br>
+&ensp;&ensp;&ensp;&ensp;Did you record context, build a model of the knowledge space, etc.<br>
 &ensp;&ensp;&ensp;&ensp;Did you generate new questions (more unknowns)?<br>
-&ensp;&ensp;&ensp;&ensp;Did you create new information, knowledge, wisdom, topics, etc.?<br>
+&ensp;&ensp;&ensp;&ensp;Did you create new data, information, knowledge, wisdom, topics, etc.?<br>
 &ensp;&ensp;&ensp;&ensp;If you think you created a new topic (it is very difficult to discover a new topic!),<br>
 &ensp;&ensp;&ensp;&ensp;then goto step 7.<br>
 &ensp;&ensp;&ensp;&ensp;If you answered no to questions above, the ask an expert: goto step 8.<br>
