@@ -22,7 +22,7 @@ DEEP Learners are [Specialists](https://dictionary.cambridge.org/us/dictionary/e
 &ensp;&ensp;&ensp;&ensp;Philosophy, Mathematics, Physics, Chemistry, Biology, Engineering, Computer Science, Economics,<br>
 &ensp;&ensp;&ensp;&ensp;Psychology, Sociology, History, Art, Music, Athletics/Sports, Games, etc.<br>
 &ensp;&ensp;2) Gather Information about the Topic:<br>
-&ensp;&ensp;&ensp;&ensp;Use typical sources: [Search Engines](https://google.com), [Google Scholar](https://scholar.google.com), [Arxiv](https://arxiv.org/), etc.<br>
+&ensp;&ensp;&ensp;&ensp;Use reliable sources: [Search Engines](https://google.com), [Google Scholar](https://scholar.google.com), [Arxiv](https://arxiv.org/), etc.<br>
 &ensp;&ensp;3) Organize the Topic Information into Knowledge:<br>
 &ensp;&ensp;&ensp;&ensp;Classify, Categorize, Taxonomy, Ontology.<br>
 &ensp;&ensp;&ensp;&ensp;Simplify, Rank, Sort (ascending/descending by-type/kind, by-class, same/different, by-date, by-time, by-person)<br>
