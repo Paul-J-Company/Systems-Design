@@ -85,8 +85,9 @@ Drink from the firehose, you will learn to love it, and it will feed your passio
 &ensp;&ensp;&ensp;&ensp;Inspire others to "pay it forward!"<br>
 &ensp;&ensp;&ensp;&ensp;Enjoy yourself and spread joy, why are you doing all this hard work for anyway!<br>
 &ensp;&ensp;&ensp;&ensp;Goto Step 9.<br>
-&ensp;&ensp;9) Goto step 2, and iterate until you die:<br>
-&ensp;&ensp;&ensp;&ensp;[Life Long Learning]() (aka., [Continuous Learning]()) leads to [Continuous Improvement]() which perpetuates progress, fulfillment and flourishing.<br>
+&ensp;&ensp;9) Goto step 1 or 2, and iterate until you die:<br>
+&ensp;&ensp;&ensp;&ensp;Be [Infinitely Curious](https://www.linkedin.com/pulse/im-infinitely-curious-how-staying-supercharged-mark-cubans-roslansky/), and a [Life Long Learner]() (aka., [Continuous Learning]())<br>
+&ensp;&ensp;&ensp;&ensp;because it leads to [Continuous Improvement]() which perpetuates progress, fulfillment and flourishing.<br>
 
 
 
