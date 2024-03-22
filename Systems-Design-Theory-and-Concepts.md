@@ -3,24 +3,42 @@ I recommend viewing the corresponding [YouTube Playlist]() for this page.<br>
 You can also jump down to the end of this page to review the [Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#additional-resources) section.<br>
 
 ### Concept of Wide and Deep Learning:
-Synonym for Wide is Broad so they are equivalent and will be used interchangeably.<br>
+There are two types of Learning I will focus on: Wide and Deep.<br>
+The key takeaway of this section is to maximize your learning by balancing both Wide and Deep Learning at all levels of abstraction.<br>
+A synonym for Wide is Broad/Breadth, so they are equivalent and will be used interchangeably.<br>
+A related term for Wide is Shallow, and will be used to demonstrate that shallow learning enables wide learning.<br>
+When you have limited resources, you must do shallow learning in order to do wide learning.<br>
+WIDE Learning tells you WHERE to go DEEP, so you always start with WIDE Learning.<br>
 WIDE Learning is finding the correlations, relationships, similarities, differences, etc. among all fields of study.<br>
-You can think of Breadth as the "[BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture)" or the "[Holistic View](https://beyo.global/thinking/what-are-holistic-approaches-and-why-are-companies-using-them)" or the "[Can't See the Forrest Through the Trees](https://www.linkedin.com/pulse/whats-meaning-cant-see-forest-through-trees-jared-jerotz)" [colloquialism](https://www.quora.com/What-does-it-mean-to-see-the-forest-through-the-trees) [[1]](https://medium.com/collaborative-synchronous-data-visualization/a-tree-is-not-a-forest-why-trees-are-a-perfect-metaphor-for-human-communities-3fb4f74c24cb
+You can think of Wide as the "[BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture)" or the "[Holistic View](https://beyo.global/thinking/what-are-holistic-approaches-and-why-are-companies-using-them)" or the "[Can't See the Forrest Through the Trees](https://www.linkedin.com/pulse/whats-meaning-cant-see-forest-through-trees-jared-jerotz)" [colloquialism](https://www.quora.com/What-does-it-mean-to-see-the-forest-through-the-trees) [[1]](https://medium.com/collaborative-synchronous-data-visualization/a-tree-is-not-a-forest-why-trees-are-a-perfect-metaphor-for-human-communities-3fb4f74c24cb
 ).<br>
-It's imperitive that you don't miss the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture) by focusing on tiny details when doing WIDE learning.<br>
+It's imperitive that you learn the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture) when doing WIDE learning.<br>
 WIDE Learning captures the concepts of [Interdisciplinarity (aka., Multidisciplinarity, Pluridisciplinarity)](https://en.wikipedia.org/wiki/Interdisciplinarity) [[1]](https://en.wikipedia.org/wiki/Interdiscipline), and [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity)<br>
 WIDE Learning enables you to **_Identify correlations among all past shallow knowledge_**.<br>
 WIDE Learning is essential for Leaders who have to make high-level decisions and see the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture).<br>
+The other type of learning is DEEP learning.<br>
+A releated term for Deep is Narrow, and will be used to demonstrate that narrow learning enables expertise in a specific field of study.<br>
 DEEP Learning enables you to **_become and expert in your narrow field of study_**.<br>
 DEEP Learning is essential because coupled with broad learning it allows for the completion of high-level decisions.<br>
+The key takeaway of DEEP Learning is to never loose track of where, how and why the details relate to the BIGPICTURE.<br>
+WIDE Learning tells you WHERE to go DEEP.<br>
+DEEP Learning tells you WHAT to do and HOW to do it when you get there.<br>
+WIDE + DEEP Learning tells you WHY you make the descisions you make.<br>
+**_WIDE AND DEEP Learners_** are [polymaths](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath), [Philomaths](https://en.wikipedia.org/wiki/Philomath) and [Autodidacts](https://dictionary.cambridge.org/us/dictionary/english/autodidact) [[1]](https://en.wikipedia.org/wiki/Autodidacticism) [[2]](https://en.wikipedia.org/wiki/List_of_autodidacts) [[3]](https://en.wikiquote.org/wiki/Autodidacticism).<br>
 WIDE Learners are [Generalists](https://dictionary.cambridge.org/us/dictionary/english/generalist) [[1]](https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none)<br>
 DEEP Learners are [Specialists](https://dictionary.cambridge.org/us/dictionary/english/specialist) [[1]](https://en.wikipedia.org/wiki/Specialization_of_knowledge))<br>
-**_WIDE AND DEEP Learners_** are [polymaths](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath), [Philomaths](https://en.wikipedia.org/wiki/Philomath) and [Autodidacts](https://dictionary.cambridge.org/us/dictionary/english/autodidact) [[1]](https://en.wikipedia.org/wiki/Autodidacticism) [[2]](https://en.wikipedia.org/wiki/List_of_autodidacts) [[3]](https://en.wikiquote.org/wiki/Autodidacticism).<br>
+The Whole is greater than the sum of it's parts: often called [Synergy]() or [Emergence]().<br>
+WIDE + DEEP Learning is synergistic.<br>
+Good Leaders use WIDE Learning to give direction and create strategy.<br>
+Good Leaders surround themselves with DEEP Learners in order to finetune and optimize their descisions.<br>
+Great Leaders are both Wide and Deep which fosters Wisdom (the ability to make the right descision when everyone or everything is telling you not to).<br>
+The last key takeaway: there is an infinite amount of things to learn in a lifetime, so always be a [Continuous Learner]()!<br>
+Drink from the firehose, you will learn to love it, and it will feed your passions.<br>
 **_Steps for Wide and Deep Learning_:**<br>
 &ensp;&ensp;1) Pick a Topic, Subject Area, Field of Study, or [Problem Domain](https://en.wikipedia.org/wiki/Problem_domain) that you are passionate about.<br>
 &ensp;&ensp;&ensp;&ensp;Examples:<br>
 &ensp;&ensp;&ensp;&ensp;Philosophy, Mathematics, Physics, Chemistry, Biology, Engineering, Computer Science, Economics,<br>
-&ensp;&ensp;&ensp;&ensp;Psychology, Sociology, History, Art, Music, Athletics/Sports, Games, etc.<br>
+&ensp;&ensp;&ensp;&ensp;Psychology, Sociology, History, Art, Music, Athletics/Sports, Games, Cooking, etc.<br>
 &ensp;&ensp;2) Gather Information about the Topic:<br>
 &ensp;&ensp;&ensp;&ensp;Use reliable sources: [Search Engines](https://google.com), [Google Scholar](https://scholar.google.com), [Arxiv](https://arxiv.org/), etc.<br>
 &ensp;&ensp;3) Organize the Topic Information into Knowledge:<br>
