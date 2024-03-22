@@ -13,7 +13,7 @@ WIDE Learning is finding the correlations, relationships, similarities, differen
 You can think of Wide as the "[BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture)" or the "[Holistic View](https://beyo.global/thinking/what-are-holistic-approaches-and-why-are-companies-using-them)" or the "[Can't See the Forrest Through the Trees](https://www.linkedin.com/pulse/whats-meaning-cant-see-forest-through-trees-jared-jerotz)" [colloquialism](https://www.quora.com/What-does-it-mean-to-see-the-forest-through-the-trees) [[1]](https://medium.com/collaborative-synchronous-data-visualization/a-tree-is-not-a-forest-why-trees-are-a-perfect-metaphor-for-human-communities-3fb4f74c24cb
 ).<br>
 It's imperitive that you learn the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture) when doing WIDE learning.<br>
-WIDE Learning captures the concepts of [Interdisciplinarity (aka., Multidisciplinarity, Pluridisciplinarity)](https://en.wikipedia.org/wiki/Interdisciplinarity) [[1]](https://en.wikipedia.org/wiki/Interdiscipline), and [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity)<br>
+WIDE Learning captures the concepts of [Interdisciplinarity](https://en.wikipedia.org/wiki/Interdisciplinarity) (aka., [Multidisciplinarity, Pluridisciplinarity)]() [[1]](https://en.wikipedia.org/wiki/Interdiscipline), and [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity))<br>
 WIDE Learning enables you to **_Identify correlations among all past shallow knowledge_**.<br>
 WIDE Learning is essential for Leaders who have to make high-level decisions and see the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture).<br>
 The other type of learning is DEEP learning.<br>
@@ -23,7 +23,7 @@ DEEP Learning is essential because coupled with broad learning it allows for the
 The key takeaway of DEEP Learning is to never loose track of where, how and why the details relate to the BIGPICTURE.<br>
 WIDE Learning tells you WHERE to go DEEP.<br>
 DEEP Learning tells you WHAT to do and HOW to do it when you get there.<br>
-WIDE + DEEP Learning tells you WHY you make the descisions you make.<br>
+WIDE + DEEP Learning can help you figure out WHY you make the descisions you make.<br>
 **_WIDE AND DEEP Learners_** are [polymaths](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath), [Philomaths](https://en.wikipedia.org/wiki/Philomath) and [Autodidacts](https://dictionary.cambridge.org/us/dictionary/english/autodidact) [[1]](https://en.wikipedia.org/wiki/Autodidacticism) [[2]](https://en.wikipedia.org/wiki/List_of_autodidacts) [[3]](https://en.wikiquote.org/wiki/Autodidacticism).<br>
 WIDE Learners are [Generalists](https://dictionary.cambridge.org/us/dictionary/english/generalist) [[1]](https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none)<br>
 DEEP Learners are [Specialists](https://dictionary.cambridge.org/us/dictionary/english/specialist) [[1]](https://en.wikipedia.org/wiki/Specialization_of_knowledge))<br>
