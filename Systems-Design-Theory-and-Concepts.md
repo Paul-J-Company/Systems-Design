@@ -177,8 +177,9 @@ There are 3 Major Types of Computer Abstraction:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;a bit should only represent two states (thus the word binary, latin for "consisting of two") and persist over time.<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;The assignment of meaning to a collection of bits is the most powerful form of<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;abstraction because without it, information has no meaning and does not persist.<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;You can assign any meaning you want to a collection of bits, but we use [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) to assign meaning.<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;You can assign any meaning you want to a collection of bits, but we use [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) to assign meaning by using it implement Arithmetic and Logic.<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;The reason for this is very philosophical and deep, See: "[Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#additional-resources) Theoretical Computer Science section"<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;A quick example of an alternate method of assigning meaning to a group of bits is [TBD]() [[1]]().<br>
 &ensp;&ensp;&ensp;System Level Abstractions:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;Bottom line: a computer system is nothing more than a series of abstractions layered on top of each other!<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Operating System (OS) Abstractions:](https://en.wikipedia.org/wiki/Operating_system)<br>
