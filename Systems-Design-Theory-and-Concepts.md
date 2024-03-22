@@ -40,12 +40,12 @@ Drink from the firehose, you will learn to love it, and it will feed your passio
 &ensp;&ensp;&ensp;&ensp;Philosophy, Mathematics, Physics, Chemistry, Biology, Engineering, Computer Science, Economics,<br>
 &ensp;&ensp;&ensp;&ensp;Psychology, Sociology, History, Art, Music, Athletics/Sports, Games, Cooking, etc.<br>
 &ensp;&ensp;2) Gather Information about the Topic:<br>
-&ensp;&ensp;&ensp;&ensp;Use reliable sources: [Search Engines](https://google.com), [Google Scholar](https://scholar.google.com), [Arxiv](https://arxiv.org/), etc.<br>
+&ensp;&ensp;&ensp;&ensp;Use reliable sources: [Search Engines](https://google.com), [Google Scholar](https://scholar.google.com), [Arxiv](https://arxiv.org/), Experts, [[1]](https://languages.oup.com/google-dictionary-en/), etc.<br>
 &ensp;&ensp;3) Organize the Topic Information into Knowledge:<br>
 &ensp;&ensp;&ensp;&ensp;Classify, Categorize, Taxonomy, Ontology.<br>
 &ensp;&ensp;&ensp;&ensp;Simplify, Rank, Sort (ascending/descending by-type/kind, by-class, same/different, by-date, by-time, by-person)<br>
-&ensp;&ensp;4) Do Shallow Learning:<br>
-&ensp;&ensp;&ensp;&ensp;Steps 1, 2 and 3 are already forms of shallow learning, so you've alread started!<br>
+&ensp;&ensp;4) Do Wide/Shallow Learning:<br>
+&ensp;&ensp;&ensp;&ensp;Steps 1, 2 and 3 are already forms of shallow learning, so you've already started!<br>
 &ensp;&ensp;&ensp;&ensp;Use AI/ML/DL to summarize information, answer shallow questions.<br>
 &ensp;&ensp;&ensp;&ensp;Read the index of books:<br>
 &ensp;&ensp;&ensp;&ensp;Read the abstract of articles:<br>
@@ -55,10 +55,10 @@ Drink from the firehose, you will learn to love it, and it will feed your passio
 &ensp;&ensp;&ensp;&ensp;If you want to continue with shallow learning, then goto step 6.<br>
 &ensp;&ensp;&ensp;&ensp;If you want to go deeper on the subject, then goto step 5.<br>
 &ensp;&ensp;5) Do Deep(er) Learning:<br>
-&ensp;&ensp;&ensp;&ensp;Use AI/ML/DL to "go deep" on the information, answer deep questions.<br>
+&ensp;&ensp;&ensp;&ensp;Use AI/ML/DL to "go deep" on the information, answer deeper questions.<br>
 &ensp;&ensp;&ensp;&ensp;Read every word, contemplate, reflect, focus, etc.<br>
 &ensp;&ensp;&ensp;&ensp;Identify all the limits (max, min, constraints).<br>
-&ensp;&ensp;&ensp;&ensp;Record context, build model of the knowledge space, etc.<br>
+&ensp;&ensp;&ensp;&ensp;Record context, build models of the knowledge representation space, etc.<br>
 &ensp;&ensp;&ensp;&ensp;Record all special knowledge (the subtle and nuanced things you learn by doing; key principles, slices of wisdom).<br>
 &ensp;&ensp;&ensp;&ensp;Build [Flowsheets](https://engineering.buffalo.edu/home/academics/undergrad/advisement/flowsheets.html?plan=EE-2023).<br>
 &ensp;&ensp;&ensp;&ensp;Create questions you want answered and ask an expert.<br>
@@ -67,6 +67,7 @@ Drink from the firehose, you will learn to love it, and it will feed your passio
 &ensp;&ensp;&ensp;&ensp;In other words, sometimes experts can lead you astray because they're humans and have biases and other imperfections.<br>
 &ensp;&ensp;&ensp;&ensp;Goto step 6.<br>
 &ensp;&ensp;6) [Verify (QA) & Validate (Test)](https://www.waldo.com/blog/verification-vs-validation) everything you've learned so far:<br>
+&ensp;&ensp;&ensp;&ensp;Be [rigourous](https://www.oxfordlearnersdictionaries.com/us/definition/english/rigorous) [[1]](https://dictionary.cambridge.org/us/dictionary/english/rigorous).<br>
 &ensp;&ensp;&ensp;&ensp;Can you prove the correlation is causation?<br>
 &ensp;&ensp;&ensp;&ensp;Can you generalize this new knowledge?<br>
 &ensp;&ensp;&ensp;&ensp;Can you identify all the limits (max, min, constraints).<br>
@@ -76,12 +77,13 @@ Drink from the firehose, you will learn to love it, and it will feed your passio
 &ensp;&ensp;&ensp;&ensp;Did you create new data, information, knowledge, wisdom, topics, etc.?<br>
 &ensp;&ensp;&ensp;&ensp;If you think you created a new topic (it is very difficult to discover a new topic!),<br>
 &ensp;&ensp;&ensp;&ensp;then goto step 7.<br>
-&ensp;&ensp;&ensp;&ensp;If you answered no to questions above, the ask an expert: goto step 8.<br>
+&ensp;&ensp;&ensp;&ensp;If you answered no to questions above, then ask an expert: goto step 8.<br>
 &ensp;&ensp;7) Add your new topic and goto step 2.<br>
 &ensp;&ensp;8) Identify the people (experts) behind everything and establish a positive relationship with them.<br>
 &ensp;&ensp;&ensp;&ensp;Record the people (experts) behind the technology, topic resources.<br>
 &ensp;&ensp;&ensp;&ensp;Collaboration and cooperation is the greatest skill one can have when advancing knowledge/learning.<br>
 &ensp;&ensp;&ensp;&ensp;Inspire others to "pay it forward!"<br>
+&ensp;&ensp;&ensp;&ensp;Enjoy yourself and spread joy, why are you doing all this hard work for anyway!<br>
 &ensp;&ensp;&ensp;&ensp;Goto Step 9.<br>
 &ensp;&ensp;9) Goto step 2, and iterate until you die:<br>
 &ensp;&ensp;&ensp;&ensp;[Life Long Learning]() (aka., [Continuous Learning]()) leads to [Continuous Improvement]() which perpetuates progress, fulfillment and flourishing.<br>
