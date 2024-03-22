@@ -3,6 +3,7 @@ I recommend viewing the corresponding [YouTube Playlist]() for this page.<br>
 You can also jump down to the end of this page to review the [Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-Theory-and-Concepts.md#additional-resources) section.<br>
 
 ### Concept of Wide and Deep Learning:
+If you love studying this topic, then you'll love AI, because AI fundamentally is about understanding what intelligence is and how you acheive it through learning.<br.
 There are two types of Learning I will focus on: Wide and Deep.<br>
 The key takeaway of this section is to maximize your learning by balancing both Wide and Deep Learning at all levels of abstraction.<br>
 A synonym for Wide is Broad/Breadth, so they are equivalent and will be used interchangeably.<br>
