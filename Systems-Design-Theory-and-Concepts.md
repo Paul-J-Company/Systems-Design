@@ -99,7 +99,7 @@ An [Abstraction](https://en.wikipedia.org/wiki/Abstraction) is hiding complexity
 Another view on abstraction is the more abstract something is, the more general/implicit, and/or less specific/explicit/detailed it is.<br>
 In a broader sense, Abstraction [simplifies](https://en.wikipedia.org/wiki/Simplicity) things.<br>
 But remember, simple does not necessarily imply easy.<br>
-An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) includes the following concepts:<br>
+An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) [[1]](https://miro.medium.com/v2/resize:fit:640/format:webp/1*paMoCSacdb0UFe2zMV7R6w.png) includes the following concepts:<br>
 &ensp;&ensp;[Interface:](https://en.wikipedia.org/wiki/Interface_(computing)) See: ABI, API, HAL; A good rule of thumb is if you see the word Interface, you're probably talking about an abstraction.<br>
 &ensp;&ensp;[Encapsulation:](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) See: [ACID](https://en.wikipedia.org/wiki/ACID)<br>
 &ensp;&ensp;[Modularity:](https://en.wikipedia.org/wiki/Modularity)<br>
@@ -125,7 +125,7 @@ An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) includes
 
 ### Computer Abstractions:
 Introduction:<br>
-&ensp;&ensp;As mentioned above "[Your System is a Stack of Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#your-system-is-a-stack-comprised-of-abstract-layers)".<br>
+&ensp;&ensp;As mentioned above "[Your System is a Stack of Abstract Layers](https://github.com/Paul-J-Company/Systems-Design/edit/main/Systems-Design.md#your-system-is-a-stack-comprised-of-abstract-layers)" [[1]](https://miro.medium.com/v2/resize:fit:640/format:webp/1*paMoCSacdb0UFe2zMV7R6w.png).<br>
 &ensp;&ensp;I use the terms Layers and Levels interchangably.<br>
 &ensp;&ensp;In other words, Layers and Levels are synonyms/equivalent.<br>
 &ensp;&ensp;Every layer has it's own [language](https://en.wikipedia.org/wiki/Category:Language)/[vocabulary](https://en.wikipedia.org/wiki/Category:Vocabulary)/[terminology](https://en.wikipedia.org/wiki/Category:Terminology)/[nomenclature](https://en.wikipedia.org/wiki/Nomenclature).<br>
