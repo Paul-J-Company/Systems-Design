@@ -208,6 +208,8 @@ There are 3 Major Types of Computer Abstraction:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Cache:](https://en.wikipedia.org/wiki/Cache_(computing))<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[CNI](https://github.com/containernetworking/cni)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[CSI](https://github.com/container-storage-interface/)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Union Mounts](https://lwn.net/Articles/396020/) [[1]](https://en.wikipedia.org/wiki/Union_mount) [[2]](https://lwn.net/Articles/312641/)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Copy-on-Write (CoW)](https://en.wikipedia.org/wiki/Copy-on-write) [[1]](https://tonylixu.medium.com/linux-filesystems-copy-on-write-cow-bd5aea46dc5d)<br>
 &ensp;&ensp;&ensp;Compute Abstractions:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;OS Abstraction Implements:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Virtual Machines (VMs):](https://en.wikipedia.org/wiki/Virtual_machine)<br>
