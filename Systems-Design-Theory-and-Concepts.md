@@ -170,6 +170,8 @@ There are 3 Major Types of Computer Abstraction:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Application Program Interface (API):](https://en.wikipedia.org/wiki/API)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) remote code invocation (aka., procedure call) appear like it's local code invocation.<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[gRPC](https://en.wikipedia.org/wiki/GRPC)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[eBPF](https://en.wikipedia.org/wiki/eBPF](https://en.wikipedia.org/wiki/EBPF#eBPF_virtual_machine))<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[WebAssembly/WASM](https://en.wikipedia.org/wiki/](https://en.wikipedia.org/wiki/WebAssembly#Virtual_machine))<br>
 
 &ensp;3) [Emulation](https://en.wikipedia.org/wiki/Emulator)/[Simulation](https://en.wikipedia.org/wiki/Computer_simulation)/[Virtualization](https://en.wikipedia.org/wiki/Virtualization) Abstraction:<br>
 &ensp;&ensp;&ensp;**Appears and behaves like one thing, but is actually another.**<br>
@@ -229,12 +231,12 @@ There are 3 Major Types of Computer Abstraction:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Thread:](https://en.wikipedia.org/wiki/Thread_(computing))<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Fiber:](https://en.wikipedia.org/wiki/Fiber_(computer_science))<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Context Switching:](https://en.wikipedia.org/wiki/Context_switch)<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[Driver:](https://en.wikipedia.org/wiki/Driver_(software)), [Device Driver](https://en.wikipedia.org/wiki/Device_driver)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Driver:](https://en.wikipedia.org/wiki/Driver_(software)) [Device Driver](https://en.wikipedia.org/wiki/Device_driver)<br>
 &ensp;&ensp;&ensp;Hardware Implements:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Computer/Processor Instruction:](https://en.wikipedia.org/wiki/Instruction) one operation of a processor within a computer architecture<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Instruction Set Architecture (ISA):](https://en.wikipedia.org/wiki/Category:Instruction_set_architectures)<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[Data](https://en.wikipedia.org/wiki/Data)<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[Hardware Registers:](https://en.wikipedia.org/wiki/Hardware_register), [Processor Register](https://en.wikipedia.org/wiki/Processor_register)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Data](https://en.wikipedia.org/wiki/Data) Just a collection of bits that is interpreted to obtain meaning<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Hardware Registers:](https://en.wikipedia.org/wiki/Hardware_register) [Processor Register](https://en.wikipedia.org/wiki/Processor_register)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[L1/L2/L3 Cache:](https://en.wikipedia.org/wiki/Cache_hierarchy)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Pipelining:](https://en.wikipedia.org/wiki/Pipeline_(computing))<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Application Binary Interface (ABI):](https://en.wikipedia.org/wiki/Application_binary_interface)<br>
