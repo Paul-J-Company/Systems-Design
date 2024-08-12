@@ -19,7 +19,8 @@ WIDE Learning is essential for Leaders who have to make high-level decisions and
 WIDE Learning captures the concepts of [Interdisciplinarity](https://en.wikipedia.org/wiki/Interdisciplinarity) (aka., [Multidisciplinarity, Pluridisciplinarity)](https://en.wikipedia.org/wiki/Interdiscipline) and [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity))<br>
 WIDE Learning enables you to **_Identify correlations among all past shallow knowledge_**.<br>
 The other type of learning is DEEP learning.<br>
-The complement/inverse/opposite of Deep is Shallow, and will be used to demonstrate that Shallow learning enables expertise in a specific field of study.<br>
+The complement/inverse/opposite of Deep is Shallow.<br>
+WIDE and Shallow leaning tells you WHERE to go DEEP, so you always start with WIDE/Shallow Learning.<br>.
 DEEP Learning enables you to **_become and expert in your narrow field of study_**.<br>
 DEEP Learning is essential because coupled with broad learning it allows for the completion of high-level decisions.<br>
 The key takeaway of DEEP Learning is to never loose track of where, how and why the details relate to the BIGPICTURE.<br>
