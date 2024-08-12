@@ -15,9 +15,9 @@ WIDE Learning is finding the correlations, relationships, similarities, differen
 You can think of Wide as the "[BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture)" or the "[Holistic View](https://beyo.global/thinking/what-are-holistic-approaches-and-why-are-companies-using-them)" or the "[Can't See the Forrest Through the Trees](https://www.linkedin.com/pulse/whats-meaning-cant-see-forest-through-trees-jared-jerotz)" [colloquialism](https://en.wikipedia.org/wiki/Colloquialism) [[1]](https://www.quora.com/What-does-it-mean-to-see-the-forest-through-the-trees) [[2]](https://medium.com/collaborative-synchronous-data-visualization/a-tree-is-not-a-forest-why-trees-are-a-perfect-metaphor-for-human-communities-3fb4f74c24cb
 ).<br>
 It's imperitive that you learn the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture) when doing WIDE learning.<br>
+WIDE Learning is essential for Leaders who have to make high-level decisions and see the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture).<br>
 WIDE Learning captures the concepts of [Interdisciplinarity](https://en.wikipedia.org/wiki/Interdisciplinarity) (aka., [Multidisciplinarity, Pluridisciplinarity)](https://en.wikipedia.org/wiki/Interdiscipline) and [Transdisciplinarity](https://en.wikipedia.org/wiki/Transdisciplinarity))<br>
 WIDE Learning enables you to **_Identify correlations among all past shallow knowledge_**.<br>
-WIDE Learning is essential for Leaders who have to make high-level decisions and see the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture).<br>
 The other type of learning is DEEP learning.<br>
 The complement/inverse/opposite of Deep is Shallow, and will be used to demonstrate that Shallow learning enables expertise in a specific field of study.<br>
 DEEP Learning enables you to **_become and expert in your narrow field of study_**.<br>
