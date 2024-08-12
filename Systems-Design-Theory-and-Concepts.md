@@ -35,7 +35,7 @@ WIDE + DEEP Learning is synergistic.<br>
 Good Leaders use WIDE Learning to give direction and create strategy.<br>
 Good Leaders surround themselves with DEEP Learners in order to finetune and optimize their descisions.<br>
 Great Leaders are both Wide and Deep which fosters Wisdom (the ability to make the right descision when everyone or everything is telling you not to).<br>
-The last key takeaway: there is an infinite amount of things to learn in a lifetime, so always be a [Continuous Learner]()!<br>
+The last key takeaway: there is an infinite amount of things to learn in a lifetime, so always be a [Continuous Learner](https://en.wikipedia.org/wiki/Continuous_assessment)!<br>
 Drink from the firehose, you will learn to love it, and it will feed your passions.<br>
 **_Steps for Wide and Deep Learning_:**<br>
 &ensp;&ensp;1) Pick a Topic, Subject Area, Field of Study, or [Problem Domain](https://en.wikipedia.org/wiki/Problem_domain) that you are passionate about.<br>
