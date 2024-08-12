@@ -8,7 +8,7 @@ understanding what intelligence is and how you acheive it through the process of
 There are two types of Learning I will focus on: Wide and Deep.<br>
 The key takeaway of this section is to maximize your learning by balancing both Wide and Deep Learning at all levels of abstraction.<br>
 A synonym for Wide is Broad/Breadth, so they are equivalent and will be used interchangeably.<br>
-A related term for Wide is Shallow, and will be used to demonstrate that shallow learning enables wide learning.<br>
+The complement/inverse/opposite of Deep is Shallow/Narrow, and will be used to demonstrate that shallow learning enables Wide learning.<br>
 When you have limited resources, you must do shallow learning in order to do wide learning.<br>
 WIDE Learning tells you WHERE to go DEEP, so you always start with WIDE Learning.<br>
 WIDE Learning is finding the correlations, relationships, similarities, differences, etc. among all fields of study.<br>
