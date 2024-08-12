@@ -9,7 +9,7 @@ There are two types of Learning I will focus on: Wide and Deep.<br>
 The key takeaway of this section is to maximize your learning by balancing both Wide and Deep Learning at all levels of abstraction.<br>
 A synonym for Wide is Broad/Breadth, so they are equivalent and will be used interchangeably.<br>
 The complement/inverse/opposite of Wide is Narrow, and will be used to demonstrate that Narrow learning enables Wide learning.<br>
-When you have limited resources, you must do shallow learning in order to do wide learning.<br>
+When you have limited resources, you must do Narrow learning in order to do wide learning.<br>
 WIDE Learning tells you WHERE to go DEEP, so you always start with WIDE Learning.<br>
 WIDE Learning is finding the correlations, relationships, similarities, differences, etc. among all fields of study.<br>
 You can think of Wide as the "[BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture)" or the "[Holistic View](https://beyo.global/thinking/what-are-holistic-approaches-and-why-are-companies-using-them)" or the "[Can't See the Forrest Through the Trees](https://www.linkedin.com/pulse/whats-meaning-cant-see-forest-through-trees-jared-jerotz)" [colloquialism](https://en.wikipedia.org/wiki/Colloquialism) [[1]](https://www.quora.com/What-does-it-mean-to-see-the-forest-through-the-trees) [[2]](https://medium.com/collaborative-synchronous-data-visualization/a-tree-is-not-a-forest-why-trees-are-a-perfect-metaphor-for-human-communities-3fb4f74c24cb
