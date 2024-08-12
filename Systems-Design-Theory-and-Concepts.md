@@ -30,7 +30,7 @@ WIDE + DEEP Learning can help you figure out WHY you make the descisions you mak
 **_WIDE AND DEEP Learners_** are [polymaths](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath), [Philomaths](https://en.wikipedia.org/wiki/Philomath) and [Autodidacts](https://dictionary.cambridge.org/us/dictionary/english/autodidact) [[1]](https://en.wikipedia.org/wiki/Autodidacticism) [[2]](https://en.wikipedia.org/wiki/List_of_autodidacts) [[3]](https://en.wikiquote.org/wiki/Autodidacticism).<br>
 WIDE Learners are [Generalists](https://dictionary.cambridge.org/us/dictionary/english/generalist) [[1]](https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none)<br>
 DEEP Learners are [Specialists](https://dictionary.cambridge.org/us/dictionary/english/specialist) [[1]](https://en.wikipedia.org/wiki/Specialization_of_knowledge))<br>
-The Whole is greater than the sum of it's parts: often called [Synergy](https://en.wikipedia.org/wiki/Synergy) or [Emergence](https://en.wikipedia.org/wiki/Emergence). [[1]](https://www.youtube.com/watch?v=bJE6-VTdbjw) [[2]](https://www.youtube.com/watch?v=Tw9sr05Vtso) [[3]](https://www.youtube.com/watch?v=ZcbLSplRwZk) [[4]](https://www.youtube.com/watch?v=16W7c0mb-rE) [[5]](https://www.youtube.com/watch?v=h52eHrAJyu0) [[6]](https://www.youtube.com/watch?v=BY6HoxaVlyk) [[7]](https://pdodds.w3.uvm.edu/teaching/courses/2009-08UVM-300/docs/others/2005/dewolf2005a.pdf) [[8]](https://aip.scitation.org/doi/10.1063/1.1606631) [[9]](https://www.newscientist.com/article/mg25834382-300-emergence-the-mysterious-concept-that-holds-the-key-to-consciousness/)<br>
+The Whole is greater than the sum of it's parts: often called [Synergy](https://en.wikipedia.org/wiki/Synergy) or [Emergence](https://en.wikipedia.org/wiki/Emergence). [[1]](https://www.youtube.com/watch?v=bJE6-VTdbjw) [[2]](https://www.youtube.com/watch?v=Tw9sr05Vtso) [[3]](https://www.youtube.com/watch?v=ZcbLSplRwZk) [[4]](https://www.youtube.com/watch?v=16W7c0mb-rE) [[5]](https://www.youtube.com/watch?v=h52eHrAJyu0) [[6]](https://www.youtube.com/watch?v=BY6HoxaVlyk) [[7]](https://pdodds.w3.uvm.edu/teaching/courses/2009-08UVM-300/docs/others/2005/dewolf2005a.pdf) [[8]](https://aip.scitation.org/doi/10.1063/1.1606631) [[9]](https://www.newscientist.com/article/mg25834382-300-emergence-the-mysterious-concept-that-holds-the-key-to-consciousness/) [[10]](https://www.youtube.com/watch?v=XT1DE4Grbsg)<br>
 WIDE + DEEP Learning is synergistic.<br>
 Good Leaders use WIDE Learning to give direction and create strategy.<br>
 Good Leaders surround themselves with DEEP Learners in order to finetune and optimize their descisions.<br>
@@ -102,8 +102,8 @@ Another view on abstraction is the more abstract something is, the more general/
 In a broader sense, Abstraction [simplifies](https://en.wikipedia.org/wiki/Simplicity) things.<br>
 But remember, simple does not necessarily imply easy.<br>
 An [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer) [[1]](https://miro.medium.com/v2/resize:fit:640/format:webp/1*paMoCSacdb0UFe2zMV7R6w.png) includes the following concepts:<br>
-&ensp;&ensp;[Interface:](https://en.wikipedia.org/wiki/Interface_(computing)) See: ABI, API, HAL; A good rule of thumb is if you see the word Interface, you're probably talking about an abstraction.<br>
-&ensp;&ensp;[Encapsulation:](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) See: [ACID](https://en.wikipedia.org/wiki/ACID)<br>
+&ensp;&ensp;[Interface:](https://en.wikipedia.org/wiki/Interface_(computing)) See: [ABI](https://en.wikipedia.org/wiki/Application_binary_interface), [API](https://en.wikipedia.org/wiki/API), [HAL](https://en.wikipedia.org/wiki/Hardware_abstraction) [[1]](https://en.wikipedia.org/wiki/HAL_(software)); A good rule of thumb is if you see the word Interface, you're probably talking about an abstraction.<br>
+&ensp;&ensp;[Encapsulation:](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))<br>
 &ensp;&ensp;[Modularity:](https://en.wikipedia.org/wiki/Modularity)<br>
 &ensp;&ensp;&ensp;&ensp;[Criteria for Modularization](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf)<br>
 &ensp;&ensp;&ensp;&ensp;[Modular Design](https://en.wikipedia.org/wiki/Modular_design)<br>
@@ -156,8 +156,9 @@ There are 3 Major Types of Computer Abstraction:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[RAID:](https://en.wikipedia.org/wiki/Raid)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Controlled Replication Under Scalable Hashing (CRUSH):](https://ceph.com/assets/pdfs/weil-crush-sc06.pdf)<br>
 &ensp;&ensp;&ensp;Compute Abstractions:<br>
+&ensp;&ensp;&ensp;[ACID:](https://en.wikipedia.org/wiki/ACID) [atomicity](https://en.wikipedia.org/wiki/Atomicity_(database_systems)), [consistency](https://en.wikipedia.org/wiki/Consistency_(database_systems)), [isolation](https://en.wikipedia.org/wiki/Isolation_(database_systems)), [durability](https://en.wikipedia.org/wiki/Durability_(database_systems)); 
 &ensp;&ensp;&ensp;&ensp;&ensp;[Cluster:](https://en.wikipedia.org/wiki/Computer_cluster)<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[Cloud Computing](https://en.wikipedia.org/wiki/Cloud_computing)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Cloud Computing:](https://en.wikipedia.org/wiki/Cloud_computing)<br>
 
 &ensp;2) Local-Remote Abstraction:<br>
 &ensp;&ensp;&ensp;**Appears and behaves like a local resource, but is actually a remote resource.**<br>
