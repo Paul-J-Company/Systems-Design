@@ -8,7 +8,7 @@ understanding what intelligence is and how you acheive it through the process of
 There are two types of Learning I will focus on: Wide and Deep.<br>
 The key takeaway of this section is to maximize your learning by balancing both Wide and Deep Learning at all levels of abstraction.<br>
 A synonym for Wide is Broad/Breadth, so they are equivalent and will be used interchangeably.<br>
-The complement/inverse/opposite of Deep is Shallow/Narrow, and will be used to demonstrate that shallow learning enables Wide learning.<br>
+The complement/inverse/opposite of Wide is Narrow, and will be used to demonstrate that Narrow learning enables Wide learning.<br>
 When you have limited resources, you must do shallow learning in order to do wide learning.<br>
 WIDE Learning tells you WHERE to go DEEP, so you always start with WIDE Learning.<br>
 WIDE Learning is finding the correlations, relationships, similarities, differences, etc. among all fields of study.<br>
@@ -19,7 +19,7 @@ WIDE Learning captures the concepts of [Interdisciplinarity](https://en.wikipedi
 WIDE Learning enables you to **_Identify correlations among all past shallow knowledge_**.<br>
 WIDE Learning is essential for Leaders who have to make high-level decisions and see the [BIGPICTURE](https://dictionary.cambridge.org/us/dictionary/english/big-bigger-picture).<br>
 The other type of learning is DEEP learning.<br>
-A releated term for Deep is Narrow, and will be used to demonstrate that narrow learning enables expertise in a specific field of study.<br>
+The complement/inverse/opposite of Deep is Shallow, and will be used to demonstrate that Shallow learning enables expertise in a specific field of study.<br>
 DEEP Learning enables you to **_become and expert in your narrow field of study_**.<br>
 DEEP Learning is essential because coupled with broad learning it allows for the completion of high-level decisions.<br>
 The key takeaway of DEEP Learning is to never loose track of where, how and why the details relate to the BIGPICTURE.<br>
