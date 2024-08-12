@@ -30,7 +30,7 @@ WIDE + DEEP Learning can help you figure out WHY you make the descisions you mak
 **_WIDE AND DEEP Learners_** are [polymaths](https://dictionary.cambridge.org/us/dictionary/english/polymath) [[1]](https://en.wikipedia.org/wiki/Polymath), [Philomaths](https://en.wikipedia.org/wiki/Philomath) and [Autodidacts](https://dictionary.cambridge.org/us/dictionary/english/autodidact) [[1]](https://en.wikipedia.org/wiki/Autodidacticism) [[2]](https://en.wikipedia.org/wiki/List_of_autodidacts) [[3]](https://en.wikiquote.org/wiki/Autodidacticism).<br>
 WIDE Learners are [Generalists](https://dictionary.cambridge.org/us/dictionary/english/generalist) [[1]](https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none)<br>
 DEEP Learners are [Specialists](https://dictionary.cambridge.org/us/dictionary/english/specialist) [[1]](https://en.wikipedia.org/wiki/Specialization_of_knowledge))<br>
-The Whole is greater than the sum of it's parts: often called [Synergy](https://en.wikipedia.org/wiki/Synergy) or [Emergence](https://en.wikipedia.org/wiki/Emergence). [[1]](https://www.youtube.com/watch?v=bJE6-VTdbjw) [[2]](https://www.youtube.com/watch?v=Tw9sr05Vtso) [[3]](https://www.youtube.com/watch?v=ZcbLSplRwZk) [[4]](https://www.youtube.com/watch?v=16W7c0mb-rE) [[5]](https://www.youtube.com/watch?v=h52eHrAJyu0) [[6]](https://www.youtube.com/watch?v=BY6HoxaVlyk) [[7]](https://pdodds.w3.uvm.edu/teaching/courses/2009-08UVM-300/docs/others/2005/dewolf2005a.pdf) [[8]](https://aip.scitation.org/doi/10.1063/1.1606631) [[9]](https://www.newscientist.com/article/mg25834382-300-emergence-the-mysterious-concept-that-holds-the-key-to-consciousness/) [[10]](https://www.youtube.com/watch?v=XT1DE4Grbsg)<br>
+The Whole is greater than the sum of it's parts: often called [Synergy](https://en.wikipedia.org/wiki/Synergy) or [Emergence](https://en.wikipedia.org/wiki/Emergence). [[1]](https://www.youtube.com/watch?v=bJE6-VTdbjw) [[2]](https://www.youtube.com/watch?v=Tw9sr05Vtso) [[3]](https://www.youtube.com/watch?v=ZcbLSplRwZk) [[4]](https://www.youtube.com/watch?v=16W7c0mb-rE) [[5]](https://www.youtube.com/watch?v=h52eHrAJyu0) [[6]](https://www.youtube.com/watch?v=BY6HoxaVlyk) [[7]](https://pdodds.w3.uvm.edu/teaching/courses/2009-08UVM-300/docs/others/2005/dewolf2005a.pdf) [[8]](https://aip.scitation.org/doi/10.1063/1.1606631) [[9]](https://www.newscientist.com/article/mg25834382-300-emergence-the-mysterious-concept-that-holds-the-key-to-consciousness/) [[10]](https://www.youtube.com/watch?v=XT1DE4Grbsg) [[11]](https://www.youtube.com/watch?v=o_ZuWbX-CyE) [[12]](https://www.youtube.com/watch?v=1fE3rfEkmFQ&list=PLsJWgOB5mIMCioGvIz81PXXa22DZfRcsn)<br>
 WIDE + DEEP Learning is synergistic.<br>
 Good Leaders use WIDE Learning to give direction and create strategy.<br>
 Good Leaders surround themselves with DEEP Learners in order to finetune and optimize their descisions.<br>
@@ -140,30 +140,30 @@ Introduction:<br>
 &ensp;&ensp;John Ousterhout's answer to this question was: "[Problem Decomposition](https://www.youtube.com/watch?v=lgZ7Cxt5uIU#t=00h03m56s)".<br>
 
 There are 3 Major Types of Computer Abstraction:<br>
-&ensp;1) One-to-Many Abstraction:<br>
+&ensp;1) One-to-Many & Many-to-One Abstractions:<br>
 &ensp;&ensp;&ensp;**Appears and behaves like one thing, but is actually many things.**<br>
 &ensp;&ensp;&ensp;Network Abstractions:<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[Load Balancer:](https://en.wikipedia.org/wiki/Load_balancing_(computing)) hardware-based and software-based<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Load Balancer:](https://en.wikipedia.org/wiki/Load_balancing_(computing)) hardware-based and software-based; One IP Address landing on Many backend Servers<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[API Gateway:](https://en.wikipedia.org/wiki/API_management#Gateway)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[1-to-Many NAT/PAT:](https://en.wikipedia.org/wiki/Network_address_translation#One-to-many_NAT)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Forward Proxy:](https://en.wikipedia.org/wiki/Proxy_server#Forward_proxies)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Reverse Proxy:](https://en.wikipedia.org/wiki/Reverse_proxy)<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[HSRP](https://en.wikipedia.org/wiki/Hot_Standby_Router_Protocol)/[VRRP](https://en.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol)/[CARP:](https://en.wikipedia.org/wiki/Common_Address_Redundancy_Protocol)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[HSRP](https://en.wikipedia.org/wiki/Hot_Standby_Router_Protocol)/[VRRP](https://en.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol)/[CARP:](https://en.wikipedia.org/wiki/Common_Address_Redundancy_Protocol) One IP Address landing on Many backend Servers, but sticks to one at a time<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Keepalived](https://www.keepalived.org/)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Link Aggregation Group (LAG)](https://en.wikipedia.org/wiki/Link_aggregation)/[Link Aggregation Control Protocol (LACP):](https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol) aka., NIC Bonding/Teaming/Trunking/Bundling/Channeling<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[Multi-Chassis Link Aggregation Group (MLAG):](https://en.wikipedia.org/wiki/Multi-chassis_link_aggregation_group)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Multi-Chassis Link Aggregation Group (MLAG):](https://en.wikipedia.org/wiki/Multi-chassis_link_aggregation_group) Many Network Links acting like One Network Link<br>
 &ensp;&ensp;&ensp;Storeage Abstractions:<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[RAID:](https://en.wikipedia.org/wiki/Raid)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[RAID:](https://en.wikipedia.org/wiki/Raid) Many Disks acting as One Disk<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Controlled Replication Under Scalable Hashing (CRUSH):](https://ceph.com/assets/pdfs/weil-crush-sc06.pdf)<br>
 &ensp;&ensp;&ensp;Compute Abstractions:<br>
-&ensp;&ensp;&ensp;[ACID:](https://en.wikipedia.org/wiki/ACID) [atomicity](https://en.wikipedia.org/wiki/Atomicity_(database_systems)), [consistency](https://en.wikipedia.org/wiki/Consistency_(database_systems)), [isolation](https://en.wikipedia.org/wiki/Isolation_(database_systems)), [durability](https://en.wikipedia.org/wiki/Durability_(database_systems)); 
-&ensp;&ensp;&ensp;&ensp;&ensp;[Cluster:](https://en.wikipedia.org/wiki/Computer_cluster)<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[Cloud Computing:](https://en.wikipedia.org/wiki/Cloud_computing)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[ACID:](https://en.wikipedia.org/wiki/ACID) [atomicity](https://en.wikipedia.org/wiki/Atomicity_(database_systems)), [consistency](https://en.wikipedia.org/wiki/Consistency_(database_systems)), [isolation](https://en.wikipedia.org/wiki/Isolation_(database_systems)), [durability](https://en.wikipedia.org/wiki/Durability_(database_systems)); Many Operations acting as One Operation<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Cluster:](https://en.wikipedia.org/wiki/Computer_cluster) Many Servers acting like One Monolithic Server<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Cloud Computing:](https://en.wikipedia.org/wiki/Cloud_computing) Many Servers across Many Data Centers acting like One Service<br>
 
 &ensp;2) Local-Remote Abstraction:<br>
 &ensp;&ensp;&ensp;**Appears and behaves like a local resource, but is actually a remote resource.**<br>
 &ensp;&ensp;&ensp;Storage Abstractions:<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[Clusterd Filesystems:](https://en.wikipedia.org/wiki/Clustered_file_system) aka., Distributed Filesystems<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Clusterd Filesystems:](https://en.wikipedia.org/wiki/Clustered_file_system) includes: [Distributed Filesystems](https://en.wikipedia.org/wiki/Clustered_file_system#DISTRIBUTED-FS)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Network File System (NFS):](https://en.wikipedia.org/wiki/Network_File_System)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Samba](https://en.wikipedia.org/wiki/Samba)/[SMB/CIFS:](https://en.wikipedia.org/wiki/Server_Message_Block)<br>
 &ensp;&ensp;&ensp;&ensp;Compute Abstractions:<br>
@@ -219,9 +219,9 @@ There are 3 Major Types of Computer Abstraction:<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[Type-1 Hypervisor:](https://en.wikipedia.org/wiki/Hypervisor#Classification) aka , VMM<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[Type-2 Hypervisor:](https://en.wikipedia.org/wiki/Hypervisor#Classification)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[GuestOS:](https://www.techtarget.com/searchitoperations/definition/guest-OS-guest-operating-system) runs inside Type-1,2 Hypervisors<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[Containers:](https://en.wikipedia.org/wiki/Containerization_(computing))<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Containers:](https://en.wikipedia.org/wiki/Containerization_(computing)) Encapsulated Application/Workload allowing isolation and free movement across Platform; Think Kubernetes<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[List of Command Line Interpreters](https://en.wikipedia.org/wiki/List_of_command-line_interpreters), [Shell](https://en.wikipedia.org/wiki/Shell_(computing)), [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell), [Terminal Emulator](https://en.wikipedia.org/wiki/Terminal_emulator) aka., Console. Terminal<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;[Application:](https://en.wikipedia.org/wiki/Application_software) aka., [Computer Program](https://en.wikipedia.org/wiki/Computer_program)<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;[Application:](https://en.wikipedia.org/wiki/Application_software) aka., [Computer Program](https://en.wikipedia.org/wiki/Computer_program), [Script](https://en.wikipedia.org/wiki/Scripting_language)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Procedure/Subroutine/Function:](https://en.wikipedia.org/wiki/Function_(computer_programming))<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Job](https://en.wikipedia.org/wiki/Job_(computing))/[Unix Job](https://en.wikipedia.org/wiki/Job_control_(Unix))/[Batch Job](https://en.wikipedia.org/wiki/Batch_processing)<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;[Task:](https://en.wikipedia.org/wiki/Task_(computing))<br>
