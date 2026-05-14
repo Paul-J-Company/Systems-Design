@@ -1,12 +1,12 @@
 
 ## System Designs AI
-I recommend viewing the corresponding [YouTube Playlist]() for this page.<br>
-You can also jump down to the end of this page to review the [Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-AI.md#additional-resources) section.<br>
+<!-- I recommend viewing the corresponding [YouTube Playlist]() for this page.<br>-->
+You can jump down to the end of this page to review the [Additional Resources](https://github.com/Paul-J-Company/Systems-Design/blob/main/Systems-Design-AI.md#additional-resources) section.<br>
 
 ### AI and Platform Engineering
 AI, especially LLMs, are designed to take in an enormous amount<br>
 of data and "learn" from it to achieve better than human results.<br>
-LLMs like ChatGPT4, Llama2, PaLM2, DALL-E3, Dolly2, and Diffusion Models<br>
+Frontier LLMs like OpenAI ChatGPT, Google Gemini, Anthropic Claude, Meta Llama, and Diffusion Models<br>
 can outperform humans in tasks like Object Recognition, Analyzing X-Rays,<br>
 writing boilerplate code, and other "creative" tasks like Drawing Images.<br>
 LLMs learn to focus on the data that matters and filters out the noise.<br>
